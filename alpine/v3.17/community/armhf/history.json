@@ -143,7 +143,8 @@
     "proftpd-mod_wrap2_sql": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -5399,7 +5400,8 @@
     "proftpd-mod_exec": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -8287,7 +8289,8 @@
     "proftpd-mod_auth_otp": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -18277,7 +18280,8 @@
     "proftpd-mod_dynmasq": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -20229,7 +20233,8 @@
     "proftpd-mod_quotatab_ldap": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -23733,7 +23738,8 @@
     "proftpd": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "/bin/sh",
@@ -23743,8 +23749,8 @@
         "so:libpcreposix.so.0"
       ],
       "provides": [
-        "cmd:auth-otp=1.3.7f-r1",
-        "cmd:proftpd=1.3.7f-r1"
+        "cmd:auth-otp=1.3.8a-r0",
+        "cmd:proftpd=1.3.8a-r0"
       ]
     },
     "fltk-dev": {
@@ -29918,7 +29924,8 @@
     "proftpd-mod_radius": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -32051,7 +32058,8 @@
     "proftpd-mod_wrap2_redis": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -33214,7 +33222,8 @@
     "proftpd-mod_deflate": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -44512,7 +44521,8 @@
     "proftpd-openrc": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       }
     },
     "xfce4-skel": {
@@ -45347,7 +45357,8 @@
     "proftpd-mod_unique_id": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -48287,7 +48298,8 @@
     "proftpd-mod_redis": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -49724,7 +49736,8 @@
     "proftpd-mod_memcache": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -50136,7 +50149,8 @@
     "proftpd-mod_ldap": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -50954,7 +50968,8 @@
     "proftpd-mod_sql": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -54056,7 +54071,8 @@
     "proftpd-mod_wrap2_file": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -61734,7 +61750,8 @@
     "proftpd-mod_ratio": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -62900,7 +62917,8 @@
     "proftpd-mod_sql_postgres": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -65875,7 +65893,8 @@
     "proftpd-mod_sftp_sql": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -66357,7 +66376,8 @@
     "proftpd-mod_load": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -68758,7 +68778,8 @@
     "proftpd-mod_geoip": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -68788,7 +68809,8 @@
     "proftpd-mod_tls_shmcache": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -69342,7 +69364,8 @@
     "proftpd-mod_quotatab_sql": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -70093,7 +70116,8 @@
     "proftpd-mod_facl": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -72906,7 +72930,8 @@
     "proftpd-mod_snmp": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -77532,7 +77557,8 @@
     "proftpd-mod_quotatab_radius": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -78370,7 +78396,8 @@
     "proftpd-mod_quotatab_file": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -85837,7 +85864,8 @@
     "proftpd-utils": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -85845,16 +85873,16 @@
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:ftpasswd=1.3.7f-r1",
-        "cmd:ftpcount=1.3.7f-r1",
-        "cmd:ftpdctl=1.3.7f-r1",
-        "cmd:ftpmail=1.3.7f-r1",
-        "cmd:ftpquota=1.3.7f-r1",
-        "cmd:ftpscrub=1.3.7f-r1",
-        "cmd:ftpshut=1.3.7f-r1",
-        "cmd:ftptop=1.3.7f-r1",
-        "cmd:ftpwho=1.3.7f-r1",
-        "cmd:prxs=1.3.7f-r1"
+        "cmd:ftpasswd=1.3.8a-r0",
+        "cmd:ftpcount=1.3.8a-r0",
+        "cmd:ftpdctl=1.3.8a-r0",
+        "cmd:ftpmail=1.3.8a-r0",
+        "cmd:ftpquota=1.3.8a-r0",
+        "cmd:ftpscrub=1.3.8a-r0",
+        "cmd:ftpshut=1.3.8a-r0",
+        "cmd:ftptop=1.3.8a-r0",
+        "cmd:ftpwho=1.3.8a-r0",
+        "cmd:prxs=1.3.8a-r0"
       ]
     },
     "networkmanager-dev": {
@@ -86711,7 +86739,8 @@
     "proftpd-mod_tls_redis": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -87042,7 +87071,8 @@
     "proftpd-mod_tls": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -93326,7 +93356,8 @@
     "proftpd-mod_rewrite": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -94595,7 +94626,8 @@
     "proftpd-mod_sql_mysql": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -96298,7 +96330,8 @@
     "proftpd-mod_wrap2": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -98463,7 +98496,8 @@
     "proftpd-mod_shaper": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -99976,7 +100010,8 @@
     "proftpd-mod_ctrls_admin": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -100126,7 +100161,8 @@
     "proftpd-mod_site_misc": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -103655,7 +103691,8 @@
     "proftpd-mod_ifversion": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -114458,7 +114495,8 @@
     "proftpd-mod_sftp": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -116230,7 +116268,8 @@
     "proftpd-mod_ifsession": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -117571,7 +117610,8 @@
     "proftpd-mod_quotatab": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -118667,7 +118707,8 @@
     "proftpd-mod_tls_memcache": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -119253,7 +119294,8 @@
     "proftpd-mod_sql_sqlite": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -128447,7 +128489,8 @@
     "proftpd-mod_ban": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -131104,7 +131147,8 @@
     "proftpd-doc": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       }
     },
     "vte3": {
@@ -134382,7 +134426,8 @@
     "proftpd-mod_readme": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -134433,7 +134478,8 @@
     "proftpd-mod_sql_passwd": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -137718,7 +137764,8 @@
     "proftpd-mod_sql_odbc": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
@@ -138064,7 +138111,8 @@
     "proftpd-mod_copy": {
       "origin": "proftpd",
       "versions": {
-        "1.3.7f-r1": 1670223987
+        "1.3.7f-r1": 1670223987,
+        "1.3.8a-r0": 1696830011
       },
       "dependencies": [
         "proftpd",
