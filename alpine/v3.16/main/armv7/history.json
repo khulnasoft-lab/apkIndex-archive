@@ -258,17 +258,18 @@
     "openssl": {
       "origin": "openssl",
       "versions": {
-        "1.1.1v-r0": 1691129292
+        "1.1.1v-r0": 1691129292,
+        "1.1.1w-r0": 1695254872
       },
       "dependencies": [
-        "libssl1.1=1.1.1v-r0",
-        "libcrypto1.1=1.1.1v-r0",
+        "libssl1.1=1.1.1w-r0",
+        "libcrypto1.1=1.1.1w-r0",
         "so:libc.musl-armv7.so.1",
         "so:libcrypto.so.1.1",
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:openssl=1.1.1v-r0"
+        "cmd:openssl=1.1.1w-r0"
       ]
     },
     "bash-dev": {
@@ -747,7 +748,8 @@
     "bind-libs": {
       "origin": "bind",
       "versions": {
-        "9.16.42-r0": 1687383865
+        "9.16.42-r0": 1687383865,
+        "9.16.44-r0": 1695391510
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -763,13 +765,13 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libbind9-9.16.42.so=0",
-        "so:libdns-9.16.42.so=0",
-        "so:libirs-9.16.42.so=0",
-        "so:libisc-9.16.42.so=0",
-        "so:libisccc-9.16.42.so=0",
-        "so:libisccfg-9.16.42.so=0",
-        "so:libns-9.16.42.so=0"
+        "so:libbind9-9.16.44.so=0",
+        "so:libdns-9.16.44.so=0",
+        "so:libirs-9.16.44.so=0",
+        "so:libisc-9.16.44.so=0",
+        "so:libisccc-9.16.44.so=0",
+        "so:libisccfg-9.16.44.so=0",
+        "so:libns-9.16.44.so=0"
       ]
     },
     "glib-static": {
@@ -1663,10 +1665,11 @@
     "xtables-addons-lts": {
       "origin": "xtables-addons-lts",
       "versions": {
-        "5.15.131-r0": 1694425615
+        "5.15.131-r0": 1694425615,
+        "5.15.134-r0": 1696607821
       },
       "dependencies": [
-        "linux-lts=5.15.131-r0"
+        "linux-lts=5.15.134-r0"
       ]
     },
     "meson-zsh-completion": {
@@ -3735,7 +3738,8 @@
     "linux-lts": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.131-r0": 1694425439
+        "5.15.131-r0": 1694425439,
+        "5.15.134-r0": 1696607820
       },
       "dependencies": [
         "mkinitfs>=3.6.0",
@@ -4309,17 +4313,18 @@
     "openssl3-dev": {
       "origin": "openssl3",
       "versions": {
-        "3.0.9-r2": 1689795461
+        "3.0.9-r2": 1689795461,
+        "3.0.11-r0": 1695257058
       },
       "dependencies": [
-        "libcrypto3=3.0.9-r2",
-        "libssl3=3.0.9-r2",
+        "libcrypto3=3.0.11-r0",
+        "libssl3=3.0.11-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:openssl3:pc:libcrypto=3.0.9",
-        "pc:openssl3:pc:libssl=3.0.9",
-        "pc:openssl3:pc:openssl=3.0.9"
+        "pc:openssl3:pc:libcrypto=3.0.11",
+        "pc:openssl3:pc:libssl=3.0.11",
+        "pc:openssl3:pc:openssl=3.0.11"
       ]
     },
     "libpciaccess-static": {
@@ -5033,7 +5038,8 @@
     "mbedtls-utils": {
       "origin": "mbedtls",
       "versions": {
-        "2.28.4-r0": 1691094107
+        "2.28.4-r0": 1691094107,
+        "2.28.5-r0": 1696603356
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -5042,60 +5048,60 @@
         "so:libmbedx509.so.1"
       ],
       "provides": [
-        "cmd:benchmark=2.28.4-r0",
-        "cmd:cert_app=2.28.4-r0",
-        "cmd:cert_req=2.28.4-r0",
-        "cmd:cert_write=2.28.4-r0",
-        "cmd:crl_app=2.28.4-r0",
-        "cmd:crypt_and_hash=2.28.4-r0",
-        "cmd:crypto_examples=2.28.4-r0",
-        "cmd:dh_client=2.28.4-r0",
-        "cmd:dh_genprime=2.28.4-r0",
-        "cmd:dh_server=2.28.4-r0",
-        "cmd:dtls_client=2.28.4-r0",
-        "cmd:dtls_server=2.28.4-r0",
-        "cmd:ecdh_curve25519=2.28.4-r0",
-        "cmd:ecdsa=2.28.4-r0",
-        "cmd:gen_entropy=2.28.4-r0",
-        "cmd:gen_key=2.28.4-r0",
-        "cmd:gen_random_ctr_drbg=2.28.4-r0",
-        "cmd:gen_random_havege=2.28.4-r0",
-        "cmd:generic_sum=2.28.4-r0",
-        "cmd:hello=2.28.4-r0",
-        "cmd:key_app=2.28.4-r0",
-        "cmd:key_app_writer=2.28.4-r0",
-        "cmd:key_ladder_demo.sh=2.28.4-r0",
-        "cmd:key_ladder_demo=2.28.4-r0",
-        "cmd:load_roots=2.28.4-r0",
-        "cmd:mini_client=2.28.4-r0",
-        "cmd:mpi_demo=2.28.4-r0",
-        "cmd:pem2der=2.28.4-r0",
-        "cmd:pk_decrypt=2.28.4-r0",
-        "cmd:pk_encrypt=2.28.4-r0",
-        "cmd:pk_sign=2.28.4-r0",
-        "cmd:pk_verify=2.28.4-r0",
-        "cmd:psa_constant_names=2.28.4-r0",
-        "cmd:query_compile_time_config=2.28.4-r0",
-        "cmd:req_app=2.28.4-r0",
-        "cmd:rsa_decrypt=2.28.4-r0",
-        "cmd:rsa_encrypt=2.28.4-r0",
-        "cmd:rsa_genkey=2.28.4-r0",
-        "cmd:rsa_sign=2.28.4-r0",
-        "cmd:rsa_sign_pss=2.28.4-r0",
-        "cmd:rsa_verify=2.28.4-r0",
-        "cmd:rsa_verify_pss=2.28.4-r0",
-        "cmd:selftest=2.28.4-r0",
-        "cmd:ssl_client1=2.28.4-r0",
-        "cmd:ssl_client2=2.28.4-r0",
-        "cmd:ssl_context_info=2.28.4-r0",
-        "cmd:ssl_fork_server=2.28.4-r0",
-        "cmd:ssl_mail_client=2.28.4-r0",
-        "cmd:ssl_pthread_server=2.28.4-r0",
-        "cmd:ssl_server2=2.28.4-r0",
-        "cmd:ssl_server=2.28.4-r0",
-        "cmd:strerror=2.28.4-r0",
-        "cmd:udp_proxy=2.28.4-r0",
-        "cmd:zeroize=2.28.4-r0"
+        "cmd:benchmark=2.28.5-r0",
+        "cmd:cert_app=2.28.5-r0",
+        "cmd:cert_req=2.28.5-r0",
+        "cmd:cert_write=2.28.5-r0",
+        "cmd:crl_app=2.28.5-r0",
+        "cmd:crypt_and_hash=2.28.5-r0",
+        "cmd:crypto_examples=2.28.5-r0",
+        "cmd:dh_client=2.28.5-r0",
+        "cmd:dh_genprime=2.28.5-r0",
+        "cmd:dh_server=2.28.5-r0",
+        "cmd:dtls_client=2.28.5-r0",
+        "cmd:dtls_server=2.28.5-r0",
+        "cmd:ecdh_curve25519=2.28.5-r0",
+        "cmd:ecdsa=2.28.5-r0",
+        "cmd:gen_entropy=2.28.5-r0",
+        "cmd:gen_key=2.28.5-r0",
+        "cmd:gen_random_ctr_drbg=2.28.5-r0",
+        "cmd:gen_random_havege=2.28.5-r0",
+        "cmd:generic_sum=2.28.5-r0",
+        "cmd:hello=2.28.5-r0",
+        "cmd:key_app=2.28.5-r0",
+        "cmd:key_app_writer=2.28.5-r0",
+        "cmd:key_ladder_demo.sh=2.28.5-r0",
+        "cmd:key_ladder_demo=2.28.5-r0",
+        "cmd:load_roots=2.28.5-r0",
+        "cmd:mini_client=2.28.5-r0",
+        "cmd:mpi_demo=2.28.5-r0",
+        "cmd:pem2der=2.28.5-r0",
+        "cmd:pk_decrypt=2.28.5-r0",
+        "cmd:pk_encrypt=2.28.5-r0",
+        "cmd:pk_sign=2.28.5-r0",
+        "cmd:pk_verify=2.28.5-r0",
+        "cmd:psa_constant_names=2.28.5-r0",
+        "cmd:query_compile_time_config=2.28.5-r0",
+        "cmd:req_app=2.28.5-r0",
+        "cmd:rsa_decrypt=2.28.5-r0",
+        "cmd:rsa_encrypt=2.28.5-r0",
+        "cmd:rsa_genkey=2.28.5-r0",
+        "cmd:rsa_sign=2.28.5-r0",
+        "cmd:rsa_sign_pss=2.28.5-r0",
+        "cmd:rsa_verify=2.28.5-r0",
+        "cmd:rsa_verify_pss=2.28.5-r0",
+        "cmd:selftest=2.28.5-r0",
+        "cmd:ssl_client1=2.28.5-r0",
+        "cmd:ssl_client2=2.28.5-r0",
+        "cmd:ssl_context_info=2.28.5-r0",
+        "cmd:ssl_fork_server=2.28.5-r0",
+        "cmd:ssl_mail_client=2.28.5-r0",
+        "cmd:ssl_pthread_server=2.28.5-r0",
+        "cmd:ssl_server2=2.28.5-r0",
+        "cmd:ssl_server=2.28.5-r0",
+        "cmd:strerror=2.28.5-r0",
+        "cmd:udp_proxy=2.28.5-r0",
+        "cmd:zeroize=2.28.5-r0"
       ]
     },
     "libice-doc": {
@@ -6618,34 +6624,35 @@
     "bind": {
       "origin": "bind",
       "versions": {
-        "9.16.42-r0": 1687383865
+        "9.16.42-r0": 1687383865,
+        "9.16.44-r0": 1695391510
       },
       "dependencies": [
         "dns-root-hints",
         "bind-tools",
         "/bin/sh",
-        "bind-dnssec-root=9.16.42-r0",
-        "so:libbind9-9.16.42.so",
+        "bind-dnssec-root=9.16.44-r0",
+        "so:libbind9-9.16.44.so",
         "so:libc.musl-armv7.so.1",
         "so:libcap.so.2",
         "so:libcrypto.so.1.1",
-        "so:libdns-9.16.42.so",
+        "so:libdns-9.16.44.so",
         "so:libfstrm.so.0",
-        "so:libisc-9.16.42.so",
-        "so:libisccc-9.16.42.so",
-        "so:libisccfg-9.16.42.so",
+        "so:libisc-9.16.44.so",
+        "so:libisccc-9.16.44.so",
+        "so:libisccfg-9.16.44.so",
         "so:libjson-c.so.5",
         "so:libldap.so.2",
-        "so:libns-9.16.42.so",
+        "so:libns-9.16.44.so",
         "so:libprotobuf-c.so.1",
         "so:libuv.so.1",
         "so:libxml2.so.2",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:named-checkconf=9.16.42-r0",
-        "cmd:named=9.16.42-r0",
-        "cmd:rndc=9.16.42-r0"
+        "cmd:named-checkconf=9.16.44-r0",
+        "cmd:named=9.16.44-r0",
+        "cmd:rndc=9.16.44-r0"
       ]
     },
     "libxrender-dev": {
@@ -8841,7 +8848,8 @@
     "openssl3-dbg": {
       "origin": "openssl3",
       "versions": {
-        "3.0.9-r2": 1689795461
+        "3.0.9-r2": 1689795461,
+        "3.0.11-r0": 1695257058
       }
     },
     "dialog-doc": {
@@ -11263,35 +11271,36 @@
     "bind-tools": {
       "origin": "bind",
       "versions": {
-        "9.16.42-r0": 1687383865
+        "9.16.42-r0": 1687383865,
+        "9.16.44-r0": 1695391510
       },
       "dependencies": [
-        "so:libbind9-9.16.42.so",
+        "so:libbind9-9.16.44.so",
         "so:libc.musl-armv7.so.1",
-        "so:libdns-9.16.42.so",
-        "so:libirs-9.16.42.so",
-        "so:libisc-9.16.42.so",
-        "so:libisccfg-9.16.42.so",
+        "so:libdns-9.16.44.so",
+        "so:libirs-9.16.44.so",
+        "so:libisc-9.16.44.so",
+        "so:libisccfg-9.16.44.so",
         "so:libkrb5.so.3",
-        "so:libns-9.16.42.so",
+        "so:libns-9.16.44.so",
         "so:libprotobuf-c.so.1"
       ],
       "provides": [
-        "cmd:arpaname=9.16.42-r0",
-        "cmd:ddns-confgen=9.16.42-r0",
-        "cmd:delv=9.16.42-r0",
-        "cmd:dig=9.16.42-r0",
-        "cmd:dnstap-read=9.16.42-r0",
-        "cmd:host=9.16.42-r0",
-        "cmd:mdig=9.16.42-r0",
-        "cmd:named-checkzone=9.16.42-r0",
-        "cmd:named-compilezone=9.16.42-r0",
-        "cmd:named-journalprint=9.16.42-r0",
-        "cmd:named-rrchecker=9.16.42-r0",
-        "cmd:nslookup=9.16.42-r0",
-        "cmd:nsupdate=9.16.42-r0",
-        "cmd:rndc-confgen=9.16.42-r0",
-        "cmd:tsig-keygen=9.16.42-r0"
+        "cmd:arpaname=9.16.44-r0",
+        "cmd:ddns-confgen=9.16.44-r0",
+        "cmd:delv=9.16.44-r0",
+        "cmd:dig=9.16.44-r0",
+        "cmd:dnstap-read=9.16.44-r0",
+        "cmd:host=9.16.44-r0",
+        "cmd:mdig=9.16.44-r0",
+        "cmd:named-checkzone=9.16.44-r0",
+        "cmd:named-compilezone=9.16.44-r0",
+        "cmd:named-journalprint=9.16.44-r0",
+        "cmd:named-rrchecker=9.16.44-r0",
+        "cmd:nslookup=9.16.44-r0",
+        "cmd:nsupdate=9.16.44-r0",
+        "cmd:rndc-confgen=9.16.44-r0",
+        "cmd:tsig-keygen=9.16.44-r0"
       ]
     },
     "asterisk-dahdi": {
@@ -11549,7 +11558,8 @@
     "xen-libs": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r0": 1691790768
+        "4.16.5-r0": 1691790768,
+        "4.16.5-r2": 1695886865
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -12210,7 +12220,8 @@
     "openssl3-doc": {
       "origin": "openssl3",
       "versions": {
-        "3.0.9-r2": 1689795461
+        "3.0.9-r2": 1689795461,
+        "3.0.11-r0": 1695257058
       }
     },
     "lua5.1-cqueues": {
@@ -13296,15 +13307,16 @@
     "mbedtls": {
       "origin": "mbedtls",
       "versions": {
-        "2.28.4-r0": 1691094107
+        "2.28.4-r0": 1691094107,
+        "2.28.5-r0": 1696603356
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "so:libmbedcrypto.so.7=2.28.4",
-        "so:libmbedtls.so.14=2.28.4",
-        "so:libmbedx509.so.1=2.28.4"
+        "so:libmbedcrypto.so.7=2.28.5",
+        "so:libmbedtls.so.14=2.28.5",
+        "so:libmbedx509.so.1=2.28.5"
       ]
     },
     "avahi-ui-gtk3": {
@@ -19107,7 +19119,8 @@
     "bind-dnssec-root": {
       "origin": "bind",
       "versions": {
-        "9.16.42-r0": 1687383865
+        "9.16.42-r0": 1687383865,
+        "9.16.44-r0": 1695391510
       }
     },
     "sgdisk": {
@@ -19219,7 +19232,8 @@
     "xen-hypervisor": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r0": 1691790768
+        "4.16.5-r0": 1691790768,
+        "4.16.5-r2": 1695886865
       }
     },
     "perl-unix-syslog-doc": {
@@ -19542,10 +19556,11 @@
     "openssl-libs-static": {
       "origin": "openssl",
       "versions": {
-        "1.1.1v-r0": 1691129292
+        "1.1.1v-r0": 1691129292,
+        "1.1.1w-r0": 1695254872
       },
       "provides": [
-        "openssl1.1-compat-libs-static=1.1.1v-r0"
+        "openssl1.1-compat-libs-static=1.1.1w-r0"
       ]
     },
     "libshout-dev": {
@@ -20403,13 +20418,14 @@
     "bind-dev": {
       "origin": "bind",
       "versions": {
-        "9.16.42-r0": 1687383865
+        "9.16.42-r0": 1687383865,
+        "9.16.44-r0": 1695391510
       },
       "dependencies": [
         "bind",
         "bind-plugins",
         "bind-tools",
-        "bind-libs=9.16.42-r0"
+        "bind-libs=9.16.44-r0"
       ]
     },
     "perl-mro-compat": {
@@ -22503,7 +22519,8 @@
     "curl-zsh-completion": {
       "origin": "curl",
       "versions": {
-        "8.2.1-r0": 1690353628
+        "8.2.1-r0": 1690353628,
+        "8.3.0-r0": 1695367666
       }
     },
     "xtables-addons": {
@@ -23284,7 +23301,8 @@
     "bind-doc": {
       "origin": "bind",
       "versions": {
-        "9.16.42-r0": 1687383865
+        "9.16.42-r0": 1687383865,
+        "9.16.44-r0": 1695391510
       }
     },
     "perl-sub-uplevel": {
@@ -25010,7 +25028,8 @@
     "libcurl": {
       "origin": "curl",
       "versions": {
-        "8.2.1-r0": 1690353628
+        "8.2.1-r0": 1690353628,
+        "8.3.0-r0": 1695367666
       },
       "dependencies": [
         "ca-certificates",
@@ -25283,18 +25302,19 @@
     "openssl-dev": {
       "origin": "openssl",
       "versions": {
-        "1.1.1v-r0": 1691129292
+        "1.1.1v-r0": 1691129292,
+        "1.1.1w-r0": 1695254872
       },
       "dependencies": [
-        "libcrypto1.1=1.1.1v-r0",
-        "libssl1.1=1.1.1v-r0",
+        "libcrypto1.1=1.1.1w-r0",
+        "libssl1.1=1.1.1w-r0",
         "pkgconfig"
       ],
       "provides": [
-        "openssl1.1-compat-dev=1.1.1v-r0",
-        "pc:libcrypto=1.1.1v",
-        "pc:libssl=1.1.1v",
-        "pc:openssl=1.1.1v"
+        "openssl1.1-compat-dev=1.1.1w-r0",
+        "pc:libcrypto=1.1.1w",
+        "pc:libssl=1.1.1w",
+        "pc:openssl=1.1.1w"
       ]
     },
     "lua5.1-lyaml": {
@@ -25722,7 +25742,8 @@
     "libssl3": {
       "origin": "openssl3",
       "versions": {
-        "3.0.9-r2": 1689795461
+        "3.0.9-r2": 1689795461,
+        "3.0.11-r0": 1695257058
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -26336,7 +26357,8 @@
     "libssl1.1": {
       "origin": "openssl",
       "versions": {
-        "1.1.1v-r0": 1691129292
+        "1.1.1v-r0": 1691129292,
+        "1.1.1w-r0": 1695254872
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -26464,7 +26486,8 @@
     "curl-dbg": {
       "origin": "curl",
       "versions": {
-        "8.2.1-r0": 1690353628
+        "8.2.1-r0": 1690353628,
+        "8.3.0-r0": 1695367666
       },
       "dependencies": [
         "ca-certificates"
@@ -26986,7 +27009,8 @@
     "libcrypto3": {
       "origin": "openssl3",
       "versions": {
-        "3.0.9-r2": 1689795461
+        "3.0.9-r2": 1689795461,
+        "3.0.11-r0": 1695257058
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
@@ -27988,10 +28012,11 @@
     "mbedtls-dev": {
       "origin": "mbedtls",
       "versions": {
-        "2.28.4-r0": 1691094107
+        "2.28.4-r0": 1691094107,
+        "2.28.5-r0": 1696603356
       },
       "dependencies": [
-        "mbedtls=2.28.4-r0"
+        "mbedtls=2.28.5-r0"
       ]
     },
     "lua5.1-libs": {
@@ -28734,7 +28759,8 @@
     "libcrypto1.1": {
       "origin": "openssl",
       "versions": {
-        "1.1.1v-r0": 1691129292
+        "1.1.1v-r0": 1691129292,
+        "1.1.1w-r0": 1695254872
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
@@ -30672,7 +30698,8 @@
     "bind-openrc": {
       "origin": "bind",
       "versions": {
-        "9.16.42-r0": 1687383865
+        "9.16.42-r0": 1687383865,
+        "9.16.44-r0": 1695391510
       }
     },
     "tk-dev": {
@@ -31184,7 +31211,8 @@
     "linux-virt": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.131-r0": 1694425439
+        "5.15.131-r0": 1694425439,
+        "5.15.134-r0": 1696607820
       },
       "dependencies": [
         "mkinitfs>=3.6.0"
@@ -31885,19 +31913,20 @@
     "curl-dev": {
       "origin": "curl",
       "versions": {
-        "8.2.1-r0": 1690353628
+        "8.2.1-r0": 1690353628,
+        "8.3.0-r0": 1695367666
       },
       "dependencies": [
         "openssl1.1-compat-dev",
         "nghttp2-dev",
         "zlib-dev",
         "brotli-dev",
-        "libcurl=8.2.1-r0",
+        "libcurl=8.3.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcurl=8.2.1",
-        "cmd:curl-config=8.2.1-r0"
+        "pc:libcurl=8.3.0",
+        "cmd:curl-config=8.3.0-r0"
       ]
     },
     "lynx-lang": {
@@ -34396,29 +34425,30 @@
     "bind-dnssec-tools": {
       "origin": "bind",
       "versions": {
-        "9.16.42-r0": 1687383865
+        "9.16.42-r0": 1687383865,
+        "9.16.44-r0": 1695391510
       },
       "dependencies": [
-        "py3-bind=9.16.42-r0",
+        "py3-bind=9.16.44-r0",
         "so:libc.musl-armv7.so.1",
-        "so:libdns-9.16.42.so",
-        "so:libisc-9.16.42.so",
-        "so:libisccfg-9.16.42.so"
+        "so:libdns-9.16.44.so",
+        "so:libisc-9.16.44.so",
+        "so:libisccfg-9.16.44.so"
       ],
       "provides": [
-        "cmd:dnssec-cds=9.16.42-r0",
-        "cmd:dnssec-checkds=9.16.42-r0",
-        "cmd:dnssec-coverage=9.16.42-r0",
-        "cmd:dnssec-dsfromkey=9.16.42-r0",
-        "cmd:dnssec-importkey=9.16.42-r0",
-        "cmd:dnssec-keyfromlabel=9.16.42-r0",
-        "cmd:dnssec-keygen=9.16.42-r0",
-        "cmd:dnssec-keymgr=9.16.42-r0",
-        "cmd:dnssec-revoke=9.16.42-r0",
-        "cmd:dnssec-settime=9.16.42-r0",
-        "cmd:dnssec-signzone=9.16.42-r0",
-        "cmd:dnssec-verify=9.16.42-r0",
-        "cmd:nsec3hash=9.16.42-r0"
+        "cmd:dnssec-cds=9.16.44-r0",
+        "cmd:dnssec-checkds=9.16.44-r0",
+        "cmd:dnssec-coverage=9.16.44-r0",
+        "cmd:dnssec-dsfromkey=9.16.44-r0",
+        "cmd:dnssec-importkey=9.16.44-r0",
+        "cmd:dnssec-keyfromlabel=9.16.44-r0",
+        "cmd:dnssec-keygen=9.16.44-r0",
+        "cmd:dnssec-keymgr=9.16.44-r0",
+        "cmd:dnssec-revoke=9.16.44-r0",
+        "cmd:dnssec-settime=9.16.44-r0",
+        "cmd:dnssec-signzone=9.16.44-r0",
+        "cmd:dnssec-verify=9.16.44-r0",
+        "cmd:nsec3hash=9.16.44-r0"
       ]
     },
     "boost1.78-wave": {
@@ -35697,7 +35727,8 @@
     "xen-dev": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r0": 1691790768
+        "4.16.5-r0": 1691790768,
+        "4.16.5-r2": 1695886865
       },
       "dependencies": [
         "argp-standalone",
@@ -35727,7 +35758,7 @@
         "zlib-dev",
         "zstd-dev",
         "pkgconfig",
-        "xen-libs=4.16.5-r0"
+        "xen-libs=4.16.5-r2"
       ],
       "provides": [
         "pc:xencall=1.3",
@@ -37053,7 +37084,8 @@
     "curl": {
       "origin": "curl",
       "versions": {
-        "8.2.1-r0": 1690353628
+        "8.2.1-r0": 1690353628,
+        "8.3.0-r0": 1695367666
       },
       "dependencies": [
         "ca-certificates",
@@ -37062,7 +37094,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:curl=8.2.1-r0"
+        "cmd:curl=8.3.0-r0"
       ]
     },
     "perl-socket": {
@@ -38447,14 +38479,15 @@
     "zfs-lts-dev": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.131-r0": 1694425794
+        "5.15.131-r0": 1694425794,
+        "5.15.134-r0": 1696607821
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-lts-dev=5.15.131-r0"
+        "linux-lts-dev=5.15.134-r0"
       ]
     },
     "swish-e": {
@@ -38866,14 +38899,15 @@
     "py3-urllib3": {
       "origin": "py3-urllib3",
       "versions": {
-        "1.26.9-r0": 1647525024
+        "1.26.9-r0": 1647525024,
+        "1.26.17-r0": 1696476875
       },
       "dependencies": [
         "python3"
       ],
       "provides": [
-        "py-urllib3=1.26.9-r0",
-        "py3.10:urllib3=1.26.9-r0"
+        "py-urllib3=1.26.17-r0",
+        "py3.10:urllib3=1.26.17-r0"
       ]
     },
     "avahi-ui-dev": {
@@ -40216,7 +40250,8 @@
     "mbedtls-static": {
       "origin": "mbedtls",
       "versions": {
-        "2.28.4-r0": 1691094107
+        "2.28.4-r0": 1691094107,
+        "2.28.5-r0": 1696603356
       }
     },
     "jpeg-dev": {
@@ -40305,7 +40340,8 @@
     "bind-dbg": {
       "origin": "bind",
       "versions": {
-        "9.16.42-r0": 1687383865
+        "9.16.42-r0": 1687383865,
+        "9.16.44-r0": 1695391510
       },
       "dependencies": [
         "dns-root-hints",
@@ -42832,7 +42868,8 @@
     "xen": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r0": 1691790768
+        "4.16.5-r0": 1691790768,
+        "4.16.5-r2": 1695886865
       },
       "dependencies": [
         "bash",
@@ -42860,48 +42897,48 @@
         "so:libyajl.so.2"
       ],
       "provides": [
-        "cmd:flask-get-bool=4.16.5-r0",
-        "cmd:flask-getenforce=4.16.5-r0",
-        "cmd:flask-label-pci=4.16.5-r0",
-        "cmd:flask-loadpolicy=4.16.5-r0",
-        "cmd:flask-set-bool=4.16.5-r0",
-        "cmd:flask-setenforce=4.16.5-r0",
-        "cmd:vchan-socket-proxy=4.16.5-r0",
-        "cmd:xen-access=4.16.5-r0",
-        "cmd:xen-diag=4.16.5-r0",
-        "cmd:xen-livepatch=4.16.5-r0",
-        "cmd:xenalyze=4.16.5-r0",
-        "cmd:xenbaked=4.16.5-r0",
-        "cmd:xencons=4.16.5-r0",
-        "cmd:xenconsoled=4.16.5-r0",
-        "cmd:xencov=4.16.5-r0",
-        "cmd:xencov_split=4.16.5-r0",
-        "cmd:xenhypfs=4.16.5-r0",
-        "cmd:xenlockprof=4.16.5-r0",
-        "cmd:xenmon=4.16.5-r0",
-        "cmd:xenperf=4.16.5-r0",
-        "cmd:xenpm=4.16.5-r0",
-        "cmd:xenpmd=4.16.5-r0",
-        "cmd:xenstore-chmod=4.16.5-r0",
-        "cmd:xenstore-control=4.16.5-r0",
-        "cmd:xenstore-exists=4.16.5-r0",
-        "cmd:xenstore-list=4.16.5-r0",
-        "cmd:xenstore-ls=4.16.5-r0",
-        "cmd:xenstore-read=4.16.5-r0",
-        "cmd:xenstore-rm=4.16.5-r0",
-        "cmd:xenstore-watch=4.16.5-r0",
-        "cmd:xenstore-write=4.16.5-r0",
-        "cmd:xenstore=4.16.5-r0",
-        "cmd:xenstored=4.16.5-r0",
-        "cmd:xentop=4.16.5-r0",
-        "cmd:xentrace=4.16.5-r0",
-        "cmd:xentrace_format=4.16.5-r0",
-        "cmd:xentrace_setmask=4.16.5-r0",
-        "cmd:xentrace_setsize=4.16.5-r0",
-        "cmd:xenwatchdogd=4.16.5-r0",
-        "cmd:xl=4.16.5-r0",
-        "py3.10:grub=4.16.5-r0",
-        "py3.10:xen=4.16.5-r0"
+        "cmd:flask-get-bool=4.16.5-r2",
+        "cmd:flask-getenforce=4.16.5-r2",
+        "cmd:flask-label-pci=4.16.5-r2",
+        "cmd:flask-loadpolicy=4.16.5-r2",
+        "cmd:flask-set-bool=4.16.5-r2",
+        "cmd:flask-setenforce=4.16.5-r2",
+        "cmd:vchan-socket-proxy=4.16.5-r2",
+        "cmd:xen-access=4.16.5-r2",
+        "cmd:xen-diag=4.16.5-r2",
+        "cmd:xen-livepatch=4.16.5-r2",
+        "cmd:xenalyze=4.16.5-r2",
+        "cmd:xenbaked=4.16.5-r2",
+        "cmd:xencons=4.16.5-r2",
+        "cmd:xenconsoled=4.16.5-r2",
+        "cmd:xencov=4.16.5-r2",
+        "cmd:xencov_split=4.16.5-r2",
+        "cmd:xenhypfs=4.16.5-r2",
+        "cmd:xenlockprof=4.16.5-r2",
+        "cmd:xenmon=4.16.5-r2",
+        "cmd:xenperf=4.16.5-r2",
+        "cmd:xenpm=4.16.5-r2",
+        "cmd:xenpmd=4.16.5-r2",
+        "cmd:xenstore-chmod=4.16.5-r2",
+        "cmd:xenstore-control=4.16.5-r2",
+        "cmd:xenstore-exists=4.16.5-r2",
+        "cmd:xenstore-list=4.16.5-r2",
+        "cmd:xenstore-ls=4.16.5-r2",
+        "cmd:xenstore-read=4.16.5-r2",
+        "cmd:xenstore-rm=4.16.5-r2",
+        "cmd:xenstore-watch=4.16.5-r2",
+        "cmd:xenstore-write=4.16.5-r2",
+        "cmd:xenstore=4.16.5-r2",
+        "cmd:xenstored=4.16.5-r2",
+        "cmd:xentop=4.16.5-r2",
+        "cmd:xentrace=4.16.5-r2",
+        "cmd:xentrace_format=4.16.5-r2",
+        "cmd:xentrace_setmask=4.16.5-r2",
+        "cmd:xentrace_setsize=4.16.5-r2",
+        "cmd:xenwatchdogd=4.16.5-r2",
+        "cmd:xl=4.16.5-r2",
+        "py3.10:grub=4.16.5-r2",
+        "py3.10:xen=4.16.5-r2"
       ]
     },
     "cvs-zsh-completion": {
@@ -43415,7 +43452,8 @@
     "openssl-dbg": {
       "origin": "openssl",
       "versions": {
-        "1.1.1v-r0": 1691129292
+        "1.1.1v-r0": 1691129292,
+        "1.1.1w-r0": 1695254872
       }
     },
     "libxt": {
@@ -43485,7 +43523,8 @@
     "curl-doc": {
       "origin": "curl",
       "versions": {
-        "8.2.1-r0": 1690353628
+        "8.2.1-r0": 1690353628,
+        "8.3.0-r0": 1695367666
       }
     },
     "gcc-objc": {
@@ -47131,7 +47170,8 @@
     "linux-lts-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.131-r0": 1694425439
+        "5.15.131-r0": 1694425439,
+        "5.15.134-r0": 1696607820
       },
       "dependencies": [
         "perl",
@@ -48293,7 +48333,8 @@
     "curl-fish-completion": {
       "origin": "curl",
       "versions": {
-        "8.2.1-r0": 1690353628
+        "8.2.1-r0": 1690353628,
+        "8.3.0-r0": 1695367666
       }
     },
     "perl-test-notabs": {
@@ -48632,7 +48673,8 @@
     "xen-qemu": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r0": 1691790768
+        "4.16.5-r0": 1691790768,
+        "4.16.5-r2": 1695886865
       },
       "dependencies": [
         "bash",
@@ -50600,10 +50642,11 @@
     "zfs-lts": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.131-r0": 1694425794
+        "5.15.131-r0": 1694425794,
+        "5.15.134-r0": 1696607821
       },
       "dependencies": [
-        "linux-lts=5.15.131-r0"
+        "linux-lts=5.15.134-r0"
       ],
       "provides": [
         "spl-vanilla"
@@ -51114,7 +51157,8 @@
     "curl-static": {
       "origin": "curl",
       "versions": {
-        "8.2.1-r0": 1690353628
+        "8.2.1-r0": 1690353628,
+        "8.3.0-r0": 1695367666
       },
       "dependencies": [
         "ca-certificates"
@@ -53292,14 +53336,15 @@
     "py3-bind": {
       "origin": "bind",
       "versions": {
-        "9.16.42-r0": 1687383865
+        "9.16.42-r0": 1687383865,
+        "9.16.44-r0": 1695391510
       },
       "dependencies": [
         "py3-ply",
         "python3"
       ],
       "provides": [
-        "py3.10:isc=9.16.42-r0"
+        "py3.10:isc=9.16.44-r0"
       ]
     },
     "bc-doc": {
@@ -53599,7 +53644,8 @@
     "openssl-doc": {
       "origin": "openssl",
       "versions": {
-        "1.1.1v-r0": 1691129292
+        "1.1.1v-r0": 1691129292,
+        "1.1.1w-r0": 1695254872
       }
     },
     "nasm": {
@@ -54114,7 +54160,8 @@
     "xen-doc": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r0": 1691790768
+        "4.16.5-r0": 1691790768,
+        "4.16.5-r2": 1695886865
       }
     },
     "perl-io-html-doc": {
@@ -54647,7 +54694,8 @@
     "openssl3-libs-static": {
       "origin": "openssl3",
       "versions": {
-        "3.0.9-r2": 1689795461
+        "3.0.9-r2": 1689795461,
+        "3.0.11-r0": 1695257058
       }
     },
     "shorewall-doc": {
@@ -55587,7 +55635,8 @@
     "bind-plugins": {
       "origin": "bind",
       "versions": {
-        "9.16.42-r0": 1687383865
+        "9.16.42-r0": 1687383865,
+        "9.16.44-r0": 1695391510
       },
       "dependencies": [
         "bind",
@@ -56152,7 +56201,8 @@
     "linux-virt-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.131-r0": 1694425439
+        "5.15.131-r0": 1694425439,
+        "5.15.134-r0": 1696607820
       },
       "dependencies": [
         "perl",
@@ -56271,7 +56321,8 @@
     "xen-bridge": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r0": 1691790768
+        "4.16.5-r0": 1691790768,
+        "4.16.5-r2": 1695886865
       },
       "dependencies": [
         "dnsmasq"
@@ -56381,7 +56432,8 @@
     "openssl3": {
       "origin": "openssl3",
       "versions": {
-        "3.0.9-r2": 1689795461
+        "3.0.9-r2": 1689795461,
+        "3.0.11-r0": 1695257058
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -56389,7 +56441,7 @@
         "so:openssl3:so:libssl.so.3"
       ],
       "provides": [
-        "cmd:openssl3=3.0.9-r2"
+        "cmd:openssl3=3.0.11-r0"
       ]
     },
     "lua5.3-filesystem": {
@@ -58866,7 +58918,7 @@
       },
       "openssl1.1-compat-libs-static": {
         "package": "openssl-libs-static",
-        "version": "1.1.1v-r0"
+        "version": "1.1.1w-r0"
       },
       "postgresql-plpython3": {
         "package": "postgresql13-plpython3",
@@ -58998,7 +59050,7 @@
       },
       "openssl1.1-compat-dev": {
         "package": "openssl-dev",
-        "version": "1.1.1v-r0"
+        "version": "1.1.1w-r0"
       },
       "boost-iostreams": {
         "package": "boost1.78-iostreams",
@@ -59222,7 +59274,7 @@
       },
       "py-urllib3": {
         "package": "py3-urllib3",
-        "version": "1.26.9-r0"
+        "version": "1.26.17-r0"
       },
       "py-packaging": {
         "package": "py3-packaging",
@@ -60596,15 +60648,15 @@
       },
       "libmbedcrypto.so.7": {
         "package": "mbedtls",
-        "version": "2.28.4"
+        "version": "2.28.5"
       },
       "libmbedtls.so.14": {
         "package": "mbedtls",
-        "version": "2.28.4"
+        "version": "2.28.5"
       },
       "libmbedx509.so.1": {
         "package": "mbedtls",
-        "version": "2.28.4"
+        "version": "2.28.5"
       },
       "libavahi-ui-gtk3.so.0": {
         "package": "avahi-ui-gtk3",
@@ -65009,6 +65061,34 @@
       "libpcre2-posix.so.3": {
         "package": "pcre2",
         "version": "3.0.4"
+      },
+      "libbind9-9.16.44.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libdns-9.16.44.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libirs-9.16.44.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libisc-9.16.44.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libisccc-9.16.44.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libisccfg-9.16.44.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libns-9.16.44.so": {
+        "package": "bind-libs",
+        "version": "0"
       }
     }
   }

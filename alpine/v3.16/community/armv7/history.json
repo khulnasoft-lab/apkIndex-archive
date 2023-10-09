@@ -82127,10 +82127,11 @@
     "jool-modules-lts": {
       "origin": "jool-modules-lts",
       "versions": {
-        "5.15.131-r0": 1694425561
+        "5.15.131-r0": 1694425561,
+        "5.15.134-r0": 1696607820
       },
       "dependencies": [
-        "linux-lts=5.15.131-r0"
+        "linux-lts=5.15.134-r0"
       ]
     },
     "imagemagick-perlmagick-doc": {
@@ -102584,10 +102585,11 @@
     "rtpengine-virt": {
       "origin": "rtpengine-lts",
       "versions": {
-        "5.15.131-r0": 1694425588
+        "5.15.131-r0": 1694425588,
+        "5.15.134-r0": 1696607821
       },
       "dependencies": [
-        "linux-virt=5.15.131-r0"
+        "linux-virt=5.15.134-r0"
       ]
     },
     "qt5-qtcharts": {
@@ -152395,7 +152397,8 @@
     "rtpengine-lts": {
       "origin": "rtpengine-lts",
       "versions": {
-        "5.15.131-r0": 1694425588
+        "5.15.131-r0": 1694425588,
+        "5.15.134-r0": 1696607821
       }
     },
     "ogdi-odbc": {
