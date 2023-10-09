@@ -26027,10 +26027,11 @@
     "jool-modules-lts": {
       "origin": "jool-modules-lts",
       "versions": {
-        "5.15.131-r0": 1694431489
+        "5.15.131-r0": 1694431489,
+        "5.15.134-r0": 1696608894
       },
       "dependencies": [
-        "linux-lts=5.15.131-r0"
+        "linux-lts=5.15.134-r0"
       ]
     },
     "php8-pecl-uuid": {
@@ -95638,10 +95639,11 @@
     "rtpengine-virt": {
       "origin": "rtpengine-lts",
       "versions": {
-        "5.15.131-r0": 1694431515
+        "5.15.131-r0": 1694431515,
+        "5.15.134-r0": 1696608912
       },
       "dependencies": [
-        "linux-virt=5.15.131-r0"
+        "linux-virt=5.15.134-r0"
       ]
     },
     "libsigc++3-dev": {
@@ -131539,7 +131541,8 @@
     "rtpengine-lts": {
       "origin": "rtpengine-lts",
       "versions": {
-        "5.15.131-r0": 1694431515
+        "5.15.131-r0": 1694431515,
+        "5.15.134-r0": 1696608912
       }
     },
     "lipstick-dev": {
