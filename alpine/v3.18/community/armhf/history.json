@@ -49920,7 +49920,8 @@
     "libcue": {
       "origin": "libcue",
       "versions": {
-        "2.2.1-r1": 1583168378
+        "2.2.1-r1": 1583168378,
+        "2.2.1-r2": 1696881500
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
@@ -49932,10 +49933,11 @@
     "libcue-dev": {
       "origin": "libcue",
       "versions": {
-        "2.2.1-r1": 1583168378
+        "2.2.1-r1": 1583168378,
+        "2.2.1-r2": 1696881500
       },
       "dependencies": [
-        "libcue=2.2.1-r1",
+        "libcue=2.2.1-r2",
         "pkgconfig"
       ],
       "provides": [
