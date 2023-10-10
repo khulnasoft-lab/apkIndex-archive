@@ -11124,7 +11124,8 @@
     "nghttp2-doc": {
       "origin": "nghttp2",
       "versions": {
-        "1.51.0-r1": 1689799379
+        "1.51.0-r1": 1689799379,
+        "1.51.0-r2": 1696952102
       }
     },
     "cunit-doc": {
@@ -18347,7 +18348,8 @@
     "nghttp2-static": {
       "origin": "nghttp2",
       "versions": {
-        "1.51.0-r1": 1689799379
+        "1.51.0-r1": 1689799379,
+        "1.51.0-r2": 1696952102
       }
     },
     "acf-openvpn": {
@@ -29517,10 +29519,11 @@
     "nghttp2-dev": {
       "origin": "nghttp2",
       "versions": {
-        "1.51.0-r1": 1689799379
+        "1.51.0-r1": 1689799379,
+        "1.51.0-r2": 1696952102
       },
       "dependencies": [
-        "nghttp2-libs=1.51.0-r1",
+        "nghttp2-libs=1.51.0-r2",
         "pkgconfig"
       ],
       "provides": [
@@ -33690,7 +33693,8 @@
     "nghttp2": {
       "origin": "nghttp2",
       "versions": {
-        "1.51.0-r1": 1689799379
+        "1.51.0-r1": 1689799379,
+        "1.51.0-r2": 1696952102
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -33704,10 +33708,10 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:h2load=1.51.0-r1",
-        "cmd:nghttp=1.51.0-r1",
-        "cmd:nghttpd=1.51.0-r1",
-        "cmd:nghttpx=1.51.0-r1"
+        "cmd:h2load=1.51.0-r2",
+        "cmd:nghttp=1.51.0-r2",
+        "cmd:nghttpd=1.51.0-r2",
+        "cmd:nghttpx=1.51.0-r2"
       ]
     },
     "boost1.80-json": {
@@ -43192,7 +43196,8 @@
     "nghttp2-libs": {
       "origin": "nghttp2",
       "versions": {
-        "1.51.0-r1": 1689799379
+        "1.51.0-r1": 1689799379,
+        "1.51.0-r2": 1696952102
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
