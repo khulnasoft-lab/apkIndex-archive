@@ -46745,7 +46745,8 @@
     "ppp": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "ppp-chat",
@@ -46763,7 +46764,8 @@
     "ppp-atm": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "ppp-daemon",
@@ -46773,19 +46775,21 @@
     "ppp-chat": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:chat=2.5.0-r3"
+        "cmd:chat=2.5.0-r4"
       ]
     },
     "ppp-daemon": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -46794,17 +46798,18 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:poff=2.5.0-r3",
-        "cmd:pon=2.5.0-r3",
-        "cmd:pppd=2.5.0-r3",
-        "cmd:pppdump=2.5.0-r3",
-        "cmd:pppstats=2.5.0-r3"
+        "cmd:poff=2.5.0-r4",
+        "cmd:pon=2.5.0-r4",
+        "cmd:pppd=2.5.0-r4",
+        "cmd:pppdump=2.5.0-r4",
+        "cmd:pppstats=2.5.0-r4"
       ]
     },
     "ppp-dev": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "pkgconfig"
@@ -46816,13 +46821,15 @@
     "ppp-doc": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       }
     },
     "ppp-l2tp": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "ppp-daemon",
@@ -46832,7 +46839,8 @@
     "ppp-minconn": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "ppp-daemon"
@@ -46841,13 +46849,15 @@
     "ppp-openrc": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       }
     },
     "ppp-passprompt": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "ppp-daemon",
@@ -46857,7 +46867,8 @@
     "ppp-passwordfd": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "ppp-daemon",
@@ -46867,20 +46878,22 @@
     "ppp-pppoe": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "ppp-daemon",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:pppoe-discovery=2.5.0-r3"
+        "cmd:pppoe-discovery=2.5.0-r4"
       ]
     },
     "ppp-radius": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "ppp-daemon",
@@ -46890,7 +46903,8 @@
     "ppp-winbind": {
       "origin": "ppp",
       "versions": {
-        "2.5.0-r3": 1696277933
+        "2.5.0-r3": 1696277933,
+        "2.5.0-r4": 1696921531
       },
       "dependencies": [
         "ppp-daemon",
