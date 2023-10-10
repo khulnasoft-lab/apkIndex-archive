@@ -35545,7 +35545,8 @@
     "nghttp2": {
       "origin": "nghttp2",
       "versions": {
-        "1.55.1-r0": 1689799271
+        "1.55.1-r0": 1689799271,
+        "1.57.0-r0": 1696949865
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -35559,47 +35560,51 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:h2load=1.55.1-r0",
-        "cmd:nghttp=1.55.1-r0",
-        "cmd:nghttpd=1.55.1-r0",
-        "cmd:nghttpx=1.55.1-r0"
+        "cmd:h2load=1.57.0-r0",
+        "cmd:nghttp=1.57.0-r0",
+        "cmd:nghttpd=1.57.0-r0",
+        "cmd:nghttpx=1.57.0-r0"
       ]
     },
     "nghttp2-dev": {
       "origin": "nghttp2",
       "versions": {
-        "1.55.1-r0": 1689799271
+        "1.55.1-r0": 1689799271,
+        "1.57.0-r0": 1696949865
       },
       "dependencies": [
-        "nghttp2-libs=1.55.1-r0",
+        "nghttp2-libs=1.57.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libnghttp2=1.55.1"
+        "pc:libnghttp2=1.57.0"
       ]
     },
     "nghttp2-doc": {
       "origin": "nghttp2",
       "versions": {
-        "1.55.1-r0": 1689799271
+        "1.55.1-r0": 1689799271,
+        "1.57.0-r0": 1696949865
       }
     },
     "nghttp2-libs": {
       "origin": "nghttp2",
       "versions": {
-        "1.55.1-r0": 1689799271
+        "1.55.1-r0": 1689799271,
+        "1.57.0-r0": 1696949865
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "so:libnghttp2.so.14=14.24.3"
+        "so:libnghttp2.so.14=14.25.0"
       ]
     },
     "nghttp2-static": {
       "origin": "nghttp2",
       "versions": {
-        "1.55.1-r0": 1689799271
+        "1.55.1-r0": 1689799271,
+        "1.57.0-r0": 1696949865
       }
     },
     "nginx": {
@@ -64488,7 +64493,7 @@
       },
       "libnghttp2.so.14": {
         "package": "nghttp2-libs",
-        "version": "14.24.3"
+        "version": "14.25.0"
       },
       "libnpth.so.0": {
         "package": "npth",
