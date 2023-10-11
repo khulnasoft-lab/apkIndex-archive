@@ -1688,7 +1688,8 @@
     "libcurl": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       },
       "dependencies": [
         "ca-certificates",
@@ -3214,7 +3215,8 @@
     "curl-static": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       },
       "dependencies": [
         "ca-certificates"
@@ -6915,7 +6917,8 @@
     "curl-fish-completion": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       }
     },
     "monit": {
@@ -24014,7 +24017,8 @@
     "curl-dbg": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       },
       "dependencies": [
         "ca-certificates"
@@ -26076,19 +26080,20 @@
     "curl-dev": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       },
       "dependencies": [
         "openssl1.1-compat-dev",
         "nghttp2-dev",
         "zlib-dev",
         "brotli-dev",
-        "libcurl=8.3.0-r0",
+        "libcurl=8.4.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcurl=8.3.0",
-        "cmd:curl-config=8.3.0-r0"
+        "pc:libcurl=8.4.0",
+        "cmd:curl-config=8.4.0-r0"
       ]
     },
     "parted-dev": {
@@ -42424,7 +42429,8 @@
     "curl-zsh-completion": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       }
     },
     "perl-ipc-sharelite-doc": {
@@ -42747,7 +42753,8 @@
     "curl": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       },
       "dependencies": [
         "ca-certificates",
@@ -42756,7 +42763,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:curl=8.3.0-r0"
+        "cmd:curl=8.4.0-r0"
       ]
     },
     "boost1.78-math": {
@@ -56375,7 +56382,8 @@
     "curl-doc": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       }
     },
     "openldap-back-ldap": {

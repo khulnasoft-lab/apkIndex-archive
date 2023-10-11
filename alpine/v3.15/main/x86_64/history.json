@@ -21768,14 +21768,15 @@
     "zfs-lts-dev": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696609035
+        "5.15.134-r0": 1696609035,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-lts-dev=5.15.134-r0"
+        "linux-lts-dev=5.15.135-r0"
       ]
     },
     "ncurses-dev": {
@@ -22443,7 +22444,8 @@
     "linux-lts": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696608818
+        "5.15.134-r0": 1696608818,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "mkinitfs",
@@ -23979,7 +23981,8 @@
     "linux-virt": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696608818
+        "5.15.134-r0": 1696608818,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "mkinitfs"
@@ -24396,7 +24399,8 @@
     "dahdi-linux-lts-dev": {
       "origin": "dahdi-linux-lts",
       "versions": {
-        "5.15.134-r0": 1696608923
+        "5.15.134-r0": 1696608923,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "dahdi-linux-dev"
@@ -36082,7 +36086,8 @@
     "linux-virt-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696608818
+        "5.15.134-r0": 1696608818,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "perl",
@@ -40709,10 +40714,11 @@
     "xtables-addons-lts": {
       "origin": "xtables-addons-lts",
       "versions": {
-        "5.15.134-r0": 1696608931
+        "5.15.134-r0": 1696608931,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "execline-doc": {
@@ -41720,10 +41726,11 @@
     "zfs-virt": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696609035
+        "5.15.134-r0": 1696609035,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
-        "linux-virt=5.15.134-r0"
+        "linux-virt=5.15.135-r0"
       ]
     },
     "nginx-mod-http-geoip": {
@@ -46873,7 +46880,8 @@
     "linux-lts-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696608818
+        "5.15.134-r0": 1696608818,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "perl",
@@ -48994,10 +49002,11 @@
     "zfs-lts": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696609035
+        "5.15.134-r0": 1696609035,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ],
       "provides": [
         "spl-vanilla"
@@ -54046,11 +54055,12 @@
     "dahdi-linux-lts": {
       "origin": "dahdi-linux-lts",
       "versions": {
-        "5.15.134-r0": 1696608923
+        "5.15.134-r0": 1696608923,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "dahdi-linux",
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "conky-doc": {

@@ -19378,10 +19378,11 @@
     "rtpengine-virt": {
       "origin": "rtpengine-lts",
       "versions": {
-        "5.15.134-r0": 1696608912
+        "5.15.134-r0": 1696608912,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
-        "linux-virt=5.15.134-r0"
+        "linux-virt=5.15.135-r0"
       ]
     },
     "kalzium-lang": {
@@ -70144,7 +70145,8 @@
     "rtpengine-lts": {
       "origin": "rtpengine-lts",
       "versions": {
-        "5.15.134-r0": 1696608912
+        "5.15.134-r0": 1696608912,
+        "5.15.135-r0": 1697014092
       }
     },
     "zziplib-utils": {
@@ -83447,7 +83449,8 @@
     "rtl8821ce-lts": {
       "origin": "rtl8821ce-lts",
       "versions": {
-        "5.15.134-r0": 1696608906
+        "5.15.134-r0": 1696608906,
+        "5.15.135-r0": 1697014092
       }
     },
     "minizip-dev": {
@@ -100055,10 +100058,11 @@
     "jool-modules-lts": {
       "origin": "jool-modules-lts",
       "versions": {
-        "5.15.134-r0": 1696608894
+        "5.15.134-r0": 1696608894,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "lua5.2-toml": {
@@ -140862,10 +140866,11 @@
     "jool-modules-virt": {
       "origin": "jool-modules-lts",
       "versions": {
-        "5.15.134-r0": 1696608894
+        "5.15.134-r0": 1696608894,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
-        "linux-virt=5.15.134-r0"
+        "linux-virt=5.15.135-r0"
       ]
     },
     "imv-doc": {
