@@ -9485,7 +9485,8 @@
     "rtpengine-lts": {
       "origin": "rtpengine-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011001
       }
     },
     "nwg-launchers-grid": {
@@ -28699,10 +28700,11 @@
     "jool-modules-lts": {
       "origin": "jool-modules-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010982
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "obex-capabilities-bluez-obexd": {
@@ -31794,7 +31796,8 @@
     "rtl8821ce-lts": {
       "origin": "rtl8821ce-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010994
       }
     },
     "rclone-doc": {
@@ -51573,10 +51576,11 @@
     "jool-modules-virt": {
       "origin": "jool-modules-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010982
       },
       "dependencies": [
-        "linux-virt=5.15.134-r0"
+        "linux-virt=5.15.135-r0"
       ]
     },
     "mtxclient-dev": {
@@ -66368,10 +66372,11 @@
     "rtpengine-virt": {
       "origin": "rtpengine-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011001
       },
       "dependencies": [
-        "linux-virt=5.15.134-r0"
+        "linux-virt=5.15.135-r0"
       ]
     },
     "apache-orc-dev": {

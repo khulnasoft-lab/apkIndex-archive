@@ -10978,10 +10978,11 @@
     "zfs-virt": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696609035
+        "5.15.134-r0": 1696609035,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
-        "linux-virt=5.15.134-r0"
+        "linux-virt=5.15.135-r0"
       ]
     },
     "perl-gd-doc": {
@@ -26098,14 +26099,15 @@
     "zfs-lts-dev": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696609035
+        "5.15.134-r0": 1696609035,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-lts-dev=5.15.134-r0"
+        "linux-lts-dev=5.15.135-r0"
       ]
     },
     "linux-firmware-imx": {
@@ -28409,7 +28411,8 @@
     "linux-virt-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696608818
+        "5.15.134-r0": 1696608818,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "perl",
@@ -29532,7 +29535,8 @@
     "linux-lts-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696608818
+        "5.15.134-r0": 1696608818,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "perl",
@@ -38096,7 +38100,8 @@
     "linux-virt": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696608818
+        "5.15.134-r0": 1696608818,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "mkinitfs"
@@ -40271,10 +40276,11 @@
     "xtables-addons-lts": {
       "origin": "xtables-addons-lts",
       "versions": {
-        "5.15.134-r0": 1696608931
+        "5.15.134-r0": 1696608931,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "libresample": {
@@ -41606,10 +41612,11 @@
     "zfs-lts": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696609035
+        "5.15.134-r0": 1696609035,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ],
       "provides": [
         "spl-vanilla"
@@ -54639,7 +54646,8 @@
     "linux-lts": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696608818
+        "5.15.134-r0": 1696608818,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
         "mkinitfs",

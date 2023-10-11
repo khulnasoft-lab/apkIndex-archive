@@ -3432,11 +3432,12 @@
     "dahdi-linux-lts": {
       "origin": "dahdi-linux-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011013
       },
       "dependencies": [
         "dahdi-linux",
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "dovecot-pop3d": {
@@ -8350,7 +8351,8 @@
     "linux-virt-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010905
       },
       "dependencies": [
         "perl",
@@ -13765,7 +13767,8 @@
     "linux-lts-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010905
       },
       "dependencies": [
         "perl",
@@ -14365,10 +14368,11 @@
     "zfs-lts": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011171
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ],
       "provides": [
         "spl-vanilla"
@@ -18334,14 +18338,15 @@
     "zfs-lts-dev": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011171
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-lts-dev=5.15.134-r0"
+        "linux-lts-dev=5.15.135-r0"
       ]
     },
     "snort-dev": {
@@ -18779,7 +18784,8 @@
     "linux-virt": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010905
       },
       "dependencies": [
         "mkinitfs>=3.6.0"
@@ -28161,7 +28167,8 @@
     "linux-lts": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010905
       },
       "dependencies": [
         "mkinitfs>=3.6.0",
@@ -29197,10 +29204,11 @@
     "zfs-virt": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011171
       },
       "dependencies": [
-        "linux-virt=5.15.134-r0"
+        "linux-virt=5.15.135-r0"
       ]
     },
     "openldap-overlay-refint": {
@@ -37451,10 +37459,11 @@
     "xtables-addons-lts": {
       "origin": "xtables-addons-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011022
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "uwsgi-zergpool": {
@@ -47588,7 +47597,8 @@
     "dahdi-linux-lts-dev": {
       "origin": "dahdi-linux-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011013
       },
       "dependencies": [
         "dahdi-linux-dev"

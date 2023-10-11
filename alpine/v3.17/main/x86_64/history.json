@@ -1384,7 +1384,8 @@
     "curl-zsh-completion": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367494
+        "8.3.0-r0": 1695367494,
+        "8.4.0-r0": 1697010285
       }
     },
     "cairo-static": {
@@ -4196,7 +4197,8 @@
     "curl-dbg": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367494
+        "8.3.0-r0": 1695367494,
+        "8.4.0-r0": 1697010285
       },
       "dependencies": [
         "ca-certificates"
@@ -12218,7 +12220,8 @@
     "curl-fish-completion": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367494
+        "8.3.0-r0": 1695367494,
+        "8.4.0-r0": 1697010285
       }
     },
     "openldap-overlay-dyngroup": {
@@ -18343,7 +18346,8 @@
     "curl": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367494
+        "8.3.0-r0": 1695367494,
+        "8.4.0-r0": 1697010285
       },
       "dependencies": [
         "ca-certificates",
@@ -18352,7 +18356,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:curl=8.3.0-r0"
+        "cmd:curl=8.4.0-r0"
       ]
     },
     "mosquitto-clients": {
@@ -27896,7 +27900,8 @@
     "curl-doc": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367494
+        "8.3.0-r0": 1695367494,
+        "8.4.0-r0": 1697010285
       }
     },
     "cppunit-dev": {
@@ -47630,19 +47635,20 @@
     "curl-dev": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367494
+        "8.3.0-r0": 1695367494,
+        "8.4.0-r0": 1697010285
       },
       "dependencies": [
         "openssl-dev>3",
         "nghttp2-dev",
         "zlib-dev",
         "brotli-dev",
-        "libcurl=8.3.0-r0",
+        "libcurl=8.4.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcurl=8.3.0",
-        "cmd:curl-config=8.3.0-r0"
+        "pc:libcurl=8.4.0",
+        "cmd:curl-config=8.4.0-r0"
       ]
     },
     "joe-doc": {
@@ -54349,7 +54355,8 @@
     "curl-static": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367494
+        "8.3.0-r0": 1695367494,
+        "8.4.0-r0": 1697010285
       },
       "dependencies": [
         "ca-certificates"
@@ -58017,7 +58024,8 @@
     "libcurl": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367494
+        "8.3.0-r0": 1695367494,
+        "8.4.0-r0": 1697010285
       },
       "dependencies": [
         "ca-certificates",

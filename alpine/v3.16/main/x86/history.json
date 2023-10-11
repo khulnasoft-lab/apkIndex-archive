@@ -2719,7 +2719,8 @@
     "linux-virt-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010905
       },
       "dependencies": [
         "perl",
@@ -7109,7 +7110,8 @@
     "curl-fish-completion": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       }
     },
     "dbus-dev": {
@@ -20237,10 +20239,11 @@
     "zfs-virt": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011171
       },
       "dependencies": [
-        "linux-virt=5.15.134-r0"
+        "linux-virt=5.15.135-r0"
       ]
     },
     "openldap-overlay-dyngroup": {
@@ -23963,7 +23966,8 @@
     "curl-dbg": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       },
       "dependencies": [
         "ca-certificates"
@@ -32721,19 +32725,20 @@
     "curl-dev": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       },
       "dependencies": [
         "openssl1.1-compat-dev",
         "nghttp2-dev",
         "zlib-dev",
         "brotli-dev",
-        "libcurl=8.3.0-r0",
+        "libcurl=8.4.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcurl=8.3.0",
-        "cmd:curl-config=8.3.0-r0"
+        "pc:libcurl=8.4.0",
+        "cmd:curl-config=8.4.0-r0"
       ]
     },
     "tftp-hpa": {
@@ -34696,7 +34701,8 @@
     "linux-lts-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010905
       },
       "dependencies": [
         "perl",
@@ -39888,7 +39894,8 @@
     "curl-doc": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       }
     },
     "lua5.3-cjson": {
@@ -40997,14 +41004,15 @@
     "zfs-lts-dev": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011171
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-lts-dev=5.15.134-r0"
+        "linux-lts-dev=5.15.135-r0"
       ]
     },
     "boost1.78-chrono": {
@@ -42386,7 +42394,8 @@
     "curl-zsh-completion": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       }
     },
     "lua5.1-lzlib": {
@@ -43130,10 +43139,11 @@
     "zfs-lts": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011171
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ],
       "provides": [
         "spl-vanilla"
@@ -44099,7 +44109,8 @@
     "curl-static": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       },
       "dependencies": [
         "ca-certificates"
@@ -44228,7 +44239,8 @@
     "linux-lts": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010905
       },
       "dependencies": [
         "mkinitfs>=3.6.0",
@@ -45323,7 +45335,8 @@
     "libcurl": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       },
       "dependencies": [
         "ca-certificates",
@@ -46451,7 +46464,8 @@
     "curl": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695367666
+        "8.3.0-r0": 1695367666,
+        "8.4.0-r0": 1697012555
       },
       "dependencies": [
         "ca-certificates",
@@ -46460,7 +46474,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:curl=8.3.0-r0"
+        "cmd:curl=8.4.0-r0"
       ]
     },
     "gtk+3.0-dbg": {
@@ -56386,7 +56400,8 @@
     "linux-virt": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010905
       },
       "dependencies": [
         "mkinitfs>=3.6.0"
@@ -57472,10 +57487,11 @@
     "xtables-addons-lts": {
       "origin": "xtables-addons-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011022
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "email": {
