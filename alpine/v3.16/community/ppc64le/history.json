@@ -21268,7 +21268,8 @@
     "rtpengine-lts": {
       "origin": "rtpengine-lts",
       "versions": {
-        "5.15.134-r0": 1696607821
+        "5.15.134-r0": 1696607821,
+        "5.15.135-r0": 1697011001
       }
     },
     "qt5-qtkeychain-dev": {
@@ -37466,10 +37467,11 @@
     "jool-modules-lts": {
       "origin": "jool-modules-lts",
       "versions": {
-        "5.15.134-r0": 1696607820
+        "5.15.134-r0": 1696607820,
+        "5.15.135-r0": 1697010982
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "xcalc-doc": {

@@ -93888,10 +93888,11 @@
     "jool-modules-lts": {
       "origin": "jool-modules-lts",
       "versions": {
-        "5.15.134-r0": 1696599349
+        "5.15.134-r0": 1696599349,
+        "5.15.135-r0": 1697009468
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "librist-dev": {
@@ -96272,7 +96273,8 @@
     "rtpengine-lts": {
       "origin": "rtpengine-lts",
       "versions": {
-        "5.15.134-r0": 1696599387
+        "5.15.134-r0": 1696599387,
+        "5.15.135-r0": 1697009484
       }
     },
     "libmicrohttpd-dev": {

@@ -3970,7 +3970,8 @@
       "origin": "curl",
       "versions": {
         "8.2.1-r0": 1690353638,
-        "8.3.0-r0": 1695367745
+        "8.3.0-r0": 1695367745,
+        "8.4.0-r0": 1697010565
       }
     },
     "iniparser": {
@@ -9748,7 +9749,8 @@
       "origin": "curl",
       "versions": {
         "8.2.1-r0": 1690353638,
-        "8.3.0-r0": 1695367745
+        "8.3.0-r0": 1695367745,
+        "8.4.0-r0": 1697010565
       },
       "dependencies": [
         "ca-certificates"
@@ -11199,7 +11201,8 @@
       "origin": "curl",
       "versions": {
         "8.2.1-r0": 1690353638,
-        "8.3.0-r0": 1695367745
+        "8.3.0-r0": 1695367745,
+        "8.4.0-r0": 1697010565
       },
       "dependencies": [
         "ca-certificates",
@@ -11208,7 +11211,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:curl=8.3.0-r0"
+        "cmd:curl=8.4.0-r0"
       ]
     },
     "perl-test-metrics-any-doc": {
@@ -33283,7 +33286,8 @@
       "origin": "curl",
       "versions": {
         "8.2.1-r0": 1690353638,
-        "8.3.0-r0": 1695367745
+        "8.3.0-r0": 1695367745,
+        "8.4.0-r0": 1697010565
       },
       "dependencies": [
         "ca-certificates"
@@ -34351,19 +34355,20 @@
       "origin": "curl",
       "versions": {
         "8.2.1-r0": 1690353638,
-        "8.3.0-r0": 1695367745
+        "8.3.0-r0": 1695367745,
+        "8.4.0-r0": 1697010565
       },
       "dependencies": [
         "openssl1.1-compat-dev",
         "nghttp2-dev",
         "zlib-dev",
         "brotli-dev",
-        "libcurl=8.3.0-r0",
+        "libcurl=8.4.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcurl=8.3.0",
-        "cmd:curl-config=8.3.0-r0"
+        "pc:libcurl=8.4.0",
+        "cmd:curl-config=8.4.0-r0"
       ]
     },
     "alsa-utils-openrc": {
@@ -53625,7 +53630,8 @@
       "origin": "curl",
       "versions": {
         "8.2.1-r0": 1690353638,
-        "8.3.0-r0": 1695367745
+        "8.3.0-r0": 1695367745,
+        "8.4.0-r0": 1697010565
       },
       "dependencies": [
         "ca-certificates",
