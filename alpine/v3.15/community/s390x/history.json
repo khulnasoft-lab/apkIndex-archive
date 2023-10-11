@@ -7790,10 +7790,11 @@
     "jool-modules-lts": {
       "origin": "jool-modules-lts",
       "versions": {
-        "5.15.134-r0": 1696608894
+        "5.15.134-r0": 1696608894,
+        "5.15.135-r0": 1697014092
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "tesseract-ocr-data-frk": {
@@ -99588,7 +99589,8 @@
     "rtpengine-lts": {
       "origin": "rtpengine-lts",
       "versions": {
-        "5.15.134-r0": 1696608912
+        "5.15.134-r0": 1696608912,
+        "5.15.135-r0": 1697014092
       }
     },
     "unudhcpd": {

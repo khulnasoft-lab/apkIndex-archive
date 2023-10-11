@@ -4440,14 +4440,15 @@
     "zfs-lts-dev": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696599687
+        "5.15.134-r0": 1696599687,
+        "5.15.135-r0": 1697009645
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-lts-dev=5.15.134-r0"
+        "linux-lts-dev=5.15.135-r0"
       ]
     },
     "shorewall6-doc": {
@@ -6173,11 +6174,12 @@
     "dahdi-linux-lts": {
       "origin": "dahdi-linux-lts",
       "versions": {
-        "5.15.134-r0": 1696599414
+        "5.15.134-r0": 1696599414,
+        "5.15.135-r0": 1697009495
       },
       "dependencies": [
         "dahdi-linux",
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "brotli-libs": {
@@ -8539,7 +8541,8 @@
     "linux-virt-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696599141
+        "5.15.134-r0": 1696599141,
+        "5.15.135-r0": 1697009401
       },
       "dependencies": [
         "perl",
@@ -9519,10 +9522,11 @@
     "zfs-virt": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696599687
+        "5.15.134-r0": 1696599687,
+        "5.15.135-r0": 1697009645
       },
       "dependencies": [
-        "linux-virt=5.15.134-r0"
+        "linux-virt=5.15.135-r0"
       ]
     },
     "altermime-doc": {
@@ -17000,7 +17004,8 @@
     "linux-virt": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696599141
+        "5.15.134-r0": 1696599141,
+        "5.15.135-r0": 1697009401
       },
       "dependencies": [
         "initramfs-generator"
@@ -20926,13 +20931,14 @@
     "zfs-lts": {
       "origin": "zfs-lts",
       "versions": {
-        "5.15.134-r0": 1696599687
+        "5.15.134-r0": 1696599687,
+        "5.15.135-r0": 1697009645
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ],
       "provides": [
-        "spl-vanilla=5.15.134-r0"
+        "spl-vanilla=5.15.135-r0"
       ]
     },
     "openldap-overlay-autoca": {
@@ -22019,7 +22025,8 @@
     "dahdi-linux-lts-dev": {
       "origin": "dahdi-linux-lts",
       "versions": {
-        "5.15.134-r0": 1696599414
+        "5.15.134-r0": 1696599414,
+        "5.15.135-r0": 1697009495
       },
       "dependencies": [
         "dahdi-linux-dev"
@@ -27197,7 +27204,8 @@
     "linux-lts-doc": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696599141
+        "5.15.134-r0": 1696599141,
+        "5.15.135-r0": 1697009401
       }
     },
     "yash-binsh": {
@@ -37848,10 +37856,11 @@
     "xtables-addons-lts": {
       "origin": "xtables-addons-lts",
       "versions": {
-        "5.15.134-r0": 1696599431
+        "5.15.134-r0": 1696599431,
+        "5.15.135-r0": 1697009504
       },
       "dependencies": [
-        "linux-lts=5.15.134-r0"
+        "linux-lts=5.15.135-r0"
       ]
     },
     "perl-text-autoformat": {
@@ -42753,7 +42762,8 @@
     "linux-lts-dev": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696599141
+        "5.15.134-r0": 1696599141,
+        "5.15.135-r0": 1697009401
       },
       "dependencies": [
         "perl",
@@ -53328,7 +53338,8 @@
     "linux-lts": {
       "origin": "linux-lts",
       "versions": {
-        "5.15.134-r0": 1696599141
+        "5.15.134-r0": 1696599141,
+        "5.15.135-r0": 1697009401
       },
       "dependencies": [
         "initramfs-generator",
@@ -65650,7 +65661,7 @@
       },
       "spl-vanilla": {
         "package": "zfs-lts",
-        "version": "5.15.134-r0"
+        "version": "5.15.135-r0"
       },
       "boost-graph": {
         "package": "boost1.80-graph",

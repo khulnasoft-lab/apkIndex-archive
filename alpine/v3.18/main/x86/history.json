@@ -6839,22 +6839,24 @@
     "curl": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695304337
+        "8.3.0-r0": 1695304337,
+        "8.4.0-r0": 1697009970
       },
       "dependencies": [
-        "libcurl=8.3.0-r0",
+        "libcurl=8.4.0-r0",
         "so:libc.musl-x86.so.1",
         "so:libcurl.so.4",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:curl=8.3.0-r0"
+        "cmd:curl=8.4.0-r0"
       ]
     },
     "curl-dbg": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695304337
+        "8.3.0-r0": 1695304337,
+        "8.4.0-r0": 1697009970
       },
       "dependencies": [
         "ca-certificates"
@@ -6863,7 +6865,8 @@
     "curl-dev": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695304337
+        "8.3.0-r0": 1695304337,
+        "8.4.0-r0": 1697009970
       },
       "dependencies": [
         "libidn2-dev",
@@ -6871,36 +6874,40 @@
         "nghttp2-dev",
         "zlib-dev",
         "brotli-dev",
-        "libcurl=8.3.0-r0",
+        "libcurl=8.4.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcurl=8.3.0",
-        "cmd:curl-config=8.3.0-r0"
+        "pc:libcurl=8.4.0",
+        "cmd:curl-config=8.4.0-r0"
       ]
     },
     "curl-doc": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695304337
+        "8.3.0-r0": 1695304337,
+        "8.4.0-r0": 1697009970
       }
     },
     "curl-fish-completion": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695304337
+        "8.3.0-r0": 1695304337,
+        "8.4.0-r0": 1697009970
       }
     },
     "curl-static": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695304337
+        "8.3.0-r0": 1695304337,
+        "8.4.0-r0": 1697009970
       }
     },
     "curl-zsh-completion": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695304337
+        "8.3.0-r0": 1695304337,
+        "8.4.0-r0": 1697009970
       }
     },
     "cutter": {
@@ -20900,7 +20907,8 @@
     "libcurl": {
       "origin": "curl",
       "versions": {
-        "8.3.0-r0": 1695304337
+        "8.3.0-r0": 1695304337,
+        "8.4.0-r0": 1697009970
       },
       "dependencies": [
         "ca-certificates",
@@ -27340,7 +27348,8 @@
     "linux-lts": {
       "origin": "linux-lts",
       "versions": {
-        "6.1.56-r0": 1696604875
+        "6.1.56-r0": 1696604875,
+        "6.1.57-r0": 1697007672
       },
       "dependencies": [
         "initramfs-generator",
@@ -27350,7 +27359,8 @@
     "linux-lts-dev": {
       "origin": "linux-lts",
       "versions": {
-        "6.1.56-r0": 1696604875
+        "6.1.56-r0": 1696604875,
+        "6.1.57-r0": 1697007672
       },
       "dependencies": [
         "perl",
@@ -27371,7 +27381,8 @@
     "linux-lts-doc": {
       "origin": "linux-lts",
       "versions": {
-        "6.1.56-r0": 1696604875
+        "6.1.56-r0": 1696604875,
+        "6.1.57-r0": 1697007672
       }
     },
     "linux-pam": {
@@ -27420,7 +27431,8 @@
     "linux-virt": {
       "origin": "linux-lts",
       "versions": {
-        "6.1.56-r0": 1696604875
+        "6.1.56-r0": 1696604875,
+        "6.1.57-r0": 1697007672
       },
       "dependencies": [
         "initramfs-generator"
@@ -27429,7 +27441,8 @@
     "linux-virt-dev": {
       "origin": "linux-lts",
       "versions": {
-        "6.1.56-r0": 1696604875
+        "6.1.56-r0": 1696604875,
+        "6.1.57-r0": 1697007672
       },
       "dependencies": [
         "perl",
@@ -60042,10 +60055,11 @@
     "xtables-addons-lts": {
       "origin": "xtables-addons-lts",
       "versions": {
-        "6.1.56-r0": 1696604928
+        "6.1.56-r0": 1696604928,
+        "6.1.57-r0": 1697007726
       },
       "dependencies": [
-        "linux-lts=6.1.56-r0"
+        "linux-lts=6.1.57-r0"
       ]
     },
     "xtrans": {
@@ -60469,26 +60483,28 @@
     "zfs-lts": {
       "origin": "zfs-lts",
       "versions": {
-        "6.1.56-r0": 1696605088
+        "6.1.56-r0": 1696605088,
+        "6.1.57-r0": 1697007881
       },
       "dependencies": [
-        "linux-lts=6.1.56-r0"
+        "linux-lts=6.1.57-r0"
       ],
       "provides": [
-        "spl-vanilla=6.1.56-r0"
+        "spl-vanilla=6.1.57-r0"
       ]
     },
     "zfs-lts-dev": {
       "origin": "zfs-lts",
       "versions": {
-        "6.1.56-r0": 1696605088
+        "6.1.56-r0": 1696605088,
+        "6.1.57-r0": 1697007881
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-lts-dev=6.1.56-r0"
+        "linux-lts-dev=6.1.57-r0"
       ]
     },
     "zfs-openrc": {
@@ -60538,10 +60554,11 @@
     "zfs-virt": {
       "origin": "zfs-lts",
       "versions": {
-        "6.1.56-r0": 1696605088
+        "6.1.56-r0": 1696605088,
+        "6.1.57-r0": 1697007881
       },
       "dependencies": [
-        "linux-virt=6.1.56-r0"
+        "linux-virt=6.1.57-r0"
       ]
     },
     "zfs-zsh-completion": {
@@ -62034,7 +62051,7 @@
       },
       "spl-vanilla": {
         "package": "zfs-lts",
-        "version": "6.1.56-r0"
+        "version": "6.1.57-r0"
       }
     },
     "so": {
