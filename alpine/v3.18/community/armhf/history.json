@@ -144473,7 +144473,8 @@
     "synapse": {
       "origin": "synapse",
       "versions": {
-        "1.93.0-r0": 1695883737
+        "1.93.0-r0": 1695883737,
+        "1.94.0-r0": 1697063948
       },
       "dependencies": [
         "python3",
@@ -144521,31 +144522,33 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:export_signing_key=1.93.0-r0",
-        "cmd:generate_config=1.93.0-r0",
-        "cmd:generate_log_config=1.93.0-r0",
-        "cmd:generate_signing_key=1.93.0-r0",
-        "cmd:hash_password=1.93.0-r0",
-        "cmd:register_new_matrix_user=1.93.0-r0",
-        "cmd:synapse_homeserver=1.93.0-r0",
-        "cmd:synapse_port_db=1.93.0-r0",
-        "cmd:synapse_review_recent_signups=1.93.0-r0",
-        "cmd:synapse_worker=1.93.0-r0",
-        "cmd:synctl=1.93.0-r0",
-        "cmd:update_synapse_database=1.93.0-r0",
-        "py3.11:synapse=1.93.0-r0"
+        "cmd:export_signing_key=1.94.0-r0",
+        "cmd:generate_config=1.94.0-r0",
+        "cmd:generate_log_config=1.94.0-r0",
+        "cmd:generate_signing_key=1.94.0-r0",
+        "cmd:hash_password=1.94.0-r0",
+        "cmd:register_new_matrix_user=1.94.0-r0",
+        "cmd:synapse_homeserver=1.94.0-r0",
+        "cmd:synapse_port_db=1.94.0-r0",
+        "cmd:synapse_review_recent_signups=1.94.0-r0",
+        "cmd:synapse_worker=1.94.0-r0",
+        "cmd:synctl=1.94.0-r0",
+        "cmd:update_synapse_database=1.94.0-r0",
+        "py3.11:synapse=1.94.0-r0"
       ]
     },
     "synapse-openrc": {
       "origin": "synapse",
       "versions": {
-        "1.93.0-r0": 1695883737
+        "1.93.0-r0": 1695883737,
+        "1.94.0-r0": 1697063948
       }
     },
     "synapse-pyc": {
       "origin": "synapse",
       "versions": {
-        "1.93.0-r0": 1695883737
+        "1.93.0-r0": 1695883737,
+        "1.94.0-r0": 1697063948
       },
       "dependencies": [
         "python3",
