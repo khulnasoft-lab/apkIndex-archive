@@ -19028,7 +19028,8 @@
     "dnsdist": {
       "origin": "dnsdist",
       "versions": {
-        "1.8.1-r0": 1694772153
+        "1.8.1-r0": 1694772153,
+        "1.8.2-r0": 1697101654
       },
       "dependencies": [
         "dnsdist-common",
@@ -19038,7 +19039,7 @@
         "so:libedit.so.0",
         "so:libfstrm.so.0",
         "so:libgcc_s.so.1",
-        "so:libh2o-evloop.so.0.13",
+        "so:libh2o-evloop.so.1.0",
         "so:liblmdb.so.0",
         "so:liblua-5.4.so.0",
         "so:libnetsnmp.so.40",
@@ -19050,13 +19051,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dnsdist=1.8.1-r0"
+        "cmd:dnsdist=1.8.2-r0"
       ]
     },
     "dnsdist-common": {
       "origin": "dnsdist",
       "versions": {
-        "1.8.1-r0": 1694772153
+        "1.8.1-r0": 1694772153,
+        "1.8.2-r0": 1697101654
       },
       "dependencies": [
         "/bin/sh"
@@ -19065,13 +19067,15 @@
     "dnsdist-doc": {
       "origin": "dnsdist",
       "versions": {
-        "1.8.1-r0": 1694772153
+        "1.8.1-r0": 1694772153,
+        "1.8.2-r0": 1697101654
       }
     },
     "dnsdist-luajit": {
       "origin": "dnsdist",
       "versions": {
-        "1.8.1-r0": 1694772153
+        "1.8.1-r0": 1694772153,
+        "1.8.2-r0": 1697101654
       },
       "dependencies": [
         "dnsdist-common",
@@ -19081,7 +19085,7 @@
         "so:libedit.so.0",
         "so:libfstrm.so.0",
         "so:libgcc_s.so.1",
-        "so:libh2o-evloop.so.0.13",
+        "so:libh2o-evloop.so.1.0",
         "so:liblmdb.so.0",
         "so:libluajit-5.1.so.2",
         "so:libnetsnmp.so.40",
@@ -19093,7 +19097,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:dnsdist=1.8.1-r0"
+        "cmd:dnsdist=1.8.2-r0"
       ]
     },
     "dnsrecon": {
@@ -40538,7 +40542,8 @@
     "h2o": {
       "origin": "h2o",
       "versions": {
-        "2.2.6-r9": 1682261198
+        "2.2.6-r9": 1682261198,
+        "2.2.6-r10": 1697101654
       },
       "dependencies": [
         "perl",
@@ -40554,36 +40559,39 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libh2o-evloop.so.0.13=0.13.6",
-        "so:libh2o.so.0.13=0.13.6",
-        "cmd:h2o=2.2.6-r9"
+        "so:libh2o-evloop.so.1.0=1.0.0",
+        "so:libh2o.so.1.0=1.0.0",
+        "cmd:h2o=2.2.6-r10"
       ]
     },
     "h2o-dev": {
       "origin": "h2o",
       "versions": {
-        "2.2.6-r9": 1682261198
+        "2.2.6-r9": 1682261198,
+        "2.2.6-r10": 1697101654
       },
       "dependencies": [
-        "h2o=2.2.6-r9",
+        "h2o=2.2.6-r10",
         "pc:libuv>=1.0.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libh2o-evloop=0.13.6",
-        "pc:libh2o=0.13.6"
+        "pc:libh2o-evloop=1.0.0",
+        "pc:libh2o=1.0.0"
       ]
     },
     "h2o-doc": {
       "origin": "h2o",
       "versions": {
-        "2.2.6-r9": 1682261198
+        "2.2.6-r9": 1682261198,
+        "2.2.6-r10": 1697101654
       }
     },
     "h2o-openrc": {
       "origin": "h2o",
       "versions": {
-        "2.2.6-r9": 1682261198
+        "2.2.6-r9": 1682261198,
+        "2.2.6-r10": 1697101654
       }
     },
     "handlr": {
@@ -174543,6 +174551,14 @@
       "libzzipmmapped.so.13": {
         "package": "zziplib",
         "version": "13.0.72"
+      },
+      "libh2o-evloop.so.1.0": {
+        "package": "h2o",
+        "version": "1.0.0"
+      },
+      "libh2o.so.1.0": {
+        "package": "h2o",
+        "version": "1.0.0"
       }
     },
     "package": {
