@@ -8623,7 +8623,8 @@
     "nghttp2-libs": {
       "origin": "nghttp2",
       "versions": {
-        "1.46.0-r1": 1689799460
+        "1.46.0-r1": 1689799460,
+        "1.46.0-r2": 1697044503
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
@@ -13700,7 +13701,8 @@
     "nghttp2": {
       "origin": "nghttp2",
       "versions": {
-        "1.46.0-r1": 1689799460
+        "1.46.0-r1": 1689799460,
+        "1.46.0-r2": 1697044503
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -13714,10 +13716,10 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:h2load=1.46.0-r1",
-        "cmd:nghttp=1.46.0-r1",
-        "cmd:nghttpd=1.46.0-r1",
-        "cmd:nghttpx=1.46.0-r1"
+        "cmd:h2load=1.46.0-r2",
+        "cmd:nghttp=1.46.0-r2",
+        "cmd:nghttpd=1.46.0-r2",
+        "cmd:nghttpx=1.46.0-r2"
       ]
     },
     "dhcp-doc": {
@@ -52306,7 +52308,8 @@
     "nghttp2-doc": {
       "origin": "nghttp2",
       "versions": {
-        "1.46.0-r1": 1689799460
+        "1.46.0-r1": 1689799460,
+        "1.46.0-r2": 1697044503
       }
     },
     "pixman-dev": {
@@ -52449,10 +52452,11 @@
     "nghttp2-dev": {
       "origin": "nghttp2",
       "versions": {
-        "1.46.0-r1": 1689799460
+        "1.46.0-r1": 1689799460,
+        "1.46.0-r2": 1697044503
       },
       "dependencies": [
-        "nghttp2-libs=1.46.0-r1",
+        "nghttp2-libs=1.46.0-r2",
         "pkgconfig"
       ],
       "provides": [
@@ -52836,7 +52840,8 @@
     "nghttp2-static": {
       "origin": "nghttp2",
       "versions": {
-        "1.46.0-r1": 1689799460
+        "1.46.0-r1": 1689799460,
+        "1.46.0-r2": 1697044503
       }
     },
     "glib-static": {
