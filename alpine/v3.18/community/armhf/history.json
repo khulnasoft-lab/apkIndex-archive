@@ -77368,7 +77368,8 @@
     "nodejs-current": {
       "origin": "nodejs-current",
       "versions": {
-        "20.5.0-r0": 1689890321
+        "20.5.0-r0": 1689890321,
+        "20.8.1-r0": 1697266412
       },
       "dependencies": [
         "ca-certificates",
@@ -77389,14 +77390,15 @@
       ],
       "provides": [
         "nodejs",
-        "cmd:corepack=20.5.0-r0",
-        "cmd:node=20.5.0-r0"
+        "cmd:corepack=20.8.1-r0",
+        "cmd:node=20.8.1-r0"
       ]
     },
     "nodejs-current-dev": {
       "origin": "nodejs-current",
       "versions": {
-        "20.5.0-r0": 1689890321
+        "20.5.0-r0": 1689890321,
+        "20.8.1-r0": 1697266412
       },
       "dependencies": [
         "libuv-dev"
@@ -77405,7 +77407,8 @@
     "nodejs-current-doc": {
       "origin": "nodejs-current",
       "versions": {
-        "20.5.0-r0": 1689890321
+        "20.5.0-r0": 1689890321,
+        "20.8.1-r0": 1697266412
       }
     },
     "noise-suppression-for-voice": {
