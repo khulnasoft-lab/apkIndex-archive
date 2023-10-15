@@ -1739,7 +1739,8 @@
     "nodejs": {
       "origin": "nodejs",
       "versions": {
-        "18.17.1-r0": 1692794509
+        "18.17.1-r0": 1692794509,
+        "18.18.2-r0": 1697329828
       },
       "dependencies": [
         "ca-certificates",
@@ -1758,8 +1759,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "nodejs-lts=18.17.1-r0",
-        "cmd:node=18.17.1-r0"
+        "nodejs-lts=18.18.2-r0",
+        "cmd:node=18.18.2-r0"
       ]
     },
     "perl-unix-syslog": {
@@ -16779,10 +16780,11 @@
     "nodejs-dev": {
       "origin": "nodejs",
       "versions": {
-        "18.17.1-r0": 1692794509
+        "18.17.1-r0": 1692794509,
+        "18.18.2-r0": 1697329828
       },
       "provides": [
-        "nodejs-lts-dev=18.17.1"
+        "nodejs-lts-dev=18.18.2"
       ]
     },
     "secureboot-hook": {
@@ -33451,7 +33453,8 @@
     "nodejs-doc": {
       "origin": "nodejs",
       "versions": {
-        "18.17.1-r0": 1692794509
+        "18.17.1-r0": 1692794509,
+        "18.18.2-r0": 1697329828
       }
     },
     "rsyslog-mmrm1stspace": {
@@ -64810,7 +64813,7 @@
       },
       "nodejs-lts": {
         "package": "nodejs",
-        "version": "18.17.1-r0"
+        "version": "18.18.2-r0"
       },
       "postgresql-doc": {
         "package": "postgresql14-doc",
@@ -65230,7 +65233,7 @@
       },
       "nodejs-lts-dev": {
         "package": "nodejs-dev",
-        "version": "18.17.1"
+        "version": "18.18.2"
       },
       "openssl3": {
         "package": "openssl",
