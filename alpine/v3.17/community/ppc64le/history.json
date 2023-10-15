@@ -5046,7 +5046,8 @@
     "exim": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696254419
+        "4.96.1-r0": 1696254419,
+        "4.96.2-r0": 1697405082
       },
       "dependencies": [
         "ca-certificates",
@@ -5059,13 +5060,13 @@
         "so:libtdb.so.1"
       ],
       "provides": [
-        "cmd:exim=4.96.1-r0",
-        "cmd:mailq=4.96.1-r0",
-        "cmd:newaliases=4.96.1-r0",
-        "cmd:rmail=4.96.1-r0",
-        "cmd:rsmtp=4.96.1-r0",
-        "cmd:runq=4.96.1-r0",
-        "cmd:sendmail=4.96.1-r0"
+        "cmd:exim=4.96.2-r0",
+        "cmd:mailq=4.96.2-r0",
+        "cmd:newaliases=4.96.2-r0",
+        "cmd:rmail=4.96.2-r0",
+        "cmd:rsmtp=4.96.2-r0",
+        "cmd:runq=4.96.2-r0",
+        "cmd:sendmail=4.96.2-r0"
       ]
     },
     "libraw-dev": {
@@ -31419,7 +31420,8 @@
     "exim-mysql": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696254419
+        "4.96.1-r0": 1696254419,
+        "4.96.2-r0": 1697405082
       },
       "dependencies": [
         "exim",
@@ -53081,7 +53083,8 @@
     "exim-sqlite": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696254419
+        "4.96.1-r0": 1696254419,
+        "4.96.2-r0": 1697405082
       },
       "dependencies": [
         "exim",
@@ -80452,7 +80455,8 @@
     "exim-openrc": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696254419
+        "4.96.1-r0": 1696254419,
+        "4.96.2-r0": 1697405082
       }
     },
     "ntpsec-dev": {
@@ -81595,7 +81599,8 @@
     "exim-dnsdb": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696254419
+        "4.96.1-r0": 1696254419,
+        "4.96.2-r0": 1697405082
       },
       "dependencies": [
         "exim",
@@ -83961,7 +83966,8 @@
     "exim-postgresql": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696254419
+        "4.96.1-r0": 1696254419,
+        "4.96.2-r0": 1697405082
       },
       "dependencies": [
         "exim",
@@ -91127,7 +91133,8 @@
     "exim-cdb": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696254419
+        "4.96.1-r0": 1696254419,
+        "4.96.2-r0": 1697405082
       },
       "dependencies": [
         "exim",
@@ -91877,7 +91884,8 @@
     "exim-dbmdb": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696254419
+        "4.96.1-r0": 1696254419,
+        "4.96.2-r0": 1697405082
       },
       "dependencies": [
         "exim",
@@ -94396,7 +94404,8 @@
     "exim-utils": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696254419
+        "4.96.1-r0": 1696254419,
+        "4.96.2-r0": 1697405082
       },
       "dependencies": [
         "exim",
@@ -94404,12 +94413,12 @@
         "so:libtdb.so.1"
       ],
       "provides": [
-        "cmd:exim_dbmbuild=4.96.1-r0",
-        "cmd:exim_dumpdb=4.96.1-r0",
-        "cmd:exim_fixdb=4.96.1-r0",
-        "cmd:exim_gencert=4.96.1-r0",
-        "cmd:exim_lock=4.96.1-r0",
-        "cmd:exim_tidydb=4.96.1-r0"
+        "cmd:exim_dbmbuild=4.96.2-r0",
+        "cmd:exim_dumpdb=4.96.2-r0",
+        "cmd:exim_fixdb=4.96.2-r0",
+        "cmd:exim_gencert=4.96.2-r0",
+        "cmd:exim_lock=4.96.2-r0",
+        "cmd:exim_tidydb=4.96.2-r0"
       ]
     },
     "librados16": {
@@ -97080,7 +97089,8 @@
     "exim-doc": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696254419
+        "4.96.1-r0": 1696254419,
+        "4.96.2-r0": 1697405082
       }
     },
     "lua5.2-lgi": {
@@ -146342,24 +146352,25 @@
     "exim-scripts": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696254419
+        "4.96.1-r0": 1696254419,
+        "4.96.2-r0": 1697405082
       },
       "dependencies": [
         "exim",
         "perl"
       ],
       "provides": [
-        "cmd:convert4r3=4.96.1-r0",
-        "cmd:convert4r4=4.96.1-r0",
-        "cmd:exicyclog=4.96.1-r0",
-        "cmd:exigrep=4.96.1-r0",
-        "cmd:exim_checkaccess=4.96.1-r0",
-        "cmd:eximstats=4.96.1-r0",
-        "cmd:exinext=4.96.1-r0",
-        "cmd:exipick=4.96.1-r0",
-        "cmd:exiqgrep=4.96.1-r0",
-        "cmd:exiqsumm=4.96.1-r0",
-        "cmd:exiwhat=4.96.1-r0"
+        "cmd:convert4r3=4.96.2-r0",
+        "cmd:convert4r4=4.96.2-r0",
+        "cmd:exicyclog=4.96.2-r0",
+        "cmd:exigrep=4.96.2-r0",
+        "cmd:exim_checkaccess=4.96.2-r0",
+        "cmd:eximstats=4.96.2-r0",
+        "cmd:exinext=4.96.2-r0",
+        "cmd:exipick=4.96.2-r0",
+        "cmd:exiqgrep=4.96.2-r0",
+        "cmd:exiqsumm=4.96.2-r0",
+        "cmd:exiwhat=4.96.2-r0"
       ]
     },
     "gtkspell-dev": {
