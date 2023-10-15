@@ -44788,19 +44788,21 @@
     "jetty-runner": {
       "origin": "jetty-runner",
       "versions": {
-        "9.4.51.20230217-r2": 1693320907
+        "9.4.51.20230217-r2": 1693320907,
+        "9.4.53.20231009-r0": 1697381470
       },
       "dependencies": [
         "java-jre-headless"
       ],
       "provides": [
-        "cmd:jetty-runner=9.4.51.20230217-r2"
+        "cmd:jetty-runner=9.4.53.20231009-r0"
       ]
     },
     "jetty-runner-openrc": {
       "origin": "jetty-runner",
       "versions": {
-        "9.4.51.20230217-r2": 1693320907
+        "9.4.51.20230217-r2": 1693320907,
+        "9.4.53.20231009-r0": 1697381470
       }
     },
     "jfsutils": {
