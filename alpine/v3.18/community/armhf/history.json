@@ -22862,7 +22862,8 @@
     "exim": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696277880
+        "4.96.1-r0": 1696277880,
+        "4.96.2-r0": 1697405080
       },
       "dependencies": [
         "ca-certificates",
@@ -22875,19 +22876,20 @@
         "so:libtdb.so.1"
       ],
       "provides": [
-        "cmd:exim=4.96.1-r0",
-        "cmd:mailq=4.96.1-r0",
-        "cmd:newaliases=4.96.1-r0",
-        "cmd:rmail=4.96.1-r0",
-        "cmd:rsmtp=4.96.1-r0",
-        "cmd:runq=4.96.1-r0",
-        "cmd:sendmail=4.96.1-r0"
+        "cmd:exim=4.96.2-r0",
+        "cmd:mailq=4.96.2-r0",
+        "cmd:newaliases=4.96.2-r0",
+        "cmd:rmail=4.96.2-r0",
+        "cmd:rsmtp=4.96.2-r0",
+        "cmd:runq=4.96.2-r0",
+        "cmd:sendmail=4.96.2-r0"
       ]
     },
     "exim-cdb": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696277880
+        "4.96.1-r0": 1696277880,
+        "4.96.2-r0": 1697405080
       },
       "dependencies": [
         "exim",
@@ -22897,7 +22899,8 @@
     "exim-dbmdb": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696277880
+        "4.96.1-r0": 1696277880,
+        "4.96.2-r0": 1697405080
       },
       "dependencies": [
         "exim",
@@ -22907,7 +22910,8 @@
     "exim-dnsdb": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696277880
+        "4.96.1-r0": 1696277880,
+        "4.96.2-r0": 1697405080
       },
       "dependencies": [
         "exim",
@@ -22917,13 +22921,15 @@
     "exim-doc": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696277880
+        "4.96.1-r0": 1696277880,
+        "4.96.2-r0": 1697405080
       }
     },
     "exim-mysql": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696277880
+        "4.96.1-r0": 1696277880,
+        "4.96.2-r0": 1697405080
       },
       "dependencies": [
         "exim",
@@ -22934,13 +22940,15 @@
     "exim-openrc": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696277880
+        "4.96.1-r0": 1696277880,
+        "4.96.2-r0": 1697405080
       }
     },
     "exim-postgresql": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696277880
+        "4.96.1-r0": 1696277880,
+        "4.96.2-r0": 1697405080
       },
       "dependencies": [
         "exim",
@@ -22951,30 +22959,32 @@
     "exim-scripts": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696277880
+        "4.96.1-r0": 1696277880,
+        "4.96.2-r0": 1697405080
       },
       "dependencies": [
         "exim",
         "perl"
       ],
       "provides": [
-        "cmd:convert4r3=4.96.1-r0",
-        "cmd:convert4r4=4.96.1-r0",
-        "cmd:exicyclog=4.96.1-r0",
-        "cmd:exigrep=4.96.1-r0",
-        "cmd:exim_checkaccess=4.96.1-r0",
-        "cmd:eximstats=4.96.1-r0",
-        "cmd:exinext=4.96.1-r0",
-        "cmd:exipick=4.96.1-r0",
-        "cmd:exiqgrep=4.96.1-r0",
-        "cmd:exiqsumm=4.96.1-r0",
-        "cmd:exiwhat=4.96.1-r0"
+        "cmd:convert4r3=4.96.2-r0",
+        "cmd:convert4r4=4.96.2-r0",
+        "cmd:exicyclog=4.96.2-r0",
+        "cmd:exigrep=4.96.2-r0",
+        "cmd:exim_checkaccess=4.96.2-r0",
+        "cmd:eximstats=4.96.2-r0",
+        "cmd:exinext=4.96.2-r0",
+        "cmd:exipick=4.96.2-r0",
+        "cmd:exiqgrep=4.96.2-r0",
+        "cmd:exiqsumm=4.96.2-r0",
+        "cmd:exiwhat=4.96.2-r0"
       ]
     },
     "exim-sqlite": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696277880
+        "4.96.1-r0": 1696277880,
+        "4.96.2-r0": 1697405080
       },
       "dependencies": [
         "exim",
@@ -22985,7 +22995,8 @@
     "exim-utils": {
       "origin": "exim",
       "versions": {
-        "4.96.1-r0": 1696277880
+        "4.96.1-r0": 1696277880,
+        "4.96.2-r0": 1697405080
       },
       "dependencies": [
         "exim",
@@ -22993,12 +23004,12 @@
         "so:libtdb.so.1"
       ],
       "provides": [
-        "cmd:exim_dbmbuild=4.96.1-r0",
-        "cmd:exim_dumpdb=4.96.1-r0",
-        "cmd:exim_fixdb=4.96.1-r0",
-        "cmd:exim_gencert=4.96.1-r0",
-        "cmd:exim_lock=4.96.1-r0",
-        "cmd:exim_tidydb=4.96.1-r0"
+        "cmd:exim_dbmbuild=4.96.2-r0",
+        "cmd:exim_dumpdb=4.96.2-r0",
+        "cmd:exim_fixdb=4.96.2-r0",
+        "cmd:exim_gencert=4.96.2-r0",
+        "cmd:exim_lock=4.96.2-r0",
+        "cmd:exim_tidydb=4.96.2-r0"
       ]
     },
     "exiv2": {
@@ -130458,7 +130469,8 @@
     "qt5-qtwebengine": {
       "origin": "qt5-qtwebengine",
       "versions": {
-        "5.15.13-r8": 1694801329
+        "5.15.13-r8": 1694801329,
+        "5.15.13-r9": 1697421026
       },
       "dependencies": [
         "mesa-dri-gallium",
@@ -130526,7 +130538,8 @@
     "qt5-qtwebengine-dbg": {
       "origin": "qt5-qtwebengine",
       "versions": {
-        "5.15.13-r8": 1694801329
+        "5.15.13-r8": 1694801329,
+        "5.15.13-r9": 1697421026
       },
       "dependencies": [
         "mesa-dri-gallium"
@@ -130535,7 +130548,8 @@
     "qt5-qtwebengine-dev": {
       "origin": "qt5-qtwebengine",
       "versions": {
-        "5.15.13-r8": 1694801329
+        "5.15.13-r8": 1694801329,
+        "5.15.13-r9": 1697421026
       },
       "dependencies": [
         "ffmpeg-dev",
@@ -130562,7 +130576,7 @@
         "pc:Qt5WebChannel",
         "pc:Qt5Widgets",
         "pkgconfig",
-        "qt5-qtwebengine=5.15.13-r8"
+        "qt5-qtwebengine=5.15.13-r9"
       ],
       "provides": [
         "pc:Qt5Pdf=5.15.9",
