@@ -27190,7 +27190,8 @@
       "origin": "linux-lts",
       "versions": {
         "6.1.56-r0": 1696604875,
-        "6.1.57-r0": 1697007672
+        "6.1.57-r0": 1697007672,
+        "6.1.58-r0": 1697442437
       },
       "dependencies": [
         "initramfs-generator",
@@ -27201,7 +27202,8 @@
       "origin": "linux-lts",
       "versions": {
         "6.1.56-r0": 1696604875,
-        "6.1.57-r0": 1697007672
+        "6.1.57-r0": 1697007672,
+        "6.1.58-r0": 1697442437
       },
       "dependencies": [
         "perl",
@@ -27222,7 +27224,8 @@
       "origin": "linux-lts",
       "versions": {
         "6.1.56-r0": 1696604875,
-        "6.1.57-r0": 1697007672
+        "6.1.57-r0": 1697007672,
+        "6.1.58-r0": 1697442437
       }
     },
     "linux-pam": {
@@ -27272,7 +27275,8 @@
       "origin": "linux-lts",
       "versions": {
         "6.1.56-r0": 1696604875,
-        "6.1.57-r0": 1697007672
+        "6.1.57-r0": 1697007672,
+        "6.1.58-r0": 1697442437
       },
       "dependencies": [
         "initramfs-generator"
@@ -27282,7 +27286,8 @@
       "origin": "linux-lts",
       "versions": {
         "6.1.56-r0": 1696604875,
-        "6.1.57-r0": 1697007672
+        "6.1.57-r0": 1697007672,
+        "6.1.58-r0": 1697442437
       },
       "dependencies": [
         "perl",
@@ -59716,10 +59721,11 @@
       "origin": "xtables-addons-lts",
       "versions": {
         "6.1.56-r0": 1696604928,
-        "6.1.57-r0": 1697007726
+        "6.1.57-r0": 1697007726,
+        "6.1.58-r0": 1697442488
       },
       "dependencies": [
-        "linux-lts=6.1.57-r0"
+        "linux-lts=6.1.58-r0"
       ]
     },
     "xtrans": {
@@ -60144,27 +60150,29 @@
       "origin": "zfs-lts",
       "versions": {
         "6.1.56-r0": 1696605088,
-        "6.1.57-r0": 1697007881
+        "6.1.57-r0": 1697007881,
+        "6.1.58-r0": 1697442642
       },
       "dependencies": [
-        "linux-lts=6.1.57-r0"
+        "linux-lts=6.1.58-r0"
       ],
       "provides": [
-        "spl-vanilla=6.1.57-r0"
+        "spl-vanilla=6.1.58-r0"
       ]
     },
     "zfs-lts-dev": {
       "origin": "zfs-lts",
       "versions": {
         "6.1.56-r0": 1696605088,
-        "6.1.57-r0": 1697007881
+        "6.1.57-r0": 1697007881,
+        "6.1.58-r0": 1697442642
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-lts-dev=6.1.57-r0"
+        "linux-lts-dev=6.1.58-r0"
       ]
     },
     "zfs-openrc": {
@@ -61697,7 +61705,7 @@
       },
       "spl-vanilla": {
         "package": "zfs-lts",
-        "version": "6.1.57-r0"
+        "version": "6.1.58-r0"
       }
     },
     "so": {
