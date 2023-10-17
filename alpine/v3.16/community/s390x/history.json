@@ -8243,7 +8243,8 @@
     "zabbix-utils": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -8253,8 +8254,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_get=6.0.20-r0",
-        "cmd:zabbix_sender=6.0.20-r0"
+        "cmd:zabbix_get=6.0.22-r0",
+        "cmd:zabbix_sender=6.0.22-r0"
       ]
     },
     "timblserver-dev": {
@@ -11232,7 +11233,8 @@
     "zabbix-setup": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       }
     },
     "gtk-engines-dev": {
@@ -26642,7 +26644,8 @@
     "zabbix": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "fping",
@@ -28433,7 +28436,8 @@
     "zabbix-agent2-openrc": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "openrc"
@@ -31005,7 +31009,8 @@
     "zabbix-doc": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       }
     },
     "unison-doc": {
@@ -33801,7 +33806,8 @@
     "zabbix-agent": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "/bin/sh",
@@ -33813,7 +33819,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agentd=6.0.20-r0"
+        "cmd:zabbix_agentd=6.0.22-r0"
       ]
     },
     "exim-sqlite": {
@@ -52196,7 +52202,8 @@
     "zabbix-agent2": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "/bin/sh",
@@ -52207,7 +52214,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agent2=6.0.20-r0"
+        "cmd:zabbix_agent2=6.0.22-r0"
       ]
     },
     "mercurial-vim": {
@@ -53275,7 +53282,8 @@
     "zabbix-sqlite": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "zabbix",
@@ -53297,7 +53305,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=6.0.20-r0"
+        "cmd:zabbix_proxy=6.0.22-r0"
       ]
     },
     "xapp-lang": {
@@ -63460,7 +63468,8 @@
     "zabbix-webif": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "php8",
@@ -73382,7 +73391,8 @@
     "zabbix-mysql": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "zabbix",
@@ -73404,8 +73414,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=6.0.20-r0",
-        "cmd:zabbix_server=6.0.20-r0"
+        "cmd:zabbix_proxy=6.0.22-r0",
+        "cmd:zabbix_server=6.0.22-r0"
       ]
     },
     "chafa": {
@@ -74465,7 +74475,8 @@
     "zabbix-pgsql": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "zabbix",
@@ -74487,8 +74498,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=6.0.20-r0",
-        "cmd:zabbix_server=6.0.20-r0"
+        "cmd:zabbix_proxy=6.0.22-r0",
+        "cmd:zabbix_server=6.0.22-r0"
       ]
     },
     "usb-moded": {
@@ -77683,7 +77694,8 @@
     "zabbix-agent-openrc": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "openrc"
@@ -77921,7 +77933,8 @@
     "zabbix-openrc": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       }
     },
     "ibus-hangul": {

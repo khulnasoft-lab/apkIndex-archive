@@ -24360,7 +24360,8 @@
     "zabbix-doc": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       }
     },
     "collectd-ted": {
@@ -25725,7 +25726,8 @@
     "zabbix": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "fping",
@@ -36910,7 +36912,8 @@
     "zabbix-setup": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       }
     },
     "libpulse-mainloop-glib": {
@@ -62185,7 +62188,8 @@
     "zabbix-agent": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "/bin/sh",
@@ -62197,7 +62201,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agentd=6.0.20-r0"
+        "cmd:zabbix_agentd=6.0.22-r0"
       ]
     },
     "ansible-lint": {
@@ -73366,7 +73370,8 @@
     "zabbix-agent2": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "/bin/sh",
@@ -73377,7 +73382,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agent2=6.0.20-r0"
+        "cmd:zabbix_agent2=6.0.22-r0"
       ]
     },
     "kparts-lang": {
@@ -74183,7 +74188,8 @@
     "zabbix-utils": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -74193,8 +74199,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_get=6.0.20-r0",
-        "cmd:zabbix_sender=6.0.20-r0"
+        "cmd:zabbix_get=6.0.22-r0",
+        "cmd:zabbix_sender=6.0.22-r0"
       ]
     },
     "qt5-qtquickcontrols2": {
@@ -104582,7 +104588,8 @@
     "zabbix-pgsql": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "zabbix",
@@ -104604,8 +104611,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=6.0.20-r0",
-        "cmd:zabbix_server=6.0.20-r0"
+        "cmd:zabbix_proxy=6.0.22-r0",
+        "cmd:zabbix_server=6.0.22-r0"
       ]
     },
     "transmission-static": {
@@ -107205,7 +107212,8 @@
     "zabbix-openrc": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       }
     },
     "patchelf-doc": {
@@ -109648,7 +109656,8 @@
     "zabbix-webif": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "php8",
@@ -118926,7 +118935,8 @@
     "zabbix-mysql": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "zabbix",
@@ -118948,8 +118958,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=6.0.20-r0",
-        "cmd:zabbix_server=6.0.20-r0"
+        "cmd:zabbix_proxy=6.0.22-r0",
+        "cmd:zabbix_server=6.0.22-r0"
       ]
     },
     "hdf5-dev": {
@@ -121551,7 +121561,8 @@
     "zabbix-agent-openrc": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "openrc"
@@ -129065,7 +129076,8 @@
     "zabbix-agent2-openrc": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "openrc"
@@ -133913,7 +133925,8 @@
     "zabbix-sqlite": {
       "origin": "zabbix",
       "versions": {
-        "6.0.20-r0": 1691067800
+        "6.0.20-r0": 1691067800,
+        "6.0.22-r0": 1697528103
       },
       "dependencies": [
         "zabbix",
@@ -133935,7 +133948,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=6.0.20-r0"
+        "cmd:zabbix_proxy=6.0.22-r0"
       ]
     },
     "pulsemixer": {
