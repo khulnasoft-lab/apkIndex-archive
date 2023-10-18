@@ -11783,14 +11783,15 @@
     "py3-urllib3": {
       "origin": "py3-urllib3",
       "versions": {
-        "1.26.17-r0": 1696476875
+        "1.26.17-r0": 1696476875,
+        "1.26.18-r0": 1697604920
       },
       "dependencies": [
         "python3"
       ],
       "provides": [
-        "py-urllib3=1.26.17-r0",
-        "py3.10:urllib3=1.26.17-r0"
+        "py-urllib3=1.26.18-r0",
+        "py3.10:urllib3=1.26.18-r0"
       ]
     },
     "subversion-bash-completion": {
@@ -62765,7 +62766,7 @@
       },
       "py-urllib3": {
         "package": "py3-urllib3",
-        "version": "1.26.17-r0"
+        "version": "1.26.18-r0"
       },
       "freeradius3-krb5": {
         "package": "freeradius-krb5",
