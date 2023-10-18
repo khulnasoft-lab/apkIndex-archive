@@ -16778,7 +16778,8 @@
     "redis": {
       "origin": "redis",
       "versions": {
-        "7.0.13-r0": 1694079777
+        "7.0.13-r0": 1694079777,
+        "7.0.14-r0": 1697641560
       },
       "dependencies": [
         "/bin/sh",
@@ -16788,12 +16789,12 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:redis-benchmark=7.0.13-r0",
-        "cmd:redis-check-aof=7.0.13-r0",
-        "cmd:redis-check-rdb=7.0.13-r0",
-        "cmd:redis-cli=7.0.13-r0",
-        "cmd:redis-sentinel=7.0.13-r0",
-        "cmd:redis-server=7.0.13-r0"
+        "cmd:redis-benchmark=7.0.14-r0",
+        "cmd:redis-check-aof=7.0.14-r0",
+        "cmd:redis-check-rdb=7.0.14-r0",
+        "cmd:redis-cli=7.0.14-r0",
+        "cmd:redis-sentinel=7.0.14-r0",
+        "cmd:redis-server=7.0.14-r0"
       ]
     },
     "openssh-keygen": {
@@ -27580,7 +27581,8 @@
     "redis-openrc": {
       "origin": "redis",
       "versions": {
-        "7.0.13-r0": 1694079777
+        "7.0.13-r0": 1694079777,
+        "7.0.14-r0": 1697641560
       }
     },
     "bridge-utils-doc": {
