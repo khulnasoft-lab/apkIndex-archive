@@ -4504,7 +4504,8 @@
     "nodejs-doc": {
       "origin": "nodejs",
       "versions": {
-        "16.20.1-r0": 1687291840
+        "16.20.1-r0": 1687291840,
+        "16.20.2-r0": 1697688600
       }
     },
     "opus-dev": {
@@ -15288,7 +15289,8 @@
     "nodejs": {
       "origin": "nodejs",
       "versions": {
-        "16.20.1-r0": 1687291840
+        "16.20.1-r0": 1687291840,
+        "16.20.2-r0": 1697688600
       },
       "dependencies": [
         "ca-certificates",
@@ -15305,8 +15307,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "nodejs-lts=16.20.1",
-        "cmd:node=16.20.1-r0"
+        "nodejs-lts=16.20.2",
+        "cmd:node=16.20.2-r0"
       ]
     },
     "vanessa_logger-doc": {
@@ -43655,10 +43657,11 @@
     "nodejs-dev": {
       "origin": "nodejs",
       "versions": {
-        "16.20.1-r0": 1687291840
+        "16.20.1-r0": 1687291840,
+        "16.20.2-r0": 1697688600
       },
       "provides": [
-        "nodejs-lts-dev=16.20.1"
+        "nodejs-lts-dev=16.20.2"
       ]
     },
     "chrpath-doc": {
@@ -61563,7 +61566,7 @@
       },
       "nodejs-lts": {
         "package": "nodejs",
-        "version": "16.20.1"
+        "version": "16.20.2"
       },
       "mysql-dev": {
         "package": "mariadb-dev",
@@ -62107,7 +62110,7 @@
       },
       "nodejs-lts-dev": {
         "package": "nodejs-dev",
-        "version": "16.20.1"
+        "version": "16.20.2"
       },
       "py-filelock": {
         "package": "py3-filelock",
