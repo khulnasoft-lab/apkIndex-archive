@@ -6863,7 +6863,8 @@
     "apache2": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "/bin/sh",
@@ -6874,9 +6875,9 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:fcgistarter=2.4.57-r0",
-        "cmd:httpd=2.4.57-r0",
-        "cmd:suexec=2.4.57-r0"
+        "cmd:fcgistarter=2.4.58-r0",
+        "cmd:httpd=2.4.58-r0",
+        "cmd:suexec=2.4.58-r0"
       ]
     },
     "lua5.4-discount": {
@@ -10467,7 +10468,8 @@
     "apache2-lua": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "apache2",
@@ -18263,7 +18265,8 @@
     "apache2-ssl": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "apache2",
@@ -21204,7 +21207,8 @@
     "apache2-webdav": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "apache2",
@@ -21670,7 +21674,8 @@
     "apache2-utils": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "so:libapr-1.so.0",
@@ -21680,16 +21685,16 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:ab=2.4.57-r0",
-        "cmd:checkgid=2.4.57-r0",
-        "cmd:dbmmanage=2.4.57-r0",
-        "cmd:htcacheclean=2.4.57-r0",
-        "cmd:htdbm=2.4.57-r0",
-        "cmd:htdigest=2.4.57-r0",
-        "cmd:htpasswd=2.4.57-r0",
-        "cmd:httxt2dbm=2.4.57-r0",
-        "cmd:logresolve=2.4.57-r0",
-        "cmd:rotatelogs=2.4.57-r0"
+        "cmd:ab=2.4.58-r0",
+        "cmd:checkgid=2.4.58-r0",
+        "cmd:dbmmanage=2.4.58-r0",
+        "cmd:htcacheclean=2.4.58-r0",
+        "cmd:htdbm=2.4.58-r0",
+        "cmd:htdigest=2.4.58-r0",
+        "cmd:htpasswd=2.4.58-r0",
+        "cmd:httxt2dbm=2.4.58-r0",
+        "cmd:logresolve=2.4.58-r0",
+        "cmd:rotatelogs=2.4.58-r0"
       ]
     },
     "perl-email-date-format-doc": {
@@ -23241,7 +23246,8 @@
     "apache2-ldap": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "apache2",
@@ -26997,7 +27003,8 @@
     "apache2-brotli": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "apache2",
@@ -31613,7 +31620,8 @@
     "apache2-error": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       }
     },
     "acf-gross": {
@@ -35305,7 +35313,8 @@
     "apache2-icons": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       }
     },
     "font-dec-misc": {
@@ -35799,7 +35808,8 @@
     "apache2-proxy-html": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "apache2",
@@ -42567,7 +42577,8 @@
     "apache2-proxy": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "apache2",
@@ -44312,7 +44323,8 @@
     "apache2-http2": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "apache2",
@@ -45629,13 +45641,14 @@
     "apache2-ctl": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "lynx"
       ],
       "provides": [
-        "cmd:apachectl=2.4.57-r0"
+        "cmd:apachectl=2.4.58-r0"
       ]
     },
     "font-droid": {
@@ -48196,14 +48209,15 @@
     "apache2-dev": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       },
       "dependencies": [
         "perl",
         "apr-util-dev"
       ],
       "provides": [
-        "cmd:apxs=2.4.57-r0"
+        "cmd:apxs=2.4.58-r0"
       ]
     },
     "opensp": {
@@ -50672,7 +50686,8 @@
     "apache2-doc": {
       "origin": "apache2",
       "versions": {
-        "2.4.57-r0": 1681229229
+        "2.4.57-r0": 1681229229,
+        "2.4.58-r0": 1697719174
       }
     },
     "yaml": {

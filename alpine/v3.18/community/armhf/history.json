@@ -34929,7 +34929,8 @@
     "gnome-settings-daemon": {
       "origin": "gnome-settings-daemon",
       "versions": {
-        "44.1-r0": 1681920408
+        "44.1-r0": 1681920408,
+        "44.1-r1": 1697728049
       },
       "dependencies": [
         "pulseaudio",
@@ -34978,7 +34979,8 @@
     "gnome-settings-daemon-dev": {
       "origin": "gnome-settings-daemon",
       "versions": {
-        "44.1-r0": 1681920408
+        "44.1-r0": 1681920408,
+        "44.1-r1": 1697728049
       },
       "dependencies": [
         "alsa-lib-dev",
@@ -35007,7 +35009,8 @@
     "gnome-settings-daemon-lang": {
       "origin": "gnome-settings-daemon",
       "versions": {
-        "44.1-r0": 1681920408
+        "44.1-r0": 1681920408,
+        "44.1-r1": 1697728049
       },
       "dependencies": [
         "pulseaudio"

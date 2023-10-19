@@ -7336,7 +7336,8 @@
     "apache2-proxy": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "apache2",
@@ -8350,7 +8351,8 @@
     "apache2-proxy-html": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "apache2",
@@ -9023,7 +9025,8 @@
     "apache2-ssl": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "apache2",
@@ -15156,7 +15159,8 @@
     "apache2-lua": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "apache2",
@@ -20385,7 +20389,8 @@
     "apache2-http2": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "apache2",
@@ -24072,7 +24077,8 @@
     "apache2-webdav": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "apache2",
@@ -32344,7 +32350,8 @@
     "apache2-icons": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       }
     },
     "unifont-dev": {
@@ -40142,7 +40149,8 @@
     "apache2-utils": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "so:libapr-1.so.0",
@@ -40152,16 +40160,16 @@
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:ab=2.4.56-r0",
-        "cmd:checkgid=2.4.56-r0",
-        "cmd:dbmmanage=2.4.56-r0",
-        "cmd:htcacheclean=2.4.56-r0",
-        "cmd:htdbm=2.4.56-r0",
-        "cmd:htdigest=2.4.56-r0",
-        "cmd:htpasswd=2.4.56-r0",
-        "cmd:httxt2dbm=2.4.56-r0",
-        "cmd:logresolve=2.4.56-r0",
-        "cmd:rotatelogs=2.4.56-r0"
+        "cmd:ab=2.4.58-r0",
+        "cmd:checkgid=2.4.58-r0",
+        "cmd:dbmmanage=2.4.58-r0",
+        "cmd:htcacheclean=2.4.58-r0",
+        "cmd:htdbm=2.4.58-r0",
+        "cmd:htdigest=2.4.58-r0",
+        "cmd:htpasswd=2.4.58-r0",
+        "cmd:httxt2dbm=2.4.58-r0",
+        "cmd:logresolve=2.4.58-r0",
+        "cmd:rotatelogs=2.4.58-r0"
       ]
     },
     "cairo-gobject": {
@@ -40193,14 +40201,15 @@
     "apache2-dev": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "perl",
         "apr-util-dev"
       ],
       "provides": [
-        "cmd:apxs=2.4.56-r0"
+        "cmd:apxs=2.4.58-r0"
       ]
     },
     "perl-carp-clan": {
@@ -43409,13 +43418,14 @@
     "apache2-ctl": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "lynx"
       ],
       "provides": [
-        "cmd:apachectl=2.4.56-r0"
+        "cmd:apachectl=2.4.58-r0"
       ]
     },
     "gstreamer-doc": {
@@ -46245,7 +46255,8 @@
     "apache2": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "/bin/sh",
@@ -46256,9 +46267,9 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:fcgistarter=2.4.56-r0",
-        "cmd:httpd=2.4.56-r0",
-        "cmd:suexec=2.4.56-r0"
+        "cmd:fcgistarter=2.4.58-r0",
+        "cmd:httpd=2.4.58-r0",
+        "cmd:suexec=2.4.58-r0"
       ]
     },
     "ruby-test-unit-doc": {
@@ -46342,7 +46353,8 @@
     "apache2-brotli": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "apache2",
@@ -47623,7 +47635,8 @@
     "apache2-doc": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       }
     },
     "lighttpd-mod_webdav": {
@@ -51204,7 +51217,8 @@
     "apache2-ldap": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       },
       "dependencies": [
         "apache2",
@@ -52397,7 +52411,8 @@
     "apache2-error": {
       "origin": "apache2",
       "versions": {
-        "2.4.56-r0": 1678217632
+        "2.4.56-r0": 1678217632,
+        "2.4.58-r0": 1697719317
       }
     },
     "perl-config-grammar": {
