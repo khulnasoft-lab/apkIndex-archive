@@ -21323,10 +21323,11 @@
     "nodejs-dev": {
       "origin": "nodejs",
       "versions": {
-        "16.20.1-r0": 1687291840
+        "16.20.1-r0": 1687291840,
+        "16.20.2-r0": 1697688600
       },
       "provides": [
-        "nodejs-lts-dev=16.20.1"
+        "nodejs-lts-dev=16.20.2"
       ]
     },
     "nagios-plugins-radius": {
@@ -26285,7 +26286,8 @@
     "nodejs-doc": {
       "origin": "nodejs",
       "versions": {
-        "16.20.1-r0": 1687291840
+        "16.20.1-r0": 1687291840,
+        "16.20.2-r0": 1697688600
       }
     },
     "perl-test-failwarnings": {
@@ -45563,7 +45565,8 @@
     "nodejs": {
       "origin": "nodejs",
       "versions": {
-        "16.20.1-r0": 1687291840
+        "16.20.1-r0": 1687291840,
+        "16.20.2-r0": 1697688600
       },
       "dependencies": [
         "ca-certificates",
@@ -45581,8 +45584,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "nodejs-lts=16.20.1",
-        "cmd:node=16.20.1-r0"
+        "nodejs-lts=16.20.2",
+        "cmd:node=16.20.2-r0"
       ]
     },
     "libucontext-doc": {
@@ -62641,7 +62644,7 @@
       },
       "nodejs-lts-dev": {
         "package": "nodejs-dev",
-        "version": "16.20.1"
+        "version": "16.20.2"
       },
       "boost-log": {
         "package": "boost1.77-log",
@@ -63041,7 +63044,7 @@
       },
       "nodejs-lts": {
         "package": "nodejs",
-        "version": "16.20.1"
+        "version": "16.20.2"
       },
       "py-markdown": {
         "package": "py3-markdown",
