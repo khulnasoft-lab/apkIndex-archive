@@ -120,7 +120,8 @@
     "openjdk17-jre": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       },
       "dependencies": [
         "openjdk17-jre-headless",
@@ -1994,7 +1995,8 @@
     "openjdk17-src": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       },
       "dependencies": [
         "openjdk17-jre-headless"
@@ -4702,7 +4704,8 @@
     "openjdk17-jmods": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       }
     },
     "exim-mysql": {
@@ -15479,7 +15482,8 @@
     "openjdk11-jmods": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       }
     },
     "imagemagick6-dev": {
@@ -20008,7 +20012,8 @@
     "openjdk11-src": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       },
       "dependencies": [
         "openjdk11-jre-headless"
@@ -23232,7 +23237,8 @@
     "openjdk17-jre-headless": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       },
       "dependencies": [
         "java-common",
@@ -25471,7 +25477,8 @@
     "openjdk11": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       },
       "dependencies": [
         "openjdk11-jdk",
@@ -35218,7 +35225,8 @@
     "openjdk11-jre-headless": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       },
       "dependencies": [
         "java-common",
@@ -40551,7 +40559,8 @@
     "openjdk11-jdk": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       },
       "dependencies": [
         "openjdk11-jre",
@@ -49849,7 +49858,8 @@
     "openjdk11-doc": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       }
     },
     "xf86-video-savage-doc": {
@@ -58974,7 +58984,8 @@
     "openjdk17": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       },
       "dependencies": [
         "openjdk17-jdk",
@@ -66281,7 +66292,8 @@
     "openjdk17-demos": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       }
     },
     "txt2man": {
@@ -68114,7 +68126,8 @@
     "openjdk17-doc": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       }
     },
     "supertuxkart-static": {
@@ -73152,7 +73165,8 @@
     "openjdk17-jdk": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       },
       "dependencies": [
         "openjdk17-jre",
@@ -95717,7 +95731,8 @@
     "openjdk11-jre": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       },
       "dependencies": [
         "openjdk11-jre-headless",
@@ -96985,7 +97000,8 @@
     "openjdk11-demos": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       }
     },
     "opensmtpd-table-sqlite": {

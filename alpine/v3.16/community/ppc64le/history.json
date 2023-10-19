@@ -4276,7 +4276,8 @@
     "openjdk17-doc": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       }
     },
     "simple-mtpfs-doc": {
@@ -19883,7 +19884,8 @@
     "openjdk17": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       },
       "dependencies": [
         "openjdk17-jdk",
@@ -44972,7 +44974,8 @@
     "openjdk17-jre-headless": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       },
       "dependencies": [
         "java-common",
@@ -70617,7 +70620,8 @@
     "openjdk17-jdk": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       },
       "dependencies": [
         "openjdk17-jre",
@@ -119034,7 +119038,8 @@
     "openjdk17-jre": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       },
       "dependencies": [
         "openjdk17-jre-headless",
@@ -124334,7 +124339,8 @@
     "openjdk17-jmods": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       }
     },
     "ksysguard": {
@@ -124621,7 +124627,8 @@
     "openjdk17-src": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       },
       "dependencies": [
         "openjdk17-jre-headless"
@@ -146817,7 +146824,8 @@
     "openjdk17-demos": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692027021
+        "17.0.8_p7-r0": 1692027021,
+        "17.0.9_p8-r0": 1697714433
       }
     },
     "perl-data-dump-doc": {

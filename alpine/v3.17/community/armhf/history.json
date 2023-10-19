@@ -28344,7 +28344,8 @@
     "emptty": {
       "origin": "emptty",
       "versions": {
-        "0.10.0-r0": 1683181014
+        "0.10.0-r0": 1683181014,
+        "0.11.0-r0": 1697716649
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -28352,7 +28353,7 @@
         "so:libpam.so.0"
       ],
       "provides": [
-        "cmd:emptty=0.10.0-r0"
+        "cmd:emptty=0.11.0-r0"
       ]
     },
     "yadifa-openrc": {
@@ -71006,7 +71007,8 @@
     "emptty-doc": {
       "origin": "emptty",
       "versions": {
-        "0.10.0-r0": 1683181014
+        "0.10.0-r0": 1683181014,
+        "0.11.0-r0": 1697716649
       }
     },
     "bubblejail-bash-completion": {
@@ -78945,7 +78947,8 @@
     "emptty-openrc": {
       "origin": "emptty",
       "versions": {
-        "0.10.0-r0": 1683181014
+        "0.10.0-r0": 1683181014,
+        "0.11.0-r0": 1697716649
       }
     },
     "py3-django-oscar": {

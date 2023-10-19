@@ -4967,7 +4967,8 @@
     "openjdk17-jre": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692026991
+        "17.0.8_p7-r0": 1692026991,
+        "17.0.9_p8-r0": 1697716233
       },
       "dependencies": [
         "openjdk17-jre-headless",
@@ -6143,7 +6144,8 @@
     "openjdk11-jmods": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832731
+        "11.0.20_p8-r0": 1689832731,
+        "11.0.21_p9-r0": 1697695392
       }
     },
     "wev": {
@@ -10722,7 +10724,8 @@
     "openjdk17": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692026991
+        "17.0.8_p7-r0": 1692026991,
+        "17.0.9_p8-r0": 1697716233
       },
       "dependencies": [
         "openjdk17-jdk",
@@ -30445,7 +30448,8 @@
     "openjdk17-jmods": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692026991
+        "17.0.8_p7-r0": 1692026991,
+        "17.0.9_p8-r0": 1697716233
       }
     },
     "cpufreqd-openrc": {
@@ -31158,7 +31162,8 @@
     "openjdk11-jre": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832731
+        "11.0.20_p8-r0": 1689832731,
+        "11.0.21_p9-r0": 1697695392
       },
       "dependencies": [
         "openjdk11-jre-headless",
@@ -31870,7 +31875,8 @@
     "openjdk17-jdk": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692026991
+        "17.0.8_p7-r0": 1692026991,
+        "17.0.9_p8-r0": 1697716233
       },
       "dependencies": [
         "openjdk17-jre",
@@ -33260,7 +33266,8 @@
     "openjdk11-src": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832731
+        "11.0.20_p8-r0": 1689832731,
+        "11.0.21_p9-r0": 1697695392
       },
       "dependencies": [
         "openjdk11-jre-headless"
@@ -33326,7 +33333,8 @@
     "emptty-doc": {
       "origin": "emptty",
       "versions": {
-        "0.10.0-r0": 1683181014
+        "0.10.0-r0": 1683181014,
+        "0.11.0-r0": 1697716649
       }
     },
     "inxi": {
@@ -34791,7 +34799,8 @@
     "openjdk11-jre-headless": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832731
+        "11.0.20_p8-r0": 1689832731,
+        "11.0.21_p9-r0": 1697695392
       },
       "dependencies": [
         "java-common",
@@ -40746,7 +40755,8 @@
     "openjdk17-doc": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692026991
+        "17.0.8_p7-r0": 1692026991,
+        "17.0.9_p8-r0": 1697716233
       }
     },
     "freecell-solver-doc": {
@@ -44712,7 +44722,8 @@
     "openjdk17-jre-headless": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692026991
+        "17.0.8_p7-r0": 1692026991,
+        "17.0.9_p8-r0": 1697716233
       },
       "dependencies": [
         "java-common",
@@ -49658,7 +49669,8 @@
     "openjdk11-demos": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832731
+        "11.0.20_p8-r0": 1689832731,
+        "11.0.21_p9-r0": 1697695392
       }
     },
     "openjdk16": {
@@ -76501,7 +76513,8 @@
     "openjdk11": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832731
+        "11.0.20_p8-r0": 1689832731,
+        "11.0.21_p9-r0": 1697695392
       },
       "dependencies": [
         "openjdk11-jdk",
@@ -81714,7 +81727,8 @@
     "openjdk17-src": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692026991
+        "17.0.8_p7-r0": 1692026991,
+        "17.0.9_p8-r0": 1697716233
       },
       "dependencies": [
         "openjdk17-jre-headless"
@@ -89062,7 +89076,8 @@
     "openjdk11-doc": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832731
+        "11.0.20_p8-r0": 1689832731,
+        "11.0.21_p9-r0": 1697695392
       }
     },
     "pass-otp": {
@@ -93248,7 +93263,8 @@
     "openjdk11-jdk": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832731
+        "11.0.20_p8-r0": 1689832731,
+        "11.0.21_p9-r0": 1697695392
       },
       "dependencies": [
         "openjdk11-jre",
@@ -98098,7 +98114,8 @@
     "emptty": {
       "origin": "emptty",
       "versions": {
-        "0.10.0-r0": 1683181014
+        "0.10.0-r0": 1683181014,
+        "0.11.0-r0": 1697716649
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -98106,7 +98123,7 @@
         "so:libpam.so.0"
       ],
       "provides": [
-        "cmd:emptty=0.10.0-r0"
+        "cmd:emptty=0.11.0-r0"
       ]
     },
     "sdl2": {
@@ -120394,7 +120411,8 @@
     "openjdk17-demos": {
       "origin": "openjdk17",
       "versions": {
-        "17.0.8_p7-r0": 1692026991
+        "17.0.8_p7-r0": 1692026991,
+        "17.0.9_p8-r0": 1697716233
       }
     },
     "berry-doc": {
@@ -123849,7 +123867,8 @@
     "emptty-openrc": {
       "origin": "emptty",
       "versions": {
-        "0.10.0-r0": 1683181014
+        "0.10.0-r0": 1683181014,
+        "0.11.0-r0": 1697716649
       }
     },
     "ilmbase-dev": {
