@@ -3253,7 +3253,8 @@
     "openjdk11-jmods": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       }
     },
     "tracker-dev": {
@@ -7470,7 +7471,8 @@
     "openjdk11": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       },
       "dependencies": [
         "openjdk11-jdk",
@@ -9675,7 +9677,8 @@
     "openjdk11-src": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       },
       "dependencies": [
         "openjdk11-jre-headless"
@@ -34093,7 +34096,8 @@
     "openjdk11-jre": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       },
       "dependencies": [
         "openjdk11-jre-headless",
@@ -35357,7 +35361,8 @@
     "openjdk11-doc": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       }
     },
     "ir_keytable": {
@@ -39865,7 +39870,8 @@
     "openjdk11-jre-headless": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       },
       "dependencies": [
         "java-common",
@@ -74929,7 +74935,8 @@
     "openjdk11-demos": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       }
     },
     "apache-ant": {
@@ -90134,7 +90141,8 @@
     "openjdk11-jdk": {
       "origin": "openjdk11",
       "versions": {
-        "11.0.20_p8-r0": 1689832780
+        "11.0.20_p8-r0": 1689832780,
+        "11.0.21_p9-r0": 1697714390
       },
       "dependencies": [
         "openjdk11-jre",
@@ -162265,7 +162273,7 @@
         "version": "2.2.0-r2"
       },
       "java-jre": {
-        "package": "openjdk14-jre",
+        "package": "openjdk11-jre",
         "version": 0
       },
       "py-django": {

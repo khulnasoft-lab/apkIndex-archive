@@ -25952,7 +25952,8 @@
     "nodejs": {
       "origin": "nodejs",
       "versions": {
-        "16.20.1-r0": 1687291852
+        "16.20.1-r0": 1687291852,
+        "16.20.2-r0": 1697683799
       },
       "dependencies": [
         "ca-certificates",
@@ -25971,8 +25972,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "nodejs-lts=16.20.1",
-        "cmd:node=16.20.1-r0"
+        "nodejs-lts=16.20.2",
+        "cmd:node=16.20.2-r0"
       ]
     },
     "lua5.4-maxminddb": {
@@ -35674,10 +35675,11 @@
     "nodejs-dev": {
       "origin": "nodejs",
       "versions": {
-        "16.20.1-r0": 1687291852
+        "16.20.1-r0": 1687291852,
+        "16.20.2-r0": 1697683799
       },
       "provides": [
-        "nodejs-lts-dev=16.20.1"
+        "nodejs-lts-dev=16.20.2"
       ]
     },
     "perl-list-utilsby": {
@@ -54789,7 +54791,8 @@
     "nodejs-doc": {
       "origin": "nodejs",
       "versions": {
-        "16.20.1-r0": 1687291852
+        "16.20.1-r0": 1687291852,
+        "16.20.2-r0": 1697683799
       }
     },
     "radvd-doc": {
@@ -63088,7 +63091,7 @@
       },
       "nodejs-lts": {
         "package": "nodejs",
-        "version": "16.20.1"
+        "version": "16.20.2"
       },
       "py-extras": {
         "package": "py3-extras",
@@ -63248,7 +63251,7 @@
       },
       "nodejs-lts-dev": {
         "package": "nodejs-dev",
-        "version": "16.20.1"
+        "version": "16.20.2"
       },
       "py-asn1": {
         "package": "py3-asn1",
