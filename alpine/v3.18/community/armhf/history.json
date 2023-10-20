@@ -71252,7 +71252,8 @@
     "minizip": {
       "origin": "minizip",
       "versions": {
-        "1.2.13-r0": 1665698081
+        "1.2.13-r0": 1665698081,
+        "1.2.13-r1": 1697812135
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -71265,10 +71266,11 @@
     "minizip-dev": {
       "origin": "minizip",
       "versions": {
-        "1.2.13-r0": 1665698081
+        "1.2.13-r0": 1665698081,
+        "1.2.13-r1": 1697812135
       },
       "dependencies": [
-        "minizip=1.2.13-r0",
+        "minizip=1.2.13-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -71278,7 +71280,8 @@
     "minizip-static": {
       "origin": "minizip",
       "versions": {
-        "1.2.13-r0": 1665698081
+        "1.2.13-r0": 1665698081,
+        "1.2.13-r1": 1697812135
       }
     },
     "mk-configure": {
