@@ -53501,7 +53501,8 @@
     "libhtp": {
       "origin": "libhtp",
       "versions": {
-        "0.5.43-r0": 1682261629
+        "0.5.43-r0": 1682261629,
+        "0.5.45-r0": 1697803756
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -53514,15 +53515,16 @@
     "libhtp-dev": {
       "origin": "libhtp",
       "versions": {
-        "0.5.43-r0": 1682261629
+        "0.5.43-r0": 1682261629,
+        "0.5.45-r0": 1697803756
       },
       "dependencies": [
         "zlib-dev",
-        "libhtp=0.5.43-r0",
+        "libhtp=0.5.45-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:htp=0.5.43"
+        "pc:htp=0.5.45"
       ]
     },
     "libhwy": {
@@ -143828,7 +143830,8 @@
     "suricata": {
       "origin": "suricata",
       "versions": {
-        "6.0.12-r0": 1684019173
+        "6.0.12-r0": 1684019173,
+        "6.0.15-r0": 1697803755
       },
       "dependencies": [
         "python3",
@@ -143857,22 +143860,24 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:suricata-update=6.0.12-r0",
-        "cmd:suricata=6.0.12-r0",
-        "cmd:suricatactl=6.0.12-r0",
-        "cmd:suricatasc=6.0.12-r0"
+        "cmd:suricata-update=6.0.15-r0",
+        "cmd:suricata=6.0.15-r0",
+        "cmd:suricatactl=6.0.15-r0",
+        "cmd:suricatasc=6.0.15-r0"
       ]
     },
     "suricata-doc": {
       "origin": "suricata",
       "versions": {
-        "6.0.12-r0": 1684019173
+        "6.0.12-r0": 1684019173,
+        "6.0.15-r0": 1697803755
       }
     },
     "suricata-openrc": {
       "origin": "suricata",
       "versions": {
-        "6.0.12-r0": 1684019173
+        "6.0.12-r0": 1684019173,
+        "6.0.15-r0": 1697803755
       }
     },
     "svkbd": {
