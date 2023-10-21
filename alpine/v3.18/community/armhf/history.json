@@ -150751,7 +150751,8 @@
     "unit": {
       "origin": "unit",
       "versions": {
-        "1.30.0-r0": 1683811358
+        "1.30.0-r0": 1683811358,
+        "1.31.1-r0": 1697916857
       },
       "dependencies": [
         "/bin/sh",
@@ -150761,13 +150762,14 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:unitd=1.30.0-r0"
+        "cmd:unitd=1.31.1-r0"
       ]
     },
     "unit-openrc": {
       "origin": "unit",
       "versions": {
-        "1.30.0-r0": 1683811358
+        "1.30.0-r0": 1683811358,
+        "1.31.1-r0": 1697916857
       },
       "dependencies": [
         "curl"
@@ -150776,10 +150778,11 @@
     "unit-perl": {
       "origin": "unit",
       "versions": {
-        "1.30.0-r0": 1683811358
+        "1.30.0-r0": 1683811358,
+        "1.31.1-r0": 1697916857
       },
       "dependencies": [
-        "unit=1.30.0-r0",
+        "unit=1.31.1-r0",
         "so:libc.musl-armhf.so.1",
         "so:libperl.so"
       ]
@@ -150787,10 +150790,11 @@
     "unit-php81": {
       "origin": "unit",
       "versions": {
-        "1.30.0-r0": 1683811358
+        "1.30.0-r0": 1683811358,
+        "1.31.1-r0": 1697916857
       },
       "dependencies": [
-        "unit=1.30.0-r0",
+        "unit=1.31.1-r0",
         "so:libc.musl-armhf.so.1",
         "so:libphp81.so"
       ]
@@ -150798,10 +150802,11 @@
     "unit-php82": {
       "origin": "unit",
       "versions": {
-        "1.30.0-r0": 1683811358
+        "1.30.0-r0": 1683811358,
+        "1.31.1-r0": 1697916857
       },
       "dependencies": [
-        "unit=1.30.0-r0",
+        "unit=1.31.1-r0",
         "so:libc.musl-armhf.so.1",
         "so:libphp82.so"
       ]
@@ -150809,10 +150814,11 @@
     "unit-python3": {
       "origin": "unit",
       "versions": {
-        "1.30.0-r0": 1683811358
+        "1.30.0-r0": 1683811358,
+        "1.31.1-r0": 1697916857
       },
       "dependencies": [
-        "unit=1.30.0-r0",
+        "unit=1.31.1-r0",
         "so:libc.musl-armhf.so.1",
         "so:libpython3.11.so.1.0"
       ]
@@ -150820,10 +150826,11 @@
     "unit-ruby": {
       "origin": "unit",
       "versions": {
-        "1.30.0-r0": 1683811358
+        "1.30.0-r0": 1683811358,
+        "1.31.1-r0": 1697916857
       },
       "dependencies": [
-        "unit=1.30.0-r0",
+        "unit=1.31.1-r0",
         "so:libc.musl-armhf.so.1",
         "so:libruby.so.3.2"
       ]
@@ -150831,15 +150838,16 @@
     "unit-tools": {
       "origin": "unit",
       "versions": {
-        "1.30.0-r0": 1683811358
+        "1.30.0-r0": 1683811358,
+        "1.31.1-r0": 1697916857
       },
       "dependencies": [
         "bash",
         "curl"
       ],
       "provides": [
-        "cmd:setup-unit=1.30.0-r0",
-        "cmd:unitc=1.30.0-r0"
+        "cmd:setup-unit=1.31.1-r0",
+        "cmd:unitc=1.31.1-r0"
       ]
     },
     "units": {
