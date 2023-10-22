@@ -91414,7 +91414,8 @@
     "php81-pecl-redis": {
       "origin": "php81-pecl-redis",
       "versions": {
-        "6.0.1-r0": 1696634688
+        "6.0.1-r0": 1696634688,
+        "6.0.2-r0": 1698001487
       },
       "dependencies": [
         "php81-pecl-igbinary",
@@ -91425,7 +91426,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "php81-redis=6.0.1-r0"
+        "php81-redis=6.0.2-r0"
       ]
     },
     "php81-pecl-smbclient": {
@@ -92748,7 +92749,8 @@
     "php82-pecl-redis": {
       "origin": "php82-pecl-redis",
       "versions": {
-        "6.0.1-r0": 1696634688
+        "6.0.1-r0": 1696634688,
+        "6.0.2-r0": 1698001487
       },
       "dependencies": [
         "php82-pecl-igbinary",
@@ -92759,7 +92761,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "php82-redis=6.0.1-r0"
+        "php82-redis=6.0.2-r0"
       ]
     },
     "php82-pecl-smbclient": {
@@ -175786,7 +175788,7 @@
       },
       "php81-redis": {
         "package": "php81-pecl-redis",
-        "version": "6.0.1-r0"
+        "version": "6.0.2-r0"
       },
       "php81-xdebug": {
         "package": "php81-pecl-xdebug",
@@ -175918,7 +175920,7 @@
       },
       "php82-redis": {
         "package": "php82-pecl-redis",
-        "version": "6.0.1-r0"
+        "version": "6.0.2-r0"
       },
       "php82-xdebug": {
         "package": "php82-pecl-xdebug",
