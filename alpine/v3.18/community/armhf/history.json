@@ -13870,7 +13870,8 @@
     "cloud-init": {
       "origin": "cloud-init",
       "versions": {
-        "23.1.2-r1": 1691071175
+        "23.1.2-r1": 1691071175,
+        "23.1.2-r2": 1697973440
       },
       "dependencies": [
         "blkid",
@@ -13889,36 +13890,40 @@
         "python3~3.11"
       ],
       "provides": [
-        "cmd:cloud-id=23.1.2-r1",
-        "cmd:cloud-init-hotplugd=23.1.2-r1",
-        "cmd:cloud-init-per=23.1.2-r1",
-        "cmd:cloud-init=23.1.2-r1",
-        "cmd:setup-cloud-init=23.1.2-r1",
-        "py3.11:cloudinit=23.1.2-r1"
+        "cmd:cloud-id=23.1.2-r2",
+        "cmd:cloud-init-hotplugd=23.1.2-r2",
+        "cmd:cloud-init-per=23.1.2-r2",
+        "cmd:cloud-init=23.1.2-r2",
+        "cmd:setup-cloud-init=23.1.2-r2",
+        "py3.11:cloudinit=23.1.2-r2"
       ]
     },
     "cloud-init-bash-completion": {
       "origin": "cloud-init",
       "versions": {
-        "23.1.2-r1": 1691071175
+        "23.1.2-r1": 1691071175,
+        "23.1.2-r2": 1697973440
       }
     },
     "cloud-init-doc": {
       "origin": "cloud-init",
       "versions": {
-        "23.1.2-r1": 1691071175
+        "23.1.2-r1": 1691071175,
+        "23.1.2-r2": 1697973440
       }
     },
     "cloud-init-openrc": {
       "origin": "cloud-init",
       "versions": {
-        "23.1.2-r1": 1691071175
+        "23.1.2-r1": 1691071175,
+        "23.1.2-r2": 1697973440
       }
     },
     "cloud-init-pyc": {
       "origin": "cloud-init",
       "versions": {
-        "23.1.2-r1": 1691071175
+        "23.1.2-r1": 1691071175,
+        "23.1.2-r2": 1697973440
       },
       "dependencies": [
         "blkid",
