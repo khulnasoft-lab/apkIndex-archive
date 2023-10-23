@@ -46022,7 +46022,8 @@
     "kde-applications": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "kde-applications-accessibility",
@@ -46042,7 +46043,8 @@
     "kde-applications-accessibility": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "kmag",
@@ -46053,7 +46055,8 @@
     "kde-applications-admin": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "kcron"
@@ -46062,7 +46065,8 @@
     "kde-applications-base": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "ark",
@@ -46086,7 +46090,8 @@
     "kde-applications-edu": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "artikulate",
@@ -46115,13 +46120,15 @@
     "kde-applications-games": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       }
     },
     "kde-applications-graphics": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "gwenview",
@@ -46135,7 +46142,8 @@
     "kde-applications-multimedia": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "audiocd-kio",
@@ -46150,7 +46158,8 @@
     "kde-applications-network": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "kget",
@@ -46162,7 +46171,8 @@
     "kde-applications-pim": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "akregator",
@@ -46181,7 +46191,8 @@
     "kde-applications-sdk": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "cervisia",
@@ -46202,7 +46213,8 @@
     "kde-applications-utils": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "ark",
@@ -46225,7 +46237,8 @@
     "kde-applications-webdev": {
       "origin": "kde-applications",
       "versions": {
-        "23.04.2-r0": 1686230360
+        "23.04.2-r0": 1686230360,
+        "23.04.3-r0": 1698090267
       },
       "dependencies": [
         "kimagemapeditor"
