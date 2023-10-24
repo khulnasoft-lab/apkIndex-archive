@@ -2194,7 +2194,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       },
       "dependencies": [
         "openrc"
@@ -15939,7 +15940,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       },
       "dependencies": [
         "php8",
@@ -25388,7 +25390,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       },
       "dependencies": [
         "fping",
@@ -38577,7 +38580,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       }
     },
     "ruby-multi_json": {
@@ -56577,7 +56581,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       }
     },
     "mkpasswd": {
@@ -69050,7 +69055,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       },
       "dependencies": [
         "openrc"
@@ -79128,7 +79134,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       },
       "dependencies": [
         "zabbix",
@@ -79150,7 +79157,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=6.0.22-r0"
+        "cmd:zabbix_proxy=6.0.22-r1"
       ]
     },
     "tracker-bash-completion": {
@@ -79591,7 +79598,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       }
     },
     "kig-lang": {
@@ -86108,7 +86116,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       },
       "dependencies": [
         "/bin/sh",
@@ -86120,7 +86129,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agentd=6.0.22-r0"
+        "cmd:zabbix_agentd=6.0.22-r1"
       ]
     },
     "pps-tools-dev": {
@@ -111465,18 +111474,22 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libcrypto.so.1.1",
+        "so:libcurl.so.4",
         "so:libpcre2-8.so.0",
         "so:libssl.so.1.1",
+        "so:libxml2.so.2",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_get=6.0.22-r0",
-        "cmd:zabbix_sender=6.0.22-r0"
+        "cmd:zabbix_get=6.0.22-r1",
+        "cmd:zabbix_js=6.0.22-r1",
+        "cmd:zabbix_sender=6.0.22-r1"
       ]
     },
     "alembic-libs": {
@@ -116697,7 +116710,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       },
       "dependencies": [
         "zabbix",
@@ -116719,8 +116733,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=6.0.22-r0",
-        "cmd:zabbix_server=6.0.22-r0"
+        "cmd:zabbix_proxy=6.0.22-r1",
+        "cmd:zabbix_server=6.0.22-r1"
       ]
     },
     "kdeplasma-applets-xrdesktop": {
@@ -132569,7 +132583,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       },
       "dependencies": [
         "zabbix",
@@ -132591,8 +132606,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_proxy=6.0.22-r0",
-        "cmd:zabbix_server=6.0.22-r0"
+        "cmd:zabbix_proxy=6.0.22-r1",
+        "cmd:zabbix_server=6.0.22-r1"
       ]
     },
     "grilo": {
@@ -159259,7 +159274,8 @@
       "origin": "zabbix",
       "versions": {
         "6.0.20-r0": 1691067800,
-        "6.0.22-r0": 1697528103
+        "6.0.22-r0": 1697528103,
+        "6.0.22-r1": 1698145125
       },
       "dependencies": [
         "/bin/sh",
@@ -159270,7 +159286,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:zabbix_agent2=6.0.22-r0"
+        "cmd:zabbix_agent2=6.0.22-r1"
       ]
     },
     "libxcvt-dev": {
