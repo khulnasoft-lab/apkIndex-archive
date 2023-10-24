@@ -12110,7 +12110,8 @@
     "libcrypto3": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
@@ -12841,18 +12842,19 @@
     "openssl-dev": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       },
       "dependencies": [
-        "libcrypto3=3.0.11-r0",
-        "libssl3=3.0.11-r0",
+        "libcrypto3=3.0.12-r0",
+        "libssl3=3.0.12-r0",
         "pkgconfig"
       ],
       "provides": [
-        "openssl3-dev=3.0.11-r0",
-        "pc:libcrypto=3.0.11",
-        "pc:libssl=3.0.11",
-        "pc:openssl=3.0.11"
+        "openssl3-dev=3.0.12-r0",
+        "pc:libcrypto=3.0.12",
+        "pc:libssl=3.0.12",
+        "pc:openssl=3.0.12"
       ]
     },
     "perl-file-rsync": {
@@ -19546,18 +19548,19 @@
     "openssl": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       },
       "dependencies": [
-        "libssl3=3.0.11-r0",
-        "libcrypto3=3.0.11-r0",
+        "libssl3=3.0.12-r0",
+        "libcrypto3=3.0.12-r0",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libssl.so.3"
       ],
       "provides": [
-        "openssl3=3.0.11-r0",
-        "cmd:openssl=3.0.11-r0"
+        "openssl3=3.0.12-r0",
+        "cmd:openssl=3.0.12-r0"
       ]
     },
     "libcbor-dev": {
@@ -24041,7 +24044,8 @@
     "openssl-dbg": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       }
     },
     "xmlindent-doc": {
@@ -28177,7 +28181,8 @@
     "libssl3": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -37824,7 +37829,8 @@
     "openssl-doc": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       }
     },
     "smartmontools-doc": {
@@ -46774,7 +46780,8 @@
     "openssl-libs-static": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       }
     },
     "nagios-plugins-hpjd": {
@@ -58520,7 +58527,7 @@
       },
       "openssl3-dev": {
         "package": "openssl-dev",
-        "version": "3.0.11-r0"
+        "version": "3.0.12-r0"
       },
       "pytest": {
         "package": "py3-pytest",
@@ -58684,7 +58691,7 @@
       },
       "openssl3": {
         "package": "openssl",
-        "version": "3.0.11-r0"
+        "version": "3.0.12-r0"
       },
       "py-sphinx_rtd_theme": {
         "package": "py3-sphinx_rtd_theme",

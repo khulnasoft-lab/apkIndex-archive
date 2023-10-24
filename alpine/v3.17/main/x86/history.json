@@ -9715,7 +9715,8 @@
     "libcrypto3": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
@@ -17156,18 +17157,19 @@
     "openssl-dev": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       },
       "dependencies": [
-        "libcrypto3=3.0.11-r0",
-        "libssl3=3.0.11-r0",
+        "libcrypto3=3.0.12-r0",
+        "libssl3=3.0.12-r0",
         "pkgconfig"
       ],
       "provides": [
-        "openssl3-dev=3.0.11-r0",
-        "pc:libcrypto=3.0.11",
-        "pc:libssl=3.0.11",
-        "pc:openssl=3.0.11"
+        "openssl3-dev=3.0.12-r0",
+        "pc:libcrypto=3.0.12",
+        "pc:libssl=3.0.12",
+        "pc:openssl=3.0.12"
       ]
     },
     "mdadm-udev": {
@@ -29697,7 +29699,8 @@
     "openssl-doc": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       }
     },
     "ngrep-doc": {
@@ -37342,7 +37345,8 @@
     "libssl3": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -38599,7 +38603,8 @@
     "openssl-libs-static": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       }
     },
     "libxcb-static": {
@@ -40330,7 +40335,8 @@
     "openssl-dbg": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       }
     },
     "perl-extutils-cchecker": {
@@ -47848,18 +47854,19 @@
     "openssl": {
       "origin": "openssl",
       "versions": {
-        "3.0.11-r0": 1695253560
+        "3.0.11-r0": 1695253560,
+        "3.0.12-r0": 1698161850
       },
       "dependencies": [
-        "libssl3=3.0.11-r0",
-        "libcrypto3=3.0.11-r0",
+        "libssl3=3.0.12-r0",
+        "libcrypto3=3.0.12-r0",
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.3",
         "so:libssl.so.3"
       ],
       "provides": [
-        "openssl3=3.0.11-r0",
-        "cmd:openssl=3.0.11-r0"
+        "openssl3=3.0.12-r0",
+        "cmd:openssl=3.0.12-r0"
       ]
     },
     "lua5.2-file-magic": {
@@ -65053,7 +65060,7 @@
       },
       "openssl3-dev": {
         "package": "openssl-dev",
-        "version": "3.0.11-r0"
+        "version": "3.0.12-r0"
       },
       "vim": {
         "package": "gvim",
@@ -65597,7 +65604,7 @@
       },
       "openssl3": {
         "package": "openssl",
-        "version": "3.0.11-r0"
+        "version": "3.0.12-r0"
       },
       "boost-math": {
         "package": "boost1.80-math",
