@@ -9358,7 +9358,8 @@
     "xen-doc": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r2": 1695886865
+        "4.16.5-r2": 1695886865,
+        "4.16.5-r3": 1698085825
       }
     },
     "samba-common": {
@@ -10906,7 +10907,8 @@
     "xen-bridge": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r2": 1695886865
+        "4.16.5-r2": 1695886865,
+        "4.16.5-r3": 1698085825
       },
       "dependencies": [
         "dnsmasq"
@@ -12470,7 +12472,8 @@
     "xen-qemu": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r2": 1695886865
+        "4.16.5-r2": 1695886865,
+        "4.16.5-r3": 1698085825
       },
       "dependencies": [
         "bash",
@@ -12506,8 +12509,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:qemu-img-xen=4.16.5-r2",
-        "cmd:qemu-nbd-xen=4.16.5-r2"
+        "cmd:qemu-img-xen=4.16.5-r3",
+        "cmd:qemu-nbd-xen=4.16.5-r3"
       ]
     },
     "iftop": {
@@ -13604,7 +13607,8 @@
     "xen": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r2": 1695886865
+        "4.16.5-r2": 1695886865,
+        "4.16.5-r3": 1698085825
       },
       "dependencies": [
         "bash",
@@ -13632,61 +13636,61 @@
         "so:libyajl.so.2"
       ],
       "provides": [
-        "cmd:flask-get-bool=4.16.5-r2",
-        "cmd:flask-getenforce=4.16.5-r2",
-        "cmd:flask-label-pci=4.16.5-r2",
-        "cmd:flask-loadpolicy=4.16.5-r2",
-        "cmd:flask-set-bool=4.16.5-r2",
-        "cmd:flask-setenforce=4.16.5-r2",
-        "cmd:gdbsx=4.16.5-r2",
-        "cmd:vchan-socket-proxy=4.16.5-r2",
-        "cmd:xen-access=4.16.5-r2",
-        "cmd:xen-cpuid=4.16.5-r2",
-        "cmd:xen-detect=4.16.5-r2",
-        "cmd:xen-diag=4.16.5-r2",
-        "cmd:xen-hptool=4.16.5-r2",
-        "cmd:xen-hvmcrash=4.16.5-r2",
-        "cmd:xen-hvmctx=4.16.5-r2",
-        "cmd:xen-kdd=4.16.5-r2",
-        "cmd:xen-livepatch=4.16.5-r2",
-        "cmd:xen-lowmemd=4.16.5-r2",
-        "cmd:xen-mceinj=4.16.5-r2",
-        "cmd:xen-memshare=4.16.5-r2",
-        "cmd:xen-mfndump=4.16.5-r2",
-        "cmd:xen-ucode=4.16.5-r2",
-        "cmd:xen-vmtrace=4.16.5-r2",
-        "cmd:xenalyze=4.16.5-r2",
-        "cmd:xenbaked=4.16.5-r2",
-        "cmd:xencons=4.16.5-r2",
-        "cmd:xenconsoled=4.16.5-r2",
-        "cmd:xencov=4.16.5-r2",
-        "cmd:xencov_split=4.16.5-r2",
-        "cmd:xenhypfs=4.16.5-r2",
-        "cmd:xenlockprof=4.16.5-r2",
-        "cmd:xenmon=4.16.5-r2",
-        "cmd:xenperf=4.16.5-r2",
-        "cmd:xenpm=4.16.5-r2",
-        "cmd:xenpmd=4.16.5-r2",
-        "cmd:xenstore-chmod=4.16.5-r2",
-        "cmd:xenstore-control=4.16.5-r2",
-        "cmd:xenstore-exists=4.16.5-r2",
-        "cmd:xenstore-list=4.16.5-r2",
-        "cmd:xenstore-ls=4.16.5-r2",
-        "cmd:xenstore-read=4.16.5-r2",
-        "cmd:xenstore-rm=4.16.5-r2",
-        "cmd:xenstore-watch=4.16.5-r2",
-        "cmd:xenstore-write=4.16.5-r2",
-        "cmd:xenstore=4.16.5-r2",
-        "cmd:xenstored=4.16.5-r2",
-        "cmd:xentop=4.16.5-r2",
-        "cmd:xentrace=4.16.5-r2",
-        "cmd:xentrace_format=4.16.5-r2",
-        "cmd:xentrace_setmask=4.16.5-r2",
-        "cmd:xentrace_setsize=4.16.5-r2",
-        "cmd:xenwatchdogd=4.16.5-r2",
-        "cmd:xl=4.16.5-r2",
-        "py3.10:grub=4.16.5-r2",
-        "py3.10:xen=4.16.5-r2"
+        "cmd:flask-get-bool=4.16.5-r3",
+        "cmd:flask-getenforce=4.16.5-r3",
+        "cmd:flask-label-pci=4.16.5-r3",
+        "cmd:flask-loadpolicy=4.16.5-r3",
+        "cmd:flask-set-bool=4.16.5-r3",
+        "cmd:flask-setenforce=4.16.5-r3",
+        "cmd:gdbsx=4.16.5-r3",
+        "cmd:vchan-socket-proxy=4.16.5-r3",
+        "cmd:xen-access=4.16.5-r3",
+        "cmd:xen-cpuid=4.16.5-r3",
+        "cmd:xen-detect=4.16.5-r3",
+        "cmd:xen-diag=4.16.5-r3",
+        "cmd:xen-hptool=4.16.5-r3",
+        "cmd:xen-hvmcrash=4.16.5-r3",
+        "cmd:xen-hvmctx=4.16.5-r3",
+        "cmd:xen-kdd=4.16.5-r3",
+        "cmd:xen-livepatch=4.16.5-r3",
+        "cmd:xen-lowmemd=4.16.5-r3",
+        "cmd:xen-mceinj=4.16.5-r3",
+        "cmd:xen-memshare=4.16.5-r3",
+        "cmd:xen-mfndump=4.16.5-r3",
+        "cmd:xen-ucode=4.16.5-r3",
+        "cmd:xen-vmtrace=4.16.5-r3",
+        "cmd:xenalyze=4.16.5-r3",
+        "cmd:xenbaked=4.16.5-r3",
+        "cmd:xencons=4.16.5-r3",
+        "cmd:xenconsoled=4.16.5-r3",
+        "cmd:xencov=4.16.5-r3",
+        "cmd:xencov_split=4.16.5-r3",
+        "cmd:xenhypfs=4.16.5-r3",
+        "cmd:xenlockprof=4.16.5-r3",
+        "cmd:xenmon=4.16.5-r3",
+        "cmd:xenperf=4.16.5-r3",
+        "cmd:xenpm=4.16.5-r3",
+        "cmd:xenpmd=4.16.5-r3",
+        "cmd:xenstore-chmod=4.16.5-r3",
+        "cmd:xenstore-control=4.16.5-r3",
+        "cmd:xenstore-exists=4.16.5-r3",
+        "cmd:xenstore-list=4.16.5-r3",
+        "cmd:xenstore-ls=4.16.5-r3",
+        "cmd:xenstore-read=4.16.5-r3",
+        "cmd:xenstore-rm=4.16.5-r3",
+        "cmd:xenstore-watch=4.16.5-r3",
+        "cmd:xenstore-write=4.16.5-r3",
+        "cmd:xenstore=4.16.5-r3",
+        "cmd:xenstored=4.16.5-r3",
+        "cmd:xentop=4.16.5-r3",
+        "cmd:xentrace=4.16.5-r3",
+        "cmd:xentrace_format=4.16.5-r3",
+        "cmd:xentrace_setmask=4.16.5-r3",
+        "cmd:xentrace_setsize=4.16.5-r3",
+        "cmd:xenwatchdogd=4.16.5-r3",
+        "cmd:xl=4.16.5-r3",
+        "py3.10:grub=4.16.5-r3",
+        "py3.10:xen=4.16.5-r3"
       ]
     },
     "glib-lang": {
@@ -23783,7 +23787,8 @@
     "xen-hypervisor": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r2": 1695886865
+        "4.16.5-r2": 1695886865,
+        "4.16.5-r3": 1698085825
       }
     },
     "spirv-tools-dbg": {
@@ -29381,7 +29386,8 @@
     "xen-libs": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r2": 1695886865
+        "4.16.5-r2": 1695886865,
+        "4.16.5-r3": 1698085825
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -51018,7 +51024,8 @@
     "xen-dev": {
       "origin": "xen",
       "versions": {
-        "4.16.5-r2": 1695886865
+        "4.16.5-r2": 1695886865,
+        "4.16.5-r3": 1698085825
       },
       "dependencies": [
         "argp-standalone",
@@ -51048,7 +51055,7 @@
         "zlib-dev",
         "zstd-dev",
         "pkgconfig",
-        "xen-libs=4.16.5-r2"
+        "xen-libs=4.16.5-r3"
       ],
       "provides": [
         "pc:xencall=1.3",
