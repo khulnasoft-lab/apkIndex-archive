@@ -115644,19 +115644,21 @@
     "py3-psycopg": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.1.9-r1": 1683697322
+        "3.1.9-r1": 1683697322,
+        "3.1.9-r2": 1698196012
       },
       "dependencies": [
         "python3~3.11"
       ],
       "provides": [
-        "py3.11:psycopg=3.1.9-r1"
+        "py3.11:psycopg=3.1.9-r2"
       ]
     },
     "py3-psycopg-pyc": {
       "origin": "py3-psycopg",
       "versions": {
-        "3.1.9-r1": 1683697322
+        "3.1.9-r1": 1683697322,
+        "3.1.9-r2": 1698196012
       },
       "dependencies": [
         "python3~3.11"
