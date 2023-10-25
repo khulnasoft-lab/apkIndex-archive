@@ -5049,51 +5049,51 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1684120357
 c:33283848034c9885d984c8e8697c645c57324938
 
-C:Q14y6ruIpOxLX8aHK+ltBYYbo3oTs=
+C:Q10O2c/dXzTBtYNne9yhnJUVJ4mOQ=
 P:atop
-V:2.9.0-r1
+V:2.9.0-r2
 A:armhf
-S:353308
+S:353318
 I:831488
 T:Resource-specific view of processes
 U:https://www.atoptool.nl/
 L:GPL-2.0-or-later
 o:atop
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1697929979
-c:aa5623d5d7de5a009cab5bf24c60281dbfe05b51
+t:1698243514
+c:174f548e1d1ab03590bd0a71ff3534b4adffd429
 D:so:libc.musl-armhf.so.1 so:libncursesw.so.6 so:libz.so.1
-p:cmd:atop-2.9.0=2.9.0-r1 cmd:atop=2.9.0-r1 cmd:atopacctd=2.9.0-r1 cmd:atopcat=2.9.0-r1 cmd:atopconvert=2.9.0-r1 cmd:atopgpud=2.9.0-r1 cmd:atopsar-2.9.0=2.9.0-r1 cmd:atopsar=2.9.0-r1
+p:cmd:atop-2.9.0=2.9.0-r2 cmd:atop=2.9.0-r2 cmd:atopacctd=2.9.0-r2 cmd:atopcat=2.9.0-r2 cmd:atopconvert=2.9.0-r2 cmd:atopgpud=2.9.0-r2 cmd:atopsar-2.9.0=2.9.0-r2 cmd:atopsar=2.9.0-r2
 
-C:Q1y4LCSIZYZBwgPqz98j+u0zXwu6I=
+C:Q1dV4165kzwe/S4KUUyAh3jmoRMgo=
 P:atop-doc
-V:2.9.0-r1
+V:2.9.0-r2
 A:armhf
-S:45628
+S:45632
 I:86016
 T:Resource-specific view of processes (documentation)
 U:https://www.atoptool.nl/
 L:GPL-2.0-or-later
 o:atop
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1697929979
-c:aa5623d5d7de5a009cab5bf24c60281dbfe05b51
-i:docs atop=2.9.0-r1
+t:1698243514
+c:174f548e1d1ab03590bd0a71ff3534b4adffd429
+i:docs atop=2.9.0-r2
 
-C:Q1KHoFsXqGJ6DPoci2VBKE1SYtNV4=
+C:Q1TERuohi66emi+mU+Kmlr3SPdF7E=
 P:atop-openrc
-V:2.9.0-r1
+V:2.9.0-r2
 A:armhf
-S:2777
+S:2795
 I:20480
 T:Resource-specific view of processes (OpenRC init scripts)
 U:https://www.atoptool.nl/
 L:GPL-2.0-or-later
 o:atop
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1697929979
-c:aa5623d5d7de5a009cab5bf24c60281dbfe05b51
-i:openrc atop=2.9.0-r1
+t:1698243514
+c:174f548e1d1ab03590bd0a71ff3534b4adffd429
+i:openrc atop=2.9.0-r2
 
 C:Q18wgBibcYJYW4KX8qIxrYIgf5Lgk=
 P:attr

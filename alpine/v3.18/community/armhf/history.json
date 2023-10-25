@@ -160569,7 +160569,8 @@
     "xorg-server": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.8-r0": 1680125766
+        "21.1.8-r0": 1680125766,
+        "21.1.9-r0": 1698243589
       },
       "dependencies": [
         "font-cursor-misc",
@@ -160595,22 +160596,24 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "xf86-video-modesetting=21.1.8-r0",
-        "cmd:X=21.1.8-r0",
-        "cmd:Xorg=21.1.8-r0",
-        "cmd:gtf=21.1.8-r0"
+        "xf86-video-modesetting=21.1.9-r0",
+        "cmd:X=21.1.9-r0",
+        "cmd:Xorg=21.1.9-r0",
+        "cmd:gtf=21.1.9-r0"
       ]
     },
     "xorg-server-common": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.8-r0": 1680125766
+        "21.1.8-r0": 1680125766,
+        "21.1.9-r0": 1698243589
       }
     },
     "xorg-server-dbg": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.8-r0": 1680125766
+        "21.1.8-r0": 1680125766,
+        "21.1.9-r0": 1698243589
       },
       "dependencies": [
         "font-cursor-misc",
@@ -160625,7 +160628,8 @@
     "xorg-server-dev": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.8-r0": 1680125766
+        "21.1.8-r0": 1680125766,
+        "21.1.9-r0": 1698243589
       },
       "dependencies": [
         "libepoxy-dev",
@@ -160636,19 +160640,21 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:xorg-server=21.1.8"
+        "pc:xorg-server=21.1.9"
       ]
     },
     "xorg-server-doc": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.8-r0": 1680125766
+        "21.1.8-r0": 1680125766,
+        "21.1.9-r0": 1698243589
       }
     },
     "xorg-server-xephyr": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.8-r0": 1680125766
+        "21.1.8-r0": 1680125766,
+        "21.1.9-r0": 1698243589
       },
       "dependencies": [
         "font-cursor-misc",
@@ -160684,13 +160690,14 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "cmd:Xephyr=21.1.8-r0"
+        "cmd:Xephyr=21.1.9-r0"
       ]
     },
     "xorg-server-xnest": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.8-r0": 1680125766
+        "21.1.8-r0": 1680125766,
+        "21.1.9-r0": 1698243589
       },
       "dependencies": [
         "font-cursor-misc",
@@ -160710,7 +160717,7 @@
         "so:libpixman-1.so.0"
       ],
       "provides": [
-        "cmd:Xnest=21.1.8-r0"
+        "cmd:Xnest=21.1.9-r0"
       ]
     },
     "xorgxrdp": {
@@ -161333,7 +161340,8 @@
     "xvfb": {
       "origin": "xorg-server",
       "versions": {
-        "21.1.8-r0": 1680125766
+        "21.1.8-r0": 1680125766,
+        "21.1.9-r0": 1698243589
       },
       "dependencies": [
         "font-cursor-misc",
@@ -161352,7 +161360,7 @@
         "so:libpixman-1.so.0"
       ],
       "provides": [
-        "cmd:Xvfb=21.1.8-r0"
+        "cmd:Xvfb=21.1.9-r0"
       ]
     },
     "xvfb-run": {
@@ -177413,7 +177421,7 @@
       },
       "xf86-video-modesetting": {
         "package": "xorg-server",
-        "version": "21.1.8-r0"
+        "version": "21.1.9-r0"
       },
       "youtube-dl": {
         "package": "yt-dlp-core",

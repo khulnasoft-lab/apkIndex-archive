@@ -4366,7 +4366,8 @@
     "atop": {
       "origin": "atop",
       "versions": {
-        "2.9.0-r1": 1697929979
+        "2.9.0-r1": 1697929979,
+        "2.9.0-r2": 1698243514
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -4374,26 +4375,28 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:atop-2.9.0=2.9.0-r1",
-        "cmd:atop=2.9.0-r1",
-        "cmd:atopacctd=2.9.0-r1",
-        "cmd:atopcat=2.9.0-r1",
-        "cmd:atopconvert=2.9.0-r1",
-        "cmd:atopgpud=2.9.0-r1",
-        "cmd:atopsar-2.9.0=2.9.0-r1",
-        "cmd:atopsar=2.9.0-r1"
+        "cmd:atop-2.9.0=2.9.0-r2",
+        "cmd:atop=2.9.0-r2",
+        "cmd:atopacctd=2.9.0-r2",
+        "cmd:atopcat=2.9.0-r2",
+        "cmd:atopconvert=2.9.0-r2",
+        "cmd:atopgpud=2.9.0-r2",
+        "cmd:atopsar-2.9.0=2.9.0-r2",
+        "cmd:atopsar=2.9.0-r2"
       ]
     },
     "atop-doc": {
       "origin": "atop",
       "versions": {
-        "2.9.0-r1": 1697929979
+        "2.9.0-r1": 1697929979,
+        "2.9.0-r2": 1698243514
       }
     },
     "atop-openrc": {
       "origin": "atop",
       "versions": {
-        "2.9.0-r1": 1697929979
+        "2.9.0-r1": 1697929979,
+        "2.9.0-r2": 1698243514
       }
     },
     "attr": {
