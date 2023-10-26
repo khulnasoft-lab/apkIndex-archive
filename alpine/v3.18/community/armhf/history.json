@@ -81396,46 +81396,48 @@
     "opennebula": {
       "origin": "opennebula",
       "versions": {
-        "6.4.0-r1": 1682196654
+        "6.4.0-r1": 1682196654,
+        "6.4.0-r2": 1698277119
       }
     },
     "opennebula-tools": {
       "origin": "opennebula",
       "versions": {
-        "6.4.0-r1": 1682196654
+        "6.4.0-r1": 1682196654,
+        "6.4.0-r2": 1698277119
       },
       "dependencies": [
         "ruby",
         "ruby-activesupport",
-        "ruby-opennebula=6.4.0-r1"
+        "ruby-opennebula=6.4.0-r2"
       ],
       "provides": [
-        "cmd:oneacct=6.4.0-r1",
-        "cmd:oneacl=6.4.0-r1",
-        "cmd:onecluster=6.4.0-r1",
-        "cmd:onedatastore=6.4.0-r1",
-        "cmd:oneflow-template=6.4.0-r1",
-        "cmd:oneflow=6.4.0-r1",
-        "cmd:onegroup=6.4.0-r1",
-        "cmd:onehook=6.4.0-r1",
-        "cmd:onehost=6.4.0-r1",
-        "cmd:oneimage=6.4.0-r1",
-        "cmd:oneirb=6.4.0-r1",
-        "cmd:onelog=6.4.0-r1",
-        "cmd:onemarket=6.4.0-r1",
-        "cmd:onemarketapp=6.4.0-r1",
-        "cmd:onesecgroup=6.4.0-r1",
-        "cmd:oneshowback=6.4.0-r1",
-        "cmd:onetemplate=6.4.0-r1",
-        "cmd:oneuser=6.4.0-r1",
-        "cmd:onevcenter=6.4.0-r1",
-        "cmd:onevdc=6.4.0-r1",
-        "cmd:onevm=6.4.0-r1",
-        "cmd:onevmgroup=6.4.0-r1",
-        "cmd:onevnet=6.4.0-r1",
-        "cmd:onevntemplate=6.4.0-r1",
-        "cmd:onevrouter=6.4.0-r1",
-        "cmd:onezone=6.4.0-r1"
+        "cmd:oneacct=6.4.0-r2",
+        "cmd:oneacl=6.4.0-r2",
+        "cmd:onecluster=6.4.0-r2",
+        "cmd:onedatastore=6.4.0-r2",
+        "cmd:oneflow-template=6.4.0-r2",
+        "cmd:oneflow=6.4.0-r2",
+        "cmd:onegroup=6.4.0-r2",
+        "cmd:onehook=6.4.0-r2",
+        "cmd:onehost=6.4.0-r2",
+        "cmd:oneimage=6.4.0-r2",
+        "cmd:oneirb=6.4.0-r2",
+        "cmd:onelog=6.4.0-r2",
+        "cmd:onemarket=6.4.0-r2",
+        "cmd:onemarketapp=6.4.0-r2",
+        "cmd:onesecgroup=6.4.0-r2",
+        "cmd:oneshowback=6.4.0-r2",
+        "cmd:onetemplate=6.4.0-r2",
+        "cmd:oneuser=6.4.0-r2",
+        "cmd:onevcenter=6.4.0-r2",
+        "cmd:onevdc=6.4.0-r2",
+        "cmd:onevm=6.4.0-r2",
+        "cmd:onevmgroup=6.4.0-r2",
+        "cmd:onevnet=6.4.0-r2",
+        "cmd:onevntemplate=6.4.0-r2",
+        "cmd:onevrouter=6.4.0-r2",
+        "cmd:onezone=6.4.0-r2"
       ]
     },
     "openocd": {
@@ -136582,7 +136584,8 @@
     "ruby-opennebula": {
       "origin": "opennebula",
       "versions": {
-        "6.4.0-r1": 1682196654
+        "6.4.0-r1": 1682196654,
+        "6.4.0-r2": 1698277119
       },
       "dependencies": [
         "ruby",
