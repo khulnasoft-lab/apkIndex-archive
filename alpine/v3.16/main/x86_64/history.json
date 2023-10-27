@@ -10772,7 +10772,8 @@
     "haproxy-doc": {
       "origin": "haproxy",
       "versions": {
-        "2.4.23-r0": 1686833815
+        "2.4.23-r0": 1686833815,
+        "2.4.24-r0": 1698421053
       }
     },
     "glib-dbg": {
@@ -25403,7 +25404,8 @@
     "haproxy": {
       "origin": "haproxy",
       "versions": {
-        "2.4.23-r0": 1686833815
+        "2.4.23-r0": 1686833815,
+        "2.4.24-r0": 1698421053
       },
       "dependencies": [
         "/bin/sh",
@@ -25415,7 +25417,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:haproxy=2.4.23-r0"
+        "cmd:haproxy=2.4.24-r0"
       ]
     },
     "tiny-cloud-openrc": {
@@ -48542,7 +48544,8 @@
     "haproxy-openrc": {
       "origin": "haproxy",
       "versions": {
-        "2.4.23-r0": 1686833815
+        "2.4.23-r0": 1686833815,
+        "2.4.24-r0": 1698421053
       }
     },
     "font-misc-cyrillic": {

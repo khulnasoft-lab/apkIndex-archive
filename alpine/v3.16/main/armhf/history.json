@@ -10836,7 +10836,8 @@
     "haproxy-doc": {
       "origin": "haproxy",
       "versions": {
-        "2.4.23-r0": 1686833815
+        "2.4.23-r0": 1686833815,
+        "2.4.24-r0": 1698421053
       }
     },
     "perl-b-cow-doc": {
@@ -47622,7 +47623,8 @@
     "haproxy-openrc": {
       "origin": "haproxy",
       "versions": {
-        "2.4.23-r0": 1686833815
+        "2.4.23-r0": 1686833815,
+        "2.4.24-r0": 1698421053
       }
     },
     "lua5.2-pc": {
@@ -56861,7 +56863,8 @@
     "haproxy": {
       "origin": "haproxy",
       "versions": {
-        "2.4.23-r0": 1686833815
+        "2.4.23-r0": 1686833815,
+        "2.4.24-r0": 1698421053
       },
       "dependencies": [
         "/bin/sh",
@@ -56873,7 +56876,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:haproxy=2.4.23-r0"
+        "cmd:haproxy=2.4.24-r0"
       ]
     },
     "perl-net-dns-resolver-programmable": {
