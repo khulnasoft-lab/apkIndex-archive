@@ -8320,7 +8320,8 @@
     "compiler-rt": {
       "origin": "llvm-runtimes",
       "versions": {
-        "16.0.6-r4": 1691144503
+        "16.0.6-r4": 1691144503,
+        "17.0.3-r0": 1698505768
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -9188,7 +9189,8 @@
     "cython": {
       "origin": "cython",
       "versions": {
-        "0.29.36-r0": 1688512498
+        "0.29.36-r0": 1688512498,
+        "0.29.36-r1": 1698497498
       },
       "dependencies": [
         "python3",
@@ -9196,23 +9198,25 @@
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:cygdb=0.29.36-r0",
-        "cmd:cython=0.29.36-r0",
-        "cmd:cythonize=0.29.36-r0",
-        "py3.11:Cython=0.29.36-r0",
-        "py3.11:pyximport=0.29.36-r0"
+        "cmd:cygdb=0.29.36-r1",
+        "cmd:cython=0.29.36-r1",
+        "cmd:cythonize=0.29.36-r1",
+        "py3.11:Cython=0.29.36-r1",
+        "py3.11:pyximport=0.29.36-r1"
       ]
     },
     "cython-doc": {
       "origin": "cython",
       "versions": {
-        "0.29.36-r0": 1688512498
+        "0.29.36-r0": 1688512498,
+        "0.29.36-r1": 1698497498
       }
     },
     "cython-pyc": {
       "origin": "cython",
       "versions": {
-        "0.29.36-r0": 1688512498
+        "0.29.36-r0": 1688512498,
+        "0.29.36-r1": 1698497498
       },
       "dependencies": [
         "python3",
@@ -14118,7 +14122,8 @@
       "origin": "freetds",
       "versions": {
         "1.4.4-r0": 1697876545,
-        "1.4.5-r0": 1698138468
+        "1.4.5-r0": 1698138468,
+        "1.4.6-r0": 1698492184
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -14132,39 +14137,42 @@
         "so:libct.so.4=4.0.0",
         "so:libsybdb.so.5=5.1.0",
         "so:libtdsodbc.so.0=0.0.0",
-        "cmd:bsqldb=1.4.5-r0",
-        "cmd:bsqlodbc=1.4.5-r0",
-        "cmd:datacopy=1.4.5-r0",
-        "cmd:defncopy=1.4.5-r0",
-        "cmd:fisql=1.4.5-r0",
-        "cmd:freebcp=1.4.5-r0",
-        "cmd:osql=1.4.5-r0",
-        "cmd:tdspool=1.4.5-r0",
-        "cmd:tsql=1.4.5-r0"
+        "cmd:bsqldb=1.4.6-r0",
+        "cmd:bsqlodbc=1.4.6-r0",
+        "cmd:datacopy=1.4.6-r0",
+        "cmd:defncopy=1.4.6-r0",
+        "cmd:fisql=1.4.6-r0",
+        "cmd:freebcp=1.4.6-r0",
+        "cmd:osql=1.4.6-r0",
+        "cmd:tdspool=1.4.6-r0",
+        "cmd:tsql=1.4.6-r0"
       ]
     },
     "freetds-dev": {
       "origin": "freetds",
       "versions": {
         "1.4.4-r0": 1697876545,
-        "1.4.5-r0": 1698138468
+        "1.4.5-r0": 1698138468,
+        "1.4.6-r0": 1698492184
       },
       "dependencies": [
-        "freetds=1.4.5-r0"
+        "freetds=1.4.6-r0"
       ]
     },
     "freetds-doc": {
       "origin": "freetds",
       "versions": {
         "1.4.4-r0": 1697876545,
-        "1.4.5-r0": 1698138468
+        "1.4.5-r0": 1698138468,
+        "1.4.6-r0": 1698492184
       }
     },
     "freetds-static": {
       "origin": "freetds",
       "versions": {
         "1.4.4-r0": 1697876545,
-        "1.4.5-r0": 1698138468
+        "1.4.5-r0": 1698138468,
+        "1.4.6-r0": 1698492184
       }
     },
     "freetype": {
@@ -15738,7 +15746,8 @@
     "glib": {
       "origin": "glib",
       "versions": {
-        "2.78.0-r0": 1694516822
+        "2.78.0-r0": 1694516822,
+        "2.78.1-r0": 1698493610
       },
       "dependencies": [
         "/bin/sh",
@@ -15750,35 +15759,38 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libgio-2.0.so.0=0.7800.0",
-        "so:libglib-2.0.so.0=0.7800.0",
-        "so:libgmodule-2.0.so.0=0.7800.0",
-        "so:libgobject-2.0.so.0=0.7800.0",
-        "so:libgthread-2.0.so.0=0.7800.0",
-        "cmd:gapplication=2.78.0-r0",
-        "cmd:gdbus=2.78.0-r0",
-        "cmd:gio-querymodules=2.78.0-r0",
-        "cmd:gio=2.78.0-r0",
-        "cmd:glib-compile-schemas=2.78.0-r0",
-        "cmd:gsettings=2.78.0-r0"
+        "so:libgio-2.0.so.0=0.7800.1",
+        "so:libglib-2.0.so.0=0.7800.1",
+        "so:libgmodule-2.0.so.0=0.7800.1",
+        "so:libgobject-2.0.so.0=0.7800.1",
+        "so:libgthread-2.0.so.0=0.7800.1",
+        "cmd:gapplication=2.78.1-r0",
+        "cmd:gdbus=2.78.1-r0",
+        "cmd:gio-querymodules=2.78.1-r0",
+        "cmd:gio=2.78.1-r0",
+        "cmd:glib-compile-schemas=2.78.1-r0",
+        "cmd:gsettings=2.78.1-r0"
       ]
     },
     "glib-bash-completion": {
       "origin": "glib",
       "versions": {
-        "2.78.0-r0": 1694516822
+        "2.78.0-r0": 1694516822,
+        "2.78.1-r0": 1698493610
       }
     },
     "glib-dbg": {
       "origin": "glib",
       "versions": {
-        "2.78.0-r0": 1694516822
+        "2.78.0-r0": 1694516822,
+        "2.78.1-r0": 1698493610
       }
     },
     "glib-dev": {
       "origin": "glib",
       "versions": {
-        "2.78.0-r0": 1694516822
+        "2.78.0-r0": 1694516822,
+        "2.78.1-r0": 1698493610
       },
       "dependencies": [
         "bzip2-dev",
@@ -15788,7 +15800,7 @@
         "libxml2-utils",
         "libxslt",
         "python3",
-        "glib=2.78.0-r0",
+        "glib=2.78.1-r0",
         "pc:libffi>=3.0.0",
         "pc:libpcre2-8>=10.32",
         "pc:mount>=2.23",
@@ -15801,41 +15813,44 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "pc:gio-2.0=2.78.0",
-        "pc:gio-unix-2.0=2.78.0",
-        "pc:glib-2.0=2.78.0",
-        "pc:gmodule-2.0=2.78.0",
-        "pc:gmodule-export-2.0=2.78.0",
-        "pc:gmodule-no-export-2.0=2.78.0",
-        "pc:gobject-2.0=2.78.0",
-        "pc:gthread-2.0=2.78.0",
-        "cmd:gdbus-codegen=2.78.0-r0",
-        "cmd:glib-compile-resources=2.78.0-r0",
-        "cmd:glib-genmarshal=2.78.0-r0",
-        "cmd:glib-gettextize=2.78.0-r0",
-        "cmd:glib-mkenums=2.78.0-r0",
-        "cmd:gobject-query=2.78.0-r0",
-        "cmd:gresource=2.78.0-r0",
-        "cmd:gtester-report=2.78.0-r0",
-        "cmd:gtester=2.78.0-r0"
+        "pc:gio-2.0=2.78.1",
+        "pc:gio-unix-2.0=2.78.1",
+        "pc:glib-2.0=2.78.1",
+        "pc:gmodule-2.0=2.78.1",
+        "pc:gmodule-export-2.0=2.78.1",
+        "pc:gmodule-no-export-2.0=2.78.1",
+        "pc:gobject-2.0=2.78.1",
+        "pc:gthread-2.0=2.78.1",
+        "cmd:gdbus-codegen=2.78.1-r0",
+        "cmd:glib-compile-resources=2.78.1-r0",
+        "cmd:glib-genmarshal=2.78.1-r0",
+        "cmd:glib-gettextize=2.78.1-r0",
+        "cmd:glib-mkenums=2.78.1-r0",
+        "cmd:gobject-query=2.78.1-r0",
+        "cmd:gresource=2.78.1-r0",
+        "cmd:gtester-report=2.78.1-r0",
+        "cmd:gtester=2.78.1-r0"
       ]
     },
     "glib-doc": {
       "origin": "glib",
       "versions": {
-        "2.78.0-r0": 1694516822
+        "2.78.0-r0": 1694516822,
+        "2.78.1-r0": 1698493610
       }
     },
     "glib-lang": {
       "origin": "glib",
       "versions": {
-        "2.78.0-r0": 1694516822
+        "2.78.0-r0": 1694516822,
+        "2.78.1-r0": 1698493610
       }
     },
     "glib-static": {
       "origin": "glib",
       "versions": {
-        "2.78.0-r0": 1694516822
+        "2.78.0-r0": 1694516822,
+        "2.78.1-r0": 1698493610
       },
       "dependencies": [
         "gettext-static"
@@ -22634,7 +22649,8 @@
     "libc++": {
       "origin": "llvm-runtimes",
       "versions": {
-        "16.0.6-r4": 1691144503
+        "16.0.6-r4": 1691144503,
+        "17.0.3-r0": 1698505768
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -22648,16 +22664,18 @@
     "libc++-dev": {
       "origin": "llvm-runtimes",
       "versions": {
-        "16.0.6-r4": 1691144503
+        "16.0.6-r4": 1691144503,
+        "17.0.3-r0": 1698505768
       },
       "dependencies": [
-        "libc++=16.0.6-r4"
+        "libc++=17.0.3-r0"
       ]
     },
     "libc++-static": {
       "origin": "llvm-runtimes",
       "versions": {
-        "16.0.6-r4": 1691144503
+        "16.0.6-r4": 1691144503,
+        "17.0.3-r0": 1698505768
       }
     },
     "libc-dev": {
@@ -29938,7 +29956,8 @@
     "llvm-libunwind": {
       "origin": "llvm-runtimes",
       "versions": {
-        "16.0.6-r4": 1691144503
+        "16.0.6-r4": 1691144503,
+        "17.0.3-r0": 1698505768
       },
       "dependencies": [
         "!libunwind-dev",
@@ -29951,22 +29970,25 @@
     "llvm-libunwind-dev": {
       "origin": "llvm-runtimes",
       "versions": {
-        "16.0.6-r4": 1691144503
+        "16.0.6-r4": 1691144503,
+        "17.0.3-r0": 1698505768
       },
       "dependencies": [
-        "llvm-libunwind=16.0.6-r4"
+        "llvm-libunwind=17.0.3-r0"
       ]
     },
     "llvm-libunwind-static": {
       "origin": "llvm-runtimes",
       "versions": {
-        "16.0.6-r4": 1691144503
+        "16.0.6-r4": 1691144503,
+        "17.0.3-r0": 1698505768
       }
     },
     "llvm-runtimes": {
       "origin": "llvm-runtimes",
       "versions": {
-        "16.0.6-r4": 1691144503
+        "16.0.6-r4": 1691144503,
+        "17.0.3-r0": 1698505768
       }
     },
     "llvm14": {
@@ -67428,23 +67450,23 @@
       },
       "libgio-2.0.so.0": {
         "package": "glib",
-        "version": "0.7800.0"
+        "version": "0.7800.1"
       },
       "libglib-2.0.so.0": {
         "package": "glib",
-        "version": "0.7800.0"
+        "version": "0.7800.1"
       },
       "libgmodule-2.0.so.0": {
         "package": "glib",
-        "version": "0.7800.0"
+        "version": "0.7800.1"
       },
       "libgobject-2.0.so.0": {
         "package": "glib",
-        "version": "0.7800.0"
+        "version": "0.7800.1"
       },
       "libgthread-2.0.so.0": {
         "package": "glib",
-        "version": "0.7800.0"
+        "version": "0.7800.1"
       },
       "libHLSL.so.12": {
         "package": "glslang-libs",
