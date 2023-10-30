@@ -11244,14 +11244,15 @@
     "cbindgen": {
       "origin": "cbindgen",
       "versions": {
-        "0.24.3-r2": 1681263464
+        "0.24.3-r2": 1681263464,
+        "0.26.0-r0": 1698678018
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:cbindgen=0.24.3-r2"
+        "cmd:cbindgen=0.26.0-r0"
       ]
     },
     "cblas": {
@@ -77932,7 +77933,8 @@
     "nss": {
       "origin": "nss",
       "versions": {
-        "3.91-r0": 1688122106
+        "3.91-r0": 1688122106,
+        "3.94-r0": 1698678018
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -77942,41 +77944,43 @@
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "so:libfreebl3.so=91",
-        "so:libfreeblpriv3.so=91",
-        "so:libnss3.so=91",
-        "so:libnssckbi-testlib.so=91",
-        "so:libnssckbi.so=91",
-        "so:libnsssysinit.so=91",
-        "so:libnssutil3.so=91",
-        "so:libsmime3.so=91",
-        "so:libsoftokn3.so=91",
-        "so:libssl3.so=91"
+        "so:libfreebl3.so=94",
+        "so:libfreeblpriv3.so=94",
+        "so:libnss3.so=94",
+        "so:libnssckbi-testlib.so=94",
+        "so:libnssckbi.so=94",
+        "so:libnsssysinit.so=94",
+        "so:libnssutil3.so=94",
+        "so:libsmime3.so=94",
+        "so:libsoftokn3.so=94",
+        "so:libssl3.so=94"
       ]
     },
     "nss-dev": {
       "origin": "nss",
       "versions": {
-        "3.91-r0": 1688122106
+        "3.91-r0": 1688122106,
+        "3.94-r0": 1698678018
       },
       "dependencies": [
-        "nss=3.91-r0",
+        "nss=3.94-r0",
         "nspr-dev",
-        "pc:nspr>=3.91",
+        "pc:nspr>=4.35.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:mozilla-nss=3.91",
-        "pc:nss-softokn=3.91",
-        "pc:nss-util=3.91",
-        "pc:nss=3.91",
-        "cmd:nss-config=3.91-r0"
+        "pc:mozilla-nss=3.94",
+        "pc:nss-softokn=3.94",
+        "pc:nss-util=3.94",
+        "pc:nss=3.94",
+        "cmd:nss-config=3.94-r0"
       ]
     },
     "nss-tools": {
       "origin": "nss",
       "versions": {
-        "3.91-r0": 1688122106
+        "3.91-r0": 1688122106,
+        "3.94-r0": 1698678018
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -77990,15 +77994,15 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:certutil=3.91-r0",
-        "cmd:cmsutil=3.91-r0",
-        "cmd:crlutil=3.91-r0",
-        "cmd:modutil=3.91-r0",
-        "cmd:pk12util=3.91-r0",
-        "cmd:shlibsign=3.91-r0",
-        "cmd:signtool=3.91-r0",
-        "cmd:signver=3.91-r0",
-        "cmd:ssltap=3.91-r0"
+        "cmd:certutil=3.94-r0",
+        "cmd:cmsutil=3.94-r0",
+        "cmd:crlutil=3.94-r0",
+        "cmd:modutil=3.94-r0",
+        "cmd:pk12util=3.94-r0",
+        "cmd:shlibsign=3.94-r0",
+        "cmd:signtool=3.94-r0",
+        "cmd:signver=3.94-r0",
+        "cmd:ssltap=3.94-r0"
       ]
     },
     "nss_wrapper": {
@@ -170648,43 +170652,43 @@
       },
       "libfreebl3.so": {
         "package": "nss",
-        "version": "91"
+        "version": "94"
       },
       "libfreeblpriv3.so": {
         "package": "nss",
-        "version": "91"
+        "version": "94"
       },
       "libnss3.so": {
         "package": "nss",
-        "version": "91"
+        "version": "94"
       },
       "libnssckbi-testlib.so": {
         "package": "nss",
-        "version": "91"
+        "version": "94"
       },
       "libnssckbi.so": {
         "package": "nss",
-        "version": "91"
+        "version": "94"
       },
       "libnsssysinit.so": {
         "package": "nss",
-        "version": "91"
+        "version": "94"
       },
       "libnssutil3.so": {
         "package": "nss",
-        "version": "91"
+        "version": "94"
       },
       "libsmime3.so": {
         "package": "nss",
-        "version": "91"
+        "version": "94"
       },
       "libsoftokn3.so": {
         "package": "nss",
-        "version": "91"
+        "version": "94"
       },
       "libssl3.so": {
         "package": "nss",
-        "version": "91"
+        "version": "94"
       },
       "libnss_wrapper.so.0": {
         "package": "nss_wrapper",
