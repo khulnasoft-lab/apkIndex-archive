@@ -12978,7 +12978,8 @@
     "libx11": {
       "origin": "libx11",
       "versions": {
-        "1.8.4-r1": 1686849412
+        "1.8.4-r1": 1686849412,
+        "1.8.7-r0": 1698825234
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -18237,7 +18238,8 @@
     "libx11-doc": {
       "origin": "libx11",
       "versions": {
-        "1.8.4-r1": 1686849412
+        "1.8.4-r1": 1686849412,
+        "1.8.7-r0": 1698825234
       }
     },
     "lua-inspect": {
@@ -44654,7 +44656,8 @@
     "libx11-static": {
       "origin": "libx11",
       "versions": {
-        "1.8.4-r1": 1686849412
+        "1.8.4-r1": 1686849412,
+        "1.8.7-r0": 1698825234
       }
     },
     "jpeg-dev": {
@@ -48756,12 +48759,13 @@
     "libx11-dev": {
       "origin": "libx11",
       "versions": {
-        "1.8.4-r1": 1686849412
+        "1.8.4-r1": 1686849412,
+        "1.8.7-r0": 1698825234
       },
       "dependencies": [
         "libxcb-dev",
         "xtrans",
-        "libx11=1.8.4-r1",
+        "libx11=1.8.7-r0",
         "pc:kbproto",
         "pc:xcb",
         "pc:xcb>=1.11.1",
@@ -48769,8 +48773,8 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:x11-xcb=1.8.4",
-        "pc:x11=1.8.4"
+        "pc:x11-xcb=1.8.7",
+        "pc:x11=1.8.7"
       ]
     },
     "libnetfilter_acct": {

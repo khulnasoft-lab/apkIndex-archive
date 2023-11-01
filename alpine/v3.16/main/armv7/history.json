@@ -13456,7 +13456,8 @@
     "libx11": {
       "origin": "libx11",
       "versions": {
-        "1.8-r1": 1686849436
+        "1.8-r1": 1686849436,
+        "1.8.7-r0": 1698825426
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -24016,12 +24017,13 @@
     "libx11-dev": {
       "origin": "libx11",
       "versions": {
-        "1.8-r1": 1686849436
+        "1.8-r1": 1686849436,
+        "1.8.7-r0": 1698825426
       },
       "dependencies": [
         "libxcb-dev",
         "xtrans",
-        "libx11=1.8-r1",
+        "libx11=1.8.7-r0",
         "pc:kbproto",
         "pc:xcb",
         "pc:xcb>=1.11.1",
@@ -24029,8 +24031,8 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:x11-xcb=1.8",
-        "pc:x11=1.8"
+        "pc:x11-xcb=1.8.7",
+        "pc:x11=1.8.7"
       ]
     },
     "cyrus-sasl-scram": {
@@ -49803,7 +49805,8 @@
     "libx11-static": {
       "origin": "libx11",
       "versions": {
-        "1.8-r1": 1686849436
+        "1.8-r1": 1686849436,
+        "1.8.7-r0": 1698825426
       }
     },
     "s6-ipcserver": {
@@ -56667,7 +56670,8 @@
     "libx11-doc": {
       "origin": "libx11",
       "versions": {
-        "1.8-r1": 1686849436
+        "1.8-r1": 1686849436,
+        "1.8.7-r0": 1698825426
       }
     },
     "zlib": {

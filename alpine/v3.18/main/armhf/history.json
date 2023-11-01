@@ -25105,7 +25105,8 @@
     "libx11": {
       "origin": "libx11",
       "versions": {
-        "1.8.4-r4": 1686849392
+        "1.8.4-r4": 1686849392,
+        "1.8.7-r0": 1698825104
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -25119,12 +25120,13 @@
     "libx11-dev": {
       "origin": "libx11",
       "versions": {
-        "1.8.4-r4": 1686849392
+        "1.8.4-r4": 1686849392,
+        "1.8.7-r0": 1698825104
       },
       "dependencies": [
         "libxcb-dev",
         "xtrans",
-        "libx11=1.8.4-r4",
+        "libx11=1.8.7-r0",
         "pc:kbproto",
         "pc:xcb",
         "pc:xcb>=1.11.1",
@@ -25132,20 +25134,22 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:x11-xcb=1.8.4",
-        "pc:x11=1.8.4"
+        "pc:x11-xcb=1.8.7",
+        "pc:x11=1.8.7"
       ]
     },
     "libx11-doc": {
       "origin": "libx11",
       "versions": {
-        "1.8.4-r4": 1686849392
+        "1.8.4-r4": 1686849392,
+        "1.8.7-r0": 1698825104
       }
     },
     "libx11-static": {
       "origin": "libx11",
       "versions": {
-        "1.8.4-r4": 1686849392
+        "1.8.4-r4": 1686849392,
+        "1.8.7-r0": 1698825104
       }
     },
     "libxau": {
@@ -26192,7 +26196,8 @@
     "lighttpd": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.71-r0": 1685229302
+        "1.4.71-r0": 1685229302,
+        "1.4.73-r0": 1698817812
       },
       "dependencies": [
         "/bin/sh",
@@ -26209,26 +26214,29 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.71-r0",
-        "cmd:lighttpd=1.4.71-r0"
+        "cmd:lighttpd-angel=1.4.73-r0",
+        "cmd:lighttpd=1.4.73-r0"
       ]
     },
     "lighttpd-dbg": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.71-r0": 1685229302
+        "1.4.71-r0": 1685229302,
+        "1.4.73-r0": 1698817812
       }
     },
     "lighttpd-doc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.71-r0": 1685229302
+        "1.4.71-r0": 1685229302,
+        "1.4.73-r0": 1698817812
       }
     },
     "lighttpd-mod_auth": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.71-r0": 1685229302
+        "1.4.71-r0": 1685229302,
+        "1.4.73-r0": 1698817812
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -26238,7 +26246,8 @@
     "lighttpd-mod_webdav": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.71-r0": 1685229302
+        "1.4.71-r0": 1685229302,
+        "1.4.73-r0": 1698817812
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -26249,7 +26258,8 @@
     "lighttpd-openrc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.71-r0": 1685229302
+        "1.4.71-r0": 1685229302,
+        "1.4.73-r0": 1698817812
       }
     },
     "linenoise": {
