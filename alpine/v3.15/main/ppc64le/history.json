@@ -8824,7 +8824,8 @@
     "lighttpd-mod_webdav": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -10251,7 +10252,8 @@
     "lighttpd-doc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       }
     },
     "lua5.3-pc": {
@@ -31752,7 +31754,8 @@
     "lighttpd": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       },
       "dependencies": [
         "/bin/sh",
@@ -31769,8 +31772,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.64-r0",
-        "cmd:lighttpd=1.4.64-r0"
+        "cmd:lighttpd-angel=1.4.73-r0",
+        "cmd:lighttpd=1.4.73-r0"
       ]
     },
     "kamailio-utils": {
@@ -47621,7 +47624,8 @@
     "lighttpd-dbg": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       }
     },
     "lua5.1-lxc": {
@@ -48900,7 +48904,8 @@
     "lighttpd-openrc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       }
     },
     "db-utils": {
@@ -54253,7 +54258,8 @@
     "lighttpd-mod_auth": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",

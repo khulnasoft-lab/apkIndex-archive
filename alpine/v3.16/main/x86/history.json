@@ -727,7 +727,8 @@
     "lighttpd-mod_webdav": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -12460,7 +12461,8 @@
     "lighttpd-dbg": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       }
     },
     "libtxc_dxtn-dev": {
@@ -19768,7 +19770,8 @@
     "lighttpd-mod_auth": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -32095,7 +32098,8 @@
     "lighttpd-openrc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       }
     },
     "monit": {
@@ -54594,7 +54598,8 @@
     "lighttpd-doc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       }
     },
     "lutok-doc": {
@@ -57002,7 +57007,8 @@
     "lighttpd": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       },
       "dependencies": [
         "/bin/sh",
@@ -57019,8 +57025,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.64-r0",
-        "cmd:lighttpd=1.4.64-r0"
+        "cmd:lighttpd-angel=1.4.73-r0",
+        "cmd:lighttpd=1.4.73-r0"
       ]
     },
     "pound-doc": {

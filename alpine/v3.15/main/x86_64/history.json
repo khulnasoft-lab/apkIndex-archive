@@ -10098,7 +10098,8 @@
     "lighttpd-doc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       }
     },
     "api-sanity-checker": {
@@ -26349,7 +26350,8 @@
     "lighttpd-mod_webdav": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -41348,7 +41350,8 @@
     "lighttpd-dbg": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       }
     },
     "font-bh-100dpi": {
@@ -47305,7 +47308,8 @@
     "lighttpd-mod_auth": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -50254,7 +50258,8 @@
     "lighttpd-openrc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       }
     },
     "perl-text-password-pronounceable-doc": {
@@ -53965,7 +53970,8 @@
     "lighttpd": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642776295
+        "1.4.64-r0": 1642776295,
+        "1.4.73-r0": 1698849213
       },
       "dependencies": [
         "/bin/sh",
@@ -53982,8 +53988,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.64-r0",
-        "cmd:lighttpd=1.4.64-r0"
+        "cmd:lighttpd-angel=1.4.73-r0",
+        "cmd:lighttpd=1.4.73-r0"
       ]
     },
     "lua-stringy": {

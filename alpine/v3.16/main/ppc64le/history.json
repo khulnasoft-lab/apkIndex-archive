@@ -3978,7 +3978,8 @@
     "lighttpd-mod_webdav": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -12144,7 +12145,8 @@
     "lighttpd-dbg": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       }
     },
     "wget-doc": {
@@ -31391,7 +31393,8 @@
     "lighttpd-openrc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       }
     },
     "ruby-libs": {
@@ -41825,7 +41828,8 @@
     "lighttpd": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       },
       "dependencies": [
         "/bin/sh",
@@ -41842,8 +41846,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.64-r0",
-        "cmd:lighttpd=1.4.64-r0"
+        "cmd:lighttpd-angel=1.4.73-r0",
+        "cmd:lighttpd=1.4.73-r0"
       ]
     },
     "iputils": {
@@ -50929,7 +50933,8 @@
     "lighttpd-mod_auth": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -54626,7 +54631,8 @@
     "lighttpd-doc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.64-r0": 1642657560
+        "1.4.64-r0": 1642657560,
+        "1.4.73-r0": 1698849141
       }
     },
     "perl-text-vfile-asdata": {

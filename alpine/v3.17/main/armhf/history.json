@@ -22806,7 +22806,8 @@
     "lighttpd-mod_webdav": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -22915,7 +22916,8 @@
     "lighttpd": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       },
       "dependencies": [
         "/bin/sh",
@@ -22932,8 +22934,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.67-r0",
-        "cmd:lighttpd=1.4.67-r0"
+        "cmd:lighttpd-angel=1.4.73-r0",
+        "cmd:lighttpd=1.4.73-r0"
       ]
     },
     "perl-carp": {
@@ -44118,7 +44120,8 @@
     "lighttpd-openrc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       }
     },
     "libx11": {
@@ -47758,7 +47761,8 @@
     "lighttpd-dbg": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       }
     },
     "lua5.3-cjson": {
@@ -49919,7 +49923,8 @@
     "lighttpd-mod_auth": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -49997,7 +50002,8 @@
     "lighttpd-doc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       }
     },
     "perl-data-uuid-doc": {

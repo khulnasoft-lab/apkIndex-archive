@@ -14181,7 +14181,8 @@
     "lighttpd-dbg": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       }
     },
     "iw-doc": {
@@ -28232,7 +28233,8 @@
     "lighttpd-mod_auth": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -29046,7 +29048,8 @@
     "lighttpd": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       },
       "dependencies": [
         "/bin/sh",
@@ -29063,8 +29066,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.67-r0",
-        "cmd:lighttpd=1.4.67-r0"
+        "cmd:lighttpd-angel=1.4.73-r0",
+        "cmd:lighttpd=1.4.73-r0"
       ]
     },
     "linux-firmware-keyspan_pda": {
@@ -29346,7 +29349,8 @@
     "lighttpd-mod_webdav": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -44685,7 +44689,8 @@
     "lighttpd-openrc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       }
     },
     "perl-lwp-useragent-determined": {
@@ -50912,7 +50917,8 @@
     "lighttpd-doc": {
       "origin": "lighttpd",
       "versions": {
-        "1.4.67-r0": 1663481701
+        "1.4.67-r0": 1663481701,
+        "1.4.73-r0": 1698849013
       }
     },
     "perl-data-uuid-doc": {
