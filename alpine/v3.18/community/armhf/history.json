@@ -5343,7 +5343,8 @@
     "arti": {
       "origin": "arti",
       "versions": {
-        "1.1.9-r0": 1696361681
+        "1.1.9-r0": 1696361681,
+        "1.1.10-r0": 1698872696
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -5355,13 +5356,14 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:arti=1.1.9-r0"
+        "cmd:arti=1.1.10-r0"
       ]
     },
     "arti-doc": {
       "origin": "arti",
       "versions": {
-        "1.1.9-r0": 1696361681
+        "1.1.9-r0": 1696361681,
+        "1.1.10-r0": 1698872696
       }
     },
     "asciinema": {
