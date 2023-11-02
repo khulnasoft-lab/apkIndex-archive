@@ -1912,7 +1912,8 @@
     "postfix-mysql": {
       "origin": "postfix",
       "versions": {
-        "3.7.7-r0": 1693848640
+        "3.7.7-r0": 1693848640,
+        "3.7.8-r0": 1698911611
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -2606,7 +2607,8 @@
     "postfix-openrc": {
       "origin": "postfix",
       "versions": {
-        "3.7.7-r0": 1693848640
+        "3.7.7-r0": 1693848640,
+        "3.7.8-r0": 1698911611
       }
     },
     "perl-extutils-pkgconfig": {
@@ -10944,7 +10946,8 @@
     "postfix-ldap": {
       "origin": "postfix",
       "versions": {
-        "3.7.7-r0": 1693848640
+        "3.7.7-r0": 1693848640,
+        "3.7.8-r0": 1698911611
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -16195,7 +16198,8 @@
     "postfix-sqlite": {
       "origin": "postfix",
       "versions": {
-        "3.7.7-r0": 1693848640
+        "3.7.7-r0": 1693848640,
+        "3.7.8-r0": 1698911611
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -23676,7 +23680,8 @@
     "postfix-stone": {
       "origin": "postfix",
       "versions": {
-        "3.7.7-r0": 1693848640
+        "3.7.7-r0": 1693848640,
+        "3.7.8-r0": 1698911611
       },
       "dependencies": [
         "musl>=1.1.24-r7",
@@ -23685,11 +23690,11 @@
         "so:libpostfix-util.so"
       ],
       "provides": [
-        "cmd:fsstone=3.7.7-r0",
-        "cmd:qmqp-sink=3.7.7-r0",
-        "cmd:qmqp-source=3.7.7-r0",
-        "cmd:smtp-sink=3.7.7-r0",
-        "cmd:smtp-source=3.7.7-r0"
+        "cmd:fsstone=3.7.8-r0",
+        "cmd:qmqp-sink=3.7.8-r0",
+        "cmd:qmqp-source=3.7.8-r0",
+        "cmd:smtp-sink=3.7.8-r0",
+        "cmd:smtp-source=3.7.8-r0"
       ]
     },
     "apache-mod-fcgid-doc": {
@@ -24904,7 +24909,8 @@
     "postfix-pcre": {
       "origin": "postfix",
       "versions": {
-        "3.7.7-r0": 1693848640
+        "3.7.7-r0": 1693848640,
+        "3.7.8-r0": 1698911611
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -29579,7 +29585,8 @@
     "postfix-pgsql": {
       "origin": "postfix",
       "versions": {
-        "3.7.7-r0": 1693848640
+        "3.7.7-r0": 1693848640,
+        "3.7.8-r0": 1698911611
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -47242,7 +47249,8 @@
     "postfix": {
       "origin": "postfix",
       "versions": {
-        "3.7.7-r0": 1693848640
+        "3.7.7-r0": 1693848640,
+        "3.7.8-r0": 1698911611
       },
       "dependencies": [
         "musl>=1.1.24-r7",
@@ -47261,22 +47269,22 @@
         "so:libpostfix-tls.so=0",
         "so:libpostfix-util.so=0",
         "so:postfix-lmdb.so=0",
-        "cmd:mailq=3.7.7-r0",
-        "cmd:newaliases=3.7.7-r0",
-        "cmd:postalias=3.7.7-r0",
-        "cmd:postcat=3.7.7-r0",
-        "cmd:postconf=3.7.7-r0",
-        "cmd:postdrop=3.7.7-r0",
-        "cmd:postfix=3.7.7-r0",
-        "cmd:postkick=3.7.7-r0",
-        "cmd:postlock=3.7.7-r0",
-        "cmd:postlog=3.7.7-r0",
-        "cmd:postmap=3.7.7-r0",
-        "cmd:postmulti=3.7.7-r0",
-        "cmd:postqueue=3.7.7-r0",
-        "cmd:postsuper=3.7.7-r0",
-        "cmd:qshape.pl=3.7.7-r0",
-        "cmd:sendmail=3.7.7-r0"
+        "cmd:mailq=3.7.8-r0",
+        "cmd:newaliases=3.7.8-r0",
+        "cmd:postalias=3.7.8-r0",
+        "cmd:postcat=3.7.8-r0",
+        "cmd:postconf=3.7.8-r0",
+        "cmd:postdrop=3.7.8-r0",
+        "cmd:postfix=3.7.8-r0",
+        "cmd:postkick=3.7.8-r0",
+        "cmd:postlock=3.7.8-r0",
+        "cmd:postlog=3.7.8-r0",
+        "cmd:postmap=3.7.8-r0",
+        "cmd:postmulti=3.7.8-r0",
+        "cmd:postqueue=3.7.8-r0",
+        "cmd:postsuper=3.7.8-r0",
+        "cmd:qshape.pl=3.7.8-r0",
+        "cmd:sendmail=3.7.8-r0"
       ]
     },
     "nmap-scripts": {
@@ -49098,7 +49106,8 @@
     "postfix-doc": {
       "origin": "postfix",
       "versions": {
-        "3.7.7-r0": 1693848640
+        "3.7.7-r0": 1693848640,
+        "3.7.8-r0": 1698911611
       }
     },
     "musl-utils": {
