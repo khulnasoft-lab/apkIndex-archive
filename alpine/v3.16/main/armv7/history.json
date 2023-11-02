@@ -3414,7 +3414,8 @@
     "nghttp2-doc": {
       "origin": "nghttp2",
       "versions": {
-        "1.47.0-r1": 1689799433
+        "1.47.0-r1": 1689799433,
+        "1.47.0-r2": 1698895355
       }
     },
     "open-iscsi-openrc": {
@@ -4531,7 +4532,8 @@
     "nghttp2": {
       "origin": "nghttp2",
       "versions": {
-        "1.47.0-r1": 1689799433
+        "1.47.0-r1": 1689799433,
+        "1.47.0-r2": 1698895355
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -4545,10 +4547,10 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:h2load=1.47.0-r1",
-        "cmd:nghttp=1.47.0-r1",
-        "cmd:nghttpd=1.47.0-r1",
-        "cmd:nghttpx=1.47.0-r1"
+        "cmd:h2load=1.47.0-r2",
+        "cmd:nghttp=1.47.0-r2",
+        "cmd:nghttpd=1.47.0-r2",
+        "cmd:nghttpx=1.47.0-r2"
       ]
     },
     "py3-libxml2": {
@@ -20328,7 +20330,8 @@
     "nghttp2-libs": {
       "origin": "nghttp2",
       "versions": {
-        "1.47.0-r1": 1689799433
+        "1.47.0-r1": 1689799433,
+        "1.47.0-r2": 1698895355
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
@@ -44518,7 +44521,8 @@
     "nghttp2-static": {
       "origin": "nghttp2",
       "versions": {
-        "1.47.0-r1": 1689799433
+        "1.47.0-r1": 1689799433,
+        "1.47.0-r2": 1698895355
       }
     },
     "perl-dbd-pg": {
@@ -54557,10 +54561,11 @@
     "nghttp2-dev": {
       "origin": "nghttp2",
       "versions": {
-        "1.47.0-r1": 1689799433
+        "1.47.0-r1": 1689799433,
+        "1.47.0-r2": 1698895355
       },
       "dependencies": [
-        "nghttp2-libs=1.47.0-r1",
+        "nghttp2-libs=1.47.0-r2",
         "pkgconfig"
       ],
       "provides": [

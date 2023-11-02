@@ -3352,7 +3352,8 @@
     "nghttp2-doc": {
       "origin": "nghttp2",
       "versions": {
-        "1.47.0-r1": 1689799433
+        "1.47.0-r1": 1689799433,
+        "1.47.0-r2": 1698895355
       }
     },
     "libcmph": {
@@ -22643,7 +22644,8 @@
     "nghttp2-static": {
       "origin": "nghttp2",
       "versions": {
-        "1.47.0-r1": 1689799433
+        "1.47.0-r1": 1689799433,
+        "1.47.0-r2": 1698895355
       }
     },
     "apache2-mod-wsgi": {
@@ -39081,7 +39083,8 @@
     "nghttp2-libs": {
       "origin": "nghttp2",
       "versions": {
-        "1.47.0-r1": 1689799433
+        "1.47.0-r1": 1689799433,
+        "1.47.0-r2": 1698895355
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
@@ -52379,7 +52382,8 @@
     "nghttp2": {
       "origin": "nghttp2",
       "versions": {
-        "1.47.0-r1": 1689799433
+        "1.47.0-r1": 1689799433,
+        "1.47.0-r2": 1698895355
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -52393,10 +52397,10 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:h2load=1.47.0-r1",
-        "cmd:nghttp=1.47.0-r1",
-        "cmd:nghttpd=1.47.0-r1",
-        "cmd:nghttpx=1.47.0-r1"
+        "cmd:h2load=1.47.0-r2",
+        "cmd:nghttp=1.47.0-r2",
+        "cmd:nghttpd=1.47.0-r2",
+        "cmd:nghttpx=1.47.0-r2"
       ]
     },
     "kamailio-radius": {
@@ -52810,10 +52814,11 @@
     "nghttp2-dev": {
       "origin": "nghttp2",
       "versions": {
-        "1.47.0-r1": 1689799433
+        "1.47.0-r1": 1689799433,
+        "1.47.0-r2": 1698895355
       },
       "dependencies": [
-        "nghttp2-libs=1.47.0-r1",
+        "nghttp2-libs=1.47.0-r2",
         "pkgconfig"
       ],
       "provides": [

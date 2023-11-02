@@ -152978,7 +152978,8 @@
     "vorbis-tools": {
       "origin": "vorbis-tools",
       "versions": {
-        "1.4.2-r2": 1662929209
+        "1.4.2-r2": 1662929209,
+        "1.4.2-r3": 1698910609
       },
       "dependencies": [
         "so:libFLAC.so.12",
@@ -152992,24 +152993,26 @@
         "so:libvorbisfile.so.3"
       ],
       "provides": [
-        "cmd:ogg123=1.4.2-r2",
-        "cmd:oggdec=1.4.2-r2",
-        "cmd:oggenc=1.4.2-r2",
-        "cmd:ogginfo=1.4.2-r2",
-        "cmd:vcut=1.4.2-r2",
-        "cmd:vorbiscomment=1.4.2-r2"
+        "cmd:ogg123=1.4.2-r3",
+        "cmd:oggdec=1.4.2-r3",
+        "cmd:oggenc=1.4.2-r3",
+        "cmd:ogginfo=1.4.2-r3",
+        "cmd:vcut=1.4.2-r3",
+        "cmd:vorbiscomment=1.4.2-r3"
       ]
     },
     "vorbis-tools-doc": {
       "origin": "vorbis-tools",
       "versions": {
-        "1.4.2-r2": 1662929209
+        "1.4.2-r2": 1662929209,
+        "1.4.2-r3": 1698910609
       }
     },
     "vorbis-tools-lang": {
       "origin": "vorbis-tools",
       "versions": {
-        "1.4.2-r2": 1662929209
+        "1.4.2-r2": 1662929209,
+        "1.4.2-r3": 1698910609
       }
     },
     "vorbisgain": {
