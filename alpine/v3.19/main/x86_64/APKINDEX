@@ -12027,40 +12027,40 @@ D:dhcp=4.4.3_p1-r4 so:libc.musl-x86_64.so.1 so:libgcc_s.so.1
 p:dhcp-server=4.4.3_p1-r4 cmd:dhcpd=4.4.3_p1-r4
 i:dhcp=4.4.3_p1-r4
 
-C:Q1ycVPZv7jiChpdkpjNgQ2mEirRbE=
+C:Q1xcI/qCk+hDgKhetwogq1iCOZLhk=
 P:dhcpcd
-V:10.0.4-r0
+V:10.0.4-r1
 A:x86_64
-S:165902
+S:165889
 I:417792
 T:RFC2131 compliant DHCP client
 U:https://roy.marples.name/projects/dhcpcd
 L:BSD-2-Clause
 o:dhcpcd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1697969658
-c:543deae8b041c94bd6ea004d9f31989f1796176c
+t:1699050898
+c:0e28819c36224828bb9f703ff96a8a0e6e71702c
 D:/bin/sh so:libc.musl-x86_64.so.1
-p:cmd:dhcpcd=10.0.4-r0
+p:cmd:dhcpcd=10.0.4-r1
 
-C:Q1AMZuK8ARLjRVF/koKqVxuA3ztsw=
+C:Q10mUh8L8l2buXokIXv3HiSToaaZ8=
 P:dhcpcd-doc
-V:10.0.4-r0
+V:10.0.4-r1
 A:x86_64
-S:25354
+S:25359
 I:53248
 T:RFC2131 compliant DHCP client (documentation)
 U:https://roy.marples.name/projects/dhcpcd
 L:BSD-2-Clause
 o:dhcpcd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1697969658
-c:543deae8b041c94bd6ea004d9f31989f1796176c
-i:docs dhcpcd=10.0.4-r0
+t:1699050898
+c:0e28819c36224828bb9f703ff96a8a0e6e71702c
+i:docs dhcpcd=10.0.4-r1
 
-C:Q146bkDaCtLl7tJkDxFVRO/Jh+YEo=
+C:Q1D0K31NX72crk6YjMvVYhWuO5wSU=
 P:dhcpcd-openrc
-V:10.0.4-r0
+V:10.0.4-r1
 A:x86_64
 S:1816
 I:16384
@@ -12069,9 +12069,9 @@ U:https://roy.marples.name/projects/dhcpcd
 L:BSD-2-Clause
 o:dhcpcd
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1697969658
-c:543deae8b041c94bd6ea004d9f31989f1796176c
-i:openrc dhcpcd=10.0.4-r0
+t:1699050898
+c:0e28819c36224828bb9f703ff96a8a0e6e71702c
+i:openrc dhcpcd=10.0.4-r1
 
 C:Q1YCRbHmLGh88lMNdmsKBE7DUOiX0=
 P:dhcrelay
@@ -67166,37 +67166,37 @@ c:1949cb20073b5dd4ec17455a47e19374cc82f643
 D:python3 python3~3.11
 i:py3-imagesize=1.4.1-r3 pyc
 
-C:Q1bTe1NsNz38W9c+TNLbZ2HJJ+GIw=
+C:Q1520Mse8NX7nTG469FWHKHzBeUaQ=
 P:py3-iniconfig
-V:1.1.1-r6
+V:1.1.1-r7
 A:x86_64
-S:5358
+S:6323
 I:61440
 T:brain-dead simple config-ini parsing
 U:https://github.com/pytest-dev/iniconfig
 L:MIT
 o:py3-iniconfig
 m:Justin Berthault <justin.berthault@zaclys.net>
-t:1681835959
-c:45a855da9c2066849e510fe5c72293859823c426
+t:1699051382
+c:ca60d447f596de16b2d414de48ce774e4912d3c8
 D:python3~3.11
-p:py3.11:iniconfig=1.1.1-r6
+p:py3.11:iniconfig=1.1.1-r7
 
-C:Q1HzZMLZNEQ3rM2BYMEJ/d+JmhJ9Q=
+C:Q1LQVgXIrZ9AFMpfhmNf8+97kEMu8=
 P:py3-iniconfig-pyc
-V:1.1.1-r6
+V:1.1.1-r7
 A:x86_64
-S:6141
+S:6143
 I:40960
 T:Precompiled Python bytecode for py3-iniconfig
 U:https://github.com/pytest-dev/iniconfig
 L:MIT
 o:py3-iniconfig
 m:Justin Berthault <justin.berthault@zaclys.net>
-t:1681835959
-c:45a855da9c2066849e510fe5c72293859823c426
+t:1699051382
+c:ca60d447f596de16b2d414de48ce774e4912d3c8
 D:python3~3.11
-i:py3-iniconfig=1.1.1-r6 pyc
+i:py3-iniconfig=1.1.1-r7 pyc
 
 C:Q1BVO6baeoSpQHH9MnVva8yh1tZMg=
 P:py3-installer
