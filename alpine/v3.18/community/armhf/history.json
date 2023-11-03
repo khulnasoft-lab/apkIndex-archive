@@ -105697,7 +105697,8 @@
     "py3-flask-wtf": {
       "origin": "py3-flask-wtf",
       "versions": {
-        "1.1.1-r2": 1681909697
+        "1.1.1-r2": 1681909697,
+        "1.1.2-r0": 1698974492
       },
       "dependencies": [
         "python3",
@@ -105706,14 +105707,15 @@
         "python3~3.11"
       ],
       "provides": [
-        "py-flask-wtf=1.1.1-r2",
-        "py3.11:flask_wtf=1.1.1-r2"
+        "py-flask-wtf=1.1.2-r0",
+        "py3.11:flask_wtf=1.1.2-r0"
       ]
     },
     "py3-flask-wtf-pyc": {
       "origin": "py3-flask-wtf",
       "versions": {
-        "1.1.1-r2": 1681909697
+        "1.1.1-r2": 1681909697,
+        "1.1.2-r0": 1698974492
       },
       "dependencies": [
         "python3",
@@ -176458,7 +176460,7 @@
       },
       "py-flask-wtf": {
         "package": "py3-flask-wtf",
-        "version": "1.1.1-r2"
+        "version": "1.1.2-r0"
       },
       "py-flup": {
         "package": "py3-flup",
