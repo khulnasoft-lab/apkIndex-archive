@@ -57050,7 +57050,8 @@
     "libosinfo": {
       "origin": "libosinfo",
       "versions": {
-        "1.10.0-r3": 1682716390
+        "1.10.0-r3": 1682716390,
+        "1.11.0-r0": 1699012949
       },
       "dependencies": [
         "hwdata",
@@ -57066,36 +57067,39 @@
         "so:libxslt.so.1"
       ],
       "provides": [
-        "so:libosinfo-1.0.so.0=0.1010.0",
-        "cmd:osinfo-detect=1.10.0-r3",
-        "cmd:osinfo-install-script=1.10.0-r3",
-        "cmd:osinfo-query=1.10.0-r3"
+        "so:libosinfo-1.0.so.0=0.1011.0",
+        "cmd:osinfo-detect=1.11.0-r0",
+        "cmd:osinfo-install-script=1.11.0-r0",
+        "cmd:osinfo-query=1.11.0-r0"
       ]
     },
     "libosinfo-dev": {
       "origin": "libosinfo",
       "versions": {
-        "1.10.0-r3": 1682716390
+        "1.10.0-r3": 1682716390,
+        "1.11.0-r0": 1699012949
       },
       "dependencies": [
-        "libosinfo=1.10.0-r3",
+        "libosinfo=1.11.0-r0",
         "pc:gobject-2.0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libosinfo-1.0=1.10.0"
+        "pc:libosinfo-1.0=1.11.0"
       ]
     },
     "libosinfo-doc": {
       "origin": "libosinfo",
       "versions": {
-        "1.10.0-r3": 1682716390
+        "1.10.0-r3": 1682716390,
+        "1.11.0-r0": 1699012949
       }
     },
     "libosinfo-lang": {
       "origin": "libosinfo",
       "versions": {
-        "1.10.0-r3": 1682716390
+        "1.10.0-r3": 1682716390,
+        "1.11.0-r0": 1699012949
       },
       "dependencies": [
         "hwdata",
@@ -169128,7 +169132,7 @@
       },
       "libosinfo-1.0.so.0": {
         "package": "libosinfo",
-        "version": "0.1010.0"
+        "version": "0.1011.0"
       },
       "libpagemaker-0.0.so.0": {
         "package": "libpagemaker",
