@@ -48200,7 +48200,8 @@
     "libadwaita": {
       "origin": "libadwaita",
       "versions": {
-        "1.3.3-r0": 1686347261
+        "1.3.3-r0": 1686347261,
+        "1.3.5-r0": 1698998568
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -48220,7 +48221,8 @@
     "libadwaita-demo": {
       "origin": "libadwaita",
       "versions": {
-        "1.3.3-r0": 1686347261
+        "1.3.3-r0": 1686347261,
+        "1.3.5-r0": 1698998568
       },
       "dependencies": [
         "so:libadwaita-1.so.0",
@@ -48232,16 +48234,17 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:adwaita-1-demo=1.3.3-r0"
+        "cmd:adwaita-1-demo=1.3.5-r0"
       ]
     },
     "libadwaita-dev": {
       "origin": "libadwaita",
       "versions": {
-        "1.3.3-r0": 1686347261
+        "1.3.3-r0": 1686347261,
+        "1.3.5-r0": 1698998568
       },
       "dependencies": [
-        "libadwaita=1.3.3-r0",
+        "libadwaita=1.3.5-r0",
         "pc:fribidi",
         "pc:gio-2.0>=2.72.0",
         "pc:glib-2.0>=2.72.0",
@@ -48249,13 +48252,14 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libadwaita-1=1.3.3"
+        "pc:libadwaita-1=1.3.5"
       ]
     },
     "libadwaita-lang": {
       "origin": "libadwaita",
       "versions": {
-        "1.3.3-r0": 1686347261
+        "1.3.3-r0": 1686347261,
+        "1.3.5-r0": 1698998568
       }
     },
     "libaec": {
@@ -122222,15 +122226,16 @@
     "py3-sqlalchemy": {
       "origin": "py3-sqlalchemy",
       "versions": {
-        "1.4.49-r0": 1688651403
+        "1.4.49-r0": 1688651403,
+        "1.4.50-r0": 1698998624
       },
       "dependencies": [
         "python3~3.11",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "py-sqlalchemy=1.4.49-r0",
-        "py3.11:sqlalchemy=1.4.49-r0"
+        "py-sqlalchemy=1.4.50-r0",
+        "py3.11:sqlalchemy=1.4.50-r0"
       ]
     },
     "py3-sqlalchemy-migrate": {
@@ -122274,7 +122279,8 @@
     "py3-sqlalchemy-pyc": {
       "origin": "py3-sqlalchemy",
       "versions": {
-        "1.4.49-r0": 1688651403
+        "1.4.49-r0": 1688651403,
+        "1.4.50-r0": 1698998624
       },
       "dependencies": [
         "python3~3.11"
@@ -177152,7 +177158,7 @@
       },
       "py-sqlalchemy": {
         "package": "py3-sqlalchemy",
-        "version": "1.4.49-r0"
+        "version": "1.4.50-r0"
       },
       "py-sqlalchemy-migrate": {
         "package": "py3-sqlalchemy-migrate",
