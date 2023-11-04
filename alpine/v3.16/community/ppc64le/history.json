@@ -8499,7 +8499,8 @@
     "tor-openrc": {
       "origin": "tor",
       "versions": {
-        "0.4.7.10-r0": 1660442895
+        "0.4.7.10-r0": 1660442895,
+        "0.4.7.16-r0": 1699104106
       }
     },
     "kolourpaint": {
@@ -124573,7 +124574,8 @@
     "tor-doc": {
       "origin": "tor",
       "versions": {
-        "0.4.7.10-r0": 1660442895
+        "0.4.7.10-r0": 1660442895,
+        "0.4.7.16-r0": 1699104106
       }
     },
     "tpm-bash-completion": {
@@ -137842,7 +137844,8 @@
     "tor": {
       "origin": "tor",
       "versions": {
-        "0.4.7.10-r0": 1660442895
+        "0.4.7.10-r0": 1660442895,
+        "0.4.7.16-r0": 1699104106
       },
       "dependencies": [
         "/bin/sh",
@@ -137857,11 +137860,11 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:tor-gencert=0.4.7.10-r0",
-        "cmd:tor-print-ed-signing-cert=0.4.7.10-r0",
-        "cmd:tor-resolve=0.4.7.10-r0",
-        "cmd:tor=0.4.7.10-r0",
-        "cmd:torify=0.4.7.10-r0"
+        "cmd:tor-gencert=0.4.7.16-r0",
+        "cmd:tor-print-ed-signing-cert=0.4.7.16-r0",
+        "cmd:tor-resolve=0.4.7.16-r0",
+        "cmd:tor=0.4.7.16-r0",
+        "cmd:torify=0.4.7.16-r0"
       ]
     },
     "py3-fitipy": {
