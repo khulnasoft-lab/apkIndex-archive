@@ -148260,7 +148260,8 @@
     "tor": {
       "origin": "tor",
       "versions": {
-        "0.4.8.7-r0": 1695667021
+        "0.4.8.7-r0": 1695667021,
+        "0.4.8.8-r0": 1699097578
       },
       "dependencies": [
         "/bin/sh",
@@ -148276,23 +148277,25 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:tor-gencert=0.4.8.7-r0",
-        "cmd:tor-print-ed-signing-cert=0.4.8.7-r0",
-        "cmd:tor-resolve=0.4.8.7-r0",
-        "cmd:tor=0.4.8.7-r0",
-        "cmd:torify=0.4.8.7-r0"
+        "cmd:tor-gencert=0.4.8.8-r0",
+        "cmd:tor-print-ed-signing-cert=0.4.8.8-r0",
+        "cmd:tor-resolve=0.4.8.8-r0",
+        "cmd:tor=0.4.8.8-r0",
+        "cmd:torify=0.4.8.8-r0"
       ]
     },
     "tor-doc": {
       "origin": "tor",
       "versions": {
-        "0.4.8.7-r0": 1695667021
+        "0.4.8.7-r0": 1695667021,
+        "0.4.8.8-r0": 1699097578
       }
     },
     "tor-openrc": {
       "origin": "tor",
       "versions": {
-        "0.4.8.7-r0": 1695667021
+        "0.4.8.7-r0": 1695667021,
+        "0.4.8.8-r0": 1699097578
       }
     },
     "torsocks": {
