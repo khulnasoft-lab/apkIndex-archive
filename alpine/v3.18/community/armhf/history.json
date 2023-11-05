@@ -82563,7 +82563,8 @@
     "optipng": {
       "origin": "optipng",
       "versions": {
-        "0.7.7-r1": 1665753996
+        "0.7.7-r1": 1665753996,
+        "0.7.8-r0": 1699167252
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -82571,13 +82572,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:optipng=0.7.7-r1"
+        "cmd:optipng=0.7.8-r0"
       ]
     },
     "optipng-doc": {
       "origin": "optipng",
       "versions": {
-        "0.7.7-r1": 1665753996
+        "0.7.7-r1": 1665753996,
+        "0.7.8-r0": 1699167252
       }
     },
     "opus-tools": {
