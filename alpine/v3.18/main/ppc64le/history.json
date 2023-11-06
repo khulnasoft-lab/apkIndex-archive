@@ -5043,55 +5043,60 @@
       "origin": "busybox",
       "versions": {
         "1.36.1-r2": 1690477944,
-        "1.36.1-r4": 1696838669
+        "1.36.1-r4": 1696838669,
+        "1.36.1-r5": 1699270344
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:busybox=1.36.1-r4"
+        "cmd:busybox=1.36.1-r5"
       ]
     },
     "busybox-binsh": {
       "origin": "busybox",
       "versions": {
         "1.36.1-r2": 1690477944,
-        "1.36.1-r4": 1696838669
+        "1.36.1-r4": 1696838669,
+        "1.36.1-r5": 1699270344
       },
       "dependencies": [
-        "busybox=1.36.1-r4"
+        "busybox=1.36.1-r5"
       ],
       "provides": [
         "/bin/sh",
-        "cmd:sh=1.36.1-r4"
+        "cmd:sh=1.36.1-r5"
       ]
     },
     "busybox-doc": {
       "origin": "busybox",
       "versions": {
         "1.36.1-r2": 1690477944,
-        "1.36.1-r4": 1696838669
+        "1.36.1-r4": 1696838669,
+        "1.36.1-r5": 1699270344
       }
     },
     "busybox-extras": {
       "origin": "busybox",
       "versions": {
         "1.36.1-r2": 1690477944,
-        "1.36.1-r4": 1696838669
+        "1.36.1-r4": 1696838669,
+        "1.36.1-r5": 1699270344
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:busybox-extras=1.36.1-r4"
+        "cmd:busybox-extras=1.36.1-r5"
       ]
     },
     "busybox-extras-openrc": {
       "origin": "busybox",
       "versions": {
         "1.36.1-r2": 1690477944,
-        "1.36.1-r4": 1696838669
+        "1.36.1-r4": 1696838669,
+        "1.36.1-r5": 1699270344
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -5102,7 +5107,8 @@
       "origin": "busybox",
       "versions": {
         "1.36.1-r2": 1690477944,
-        "1.36.1-r4": 1696838669
+        "1.36.1-r4": 1696838669,
+        "1.36.1-r5": 1699270344
       },
       "provides": [
         "ifupdown-any"
@@ -5112,7 +5118,8 @@
       "origin": "busybox",
       "versions": {
         "1.36.1-r2": 1690477944,
-        "1.36.1-r4": 1696838669
+        "1.36.1-r4": 1696838669,
+        "1.36.1-r5": 1699270344
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -5126,7 +5133,8 @@
       "origin": "busybox",
       "versions": {
         "1.36.1-r2": 1690477944,
-        "1.36.1-r4": 1696838669
+        "1.36.1-r4": 1696838669,
+        "1.36.1-r5": 1699270344
       },
       "dependencies": [
         "openrc>=0.24.1-r6"
@@ -5136,24 +5144,26 @@
       "origin": "busybox",
       "versions": {
         "1.36.1-r2": 1690477944,
-        "1.36.1-r4": 1696838669
+        "1.36.1-r4": 1696838669,
+        "1.36.1-r5": 1699270344
       },
       "provides": [
-        "cmd:busybox.static=1.36.1-r4"
+        "cmd:busybox.static=1.36.1-r5"
       ]
     },
     "busybox-suid": {
       "origin": "busybox",
       "versions": {
         "1.36.1-r2": 1690477944,
-        "1.36.1-r4": 1696838669
+        "1.36.1-r4": 1696838669,
+        "1.36.1-r5": 1699270344
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:bbsuid=1.36.1-r4"
+        "cmd:bbsuid=1.36.1-r5"
       ]
     },
     "bwm-ng": {
@@ -55281,7 +55291,8 @@
       "origin": "busybox",
       "versions": {
         "1.36.1-r2": 1690477944,
-        "1.36.1-r4": 1696838669
+        "1.36.1-r4": 1696838669,
+        "1.36.1-r5": 1699270344
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -55289,7 +55300,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:ssl_client=1.36.1-r4"
+        "cmd:ssl_client=1.36.1-r5"
       ]
     },
     "ssmtp": {
