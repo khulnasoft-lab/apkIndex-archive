@@ -130580,7 +130580,8 @@
       "origin": "qt5-qtwebengine",
       "versions": {
         "5.15.13-r8": 1694801329,
-        "5.15.13-r9": 1697421026
+        "5.15.13-r9": 1697421026,
+        "5.15.13-r10": 1699274136
       },
       "dependencies": [
         "mesa-dri-gallium",
@@ -130649,7 +130650,8 @@
       "origin": "qt5-qtwebengine",
       "versions": {
         "5.15.13-r8": 1694801329,
-        "5.15.13-r9": 1697421026
+        "5.15.13-r9": 1697421026,
+        "5.15.13-r10": 1699274136
       },
       "dependencies": [
         "mesa-dri-gallium"
@@ -130659,7 +130661,8 @@
       "origin": "qt5-qtwebengine",
       "versions": {
         "5.15.13-r8": 1694801329,
-        "5.15.13-r9": 1697421026
+        "5.15.13-r9": 1697421026,
+        "5.15.13-r10": 1699274136
       },
       "dependencies": [
         "ffmpeg-dev",
@@ -130686,7 +130689,7 @@
         "pc:Qt5WebChannel",
         "pc:Qt5Widgets",
         "pkgconfig",
-        "qt5-qtwebengine=5.15.13-r9"
+        "qt5-qtwebengine=5.15.13-r10"
       ],
       "provides": [
         "pc:Qt5Pdf=5.15.9",
