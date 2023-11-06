@@ -143813,7 +143813,8 @@
     "superd-services": {
       "origin": "superd-services",
       "versions": {
-        "0.5.0-r0": 1681185625
+        "0.5.0-r0": 1681185625,
+        "0.8.0-r0": 1699305774
       }
     },
     "superd-zsh-completion": {
