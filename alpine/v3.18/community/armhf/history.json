@@ -23283,52 +23283,57 @@
     "faad2": {
       "origin": "faad2",
       "versions": {
-        "2.10.1-r1": 1681263464
+        "2.10.1-r1": 1681263464,
+        "2.11.0-r0": 1699360549
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libfaad.so.2"
       ],
       "provides": [
-        "cmd:faad=2.10.1-r1"
+        "cmd:faad=2.11.0-r0"
       ]
     },
     "faad2-dev": {
       "origin": "faad2",
       "versions": {
-        "2.10.1-r1": 1681263464
+        "2.10.1-r1": 1681263464,
+        "2.11.0-r0": 1699360549
       },
       "dependencies": [
-        "faad2-libs=2.10.1-r1",
+        "faad2-libs=2.11.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:faad2=2.10.1"
+        "pc:faad2=2.11.0"
       ]
     },
     "faad2-doc": {
       "origin": "faad2",
       "versions": {
-        "2.10.1-r1": 1681263464
+        "2.10.1-r1": 1681263464,
+        "2.11.0-r0": 1699360549
       }
     },
     "faad2-libs": {
       "origin": "faad2",
       "versions": {
-        "2.10.1-r1": 1681263464
+        "2.10.1-r1": 1681263464,
+        "2.11.0-r0": 1699360549
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "so:libfaad.so.2=2.0.0",
-        "so:libfaad_drm.so.2=2.0.0"
+        "so:libfaad.so.2=2.11.0",
+        "so:libfaad_drm.so.2=2.11.0"
       ]
     },
     "faad2-static": {
       "origin": "faad2",
       "versions": {
-        "2.10.1-r1": 1681263464
+        "2.10.1-r1": 1681263464,
+        "2.11.0-r0": 1699360549
       }
     },
     "faenza-icon-theme": {
@@ -165565,11 +165570,11 @@
       },
       "libfaad.so.2": {
         "package": "faad2-libs",
-        "version": "2.0.0"
+        "version": "2.11.0"
       },
       "libfaad_drm.so.2": {
         "package": "faad2-libs",
-        "version": "2.0.0"
+        "version": "2.11.0"
       },
       "libfann.so.2": {
         "package": "fann",
