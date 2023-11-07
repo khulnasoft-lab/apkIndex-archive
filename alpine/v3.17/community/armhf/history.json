@@ -9508,7 +9508,8 @@
     "openjdk8-dbg": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332665
+        "8.372.07-r0": 1683332665,
+        "8.392.08-r0": 1699282100
       },
       "dependencies": [
         "openjdk8-jre",
@@ -16903,7 +16904,8 @@
     "openjdk8-jre-lib": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332665
+        "8.372.07-r0": 1683332665,
+        "8.392.08-r0": 1699282100
       }
     },
     "simple-scan-lang": {
@@ -22133,7 +22135,8 @@
     "openjdk8-doc": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332665
+        "8.372.07-r0": 1683332665,
+        "8.392.08-r0": 1699282100
       }
     },
     "py3-adblock": {
@@ -37433,7 +37436,8 @@
     "openjdk8": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332665
+        "8.372.07-r0": 1683332665,
+        "8.392.08-r0": 1699282100
       },
       "dependencies": [
         "openjdk8-jre",
@@ -42927,7 +42931,8 @@
     "openjdk8-jre": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332665
+        "8.372.07-r0": 1683332665,
+        "8.392.08-r0": 1699282100
       },
       "dependencies": [
         "ttf-dejavu",
@@ -51632,7 +51637,8 @@
     "openjdk8-jre-base": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332665
+        "8.372.07-r0": 1683332665,
+        "8.392.08-r0": 1699282100
       },
       "dependencies": [
         "openjdk8-jre-lib",
@@ -86203,7 +86209,8 @@
     "openjdk8-demos": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332665
+        "8.372.07-r0": 1683332665,
+        "8.392.08-r0": 1699282100
       },
       "dependencies": [
         "openjdk8",
@@ -150561,7 +150568,7 @@
         "version": "1.09-r5"
       },
       "java-jre": {
-        "package": "openjdk7-jre",
+        "package": "openjdk8-jre",
         "version": 0
       },
       "py-urlgrabber": {
