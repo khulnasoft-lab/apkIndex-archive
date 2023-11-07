@@ -125512,7 +125512,8 @@
     "py3-werkzeug": {
       "origin": "py3-werkzeug",
       "versions": {
-        "2.2.3-r1": 1682086705
+        "2.2.3-r1": 1682086705,
+        "2.3.7-r0": 1699352815
       },
       "dependencies": [
         "python3",
@@ -125520,14 +125521,15 @@
         "python3~3.11"
       ],
       "provides": [
-        "py-werkzeug=2.2.3-r1",
-        "py3.11:werkzeug=2.2.3-r1"
+        "py-werkzeug=2.3.7-r0",
+        "py3.11:werkzeug=2.3.7-r0"
       ]
     },
     "py3-werkzeug-pyc": {
       "origin": "py3-werkzeug",
       "versions": {
-        "2.2.3-r1": 1682086705
+        "2.2.3-r1": 1682086705,
+        "2.3.7-r0": 1699352815
       },
       "dependencies": [
         "python3",
@@ -177321,7 +177323,7 @@
       },
       "py-werkzeug": {
         "package": "py3-werkzeug",
-        "version": "2.2.3-r1"
+        "version": "2.3.7-r0"
       },
       "py-ws4py": {
         "package": "py3-ws4py",
