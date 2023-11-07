@@ -15327,7 +15327,8 @@
     "openjdk8-doc": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       }
     },
     "collectd-sysevent": {
@@ -50263,7 +50264,8 @@
     "openjdk8": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8-jre",
@@ -80514,7 +80516,8 @@
     "openjdk8-demos": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8",
@@ -87476,7 +87479,8 @@
     "openjdk8-dbg": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8-jre",
@@ -89846,7 +89850,8 @@
     "openjdk8-jre": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "ttf-dejavu",
@@ -116017,7 +116022,8 @@
     "openjdk8-jre-base": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8-jre-lib",
@@ -133576,7 +133582,8 @@
     "openjdk8-jre-lib": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       }
     },
     "afpfs-ng-dev": {

@@ -4872,7 +4872,8 @@
     "openjdk8-jre-lib": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       }
     },
     "gtk-vnc-lang": {
@@ -6542,7 +6543,8 @@
     "openjdk8-demos": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       },
       "dependencies": [
         "openjdk8",
@@ -31684,7 +31686,8 @@
     "openjdk8-jre": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       },
       "dependencies": [
         "ttf-dejavu",
@@ -43462,7 +43465,8 @@
     "openjdk8-jre-base": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       },
       "dependencies": [
         "openjdk8-jre-lib",
@@ -62121,7 +62125,8 @@
     "openjdk8-doc": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       }
     },
     "telepathy-mission-control-doc": {
@@ -74298,7 +74303,8 @@
     "openjdk8": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       },
       "dependencies": [
         "openjdk8-jre",
@@ -124648,7 +124654,8 @@
     "openjdk8-dbg": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       },
       "dependencies": [
         "openjdk8-jre",
@@ -132433,7 +132440,7 @@
         "version": "20.7.3-r2"
       },
       "java-jre-headless": {
-        "package": "openjdk7-jre-base",
+        "package": "openjdk8-jre-base",
         "version": 0
       },
       "py-fonttools-doc": {
