@@ -11869,7 +11869,8 @@
     "openjdk8-doc": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       }
     },
     "libewf": {
@@ -16456,7 +16457,8 @@
     "openjdk8-jre-lib": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       }
     },
     "opendkim-doc": {
@@ -39372,7 +39374,8 @@
     "openjdk8-dbg": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8-jre",
@@ -47788,7 +47791,8 @@
     "openjdk8-jre-base": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8-jre-lib",
@@ -53888,7 +53892,8 @@
     "openjdk8": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8-jre",
@@ -54593,7 +54598,8 @@
     "openjdk8-jre": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "ttf-dejavu",
@@ -87724,7 +87730,8 @@
     "openjdk8-demos": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8",
@@ -118962,7 +118969,7 @@
         "version": "3.3.2-r3"
       },
       "java-jdk": {
-        "package": "openjdk8",
+        "package": "openjdk7",
         "version": 0
       },
       "swaylock": {

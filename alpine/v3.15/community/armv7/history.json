@@ -14834,7 +14834,8 @@
     "openjdk8-doc": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       }
     },
     "gtkmm4": {
@@ -16176,7 +16177,8 @@
     "openjdk8-jre-lib": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       }
     },
     "libreoffice-lang-el": {
@@ -79901,7 +79903,8 @@
     "openjdk8": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8-jre",
@@ -90485,7 +90488,8 @@
     "openjdk8-dbg": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8-jre",
@@ -100273,7 +100277,8 @@
     "openjdk8-jre-base": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8-jre-lib",
@@ -111977,7 +111982,8 @@
     "openjdk8-demos": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "openjdk8",
@@ -115311,7 +115317,8 @@
     "openjdk8-jre": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332693
+        "8.372.07-r0": 1683332693,
+        "8.392.08-r0": 1699282286
       },
       "dependencies": [
         "ttf-dejavu",
@@ -148413,7 +148420,7 @@
         "version": "3.24.3-r0"
       },
       "java-jre": {
-        "package": "openjdk7-jre",
+        "package": "openjdk8-jre",
         "version": 0
       },
       "py-dicttoxml": {
