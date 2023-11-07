@@ -8551,7 +8551,8 @@
     "procps-lang": {
       "origin": "procps",
       "versions": {
-        "3.3.17-r2": 1664408147
+        "3.3.17-r2": 1664408147,
+        "3.3.17-r3": 1699342770
       }
     },
     "perl-sub-identify-doc": {
@@ -18024,10 +18025,11 @@
     "procps-dev": {
       "origin": "procps",
       "versions": {
-        "3.3.17-r2": 1664408147
+        "3.3.17-r2": 1664408147,
+        "3.3.17-r3": 1699342770
       },
       "dependencies": [
-        "libproc=3.3.17-r2",
+        "libproc=3.3.17-r3",
         "pkgconfig"
       ],
       "provides": [
@@ -18732,7 +18734,8 @@
     "procps": {
       "origin": "procps",
       "versions": {
-        "3.3.17-r2": 1664408147
+        "3.3.17-r2": 1664408147,
+        "3.3.17-r3": 1699342770
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -18741,22 +18744,22 @@
         "so:libprocps.so.8"
       ],
       "provides": [
-        "cmd:free=3.3.17-r2",
-        "cmd:pgrep=3.3.17-r2",
-        "cmd:pidof=3.3.17-r2",
-        "cmd:pkill=3.3.17-r2",
-        "cmd:pmap=3.3.17-r2",
-        "cmd:ps=3.3.17-r2",
-        "cmd:pwait=3.3.17-r2",
-        "cmd:pwdx=3.3.17-r2",
-        "cmd:slabtop=3.3.17-r2",
-        "cmd:sysctl=3.3.17-r2",
-        "cmd:tload=3.3.17-r2",
-        "cmd:top=3.3.17-r2",
-        "cmd:uptime=3.3.17-r2",
-        "cmd:vmstat=3.3.17-r2",
-        "cmd:w=3.3.17-r2",
-        "cmd:watch=3.3.17-r2"
+        "cmd:free=3.3.17-r3",
+        "cmd:pgrep=3.3.17-r3",
+        "cmd:pidof=3.3.17-r3",
+        "cmd:pkill=3.3.17-r3",
+        "cmd:pmap=3.3.17-r3",
+        "cmd:ps=3.3.17-r3",
+        "cmd:pwait=3.3.17-r3",
+        "cmd:pwdx=3.3.17-r3",
+        "cmd:slabtop=3.3.17-r3",
+        "cmd:sysctl=3.3.17-r3",
+        "cmd:tload=3.3.17-r3",
+        "cmd:top=3.3.17-r3",
+        "cmd:uptime=3.3.17-r3",
+        "cmd:vmstat=3.3.17-r3",
+        "cmd:w=3.3.17-r3",
+        "cmd:watch=3.3.17-r3"
       ]
     },
     "mdev-conf": {
@@ -44362,7 +44365,8 @@
     "procps-doc": {
       "origin": "procps",
       "versions": {
-        "3.3.17-r2": 1664408147
+        "3.3.17-r2": 1664408147,
+        "3.3.17-r3": 1699342770
       }
     },
     "libev": {
@@ -57131,7 +57135,8 @@
     "libproc": {
       "origin": "procps",
       "versions": {
-        "3.3.17-r2": 1664408147
+        "3.3.17-r2": 1664408147,
+        "3.3.17-r3": 1699342770
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"

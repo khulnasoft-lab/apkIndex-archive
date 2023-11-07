@@ -1690,10 +1690,11 @@
     "procps-dev": {
       "origin": "procps",
       "versions": {
-        "3.3.17-r1": 1641371278
+        "3.3.17-r1": 1641371278,
+        "3.3.17-r2": 1699342964
       },
       "dependencies": [
-        "libproc=3.3.17-r1",
+        "libproc=3.3.17-r2",
         "pkgconfig"
       ],
       "provides": [
@@ -3874,7 +3875,8 @@
     "procps-lang": {
       "origin": "procps",
       "versions": {
-        "3.3.17-r1": 1641371278
+        "3.3.17-r1": 1641371278,
+        "3.3.17-r2": 1699342964
       }
     },
     "dovecot-sql": {
@@ -30663,7 +30665,8 @@
     "libproc": {
       "origin": "procps",
       "versions": {
-        "3.3.17-r1": 1641371278
+        "3.3.17-r1": 1641371278,
+        "3.3.17-r2": 1699342964
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
@@ -33487,7 +33490,8 @@
     "procps-doc": {
       "origin": "procps",
       "versions": {
-        "3.3.17-r1": 1641371278
+        "3.3.17-r1": 1641371278,
+        "3.3.17-r2": 1699342964
       }
     },
     "perl-fcgi-procmanager-doc": {
@@ -56621,7 +56625,8 @@
     "procps": {
       "origin": "procps",
       "versions": {
-        "3.3.17-r1": 1641371278
+        "3.3.17-r1": 1641371278,
+        "3.3.17-r2": 1699342964
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -56630,22 +56635,22 @@
         "so:libprocps.so.8"
       ],
       "provides": [
-        "cmd:free=3.3.17-r1",
-        "cmd:pgrep=3.3.17-r1",
-        "cmd:pidof=3.3.17-r1",
-        "cmd:pkill=3.3.17-r1",
-        "cmd:pmap=3.3.17-r1",
-        "cmd:ps=3.3.17-r1",
-        "cmd:pwait=3.3.17-r1",
-        "cmd:pwdx=3.3.17-r1",
-        "cmd:slabtop=3.3.17-r1",
-        "cmd:sysctl=3.3.17-r1",
-        "cmd:tload=3.3.17-r1",
-        "cmd:top=3.3.17-r1",
-        "cmd:uptime=3.3.17-r1",
-        "cmd:vmstat=3.3.17-r1",
-        "cmd:w=3.3.17-r1",
-        "cmd:watch=3.3.17-r1"
+        "cmd:free=3.3.17-r2",
+        "cmd:pgrep=3.3.17-r2",
+        "cmd:pidof=3.3.17-r2",
+        "cmd:pkill=3.3.17-r2",
+        "cmd:pmap=3.3.17-r2",
+        "cmd:ps=3.3.17-r2",
+        "cmd:pwait=3.3.17-r2",
+        "cmd:pwdx=3.3.17-r2",
+        "cmd:slabtop=3.3.17-r2",
+        "cmd:sysctl=3.3.17-r2",
+        "cmd:tload=3.3.17-r2",
+        "cmd:top=3.3.17-r2",
+        "cmd:uptime=3.3.17-r2",
+        "cmd:vmstat=3.3.17-r2",
+        "cmd:w=3.3.17-r2",
+        "cmd:watch=3.3.17-r2"
       ]
     },
     "perl-socket6": {
