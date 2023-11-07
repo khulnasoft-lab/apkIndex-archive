@@ -32686,7 +32686,8 @@
     "openjdk8-doc": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       }
     },
     "openjdk12-demos": {
@@ -32793,7 +32794,8 @@
     "openjdk8-demos": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       },
       "dependencies": [
         "openjdk8",
@@ -40697,7 +40699,8 @@
     "openjdk8-jre-base": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       },
       "dependencies": [
         "openjdk8-jre-lib",
@@ -50979,7 +50982,8 @@
     "openjdk8-jre": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       },
       "dependencies": [
         "ttf-dejavu",
@@ -61147,7 +61151,8 @@
     "openjdk8-dbg": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       },
       "dependencies": [
         "openjdk8-jre",
@@ -76088,7 +76093,8 @@
     "openjdk8-jre-lib": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       }
     },
     "tepl-lang": {
@@ -130297,7 +130303,8 @@
     "openjdk8": {
       "origin": "openjdk8",
       "versions": {
-        "8.372.07-r0": 1683332684
+        "8.372.07-r0": 1683332684,
+        "8.392.08-r0": 1699282211
       },
       "dependencies": [
         "openjdk8-jre",
@@ -162360,7 +162367,7 @@
         "version": 0
       },
       "java-jdk": {
-        "package": "openjdk8",
+        "package": "openjdk15-jdk",
         "version": 0
       },
       "perl-authen-ntlm": {
