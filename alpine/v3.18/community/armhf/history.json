@@ -67938,7 +67938,8 @@
     "marco": {
       "origin": "marco",
       "versions": {
-        "1.26.2-r0": 1686691272
+        "1.26.2-r0": 1686691272,
+        "1.26.2-r1": 1699453780
       },
       "dependencies": [
         "libxml2-utils",
@@ -67976,19 +67977,20 @@
       ],
       "provides": [
         "so:libmarco-private.so.2=2.0.0",
-        "cmd:marco-message=1.26.2-r0",
-        "cmd:marco-theme-viewer=1.26.2-r0",
-        "cmd:marco-window-demo=1.26.2-r0",
-        "cmd:marco=1.26.2-r0"
+        "cmd:marco-message=1.26.2-r1",
+        "cmd:marco-theme-viewer=1.26.2-r1",
+        "cmd:marco-window-demo=1.26.2-r1",
+        "cmd:marco=1.26.2-r1"
       ]
     },
     "marco-dev": {
       "origin": "marco",
       "versions": {
-        "1.26.2-r0": 1686691272
+        "1.26.2-r0": 1686691272,
+        "1.26.2-r1": 1699453780
       },
       "dependencies": [
-        "marco=1.26.2-r0",
+        "marco=1.26.2-r1",
         "pc:gtk+-3.0",
         "pkgconfig"
       ],
@@ -67999,13 +68001,15 @@
     "marco-doc": {
       "origin": "marco",
       "versions": {
-        "1.26.2-r0": 1686691272
+        "1.26.2-r0": 1686691272,
+        "1.26.2-r1": 1699453780
       }
     },
     "marco-lang": {
       "origin": "marco",
       "versions": {
-        "1.26.2-r0": 1686691272
+        "1.26.2-r0": 1686691272,
+        "1.26.2-r1": 1699453780
       },
       "dependencies": [
         "libxml2-utils",
@@ -143214,7 +143218,8 @@
     "startup-notification": {
       "origin": "startup-notification",
       "versions": {
-        "0.12-r5": 1680033906
+        "0.12-r5": 1680033906,
+        "0.12-r6": 1699453778
       },
       "dependencies": [
         "so:libX11-xcb.so.1",
@@ -143229,13 +143234,14 @@
     "startup-notification-dev": {
       "origin": "startup-notification",
       "versions": {
-        "0.12-r5": 1680033906
+        "0.12-r5": 1680033906,
+        "0.12-r6": 1699453778
       },
       "dependencies": [
         "libsm-dev",
         "xcb-util-dev",
         "pkgconfig",
-        "startup-notification=0.12-r5"
+        "startup-notification=0.12-r6"
       ],
       "provides": [
         "pc:libstartup-notification-1.0=0.12"
