@@ -13287,7 +13287,8 @@
     "ghostscript": {
       "origin": "ghostscript",
       "versions": {
-        "10.01.2-r0": 1687387147
+        "10.01.2-r0": 1687387147,
+        "10.02.0-r0": 1699516936
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -13304,52 +13305,54 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libgs.so.10=10.01",
+        "so:libgs.so.10=10.02",
         "so:libijs-0.35.so=0",
-        "cmd:dvipdf=10.01.2-r0",
-        "cmd:eps2eps=10.01.2-r0",
-        "cmd:gs=10.01.2-r0",
-        "cmd:gsbj=10.01.2-r0",
-        "cmd:gsc=10.01.2-r0",
-        "cmd:gsdj500=10.01.2-r0",
-        "cmd:gsdj=10.01.2-r0",
-        "cmd:gslj=10.01.2-r0",
-        "cmd:gslp=10.01.2-r0",
-        "cmd:gsnd=10.01.2-r0",
-        "cmd:ijs_client_example=10.01.2-r0",
-        "cmd:ijs_server_example=10.01.2-r0",
-        "cmd:lprsetup.sh=10.01.2-r0",
-        "cmd:pdf2dsc=10.01.2-r0",
-        "cmd:pdf2ps=10.01.2-r0",
-        "cmd:pf2afm=10.01.2-r0",
-        "cmd:pfbtopfa=10.01.2-r0",
-        "cmd:pphs=10.01.2-r0",
-        "cmd:printafm=10.01.2-r0",
-        "cmd:ps2ascii=10.01.2-r0",
-        "cmd:ps2epsi=10.01.2-r0",
-        "cmd:ps2pdf12=10.01.2-r0",
-        "cmd:ps2pdf13=10.01.2-r0",
-        "cmd:ps2pdf14=10.01.2-r0",
-        "cmd:ps2pdf=10.01.2-r0",
-        "cmd:ps2pdfwr=10.01.2-r0",
-        "cmd:ps2ps2=10.01.2-r0",
-        "cmd:ps2ps=10.01.2-r0",
-        "cmd:unix-lpr.sh=10.01.2-r0"
+        "cmd:dvipdf=10.02.0-r0",
+        "cmd:eps2eps=10.02.0-r0",
+        "cmd:gs=10.02.0-r0",
+        "cmd:gsbj=10.02.0-r0",
+        "cmd:gsc=10.02.0-r0",
+        "cmd:gsdj500=10.02.0-r0",
+        "cmd:gsdj=10.02.0-r0",
+        "cmd:gslj=10.02.0-r0",
+        "cmd:gslp=10.02.0-r0",
+        "cmd:gsnd=10.02.0-r0",
+        "cmd:ijs_client_example=10.02.0-r0",
+        "cmd:ijs_server_example=10.02.0-r0",
+        "cmd:lprsetup.sh=10.02.0-r0",
+        "cmd:pdf2dsc=10.02.0-r0",
+        "cmd:pdf2ps=10.02.0-r0",
+        "cmd:pf2afm=10.02.0-r0",
+        "cmd:pfbtopfa=10.02.0-r0",
+        "cmd:pphs=10.02.0-r0",
+        "cmd:printafm=10.02.0-r0",
+        "cmd:ps2ascii=10.02.0-r0",
+        "cmd:ps2epsi=10.02.0-r0",
+        "cmd:ps2pdf12=10.02.0-r0",
+        "cmd:ps2pdf13=10.02.0-r0",
+        "cmd:ps2pdf14=10.02.0-r0",
+        "cmd:ps2pdf=10.02.0-r0",
+        "cmd:ps2pdfwr=10.02.0-r0",
+        "cmd:ps2ps2=10.02.0-r0",
+        "cmd:ps2ps=10.02.0-r0",
+        "cmd:unix-lpr.sh=10.02.0-r0"
       ]
     },
     "ghostscript-dbg": {
       "origin": "ghostscript",
       "versions": {
-        "10.01.2-r0": 1687387147
+        "10.01.2-r0": 1687387147,
+        "10.02.0-r0": 1699516936
       }
     },
     "ghostscript-dev": {
       "origin": "ghostscript",
       "versions": {
-        "10.01.2-r0": 1687387147
+        "10.01.2-r0": 1687387147,
+        "10.02.0-r0": 1699516936
       },
       "dependencies": [
-        "ghostscript=10.01.2-r0",
+        "ghostscript=10.02.0-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -13359,7 +13362,8 @@
     "ghostscript-doc": {
       "origin": "ghostscript",
       "versions": {
-        "10.01.2-r0": 1687387147
+        "10.01.2-r0": 1687387147,
+        "10.02.0-r0": 1699516936
       }
     },
     "ghostscript-fonts": {
@@ -13371,7 +13375,8 @@
     "ghostscript-gtk": {
       "origin": "ghostscript",
       "versions": {
-        "10.01.2-r0": 1687387147
+        "10.01.2-r0": 1687387147,
+        "10.02.0-r0": 1699516936
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -13384,7 +13389,7 @@
         "so:libgtk-3.so.0"
       ],
       "provides": [
-        "cmd:gsx=10.01.2-r0"
+        "cmd:gsx=10.02.0-r0"
       ]
     },
     "giflib": {
@@ -15556,11 +15561,12 @@
     "gvim": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       },
       "dependencies": [
-        "vim-common=9.0.1568-r0",
-        "xxd=9.0.1568-r0",
+        "vim-common=9.0.2073-r0",
+        "xxd=9.0.2073-r0",
         "so:libICE.so.6",
         "so:libSM.so.6",
         "so:libX11.so.6",
@@ -15578,20 +15584,20 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "vim=9.0.1568-r0",
-        "cmd:eview=9.0.1568-r0",
-        "cmd:evim=9.0.1568-r0",
-        "cmd:ex=9.0.1568-r0",
-        "cmd:gview=9.0.1568-r0",
-        "cmd:gvim=9.0.1568-r0",
-        "cmd:gvimdiff=9.0.1568-r0",
-        "cmd:gvimtutor=9.0.1568-r0",
-        "cmd:rgview=9.0.1568-r0",
-        "cmd:rgvim=9.0.1568-r0",
-        "cmd:rview=9.0.1568-r0",
-        "cmd:rvim=9.0.1568-r0",
-        "cmd:view=9.0.1568-r0",
-        "cmd:vim=9.0.1568-r0"
+        "vim=9.0.2073-r0",
+        "cmd:eview=9.0.2073-r0",
+        "cmd:evim=9.0.2073-r0",
+        "cmd:ex=9.0.2073-r0",
+        "cmd:gview=9.0.2073-r0",
+        "cmd:gvim=9.0.2073-r0",
+        "cmd:gvimdiff=9.0.2073-r0",
+        "cmd:gvimtutor=9.0.2073-r0",
+        "cmd:rgview=9.0.2073-r0",
+        "cmd:rgvim=9.0.2073-r0",
+        "cmd:rview=9.0.2073-r0",
+        "cmd:rvim=9.0.2073-r0",
+        "cmd:view=9.0.2073-r0",
+        "cmd:vim=9.0.2073-r0"
       ]
     },
     "gvpe": {
@@ -45500,7 +45506,8 @@
     "pjproject": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -45536,13 +45543,15 @@
     "pjproject-dbg": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       }
     },
     "pjproject-dev": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       },
       "dependencies": [
         "openssl-dev>3",
@@ -45553,17 +45562,18 @@
         "portaudio-dev",
         "libsrtp-dev",
         "libsamplerate-dev",
-        "pjproject=2.13.1-r0",
+        "pjproject=2.14-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libpjproject=2.13.1"
+        "pc:libpjproject=2.14"
       ]
     },
     "pjsua": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -45575,7 +45585,7 @@
         "so:libpjsua.so.2"
       ],
       "provides": [
-        "cmd:pjsua=2.13.1-r0"
+        "cmd:pjsua=2.14-r0"
       ]
     },
     "pkgconf": {
@@ -48607,7 +48617,8 @@
     "py3-pjsua": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       },
       "dependencies": [
         "python3~3.11",
@@ -48620,7 +48631,8 @@
     "py3-pjsua-pyc": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       },
       "dependencies": [
         "python3~3.11"
@@ -58776,57 +58788,62 @@
     "vim": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       },
       "dependencies": [
-        "vim-common=9.0.1568-r0",
-        "xxd=9.0.1568-r0",
+        "vim-common=9.0.2073-r0",
+        "xxd=9.0.2073-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:ex=9.0.1568-r0",
-        "cmd:rview=9.0.1568-r0",
-        "cmd:rvim=9.0.1568-r0",
-        "cmd:view=9.0.1568-r0",
-        "cmd:vim=9.0.1568-r0"
+        "cmd:ex=9.0.2073-r0",
+        "cmd:rview=9.0.2073-r0",
+        "cmd:rvim=9.0.2073-r0",
+        "cmd:view=9.0.2073-r0",
+        "cmd:vim=9.0.2073-r0"
       ]
     },
     "vim-common": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       }
     },
     "vim-doc": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       }
     },
     "vim-tutor": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       },
       "dependencies": [
-        "vim=9.0.1568-r0"
+        "vim=9.0.2073-r0"
       ],
       "provides": [
-        "cmd:vimtutor=9.0.1568-r0"
+        "cmd:vimtutor=9.0.2073-r0"
       ]
     },
     "vimdiff": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       },
       "dependencies": [
         "diffutils",
-        "vim=9.0.1568-r0"
+        "vim=9.0.2073-r0"
       ],
       "provides": [
-        "cmd:vimdiff=9.0.1568-r0"
+        "cmd:vimdiff=9.0.2073-r0"
       ]
     },
     "vlan": {
@@ -59817,13 +59834,14 @@
     "xxd": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:xxd=9.0.1568-r0"
+        "cmd:xxd=9.0.2073-r0"
       ]
     },
     "xxhash": {
@@ -60901,7 +60919,7 @@
       },
       "vim": {
         "package": "gvim",
-        "version": "9.0.1568-r0"
+        "version": "9.0.2073-r0"
       },
       "harfbuzz-bootstrap-dev": {
         "package": "harfbuzz-dev",
@@ -63103,7 +63121,7 @@
       },
       "libgs.so.10": {
         "package": "ghostscript",
-        "version": "10.01"
+        "version": "10.02"
       },
       "libijs-0.35.so": {
         "package": "ghostscript",

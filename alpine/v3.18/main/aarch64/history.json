@@ -15699,11 +15699,12 @@
     "gvim": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       },
       "dependencies": [
-        "vim-common=9.0.1568-r0",
-        "xxd=9.0.1568-r0",
+        "vim-common=9.0.2073-r0",
+        "xxd=9.0.2073-r0",
         "so:libICE.so.6",
         "so:libSM.so.6",
         "so:libX11.so.6",
@@ -15721,20 +15722,20 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "vim=9.0.1568-r0",
-        "cmd:eview=9.0.1568-r0",
-        "cmd:evim=9.0.1568-r0",
-        "cmd:ex=9.0.1568-r0",
-        "cmd:gview=9.0.1568-r0",
-        "cmd:gvim=9.0.1568-r0",
-        "cmd:gvimdiff=9.0.1568-r0",
-        "cmd:gvimtutor=9.0.1568-r0",
-        "cmd:rgview=9.0.1568-r0",
-        "cmd:rgvim=9.0.1568-r0",
-        "cmd:rview=9.0.1568-r0",
-        "cmd:rvim=9.0.1568-r0",
-        "cmd:view=9.0.1568-r0",
-        "cmd:vim=9.0.1568-r0"
+        "vim=9.0.2073-r0",
+        "cmd:eview=9.0.2073-r0",
+        "cmd:evim=9.0.2073-r0",
+        "cmd:ex=9.0.2073-r0",
+        "cmd:gview=9.0.2073-r0",
+        "cmd:gvim=9.0.2073-r0",
+        "cmd:gvimdiff=9.0.2073-r0",
+        "cmd:gvimtutor=9.0.2073-r0",
+        "cmd:rgview=9.0.2073-r0",
+        "cmd:rgvim=9.0.2073-r0",
+        "cmd:rview=9.0.2073-r0",
+        "cmd:rvim=9.0.2073-r0",
+        "cmd:view=9.0.2073-r0",
+        "cmd:vim=9.0.2073-r0"
       ]
     },
     "gvpe": {
@@ -45908,7 +45909,8 @@
     "pjproject": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -45944,13 +45946,15 @@
     "pjproject-dbg": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       }
     },
     "pjproject-dev": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       },
       "dependencies": [
         "openssl-dev>3",
@@ -45961,17 +45965,18 @@
         "portaudio-dev",
         "libsrtp-dev",
         "libsamplerate-dev",
-        "pjproject=2.13.1-r0",
+        "pjproject=2.14-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libpjproject=2.13.1"
+        "pc:libpjproject=2.14"
       ]
     },
     "pjsua": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -45983,7 +45988,7 @@
         "so:libpjsua.so.2"
       ],
       "provides": [
-        "cmd:pjsua=2.13.1-r0"
+        "cmd:pjsua=2.14-r0"
       ]
     },
     "pkgconf": {
@@ -48976,7 +48981,8 @@
     "py3-pjsua": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       },
       "dependencies": [
         "python3~3.11",
@@ -48989,7 +48995,8 @@
     "py3-pjsua-pyc": {
       "origin": "pjproject",
       "versions": {
-        "2.13.1-r0": 1689422621
+        "2.13.1-r0": 1689422621,
+        "2.14-r0": 1699516125
       },
       "dependencies": [
         "python3~3.11"
@@ -59473,57 +59480,62 @@
     "vim": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       },
       "dependencies": [
-        "vim-common=9.0.1568-r0",
-        "xxd=9.0.1568-r0",
+        "vim-common=9.0.2073-r0",
+        "xxd=9.0.2073-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:ex=9.0.1568-r0",
-        "cmd:rview=9.0.1568-r0",
-        "cmd:rvim=9.0.1568-r0",
-        "cmd:view=9.0.1568-r0",
-        "cmd:vim=9.0.1568-r0"
+        "cmd:ex=9.0.2073-r0",
+        "cmd:rview=9.0.2073-r0",
+        "cmd:rvim=9.0.2073-r0",
+        "cmd:view=9.0.2073-r0",
+        "cmd:vim=9.0.2073-r0"
       ]
     },
     "vim-common": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       }
     },
     "vim-doc": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       }
     },
     "vim-tutor": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       },
       "dependencies": [
-        "vim=9.0.1568-r0"
+        "vim=9.0.2073-r0"
       ],
       "provides": [
-        "cmd:vimtutor=9.0.1568-r0"
+        "cmd:vimtutor=9.0.2073-r0"
       ]
     },
     "vimdiff": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       },
       "dependencies": [
         "diffutils",
-        "vim=9.0.1568-r0"
+        "vim=9.0.2073-r0"
       ],
       "provides": [
-        "cmd:vimdiff=9.0.1568-r0"
+        "cmd:vimdiff=9.0.2073-r0"
       ]
     },
     "vlan": {
@@ -60764,13 +60776,14 @@
     "xxd": {
       "origin": "vim",
       "versions": {
-        "9.0.1568-r0": 1684513716
+        "9.0.1568-r0": 1684513716,
+        "9.0.2073-r0": 1699516446
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:xxd=9.0.1568-r0"
+        "cmd:xxd=9.0.2073-r0"
       ]
     },
     "xxhash": {
@@ -61897,7 +61910,7 @@
       },
       "vim": {
         "package": "gvim",
-        "version": "9.0.1568-r0"
+        "version": "9.0.2073-r0"
       },
       "harfbuzz-bootstrap-dev": {
         "package": "harfbuzz-dev",
