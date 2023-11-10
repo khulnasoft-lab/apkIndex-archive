@@ -49801,7 +49801,8 @@
     "libcloudproviders": {
       "origin": "libcloudproviders",
       "versions": {
-        "0.3.1-r1": 1675987301
+        "0.3.1-r1": 1675987301,
+        "0.3.5-r0": 1699603368
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -49810,20 +49811,21 @@
         "so:libgobject-2.0.so.0"
       ],
       "provides": [
-        "so:libcloudproviders.so.0=0.3.1"
+        "so:libcloudproviders.so.0=0.3.5"
       ]
     },
     "libcloudproviders-dev": {
       "origin": "libcloudproviders",
       "versions": {
-        "0.3.1-r1": 1675987301
+        "0.3.1-r1": 1675987301,
+        "0.3.5-r0": 1699603368
       },
       "dependencies": [
-        "libcloudproviders=0.3.1-r1",
+        "libcloudproviders=0.3.5-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:cloudproviders=0.3.1"
+        "pc:cloudproviders=0.3.5"
       ]
     },
     "libcmark": {
@@ -90244,31 +90246,33 @@
     "pev": {
       "origin": "pev",
       "versions": {
-        "0.81-r4": 1665753996
+        "0.81-r4": 1665753996,
+        "0.82-r0": 1699605338
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libcrypto.so.3"
       ],
       "provides": [
-        "so:libpe.so.1=1.0",
-        "cmd:ofs2rva=0.81-r4",
-        "cmd:pedis=0.81-r4",
-        "cmd:pehash=0.81-r4",
-        "cmd:peldd=0.81-r4",
-        "cmd:pepack=0.81-r4",
-        "cmd:peres=0.81-r4",
-        "cmd:pescan=0.81-r4",
-        "cmd:pesec=0.81-r4",
-        "cmd:pestr=0.81-r4",
-        "cmd:readpe=0.81-r4",
-        "cmd:rva2ofs=0.81-r4"
+        "so:libpe.so.1=0.82",
+        "cmd:ofs2rva=0.82-r0",
+        "cmd:pedis=0.82-r0",
+        "cmd:pehash=0.82-r0",
+        "cmd:peldd=0.82-r0",
+        "cmd:pepack=0.82-r0",
+        "cmd:peres=0.82-r0",
+        "cmd:pescan=0.82-r0",
+        "cmd:pesec=0.82-r0",
+        "cmd:pestr=0.82-r0",
+        "cmd:readpe=0.82-r0",
+        "cmd:rva2ofs=0.82-r0"
       ]
     },
     "pev-doc": {
       "origin": "pev",
       "versions": {
-        "0.81-r4": 1665753996
+        "0.81-r4": 1665753996,
+        "0.82-r0": 1699605338
       }
     },
     "pflogsumm": {
@@ -168394,7 +168398,7 @@
       },
       "libcloudproviders.so.0": {
         "package": "libcloudproviders",
-        "version": "0.3.1"
+        "version": "0.3.5"
       },
       "libcmark.so.0.30.3": {
         "package": "libcmark",
@@ -171754,7 +171758,7 @@
       },
       "libpe.so.1": {
         "package": "pev",
-        "version": "1.0"
+        "version": "0.82"
       },
       "libphodav-3.0.so.0": {
         "package": "phodav",
