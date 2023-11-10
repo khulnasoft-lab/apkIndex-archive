@@ -161732,7 +161732,8 @@
     "xwayland": {
       "origin": "xwayland",
       "versions": {
-        "23.1.2-r0": 1686079245
+        "23.1.2-r0": 1686079245,
+        "23.1.2-r1": 1699627705
       },
       "dependencies": [
         "xorg-server-common",
@@ -161752,13 +161753,14 @@
         "so:libxshmfence.so.1"
       ],
       "provides": [
-        "cmd:Xwayland=23.1.2-r0"
+        "cmd:Xwayland=23.1.2-r1"
       ]
     },
     "xwayland-dbg": {
       "origin": "xwayland",
       "versions": {
-        "23.1.2-r0": 1686079245
+        "23.1.2-r0": 1686079245,
+        "23.1.2-r1": 1699627705
       },
       "dependencies": [
         "xorg-server-common",
@@ -161768,7 +161770,8 @@
     "xwayland-dev": {
       "origin": "xwayland",
       "versions": {
-        "23.1.2-r0": 1686079245
+        "23.1.2-r0": 1686079245,
+        "23.1.2-r1": 1699627705
       },
       "dependencies": [
         "dbus-dev",
@@ -161795,7 +161798,8 @@
     "xwayland-doc": {
       "origin": "xwayland",
       "versions": {
-        "23.1.2-r0": 1686079245
+        "23.1.2-r0": 1686079245,
+        "23.1.2-r1": 1699627705
       }
     },
     "xwd": {
