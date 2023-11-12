@@ -20085,7 +20085,8 @@
     "irqbalance": {
       "origin": "irqbalance",
       "versions": {
-        "1.9.2-r5": 1684140218
+        "1.9.2-r5": 1684140218,
+        "1.9.3-r0": 1699788682
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -20094,20 +20095,22 @@
         "so:libnuma.so.1"
       ],
       "provides": [
-        "cmd:irqbalance-ui=1.9.2-r5",
-        "cmd:irqbalance=1.9.2-r5"
+        "cmd:irqbalance-ui=1.9.3-r0",
+        "cmd:irqbalance=1.9.3-r0"
       ]
     },
     "irqbalance-doc": {
       "origin": "irqbalance",
       "versions": {
-        "1.9.2-r5": 1684140218
+        "1.9.2-r5": 1684140218,
+        "1.9.3-r0": 1699788682
       }
     },
     "irqbalance-openrc": {
       "origin": "irqbalance",
       "versions": {
-        "1.9.2-r5": 1684140218
+        "1.9.2-r5": 1684140218,
+        "1.9.3-r0": 1699788682
       }
     },
     "iscsi-scst": {
