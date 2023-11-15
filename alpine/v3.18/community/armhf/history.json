@@ -162464,7 +162464,8 @@
     "yt-dlp": {
       "origin": "yt-dlp",
       "versions": {
-        "2023.07.06-r1": 1694531424
+        "2023.07.06-r1": 1694531424,
+        "2023.11.14-r0": 1700051962
       },
       "dependencies": [
         "attr",
@@ -162475,35 +162476,38 @@
         "py3-pycryptodomex",
         "py3-secretstorage",
         "py3-websockets",
-        "yt-dlp-core=2023.07.06-r1"
+        "yt-dlp-core=2023.11.14-r0"
       ]
     },
     "yt-dlp-bash-completion": {
       "origin": "yt-dlp",
       "versions": {
-        "2023.07.06-r1": 1694531424
+        "2023.07.06-r1": 1694531424,
+        "2023.11.14-r0": 1700051962
       }
     },
     "yt-dlp-core": {
       "origin": "yt-dlp",
       "versions": {
-        "2023.07.06-r1": 1694531424
+        "2023.07.06-r1": 1694531424,
+        "2023.11.14-r0": 1700051962
       },
       "dependencies": [
         "python3",
         "python3~3.11"
       ],
       "provides": [
-        "youtube-dl=2023.07.06-r1",
-        "cmd:youtube-dl=2023.07.06-r1",
-        "cmd:yt-dlp=2023.07.06-r1",
-        "py3.11:yt_dlp=2023.07.06-r1"
+        "youtube-dl=2023.11.14-r0",
+        "cmd:youtube-dl=2023.11.14-r0",
+        "cmd:yt-dlp=2023.11.14-r0",
+        "py3.11:yt_dlp=2023.11.14-r0"
       ]
     },
     "yt-dlp-core-pyc": {
       "origin": "yt-dlp",
       "versions": {
-        "2023.07.06-r1": 1694531424
+        "2023.07.06-r1": 1694531424,
+        "2023.11.14-r0": 1700051962
       },
       "dependencies": [
         "python3",
@@ -162513,19 +162517,22 @@
     "yt-dlp-doc": {
       "origin": "yt-dlp",
       "versions": {
-        "2023.07.06-r1": 1694531424
+        "2023.07.06-r1": 1694531424,
+        "2023.11.14-r0": 1700051962
       }
     },
     "yt-dlp-fish-completion": {
       "origin": "yt-dlp",
       "versions": {
-        "2023.07.06-r1": 1694531424
+        "2023.07.06-r1": 1694531424,
+        "2023.11.14-r0": 1700051962
       }
     },
     "yt-dlp-zsh-completion": {
       "origin": "yt-dlp",
       "versions": {
-        "2023.07.06-r1": 1694531424
+        "2023.07.06-r1": 1694531424,
+        "2023.11.14-r0": 1700051962
       }
     },
     "ytnef": {
@@ -177699,7 +177706,7 @@
       },
       "youtube-dl": {
         "package": "yt-dlp-core",
-        "version": "2023.07.06-r1"
+        "version": "2023.11.14-r0"
       },
       "zabbix-agent2-alpine": {
         "package": "zabbix-agent2-plugin-alpine",
