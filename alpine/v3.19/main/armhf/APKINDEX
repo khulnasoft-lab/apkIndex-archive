@@ -25284,313 +25284,313 @@ c:ed03ff4f6a18c46180ed6d13039f783e8eb938a3
 D:so:libc.musl-armhf.so.1 so:libpam.so.0 so:libpam_misc.so.0
 p:cmd:vlock=2.6.3-r0
 
-C:Q1fJjM6CJu0UraI8uuZMiwFw9vGdw=
+C:Q1FwkWWDn5repAnq/CwRD2wIjHFNY=
 P:kea
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:1448
+S:1450
 I:4096
 T:DHCPv4 and DHCPv6 server from ISC
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
 D:kea-dhcp4 kea-dhcp6
 
-C:Q1YQGZ7b3kaS7X5xyTiG5zSyynVhA=
+C:Q17fbKwNImGO6lG8C47iwylfBJajQ=
 P:kea-admin
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:132508
-I:1122304
+S:144003
+I:1261568
 T:Databases administration tools for Kea DHCP server
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:kea-common=2.2.0-r14
-p:cmd:kea-admin=2.2.0-r14
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:kea-common=2.4.0-r0
+p:cmd:kea-admin=2.4.0-r0
 
-C:Q15/XxHvNqoJJtzrkNA4K/PlAp/7Y=
+C:Q1XCm2d3ZhQsmfsOP8S+OBCTYeDsI=
 P:kea-common
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:3001677
-I:9162752
+S:3331400
+I:10182656
 T:Common files and libraries for Kea DHCP Server
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
 D:/bin/sh so:libbotan-2.so.19 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:liblog4cplus-2.1.so.9 so:libmariadb.so.3 so:libpq.so.5 so:libstdc++.so.6
-p:kea-utils=2.2.0-r14 kea-http=2.2.0-r14 so:libkea-asiolink.so.40=40.0.0 so:libkea-cc.so.39=39.0.0 so:libkea-cfgclient.so.36=36.0.0 so:libkea-cryptolink.so.28=28.0.0 so:libkea-database.so.35=35.0.0 so:libkea-dhcp++.so.54=54.0.0 so:libkea-dhcp_ddns.so.29=29.0.0 so:libkea-dhcpsrv.so.69=69.0.0 so:libkea-dns++.so.30=30.0.0 so:libkea-eval.so.39=39.0.0 so:libkea-exceptions.so.13=13.0.0 so:libkea-hooks.so.57=57.0.0 so:libkea-http.so.42=42.0.0 so:libkea-log.so.35=35.0.0 so:libkea-mysql.so.38=38.0.0 so:libkea-pgsql.so.36=36.0.0 so:libkea-process.so.40=40.0.0 so:libkea-stats.so.18=18.0.0 so:libkea-util-io.so.0=0.0.1 so:libkea-util.so.52=52.0.0 cmd:kea-lfc=2.2.0-r14
+p:kea-utils=2.4.0-r0 kea-http=2.4.0-r0 so:libkea-asiolink.so.56=56.0.0 so:libkea-cc.so.54=54.0.0 so:libkea-cfgclient.so.51=51.0.0 so:libkea-cryptolink.so.38=38.0.0 so:libkea-database.so.48=48.0.0 so:libkea-dhcp++.so.73=73.0.0 so:libkea-dhcp_ddns.so.41=41.0.0 so:libkea-dhcpsrv.so.89=89.0.0 so:libkea-dns++.so.42=42.0.0 so:libkea-eval.so.52=52.0.0 so:libkea-exceptions.so.23=23.0.0 so:libkea-hooks.so.77=77.0.0 so:libkea-http.so.56=56.0.0 so:libkea-log.so.48=48.0.0 so:libkea-mysql.so.53=53.0.0 so:libkea-pgsql.so.53=53.0.0 so:libkea-process.so.57=57.0.0 so:libkea-stats.so.29=29.0.0 so:libkea-tcp.so.5=5.0.0 so:libkea-util-io.so.0=0.0.1 so:libkea-util.so.68=68.0.0 cmd:kea-lfc=2.4.0-r0
 
-C:Q1uE6JwxHeLjuUHFQh7g0kL3eBHXg=
+C:Q1003xpuQEvCem4TlML2YWMcMGRoA=
 P:kea-ctrl-agent
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:116569
-I:344064
+S:114932
+I:339968
 T:Kea Control Agent - REST service for controlling Kea DHCP server
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:kea-common=2.2.0-r14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.40 so:libkea-cc.so.39 so:libkea-cfgclient.so.36 so:libkea-exceptions.so.13 so:libkea-hooks.so.57 so:libkea-http.so.42 so:libkea-log.so.35 so:libkea-process.so.40 so:libstdc++.so.6
-p:cmd:kea-ctrl-agent=2.2.0-r14
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:kea-common=2.4.0-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.56 so:libkea-cc.so.54 so:libkea-cfgclient.so.51 so:libkea-exceptions.so.23 so:libkea-hooks.so.77 so:libkea-http.so.56 so:libkea-log.so.48 so:libkea-process.so.57 so:libstdc++.so.6
+p:cmd:kea-ctrl-agent=2.4.0-r0
 
-C:Q1PsYaYwXzF5bnU+7FXc+9epShoe8=
+C:Q1DpkVi2LGBydQ8uJY+PTx+2ze68A=
 P:kea-dev
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:872989
-I:5083136
+S:912443
+I:5349376
 T:DHCPv4 and DHCPv6 server from ISC (development files)
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:boost-dev log4cplus-dev kea-common=2.2.0-r14 kea-dhcp-ddns=2.2.0-r14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-exceptions.so.13 so:libkea-log.so.35 so:libkea-util.so.52 so:libstdc++.so.6
-p:cmd:kea-msg-compiler=2.2.0-r14
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:boost-dev log4cplus-dev kea-common=2.4.0-r0 kea-dhcp-ddns=2.4.0-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-exceptions.so.23 so:libkea-log.so.48 so:libkea-util.so.68 so:libstdc++.so.6
+p:cmd:kea-msg-compiler=2.4.0-r0
 
-C:Q1vRFXNOaEgtzrwT1AhP1wPlalm+0=
+C:Q1J/s/k1c2CaaqoUgRrPjG1tKceK0=
 P:kea-dhcp-ddns
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:315604
-I:954368
+S:313637
+I:950272
 T:Kea DHCP Dynamic DNS Server
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:kea-common=2.2.0-r14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.40 so:libkea-cc.so.39 so:libkea-cfgclient.so.36 so:libkea-cryptolink.so.28 so:libkea-dhcp_ddns.so.29 so:libkea-dns++.so.30 so:libkea-exceptions.so.13 so:libkea-hooks.so.57 so:libkea-log.so.35 so:libkea-process.so.40 so:libkea-stats.so.18 so:libkea-util.so.52 so:libstdc++.so.6
-p:so:libkea-asiodns.so.24=24.0.0 so:libkea-d2srv.so.16=16.0.0 cmd:kea-dhcp-ddns=2.2.0-r14
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:kea-common=2.4.0-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.56 so:libkea-cc.so.54 so:libkea-cfgclient.so.51 so:libkea-cryptolink.so.38 so:libkea-dhcp_ddns.so.41 so:libkea-dns++.so.42 so:libkea-exceptions.so.23 so:libkea-hooks.so.77 so:libkea-log.so.48 so:libkea-process.so.57 so:libkea-stats.so.29 so:libkea-util.so.68 so:libstdc++.so.6
+p:so:libkea-asiodns.so.35=35.0.0 so:libkea-d2srv.so.30=30.0.0 cmd:kea-dhcp-ddns=2.4.0-r0
 
-C:Q1WOU6NERU6QITaPnoJJpGOkzvloM=
+C:Q1dE5VLAn0TEiMYpN/YZLfR2+jHSA=
 P:kea-dhcp4
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:323587
-I:892928
+S:337119
+I:937984
 T:Kea IPv4 DHCP Server
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:kea-common=2.2.0-r14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.40 so:libkea-cc.so.39 so:libkea-cfgclient.so.36 so:libkea-cryptolink.so.28 so:libkea-database.so.35 so:libkea-dhcp++.so.54 so:libkea-dhcp_ddns.so.29 so:libkea-dhcpsrv.so.69 so:libkea-dns++.so.30 so:libkea-eval.so.39 so:libkea-exceptions.so.13 so:libkea-hooks.so.57 so:libkea-log.so.35 so:libkea-process.so.40 so:libkea-stats.so.18 so:libkea-util.so.52 so:libstdc++.so.6
-p:cmd:kea-dhcp4=2.2.0-r14
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:kea-common=2.4.0-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.56 so:libkea-cc.so.54 so:libkea-cfgclient.so.51 so:libkea-cryptolink.so.38 so:libkea-database.so.48 so:libkea-dhcp++.so.73 so:libkea-dhcp_ddns.so.41 so:libkea-dhcpsrv.so.89 so:libkea-dns++.so.42 so:libkea-eval.so.52 so:libkea-exceptions.so.23 so:libkea-hooks.so.77 so:libkea-log.so.48 so:libkea-process.so.57 so:libkea-stats.so.29 so:libkea-util.so.68 so:libstdc++.so.6
+p:cmd:kea-dhcp4=2.4.0-r0
 
-C:Q1Gy3kPE58UXR41/HC7TcKoAsGdiA=
+C:Q1YxB8ZaVY8C0hsQnECv47ooIjhI0=
 P:kea-dhcp6
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:326456
-I:901120
+S:337012
+I:929792
 T:Kea IPv6 DHCP Server
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:kea-common=2.2.0-r14 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.40 so:libkea-cc.so.39 so:libkea-cfgclient.so.36 so:libkea-cryptolink.so.28 so:libkea-database.so.35 so:libkea-dhcp++.so.54 so:libkea-dhcp_ddns.so.29 so:libkea-dhcpsrv.so.69 so:libkea-dns++.so.30 so:libkea-eval.so.39 so:libkea-exceptions.so.13 so:libkea-hooks.so.57 so:libkea-log.so.35 so:libkea-process.so.40 so:libkea-stats.so.18 so:libkea-util.so.52 so:libstdc++.so.6
-p:cmd:kea-dhcp6=2.2.0-r14
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:kea-common=2.4.0-r0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.56 so:libkea-cc.so.54 so:libkea-cfgclient.so.51 so:libkea-cryptolink.so.38 so:libkea-database.so.48 so:libkea-dhcp++.so.73 so:libkea-dhcp_ddns.so.41 so:libkea-dhcpsrv.so.89 so:libkea-dns++.so.42 so:libkea-eval.so.52 so:libkea-exceptions.so.23 so:libkea-hooks.so.77 so:libkea-log.so.48 so:libkea-process.so.57 so:libkea-stats.so.29 so:libkea-util.so.68 so:libstdc++.so.6
+p:cmd:kea-dhcp6=2.4.0-r0
 
-C:Q1nv479zr07C0T7gtAkrb1neI9ljg=
+C:Q1VKvddQpIzvdnfl5A5rGdVDDcVi0=
 P:kea-doc
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:413358
-I:2289664
+S:440973
+I:2465792
 T:DHCPv4 and DHCPv6 server from ISC (documentation)
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-i:docs kea=2.2.0-r14
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+i:docs kea=2.4.0-r0
 
-C:Q1+y/w+81T22pHKJfni3FwgEH8cIk=
+C:Q1spJAnguHCBP87TIFB7/g+Wzt0Hk=
 P:kea-hook-bootp
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:16335
+S:16880
 I:61440
 T:Kea BOOTP hooks library
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.40 so:libkea-dhcp++.so.54 so:libkea-exceptions.so.13 so:libkea-log.so.35 so:libkea-stats.so.18
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.56 so:libkea-dhcp++.so.73 so:libkea-exceptions.so.23 so:libkea-log.so.48 so:libkea-process.so.57 so:libkea-stats.so.29
 
-C:Q1ymwepQqUNbazmLP4KXug6ex5DKY=
+C:Q1c7FoqAqJGwLUWi68Sh2nkQ95q/c=
 P:kea-hook-flex-option
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:46080
-I:143360
+S:46509
+I:147456
 T:Kea Flexible Option hooks library
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-cc.so.39 so:libkea-dhcp++.so.54 so:libkea-dhcpsrv.so.69 so:libkea-eval.so.39 so:libkea-exceptions.so.13 so:libkea-hooks.so.57 so:libkea-log.so.35 so:libkea-util.so.52
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-cc.so.54 so:libkea-dhcp++.so.73 so:libkea-dhcpsrv.so.89 so:libkea-eval.so.52 so:libkea-exceptions.so.23 so:libkea-hooks.so.77 so:libkea-log.so.48 so:libkea-process.so.57 so:libkea-util.so.68
 
-C:Q1UYcMQzronqrX8MqLq6pIsdGXCPg=
+C:Q1u4otMCPOAFd6Am4UkC6NqiamiCQ=
 P:kea-hook-ha
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:179049
-I:516096
+S:188778
+I:552960
 T:Kea High Availability hooks library
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:kea-hook-lease-cmds so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.40 so:libkea-cc.so.39 so:libkea-cfgclient.so.36 so:libkea-dhcp++.so.54 so:libkea-dhcpsrv.so.69 so:libkea-exceptions.so.13 so:libkea-hooks.so.57 so:libkea-http.so.42 so:libkea-log.so.35 so:libkea-process.so.40 so:libkea-stats.so.18 so:libkea-util.so.52
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:kea-hook-lease-cmds so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.56 so:libkea-cc.so.54 so:libkea-cfgclient.so.51 so:libkea-dhcp++.so.73 so:libkea-dhcpsrv.so.89 so:libkea-exceptions.so.23 so:libkea-hooks.so.77 so:libkea-http.so.56 so:libkea-log.so.48 so:libkea-process.so.57 so:libkea-stats.so.29 so:libkea-util.so.68
 
-C:Q1wiMbAIqu5BH+ERIDEynEgq+cPmQ=
+C:Q1AxTXqcHyuh+UY9G2zZBOiHmLUnw=
 P:kea-hook-lease-cmds
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:72618
-I:204800
+S:87970
+I:245760
 T:Kea Lease Commands hooks library
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.40 so:libkea-cc.so.39 so:libkea-dhcp++.so.54 so:libkea-dhcpsrv.so.69 so:libkea-exceptions.so.13 so:libkea-hooks.so.57 so:libkea-log.so.35 so:libkea-stats.so.18 so:libkea-util.so.52
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.56 so:libkea-cc.so.54 so:libkea-dhcp++.so.73 so:libkea-dhcpsrv.so.89 so:libkea-exceptions.so.23 so:libkea-hooks.so.77 so:libkea-log.so.48 so:libkea-process.so.57 so:libkea-stats.so.29 so:libkea-util.so.68
 
-C:Q1ebNwoH3Nqm+yqBviD7qyiiLgLUY=
+C:Q12rKDEdSKLf+/on3NWF6/WW3gW9o=
 P:kea-hook-mysql-cb
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:265289
-I:909312
+S:269679
+I:929792
 T:Kea MySQL Configuration Backend hooks library
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.40 so:libkea-cc.so.39 so:libkea-database.so.35 so:libkea-dhcp++.so.54 so:libkea-dhcpsrv.so.69 so:libkea-exceptions.so.13 so:libkea-log.so.35 so:libkea-mysql.so.38 so:libkea-process.so.40 so:libkea-util.so.52 so:libmariadb.so.3
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.56 so:libkea-cc.so.54 so:libkea-database.so.48 so:libkea-dhcp++.so.73 so:libkea-dhcpsrv.so.89 so:libkea-exceptions.so.23 so:libkea-log.so.48 so:libkea-mysql.so.53 so:libkea-process.so.57 so:libkea-util.so.68 so:libmariadb.so.3
 
-C:Q1nt2GrTKhWUzkbIDZJgeCk57hEnc=
+C:Q1vN/+bg+DPa9CXNIrJGDTJY6YuaM=
 P:kea-hook-pgsql-cb
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:233512
-I:991232
+S:238417
+I:1007616
 T:Kea PostgreSQL Configuration Backend hooks library
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.40 so:libkea-cc.so.39 so:libkea-database.so.35 so:libkea-dhcp++.so.54 so:libkea-dhcpsrv.so.69 so:libkea-exceptions.so.13 so:libkea-log.so.35 so:libkea-pgsql.so.36 so:libkea-process.so.40 so:libkea-util.so.52
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.56 so:libkea-cc.so.54 so:libkea-database.so.48 so:libkea-dhcp++.so.73 so:libkea-dhcpsrv.so.89 so:libkea-exceptions.so.23 so:libkea-log.so.48 so:libkea-pgsql.so.53 so:libkea-process.so.57 so:libkea-util.so.68
 
-C:Q1/TY26DXNm0nU22Ms7nJY528ZNGQ=
+C:Q1CcgKdXyUOAWr4YsWvxRKiTS46Eo=
 P:kea-hook-run-script
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:40446
-I:131072
+S:44091
+I:139264
 T:Kea Run Script hooks library
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.40 so:libkea-dhcp++.so.54 so:libkea-dhcpsrv.so.69 so:libkea-exceptions.so.13 so:libkea-hooks.so.57 so:libkea-log.so.35
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-asiolink.so.56 so:libkea-dhcp++.so.73 so:libkea-dhcpsrv.so.89 so:libkea-exceptions.so.23 so:libkea-hooks.so.77 so:libkea-log.so.48 so:libkea-process.so.57
 
-C:Q1MSOETQ4G283SGPEE4MUDpvpF77k=
+C:Q1gipfxEpoLc+jYkqzrtb2Kjfrwck=
 P:kea-hook-stat-cmds
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:36354
-I:118784
+S:37476
+I:122880
 T:Kea Statistics Commands hooks library
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
-D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-cc.so.39 so:libkea-dhcpsrv.so.69 so:libkea-exceptions.so.13 so:libkea-hooks.so.57 so:libkea-log.so.35 so:libkea-stats.so.18 so:libkea-util.so.52
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
+D:so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libkea-cc.so.54 so:libkea-dhcpsrv.so.89 so:libkea-exceptions.so.23 so:libkea-hooks.so.77 so:libkea-log.so.48 so:libkea-process.so.57 so:libkea-stats.so.29 so:libkea-util.so.68
 
-C:Q12kHPQ0xXdfn96y3yuuUBVC9ru/s=
+C:Q1M6tbZ0hc4o+kPHf5JLHYOaCfoI8=
 P:kea-shell
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:6091
-I:49152
+S:5606
+I:45056
 T:Text client for Kea DHCP Control Agent
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
 D:python3 python3~3.11
-p:cmd:kea-shell=2.2.0-r14
+p:cmd:kea-shell=2.4.0-r0
 
-C:Q1myjwSUiRflWSJYSRIBUMfziTI/4=
+C:Q1vJhy0vmGXFj1lwxKFuFwGvPbDxk=
 P:kea-shell-pyc
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:6106
-I:61440
+S:5408
+I:53248
 T:Precompiled Python bytecode for kea-shell
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
 D:kea-dhcp4 kea-dhcp6 python3~3.11
-i:kea-shell=2.2.0-r14 pyc
+i:kea-shell=2.4.0-r0 pyc
 
-C:Q185Ps3FRKHesEUZ2+qZbH4iKN9OU=
+C:Q1ayvM8W3cpAZqoGlo87Tm00FAMXc=
 P:kea-static
-V:2.2.0-r14
+V:2.4.0-r0
 A:armhf
-S:9698042
-I:46575616
+S:10641467
+I:51433472
 T:DHCPv4 and DHCPv6 server from ISC (static library)
 U:https://kea.isc.org/
 L:MPL-2.0
 o:kea
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1696372944
-c:3bbfdd91f840c322420a9462ab65b45f8f9ccb88
+t:1700080187
+c:efe8584a62e924d150a46f87415504f2b77a49d5
 
 C:Q1J0fQRER1ZKQ5iWFhBQrhXHl58Dk=
 P:keama
