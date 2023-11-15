@@ -149028,19 +149028,21 @@
     "traceroute": {
       "origin": "traceroute",
       "versions": {
-        "2.1.2-r1": 1681186433
+        "2.1.2-r1": 1681186433,
+        "2.1.3-r0": 1700005986
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:traceroute=2.1.2-r1"
+        "cmd:traceroute=2.1.3-r0"
       ]
     },
     "traceroute-doc": {
       "origin": "traceroute",
       "versions": {
-        "2.1.2-r1": 1681186433
+        "2.1.2-r1": 1681186433,
+        "2.1.3-r0": 1700005986
       }
     },
     "tracker": {
