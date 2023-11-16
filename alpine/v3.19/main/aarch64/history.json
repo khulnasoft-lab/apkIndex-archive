@@ -12472,7 +12472,8 @@
     "fcgiwrap": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r7": 1681228881
+        "1.1.0-r7": 1681228881,
+        "1.1.0-r8": 1700095452
       },
       "dependencies": [
         "/bin/sh",
@@ -12480,19 +12481,21 @@
         "so:libfcgi.so.0"
       ],
       "provides": [
-        "cmd:fcgiwrap=1.1.0-r7"
+        "cmd:fcgiwrap=1.1.0-r8"
       ]
     },
     "fcgiwrap-doc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r7": 1681228881
+        "1.1.0-r7": 1681228881,
+        "1.1.0-r8": 1700095452
       }
     },
     "fcgiwrap-openrc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r7": 1681228881
+        "1.1.0-r7": 1681228881,
+        "1.1.0-r8": 1700095452
       }
     },
     "ferm": {

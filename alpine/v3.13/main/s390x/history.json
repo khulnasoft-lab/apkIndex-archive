@@ -6245,7 +6245,8 @@
     "fcgiwrap-doc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096133
       }
     },
     "binutils-doc": {
@@ -7196,7 +7197,8 @@
     "fcgiwrap": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096133
       },
       "dependencies": [
         "/bin/sh",
@@ -26354,7 +26356,8 @@
     "fcgiwrap-openrc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096133
       }
     },
     "libmnl-static": {

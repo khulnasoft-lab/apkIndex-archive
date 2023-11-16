@@ -20308,7 +20308,8 @@
     "fcgiwrap": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r6": 1666619671
+        "1.1.0-r6": 1666619671,
+        "1.1.0-r7": 1700095640
       },
       "dependencies": [
         "/bin/sh",
@@ -20316,7 +20317,7 @@
         "so:libfcgi.so.0"
       ],
       "provides": [
-        "cmd:fcgiwrap=1.1.0-r6"
+        "cmd:fcgiwrap=1.1.0-r7"
       ]
     },
     "diffutils": {
@@ -20395,7 +20396,8 @@
     "fcgiwrap-doc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r6": 1666619671
+        "1.1.0-r6": 1666619671,
+        "1.1.0-r7": 1700095640
       }
     },
     "speex-dev": {
@@ -22854,7 +22856,8 @@
     "fcgiwrap-openrc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r6": 1666619671
+        "1.1.0-r6": 1666619671,
+        "1.1.0-r7": 1700095640
       }
     },
     "flex-doc": {

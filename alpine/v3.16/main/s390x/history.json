@@ -2997,7 +2997,8 @@
     "fcgiwrap-openrc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700095829
       }
     },
     "perl-net-ssleay-doc": {
@@ -11756,7 +11757,8 @@
     "fcgiwrap-doc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700095829
       }
     },
     "pjsua": {
@@ -38337,7 +38339,8 @@
     "fcgiwrap": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700095829
       },
       "dependencies": [
         "/bin/sh",
@@ -38345,7 +38348,7 @@
         "so:libfcgi.so.0"
       ],
       "provides": [
-        "cmd:fcgiwrap=1.1.0-r5"
+        "cmd:fcgiwrap=1.1.0-r6"
       ]
     },
     "nagios-plugins-ide_smart": {

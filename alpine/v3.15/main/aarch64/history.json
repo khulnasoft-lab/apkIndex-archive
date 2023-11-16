@@ -2950,18 +2950,19 @@
     "libpq-dev": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
-        "libpq=14.9-r0",
+        "libpq=14.10-r0",
         "pc:libcrypto",
         "pc:libssl",
         "pkgconfig",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "pc:libpq=14.9",
-        "cmd:pg_config=14.9-r0"
+        "pc:libpq=14.10",
+        "cmd:pg_config=14.10-r0"
       ]
     },
     "nagios-plugins-time": {
@@ -6143,7 +6144,8 @@
     "postgresql14": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
         "postgresql14-client",
@@ -6161,19 +6163,19 @@
       ],
       "provides": [
         "postgresql",
-        "cmd:pg_upgrade",
-        "cmd:pg_test_fsync",
-        "cmd:pg_waldump",
+        "cmd:initdb",
         "cmd:pg_controldata",
         "cmd:pg_ctl",
-        "cmd:pg_rewind",
         "cmd:postmaster",
-        "cmd:pg_checksums",
-        "cmd:initdb",
         "cmd:pg_test_timing",
-        "cmd:pg_resetwal",
+        "cmd:pg_upgrade",
+        "cmd:postgres",
         "cmd:pg_archivecleanup",
-        "cmd:postgres"
+        "cmd:pg_test_fsync",
+        "cmd:pg_resetwal",
+        "cmd:pg_rewind",
+        "cmd:pg_checksums",
+        "cmd:pg_waldump"
       ]
     },
     "gross": {
@@ -9799,10 +9801,11 @@
     "postgresql13-plperl": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
-        "postgresql13=13.12-r0",
+        "postgresql13=13.13-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libperl.so"
       ],
@@ -11356,10 +11359,11 @@
     "postgresql14-jit": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
-        "postgresql14=14.9-r0",
+        "postgresql14=14.10-r0",
         "so:libLLVM-12.so",
         "so:libc.musl-aarch64.so.1",
         "so:libgcc_s.so.1",
@@ -12209,7 +12213,8 @@
     "libecpg": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -13003,7 +13008,8 @@
     "fcgiwrap": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096021
       },
       "dependencies": [
         "/bin/sh",
@@ -13011,7 +13017,7 @@
         "so:libfcgi.so.0"
       ],
       "provides": [
-        "cmd:fcgiwrap=1.1.0-r5"
+        "cmd:fcgiwrap=1.1.0-r6"
       ]
     },
     "rsyslog-elasticsearch": {
@@ -13093,7 +13099,8 @@
     "fcgiwrap-doc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096021
       }
     },
     "net-snmp": {
@@ -14464,10 +14471,11 @@
     "postgresql13-pltcl": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
-        "postgresql13=13.12-r0",
+        "postgresql13=13.13-r0",
         "pgtcl",
         "so:libc.musl-aarch64.so.1",
         "so:libtcl8.6.so"
@@ -15063,10 +15071,11 @@
     "postgresql14-plpython3": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
-        "postgresql14=14.9-r0",
+        "postgresql14=14.10-r0",
         "python3",
         "so:libc.musl-aarch64.so.1",
         "so:libpython3.9.so.1.0"
@@ -19450,7 +19459,8 @@
     "postgresql14-doc": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "provides": [
         "postgresql-doc"
@@ -21798,7 +21808,8 @@
     "fcgiwrap-openrc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096021
       }
     },
     "graphene": {
@@ -22027,7 +22038,8 @@
     "postgresql14-dev": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
         "libpq-dev",
@@ -22519,10 +22531,11 @@
     "postgresql13-jit": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
-        "postgresql13=13.12-r0",
+        "postgresql13=13.13-r0",
         "so:libLLVM-12.so",
         "so:libc.musl-aarch64.so.1",
         "so:libgcc_s.so.1",
@@ -24843,10 +24856,11 @@
     "postgresql14-plperl-contrib": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
-        "postgresql14-plperl=14.9-r0",
+        "postgresql14-plperl=14.10-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libperl.so"
       ],
@@ -27002,10 +27016,11 @@
     "postgresql13-plpython3-contrib": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
-        "postgresql13-plpython3=13.12-r0",
+        "postgresql13-plpython3=13.13-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libpython3.9.so.1.0"
       ],
@@ -27429,7 +27444,8 @@
     "libpq": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -29882,7 +29898,8 @@
     "postgresql13-client": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
         "postgresql-common",
@@ -31269,7 +31286,8 @@
     "postgresql13": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
         "postgresql13-client",
@@ -31287,19 +31305,19 @@
       ],
       "provides": [
         "postgresql",
-        "cmd:pg_archivecleanup",
-        "cmd:pg_test_fsync",
-        "cmd:pg_checksums",
         "cmd:initdb",
-        "cmd:pg_ctl",
-        "cmd:postgres",
-        "cmd:pg_rewind",
+        "cmd:pg_checksums",
         "cmd:pg_resetwal",
-        "cmd:pg_controldata",
-        "cmd:pg_upgrade",
+        "cmd:pg_test_fsync",
+        "cmd:pg_archivecleanup",
         "cmd:pg_waldump",
+        "cmd:postmaster",
+        "cmd:pg_rewind",
+        "cmd:pg_upgrade",
         "cmd:pg_test_timing",
-        "cmd:postmaster"
+        "cmd:pg_ctl",
+        "cmd:pg_controldata",
+        "cmd:postgres"
       ]
     },
     "rtpproxy": {
@@ -31982,7 +32000,8 @@
     "postgresql13-openrc": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -33029,10 +33048,11 @@
     "postgresql14-plperl": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
-        "postgresql14=14.9-r0",
+        "postgresql14=14.10-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libperl.so"
       ],
@@ -37667,10 +37687,11 @@
     "postgresql13-contrib-jit": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
-        "postgresql13-contrib=13.12-r0"
+        "postgresql13-contrib=13.13-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -42667,10 +42688,11 @@
     "postgresql14-contrib-jit": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
-        "postgresql14-contrib=14.9-r0"
+        "postgresql14-contrib=14.10-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -42740,10 +42762,11 @@
     "postgresql13-contrib": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
-        "postgresql13=13.12-r0",
+        "postgresql13=13.13-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libcrypto.so.1.1",
         "so:libpq.so.5",
@@ -44909,18 +44932,19 @@
     "libecpg-dev": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
-        "libpq-dev=14.9-r0",
-        "libecpg=14.9-r0",
+        "libpq-dev=14.10-r0",
+        "libecpg=14.10-r0",
         "pkgconfig",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "pc:libecpg=14.9",
-        "pc:libpgtypes=14.9",
-        "cmd:ecpg=14.9-r0"
+        "pc:libecpg=14.10",
+        "pc:libpgtypes=14.10",
+        "cmd:ecpg=14.10-r0"
       ]
     },
     "libusb-compat": {
@@ -45232,10 +45256,11 @@
     "postgresql14-pltcl": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
-        "postgresql14=14.9-r0",
+        "postgresql14=14.10-r0",
         "pgtcl",
         "so:libc.musl-aarch64.so.1",
         "so:libtcl8.6.so"
@@ -45748,7 +45773,8 @@
     "postgresql14-client": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
         "postgresql-common",
@@ -47470,10 +47496,11 @@
     "postgresql14-contrib": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
-        "postgresql14=14.9-r0",
+        "postgresql14=14.10-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libcrypto.so.1.1",
         "so:libpq.so.5",
@@ -50591,10 +50618,11 @@
     "postgresql14-plpython3-contrib": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
-        "postgresql14-plpython3=14.9-r0",
+        "postgresql14-plpython3=14.10-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libpython3.9.so.1.0"
       ],
@@ -51916,7 +51944,8 @@
     "postgresql13-dev": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
         "libpq-dev",
@@ -52710,7 +52739,8 @@
     "postgresql13-doc": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "provides": [
         "postgresql-doc"
@@ -54135,10 +54165,11 @@
     "postgresql13-plpython3": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
-        "postgresql13=13.12-r0",
+        "postgresql13=13.13-r0",
         "python3",
         "so:libc.musl-aarch64.so.1",
         "so:libpython3.9.so.1.0"
@@ -55292,7 +55323,8 @@
     "postgresql14-openrc": {
       "origin": "postgresql14",
       "versions": {
-        "14.9-r0": 1692042972
+        "14.9-r0": 1692042972,
+        "14.10-r0": 1700079972
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -57135,10 +57167,11 @@
     "postgresql13-plperl-contrib": {
       "origin": "postgresql13",
       "versions": {
-        "13.12-r0": 1692042972
+        "13.12-r0": 1692042972,
+        "13.13-r0": 1700080004
       },
       "dependencies": [
-        "postgresql13-plperl=13.12-r0",
+        "postgresql13-plperl=13.13-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libperl.so"
       ],
@@ -62939,7 +62972,7 @@
         "version": "6.3_p20211120-r2"
       },
       "postgresql-plperl": {
-        "package": "postgresql14-plperl",
+        "package": "postgresql13-plperl",
         "version": 0
       },
       "perl-time-date": {
@@ -62995,7 +63028,7 @@
         "version": "1.4.0-r1"
       },
       "postgresql-jit": {
-        "package": "postgresql13-jit",
+        "package": "postgresql14-jit",
         "version": 0
       },
       "boost-contract": {
@@ -63243,7 +63276,7 @@
         "version": "1.77.0-r1"
       },
       "postgresql-doc": {
-        "package": "postgresql13-doc",
+        "package": "postgresql14-doc",
         "version": 0
       },
       "boost-fiber": {
@@ -63295,7 +63328,7 @@
         "version": "2.0.3-r1"
       },
       "postgresql-dev": {
-        "package": "postgresql13-dev",
+        "package": "postgresql14-dev",
         "version": 0
       },
       "py-requests": {
@@ -63375,7 +63408,7 @@
         "version": "8.2108.0-r2"
       },
       "postgresql-plpython3-contrib": {
-        "package": "postgresql14-plpython3-contrib",
+        "package": "postgresql13-plpython3-contrib",
         "version": 0
       },
       "boost-log_setup": {
@@ -63407,7 +63440,7 @@
         "version": 0
       },
       "postgresql-client": {
-        "package": "postgresql14-client",
+        "package": "postgresql13-client",
         "version": 0
       },
       "llvm-static": {

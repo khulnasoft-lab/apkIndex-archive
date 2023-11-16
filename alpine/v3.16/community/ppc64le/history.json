@@ -20910,7 +20910,8 @@
     "postgresql12": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
         "postgresql12-client",
@@ -20928,19 +20929,19 @@
       ],
       "provides": [
         "postgresql",
+        "cmd:pg_waldump",
         "cmd:pg_controldata",
+        "cmd:pg_archivecleanup",
         "cmd:postgres",
         "cmd:pg_test_fsync",
-        "cmd:pg_test_timing",
         "cmd:pg_ctl",
-        "cmd:pg_rewind",
-        "cmd:postmaster",
-        "cmd:pg_upgrade",
-        "cmd:initdb",
-        "cmd:pg_resetwal",
-        "cmd:pg_archivecleanup",
+        "cmd:pg_test_timing",
         "cmd:pg_checksums",
-        "cmd:pg_waldump"
+        "cmd:initdb",
+        "cmd:pg_upgrade",
+        "cmd:postmaster",
+        "cmd:pg_resetwal",
+        "cmd:pg_rewind"
       ]
     },
     "konversation-doc": {
@@ -45434,7 +45435,8 @@
     "postgresql12-openrc": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -45915,7 +45917,8 @@
     "postgresql12-dev": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
         "libpq-dev",
@@ -57440,10 +57443,11 @@
     "postgresql12-pltcl": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
-        "postgresql12=12.16-r0",
+        "postgresql12=12.17-r0",
         "pgtcl",
         "so:libc.musl-ppc64le.so.1",
         "so:libtcl8.6.so"
@@ -57979,10 +57983,11 @@
     "postgresql12-plperl": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
-        "postgresql12=12.16-r0",
+        "postgresql12=12.17-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libperl.so"
       ],
@@ -60084,7 +60089,8 @@
     "postgresql12-doc": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "provides": [
         "postgresql-doc"
@@ -85287,10 +85293,11 @@
     "postgresql12-plpython3": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
-        "postgresql12=12.16-r0",
+        "postgresql12=12.17-r0",
         "python3",
         "so:libc.musl-ppc64le.so.1",
         "so:libpython3.10.so.1.0"
@@ -106885,10 +106892,11 @@
     "postgresql12-plperl-contrib": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
-        "postgresql12-plperl=12.16-r0",
+        "postgresql12-plperl=12.17-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libperl.so"
       ],
@@ -110225,10 +110233,11 @@
     "postgresql12-contrib": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
-        "postgresql12=12.16-r0",
+        "postgresql12=12.17-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libcrypto.so.1.1",
         "so:libpq.so.5",
@@ -119375,7 +119384,8 @@
     "postgresql12-client": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
         "postgresql-common",
@@ -131986,10 +131996,11 @@
     "postgresql12-plpython3-contrib": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
-        "postgresql12-plpython3=12.16-r0",
+        "postgresql12-plpython3=12.17-r0",
         "so:libc.musl-ppc64le.so.1",
         "so:libpython3.10.so.1.0"
       ],
@@ -142072,10 +142083,11 @@
     "postgresql12-contrib-jit": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
-        "postgresql12-contrib=12.16-r0"
+        "postgresql12-contrib=12.17-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -147648,10 +147660,11 @@
     "postgresql12-jit": {
       "origin": "postgresql12",
       "versions": {
-        "12.16-r0": 1692027528
+        "12.16-r0": 1692027528,
+        "12.17-r0": 1700079771
       },
       "dependencies": [
-        "postgresql12=12.16-r0",
+        "postgresql12=12.17-r0",
         "so:libLLVM-13.so",
         "so:libc.musl-ppc64le.so.1",
         "so:libgcc_s.so.1",
@@ -162201,8 +162214,8 @@
         "version": "2.2.7-r1"
       },
       "postgresql-client": {
-        "package": "postgresql12-client",
-        "version": 0
+        "package": "postgresql-bdr-client",
+        "version": "9.4.14_p1-r13"
       },
       "java-jre-headless": {
         "package": "openjdk14-jre-headless",
@@ -163517,8 +163530,8 @@
         "version": "1.1.4-r6"
       },
       "postgresql-contrib": {
-        "package": "postgresql12-contrib",
-        "version": 0
+        "package": "postgresql-bdr-contrib",
+        "version": "9.4.14_p1-r13"
       },
       "py-ruffus": {
         "package": "py3-ruffus",

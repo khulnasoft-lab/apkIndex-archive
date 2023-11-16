@@ -14859,51 +14859,51 @@ c:84a227baf001b6e0208e3352b294e4d7a40e93de
 D:fcgi++=2.4.2-r4 fcgi=2.4.2-r4 pkgconfig
 p:pc:fcgi++=2.4.2 pc:fcgi=2.4.2
 
-C:Q1AuLA2hxmZ+p1A20o87bqFWAitGY=
+C:Q11wlf9TD+vPBcm37fBialMqTNh6k=
 P:fcgiwrap
-V:1.1.0-r7
+V:1.1.0-r8
 A:x86
-S:8727
+S:8784
 I:45056
 T:Simple server for running CGI applications over FastCGI
 U:https://github.com/gnosek/fcgiwrap
 L:MIT
 o:fcgiwrap
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1681228881
-c:84a227baf001b6e0208e3352b294e4d7a40e93de
+t:1700095452
+c:955c2f7f33145e05a65ed9cdb0191b1443331190
 D:/bin/sh so:libc.musl-x86.so.1 so:libfcgi.so.0
-p:cmd:fcgiwrap=1.1.0-r7
+p:cmd:fcgiwrap=1.1.0-r8
 
-C:Q1mNUr2Q3j1cW6xaM+Jp9IjpY5/O8=
+C:Q1iF7QzrShDhQ5oSDFACGmU2++Onc=
 P:fcgiwrap-doc
-V:1.1.0-r7
+V:1.1.0-r8
 A:x86
-S:3526
+S:3565
 I:24576
 T:Simple server for running CGI applications over FastCGI (documentation)
 U:https://github.com/gnosek/fcgiwrap
 L:MIT
 o:fcgiwrap
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1681228881
-c:84a227baf001b6e0208e3352b294e4d7a40e93de
-i:docs fcgiwrap=1.1.0-r7
+t:1700095452
+c:955c2f7f33145e05a65ed9cdb0191b1443331190
+i:docs fcgiwrap=1.1.0-r8
 
-C:Q1QTsZcnXcu5KDegwZpH5Xlvp58pI=
+C:Q1Y684tLsGbNpE9gQpxzFKRF+GSlk=
 P:fcgiwrap-openrc
-V:1.1.0-r7
+V:1.1.0-r8
 A:x86
-S:2213
+S:2208
 I:24576
 T:Simple server for running CGI applications over FastCGI (OpenRC init scripts)
 U:https://github.com/gnosek/fcgiwrap
 L:MIT
 o:fcgiwrap
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1681228881
-c:84a227baf001b6e0208e3352b294e4d7a40e93de
-i:openrc fcgiwrap=1.1.0-r7
+t:1700095452
+c:955c2f7f33145e05a65ed9cdb0191b1443331190
+i:openrc fcgiwrap=1.1.0-r8
 
 C:Q1NwOE3q1eZNhD9czzESYmbs2Un7k=
 P:ferm
