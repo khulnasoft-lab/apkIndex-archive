@@ -58784,7 +58784,8 @@
     "sngtc_client": {
       "origin": "sngtc_client",
       "versions": {
-        "1.3.11-r3": 1681945733
+        "1.3.11-r3": 1681945733,
+        "1.3.11-r4": 1700098361
       },
       "dependencies": [
         "so:libbctoolbox.so.1",
@@ -58793,16 +58794,17 @@
       ],
       "provides": [
         "so:libsngtc_node.so=0",
-        "cmd:sngtc_client=1.3.11-r3"
+        "cmd:sngtc_client=1.3.11-r4"
       ]
     },
     "sngtc_client-dev": {
       "origin": "sngtc_client",
       "versions": {
-        "1.3.11-r3": 1681945733
+        "1.3.11-r3": 1681945733,
+        "1.3.11-r4": 1700098361
       },
       "dependencies": [
-        "sngtc_client=1.3.11-r3"
+        "sngtc_client=1.3.11-r4"
       ]
     },
     "snmptt": {
