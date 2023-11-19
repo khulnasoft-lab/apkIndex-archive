@@ -25686,7 +25686,8 @@
     "libxml2": {
       "origin": "libxml2",
       "versions": {
-        "2.11.4-r0": 1684439441
+        "2.11.4-r0": 1684439441,
+        "2.11.6-r0": 1700396368
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -25694,42 +25695,46 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libxml2.so.2=2.11.4"
+        "so:libxml2.so.2=2.11.6"
       ]
     },
     "libxml2-dbg": {
       "origin": "libxml2",
       "versions": {
-        "2.11.4-r0": 1684439441
+        "2.11.4-r0": 1684439441,
+        "2.11.6-r0": 1700396368
       }
     },
     "libxml2-dev": {
       "origin": "libxml2",
       "versions": {
-        "2.11.4-r0": 1684439441
+        "2.11.4-r0": 1684439441,
+        "2.11.6-r0": 1700396368
       },
       "dependencies": [
         "zlib-dev",
         "xz-dev",
-        "libxml2-utils=2.11.4-r0",
-        "libxml2=2.11.4-r0",
+        "libxml2-utils=2.11.6-r0",
+        "libxml2=2.11.6-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libxml-2.0=2.11.4",
-        "cmd:xml2-config=2.11.4-r0"
+        "pc:libxml-2.0=2.11.6",
+        "cmd:xml2-config=2.11.6-r0"
       ]
     },
     "libxml2-doc": {
       "origin": "libxml2",
       "versions": {
-        "2.11.4-r0": 1684439441
+        "2.11.4-r0": 1684439441,
+        "2.11.6-r0": 1700396368
       }
     },
     "libxml2-static": {
       "origin": "libxml2",
       "versions": {
-        "2.11.4-r0": 1684439441
+        "2.11.4-r0": 1684439441,
+        "2.11.6-r0": 1700396368
       },
       "dependencies": [
         "python3~3.11"
@@ -25738,15 +25743,16 @@
     "libxml2-utils": {
       "origin": "libxml2",
       "versions": {
-        "2.11.4-r0": 1684439441
+        "2.11.4-r0": 1684439441,
+        "2.11.6-r0": 1700396368
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:xmlcatalog=2.11.4-r0",
-        "cmd:xmllint=2.11.4-r0"
+        "cmd:xmlcatalog=2.11.6-r0",
+        "cmd:xmllint=2.11.6-r0"
       ]
     },
     "libxmu": {
@@ -48226,7 +48232,8 @@
     "py3-libxml2": {
       "origin": "libxml2",
       "versions": {
-        "2.11.4-r0": 1684439441
+        "2.11.4-r0": 1684439441,
+        "2.11.6-r0": 1700396368
       },
       "dependencies": [
         "python3",
@@ -48238,7 +48245,8 @@
     "py3-libxml2-pyc": {
       "origin": "libxml2",
       "versions": {
-        "2.11.4-r0": 1684439441
+        "2.11.4-r0": 1684439441,
+        "2.11.6-r0": 1700396368
       },
       "dependencies": [
         "python3~3.11"
@@ -65093,7 +65101,7 @@
       },
       "libxml2.so.2": {
         "package": "libxml2",
-        "version": "2.11.4"
+        "version": "2.11.6"
       },
       "libXmu.so.6": {
         "package": "libxmu",
