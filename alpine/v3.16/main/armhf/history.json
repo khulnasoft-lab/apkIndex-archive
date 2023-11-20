@@ -4455,7 +4455,8 @@
       "origin": "openssl",
       "versions": {
         "1.1.1v-r0": 1691129292,
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       }
     },
     "dbus-static": {
@@ -18992,7 +18993,8 @@
       "origin": "openssl",
       "versions": {
         "1.1.1v-r0": 1691129292,
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -22074,10 +22076,11 @@
       "origin": "openssl",
       "versions": {
         "1.1.1v-r0": 1691129292,
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "provides": [
-        "openssl1.1-compat-libs-static=1.1.1w-r0"
+        "openssl1.1-compat-libs-static=1.1.1w-r1"
       ]
     },
     "dmraid": {
@@ -22190,7 +22193,8 @@
       "origin": "openssl",
       "versions": {
         "1.1.1v-r0": 1691129292,
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
@@ -53156,7 +53160,8 @@
       "origin": "openssl",
       "versions": {
         "1.1.1v-r0": 1691129292,
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       }
     },
     "confuse-dev": {
@@ -56628,15 +56633,16 @@
       "origin": "openssl",
       "versions": {
         "1.1.1v-r0": 1691129292,
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
-        "libcrypto1.1=1.1.1w-r0",
-        "libssl1.1=1.1.1w-r0",
+        "libcrypto1.1=1.1.1w-r1",
+        "libssl1.1=1.1.1w-r1",
         "pkgconfig"
       ],
       "provides": [
-        "openssl1.1-compat-dev=1.1.1w-r0",
+        "openssl1.1-compat-dev=1.1.1w-r1",
         "pc:libcrypto=1.1.1w",
         "pc:libssl=1.1.1w",
         "pc:openssl=1.1.1w"
@@ -58013,17 +58019,18 @@
       "origin": "openssl",
       "versions": {
         "1.1.1v-r0": 1691129292,
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
-        "libssl1.1=1.1.1w-r0",
-        "libcrypto1.1=1.1.1w-r0",
+        "libssl1.1=1.1.1w-r1",
+        "libcrypto1.1=1.1.1w-r1",
         "so:libc.musl-armhf.so.1",
         "so:libcrypto.so.1.1",
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:openssl=1.1.1w-r0"
+        "cmd:openssl=1.1.1w-r1"
       ]
     },
     "libgd": {
@@ -64020,7 +64027,7 @@
       },
       "openssl1.1-compat-libs-static": {
         "package": "openssl-libs-static",
-        "version": "1.1.1w-r0"
+        "version": "1.1.1w-r1"
       },
       "boost-thread": {
         "package": "boost1.78-thread",
@@ -64620,7 +64627,7 @@
       },
       "openssl1.1-compat-dev": {
         "package": "openssl-dev",
-        "version": "1.1.1w-r0"
+        "version": "1.1.1w-r1"
       },
       "freeradius3-sqlite": {
         "package": "freeradius-sqlite",

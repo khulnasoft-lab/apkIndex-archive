@@ -2266,15 +2266,16 @@
     "openssl-dev": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
-        "libcrypto1.1=1.1.1w-r0",
-        "libssl1.1=1.1.1w-r0",
+        "libcrypto1.1=1.1.1w-r1",
+        "libssl1.1=1.1.1w-r1",
         "pkgconfig"
       ],
       "provides": [
-        "openssl1.1-compat-dev=1.1.1w-r0",
+        "openssl1.1-compat-dev=1.1.1w-r1",
         "pc:libcrypto=1.1.1w",
         "pc:libssl=1.1.1w",
         "pc:openssl=1.1.1w"
@@ -4381,7 +4382,8 @@
     "libcrypto1.1": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
@@ -15429,7 +15431,8 @@
     "libssl1.1": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -31718,7 +31721,8 @@
     "openssl-doc": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       }
     },
     "at-spi2-core-doc": {
@@ -35584,10 +35588,11 @@
     "openssl-libs-static": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "provides": [
-        "openssl1.1-compat-libs-static=1.1.1w-r0"
+        "openssl1.1-compat-libs-static=1.1.1w-r1"
       ]
     },
     "rdnssd": {
@@ -45158,7 +45163,8 @@
     "openssl-dbg": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       }
     },
     "apache2-http2": {
@@ -56351,17 +56357,18 @@
     "openssl": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
-        "libssl1.1=1.1.1w-r0",
-        "libcrypto1.1=1.1.1w-r0",
+        "libssl1.1=1.1.1w-r1",
+        "libcrypto1.1=1.1.1w-r1",
         "so:libc.musl-x86_64.so.1",
         "so:libcrypto.so.1.1",
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:openssl=1.1.1w-r0"
+        "cmd:openssl=1.1.1w-r1"
       ]
     },
     "conntrack-tools": {
@@ -58801,7 +58808,7 @@
       },
       "openssl1.1-compat-dev": {
         "package": "openssl-dev",
-        "version": "1.1.1w-r0"
+        "version": "1.1.1w-r1"
       },
       "quagga-nhrp": {
         "package": "quagga",
@@ -59441,7 +59448,7 @@
       },
       "openssl1.1-compat-libs-static": {
         "package": "openssl-libs-static",
-        "version": "1.1.1w-r0"
+        "version": "1.1.1w-r1"
       },
       "boost-stacktrace_basic": {
         "package": "boost1.78-stacktrace_basic",

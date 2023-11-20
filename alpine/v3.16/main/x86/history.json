@@ -4841,15 +4841,16 @@
     "openssl-dev": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
-        "libcrypto1.1=1.1.1w-r0",
-        "libssl1.1=1.1.1w-r0",
+        "libcrypto1.1=1.1.1w-r1",
+        "libssl1.1=1.1.1w-r1",
         "pkgconfig"
       ],
       "provides": [
-        "openssl1.1-compat-dev=1.1.1w-r0",
+        "openssl1.1-compat-dev=1.1.1w-r1",
         "pc:libcrypto=1.1.1w",
         "pc:libssl=1.1.1w",
         "pc:openssl=1.1.1w"
@@ -12343,17 +12344,18 @@
     "openssl": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
-        "libssl1.1=1.1.1w-r0",
-        "libcrypto1.1=1.1.1w-r0",
+        "libssl1.1=1.1.1w-r1",
+        "libcrypto1.1=1.1.1w-r1",
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.1.1",
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:openssl=1.1.1w-r0"
+        "cmd:openssl=1.1.1w-r1"
       ]
     },
     "perl-regexp-common-doc": {
@@ -29579,7 +29581,8 @@
     "libcrypto1.1": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
@@ -33955,7 +33958,8 @@
     "openssl-dbg": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       }
     },
     "vanessa_logger": {
@@ -38554,7 +38558,8 @@
     "libssl1.1": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -40777,10 +40782,11 @@
     "openssl-libs-static": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "provides": [
-        "openssl1.1-compat-libs-static=1.1.1w-r0"
+        "openssl1.1-compat-libs-static=1.1.1w-r1"
       ]
     },
     "libltdl-static": {
@@ -41265,7 +41271,8 @@
     "openssl-doc": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       }
     },
     "lua-gversion": {
@@ -58287,7 +58294,7 @@
       },
       "openssl1.1-compat-dev": {
         "package": "openssl-dev",
-        "version": "1.1.1w-r0"
+        "version": "1.1.1w-r1"
       },
       "lua": {
         "package": "lua5.3",
@@ -59039,7 +59046,7 @@
       },
       "openssl1.1-compat-libs-static": {
         "package": "openssl-libs-static",
-        "version": "1.1.1w-r0"
+        "version": "1.1.1w-r1"
       },
       "py-requests": {
         "package": "py3-requests",

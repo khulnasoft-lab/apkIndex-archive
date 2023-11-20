@@ -22187,7 +22187,8 @@
     "libcrypto1.1": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
@@ -23126,10 +23127,11 @@
     "openssl-libs-static": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "provides": [
-        "openssl1.1-compat-libs-static=1.1.1w-r0"
+        "openssl1.1-compat-libs-static=1.1.1w-r1"
       ]
     },
     "rsyslog-rabbitmq": {
@@ -27190,7 +27192,8 @@
     "openssl-dbg": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       }
     },
     "gtk+3.0-demo": {
@@ -33176,17 +33179,18 @@
     "openssl": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
-        "libssl1.1=1.1.1w-r0",
-        "libcrypto1.1=1.1.1w-r0",
+        "libssl1.1=1.1.1w-r1",
+        "libcrypto1.1=1.1.1w-r1",
         "so:libc.musl-ppc64le.so.1",
         "so:libcrypto.so.1.1",
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:openssl=1.1.1w-r0"
+        "cmd:openssl=1.1.1w-r1"
       ]
     },
     "squid-lang-sr": {
@@ -34530,7 +34534,8 @@
     "openssl-doc": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       }
     },
     "libpri": {
@@ -38775,7 +38780,8 @@
     "libssl1.1": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -41482,15 +41488,16 @@
     "openssl-dev": {
       "origin": "openssl",
       "versions": {
-        "1.1.1w-r0": 1695254872
+        "1.1.1w-r0": 1695254872,
+        "1.1.1w-r1": 1700454448
       },
       "dependencies": [
-        "libcrypto1.1=1.1.1w-r0",
-        "libssl1.1=1.1.1w-r0",
+        "libcrypto1.1=1.1.1w-r1",
+        "libssl1.1=1.1.1w-r1",
         "pkgconfig"
       ],
       "provides": [
-        "openssl1.1-compat-dev=1.1.1w-r0",
+        "openssl1.1-compat-dev=1.1.1w-r1",
         "pc:libcrypto=1.1.1w",
         "pc:libssl=1.1.1w",
         "pc:openssl=1.1.1w"
@@ -63759,7 +63766,7 @@
       },
       "openssl1.1-compat-libs-static": {
         "package": "openssl-libs-static",
-        "version": "1.1.1w-r0"
+        "version": "1.1.1w-r1"
       },
       "rsyslog-omrabbitmq": {
         "package": "rsyslog-rabbitmq",
@@ -64107,7 +64114,7 @@
       },
       "openssl1.1-compat-dev": {
         "package": "openssl-dev",
-        "version": "1.1.1w-r0"
+        "version": "1.1.1w-r1"
       },
       "py-gobject3-dev": {
         "package": "py3-gobject3-dev",
