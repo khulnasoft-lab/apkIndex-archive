@@ -24565,7 +24565,8 @@
     "ffmpeg": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -24580,26 +24581,27 @@
         "so:libswscale.so.7"
       ],
       "provides": [
-        "cmd:ffmpeg=6.0-r15",
-        "cmd:ffplay=6.0-r15",
-        "cmd:ffprobe=6.0-r15",
-        "cmd:qt-faststart=6.0-r15"
+        "cmd:ffmpeg=6.0.1-r0",
+        "cmd:ffplay=6.0.1-r0",
+        "cmd:ffprobe=6.0.1-r0",
+        "cmd:qt-faststart=6.0.1-r0"
       ]
     },
     "ffmpeg-dev": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       },
       "dependencies": [
-        "ffmpeg-libavcodec=6.0-r15",
-        "ffmpeg-libavdevice=6.0-r15",
-        "ffmpeg-libavfilter=6.0-r15",
-        "ffmpeg-libavformat=6.0-r15",
-        "ffmpeg-libavutil=6.0-r15",
-        "ffmpeg-libpostproc=6.0-r15",
-        "ffmpeg-libswresample=6.0-r15",
-        "ffmpeg-libswscale=6.0-r15",
+        "ffmpeg-libavcodec=6.0.1-r0",
+        "ffmpeg-libavdevice=6.0.1-r0",
+        "ffmpeg-libavfilter=6.0.1-r0",
+        "ffmpeg-libavformat=6.0.1-r0",
+        "ffmpeg-libavutil=6.0.1-r0",
+        "ffmpeg-libpostproc=6.0.1-r0",
+        "ffmpeg-libswresample=6.0.1-r0",
+        "ffmpeg-libswscale=6.0.1-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -24616,13 +24618,15 @@
     "ffmpeg-doc": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       }
     },
     "ffmpeg-libavcodec": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       },
       "dependencies": [
         "so:libaom.so.3",
@@ -24654,7 +24658,8 @@
     "ffmpeg-libavdevice": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -24679,7 +24684,8 @@
     "ffmpeg-libavfilter": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       },
       "dependencies": [
         "so:libass.so.9",
@@ -24707,7 +24713,8 @@
     "ffmpeg-libavformat": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       },
       "dependencies": [
         "so:libavcodec.so.60",
@@ -24731,7 +24738,8 @@
     "ffmpeg-libavutil": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -24749,7 +24757,8 @@
     "ffmpeg-libpostproc": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       },
       "dependencies": [
         "so:libavutil.so.58",
@@ -24762,23 +24771,25 @@
     "ffmpeg-libs": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       },
       "dependencies": [
-        "ffmpeg-libavcodec=6.0-r15",
-        "ffmpeg-libavdevice=6.0-r15",
-        "ffmpeg-libavfilter=6.0-r15",
-        "ffmpeg-libavformat=6.0-r15",
-        "ffmpeg-libavutil=6.0-r15",
-        "ffmpeg-libpostproc=6.0-r15",
-        "ffmpeg-libswresample=6.0-r15",
-        "ffmpeg-libswscale=6.0-r15"
+        "ffmpeg-libavcodec=6.0.1-r0",
+        "ffmpeg-libavdevice=6.0.1-r0",
+        "ffmpeg-libavfilter=6.0.1-r0",
+        "ffmpeg-libavformat=6.0.1-r0",
+        "ffmpeg-libavutil=6.0.1-r0",
+        "ffmpeg-libpostproc=6.0.1-r0",
+        "ffmpeg-libswresample=6.0.1-r0",
+        "ffmpeg-libswscale=6.0.1-r0"
       ]
     },
     "ffmpeg-libswresample": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       },
       "dependencies": [
         "so:libavutil.so.58",
@@ -24792,7 +24803,8 @@
     "ffmpeg-libswscale": {
       "origin": "ffmpeg",
       "versions": {
-        "6.0-r15": 1687421355
+        "6.0-r15": 1687421355,
+        "6.0.1-r0": 1700496831
       },
       "dependencies": [
         "so:libavutil.so.58",

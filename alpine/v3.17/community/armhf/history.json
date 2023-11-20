@@ -38863,10 +38863,11 @@
     "ffmpeg-dev": {
       "origin": "ffmpeg",
       "versions": {
-        "5.1.3-r0": 1679843992
+        "5.1.3-r0": 1679843992,
+        "5.1.4-r0": 1700496968
       },
       "dependencies": [
-        "ffmpeg-libs=5.1.3-r0",
+        "ffmpeg-libs=5.1.4-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -75167,7 +75168,8 @@
     "ffmpeg": {
       "origin": "ffmpeg",
       "versions": {
-        "5.1.3-r0": 1679843992
+        "5.1.3-r0": 1679843992,
+        "5.1.4-r0": 1700496968
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -75182,10 +75184,10 @@
         "so:libswscale.so.6"
       ],
       "provides": [
-        "cmd:ffmpeg=5.1.3-r0",
-        "cmd:ffplay=5.1.3-r0",
-        "cmd:ffprobe=5.1.3-r0",
-        "cmd:qt-faststart=5.1.3-r0"
+        "cmd:ffmpeg=5.1.4-r0",
+        "cmd:ffplay=5.1.4-r0",
+        "cmd:ffprobe=5.1.4-r0",
+        "cmd:qt-faststart=5.1.4-r0"
       ]
     },
     "cogl-lang": {
@@ -101645,7 +101647,8 @@
     "ffmpeg-libs": {
       "origin": "ffmpeg",
       "versions": {
-        "5.1.3-r0": 1679843992
+        "5.1.3-r0": 1679843992,
+        "5.1.4-r0": 1700496968
       },
       "dependencies": [
         "so:libSDL2-2.0.so.0",
@@ -117077,7 +117080,8 @@
     "ffmpeg-doc": {
       "origin": "ffmpeg",
       "versions": {
-        "5.1.3-r0": 1679843992
+        "5.1.3-r0": 1679843992,
+        "5.1.4-r0": 1700496968
       }
     },
     "lua-optparse": {
