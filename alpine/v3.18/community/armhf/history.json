@@ -39539,7 +39539,8 @@
     "gtk4.0": {
       "origin": "gtk4.0",
       "versions": {
-        "4.10.4-r0": 1685992862
+        "4.10.4-r0": 1685992862,
+        "4.10.5-r0": 1700575506
       },
       "dependencies": [
         "shared-mime-info",
@@ -39586,15 +39587,16 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "so:libgtk-4.so.1=1.1000.4",
-        "cmd:gtk4-broadwayd=4.10.4-r0",
-        "cmd:gtk4-launch=4.10.4-r0"
+        "so:libgtk-4.so.1=1.1000.5",
+        "cmd:gtk4-broadwayd=4.10.5-r0",
+        "cmd:gtk4-launch=4.10.5-r0"
       ]
     },
     "gtk4.0-dbg": {
       "origin": "gtk4.0",
       "versions": {
-        "4.10.4-r0": 1685992862
+        "4.10.4-r0": 1685992862,
+        "4.10.5-r0": 1700575506
       },
       "dependencies": [
         "shared-mime-info",
@@ -39606,7 +39608,8 @@
     "gtk4.0-demo": {
       "origin": "gtk4.0",
       "versions": {
-        "4.10.4-r0": 1685992862
+        "4.10.4-r0": 1685992862,
+        "4.10.5-r0": 1700575506
       },
       "dependencies": [
         "shared-mime-info",
@@ -39628,18 +39631,19 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:gtk4-demo-application=4.10.4-r0",
-        "cmd:gtk4-demo=4.10.4-r0",
-        "cmd:gtk4-icon-browser=4.10.4-r0",
-        "cmd:gtk4-node-editor=4.10.4-r0",
-        "cmd:gtk4-print-editor=4.10.4-r0",
-        "cmd:gtk4-widget-factory=4.10.4-r0"
+        "cmd:gtk4-demo-application=4.10.5-r0",
+        "cmd:gtk4-demo=4.10.5-r0",
+        "cmd:gtk4-icon-browser=4.10.5-r0",
+        "cmd:gtk4-node-editor=4.10.5-r0",
+        "cmd:gtk4-print-editor=4.10.5-r0",
+        "cmd:gtk4-widget-factory=4.10.5-r0"
       ]
     },
     "gtk4.0-dev": {
       "origin": "gtk4.0",
       "versions": {
-        "4.10.4-r0": 1685992862
+        "4.10.4-r0": 1685992862,
+        "4.10.5-r0": 1700575506
       },
       "dependencies": [
         "at-spi2-core-dev",
@@ -39653,7 +39657,7 @@
         "vulkan-headers",
         "wayland-dev",
         "wayland-protocols",
-        "gtk4.0=4.10.4-r0",
+        "gtk4.0=4.10.5-r0",
         "pc:cairo-gobject>=1.14.0",
         "pc:cairo>=1.14.0",
         "pc:gdk-pixbuf-2.0>=2.30.0",
@@ -39694,26 +39698,28 @@
         "so:libxkbcommon.so.0"
       ],
       "provides": [
-        "pc:gtk4-broadway=4.10.4",
-        "pc:gtk4-unix-print=4.10.4",
-        "pc:gtk4-wayland=4.10.4",
-        "pc:gtk4-x11=4.10.4",
-        "pc:gtk4=4.10.4",
-        "cmd:gtk4-builder-tool=4.10.4-r0",
-        "cmd:gtk4-encode-symbolic-svg=4.10.4-r0",
-        "cmd:gtk4-query-settings=4.10.4-r0"
+        "pc:gtk4-broadway=4.10.5",
+        "pc:gtk4-unix-print=4.10.5",
+        "pc:gtk4-wayland=4.10.5",
+        "pc:gtk4-x11=4.10.5",
+        "pc:gtk4=4.10.5",
+        "cmd:gtk4-builder-tool=4.10.5-r0",
+        "cmd:gtk4-encode-symbolic-svg=4.10.5-r0",
+        "cmd:gtk4-query-settings=4.10.5-r0"
       ]
     },
     "gtk4.0-doc": {
       "origin": "gtk4.0",
       "versions": {
-        "4.10.4-r0": 1685992862
+        "4.10.4-r0": 1685992862,
+        "4.10.5-r0": 1700575506
       }
     },
     "gtk4.0-lang": {
       "origin": "gtk4.0",
       "versions": {
-        "4.10.4-r0": 1685992862
+        "4.10.4-r0": 1685992862,
+        "4.10.5-r0": 1700575506
       },
       "dependencies": [
         "shared-mime-info",
@@ -168290,7 +168296,7 @@
       },
       "libgtk-4.so.1": {
         "package": "gtk4.0",
-        "version": "1.1000.4"
+        "version": "1.1000.5"
       },
       "libgdkmm-2.4.so.1": {
         "package": "gtkmm",
