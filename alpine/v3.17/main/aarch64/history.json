@@ -2037,15 +2037,16 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       },
       "dependencies": [
-        "libcrypto3=3.0.12-r0",
-        "libssl3=3.0.12-r0",
+        "libcrypto3=3.0.12-r1",
+        "libssl3=3.0.12-r1",
         "pkgconfig"
       ],
       "provides": [
-        "openssl3-dev=3.0.12-r0",
+        "openssl3-dev=3.0.12-r1",
         "pc:libcrypto=3.0.12",
         "pc:libssl=3.0.12",
         "pc:openssl=3.0.12"
@@ -2231,7 +2232,8 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
@@ -3467,7 +3469,8 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       }
     },
     "xl2tpd": {
@@ -18547,18 +18550,19 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       },
       "dependencies": [
-        "libssl3=3.0.12-r0",
-        "libcrypto3=3.0.12-r0",
+        "libssl3=3.0.12-r1",
+        "libcrypto3=3.0.12-r1",
         "so:libc.musl-aarch64.so.1",
         "so:libcrypto.so.3",
         "so:libssl.so.3"
       ],
       "provides": [
-        "openssl3=3.0.12-r0",
-        "cmd:openssl=3.0.12-r0"
+        "openssl3=3.0.12-r1",
+        "cmd:openssl=3.0.12-r1"
       ]
     },
     "openjade": {
@@ -26848,7 +26852,8 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -33354,7 +33359,8 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       }
     },
     "openssh-client-yash-completion": {
@@ -48668,7 +48674,8 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       }
     },
     "perl-parse-syslog-doc": {
@@ -65206,7 +65213,7 @@
       },
       "openssl3-dev": {
         "package": "openssl-dev",
-        "version": "3.0.12-r0"
+        "version": "3.0.12-r1"
       },
       "/bin/sh": {
         "package": "yash-binsh",
@@ -65650,7 +65657,7 @@
       },
       "openssl3": {
         "package": "openssl",
-        "version": "3.0.12-r0"
+        "version": "3.0.12-r1"
       },
       "freeradius3-postgresql": {
         "package": "freeradius-postgresql",

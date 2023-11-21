@@ -36246,17 +36246,18 @@
       "versions": {
         "0.6.6-r12": 1694067067,
         "0.6.6-r13": 1697120043,
-        "0.6.6-r14": 1700254797
+        "0.6.6-r14": 1700254797,
+        "0.6.7-r0": 1700573771
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:dkim-keygen=0.6.6-r14",
-        "cmd:dkim-milter=0.6.6-r14",
-        "cmd:dkim-verify=0.6.6-r14",
-        "cmd:dmarc-lookup=0.6.6-r14"
+        "cmd:dkim-keygen=0.6.7-r0",
+        "cmd:dkim-milter=0.6.7-r0",
+        "cmd:dkim-verify=0.6.7-r0",
+        "cmd:dmarc-lookup=0.6.7-r0"
       ]
     },
     "go-msgauth-openrc": {
@@ -36264,7 +36265,8 @@
       "versions": {
         "0.6.6-r12": 1694067067,
         "0.6.6-r13": 1697120043,
-        "0.6.6-r14": 1700254797
+        "0.6.6-r14": 1700254797,
+        "0.6.7-r0": 1700573771
       }
     },
     "go-sendxmpp": {

@@ -2763,7 +2763,8 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       }
     },
     "lua-stringy": {
@@ -22059,18 +22060,19 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       },
       "dependencies": [
-        "libssl3=3.0.12-r0",
-        "libcrypto3=3.0.12-r0",
+        "libssl3=3.0.12-r1",
+        "libcrypto3=3.0.12-r1",
         "so:libc.musl-ppc64le.so.1",
         "so:libcrypto.so.3",
         "so:libssl.so.3"
       ],
       "provides": [
-        "openssl3=3.0.12-r0",
-        "cmd:openssl=3.0.12-r0"
+        "openssl3=3.0.12-r1",
+        "cmd:openssl=3.0.12-r1"
       ]
     },
     "perl-heap": {
@@ -22976,15 +22978,16 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       },
       "dependencies": [
-        "libcrypto3=3.0.12-r0",
-        "libssl3=3.0.12-r0",
+        "libcrypto3=3.0.12-r1",
+        "libssl3=3.0.12-r1",
         "pkgconfig"
       ],
       "provides": [
-        "openssl3-dev=3.0.12-r0",
+        "openssl3-dev=3.0.12-r1",
         "pc:libcrypto=3.0.12",
         "pc:libssl=3.0.12",
         "pc:openssl=3.0.12"
@@ -33305,7 +33308,8 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
@@ -38167,7 +38171,8 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -51798,7 +51803,8 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       }
     },
     "libunwind-static": {
@@ -58526,7 +58532,8 @@
       "origin": "openssl",
       "versions": {
         "3.0.11-r0": 1695253560,
-        "3.0.12-r0": 1698161850
+        "3.0.12-r0": 1698161850,
+        "3.0.12-r1": 1700570984
       }
     },
     "lua5.4-sql-postgres": {
@@ -64720,7 +64727,7 @@
       },
       "openssl3": {
         "package": "openssl",
-        "version": "3.0.12-r0"
+        "version": "3.0.12-r1"
       },
       "py-fixtures": {
         "package": "py3-fixtures",
@@ -64736,7 +64743,7 @@
       },
       "openssl3-dev": {
         "package": "openssl-dev",
-        "version": "3.0.12-r0"
+        "version": "3.0.12-r1"
       },
       "lua5.2-bitlib": {
         "package": "lua5.2-bit32",
