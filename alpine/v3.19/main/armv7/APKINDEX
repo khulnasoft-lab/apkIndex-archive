@@ -75649,36 +75649,36 @@ t:1700918447
 c:4aae49ffa45e939d66586bb1b44ff24328c3ec79
 i:docs sqlite-tcl=3.44.2-r0
 
-C:Q1ZLdrlaH+tqeVmGYU3VneVqGOcMM=
+C:Q1EdoWSxbfoNxsXbXT/CLiHRpP98U=
 P:sqsh
-V:2.5.16.1-r7
+V:2.5.16.1-r8
 A:armv7
-S:96841
+S:96848
 I:188416
 T:Sybase iSQL replacement
 U:https://sourceforge.net/projects/sqsh/
-L:GPL
+L:GPL-2.0-or-later
 o:sqsh
 m:Jeff Bilyk <jbilyk@gmail.com>
-t:1696862800
-c:73d73d391e8edeadae26a108c22835e904bab7f1
+t:1701176020
+c:3950c326f1e7733e485e55384ada708f06f80c21
 D:so:libc.musl-armv7.so.1 so:libct.so.4 so:libreadline.so.8
-p:cmd:sqsh=2.5.16.1-r7
+p:cmd:sqsh=2.5.16.1-r8
 
-C:Q1iLRe5edIeNzZSdOUoT/2uPIZ/EA=
+C:Q1dQwPOBp15YcMc9pktz+99eoVSZw=
 P:sqsh-doc
-V:2.5.16.1-r7
+V:2.5.16.1-r8
 A:armv7
-S:49865
+S:49876
 I:184320
 T:Sybase iSQL replacement (documentation)
 U:https://sourceforge.net/projects/sqsh/
-L:GPL
+L:GPL-2.0-or-later
 o:sqsh
 m:Jeff Bilyk <jbilyk@gmail.com>
-t:1696862800
-c:73d73d391e8edeadae26a108c22835e904bab7f1
-i:docs sqsh=2.5.16.1-r7
+t:1701176020
+c:3950c326f1e7733e485e55384ada708f06f80c21
+i:docs sqsh=2.5.16.1-r8
 
 C:Q1OsMZM+84CFRFomUj5iIWrLfVPEA=
 P:squark

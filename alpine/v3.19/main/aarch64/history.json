@@ -60487,7 +60487,8 @@
     "sqsh": {
       "origin": "sqsh",
       "versions": {
-        "2.5.16.1-r7": 1696862800
+        "2.5.16.1-r7": 1696862800,
+        "2.5.16.1-r8": 1701176020
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -60495,13 +60496,14 @@
         "so:libreadline.so.8"
       ],
       "provides": [
-        "cmd:sqsh=2.5.16.1-r7"
+        "cmd:sqsh=2.5.16.1-r8"
       ]
     },
     "sqsh-doc": {
       "origin": "sqsh",
       "versions": {
-        "2.5.16.1-r7": 1696862800
+        "2.5.16.1-r7": 1696862800,
+        "2.5.16.1-r8": 1701176020
       }
     },
     "squark": {
