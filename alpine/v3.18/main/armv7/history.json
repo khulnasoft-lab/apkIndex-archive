@@ -27493,7 +27493,8 @@
     "linux-rpi": {
       "origin": "linux-rpi",
       "versions": {
-        "6.1.55-r0": 1695821003
+        "6.1.55-r0": 1695821003,
+        "6.1.64-r0": 1701288902
       },
       "dependencies": [
         "initramfs-generator",
@@ -27504,7 +27505,8 @@
     "linux-rpi-dev": {
       "origin": "linux-rpi",
       "versions": {
-        "6.1.55-r0": 1695821003
+        "6.1.55-r0": 1695821003,
+        "6.1.64-r0": 1701288902
       },
       "dependencies": [
         "perl",
@@ -27519,7 +27521,8 @@
     "linux-rpi2": {
       "origin": "linux-rpi",
       "versions": {
-        "6.1.55-r0": 1695821003
+        "6.1.55-r0": 1695821003,
+        "6.1.64-r0": 1701288902
       },
       "dependencies": [
         "initramfs-generator",
@@ -27530,7 +27533,8 @@
     "linux-rpi2-dev": {
       "origin": "linux-rpi",
       "versions": {
-        "6.1.55-r0": 1695821003
+        "6.1.55-r0": 1695821003,
+        "6.1.64-r0": 1701288902
       },
       "dependencies": [
         "perl",
@@ -27545,7 +27549,8 @@
     "linux-rpi4": {
       "origin": "linux-rpi",
       "versions": {
-        "6.1.55-r0": 1695821003
+        "6.1.55-r0": 1695821003,
+        "6.1.64-r0": 1701288902
       },
       "dependencies": [
         "initramfs-generator",
@@ -27556,7 +27561,8 @@
     "linux-rpi4-dev": {
       "origin": "linux-rpi",
       "versions": {
-        "6.1.55-r0": 1695821003
+        "6.1.55-r0": 1695821003,
+        "6.1.64-r0": 1701288902
       },
       "dependencies": [
         "perl",
@@ -50267,49 +50273,55 @@
     "raspberrypi-bootloader": {
       "origin": "raspberrypi-bootloader",
       "versions": {
-        "1.20230921-r0": 1695490104
+        "1.20230921-r0": 1695490104,
+        "1.20231017-r0": 1701289441
       },
       "dependencies": [
-        "raspberrypi-bootloader-common=1.20230921-r0"
+        "raspberrypi-bootloader-common=1.20231017-r0"
       ]
     },
     "raspberrypi-bootloader-common": {
       "origin": "raspberrypi-bootloader",
       "versions": {
-        "1.20230921-r0": 1695490104
+        "1.20230921-r0": 1695490104,
+        "1.20231017-r0": 1701289441
       }
     },
     "raspberrypi-bootloader-cutdown": {
       "origin": "raspberrypi-bootloader",
       "versions": {
-        "1.20230921-r0": 1695490104
+        "1.20230921-r0": 1695490104,
+        "1.20231017-r0": 1701289441
       },
       "dependencies": [
-        "raspberrypi-bootloader-common=1.20230921-r0"
+        "raspberrypi-bootloader-common=1.20231017-r0"
       ]
     },
     "raspberrypi-bootloader-debug": {
       "origin": "raspberrypi-bootloader",
       "versions": {
-        "1.20230921-r0": 1695490104
+        "1.20230921-r0": 1695490104,
+        "1.20231017-r0": 1701289441
       },
       "dependencies": [
-        "raspberrypi-bootloader-common=1.20230921-r0"
+        "raspberrypi-bootloader-common=1.20231017-r0"
       ]
     },
     "raspberrypi-bootloader-doc": {
       "origin": "raspberrypi-bootloader",
       "versions": {
-        "1.20230921-r0": 1695490104
+        "1.20230921-r0": 1695490104,
+        "1.20231017-r0": 1701289441
       }
     },
     "raspberrypi-bootloader-experimental": {
       "origin": "raspberrypi-bootloader",
       "versions": {
-        "1.20230921-r0": 1695490104
+        "1.20230921-r0": 1695490104,
+        "1.20231017-r0": 1701289441
       },
       "dependencies": [
-        "raspberrypi-bootloader-common=1.20230921-r0"
+        "raspberrypi-bootloader-common=1.20231017-r0"
       ]
     },
     "raspberrypi-userland": {
@@ -61236,32 +61248,35 @@
     "zfs-rpi": {
       "origin": "zfs-rpi",
       "versions": {
-        "6.1.55-r1": 1695821102
+        "6.1.55-r1": 1695821102,
+        "6.1.64-r1": 1701289073
       },
       "dependencies": [
-        "linux-rpi=6.1.55-r0"
+        "linux-rpi=6.1.64-r0"
       ]
     },
     "zfs-rpi-dev": {
       "origin": "zfs-rpi",
       "versions": {
-        "6.1.55-r1": 1695821102
+        "6.1.55-r1": 1695821102,
+        "6.1.64-r1": 1701289073
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-rpi-dev=6.1.55-r0"
+        "linux-rpi-dev=6.1.64-r0"
       ]
     },
     "zfs-rpi2": {
       "origin": "zfs-rpi",
       "versions": {
-        "6.1.55-r1": 1695821102
+        "6.1.55-r1": 1695821102,
+        "6.1.64-r1": 1701289073
       },
       "dependencies": [
-        "linux-rpi2=6.1.55-r0"
+        "linux-rpi2=6.1.64-r0"
       ]
     },
     "zfs-scripts": {

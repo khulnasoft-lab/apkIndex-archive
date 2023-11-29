@@ -45466,19 +45466,21 @@
     "jool-modules-rpi": {
       "origin": "jool-modules-rpi",
       "versions": {
-        "6.1.55-r1": 1695821011
+        "6.1.55-r1": 1695821011,
+        "6.1.64-r1": 1701288915
       },
       "dependencies": [
-        "linux-rpi=6.1.55-r0"
+        "linux-rpi=6.1.64-r0"
       ]
     },
     "jool-modules-rpi2": {
       "origin": "jool-modules-rpi",
       "versions": {
-        "6.1.55-r1": 1695821011
+        "6.1.55-r1": 1695821011,
+        "6.1.64-r1": 1701288915
       },
       "dependencies": [
-        "linux-rpi2=6.1.55-r0"
+        "linux-rpi2=6.1.64-r0"
       ]
     },
     "jool-tools": {
