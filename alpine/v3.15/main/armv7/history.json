@@ -1779,7 +1779,8 @@
     "alpine-base": {
       "origin": "alpine-base",
       "versions": {
-        "3.15.10-r0": 1691414060
+        "3.15.10-r0": 1691414060,
+        "3.15.11-r0": 1701345154
       },
       "dependencies": [
         "alpine-baselayout",
