@@ -909,7 +909,8 @@
     "alpine-base": {
       "origin": "alpine-base",
       "versions": {
-        "3.18.4-r0": 1695899853
+        "3.18.4-r0": 1695899853,
+        "3.18.5-r0": 1701336648
       },
       "dependencies": [
         "alpine-baselayout",
@@ -1069,7 +1070,8 @@
     "alpine-release": {
       "origin": "alpine-base",
       "versions": {
-        "3.18.4-r0": 1695899853
+        "3.18.4-r0": 1695899853,
+        "3.18.5-r0": 1701336648
       },
       "dependencies": [
         "alpine-keys"
