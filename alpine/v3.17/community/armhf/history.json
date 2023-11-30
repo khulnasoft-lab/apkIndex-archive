@@ -11824,17 +11824,18 @@
     "go-msgauth": {
       "origin": "go-msgauth",
       "versions": {
-        "0.6.6-r9": 1683096588
+        "0.6.6-r9": 1683096588,
+        "0.6.7-r0": 1700768846
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:dkim-keygen=0.6.6-r9",
-        "cmd:dkim-milter=0.6.6-r9",
-        "cmd:dkim-verify=0.6.6-r9",
-        "cmd:dmarc-lookup=0.6.6-r9"
+        "cmd:dkim-keygen=0.6.7-r0",
+        "cmd:dkim-milter=0.6.7-r0",
+        "cmd:dkim-verify=0.6.7-r0",
+        "cmd:dmarc-lookup=0.6.7-r0"
       ]
     },
     "gtkmm-dev": {
@@ -123994,7 +123995,8 @@
     "go-msgauth-openrc": {
       "origin": "go-msgauth",
       "versions": {
-        "0.6.6-r9": 1683096588
+        "0.6.6-r9": 1683096588,
+        "0.6.7-r0": 1700768846
       }
     },
     "libretro-beetle-wswan": {
