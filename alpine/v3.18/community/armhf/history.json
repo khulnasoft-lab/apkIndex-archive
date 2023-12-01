@@ -136333,7 +136333,8 @@
     "rspamd": {
       "origin": "rspamd",
       "versions": {
-        "3.6-r1": 1691390081
+        "3.6-r1": 1691390081,
+        "3.6-r2": 1701462283
       },
       "dependencies": [
         "icu-data-full",
@@ -136351,30 +136352,32 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "rspamd-controller=3.6-r1",
-        "rspamd-fuzzy=3.6-r1",
-        "rspamd-proxy=3.6-r1",
-        "cmd:rspamadm-3.6=3.6-r1",
-        "cmd:rspamadm=3.6-r1",
-        "cmd:rspamc-3.6=3.6-r1",
-        "cmd:rspamd-3.6=3.6-r1",
-        "cmd:rspamd=3.6-r1"
+        "rspamd-controller=3.6-r2",
+        "rspamd-fuzzy=3.6-r2",
+        "rspamd-proxy=3.6-r2",
+        "cmd:rspamadm-3.6=3.6-r2",
+        "cmd:rspamadm=3.6-r2",
+        "cmd:rspamc-3.6=3.6-r2",
+        "cmd:rspamd-3.6=3.6-r2",
+        "cmd:rspamd=3.6-r2"
       ]
     },
     "rspamd-client": {
       "origin": "rspamd",
       "versions": {
-        "3.6-r1": 1691390081
+        "3.6-r1": 1691390081,
+        "3.6-r2": 1701462283
       },
       "dependencies": [
         "icu-data-full",
-        "rspamd=3.6-r1"
+        "rspamd=3.6-r2"
       ]
     },
     "rspamd-dbg": {
       "origin": "rspamd",
       "versions": {
-        "3.6-r1": 1691390081
+        "3.6-r1": 1691390081,
+        "3.6-r2": 1701462283
       },
       "dependencies": [
         "icu-data-full"
@@ -136383,13 +136386,15 @@
     "rspamd-doc": {
       "origin": "rspamd",
       "versions": {
-        "3.6-r1": 1691390081
+        "3.6-r1": 1691390081,
+        "3.6-r2": 1701462283
       }
     },
     "rspamd-libs": {
       "origin": "rspamd",
       "versions": {
-        "3.6-r1": 1691390081
+        "3.6-r1": 1691390081,
+        "3.6-r2": 1701462283
       },
       "dependencies": [
         "icu-data-full",
@@ -136420,19 +136425,21 @@
     "rspamd-openrc": {
       "origin": "rspamd",
       "versions": {
-        "3.6-r1": 1691390081
+        "3.6-r1": 1691390081,
+        "3.6-r2": 1701462283
       }
     },
     "rspamd-utils": {
       "origin": "rspamd",
       "versions": {
-        "3.6-r1": 1691390081
+        "3.6-r1": 1691390081,
+        "3.6-r2": 1701462283
       },
       "dependencies": [
         "perl"
       ],
       "provides": [
-        "cmd:rspamd_stats=3.6-r1"
+        "cmd:rspamd_stats=3.6-r2"
       ]
     },
     "rss2email": {
@@ -178252,15 +178259,15 @@
       },
       "rspamd-controller": {
         "package": "rspamd",
-        "version": "3.6-r1"
+        "version": "3.6-r2"
       },
       "rspamd-fuzzy": {
         "package": "rspamd",
-        "version": "3.6-r1"
+        "version": "3.6-r2"
       },
       "rspamd-proxy": {
         "package": "rspamd",
-        "version": "3.6-r1"
+        "version": "3.6-r2"
       },
       "py3-rss2email": {
         "package": "rss2email",
