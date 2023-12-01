@@ -49016,7 +49016,8 @@
     "py3-pyzfs": {
       "origin": "zfs",
       "versions": {
-        "2.1.11-r0": 1681953606
+        "2.1.11-r0": 1681953606,
+        "2.1.14-r0": 1701463008
       },
       "dependencies": [
         "python3",
@@ -49024,13 +49025,14 @@
         "python3~3.11"
       ],
       "provides": [
-        "py3.11:libzfs_core=2.1.11-r0"
+        "py3.11:libzfs_core=2.1.14-r0"
       ]
     },
     "py3-pyzfs-pyc": {
       "origin": "zfs",
       "versions": {
-        "2.1.11-r0": 1681953606
+        "2.1.11-r0": 1681953606,
+        "2.1.14-r0": 1701463008
       },
       "dependencies": [
         "python3~3.11"
@@ -60588,7 +60590,8 @@
     "zfs": {
       "origin": "zfs",
       "versions": {
-        "2.1.11-r0": 1681953606
+        "2.1.11-r0": 1681953606,
+        "2.1.14-r0": 1701463008
       },
       "dependencies": [
         "so:libblkid.so.1",
@@ -60602,28 +60605,29 @@
         "so:libzpool.so.5"
       ],
       "provides": [
-        "spl=2.1.11-r0",
-        "cmd:fsck.zfs=2.1.11-r0",
-        "cmd:mount.zfs=2.1.11-r0",
-        "cmd:raidz_test=2.1.11-r0",
-        "cmd:zdb=2.1.11-r0",
-        "cmd:zed=2.1.11-r0",
-        "cmd:zfs=2.1.11-r0",
-        "cmd:zfs_ids_to_path=2.1.11-r0",
-        "cmd:zgenhostid=2.1.11-r0",
-        "cmd:zhack=2.1.11-r0",
-        "cmd:zinject=2.1.11-r0",
-        "cmd:zpool=2.1.11-r0",
-        "cmd:zstream=2.1.11-r0",
-        "cmd:zstreamdump=2.1.11-r0",
-        "cmd:ztest=2.1.11-r0",
-        "cmd:zvol_wait=2.1.11-r0"
+        "spl=2.1.14-r0",
+        "cmd:fsck.zfs=2.1.14-r0",
+        "cmd:mount.zfs=2.1.14-r0",
+        "cmd:raidz_test=2.1.14-r0",
+        "cmd:zdb=2.1.14-r0",
+        "cmd:zed=2.1.14-r0",
+        "cmd:zfs=2.1.14-r0",
+        "cmd:zfs_ids_to_path=2.1.14-r0",
+        "cmd:zgenhostid=2.1.14-r0",
+        "cmd:zhack=2.1.14-r0",
+        "cmd:zinject=2.1.14-r0",
+        "cmd:zpool=2.1.14-r0",
+        "cmd:zstream=2.1.14-r0",
+        "cmd:zstreamdump=2.1.14-r0",
+        "cmd:ztest=2.1.14-r0",
+        "cmd:zvol_wait=2.1.14-r0"
       ]
     },
     "zfs-dev": {
       "origin": "zfs",
       "versions": {
-        "2.1.11-r0": 1681953606
+        "2.1.11-r0": 1681953606,
+        "2.1.14-r0": 1701463008
       },
       "dependencies": [
         "attr-dev",
@@ -60638,30 +60642,33 @@
         "pc:uuid",
         "pc:zlib",
         "pkgconfig",
-        "zfs-libs=2.1.11-r0"
+        "zfs-libs=2.1.14-r0"
       ],
       "provides": [
-        "pc:libzfs=2.1.11",
-        "pc:libzfs_core=2.1.11",
-        "pc:libzfsbootenv=2.1.11"
+        "pc:libzfs=2.1.14",
+        "pc:libzfs_core=2.1.14",
+        "pc:libzfsbootenv=2.1.14"
       ]
     },
     "zfs-doc": {
       "origin": "zfs",
       "versions": {
-        "2.1.11-r0": 1681953606
+        "2.1.11-r0": 1681953606,
+        "2.1.14-r0": 1701463008
       }
     },
     "zfs-dracut": {
       "origin": "zfs",
       "versions": {
-        "2.1.11-r0": 1681953606
+        "2.1.11-r0": 1681953606,
+        "2.1.14-r0": 1701463008
       }
     },
     "zfs-libs": {
       "origin": "zfs",
       "versions": {
-        "2.1.11-r0": 1681953606
+        "2.1.11-r0": 1681953606,
+        "2.1.14-r0": 1701463008
       },
       "dependencies": [
         "so:libblkid.so.1",
@@ -60684,14 +60691,16 @@
     "zfs-openrc": {
       "origin": "zfs",
       "versions": {
-        "2.1.11-r0": 1681953606
+        "2.1.11-r0": 1681953606,
+        "2.1.14-r0": 1701463008
       }
     },
     "zfs-rpi": {
       "origin": "zfs-rpi",
       "versions": {
         "6.1.55-r1": 1695821102,
-        "6.1.64-r1": 1701289073
+        "6.1.64-r1": 1701289073,
+        "6.1.64-r2": 1701463008
       },
       "dependencies": [
         "linux-rpi=6.1.64-r0"
@@ -60701,7 +60710,8 @@
       "origin": "zfs-rpi",
       "versions": {
         "6.1.55-r1": 1695821102,
-        "6.1.64-r1": 1701289073
+        "6.1.64-r1": 1701289073,
+        "6.1.64-r2": 1701463008
       },
       "dependencies": [
         "glib-dev",
@@ -60715,7 +60725,8 @@
       "origin": "zfs-rpi",
       "versions": {
         "6.1.55-r1": 1695821102,
-        "6.1.64-r1": 1701289073
+        "6.1.64-r1": 1701289073,
+        "6.1.64-r2": 1701463008
       },
       "dependencies": [
         "linux-rpi2=6.1.64-r0"
@@ -60724,7 +60735,8 @@
     "zfs-scripts": {
       "origin": "zfs",
       "versions": {
-        "2.1.11-r0": 1681953606
+        "2.1.11-r0": 1681953606,
+        "2.1.14-r0": 1701463008
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -60739,7 +60751,8 @@
     "zfs-udev": {
       "origin": "zfs",
       "versions": {
-        "2.1.11-r0": 1681953606
+        "2.1.11-r0": 1681953606,
+        "2.1.14-r0": 1701463008
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
@@ -60748,15 +60761,16 @@
     "zfs-utils-py": {
       "origin": "zfs",
       "versions": {
-        "2.1.11-r0": 1681953606
+        "2.1.11-r0": 1681953606,
+        "2.1.14-r0": 1701463008
       },
       "dependencies": [
         "python3"
       ],
       "provides": [
-        "cmd:arc_summary=2.1.11-r0",
-        "cmd:arcstat=2.1.11-r0",
-        "cmd:dbufstat=2.1.11-r0"
+        "cmd:arc_summary=2.1.14-r0",
+        "cmd:arcstat=2.1.14-r0",
+        "cmd:dbufstat=2.1.14-r0"
       ]
     },
     "zfs-zsh-completion": {
@@ -62269,7 +62283,7 @@
       },
       "spl": {
         "package": "zfs",
-        "version": "2.1.11-r0"
+        "version": "2.1.14-r0"
       }
     },
     "so": {
