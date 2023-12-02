@@ -9228,7 +9228,8 @@
     "borgbackup": {
       "origin": "borgbackup",
       "versions": {
-        "1.2.6-r0": 1693525592
+        "1.2.6-r0": 1693525592,
+        "1.2.7-r0": 1701526919
       },
       "dependencies": [
         "py3-msgpack",
@@ -9243,33 +9244,37 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:borg=1.2.6-r0",
-        "cmd:borgfs=1.2.6-r0",
-        "py3.11:borg=1.2.6-r0"
+        "cmd:borg=1.2.7-r0",
+        "cmd:borgfs=1.2.7-r0",
+        "py3.11:borg=1.2.7-r0"
       ]
     },
     "borgbackup-bash-completion": {
       "origin": "borgbackup",
       "versions": {
-        "1.2.6-r0": 1693525592
+        "1.2.6-r0": 1693525592,
+        "1.2.7-r0": 1701526919
       }
     },
     "borgbackup-doc": {
       "origin": "borgbackup",
       "versions": {
-        "1.2.6-r0": 1693525592
+        "1.2.6-r0": 1693525592,
+        "1.2.7-r0": 1701526919
       }
     },
     "borgbackup-fish-completion": {
       "origin": "borgbackup",
       "versions": {
-        "1.2.6-r0": 1693525592
+        "1.2.6-r0": 1693525592,
+        "1.2.7-r0": 1701526919
       }
     },
     "borgbackup-pyc": {
       "origin": "borgbackup",
       "versions": {
-        "1.2.6-r0": 1693525592
+        "1.2.6-r0": 1693525592,
+        "1.2.7-r0": 1701526919
       },
       "dependencies": [
         "py3-msgpack",
@@ -9281,7 +9286,8 @@
     "borgbackup-zsh-completion": {
       "origin": "borgbackup",
       "versions": {
-        "1.2.6-r0": 1693525592
+        "1.2.6-r0": 1693525592,
+        "1.2.7-r0": 1701526919
       }
     },
     "bottom": {
