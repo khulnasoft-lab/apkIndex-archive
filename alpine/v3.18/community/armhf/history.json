@@ -94982,7 +94982,8 @@
     "pmbootstrap": {
       "origin": "pmbootstrap",
       "versions": {
-        "2.0.0-r0": 1690961930
+        "2.0.0-r0": 1690961930,
+        "2.1.0-r0": 1701633119
       },
       "dependencies": [
         "git",
@@ -94992,14 +94993,15 @@
         "python3~3.11"
       ],
       "provides": [
-        "cmd:pmbootstrap=2.0.0-r0",
-        "py3.11:pmb=2.0.0-r0"
+        "cmd:pmbootstrap=2.1.0-r0",
+        "py3.11:pmb=2.1.0-r0"
       ]
     },
     "pmbootstrap-pyc": {
       "origin": "pmbootstrap",
       "versions": {
-        "2.0.0-r0": 1690961930
+        "2.0.0-r0": 1690961930,
+        "2.1.0-r0": 1701633119
       },
       "dependencies": [
         "git",
