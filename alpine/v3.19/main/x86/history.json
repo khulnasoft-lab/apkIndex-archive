@@ -49628,7 +49628,8 @@
     "perl-text-csv": {
       "origin": "perl-text-csv",
       "versions": {
-        "2.03-r0": 1692182988
+        "2.03-r0": 1692182988,
+        "2.04-r0": 1701624786
       },
       "dependencies": [
         "perl"
@@ -49637,7 +49638,8 @@
     "perl-text-csv-doc": {
       "origin": "perl-text-csv",
       "versions": {
-        "2.03-r0": 1692182988
+        "2.03-r0": 1692182988,
+        "2.04-r0": 1701624786
       }
     },
     "perl-text-password-pronounceable": {
