@@ -64469,35 +64469,35 @@ t:1688403118
 c:4ece6fc07c96d6859dde2ecc31b323fb3b355638
 i:docs perl-xml-xpath=1.48-r1
 
-C:Q1G13JMHTzlDGSkhIGhMrhfJi634k=
+C:Q1auEoX6E9r7fTd+KF9HSY5dPoJyM=
 P:perl-xs-parse-keyword
-V:0.38-r0
+V:0.39-r0
 A:x86
-S:41234
+S:41445
 I:184320
 T:XS functions to assist in parsing keyword syntax
 U:https://metacpan.org/release/XS-Parse-Keyword/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-xs-parse-keyword
 m:Milan P. Stanić <mps@arvanta.net>
-t:1692780040
-c:9277ffe31c1c6e73060f61f252330ae910a1f59f
+t:1701805058
+c:c6b37ab2e1223bb5ca01ce98e730838c9652e1dc
 D:perl so:libc.musl-x86.so.1
 
-C:Q1qjzHBPnsDfGqZdL1m4oK5BE28Og=
+C:Q1o0tPaEVWJHBly0CC3Z/NgCZwsYQ=
 P:perl-xs-parse-keyword-doc
-V:0.38-r0
+V:0.39-r0
 A:x86
-S:21192
+S:21346
 I:49152
 T:XS functions to assist in parsing keyword syntax (documentation)
 U:https://metacpan.org/release/XS-Parse-Keyword/
 L:GPL-1.0-or-later OR Artistic-1.0-Perl
 o:perl-xs-parse-keyword
 m:Milan P. Stanić <mps@arvanta.net>
-t:1692780040
-c:9277ffe31c1c6e73060f61f252330ae910a1f59f
-i:docs perl-xs-parse-keyword=0.38-r0
+t:1701805058
+c:c6b37ab2e1223bb5ca01ce98e730838c9652e1dc
+i:docs perl-xs-parse-keyword=0.39-r0
 
 C:Q1d4w/hwpncvMQlCGa8114hlcj2BM=
 P:perl-yaml

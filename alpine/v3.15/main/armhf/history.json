@@ -1537,7 +1537,8 @@
     "asterisk-sounds-moh": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       }
     },
     "openldap-overlay-retcode": {
@@ -1871,7 +1872,8 @@
     "grub-dev": {
       "origin": "grub",
       "versions": {
-        "2.06-r2": 1635777266
+        "2.06-r2": 1635777266,
+        "2.06-r3": 1701807397
       }
     },
     "lua5.1-ldap": {
@@ -2437,7 +2439,8 @@
     "grub": {
       "origin": "grub",
       "versions": {
-        "2.06-r2": 1635777266
+        "2.06-r2": 1635777266,
+        "2.06-r3": 1701807397
       },
       "dependencies": [
         "mkinitfs",
@@ -2447,31 +2450,31 @@
         "so:liblzma.so.5"
       ],
       "provides": [
-        "cmd:grub-bios-setup=2.06-r2",
-        "cmd:grub-editenv=2.06-r2",
-        "cmd:grub-file=2.06-r2",
-        "cmd:grub-fstest=2.06-r2",
-        "cmd:grub-glue-efi=2.06-r2",
-        "cmd:grub-install=2.06-r2",
-        "cmd:grub-kbdcomp=2.06-r2",
-        "cmd:grub-macbless=2.06-r2",
-        "cmd:grub-menulst2cfg=2.06-r2",
-        "cmd:grub-mkconfig=2.06-r2",
-        "cmd:grub-mkimage=2.06-r2",
-        "cmd:grub-mklayout=2.06-r2",
-        "cmd:grub-mknetdir=2.06-r2",
-        "cmd:grub-mkpasswd-pbkdf2=2.06-r2",
-        "cmd:grub-mkrelpath=2.06-r2",
-        "cmd:grub-mkrescue=2.06-r2",
-        "cmd:grub-mkstandalone=2.06-r2",
-        "cmd:grub-ofpathname=2.06-r2",
-        "cmd:grub-probe=2.06-r2",
-        "cmd:grub-reboot=2.06-r2",
-        "cmd:grub-render-label=2.06-r2",
-        "cmd:grub-script-check=2.06-r2",
-        "cmd:grub-set-default=2.06-r2",
-        "cmd:grub-sparc64-setup=2.06-r2",
-        "cmd:grub-syslinux2cfg=2.06-r2"
+        "cmd:grub-bios-setup=2.06-r3",
+        "cmd:grub-editenv=2.06-r3",
+        "cmd:grub-file=2.06-r3",
+        "cmd:grub-fstest=2.06-r3",
+        "cmd:grub-glue-efi=2.06-r3",
+        "cmd:grub-install=2.06-r3",
+        "cmd:grub-kbdcomp=2.06-r3",
+        "cmd:grub-macbless=2.06-r3",
+        "cmd:grub-menulst2cfg=2.06-r3",
+        "cmd:grub-mkconfig=2.06-r3",
+        "cmd:grub-mkimage=2.06-r3",
+        "cmd:grub-mklayout=2.06-r3",
+        "cmd:grub-mknetdir=2.06-r3",
+        "cmd:grub-mkpasswd-pbkdf2=2.06-r3",
+        "cmd:grub-mkrelpath=2.06-r3",
+        "cmd:grub-mkrescue=2.06-r3",
+        "cmd:grub-mkstandalone=2.06-r3",
+        "cmd:grub-ofpathname=2.06-r3",
+        "cmd:grub-probe=2.06-r3",
+        "cmd:grub-reboot=2.06-r3",
+        "cmd:grub-render-label=2.06-r3",
+        "cmd:grub-script-check=2.06-r3",
+        "cmd:grub-set-default=2.06-r3",
+        "cmd:grub-sparc64-setup=2.06-r3",
+        "cmd:grub-syslinux2cfg=2.06-r3"
       ]
     },
     "audit-doc": {
@@ -8947,7 +8950,8 @@
     "asterisk-speex": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -9171,7 +9175,8 @@
     "asterisk-pgsql": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -9745,7 +9750,8 @@
     "grub-doc": {
       "origin": "grub",
       "versions": {
-        "2.06-r2": 1635777266
+        "2.06-r2": 1635777266,
+        "2.06-r3": 1701807397
       }
     },
     "mkinitfs-doc": {
@@ -11450,7 +11456,8 @@
     "asterisk-opus": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -12626,7 +12633,8 @@
     "asterisk-dev": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "asterisk"
@@ -14304,7 +14312,8 @@
     "asterisk-doc": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       }
     },
     "linux-firmware-qca": {
@@ -14753,7 +14762,8 @@
     "asterisk-dahdi": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -15319,7 +15329,8 @@
     "asterisk-alsa": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -17012,7 +17023,8 @@
     "asterisk-openrc": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       }
     },
     "ppp": {
@@ -19143,7 +19155,8 @@
     "asterisk-cdr-mysql": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -20482,7 +20495,8 @@
     "asterisk-tds": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -24275,7 +24289,8 @@
     "asterisk-mobile": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libbluetooth.so.3",
@@ -30681,7 +30696,8 @@
     "grub-mount": {
       "origin": "grub",
       "versions": {
-        "2.06-r2": 1635777266
+        "2.06-r2": 1635777266,
+        "2.06-r3": 1701807397
       },
       "dependencies": [
         "grub",
@@ -30690,7 +30706,7 @@
         "so:libfuse.so.2"
       ],
       "provides": [
-        "cmd:grub-mount=2.06-r2"
+        "cmd:grub-mount=2.06-r3"
       ]
     },
     "libxext-doc": {
@@ -31305,7 +31321,8 @@
     "asterisk-dbg": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       }
     },
     "radvd": {
@@ -42686,7 +42703,8 @@
     "asterisk-sample-config": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       }
     },
     "perl-test-fatal": {
@@ -48060,7 +48078,8 @@
     "grub-efi": {
       "origin": "grub",
       "versions": {
-        "2.06-r2": 1635777266
+        "2.06-r2": 1635777266,
+        "2.06-r3": 1701807397
       },
       "dependencies": [
         "grub"
@@ -48800,7 +48819,8 @@
     "asterisk-sounds-en": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       }
     },
     "bubblewrap-bash-completion": {
@@ -49388,7 +49408,8 @@
     "asterisk": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "/bin/sh",
@@ -49417,15 +49438,15 @@
       ],
       "provides": [
         "so:libasteriskssl.so.1=1",
-        "cmd:astcanary=18.2.2-r5",
-        "cmd:astdb2bdb=18.2.2-r5",
-        "cmd:astdb2sqlite3=18.2.2-r5",
-        "cmd:asterisk=18.2.2-r5",
-        "cmd:astgenkey=18.2.2-r5",
-        "cmd:astversion=18.2.2-r5",
-        "cmd:autosupport=18.2.2-r5",
-        "cmd:rasterisk=18.2.2-r5",
-        "cmd:safe_asterisk=18.2.2-r5"
+        "cmd:astcanary=18.2.2-r6",
+        "cmd:astdb2bdb=18.2.2-r6",
+        "cmd:astdb2sqlite3=18.2.2-r6",
+        "cmd:asterisk=18.2.2-r6",
+        "cmd:astgenkey=18.2.2-r6",
+        "cmd:astversion=18.2.2-r6",
+        "cmd:autosupport=18.2.2-r6",
+        "cmd:rasterisk=18.2.2-r6",
+        "cmd:safe_asterisk=18.2.2-r6"
       ]
     },
     "linux-firmware-amd-ucode": {
@@ -51942,7 +51963,8 @@
     "asterisk-fax": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -53596,7 +53618,8 @@
     "asterisk-odbc": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -53684,7 +53707,8 @@
     "grub-bash-completion": {
       "origin": "grub",
       "versions": {
-        "2.06-r2": 1635777266
+        "2.06-r2": 1635777266,
+        "2.06-r3": 1701807397
       }
     },
     "libarchive-static": {
@@ -55214,7 +55238,8 @@
     "asterisk-srtp": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -55366,7 +55391,8 @@
     "grub-mkfont": {
       "origin": "grub",
       "versions": {
-        "2.06-r2": 1635777266
+        "2.06-r2": 1635777266,
+        "2.06-r3": 1701807397
       },
       "dependencies": [
         "grub",
@@ -55375,7 +55401,7 @@
         "so:libfreetype.so.6"
       ],
       "provides": [
-        "cmd:grub-mkfont=2.06-r2"
+        "cmd:grub-mkfont=2.06-r3"
       ]
     },
     "gnokii-smsd-mysql": {
@@ -56777,7 +56803,8 @@
     "asterisk-curl": {
       "origin": "asterisk",
       "versions": {
-        "18.2.2-r5": 1634486665
+        "18.2.2-r5": 1634486665,
+        "18.2.2-r6": 1701807439
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",

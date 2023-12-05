@@ -50370,7 +50370,8 @@
     "perl-xs-parse-keyword": {
       "origin": "perl-xs-parse-keyword",
       "versions": {
-        "0.38-r0": 1692780040
+        "0.38-r0": 1692780040,
+        "0.39-r0": 1701805058
       },
       "dependencies": [
         "perl",
@@ -50380,7 +50381,8 @@
     "perl-xs-parse-keyword-doc": {
       "origin": "perl-xs-parse-keyword",
       "versions": {
-        "0.38-r0": 1692780040
+        "0.38-r0": 1692780040,
+        "0.39-r0": 1701805058
       }
     },
     "perl-yaml": {
