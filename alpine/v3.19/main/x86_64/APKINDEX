@@ -2980,19 +2980,19 @@ t:1700235954
 c:d5284ebe5d11e31f273978948e408f096f8dd1ec
 i:docs akms=0.2.1-r0
 
-C:Q1kbW6fDE0dQgN3O7WJA0keS4X4gI=
+C:Q1DQc+cCw4wyi3XDPkN1udrbZq1v0=
 P:alpine-base
-V:3.19.0_rc2-r0
+V:3.19.0_rc3-r0
 A:x86_64
-S:1523
+S:1518
 I:4096
 T:Meta package for minimal alpine base
 U:https://alpinelinux.org
 L:MIT
 o:alpine-base
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1701456882
-c:9f58cc96dfa94e0d45d42c847721e0d3f8fdbe2e
+t:1701759554
+c:93c043e3feaf204bac0101d714a2b78f33b1d01e
 D:alpine-baselayout alpine-conf alpine-release apk-tools busybox busybox-mdev-openrc busybox-openrc busybox-suid libc-utils openrc
 
 C:Q16vHLRZoP2NZ2lLj3reL8p+l/YE4=
@@ -3101,19 +3101,19 @@ c:2365af25fefc1936044a74c3d3ada7e3fa8d22fa
 D:tar
 p:cmd:alpine-make-rootfs=0.7.0-r0
 
-C:Q19qnFk5GqAE+GzA6FLRasA6lTpog=
+C:Q1yzfDE0lCEEjFBlMye5M5GPLihjE=
 P:alpine-release
-V:3.19.0_rc2-r0
+V:3.19.0_rc3-r0
 A:x86_64
-S:2078
+S:2073
 I:28672
 T:Alpine release data
 U:https://alpinelinux.org
 L:MIT
 o:alpine-base
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1701456882
-c:9f58cc96dfa94e0d45d42c847721e0d3f8fdbe2e
+t:1701759554
+c:93c043e3feaf204bac0101d714a2b78f33b1d01e
 D:alpine-keys
 
 C:Q1U/4B6M5Og1eBarkbY/RnxoSNQU4=
@@ -26323,98 +26323,98 @@ c:84a227baf001b6e0208e3352b294e4d7a40e93de
 D:so:libc.musl-x86_64.so.1
 p:so:libkeyutils.so.1=1.10
 
-C:Q1PMQoQpr5pP+ZstIgZuDB/TDrTsY=
+C:Q1B7NytxAS+NubtPCJZ3JJcfA4XmM=
 P:kmod
-V:31-r1
+V:31-r2
 A:x86_64
-S:64319
+S:64345
 I:163840
 T:Linux kernel module management utilities
 U:http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary
 L:GPL-2.0-or-later
 o:kmod
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1701732069
-c:827f1c758b6f29b99923d945ce082e67e14990fc
+t:1701757885
+c:8f46aa2037828eb4d0347f66d4f8b5d163d3e05f
 D:/bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:liblzma.so.5 so:libz.so.1 so:libzstd.so.1
-p:cmd:depmod=31-r1 cmd:insmod=31-r1 cmd:kmod=31-r1 cmd:lsmod=31-r1 cmd:modinfo=31-r1 cmd:modprobe=31-r1 cmd:rmmod=31-r1
+p:cmd:depmod=31-r2 cmd:insmod=31-r2 cmd:kmod=31-r2 cmd:lsmod=31-r2 cmd:modinfo=31-r2 cmd:modprobe=31-r2 cmd:rmmod=31-r2
 
-C:Q1m777SojB2y3SjtS/lmHVcd/UjYY=
+C:Q1LG3SlNwa3UdIONRRVFWbFqjMOAg=
 P:kmod-bash-completion
-V:31-r1
+V:31-r2
 A:x86_64
-S:2923
+S:2929
 I:24576
 T:Bash completions for kmod
 U:http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary
 L:GPL-2.0-or-later
 o:kmod
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1701732069
-c:827f1c758b6f29b99923d945ce082e67e14990fc
-i:kmod=31-r1 bash-completion
+t:1701757885
+c:8f46aa2037828eb4d0347f66d4f8b5d163d3e05f
+i:kmod=31-r2 bash-completion
 
-C:Q1/G3362fg2vGdXpFvGffoPUbK4TE=
+C:Q1xhlDjLmP4XROedc/4RN8Jl/bKEI=
 P:kmod-dev
-V:31-r1
+V:31-r2
 A:x86_64
-S:4631
+S:4638
 I:36864
 T:Linux kernel module management utilities (development files)
 U:http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary
 L:GPL-2.0-or-later
 o:kmod
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1701732069
-c:827f1c758b6f29b99923d945ce082e67e14990fc
-D:kmod-libs=31-r1 pkgconfig
+t:1701757885
+c:8f46aa2037828eb4d0347f66d4f8b5d163d3e05f
+D:kmod-libs=31-r2 pkgconfig
 p:pc:libkmod=31
 
-C:Q1ZdpFVnV1E9S4l1wkKo3FbBgg20A=
+C:Q1LC45/VL8PVip+Hl0ytV0O8BT8GQ=
 P:kmod-doc
-V:31-r1
+V:31-r2
 A:x86_64
-S:20848
+S:20850
 I:69632
 T:Linux kernel module management utilities (documentation)
 U:http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary
 L:GPL-2.0-or-later
 o:kmod
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1701732069
-c:827f1c758b6f29b99923d945ce082e67e14990fc
-i:docs kmod=31-r1
+t:1701757885
+c:8f46aa2037828eb4d0347f66d4f8b5d163d3e05f
+i:docs kmod=31-r2
 
-C:Q14cGyYAumQ2SN1J//4WT+wz8Z5Jc=
+C:Q1cfKVTS7vk6A85b3TV7+BkKJkvwE=
 P:kmod-libs
-V:31-r1
+V:31-r2
 A:x86_64
-S:39345
+S:39353
 I:94208
 T:Linux kernel module management utilities (libraries)
 U:http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary
 L:LGPL-2.1-or-later
 o:kmod
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1701732069
-c:827f1c758b6f29b99923d945ce082e67e14990fc
+t:1701757885
+c:8f46aa2037828eb4d0347f66d4f8b5d163d3e05f
 D:so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:liblzma.so.5 so:libz.so.1 so:libzstd.so.1
 p:so:libkmod.so.2=2.4.1
 
-C:Q17/xGjzBaMzXL7aiiY5KVcjCvMnY=
+C:Q1mJGbzKnXpaWQlyCRWQnjK/B9rUc=
 P:kmod-openrc
-V:31-r1
+V:31-r2
 A:x86_64
-S:1965
+S:1967
 I:16384
 T:Linux kernel module management utilities (OpenRC init scripts)
 U:http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary
 L:GPL-2.0-or-later
 o:kmod
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1701732069
-c:827f1c758b6f29b99923d945ce082e67e14990fc
-i:openrc kmod=31-r1
+t:1701757885
+c:8f46aa2037828eb4d0347f66d4f8b5d163d3e05f
+i:openrc kmod=31-r2
 
 C:Q1ZIB0FROzM9WNUFXmafa18GLb0o8=
 P:knock
@@ -46100,38 +46100,38 @@ t:1685998314
 c:ff2e46d2f7211402e49012e08bc7983fd3d78518
 i:docs mkfontscale=1.2.2-r4
 
-C:Q10Qwdlt1dYTJl0aJ2HmAOPFJIbBg=
+C:Q1PtS+k7DjmKir0Pk1El89D5lWKxs=
 P:mkinitfs
-V:3.9.0_rc2-r1
+V:3.9.0_rc2-r2
 A:x86_64
-S:36829
+S:36848
 I:348160
 T:Tool to generate initramfs images for Alpine
 U:https://gitlab.alpinelinux.org/alpine/mkinitfs
 L:GPL-2.0-only
 o:mkinitfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1701730428
-c:d8207bd05261fc2d168993db49a3d3228aa61afe
+t:1701758003
+c:6757b8c7e19abf01e9d457bc5a369d9e646d2d45
 k:900
 D:apk-tools>=2.9.1 busybox-binsh busybox>=1.28.2-r1 kmod lddtree>=1.25 mdev-conf so:libblkid.so.1 so:libc.musl-x86_64.so.1 so:libcryptsetup.so.12 so:libkmod.so.2
-p:initramfs-generator cmd:bootchartd=3.9.0_rc2-r1 cmd:mkinitfs=3.9.0_rc2-r1 cmd:nlplug-findfs=3.9.0_rc2-r1
+p:initramfs-generator cmd:bootchartd=3.9.0_rc2-r2 cmd:mkinitfs=3.9.0_rc2-r2 cmd:nlplug-findfs=3.9.0_rc2-r2
 
-C:Q173OrJmlaRylh+nymeqxKf/x+qgM=
+C:Q1HuQ0wg38QXVA8KYkLyR2CVDTReo=
 P:mkinitfs-doc
-V:3.9.0_rc2-r1
+V:3.9.0_rc2-r2
 A:x86_64
-S:6645
+S:6650
 I:36864
 T:Tool to generate initramfs images for Alpine (documentation)
 U:https://gitlab.alpinelinux.org/alpine/mkinitfs
 L:GPL-2.0-only
 o:mkinitfs
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1701730428
-c:d8207bd05261fc2d168993db49a3d3228aa61afe
+t:1701758003
+c:6757b8c7e19abf01e9d457bc5a369d9e646d2d45
 k:900
-i:docs mkinitfs=3.9.0_rc2-r1
+i:docs mkinitfs=3.9.0_rc2-r2
 
 C:Q1mnM3aqIKKMjCbqzC+HrZcYI16ZU=
 P:mksh
