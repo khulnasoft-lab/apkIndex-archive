@@ -7828,7 +7828,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367494,
-        "8.4.0-r0": 1697010285
+        "8.4.0-r0": 1697010285,
+        "8.5.0-r0": 1701930272
       }
     },
     "ip6tables-openrc": {
@@ -18732,7 +18733,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367494,
-        "8.4.0-r0": 1697010285
+        "8.4.0-r0": 1697010285,
+        "8.5.0-r0": 1701930272
       },
       "dependencies": [
         "ca-certificates",
@@ -18741,7 +18743,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:curl=8.4.0-r0"
+        "cmd:curl=8.5.0-r0"
       ]
     },
     "speedtest-cli": {
@@ -31409,7 +31411,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367494,
-        "8.4.0-r0": 1697010285
+        "8.4.0-r0": 1697010285,
+        "8.5.0-r0": 1701930272
       }
     },
     "perl-sub-name-doc": {
@@ -35357,7 +35360,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367494,
-        "8.4.0-r0": 1697010285
+        "8.4.0-r0": 1697010285,
+        "8.5.0-r0": 1701930272
       }
     },
     "darkhttpd-openrc": {
@@ -35908,7 +35912,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367494,
-        "8.4.0-r0": 1697010285
+        "8.4.0-r0": 1697010285,
+        "8.5.0-r0": 1701930272
       },
       "dependencies": [
         "ca-certificates"
@@ -39216,19 +39221,20 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367494,
-        "8.4.0-r0": 1697010285
+        "8.4.0-r0": 1697010285,
+        "8.5.0-r0": 1701930272
       },
       "dependencies": [
         "openssl-dev>3",
         "nghttp2-dev",
         "zlib-dev",
         "brotli-dev",
-        "libcurl=8.4.0-r0",
+        "libcurl=8.5.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcurl=8.4.0",
-        "cmd:curl-config=8.4.0-r0"
+        "pc:libcurl=8.5.0",
+        "cmd:curl-config=8.5.0-r0"
       ]
     },
     "subversion-yash-completion": {
@@ -46030,7 +46036,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367494,
-        "8.4.0-r0": 1697010285
+        "8.4.0-r0": 1697010285,
+        "8.5.0-r0": 1701930272
       },
       "dependencies": [
         "ca-certificates",
@@ -58536,7 +58543,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367494,
-        "8.4.0-r0": 1697010285
+        "8.4.0-r0": 1697010285,
+        "8.5.0-r0": 1701930272
       },
       "dependencies": [
         "ca-certificates"

@@ -17093,7 +17093,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367745,
-        "8.4.0-r0": 1697010565
+        "8.4.0-r0": 1697010565,
+        "8.5.0-r0": 1701930643
       }
     },
     "lua5.1-unit": {
@@ -19547,7 +19548,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367745,
-        "8.4.0-r0": 1697010565
+        "8.4.0-r0": 1697010565,
+        "8.5.0-r0": 1701930643
       },
       "dependencies": [
         "ca-certificates",
@@ -19556,7 +19558,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:curl=8.4.0-r0"
+        "cmd:curl=8.5.0-r0"
       ]
     },
     "arpwatch-doc": {
@@ -31623,7 +31625,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367745,
-        "8.4.0-r0": 1697010565
+        "8.4.0-r0": 1697010565,
+        "8.5.0-r0": 1701930643
       },
       "dependencies": [
         "ca-certificates",
@@ -32877,19 +32880,20 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367745,
-        "8.4.0-r0": 1697010565
+        "8.4.0-r0": 1697010565,
+        "8.5.0-r0": 1701930643
       },
       "dependencies": [
         "openssl1.1-compat-dev",
         "nghttp2-dev",
         "zlib-dev",
         "brotli-dev",
-        "libcurl=8.4.0-r0",
+        "libcurl=8.5.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcurl=8.4.0",
-        "cmd:curl-config=8.4.0-r0"
+        "pc:libcurl=8.5.0",
+        "cmd:curl-config=8.5.0-r0"
       ]
     },
     "db": {
@@ -45828,7 +45832,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367745,
-        "8.4.0-r0": 1697010565
+        "8.4.0-r0": 1697010565,
+        "8.5.0-r0": 1701930643
       },
       "dependencies": [
         "ca-certificates"
@@ -47334,7 +47339,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695367745,
-        "8.4.0-r0": 1697010565
+        "8.4.0-r0": 1697010565,
+        "8.5.0-r0": 1701930643
       },
       "dependencies": [
         "ca-certificates"

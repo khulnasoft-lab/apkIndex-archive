@@ -6947,23 +6947,25 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695304337,
-        "8.4.0-r0": 1697009970
+        "8.4.0-r0": 1697009970,
+        "8.5.0-r0": 1701922323
       },
       "dependencies": [
-        "libcurl=8.4.0-r0",
+        "libcurl=8.5.0-r0",
         "so:libc.musl-x86_64.so.1",
         "so:libcurl.so.4",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:curl=8.4.0-r0"
+        "cmd:curl=8.5.0-r0"
       ]
     },
     "curl-dbg": {
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695304337,
-        "8.4.0-r0": 1697009970
+        "8.4.0-r0": 1697009970,
+        "8.5.0-r0": 1701922323
       },
       "dependencies": [
         "ca-certificates"
@@ -6973,7 +6975,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695304337,
-        "8.4.0-r0": 1697009970
+        "8.4.0-r0": 1697009970,
+        "8.5.0-r0": 1701922323
       },
       "dependencies": [
         "libidn2-dev",
@@ -6981,40 +6984,44 @@
         "nghttp2-dev",
         "zlib-dev",
         "brotli-dev",
-        "libcurl=8.4.0-r0",
+        "libcurl=8.5.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcurl=8.4.0",
-        "cmd:curl-config=8.4.0-r0"
+        "pc:libcurl=8.5.0",
+        "cmd:curl-config=8.5.0-r0"
       ]
     },
     "curl-doc": {
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695304337,
-        "8.4.0-r0": 1697009970
+        "8.4.0-r0": 1697009970,
+        "8.5.0-r0": 1701922323
       }
     },
     "curl-fish-completion": {
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695304337,
-        "8.4.0-r0": 1697009970
+        "8.4.0-r0": 1697009970,
+        "8.5.0-r0": 1701922323
       }
     },
     "curl-static": {
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695304337,
-        "8.4.0-r0": 1697009970
+        "8.4.0-r0": 1697009970,
+        "8.5.0-r0": 1701922323
       }
     },
     "curl-zsh-completion": {
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695304337,
-        "8.4.0-r0": 1697009970
+        "8.4.0-r0": 1697009970,
+        "8.5.0-r0": 1701922323
       }
     },
     "cutter": {
@@ -21068,7 +21075,8 @@
       "origin": "curl",
       "versions": {
         "8.3.0-r0": 1695304337,
-        "8.4.0-r0": 1697009970
+        "8.4.0-r0": 1697009970,
+        "8.5.0-r0": 1701922323
       },
       "dependencies": [
         "ca-certificates",
