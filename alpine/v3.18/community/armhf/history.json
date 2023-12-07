@@ -10073,45 +10073,49 @@
     "bzip3": {
       "origin": "bzip3",
       "versions": {
-        "1.3.1-r0": 1684898151
+        "1.3.1-r0": 1684898151,
+        "1.3.2-r0": 1701971194
       },
       "dependencies": [
         "so:libbzip3.so.0",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:bunzip3=1.3.1-r0",
-        "cmd:bz3cat=1.3.1-r0",
-        "cmd:bz3grep=1.3.1-r0",
-        "cmd:bz3less=1.3.1-r0",
-        "cmd:bz3more=1.3.1-r0",
-        "cmd:bz3most=1.3.1-r0",
-        "cmd:bzip3=1.3.1-r0"
+        "cmd:bunzip3=1.3.2-r0",
+        "cmd:bz3cat=1.3.2-r0",
+        "cmd:bz3grep=1.3.2-r0",
+        "cmd:bz3less=1.3.2-r0",
+        "cmd:bz3more=1.3.2-r0",
+        "cmd:bz3most=1.3.2-r0",
+        "cmd:bzip3=1.3.2-r0"
       ]
     },
     "bzip3-dev": {
       "origin": "bzip3",
       "versions": {
-        "1.3.1-r0": 1684898151
+        "1.3.1-r0": 1684898151,
+        "1.3.2-r0": 1701971194
       },
       "dependencies": [
-        "bzip3-libs=1.3.1-r0",
+        "bzip3-libs=1.3.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:bzip3=1.3.1"
+        "pc:bzip3=1.3.2"
       ]
     },
     "bzip3-doc": {
       "origin": "bzip3",
       "versions": {
-        "1.3.1-r0": 1684898151
+        "1.3.1-r0": 1684898151,
+        "1.3.2-r0": 1701971194
       }
     },
     "bzip3-libs": {
       "origin": "bzip3",
       "versions": {
-        "1.3.1-r0": 1684898151
+        "1.3.1-r0": 1684898151,
+        "1.3.2-r0": 1701971194
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
@@ -10123,7 +10127,8 @@
     "bzip3-static": {
       "origin": "bzip3",
       "versions": {
-        "1.3.1-r0": 1684898151
+        "1.3.1-r0": 1684898151,
+        "1.3.2-r0": 1701971194
       }
     },
     "bzrtp": {
