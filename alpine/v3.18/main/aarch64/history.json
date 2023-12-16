@@ -15843,7 +15843,8 @@
     "haproxy": {
       "origin": "haproxy",
       "versions": {
-        "2.6.15-r0": 1691667248
+        "2.6.15-r0": 1691667248,
+        "2.6.16-r0": 1702730102
       },
       "dependencies": [
         "/bin/sh",
@@ -15855,19 +15856,21 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:haproxy=2.6.15-r0"
+        "cmd:haproxy=2.6.16-r0"
       ]
     },
     "haproxy-doc": {
       "origin": "haproxy",
       "versions": {
-        "2.6.15-r0": 1691667248
+        "2.6.15-r0": 1691667248,
+        "2.6.16-r0": 1702730102
       }
     },
     "haproxy-openrc": {
       "origin": "haproxy",
       "versions": {
-        "2.6.15-r0": 1691667248
+        "2.6.15-r0": 1691667248,
+        "2.6.16-r0": 1702730102
       }
     },
     "harfbuzz": {

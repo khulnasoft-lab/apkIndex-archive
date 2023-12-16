@@ -15593,7 +15593,8 @@
     "haproxy-openrc": {
       "origin": "haproxy",
       "versions": {
-        "2.6.15-r0": 1691667346
+        "2.6.15-r0": 1691667346,
+        "2.6.16-r0": 1702729897
       }
     },
     "perl-async-mergepoint-doc": {
@@ -33932,7 +33933,8 @@
     "haproxy-doc": {
       "origin": "haproxy",
       "versions": {
-        "2.6.15-r0": 1691667346
+        "2.6.15-r0": 1691667346,
+        "2.6.16-r0": 1702729897
       }
     },
     "nagios-plugins-dbi": {
@@ -48672,7 +48674,8 @@
     "haproxy": {
       "origin": "haproxy",
       "versions": {
-        "2.6.15-r0": 1691667346
+        "2.6.15-r0": 1691667346,
+        "2.6.16-r0": 1702729897
       },
       "dependencies": [
         "/bin/sh",
@@ -48684,7 +48687,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:haproxy=2.6.15-r0"
+        "cmd:haproxy=2.6.16-r0"
       ]
     },
     "mount": {
