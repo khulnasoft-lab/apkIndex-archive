@@ -76939,7 +76939,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "ca-certificates",
@@ -76967,32 +76968,33 @@
         "/bin/sh"
       ],
       "provides": [
-        "nextcloud-accessibility=26.0.8-r0",
-        "nextcloud-bruteforcesettings=26.0.8-r0",
-        "nextcloud-contactsinteraction=26.0.8-r0",
-        "nextcloud-cloud_federation_api=26.0.8-r0",
-        "nextcloud-dav=26.0.8-r0",
-        "nextcloud-files=26.0.8-r0",
-        "nextcloud-files_videoplayer=26.0.8-r0",
-        "nextcloud-federatedfilesharing=26.0.8-r0",
-        "nextcloud-lookup_server_connector=26.0.8-r0",
-        "nextcloud-oauth2=26.0.8-r0",
-        "nextcloud-provisioning_api=26.0.8-r0",
-        "nextcloud-related_resources=26.0.8-r0",
-        "nextcloud-settings=26.0.8-r0",
-        "nextcloud-theming=26.0.8-r0",
-        "nextcloud-twofactor_totp=26.0.8-r0",
-        "nextcloud-twofactor_backupcodes=26.0.8-r0",
-        "nextcloud-viewer=26.0.8-r0",
-        "nextcloud-workflowengine=26.0.8-r0",
-        "cmd:occ=26.0.8-r0"
+        "nextcloud-accessibility=26.0.10-r0",
+        "nextcloud-bruteforcesettings=26.0.10-r0",
+        "nextcloud-contactsinteraction=26.0.10-r0",
+        "nextcloud-cloud_federation_api=26.0.10-r0",
+        "nextcloud-dav=26.0.10-r0",
+        "nextcloud-files=26.0.10-r0",
+        "nextcloud-files_videoplayer=26.0.10-r0",
+        "nextcloud-federatedfilesharing=26.0.10-r0",
+        "nextcloud-lookup_server_connector=26.0.10-r0",
+        "nextcloud-oauth2=26.0.10-r0",
+        "nextcloud-provisioning_api=26.0.10-r0",
+        "nextcloud-related_resources=26.0.10-r0",
+        "nextcloud-settings=26.0.10-r0",
+        "nextcloud-theming=26.0.10-r0",
+        "nextcloud-twofactor_totp=26.0.10-r0",
+        "nextcloud-twofactor_backupcodes=26.0.10-r0",
+        "nextcloud-viewer=26.0.10-r0",
+        "nextcloud-workflowengine=26.0.10-r0",
+        "cmd:occ=26.0.10-r0"
       ]
     },
     "nextcloud-activity": {
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77002,7 +77004,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77012,7 +77015,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77022,7 +77026,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77032,7 +77037,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud",
@@ -77043,7 +77049,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud",
@@ -77067,14 +77074,16 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       }
     },
     "nextcloud-encryption": {
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud",
@@ -77085,7 +77094,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77095,7 +77105,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77105,7 +77116,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77115,7 +77127,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77125,7 +77138,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud",
@@ -77136,7 +77150,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77146,7 +77161,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77156,7 +77172,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77166,7 +77183,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud",
@@ -77178,7 +77196,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77188,7 +77207,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud",
@@ -77199,7 +77219,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77209,7 +77230,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77219,7 +77241,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77229,7 +77252,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud",
@@ -77241,21 +77265,23 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud",
         "nextcloud-viewer"
       ],
       "provides": [
-        "nextcloud-gallery=26.0.8-r0"
+        "nextcloud-gallery=26.0.10-r0"
       ]
     },
     "nextcloud-privacy": {
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77265,7 +77291,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77275,7 +77302,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud",
@@ -77286,7 +77314,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77296,7 +77325,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud",
@@ -77308,7 +77338,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77318,7 +77349,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77328,7 +77360,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77338,7 +77371,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77348,7 +77382,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77358,7 +77393,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud",
@@ -77369,7 +77405,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -77379,7 +77416,8 @@
       "origin": "nextcloud",
       "versions": {
         "26.0.7-r0": 1695406867,
-        "26.0.8-r0": 1698415799
+        "26.0.8-r0": 1698415799,
+        "26.0.10-r0": 1702971827
       },
       "dependencies": [
         "nextcloud"
@@ -176493,79 +176531,79 @@
       },
       "nextcloud-accessibility": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-bruteforcesettings": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-contactsinteraction": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-cloud_federation_api": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-dav": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-files": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-files_videoplayer": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-federatedfilesharing": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-lookup_server_connector": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-oauth2": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-provisioning_api": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-related_resources": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-settings": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-theming": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-twofactor_totp": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-twofactor_backupcodes": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-viewer": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-workflowengine": {
         "package": "nextcloud",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nextcloud-gallery": {
         "package": "nextcloud-photos",
-        "version": "26.0.8-r0"
+        "version": "26.0.10-r0"
       },
       "nodejs": {
         "package": "nodejs-current",
