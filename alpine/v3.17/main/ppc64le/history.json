@@ -1210,14 +1210,15 @@
     "dropbear-scp": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "!openssh-client",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:scp=2022.83-r0"
+        "cmd:scp=2022.83-r1"
       ]
     },
     "python3-doc": {
@@ -19408,15 +19409,16 @@
     "dropbear": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dropbear=2022.83-r0",
-        "cmd:dropbearkey=2022.83-r0"
+        "cmd:dropbear=2022.83-r1",
+        "cmd:dropbearkey=2022.83-r1"
       ]
     },
     "pcre2-dev": {
@@ -20440,14 +20442,15 @@
     "dropbear-dbclient": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dbclient=2022.83-r0"
+        "cmd:dbclient=2022.83-r1"
       ]
     },
     "libcbor": {
@@ -25381,13 +25384,14 @@
     "dropbear-convert": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:dropbearconvert=2022.83-r0"
+        "cmd:dropbearconvert=2022.83-r1"
       ]
     },
     "nagios-plugins-load": {
@@ -32869,12 +32873,13 @@
     "dropbear-ssh": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "dropbear-dbclient",
         "!openssh-client",
-        "dropbear-dbclient=2022.83-r0"
+        "dropbear-dbclient=2022.83-r1"
       ]
     },
     "rsyslog-pmsnare": {
@@ -41422,7 +41427,8 @@
     "dropbear-openrc": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       }
     },
     "e2fsprogs-extra": {
@@ -51583,7 +51589,8 @@
     "dropbear-doc": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       }
     },
     "libxxf86vm-dev": {

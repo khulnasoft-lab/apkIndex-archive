@@ -11443,13 +11443,14 @@
     "dropbear-convert": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:dropbearconvert=2022.83-r0"
+        "cmd:dropbearconvert=2022.83-r1"
       ]
     },
     "openjade-libs": {
@@ -23065,14 +23066,15 @@
     "dropbear-dbclient": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dbclient=2022.83-r0"
+        "cmd:dbclient=2022.83-r1"
       ]
     },
     "lua5.4-file-magic": {
@@ -31414,7 +31416,8 @@
     "dropbear-doc": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       }
     },
     "blkid": {
@@ -46466,7 +46469,8 @@
     "dropbear-openrc": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       }
     },
     "lua5.3-ldap": {
@@ -50773,14 +50777,15 @@
     "dropbear-scp": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "!openssh-client",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:scp=2022.83-r0"
+        "cmd:scp=2022.83-r1"
       ]
     },
     "sipsak-doc": {
@@ -54329,12 +54334,13 @@
     "dropbear-ssh": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "dropbear-dbclient",
         "!openssh-client",
-        "dropbear-dbclient=2022.83-r0"
+        "dropbear-dbclient=2022.83-r1"
       ]
     },
     "perl-gd": {
@@ -59686,15 +59692,16 @@
     "dropbear": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dropbear=2022.83-r0",
-        "cmd:dropbearkey=2022.83-r0"
+        "cmd:dropbear=2022.83-r1",
+        "cmd:dropbearkey=2022.83-r1"
       ]
     },
     "libecpg-dev": {

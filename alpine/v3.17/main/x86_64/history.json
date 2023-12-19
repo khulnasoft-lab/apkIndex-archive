@@ -32511,14 +32511,15 @@
     "dropbear-scp": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "!openssh-client",
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:scp=2022.83-r0"
+        "cmd:scp=2022.83-r1"
       ]
     },
     "freeswitch-sounds-music-32000": {
@@ -32800,7 +32801,8 @@
     "dropbear-doc": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       }
     },
     "atop-doc": {
@@ -34487,13 +34489,14 @@
     "dropbear-convert": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:dropbearconvert=2022.83-r0"
+        "cmd:dropbearconvert=2022.83-r1"
       ]
     },
     "uwsgi-logcrypto": {
@@ -35103,15 +35106,16 @@
     "dropbear": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dropbear=2022.83-r0",
-        "cmd:dropbearkey=2022.83-r0"
+        "cmd:dropbear=2022.83-r1",
+        "cmd:dropbearkey=2022.83-r1"
       ]
     },
     "libedit-static": {
@@ -47445,7 +47449,8 @@
     "dropbear-openrc": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       }
     },
     "gdl": {
@@ -53121,14 +53126,15 @@
     "dropbear-dbclient": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dbclient=2022.83-r0"
+        "cmd:dbclient=2022.83-r1"
       ]
     },
     "dpaste": {
@@ -54884,12 +54890,13 @@
     "dropbear-ssh": {
       "origin": "dropbear",
       "versions": {
-        "2022.83-r0": 1668487651
+        "2022.83-r0": 1668487651,
+        "2022.83-r1": 1702992017
       },
       "dependencies": [
         "dropbear-dbclient",
         "!openssh-client",
-        "dropbear-dbclient=2022.83-r0"
+        "dropbear-dbclient=2022.83-r1"
       ]
     },
     "ppp-passwordfd": {

@@ -11204,12 +11204,13 @@
     "dropbear-ssh": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       },
       "dependencies": [
         "dropbear-dbclient",
         "!openssh-client",
-        "dropbear-dbclient=2022.82-r1"
+        "dropbear-dbclient=2022.82-r2"
       ]
     },
     "krb5-server": {
@@ -12642,14 +12643,15 @@
     "dropbear-dbclient": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dbclient=2022.82-r1"
+        "cmd:dbclient=2022.82-r2"
       ]
     },
     "encfs": {
@@ -26647,7 +26649,8 @@
     "dropbear-doc": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       }
     },
     "ruby-full": {
@@ -33507,7 +33510,8 @@
     "dropbear-openrc": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       }
     },
     "docbook-xml": {
@@ -40784,15 +40788,16 @@
     "dropbear": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dropbear=2022.82-r1",
-        "cmd:dropbearkey=2022.82-r1"
+        "cmd:dropbear=2022.82-r2",
+        "cmd:dropbearkey=2022.82-r2"
       ]
     },
     "blkid": {
@@ -45942,14 +45947,15 @@
     "dropbear-scp": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       },
       "dependencies": [
         "!openssh-client",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:scp=2022.82-r1"
+        "cmd:scp=2022.82-r2"
       ]
     },
     "ghostscript-dbg": {
@@ -46947,13 +46953,14 @@
     "dropbear-convert": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:dropbearconvert=2022.82-r1"
+        "cmd:dropbearconvert=2022.82-r2"
       ]
     },
     "curl": {

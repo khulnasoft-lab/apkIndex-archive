@@ -3295,14 +3295,15 @@
     "dropbear-dbclient": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dbclient=2022.82-r1"
+        "cmd:dbclient=2022.82-r2"
       ]
     },
     "nodejs-doc": {
@@ -4593,15 +4594,16 @@
     "dropbear": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:dropbear=2022.82-r1",
-        "cmd:dropbearkey=2022.82-r1"
+        "cmd:dropbear=2022.82-r2",
+        "cmd:dropbearkey=2022.82-r2"
       ]
     },
     "libsrtp-static": {
@@ -11070,12 +11072,13 @@
     "dropbear-ssh": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       },
       "dependencies": [
         "dropbear-dbclient",
         "!openssh-client",
-        "dropbear-dbclient=2022.82-r1"
+        "dropbear-dbclient=2022.82-r2"
       ]
     },
     "gawk-doc": {
@@ -18081,14 +18084,15 @@
     "dropbear-scp": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       },
       "dependencies": [
         "!openssh-client",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:scp=2022.82-r1"
+        "cmd:scp=2022.82-r2"
       ]
     },
     "pkgconf": {
@@ -22788,7 +22792,8 @@
     "dropbear-doc": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       }
     },
     "aspell-en": {
@@ -30789,7 +30794,8 @@
     "dropbear-openrc": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       }
     },
     "fstrm-doc": {
@@ -50904,13 +50910,14 @@
     "dropbear-convert": {
       "origin": "dropbear",
       "versions": {
-        "2022.82-r1": 1658765122
+        "2022.82-r1": 1658765122,
+        "2022.82-r2": 1702992282
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:dropbearconvert=2022.82-r1"
+        "cmd:dropbearconvert=2022.82-r2"
       ]
     },
     "ldoc": {
