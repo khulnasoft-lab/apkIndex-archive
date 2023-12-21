@@ -1685,16 +1685,17 @@
     "sofia-sip-dev": {
       "origin": "sofia-sip",
       "versions": {
-        "1.13.14-r2": 1693246315
+        "1.13.14-r2": 1693246315,
+        "1.13.17-r0": 1703153710
       },
       "dependencies": [
         "pc:glib-2.0",
         "pkgconfig",
-        "sofia-sip=1.13.14-r2"
+        "sofia-sip=1.13.17-r0"
       ],
       "provides": [
-        "pc:sofia-sip-ua-glib=1.13.14",
-        "pc:sofia-sip-ua=1.13.14"
+        "pc:sofia-sip-ua-glib=1.13.17",
+        "pc:sofia-sip-ua=1.13.17"
       ]
     },
     "git-gui": {
@@ -2715,7 +2716,8 @@
     "freeswitch-perl": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -8255,7 +8257,8 @@
     "sofia-sip": {
       "origin": "sofia-sip",
       "versions": {
-        "1.13.14-r2": 1693246315
+        "1.13.14-r2": 1693246315,
+        "1.13.17-r0": 1703153710
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -8267,12 +8270,12 @@
       "provides": [
         "so:libsofia-sip-ua-glib.so.3=3.0.0",
         "so:libsofia-sip-ua.so.0=0.6.0",
-        "cmd:addrinfo=1.13.14-r2",
-        "cmd:localinfo=1.13.14-r2",
-        "cmd:sip-date=1.13.14-r2",
-        "cmd:sip-dig=1.13.14-r2",
-        "cmd:sip-options=1.13.14-r2",
-        "cmd:stunc=1.13.14-r2"
+        "cmd:addrinfo=1.13.17-r0",
+        "cmd:localinfo=1.13.17-r0",
+        "cmd:sip-date=1.13.17-r0",
+        "cmd:sip-dig=1.13.17-r0",
+        "cmd:sip-options=1.13.17-r0",
+        "cmd:stunc=1.13.17-r0"
       ]
     },
     "perl-class-data-inheritable-doc": {
@@ -14140,7 +14143,8 @@
     "freeswitch-pgsql": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -23185,7 +23189,8 @@
     "freeswitch": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "/bin/sh",
@@ -23219,15 +23224,15 @@
       ],
       "provides": [
         "so:libfreeswitch.so.1=1.0.0",
-        "cmd:freeswitch=1.10.8-r0",
-        "cmd:fs_cli=1.10.8-r0",
-        "cmd:fs_encode=1.10.8-r0",
-        "cmd:fs_ivrd=1.10.8-r0",
-        "cmd:fs_tts=1.10.8-r0",
-        "cmd:fsxs=1.10.8-r0",
-        "cmd:gentls_cert=1.10.8-r0",
-        "cmd:switch_eavesdrop=1.10.8-r0",
-        "cmd:tone2wav=1.10.8-r0"
+        "cmd:freeswitch=1.10.10-r0",
+        "cmd:fs_cli=1.10.10-r0",
+        "cmd:fs_encode=1.10.10-r0",
+        "cmd:fs_ivrd=1.10.10-r0",
+        "cmd:fs_tts=1.10.10-r0",
+        "cmd:fsxs=1.10.10-r0",
+        "cmd:gentls_cert=1.10.10-r0",
+        "cmd:switch_eavesdrop=1.10.10-r0",
+        "cmd:tone2wav=1.10.10-r0"
       ]
     },
     "clang14-dev": {
@@ -23718,7 +23723,8 @@
     "freeswitch-sample-config": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "freeswitch-timezones"
@@ -23928,7 +23934,8 @@
     "freeswitch-flite": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -28671,7 +28678,8 @@
     "freeswitch-openrc": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       }
     },
     "perl-data-guid-doc": {
@@ -28807,7 +28815,8 @@
     "freeswitch-dbg": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       }
     },
     "lmdb-doc": {
@@ -32224,14 +32233,15 @@
     "freeswitch-dev": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
-        "freeswitch=1.10.8-r0",
+        "freeswitch=1.10.10-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:freeswitch=1.10.8"
+        "pc:freeswitch=1.10.10"
       ]
     },
     "syslog-ng": {
@@ -33344,14 +33354,15 @@
     "libks-dev": {
       "origin": "libks",
       "versions": {
-        "1.8.0-r0": 1667551154
+        "1.8.0-r0": 1667551154,
+        "1.8.3-r0": 1703154073
       },
       "dependencies": [
-        "libks=1.8.0-r0",
+        "libks=1.8.3-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libks=1.8.0"
+        "pc:libks=1.8.3"
       ]
     },
     "llvm14-libs": {
@@ -34830,7 +34841,8 @@
     "libks": {
       "origin": "libks",
       "versions": {
-        "1.8.0-r0": 1667551154
+        "1.8.0-r0": 1667551154,
+        "1.8.3-r0": 1703154073
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -42111,7 +42123,8 @@
     "freeswitch-snmp": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -43489,7 +43502,8 @@
     "freeswitch-perlesl": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44324,7 +44338,8 @@
     "freeswitch-python3": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -48528,7 +48543,8 @@
     "freeswitch-static": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       }
     },
     "acf-dhcp": {
@@ -51548,7 +51564,8 @@
     "freeswitch-timezones": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       }
     },
     "gobject-introspection": {
@@ -51587,7 +51604,8 @@
     "libks-doc": {
       "origin": "libks",
       "versions": {
-        "1.8.0-r0": 1667551154
+        "1.8.0-r0": 1667551154,
+        "1.8.3-r0": 1703154073
       }
     },
     "audit-static": {
@@ -58638,7 +58656,8 @@
     "freeswitch-sangoma": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
