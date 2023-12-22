@@ -7578,10 +7578,11 @@
         "5.15.139-r0": 1701078030,
         "5.15.140-r0": 1701287988,
         "5.15.142-r0": 1702041328,
-        "5.15.143-r0": 1702547612
+        "5.15.143-r0": 1702547612,
+        "5.15.144-r0": 1703167929
       },
       "dependencies": [
-        "linux-virt=5.15.143-r0"
+        "linux-virt=5.15.144-r0"
       ]
     },
     "perl-convert-color": {
@@ -8970,7 +8971,8 @@
     "freeswitch-python3": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -9712,7 +9714,8 @@
     "libssh2": {
       "origin": "libssh2",
       "versions": {
-        "1.10.0-r3": 1659429320
+        "1.10.0-r3": 1659429320,
+        "1.11.0-r0": 1703253385
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -12492,7 +12495,8 @@
     "sofia-sip": {
       "origin": "sofia-sip",
       "versions": {
-        "1.13.14-r2": 1693246315
+        "1.13.14-r2": 1693246315,
+        "1.13.17-r0": 1703153710
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -12504,12 +12508,12 @@
       "provides": [
         "so:libsofia-sip-ua-glib.so.3=3.0.0",
         "so:libsofia-sip-ua.so.0=0.6.0",
-        "cmd:addrinfo=1.13.14-r2",
-        "cmd:localinfo=1.13.14-r2",
-        "cmd:sip-date=1.13.14-r2",
-        "cmd:sip-dig=1.13.14-r2",
-        "cmd:sip-options=1.13.14-r2",
-        "cmd:stunc=1.13.14-r2"
+        "cmd:addrinfo=1.13.17-r0",
+        "cmd:localinfo=1.13.17-r0",
+        "cmd:sip-date=1.13.17-r0",
+        "cmd:sip-dig=1.13.17-r0",
+        "cmd:sip-options=1.13.17-r0",
+        "cmd:stunc=1.13.17-r0"
       ]
     },
     "freeswitch-sounds-ru-RU-elena-32000": {
@@ -15619,7 +15623,8 @@
         "5.15.139-r0": 1701077801,
         "5.15.140-r0": 1701287751,
         "5.15.142-r0": 1702041047,
-        "5.15.143-r0": 1702547330
+        "5.15.143-r0": 1702547330,
+        "5.15.144-r0": 1703167654
       },
       "dependencies": [
         "initramfs-generator"
@@ -16978,7 +16983,8 @@
     "freeswitch-static": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       }
     },
     "efibootmgr-doc": {
@@ -20607,7 +20613,8 @@
     "freeswitch-snmp": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -23794,7 +23801,8 @@
     "freeswitch-sample-config": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "freeswitch-timezones"
@@ -24485,7 +24493,8 @@
     "freeswitch-pgsql": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -25797,7 +25806,8 @@
         "5.15.139-r0": 1701077801,
         "5.15.140-r0": 1701287751,
         "5.15.142-r0": 1702041047,
-        "5.15.143-r0": 1702547330
+        "5.15.143-r0": 1702547330,
+        "5.15.144-r0": 1703167654
       }
     },
     "postgresql15-jit": {
@@ -26743,7 +26753,8 @@
     "freeswitch-dbg": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       }
     },
     "freeradius-sqlite": {
@@ -27032,13 +27043,14 @@
         "5.15.139-r0": 1701078030,
         "5.15.140-r0": 1701287988,
         "5.15.142-r0": 1702041328,
-        "5.15.143-r0": 1702547612
+        "5.15.143-r0": 1702547612,
+        "5.15.144-r0": 1703167929
       },
       "dependencies": [
-        "linux-lts=5.15.143-r0"
+        "linux-lts=5.15.144-r0"
       ],
       "provides": [
-        "spl-vanilla=5.15.143-r0"
+        "spl-vanilla=5.15.144-r0"
       ]
     },
     "bluez-obexd": {
@@ -28158,7 +28170,8 @@
         "5.15.139-r0": 1701077801,
         "5.15.140-r0": 1701287751,
         "5.15.142-r0": 1702041047,
-        "5.15.143-r0": 1702547330
+        "5.15.143-r0": 1702547330,
+        "5.15.144-r0": 1703167654
       },
       "dependencies": [
         "initramfs-generator",
@@ -28743,7 +28756,8 @@
     "freeswitch-openrc": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       }
     },
     "cyrus-sasl-scram": {
@@ -30419,7 +30433,8 @@
     "libssh2-dbg": {
       "origin": "libssh2",
       "versions": {
-        "1.10.0-r3": 1659429320
+        "1.10.0-r3": 1659429320,
+        "1.11.0-r0": 1703253385
       }
     },
     "poppler": {
@@ -30864,16 +30879,17 @@
     "sofia-sip-dev": {
       "origin": "sofia-sip",
       "versions": {
-        "1.13.14-r2": 1693246315
+        "1.13.14-r2": 1693246315,
+        "1.13.17-r0": 1703153710
       },
       "dependencies": [
         "pc:glib-2.0",
         "pkgconfig",
-        "sofia-sip=1.13.14-r2"
+        "sofia-sip=1.13.17-r0"
       ],
       "provides": [
-        "pc:sofia-sip-ua-glib=1.13.14",
-        "pc:sofia-sip-ua=1.13.14"
+        "pc:sofia-sip-ua-glib=1.13.17",
+        "pc:sofia-sip-ua=1.13.17"
       ]
     },
     "libsmartcols": {
@@ -31609,7 +31625,8 @@
     "freeswitch-flite": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -34412,7 +34429,8 @@
         "5.15.139-r0": 1701077801,
         "5.15.140-r0": 1701287751,
         "5.15.142-r0": 1702041047,
-        "5.15.143-r0": 1702547330
+        "5.15.143-r0": 1702547330,
+        "5.15.144-r0": 1703167654
       },
       "dependencies": [
         "perl",
@@ -34510,14 +34528,15 @@
     "libks-dev": {
       "origin": "libks",
       "versions": {
-        "1.8.0-r0": 1667551154
+        "1.8.0-r0": 1667551154,
+        "1.8.3-r0": 1703154073
       },
       "dependencies": [
-        "libks=1.8.0-r0",
+        "libks=1.8.3-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libks=1.8.0"
+        "pc:libks=1.8.3"
       ]
     },
     "vulkan-headers": {
@@ -37108,7 +37127,8 @@
     "libssh2-static": {
       "origin": "libssh2",
       "versions": {
-        "1.10.0-r3": 1659429320
+        "1.10.0-r3": 1659429320,
+        "1.11.0-r0": 1703253385
       }
     },
     "shorewall-core": {
@@ -37701,7 +37721,8 @@
     "libks": {
       "origin": "libks",
       "versions": {
-        "1.8.0-r0": 1667551154
+        "1.8.0-r0": 1667551154,
+        "1.8.3-r0": 1703154073
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -43023,17 +43044,18 @@
     "libssh2-dev": {
       "origin": "libssh2",
       "versions": {
-        "1.10.0-r3": 1659429320
+        "1.10.0-r3": 1659429320,
+        "1.11.0-r0": 1703253385
       },
       "dependencies": [
-        "libssh2=1.10.0-r3",
+        "libssh2=1.11.0-r0",
         "pc:libcrypto",
         "pc:libssl",
         "pc:zlib",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libssh2=1.10.0"
+        "pc:libssh2=1.11.0"
       ]
     },
     "cjson": {
@@ -43921,7 +43943,8 @@
     "freeswitch": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "/bin/sh",
@@ -43955,15 +43978,15 @@
       ],
       "provides": [
         "so:libfreeswitch.so.1=1.0.0",
-        "cmd:freeswitch=1.10.8-r0",
-        "cmd:fs_cli=1.10.8-r0",
-        "cmd:fs_encode=1.10.8-r0",
-        "cmd:fs_ivrd=1.10.8-r0",
-        "cmd:fs_tts=1.10.8-r0",
-        "cmd:fsxs=1.10.8-r0",
-        "cmd:gentls_cert=1.10.8-r0",
-        "cmd:switch_eavesdrop=1.10.8-r0",
-        "cmd:tone2wav=1.10.8-r0"
+        "cmd:freeswitch=1.10.10-r0",
+        "cmd:fs_cli=1.10.10-r0",
+        "cmd:fs_encode=1.10.10-r0",
+        "cmd:fs_ivrd=1.10.10-r0",
+        "cmd:fs_tts=1.10.10-r0",
+        "cmd:fsxs=1.10.10-r0",
+        "cmd:gentls_cert=1.10.10-r0",
+        "cmd:switch_eavesdrop=1.10.10-r0",
+        "cmd:tone2wav=1.10.10-r0"
       ]
     },
     "brotli-dev": {
@@ -44794,7 +44817,8 @@
         "5.15.139-r0": 1701077801,
         "5.15.140-r0": 1701287751,
         "5.15.142-r0": 1702041047,
-        "5.15.143-r0": 1702547330
+        "5.15.143-r0": 1702547330,
+        "5.15.144-r0": 1703167654
       },
       "dependencies": [
         "perl",
@@ -44833,7 +44857,8 @@
     "freeswitch-perlesl": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -45141,7 +45166,8 @@
     "freeswitch-sangoma": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -49199,7 +49225,8 @@
     "libssh2-doc": {
       "origin": "libssh2",
       "versions": {
-        "1.10.0-r3": 1659429320
+        "1.10.0-r3": 1659429320,
+        "1.11.0-r0": 1703253385
       }
     },
     "kamailio-mqtt": {
@@ -50688,10 +50715,11 @@
         "5.15.139-r0": 1701077900,
         "5.15.140-r0": 1701287853,
         "5.15.142-r0": 1702041155,
-        "5.15.143-r0": 1702547438
+        "5.15.143-r0": 1702547438,
+        "5.15.144-r0": 1703167759
       },
       "dependencies": [
-        "linux-lts=5.15.143-r0"
+        "linux-lts=5.15.144-r0"
       ]
     },
     "hostapd-openrc": {
@@ -51077,7 +51105,8 @@
     "freeswitch-timezones": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       }
     },
     "openldap-overlay-remoteauth": {
@@ -51169,7 +51198,8 @@
     "libks-doc": {
       "origin": "libks",
       "versions": {
-        "1.8.0-r0": 1667551154
+        "1.8.0-r0": 1667551154,
+        "1.8.3-r0": 1703154073
       }
     },
     "hiredis-dev": {
@@ -51957,14 +51987,15 @@
     "freeswitch-dev": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
-        "freeswitch=1.10.8-r0",
+        "freeswitch=1.10.10-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:freeswitch=1.10.8"
+        "pc:freeswitch=1.10.10"
       ]
     },
     "perl-net-snmp": {
@@ -54452,7 +54483,8 @@
     "freeswitch-perl": {
       "origin": "freeswitch",
       "versions": {
-        "1.10.8-r0": 1667998723
+        "1.10.8-r0": 1667998723,
+        "1.10.10-r0": 1703156078
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -54488,14 +54520,15 @@
         "5.15.139-r0": 1701078030,
         "5.15.140-r0": 1701287988,
         "5.15.142-r0": 1702041328,
-        "5.15.143-r0": 1702547612
+        "5.15.143-r0": 1702547612,
+        "5.15.144-r0": 1703167929
       },
       "dependencies": [
         "glib-dev",
         "e2fsprogs-dev",
         "util-linux-dev",
         "libtirpc-dev",
-        "linux-lts-dev=5.15.143-r0"
+        "linux-lts-dev=5.15.144-r0"
       ]
     },
     "libseccomp": {
@@ -65381,7 +65414,7 @@
       },
       "spl-vanilla": {
         "package": "zfs-lts",
-        "version": "5.15.143-r0"
+        "version": "5.15.144-r0"
       },
       "lua5.4-bitlib": {
         "package": "lua5.4-bit32",
