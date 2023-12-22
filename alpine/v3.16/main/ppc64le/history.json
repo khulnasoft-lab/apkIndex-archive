@@ -25683,7 +25683,8 @@
     "libssh2": {
       "origin": "libssh2",
       "versions": {
-        "1.10.0-r2": 1634364784
+        "1.10.0-r2": 1634364784,
+        "1.11.0-r0": 1703253572
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -29625,7 +29626,8 @@
     "libssh2-static": {
       "origin": "libssh2",
       "versions": {
-        "1.10.0-r2": 1634364784
+        "1.10.0-r2": 1634364784,
+        "1.11.0-r0": 1703253572
       }
     },
     "linux-virt-dev": {
@@ -36562,17 +36564,18 @@
     "libssh2-dev": {
       "origin": "libssh2",
       "versions": {
-        "1.10.0-r2": 1634364784
+        "1.10.0-r2": 1634364784,
+        "1.11.0-r0": 1703253572
       },
       "dependencies": [
-        "libssh2=1.10.0-r2",
+        "libssh2=1.11.0-r0",
         "pc:libcrypto",
         "pc:libssl",
         "pc:zlib",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libssh2=1.10.0"
+        "pc:libssh2=1.11.0"
       ]
     },
     "perl-net-rblclient-doc": {
@@ -37880,7 +37883,8 @@
     "libssh2-doc": {
       "origin": "libssh2",
       "versions": {
-        "1.10.0-r2": 1634364784
+        "1.10.0-r2": 1634364784,
+        "1.11.0-r0": 1703253572
       }
     },
     "perl-capture-tiny-doc": {
@@ -39200,7 +39204,8 @@
     "libssh2-dbg": {
       "origin": "libssh2",
       "versions": {
-        "1.10.0-r2": 1634364784
+        "1.10.0-r2": 1634364784,
+        "1.11.0-r0": 1703253572
       }
     },
     "lua5.1": {
