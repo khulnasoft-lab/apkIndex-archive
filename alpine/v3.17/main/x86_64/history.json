@@ -7469,15 +7469,16 @@
     "tzdata-utils": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:posixtz=2023c-r0",
-        "cmd:zdump=2023c-r0",
-        "cmd:zic=2023c-r0"
+        "cmd:posixtz=2023d-r0",
+        "cmd:zdump=2023d-r0",
+        "cmd:zic=2023d-r0"
       ]
     },
     "nginx-mod-rtmp": {
@@ -45278,7 +45279,8 @@
     "tzdata": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       }
     },
     "s6-portable-utils-doc": {
@@ -51539,7 +51541,8 @@
     "tzdata-doc": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       }
     },
     "lua5.1-discount": {

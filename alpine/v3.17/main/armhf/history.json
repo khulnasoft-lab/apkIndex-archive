@@ -17757,7 +17757,8 @@
     "tzdata": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       }
     },
     "lua5.3-rex-pcre": {
@@ -37624,15 +37625,16 @@
     "tzdata-utils": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:posixtz=2023c-r0",
-        "cmd:zdump=2023c-r0",
-        "cmd:zic=2023c-r0"
+        "cmd:posixtz=2023d-r0",
+        "cmd:zdump=2023d-r0",
+        "cmd:zic=2023d-r0"
       ]
     },
     "perl-net-dns-resolver-mock": {
@@ -50395,7 +50397,8 @@
     "tzdata-doc": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       }
     },
     "libkcapi-dev": {

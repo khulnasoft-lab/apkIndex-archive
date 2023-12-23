@@ -18537,7 +18537,8 @@
     "tzdata-doc": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       }
     },
     "ulogd-pgsql": {
@@ -32896,15 +32897,16 @@
     "tzdata-utils": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:posixtz=2023c-r0",
-        "cmd:zdump=2023c-r0",
-        "cmd:zic=2023c-r0"
+        "cmd:posixtz=2023d-r0",
+        "cmd:zdump=2023d-r0",
+        "cmd:zic=2023d-r0"
       ]
     },
     "mpc1": {
@@ -45369,7 +45371,8 @@
     "tzdata": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       }
     },
     "bind-dnssec-root": {

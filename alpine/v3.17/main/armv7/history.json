@@ -11543,7 +11543,8 @@
     "tzdata": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       }
     },
     "lua5.1-dbi-postgresql": {
@@ -11979,15 +11980,16 @@
     "tzdata-utils": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:posixtz=2023c-r0",
-        "cmd:zdump=2023c-r0",
-        "cmd:zic=2023c-r0"
+        "cmd:posixtz=2023d-r0",
+        "cmd:zdump=2023d-r0",
+        "cmd:zic=2023d-r0"
       ]
     },
     "perl-moo-doc": {
@@ -50162,7 +50164,8 @@
     "tzdata-doc": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044278
+        "2023c-r0": 1680044278,
+        "2023d-r0": 1703290221
       }
     },
     "rrdcollect-doc": {

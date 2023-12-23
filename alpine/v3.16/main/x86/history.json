@@ -19577,15 +19577,16 @@
     "tzdata": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044288
+        "2023c-r0": 1680044288,
+        "2023d-r0": 1703290427
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:posixtz=2023c-r0",
-        "cmd:zdump=2023c-r0",
-        "cmd:zic=2023c-r0"
+        "cmd:posixtz=2023d-r0",
+        "cmd:zdump=2023d-r0",
+        "cmd:zic=2023d-r0"
       ]
     },
     "open-iscsi-dev": {
@@ -23490,7 +23491,8 @@
     "tzdata-doc": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044288
+        "2023c-r0": 1680044288,
+        "2023d-r0": 1703290427
       }
     },
     "nagios-plugins-sensors": {
