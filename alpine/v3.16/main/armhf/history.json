@@ -52,7 +52,8 @@
       "origin": "postfix",
       "versions": {
         "3.7.7-r0": 1693848640,
-        "3.7.8-r0": 1698911611
+        "3.7.8-r0": 1698911611,
+        "3.7.9-r0": 1703491859
       }
     },
     "libretls-dev": {
@@ -1413,7 +1414,8 @@
       "origin": "postfix",
       "versions": {
         "3.7.7-r0": 1693848640,
-        "3.7.8-r0": 1698911611
+        "3.7.8-r0": 1698911611,
+        "3.7.9-r0": 1703491859
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -4069,7 +4071,8 @@
       "origin": "postfix",
       "versions": {
         "3.7.7-r0": 1693848640,
-        "3.7.8-r0": 1698911611
+        "3.7.8-r0": 1698911611,
+        "3.7.9-r0": 1703491859
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -14352,7 +14355,8 @@
       "origin": "postfix",
       "versions": {
         "3.7.7-r0": 1693848640,
-        "3.7.8-r0": 1698911611
+        "3.7.8-r0": 1698911611,
+        "3.7.9-r0": 1703491859
       },
       "dependencies": [
         "musl>=1.1.24-r7",
@@ -14361,11 +14365,11 @@
         "so:libpostfix-util.so"
       ],
       "provides": [
-        "cmd:fsstone=3.7.8-r0",
-        "cmd:qmqp-sink=3.7.8-r0",
-        "cmd:qmqp-source=3.7.8-r0",
-        "cmd:smtp-sink=3.7.8-r0",
-        "cmd:smtp-source=3.7.8-r0"
+        "cmd:fsstone=3.7.9-r0",
+        "cmd:qmqp-sink=3.7.9-r0",
+        "cmd:qmqp-source=3.7.9-r0",
+        "cmd:smtp-sink=3.7.9-r0",
+        "cmd:smtp-source=3.7.9-r0"
       ]
     },
     "lua-stdlib": {
@@ -22928,7 +22932,8 @@
       "origin": "postfix",
       "versions": {
         "3.7.7-r0": 1693848640,
-        "3.7.8-r0": 1698911611
+        "3.7.8-r0": 1698911611,
+        "3.7.9-r0": 1703491859
       },
       "dependencies": [
         "musl>=1.1.24-r7",
@@ -22947,22 +22952,22 @@
         "so:libpostfix-tls.so=0",
         "so:libpostfix-util.so=0",
         "so:postfix-lmdb.so=0",
-        "cmd:mailq=3.7.8-r0",
-        "cmd:newaliases=3.7.8-r0",
-        "cmd:postalias=3.7.8-r0",
-        "cmd:postcat=3.7.8-r0",
-        "cmd:postconf=3.7.8-r0",
-        "cmd:postdrop=3.7.8-r0",
-        "cmd:postfix=3.7.8-r0",
-        "cmd:postkick=3.7.8-r0",
-        "cmd:postlock=3.7.8-r0",
-        "cmd:postlog=3.7.8-r0",
-        "cmd:postmap=3.7.8-r0",
-        "cmd:postmulti=3.7.8-r0",
-        "cmd:postqueue=3.7.8-r0",
-        "cmd:postsuper=3.7.8-r0",
-        "cmd:qshape.pl=3.7.8-r0",
-        "cmd:sendmail=3.7.8-r0"
+        "cmd:mailq=3.7.9-r0",
+        "cmd:newaliases=3.7.9-r0",
+        "cmd:postalias=3.7.9-r0",
+        "cmd:postcat=3.7.9-r0",
+        "cmd:postconf=3.7.9-r0",
+        "cmd:postdrop=3.7.9-r0",
+        "cmd:postfix=3.7.9-r0",
+        "cmd:postkick=3.7.9-r0",
+        "cmd:postlock=3.7.9-r0",
+        "cmd:postlog=3.7.9-r0",
+        "cmd:postmap=3.7.9-r0",
+        "cmd:postmulti=3.7.9-r0",
+        "cmd:postqueue=3.7.9-r0",
+        "cmd:postsuper=3.7.9-r0",
+        "cmd:qshape.pl=3.7.9-r0",
+        "cmd:sendmail=3.7.9-r0"
       ]
     },
     "zip": {
@@ -23181,7 +23186,8 @@
     "tzdata-doc": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044288
+        "2023c-r0": 1680044288,
+        "2023d-r0": 1703290427
       }
     },
     "font-bh-75dpi": {
@@ -24380,7 +24386,8 @@
       "origin": "postfix",
       "versions": {
         "3.7.7-r0": 1693848640,
-        "3.7.8-r0": 1698911611
+        "3.7.8-r0": 1698911611,
+        "3.7.9-r0": 1703491859
       }
     },
     "openldap-backend-all": {
@@ -25738,7 +25745,8 @@
       "origin": "postfix",
       "versions": {
         "3.7.7-r0": 1693848640,
-        "3.7.8-r0": 1698911611
+        "3.7.8-r0": 1698911611,
+        "3.7.9-r0": 1703491859
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -26808,7 +26816,8 @@
       "origin": "postfix",
       "versions": {
         "3.7.7-r0": 1693848640,
-        "3.7.8-r0": 1698911611
+        "3.7.8-r0": 1698911611,
+        "3.7.9-r0": 1703491859
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -37350,15 +37359,16 @@
     "tzdata": {
       "origin": "tzdata",
       "versions": {
-        "2023c-r0": 1680044288
+        "2023c-r0": 1680044288,
+        "2023d-r0": 1703290427
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:posixtz=2023c-r0",
-        "cmd:zdump=2023c-r0",
-        "cmd:zic=2023c-r0"
+        "cmd:posixtz=2023d-r0",
+        "cmd:zdump=2023d-r0",
+        "cmd:zic=2023d-r0"
       ]
     },
     "boost1.77-wserialization": {
@@ -50652,7 +50662,8 @@
       "origin": "postfix",
       "versions": {
         "3.7.7-r0": 1693848640,
-        "3.7.8-r0": 1698911611
+        "3.7.8-r0": 1698911611,
+        "3.7.9-r0": 1703491859
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",

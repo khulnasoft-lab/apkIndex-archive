@@ -51463,7 +51463,8 @@
       "versions": {
         "3.8.2-r0": 1693763255,
         "3.8.3-r0": 1698913056,
-        "3.8.3-r1": 1699474395
+        "3.8.3-r1": 1699474395,
+        "3.8.4-r0": 1703491668
       },
       "dependencies": [
         "/bin/sh",
@@ -51481,22 +51482,22 @@
         "so:libpostfix-tls.so=0",
         "so:libpostfix-util.so=0",
         "so:postfix-lmdb.so=0",
-        "cmd:mailq=3.8.3-r1",
-        "cmd:newaliases=3.8.3-r1",
-        "cmd:postalias=3.8.3-r1",
-        "cmd:postcat=3.8.3-r1",
-        "cmd:postconf=3.8.3-r1",
-        "cmd:postdrop=3.8.3-r1",
-        "cmd:postfix=3.8.3-r1",
-        "cmd:postkick=3.8.3-r1",
-        "cmd:postlock=3.8.3-r1",
-        "cmd:postlog=3.8.3-r1",
-        "cmd:postmap=3.8.3-r1",
-        "cmd:postmulti=3.8.3-r1",
-        "cmd:postqueue=3.8.3-r1",
-        "cmd:postsuper=3.8.3-r1",
-        "cmd:qshape.pl=3.8.3-r1",
-        "cmd:sendmail=3.8.3-r1"
+        "cmd:mailq=3.8.4-r0",
+        "cmd:newaliases=3.8.4-r0",
+        "cmd:postalias=3.8.4-r0",
+        "cmd:postcat=3.8.4-r0",
+        "cmd:postconf=3.8.4-r0",
+        "cmd:postdrop=3.8.4-r0",
+        "cmd:postfix=3.8.4-r0",
+        "cmd:postkick=3.8.4-r0",
+        "cmd:postlock=3.8.4-r0",
+        "cmd:postlog=3.8.4-r0",
+        "cmd:postmap=3.8.4-r0",
+        "cmd:postmulti=3.8.4-r0",
+        "cmd:postqueue=3.8.4-r0",
+        "cmd:postsuper=3.8.4-r0",
+        "cmd:qshape.pl=3.8.4-r0",
+        "cmd:sendmail=3.8.4-r0"
       ]
     },
     "postfix-doc": {
@@ -51504,7 +51505,8 @@
       "versions": {
         "3.8.2-r0": 1693763255,
         "3.8.3-r0": 1698913056,
-        "3.8.3-r1": 1699474395
+        "3.8.3-r1": 1699474395,
+        "3.8.4-r0": 1703491668
       }
     },
     "postfix-ldap": {
@@ -51512,7 +51514,8 @@
       "versions": {
         "3.8.2-r0": 1693763255,
         "3.8.3-r0": 1698913056,
-        "3.8.3-r1": 1699474395
+        "3.8.3-r1": 1699474395,
+        "3.8.4-r0": 1703491668
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -51528,7 +51531,8 @@
       "versions": {
         "3.8.2-r0": 1693763255,
         "3.8.3-r0": 1698913056,
-        "3.8.3-r1": 1699474395
+        "3.8.3-r1": 1699474395,
+        "3.8.4-r0": 1703491668
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -51543,7 +51547,8 @@
       "versions": {
         "3.8.2-r0": 1693763255,
         "3.8.3-r0": 1698913056,
-        "3.8.3-r1": 1699474395
+        "3.8.3-r1": 1699474395,
+        "3.8.4-r0": 1703491668
       }
     },
     "postfix-pcre": {
@@ -51551,7 +51556,8 @@
       "versions": {
         "3.8.2-r0": 1693763255,
         "3.8.3-r0": 1698913056,
-        "3.8.3-r1": 1699474395
+        "3.8.3-r1": 1699474395,
+        "3.8.4-r0": 1703491668
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -51566,7 +51572,8 @@
       "versions": {
         "3.8.2-r0": 1693763255,
         "3.8.3-r0": 1698913056,
-        "3.8.3-r1": 1699474395
+        "3.8.3-r1": 1699474395,
+        "3.8.4-r0": 1703491668
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -51596,7 +51603,8 @@
       "versions": {
         "3.8.2-r0": 1693763255,
         "3.8.3-r0": 1698913056,
-        "3.8.3-r1": 1699474395
+        "3.8.3-r1": 1699474395,
+        "3.8.4-r0": 1703491668
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -51611,7 +51619,8 @@
       "versions": {
         "3.8.2-r0": 1693763255,
         "3.8.3-r0": 1698913056,
-        "3.8.3-r1": 1699474395
+        "3.8.3-r1": 1699474395,
+        "3.8.4-r0": 1703491668
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -51619,11 +51628,11 @@
         "so:libpostfix-util.so"
       ],
       "provides": [
-        "cmd:fsstone=3.8.3-r1",
-        "cmd:qmqp-sink=3.8.3-r1",
-        "cmd:qmqp-source=3.8.3-r1",
-        "cmd:smtp-sink=3.8.3-r1",
-        "cmd:smtp-source=3.8.3-r1"
+        "cmd:fsstone=3.8.4-r0",
+        "cmd:qmqp-sink=3.8.4-r0",
+        "cmd:qmqp-source=3.8.4-r0",
+        "cmd:smtp-sink=3.8.4-r0",
+        "cmd:smtp-source=3.8.4-r0"
       ]
     },
     "postgresql-common": {
