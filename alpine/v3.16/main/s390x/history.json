@@ -1511,14 +1511,15 @@
     "libde265-dev": {
       "origin": "libde265",
       "versions": {
-        "1.0.12-r0": 1686684605
+        "1.0.12-r0": 1686684605,
+        "1.0.15-r0": 1703846424
       },
       "dependencies": [
-        "libde265=1.0.12-r0",
+        "libde265=1.0.15-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libde265=1.0.12"
+        "pc:libde265=1.0.15"
       ]
     },
     "linux-firmware-ti-keystone": {
@@ -23431,16 +23432,17 @@
     "libde265-examples": {
       "origin": "libde265",
       "versions": {
-        "1.0.12-r0": 1686684605
+        "1.0.12-r0": 1686684605,
+        "1.0.15-r0": 1703846424
       },
       "dependencies": [
-        "libde265=1.0.12-r0",
+        "libde265=1.0.15-r0",
         "so:libc.musl-s390x.so.1",
         "so:libde265.so.0",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:libde265-dec265=1.0.12-r0"
+        "cmd:libde265-dec265=1.0.15-r0"
       ]
     },
     "perl-dbd-pg-doc": {
@@ -45081,7 +45083,8 @@
     "libde265": {
       "origin": "libde265",
       "versions": {
-        "1.0.12-r0": 1686684605
+        "1.0.12-r0": 1686684605,
+        "1.0.15-r0": 1703846424
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -45089,7 +45092,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libde265.so.0=0.1.5"
+        "so:libde265.so.0=0.1.8"
       ]
     },
     "fts-dev": {
@@ -61458,7 +61461,7 @@
       },
       "libde265.so.0": {
         "package": "libde265",
-        "version": "0.1.5"
+        "version": "0.1.8"
       },
       "libsvn_swig_perl-1.so.0": {
         "package": "perl-subversion",

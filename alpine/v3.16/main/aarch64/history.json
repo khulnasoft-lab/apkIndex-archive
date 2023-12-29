@@ -6519,7 +6519,8 @@
     "libde265": {
       "origin": "libde265",
       "versions": {
-        "1.0.12-r0": 1686684605
+        "1.0.12-r0": 1686684605,
+        "1.0.15-r0": 1703846424
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -6527,7 +6528,7 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "so:libde265.so.0=0.1.5"
+        "so:libde265.so.0=0.1.8"
       ]
     },
     "nagios-plugins-dns": {
@@ -24386,16 +24387,17 @@
     "libde265-examples": {
       "origin": "libde265",
       "versions": {
-        "1.0.12-r0": 1686684605
+        "1.0.12-r0": 1686684605,
+        "1.0.15-r0": 1703846424
       },
       "dependencies": [
-        "libde265=1.0.12-r0",
+        "libde265=1.0.15-r0",
         "so:libc.musl-aarch64.so.1",
         "so:libde265.so.0",
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:libde265-dec265=1.0.12-r0"
+        "cmd:libde265-dec265=1.0.15-r0"
       ]
     },
     "sysfsutils": {
@@ -47792,14 +47794,15 @@
     "libde265-dev": {
       "origin": "libde265",
       "versions": {
-        "1.0.12-r0": 1686684605
+        "1.0.12-r0": 1686684605,
+        "1.0.15-r0": 1703846424
       },
       "dependencies": [
-        "libde265=1.0.12-r0",
+        "libde265=1.0.15-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libde265=1.0.12"
+        "pc:libde265=1.0.15"
       ]
     },
     "lua5.1-lzmq": {
@@ -60787,7 +60790,7 @@
       },
       "libde265.so.0": {
         "package": "libde265",
-        "version": "0.1.5"
+        "version": "0.1.8"
       },
       "libpango-1.0.so.0": {
         "package": "pango",
