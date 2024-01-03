@@ -89170,7 +89170,8 @@
     "perl-spreadsheet-parseexcel": {
       "origin": "perl-spreadsheet-parseexcel",
       "versions": {
-        "0.65-r3": 1626299249
+        "0.65-r3": 1626299249,
+        "0.66-r0": 1704245060
       },
       "dependencies": [
         "perl",
@@ -89183,7 +89184,8 @@
     "perl-spreadsheet-parseexcel-doc": {
       "origin": "perl-spreadsheet-parseexcel",
       "versions": {
-        "0.65-r3": 1626299249
+        "0.65-r3": 1626299249,
+        "0.66-r0": 1704245060
       }
     },
     "perl-spreadsheet-xlsx": {
