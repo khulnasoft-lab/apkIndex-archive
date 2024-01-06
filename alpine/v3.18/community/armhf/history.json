@@ -3640,13 +3640,14 @@
     "alpine-make-vm-image": {
       "origin": "alpine-make-vm-image",
       "versions": {
-        "0.12.0-r0": 1694553994
+        "0.12.0-r0": 1694553994,
+        "0.13.0-r0": 1704564565
       },
       "dependencies": [
         "qemu-img"
       ],
       "provides": [
-        "cmd:alpine-make-vm-image=0.12.0-r0"
+        "cmd:alpine-make-vm-image=0.13.0-r0"
       ]
     },
     "alpine-repo-tools": {
