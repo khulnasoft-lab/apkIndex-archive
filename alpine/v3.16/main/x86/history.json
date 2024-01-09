@@ -13205,7 +13205,8 @@
       "origin": "redis",
       "versions": {
         "7.0.13-r0": 1694078562,
-        "7.0.14-r0": 1697641687
+        "7.0.14-r0": 1697641687,
+        "7.0.15-r0": 1704811687
       }
     },
     "lua5.4-filesystem": {
@@ -14099,7 +14100,8 @@
       "origin": "redis",
       "versions": {
         "7.0.13-r0": 1694078562,
-        "7.0.14-r0": 1697641687
+        "7.0.14-r0": 1697641687,
+        "7.0.15-r0": 1704811687
       },
       "dependencies": [
         "/bin/sh",
@@ -14108,12 +14110,12 @@
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:redis-benchmark=7.0.14-r0",
-        "cmd:redis-check-aof=7.0.14-r0",
-        "cmd:redis-check-rdb=7.0.14-r0",
-        "cmd:redis-cli=7.0.14-r0",
-        "cmd:redis-sentinel=7.0.14-r0",
-        "cmd:redis-server=7.0.14-r0"
+        "cmd:redis-benchmark=7.0.15-r0",
+        "cmd:redis-check-aof=7.0.15-r0",
+        "cmd:redis-check-rdb=7.0.15-r0",
+        "cmd:redis-cli=7.0.15-r0",
+        "cmd:redis-sentinel=7.0.15-r0",
+        "cmd:redis-server=7.0.15-r0"
       ]
     },
     "linux-firmware-cypress": {
