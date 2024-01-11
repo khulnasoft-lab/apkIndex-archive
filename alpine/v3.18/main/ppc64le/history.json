@@ -2300,7 +2300,8 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "/bin/sh",
@@ -2329,22 +2330,23 @@
       ],
       "provides": [
         "so:libasteriskssl.so.1=1",
-        "cmd:astcanary=18.15.1-r3",
-        "cmd:astdb2bdb=18.15.1-r3",
-        "cmd:astdb2sqlite3=18.15.1-r3",
-        "cmd:asterisk=18.15.1-r3",
-        "cmd:astgenkey=18.15.1-r3",
-        "cmd:astversion=18.15.1-r3",
-        "cmd:autosupport=18.15.1-r3",
-        "cmd:rasterisk=18.15.1-r3",
-        "cmd:safe_asterisk=18.15.1-r3"
+        "cmd:astcanary=18.20.2-r0",
+        "cmd:astdb2bdb=18.20.2-r0",
+        "cmd:astdb2sqlite3=18.20.2-r0",
+        "cmd:asterisk=18.20.2-r0",
+        "cmd:astgenkey=18.20.2-r0",
+        "cmd:astversion=18.20.2-r0",
+        "cmd:autosupport=18.20.2-r0",
+        "cmd:rasterisk=18.20.2-r0",
+        "cmd:safe_asterisk=18.20.2-r0"
       ]
     },
     "asterisk-alsa": {
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -2355,7 +2357,8 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -2366,7 +2369,8 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -2377,14 +2381,16 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       }
     },
     "asterisk-dev": {
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "asterisk"
@@ -2394,14 +2400,16 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       }
     },
     "asterisk-fax": {
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -2412,7 +2420,8 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "so:libbluetooth.so.3",
@@ -2423,7 +2432,8 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -2434,14 +2444,16 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       }
     },
     "asterisk-opus": {
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -2452,7 +2464,8 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -2463,28 +2476,32 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       }
     },
     "asterisk-sounds-en": {
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       }
     },
     "asterisk-sounds-moh": {
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       }
     },
     "asterisk-speex": {
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -2497,7 +2514,8 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -2509,7 +2527,8 @@
       "origin": "asterisk",
       "versions": {
         "18.15.1-r2": 1682716389,
-        "18.15.1-r3": 1702207018
+        "18.15.1-r3": 1702207018,
+        "18.20.2-r0": 1705012824
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
