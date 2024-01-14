@@ -57419,7 +57419,8 @@
     "tiny-cloud": {
       "origin": "tiny-cloud",
       "versions": {
-        "3.0.2-r0": 1695666682
+        "3.0.2-r0": 1695666682,
+        "3.0.5-r0": 1705258767
       },
       "dependencies": [
         "e2fsprogs-extra",
@@ -57430,29 +57431,34 @@
         "/bin/sh"
       ],
       "provides": [
-        "cmd:imds=3.0.2-r0",
-        "cmd:tiny-cloud=3.0.2-r0"
+        "cmd:imds=3.0.5-r0",
+        "cmd:tiny-cloud=3.0.5-r0"
       ]
     },
     "tiny-cloud-alpine": {
       "origin": "tiny-cloud",
       "versions": {
-        "3.0.2-r0": 1695666682
+        "3.0.2-r0": 1695666682,
+        "3.0.5-r0": 1705258767
       },
       "dependencies": [
-        "tiny-cloud=3.0.2-r0",
+        "ifupdown-ng",
+        "tiny-cloud-nocloud=3.0.5-r0",
         "/bin/sh",
-        "tiny-cloud-nocloud=3.0.2-r0"
+        "tiny-cloud-nocloud=3.0.5-r0"
       ]
     },
     "tiny-cloud-aws": {
       "origin": "tiny-cloud",
       "versions": {
-        "3.0.2-r0": 1695666682
+        "3.0.2-r0": 1695666682,
+        "3.0.5-r0": 1705258767
       },
       "dependencies": [
         "nvme-cli",
-        "tiny-cloud-network=3.0.2-r0",
+        "ifupdown-ng",
+        "iproute2-minimal",
+        "tiny-cloud=3.0.5-r0",
         "/bin/sh"
       ],
       "provides": [
@@ -57462,20 +57468,22 @@
     "tiny-cloud-azure": {
       "origin": "tiny-cloud",
       "versions": {
-        "3.0.2-r0": 1695666682
+        "3.0.2-r0": 1695666682,
+        "3.0.5-r0": 1705258767
       },
       "dependencies": [
-        "tiny-cloud=3.0.2-r0",
+        "tiny-cloud=3.0.5-r0",
         "/bin/sh"
       ]
     },
     "tiny-cloud-gcp": {
       "origin": "tiny-cloud",
       "versions": {
-        "3.0.2-r0": 1695666682
+        "3.0.2-r0": 1695666682,
+        "3.0.5-r0": 1705258767
       },
       "dependencies": [
-        "tiny-cloud=3.0.2-r0",
+        "tiny-cloud=3.0.5-r0",
         "/bin/sh"
       ]
     },
@@ -57497,27 +57505,30 @@
     "tiny-cloud-nocloud": {
       "origin": "tiny-cloud",
       "versions": {
-        "3.0.2-r0": 1695666682
+        "3.0.2-r0": 1695666682,
+        "3.0.5-r0": 1705258767
       },
       "dependencies": [
-        "tiny-cloud=3.0.2-r0",
+        "tiny-cloud=3.0.5-r0",
         "/bin/sh"
       ]
     },
     "tiny-cloud-oci": {
       "origin": "tiny-cloud",
       "versions": {
-        "3.0.2-r0": 1695666682
+        "3.0.2-r0": 1695666682,
+        "3.0.5-r0": 1705258767
       },
       "dependencies": [
-        "tiny-cloud=3.0.2-r0",
+        "tiny-cloud=3.0.5-r0",
         "/bin/sh"
       ]
     },
     "tiny-cloud-openrc": {
       "origin": "tiny-cloud",
       "versions": {
-        "3.0.2-r0": 1695666682
+        "3.0.2-r0": 1695666682,
+        "3.0.5-r0": 1705258767
       },
       "dependencies": [
         "/bin/sh"
