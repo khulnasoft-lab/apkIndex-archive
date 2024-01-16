@@ -2586,7 +2586,8 @@
     "at-spi2-core": {
       "origin": "at-spi2-core",
       "versions": {
-        "2.48.3-r0": 1685236730
+        "2.48.3-r0": 1685236730,
+        "2.48.4-r0": 1705442258
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -2606,18 +2607,20 @@
     "at-spi2-core-dbg": {
       "origin": "at-spi2-core",
       "versions": {
-        "2.48.3-r0": 1685236730
+        "2.48.3-r0": 1685236730,
+        "2.48.4-r0": 1705442258
       }
     },
     "at-spi2-core-dev": {
       "origin": "at-spi2-core",
       "versions": {
-        "2.48.3-r0": 1685236730
+        "2.48.3-r0": 1685236730,
+        "2.48.4-r0": 1705442258
       },
       "dependencies": [
-        "at-spi2-core=2.48.3-r0",
-        "libatk-1.0=2.48.3-r0",
-        "libatk-bridge-2.0=2.48.3-r0",
+        "at-spi2-core=2.48.4-r0",
+        "libatk-1.0=2.48.4-r0",
+        "libatk-bridge-2.0=2.48.4-r0",
         "pc:dbus-1>=1.5",
         "pc:glib-2.0>=2.67.4",
         "pc:gmodule-2.0>=2.0.0",
@@ -2628,15 +2631,16 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:atk-bridge-2.0=2.48.3",
-        "pc:atk=2.48.3",
-        "pc:atspi-2=2.48.3"
+        "pc:atk-bridge-2.0=2.48.4",
+        "pc:atk=2.48.4",
+        "pc:atspi-2=2.48.4"
       ]
     },
     "at-spi2-core-lang": {
       "origin": "at-spi2-core",
       "versions": {
-        "2.48.3-r0": 1685236730
+        "2.48.3-r0": 1685236730,
+        "2.48.4-r0": 1705442258
       }
     },
     "atf": {
@@ -20605,7 +20609,8 @@
     "libatk-1.0": {
       "origin": "at-spi2-core",
       "versions": {
-        "2.48.3-r0": 1685236730
+        "2.48.3-r0": 1685236730,
+        "2.48.4-r0": 1705442258
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -20614,13 +20619,14 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "so:libatk-1.0.so.0=0.24812.1"
+        "so:libatk-1.0.so.0=0.24813.1"
       ]
     },
     "libatk-bridge-2.0": {
       "origin": "at-spi2-core",
       "versions": {
-        "2.48.3-r0": 1685236730
+        "2.48.3-r0": 1685236730,
+        "2.48.4-r0": 1705442258
       },
       "dependencies": [
         "so:libatk-1.0.so.0",
@@ -65282,7 +65288,7 @@
       },
       "libatk-1.0.so.0": {
         "package": "libatk-1.0",
-        "version": "0.24812.1"
+        "version": "0.24813.1"
       },
       "libatk-bridge-2.0.so.0": {
         "package": "libatk-bridge-2.0",
