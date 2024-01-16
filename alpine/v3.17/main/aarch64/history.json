@@ -1848,7 +1848,8 @@
     "asterisk-tds": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -8890,7 +8891,8 @@
     "asterisk": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "/bin/sh",
@@ -8919,15 +8921,15 @@
       ],
       "provides": [
         "so:libasteriskssl.so.1=1",
-        "cmd:astcanary=18.15.1-r0",
-        "cmd:astdb2bdb=18.15.1-r0",
-        "cmd:astdb2sqlite3=18.15.1-r0",
-        "cmd:asterisk=18.15.1-r0",
-        "cmd:astgenkey=18.15.1-r0",
-        "cmd:astversion=18.15.1-r0",
-        "cmd:autosupport=18.15.1-r0",
-        "cmd:rasterisk=18.15.1-r0",
-        "cmd:safe_asterisk=18.15.1-r0"
+        "cmd:astcanary=18.20.2-r0",
+        "cmd:astdb2bdb=18.20.2-r0",
+        "cmd:astdb2sqlite3=18.20.2-r0",
+        "cmd:asterisk=18.20.2-r0",
+        "cmd:astgenkey=18.20.2-r0",
+        "cmd:astversion=18.20.2-r0",
+        "cmd:autosupport=18.20.2-r0",
+        "cmd:rasterisk=18.20.2-r0",
+        "cmd:safe_asterisk=18.20.2-r0"
       ]
     },
     "apache-mod-auth-kerb": {
@@ -9974,7 +9976,8 @@
     "asterisk-dev": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "asterisk"
@@ -11116,7 +11119,8 @@
     "asterisk-alsa": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -13763,7 +13767,8 @@
     "asterisk-mobile": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libbluetooth.so.3",
@@ -14244,7 +14249,8 @@
     "asterisk-odbc": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -16029,7 +16035,8 @@
     "asterisk-sounds-moh": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       }
     },
     "boost1.80-log_setup": {
@@ -20199,7 +20206,8 @@
     "asterisk-speex": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -21593,7 +21601,8 @@
     "asterisk-sounds-en": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       }
     },
     "snmptt-openrc": {
@@ -21964,7 +21973,8 @@
     "asterisk-dahdi": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -22460,7 +22470,8 @@
     "asterisk-pgsql": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -24920,7 +24931,8 @@
     "asterisk-curl": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -26319,7 +26331,8 @@
     "asterisk-sample-config": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       }
     },
     "gsm": {
@@ -29218,7 +29231,8 @@
     "asterisk-doc": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       }
     },
     "gsm-doc": {
@@ -35381,7 +35395,8 @@
     "asterisk-dbg": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       }
     },
     "gnokii-lang": {
@@ -43407,7 +43422,8 @@
     "asterisk-fax": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -44752,7 +44768,8 @@
     "asterisk-srtp": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -47817,7 +47834,8 @@
     "asterisk-opus": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -51989,7 +52007,8 @@
     "asterisk-cdr-mysql": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -53682,7 +53701,8 @@
     "asterisk-openrc": {
       "origin": "asterisk",
       "versions": {
-        "18.15.1-r0": 1678953665
+        "18.15.1-r0": 1678953665,
+        "18.20.2-r0": 1705412475
       }
     },
     "nagios-plugins-mrtgtraf": {
