@@ -34187,7 +34187,8 @@
     "gnome-control-center": {
       "origin": "gnome-control-center",
       "versions": {
-        "44.3-r0": 1688118305
+        "44.3-r0": 1688118305,
+        "44.4-r0": 1705619699
       },
       "dependencies": [
         "accountsservice",
@@ -34245,19 +34246,21 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:gnome-control-center=44.3-r0"
+        "cmd:gnome-control-center=44.4-r0"
       ]
     },
     "gnome-control-center-bash-completion": {
       "origin": "gnome-control-center",
       "versions": {
-        "44.3-r0": 1688118305
+        "44.3-r0": 1688118305,
+        "44.4-r0": 1705619699
       }
     },
     "gnome-control-center-dbg": {
       "origin": "gnome-control-center",
       "versions": {
-        "44.3-r0": 1688118305
+        "44.3-r0": 1688118305,
+        "44.4-r0": 1705619699
       },
       "dependencies": [
         "accountsservice",
@@ -34270,25 +34273,28 @@
     "gnome-control-center-dev": {
       "origin": "gnome-control-center",
       "versions": {
-        "44.3-r0": 1688118305
+        "44.3-r0": 1688118305,
+        "44.4-r0": 1705619699
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "pc:gnome-keybindings=44.3"
+        "pc:gnome-keybindings=44.4"
       ]
     },
     "gnome-control-center-doc": {
       "origin": "gnome-control-center",
       "versions": {
-        "44.3-r0": 1688118305
+        "44.3-r0": 1688118305,
+        "44.4-r0": 1705619699
       }
     },
     "gnome-control-center-lang": {
       "origin": "gnome-control-center",
       "versions": {
-        "44.3-r0": 1688118305
+        "44.3-r0": 1688118305,
+        "44.4-r0": 1705619699
       },
       "dependencies": [
         "accountsservice",
@@ -74224,7 +74230,8 @@
     "mutter": {
       "origin": "mutter",
       "versions": {
-        "44.3-r0": 1688696589
+        "44.3-r0": 1688696589,
+        "44.8-r0": 1705619699
       },
       "dependencies": [
         "gnome-settings-daemon",
@@ -74293,13 +74300,14 @@
         "so:libmutter-clutter-12.so.0=0.0.0",
         "so:libmutter-cogl-12.so.0=0.0.0",
         "so:libmutter-cogl-pango-12.so.0=0.0.0",
-        "cmd:mutter=44.3-r0"
+        "cmd:mutter=44.8-r0"
       ]
     },
     "mutter-dbg": {
       "origin": "mutter",
       "versions": {
-        "44.3-r0": 1688696589
+        "44.3-r0": 1688696589,
+        "44.8-r0": 1705619699
       },
       "dependencies": [
         "gnome-settings-daemon",
@@ -74311,10 +74319,11 @@
     "mutter-dev": {
       "origin": "mutter",
       "versions": {
-        "44.3-r0": 1688696589
+        "44.3-r0": 1688696589,
+        "44.8-r0": 1705619699
       },
       "dependencies": [
-        "mutter=44.3-r0",
+        "mutter=44.8-r0",
         "pc:atk>=2.5.3",
         "pc:cairo-gobject>=1.10.0",
         "pc:cairo>=1.10.0",
@@ -74337,22 +74346,24 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:libmutter-12=44.3",
-        "pc:mutter-clutter-12=44.3",
-        "pc:mutter-cogl-12=44.3",
-        "pc:mutter-cogl-pango-12=44.3"
+        "pc:libmutter-12=44.8",
+        "pc:mutter-clutter-12=44.8",
+        "pc:mutter-cogl-12=44.8",
+        "pc:mutter-cogl-pango-12=44.8"
       ]
     },
     "mutter-doc": {
       "origin": "mutter",
       "versions": {
-        "44.3-r0": 1688696589
+        "44.3-r0": 1688696589,
+        "44.8-r0": 1705619699
       }
     },
     "mutter-lang": {
       "origin": "mutter",
       "versions": {
-        "44.3-r0": 1688696589
+        "44.3-r0": 1688696589,
+        "44.8-r0": 1705619699
       },
       "dependencies": [
         "gnome-settings-daemon",
@@ -74364,7 +74375,8 @@
     "mutter-schemas": {
       "origin": "mutter",
       "versions": {
-        "44.3-r0": 1688696589
+        "44.3-r0": 1688696589,
+        "44.8-r0": 1705619699
       }
     },
     "mwm": {
