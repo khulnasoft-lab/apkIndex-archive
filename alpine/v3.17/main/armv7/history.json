@@ -17409,14 +17409,15 @@
     "sqlite": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1672267404
+        "3.40.1-r0": 1672267404,
+        "3.40.1-r1": 1705587198
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libreadline.so.8"
       ],
       "provides": [
-        "cmd:sqlite3=3.40.1-r0"
+        "cmd:sqlite3=3.40.1-r1"
       ]
     },
     "perl-subversion": {
@@ -26419,7 +26420,8 @@
     "sqlite-doc": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1672267404
+        "3.40.1-r0": 1672267404,
+        "3.40.1-r1": 1705587198
       }
     },
     "rrdtool-dev": {
@@ -30331,7 +30333,8 @@
     "sqlite-libs": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1672267404
+        "3.40.1-r0": 1672267404,
+        "3.40.1-r1": 1705587198
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
@@ -46495,7 +46498,8 @@
     "sqlite-static": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1672267404
+        "3.40.1-r0": 1672267404,
+        "3.40.1-r1": 1705587198
       }
     },
     "libxtst-doc": {
@@ -50879,11 +50883,12 @@
     "sqlite-dev": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1672267404
+        "3.40.1-r0": 1672267404,
+        "3.40.1-r1": 1705587198
       },
       "dependencies": [
         "pkgconfig",
-        "sqlite-libs=3.40.1-r0"
+        "sqlite-libs=3.40.1-r1"
       ],
       "provides": [
         "pc:sqlite3=3.40.1"

@@ -13622,7 +13622,8 @@
     "sqlite-libs": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1672267404
+        "3.40.1-r0": 1672267404,
+        "3.40.1-r1": 1705587198
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
@@ -25553,14 +25554,15 @@
     "sqlite": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1672267404
+        "3.40.1-r0": 1672267404,
+        "3.40.1-r1": 1705587198
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libreadline.so.8"
       ],
       "provides": [
-        "cmd:sqlite3=3.40.1-r0"
+        "cmd:sqlite3=3.40.1-r1"
       ]
     },
     "lockfile-progs": {
@@ -26966,7 +26968,8 @@
     "sqlite-doc": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1672267404
+        "3.40.1-r0": 1672267404,
+        "3.40.1-r1": 1705587198
       }
     },
     "libxkbcommon-dev": {
@@ -36298,11 +36301,12 @@
     "sqlite-dev": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1672267404
+        "3.40.1-r0": 1672267404,
+        "3.40.1-r1": 1705587198
       },
       "dependencies": [
         "pkgconfig",
-        "sqlite-libs=3.40.1-r0"
+        "sqlite-libs=3.40.1-r1"
       ],
       "provides": [
         "pc:sqlite3=3.40.1"
@@ -52368,7 +52372,8 @@
     "sqlite-static": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1672267404
+        "3.40.1-r0": 1672267404,
+        "3.40.1-r1": 1705587198
       }
     },
     "graphviz": {
