@@ -32597,7 +32597,8 @@
     "gross": {
       "origin": "gross",
       "versions": {
-        "1.0.2-r12": 1652620293
+        "1.0.2-r12": 1652620293,
+        "1.0.4-r0": 1705873307
       },
       "dependencies": [
         "/bin/sh",
@@ -32606,8 +32607,8 @@
       ],
       "provides": [
         "so:grosscheck.so=0",
-        "cmd:gclient=1.0.2-r12",
-        "cmd:grossd=1.0.2-r12"
+        "cmd:gclient=1.0.4-r0",
+        "cmd:grossd=1.0.4-r0"
       ]
     },
     "asterisk-odbc": {
@@ -46312,7 +46313,8 @@
     "gross-dev": {
       "origin": "gross",
       "versions": {
-        "1.0.2-r12": 1652620293
+        "1.0.2-r12": 1652620293,
+        "1.0.4-r0": 1705873307
       }
     },
     "icecast-doc": {
@@ -52813,7 +52815,8 @@
     "gross-doc": {
       "origin": "gross",
       "versions": {
-        "1.0.2-r12": 1652620293
+        "1.0.2-r12": 1652620293,
+        "1.0.4-r0": 1705873307
       }
     },
     "libx11-doc": {
