@@ -1169,7 +1169,8 @@
     "asterisk-openrc": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       }
     },
     "help2man": {
@@ -5445,7 +5446,8 @@
     "asterisk-pgsql": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -8035,7 +8037,8 @@
     "asterisk-doc": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       }
     },
     "libmnl-static": {
@@ -8178,7 +8181,8 @@
     "asterisk-alsa": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libasound.so.2",
@@ -12313,7 +12317,8 @@
     "asterisk-cdr-mysql": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -12599,7 +12604,8 @@
       "origin": "redis",
       "versions": {
         "7.0.13-r0": 1694078562,
-        "7.0.14-r0": 1697641687
+        "7.0.14-r0": 1697641687,
+        "7.0.15-r0": 1704811687
       },
       "dependencies": [
         "/bin/sh",
@@ -12609,12 +12615,12 @@
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:redis-benchmark=7.0.14-r0",
-        "cmd:redis-check-aof=7.0.14-r0",
-        "cmd:redis-check-rdb=7.0.14-r0",
-        "cmd:redis-cli=7.0.14-r0",
-        "cmd:redis-sentinel=7.0.14-r0",
-        "cmd:redis-server=7.0.14-r0"
+        "cmd:redis-benchmark=7.0.15-r0",
+        "cmd:redis-check-aof=7.0.15-r0",
+        "cmd:redis-check-rdb=7.0.15-r0",
+        "cmd:redis-cli=7.0.15-r0",
+        "cmd:redis-sentinel=7.0.15-r0",
+        "cmd:redis-server=7.0.15-r0"
       ]
     },
     "gtk-update-icon-cache": {
@@ -13148,7 +13154,8 @@
       "origin": "redis",
       "versions": {
         "7.0.13-r0": 1694078562,
-        "7.0.14-r0": 1697641687
+        "7.0.14-r0": 1697641687,
+        "7.0.15-r0": 1704811687
       }
     },
     "freeradius-utils": {
@@ -14440,7 +14447,8 @@
     "asterisk-speex": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -14771,7 +14779,8 @@
     "gross-doc": {
       "origin": "gross",
       "versions": {
-        "1.0.2-r12": 1652620293
+        "1.0.2-r12": 1652620293,
+        "1.0.4-r0": 1705873795
       }
     },
     "py3-tevent": {
@@ -15172,7 +15181,8 @@
     "asterisk": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "/bin/sh",
@@ -15201,15 +15211,15 @@
       ],
       "provides": [
         "so:libasteriskssl.so.1=1",
-        "cmd:astcanary=18.13.0-r0",
-        "cmd:astdb2bdb=18.13.0-r0",
-        "cmd:astdb2sqlite3=18.13.0-r0",
-        "cmd:asterisk=18.13.0-r0",
-        "cmd:astgenkey=18.13.0-r0",
-        "cmd:astversion=18.13.0-r0",
-        "cmd:autosupport=18.13.0-r0",
-        "cmd:rasterisk=18.13.0-r0",
-        "cmd:safe_asterisk=18.13.0-r0"
+        "cmd:astcanary=18.20.2-r0",
+        "cmd:astdb2bdb=18.20.2-r0",
+        "cmd:astdb2sqlite3=18.20.2-r0",
+        "cmd:asterisk=18.20.2-r0",
+        "cmd:astgenkey=18.20.2-r0",
+        "cmd:astversion=18.20.2-r0",
+        "cmd:autosupport=18.20.2-r0",
+        "cmd:rasterisk=18.20.2-r0",
+        "cmd:safe_asterisk=18.20.2-r0"
       ]
     },
     "alpine-git-mirror-syncd": {
@@ -16683,7 +16693,8 @@
     "asterisk-sample-config": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       }
     },
     "perl-encode-hanextra": {
@@ -21336,7 +21347,8 @@
     "asterisk-opus": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -22375,7 +22387,8 @@
     "sqlite-static": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1681541937
+        "3.40.1-r0": 1681541937,
+        "3.40.1-r1": 1705597226
       }
     },
     "kbd": {
@@ -24849,7 +24862,8 @@
     "asterisk-odbc": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -25051,14 +25065,15 @@
     "sqlite": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1681541937
+        "3.40.1-r0": 1681541937,
+        "3.40.1-r1": 1705597226
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libreadline.so.8"
       ],
       "provides": [
-        "cmd:sqlite3=3.40.1-r0"
+        "cmd:sqlite3=3.40.1-r1"
       ]
     },
     "icu-dev": {
@@ -28621,14 +28636,15 @@
     "cjson-dev": {
       "origin": "cjson",
       "versions": {
-        "1.7.15-r3": 1642281104
+        "1.7.15-r3": 1642281104,
+        "1.7.17-r0": 1705316193
       },
       "dependencies": [
-        "cjson=1.7.15-r3",
+        "cjson=1.7.17-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcjson=1.7.15"
+        "pc:libcjson=1.7.17"
       ]
     },
     "cppunit-dev": {
@@ -32968,7 +32984,8 @@
     "gross-dev": {
       "origin": "gross",
       "versions": {
-        "1.0.2-r12": 1652620293
+        "1.0.2-r12": 1652620293,
+        "1.0.4-r0": 1705873795
       }
     },
     "iproute2-tc": {
@@ -33174,7 +33191,8 @@
     "asterisk-sounds-en": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       }
     },
     "amavisd-milter-openrc": {
@@ -34843,7 +34861,8 @@
     "asterisk-dbg": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       }
     },
     "postgresql13-openrc": {
@@ -36382,7 +36401,8 @@
     "asterisk-fax": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -38225,7 +38245,8 @@
     "sqlite-doc": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1681541937
+        "3.40.1-r0": 1681541937,
+        "3.40.1-r1": 1705597226
       }
     },
     "alsa-ucm-conf": {
@@ -41556,7 +41577,8 @@
     "asterisk-dev": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "asterisk"
@@ -42372,7 +42394,8 @@
     "gross": {
       "origin": "gross",
       "versions": {
-        "1.0.2-r12": 1652620293
+        "1.0.2-r12": 1652620293,
+        "1.0.4-r0": 1705873795
       },
       "dependencies": [
         "/bin/sh",
@@ -42381,8 +42404,8 @@
       ],
       "provides": [
         "so:grosscheck.so=0",
-        "cmd:gclient=1.0.2-r12",
-        "cmd:grossd=1.0.2-r12"
+        "cmd:gclient=1.0.4-r0",
+        "cmd:grossd=1.0.4-r0"
       ]
     },
     "unifont-doc": {
@@ -43815,13 +43838,14 @@
     "cjson": {
       "origin": "cjson",
       "versions": {
-        "1.7.15-r3": 1642281104
+        "1.7.15-r3": 1642281104,
+        "1.7.17-r0": 1705316193
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "so:libcjson.so.1=1.7.15"
+        "so:libcjson.so.1=1.7.17"
       ]
     },
     "awall-masquerade": {
@@ -44002,7 +44026,8 @@
     "asterisk-sounds-moh": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       }
     },
     "xz-libs": {
@@ -44213,7 +44238,8 @@
     "asterisk-curl": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -47512,7 +47538,8 @@
     "asterisk-dahdi": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -48745,7 +48772,8 @@
     "asterisk-tds": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -50457,7 +50485,8 @@
     "asterisk-mobile": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libbluetooth.so.3",
@@ -52675,11 +52704,12 @@
     "sqlite-dev": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1681541937
+        "3.40.1-r0": 1681541937,
+        "3.40.1-r1": 1705597226
       },
       "dependencies": [
         "pkgconfig",
-        "sqlite-libs=3.40.1-r0"
+        "sqlite-libs=3.40.1-r1"
       ],
       "provides": [
         "pc:sqlite3=3.40.1"
@@ -55142,7 +55172,8 @@
     "sqlite-libs": {
       "origin": "sqlite",
       "versions": {
-        "3.40.1-r0": 1681541937
+        "3.40.1-r0": 1681541937,
+        "3.40.1-r1": 1705597226
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
@@ -57553,7 +57584,8 @@
     "asterisk-srtp": {
       "origin": "asterisk",
       "versions": {
-        "18.13.0-r0": 1659311672
+        "18.13.0-r0": 1659311672,
+        "18.20.2-r0": 1705412519
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -62307,7 +62339,7 @@
       },
       "libcjson.so.1": {
         "package": "cjson",
-        "version": "1.7.15"
+        "version": "1.7.17"
       },
       "libportaudiocpp.so.0": {
         "package": "libportaudiocxx",
