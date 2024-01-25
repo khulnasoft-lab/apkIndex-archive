@@ -11141,7 +11141,8 @@
     "fcgiwrap-doc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1620847895
+        "1.1.0-r5": 1620847895,
+        "1.1.0-r6": 1700096206
       }
     },
     "sendpage-doc": {
@@ -14632,7 +14633,8 @@
     "fcgiwrap": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1620847895
+        "1.1.0-r5": 1620847895,
+        "1.1.0-r6": 1700096206
       },
       "dependencies": [
         "/bin/sh",
@@ -35978,7 +35980,8 @@
     "fcgiwrap-openrc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1620847895
+        "1.1.0-r5": 1620847895,
+        "1.1.0-r6": 1700096206
       }
     },
     "kamailio-doc": {
