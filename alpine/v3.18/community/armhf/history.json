@@ -10225,7 +10225,8 @@
     "cacti": {
       "origin": "cacti",
       "versions": {
-        "1.2.24-r1": 1681598424
+        "1.2.24-r1": 1681598424,
+        "1.2.26-r0": 1706233767
       },
       "dependencies": [
         "bash",
@@ -10240,13 +10241,15 @@
     "cacti-doc": {
       "origin": "cacti",
       "versions": {
-        "1.2.24-r1": 1681598424
+        "1.2.24-r1": 1681598424,
+        "1.2.26-r0": 1706233767
       }
     },
     "cacti-lang": {
       "origin": "cacti",
       "versions": {
-        "1.2.24-r1": 1681598424
+        "1.2.24-r1": 1681598424,
+        "1.2.26-r0": 1706233767
       },
       "dependencies": [
         "bash",
@@ -10260,7 +10263,8 @@
     "cacti-php": {
       "origin": "cacti",
       "versions": {
-        "1.2.24-r1": 1681598424
+        "1.2.24-r1": 1681598424,
+        "1.2.26-r0": 1706233767
       },
       "dependencies": [
         "php82",
@@ -10280,13 +10284,14 @@
         "php82-fpm"
       ],
       "provides": [
-        "cacti-php81=1.2.24-r1"
+        "cacti-php81=1.2.26-r0"
       ]
     },
     "cacti-setup": {
       "origin": "cacti",
       "versions": {
-        "1.2.24-r1": 1681598424
+        "1.2.24-r1": 1681598424,
+        "1.2.26-r0": 1706233767
       },
       "dependencies": [
         "cacti",
@@ -176257,7 +176262,7 @@
       },
       "cacti-php81": {
         "package": "cacti-php",
-        "version": "1.2.24-r1"
+        "version": "1.2.26-r0"
       },
       "cargo-bootstrap": {
         "package": "cargo",
