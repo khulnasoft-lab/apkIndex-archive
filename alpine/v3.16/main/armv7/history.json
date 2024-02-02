@@ -23746,7 +23746,8 @@
       "origin": "tzdata",
       "versions": {
         "2023c-r0": 1680044288,
-        "2023d-r0": 1703290427
+        "2023d-r0": 1703290427,
+        "2024a-r0": 1706817399
       }
     },
     "dpkg-dev": {
@@ -32527,15 +32528,16 @@
       "origin": "tzdata",
       "versions": {
         "2023c-r0": 1680044288,
-        "2023d-r0": 1703290427
+        "2023d-r0": 1703290427,
+        "2024a-r0": 1706817399
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:posixtz=2023d-r0",
-        "cmd:zdump=2023d-r0",
-        "cmd:zic=2023d-r0"
+        "cmd:posixtz=2024a-r0",
+        "cmd:zdump=2024a-r0",
+        "cmd:zic=2024a-r0"
       ]
     },
     "ruby-net-ftp-doc": {
