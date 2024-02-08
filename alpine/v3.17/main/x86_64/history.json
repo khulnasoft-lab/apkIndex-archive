@@ -27055,7 +27055,8 @@
     "libxkbfile": {
       "origin": "libxkbfile",
       "versions": {
-        "1.1.1-r0": 1666059709
+        "1.1.1-r0": 1666059709,
+        "1.1.3-r0": 1707398202
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -27395,13 +27396,14 @@
     "xkbcomp-dev": {
       "origin": "xkbcomp",
       "versions": {
-        "1.4.5-r1": 1666619671
+        "1.4.5-r1": 1666619671,
+        "1.4.7-r0": 1707414824
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "pc:xkbcomp=1.4.5"
+        "pc:xkbcomp=1.4.7"
       ]
     },
     "rrdtool-doc": {
@@ -30012,16 +30014,17 @@
     "libxkbfile-dev": {
       "origin": "libxkbfile",
       "versions": {
-        "1.1.1-r0": 1666059709
+        "1.1.1-r0": 1666059709,
+        "1.1.3-r0": 1707398202
       },
       "dependencies": [
-        "libxkbfile=1.1.1-r0",
+        "libxkbfile=1.1.3-r0",
         "pc:kbproto",
         "pc:x11",
         "pkgconfig"
       ],
       "provides": [
-        "pc:xkbfile=1.1.1"
+        "pc:xkbfile=1.1.3"
       ]
     },
     "nano-syntax": {
@@ -32771,7 +32774,8 @@
     "xkbcomp": {
       "origin": "xkbcomp",
       "versions": {
-        "1.4.5-r1": 1666619671
+        "1.4.5-r1": 1666619671,
+        "1.4.7-r0": 1707414824
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -32779,7 +32783,7 @@
         "so:libxkbfile.so.1"
       ],
       "provides": [
-        "cmd:xkbcomp=1.4.5-r1"
+        "cmd:xkbcomp=1.4.7-r0"
       ]
     },
     "lxc-pam": {
@@ -38330,7 +38334,8 @@
     "xkbcomp-doc": {
       "origin": "xkbcomp",
       "versions": {
-        "1.4.5-r1": 1666619671
+        "1.4.5-r1": 1666619671,
+        "1.4.7-r0": 1707414824
       }
     },
     "perl-parse-syslog": {

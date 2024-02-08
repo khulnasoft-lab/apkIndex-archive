@@ -44150,7 +44150,8 @@
     "libxkbfile": {
       "origin": "libxkbfile",
       "versions": {
-        "1.1.0-r0": 1557246460
+        "1.1.0-r0": 1557246460,
+        "1.1.3-r0": 1707400645
       },
       "dependencies": [
         "so:libX11.so.6",
@@ -52840,16 +52841,17 @@
     "libxkbfile-dev": {
       "origin": "libxkbfile",
       "versions": {
-        "1.1.0-r0": 1557246460
+        "1.1.0-r0": 1557246460,
+        "1.1.3-r0": 1707400645
       },
       "dependencies": [
-        "libxkbfile=1.1.0-r0",
+        "libxkbfile=1.1.3-r0",
         "pc:kbproto",
         "pc:x11",
         "pkgconfig"
       ],
       "provides": [
-        "pc:xkbfile=1.1.0"
+        "pc:xkbfile=1.1.3"
       ]
     },
     "lua-subprocess": {
@@ -59103,6 +59105,12 @@
       "provides": [
         "linux-firmware-any"
       ]
+    },
+    "libxkbfile-doc": {
+      "origin": "libxkbfile",
+      "versions": {
+        "1.1.3-r0": 1707400645
+      }
     }
   },
   "provide": {
