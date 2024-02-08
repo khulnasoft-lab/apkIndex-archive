@@ -6176,14 +6176,15 @@
     "xprop": {
       "origin": "xprop",
       "versions": {
-        "1.2.5-r0": 1607235657
+        "1.2.5-r0": 1607235657,
+        "1.2.7-r0": 1707426861
       },
       "dependencies": [
         "so:libX11.so.6",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:xprop=1.2.5-r0"
+        "cmd:xprop=1.2.7-r0"
       ]
     },
     "qemu-system-sparc64": {
@@ -109756,7 +109757,8 @@
     "xprop-doc": {
       "origin": "xprop",
       "versions": {
-        "1.2.5-r0": 1607235657
+        "1.2.5-r0": 1607235657,
+        "1.2.7-r0": 1707426861
       }
     },
     "zabbix-webif": {

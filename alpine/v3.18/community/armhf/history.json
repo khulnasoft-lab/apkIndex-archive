@@ -162067,20 +162067,22 @@
     "xprop": {
       "origin": "xprop",
       "versions": {
-        "1.2.6-r0": 1670142496
+        "1.2.6-r0": 1670142496,
+        "1.2.7-r0": 1707426738
       },
       "dependencies": [
         "so:libX11.so.6",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:xprop=1.2.6-r0"
+        "cmd:xprop=1.2.7-r0"
       ]
     },
     "xprop-doc": {
       "origin": "xprop",
       "versions": {
-        "1.2.6-r0": 1670142496
+        "1.2.6-r0": 1670142496,
+        "1.2.7-r0": 1707426738
       }
     },
     "xr-hardware": {

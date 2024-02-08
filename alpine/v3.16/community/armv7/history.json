@@ -51252,14 +51252,15 @@
     "xprop": {
       "origin": "xprop",
       "versions": {
-        "1.2.5-r0": 1607235657
+        "1.2.5-r0": 1607235657,
+        "1.2.7-r0": 1707426861
       },
       "dependencies": [
         "so:libX11.so.6",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:xprop=1.2.5-r0"
+        "cmd:xprop=1.2.7-r0"
       ]
     },
     "kwave-libs": {
@@ -116031,7 +116032,8 @@
     "xprop-doc": {
       "origin": "xprop",
       "versions": {
-        "1.2.5-r0": 1607235657
+        "1.2.5-r0": 1607235657,
+        "1.2.7-r0": 1707426861
       }
     },
     "libcamera": {
