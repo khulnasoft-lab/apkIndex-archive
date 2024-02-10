@@ -1149,14 +1149,15 @@
     "expat": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724114
+        "2.5.0-r0": 1666724114,
+        "2.6.0-r0": 1707524127
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "so:libexpat.so.1=1.8.10",
-        "cmd:xmlwf=2.5.0-r0"
+        "so:libexpat.so.1=1.9.0",
+        "cmd:xmlwf=2.6.0-r0"
       ]
     },
     "icu-data-en": {
@@ -6526,7 +6527,8 @@
     "expat-doc": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724114
+        "2.5.0-r0": 1666724114,
+        "2.6.0-r0": 1707524127
       }
     },
     "pcmciautils-doc": {
@@ -6638,7 +6640,8 @@
     "expat-static": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724114
+        "2.5.0-r0": 1666724114,
+        "2.6.0-r0": 1707524127
       }
     },
     "openldap-overlay-translucent": {
@@ -29793,14 +29796,15 @@
     "expat-dev": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724114
+        "2.5.0-r0": 1666724114,
+        "2.6.0-r0": 1707524127
       },
       "dependencies": [
-        "expat=2.5.0-r0",
+        "expat=2.6.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:expat=2.5.0"
+        "pc:expat=2.6.0"
       ]
     },
     "apache2-webdav": {
@@ -58318,7 +58322,7 @@
       },
       "libexpat.so.1": {
         "package": "expat",
-        "version": "1.8.10"
+        "version": "1.9.0"
       },
       "libcdt.so.5": {
         "package": "graphviz",

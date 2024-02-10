@@ -6973,7 +6973,8 @@
     "expat-doc": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       }
     },
     "glu": {
@@ -14509,14 +14510,15 @@
     "expat": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libexpat.so.1"
       ],
       "provides": [
-        "cmd:xmlwf=2.5.0-r0"
+        "cmd:xmlwf=2.6.0-r0"
       ]
     },
     "json-c-doc": {
@@ -17802,13 +17804,14 @@
     "libexpat": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "so:libexpat.so.1=1.8.10"
+        "so:libexpat.so.1=1.9.0"
       ]
     },
     "pango-doc": {
@@ -49251,7 +49254,8 @@
     "expat-static": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       }
     },
     "dahdi-tools": {
@@ -54197,15 +54201,16 @@
     "expat-dev": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
-        "expat=2.5.0-r0",
-        "libexpat=2.5.0-r0",
+        "expat=2.6.0-r0",
+        "libexpat=2.6.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:expat=2.5.0"
+        "pc:expat=2.6.0"
       ]
     },
     "nginx-mod-http-echo": {
@@ -61389,7 +61394,7 @@
       },
       "libexpat.so.1": {
         "package": "libexpat",
-        "version": "1.8.10"
+        "version": "1.9.0"
       },
       "librabbitmq.so.4": {
         "package": "rabbitmq-c",

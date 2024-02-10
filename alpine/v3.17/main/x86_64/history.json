@@ -3089,14 +3089,15 @@
     "expat": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
         "so:libexpat.so.1"
       ],
       "provides": [
-        "cmd:xmlwf=2.5.0-r0"
+        "cmd:xmlwf=2.6.0-r0"
       ]
     },
     "vulkan-loader-dev": {
@@ -6849,7 +6850,8 @@
     "expat-doc": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       }
     },
     "dpkg-doc": {
@@ -14397,7 +14399,8 @@
     "expat-static": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       }
     },
     "libnl3": {
@@ -22237,15 +22240,16 @@
     "expat-dev": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
-        "expat=2.5.0-r0",
-        "libexpat=2.5.0-r0",
+        "expat=2.6.0-r0",
+        "libexpat=2.6.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:expat=2.5.0"
+        "pc:expat=2.6.0"
       ]
     },
     "nload": {
@@ -29817,13 +29821,14 @@
     "libexpat": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "so:libexpat.so.1=1.8.10"
+        "so:libexpat.so.1=1.9.0"
       ]
     },
     "s6-networking-static": {
@@ -62731,7 +62736,7 @@
       },
       "libexpat.so.1": {
         "package": "libexpat",
-        "version": "1.8.10"
+        "version": "1.9.0"
       },
       "libatspi.so.0": {
         "package": "at-spi2-core",

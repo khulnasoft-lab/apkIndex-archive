@@ -4223,14 +4223,15 @@
     "expat": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libexpat.so.1"
       ],
       "provides": [
-        "cmd:xmlwf=2.5.0-r0"
+        "cmd:xmlwf=2.6.0-r0"
       ]
     },
     "udns": {
@@ -6974,7 +6975,8 @@
     "expat-doc": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       }
     },
     "libnftnl-dev": {
@@ -8973,15 +8975,16 @@
     "expat-dev": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
-        "expat=2.5.0-r0",
-        "libexpat=2.5.0-r0",
+        "expat=2.6.0-r0",
+        "libexpat=2.6.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:expat=2.5.0"
+        "pc:expat=2.6.0"
       ]
     },
     "freeswitch-python3": {
@@ -29264,7 +29267,8 @@
     "expat-static": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       }
     },
     "pcre-dev": {
@@ -31037,13 +31041,14 @@
     "libexpat": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "so:libexpat.so.1=1.8.10"
+        "so:libexpat.so.1=1.9.0"
       ]
     },
     "freeswitch-sounds-music-32000": {
@@ -62302,7 +62307,7 @@
       },
       "libexpat.so.1": {
         "package": "libexpat",
-        "version": "1.8.10"
+        "version": "1.9.0"
       },
       "libs6rc.so.0.5": {
         "package": "s6-rc",

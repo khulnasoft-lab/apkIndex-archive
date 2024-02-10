@@ -3957,15 +3957,16 @@
     "expat-dev": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
-        "expat=2.5.0-r0",
-        "libexpat=2.5.0-r0",
+        "expat=2.6.0-r0",
+        "libexpat=2.6.0-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:expat=2.5.0"
+        "pc:expat=2.6.0"
       ]
     },
     "perl-role-basic": {
@@ -7098,7 +7099,8 @@
     "expat-static": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       }
     },
     "gengetopt-doc": {
@@ -18878,14 +18880,15 @@
     "expat": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
         "so:libexpat.so.1"
       ],
       "provides": [
-        "cmd:xmlwf=2.5.0-r0"
+        "cmd:xmlwf=2.6.0-r0"
       ]
     },
     "tdb": {
@@ -38491,7 +38494,8 @@
     "expat-doc": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       }
     },
     "acf-samba": {
@@ -51806,13 +51810,14 @@
     "libexpat": {
       "origin": "expat",
       "versions": {
-        "2.5.0-r0": 1666724044
+        "2.5.0-r0": 1666724044,
+        "2.6.0-r0": 1707524070
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "so:libexpat.so.1=1.8.10"
+        "so:libexpat.so.1=1.9.0"
       ]
     },
     "pcsc-lite-dev": {
@@ -64388,7 +64393,7 @@
       },
       "libexpat.so.1": {
         "package": "libexpat",
-        "version": "1.8.10"
+        "version": "1.9.0"
       },
       "libunwind.so.1": {
         "package": "llvm-libunwind",
