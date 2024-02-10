@@ -6769,10 +6769,11 @@
     "perl-apparmor": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       },
       "dependencies": [
-        "libapparmor=3.1.2-r0",
+        "libapparmor=3.1.7-r0",
         "perl",
         "so:libapparmor.so.1",
         "so:libc.musl-aarch64.so.1"
@@ -14628,7 +14629,8 @@
     "apparmor-vim": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       },
       "dependencies": [
         "bash"
@@ -23068,7 +23070,8 @@
     "apparmor-lang": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       },
       "dependencies": [
         "bash"
@@ -23325,14 +23328,15 @@
     "libapparmor-dev": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       },
       "dependencies": [
-        "libapparmor=3.1.2-r0",
+        "libapparmor=3.1.7-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libapparmor=3.1.2"
+        "pc:libapparmor=3.1.7"
       ]
     },
     "kamailio-sqlite": {
@@ -25285,7 +25289,8 @@
     "apparmor-profiles": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       },
       "dependencies": [
         "apparmor"
@@ -39794,11 +39799,12 @@
     "apparmor-utils": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       },
       "dependencies": [
         "py3-apparmor",
-        "libapparmor=3.1.2-r0",
+        "libapparmor=3.1.7-r0",
         "perl",
         "python3",
         "bash",
@@ -39806,26 +39812,26 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:aa-audit=3.1.2-r0",
-        "cmd:aa-autodep=3.1.2-r0",
-        "cmd:aa-cleanprof=3.1.2-r0",
-        "cmd:aa-complain=3.1.2-r0",
-        "cmd:aa-decode=3.1.2-r0",
-        "cmd:aa-disable=3.1.2-r0",
-        "cmd:aa-easyprof=3.1.2-r0",
-        "cmd:aa-enabled=3.1.2-r0",
-        "cmd:aa-enforce=3.1.2-r0",
-        "cmd:aa-exec=3.1.2-r0",
-        "cmd:aa-features-abi=3.1.2-r0",
-        "cmd:aa-genprof=3.1.2-r0",
-        "cmd:aa-logprof=3.1.2-r0",
-        "cmd:aa-mergeprof=3.1.2-r0",
-        "cmd:aa-notify=3.1.2-r0",
-        "cmd:aa-remove-unknown=3.1.2-r0",
-        "cmd:aa-status=3.1.2-r0",
-        "cmd:aa-unconfined=3.1.2-r0",
-        "cmd:apparmor_status=3.1.2-r0",
-        "py3.10:apparmor=3.1.2-r0"
+        "cmd:aa-audit=3.1.7-r0",
+        "cmd:aa-autodep=3.1.7-r0",
+        "cmd:aa-cleanprof=3.1.7-r0",
+        "cmd:aa-complain=3.1.7-r0",
+        "cmd:aa-decode=3.1.7-r0",
+        "cmd:aa-disable=3.1.7-r0",
+        "cmd:aa-easyprof=3.1.7-r0",
+        "cmd:aa-enabled=3.1.7-r0",
+        "cmd:aa-enforce=3.1.7-r0",
+        "cmd:aa-exec=3.1.7-r0",
+        "cmd:aa-features-abi=3.1.7-r0",
+        "cmd:aa-genprof=3.1.7-r0",
+        "cmd:aa-logprof=3.1.7-r0",
+        "cmd:aa-mergeprof=3.1.7-r0",
+        "cmd:aa-notify=3.1.7-r0",
+        "cmd:aa-remove-unknown=3.1.7-r0",
+        "cmd:aa-status=3.1.7-r0",
+        "cmd:aa-unconfined=3.1.7-r0",
+        "cmd:apparmor_status=3.1.7-r0",
+        "py3.10:apparmor=3.1.7-r0"
       ]
     },
     "p7zip-doc": {
@@ -40030,10 +40036,11 @@
     "apparmor-pam": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       },
       "dependencies": [
-        "libapparmor=3.1.2-r0",
+        "libapparmor=3.1.7-r0",
         "linux-pam",
         "so:libapparmor.so.1",
         "so:libc.musl-aarch64.so.1",
@@ -40382,7 +40389,8 @@
     "apparmor-openrc": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       }
     },
     "perl-net-server-doc": {
@@ -40554,7 +40562,8 @@
     "apparmor-utils-lang": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       },
       "dependencies": [
         "bash"
@@ -49165,7 +49174,8 @@
     "apparmor": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       },
       "dependencies": [
         "bash",
@@ -49173,7 +49183,7 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:apparmor_parser=3.1.2-r0"
+        "cmd:apparmor_parser=3.1.7-r0"
       ]
     },
     "xkbcli-doc": {
@@ -49746,7 +49756,8 @@
     "apparmor-doc": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       }
     },
     "mariadb-openrc": {
@@ -55485,7 +55496,8 @@
     "libapparmor": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       },
       "dependencies": [
         "bash",
@@ -55493,7 +55505,7 @@
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "so:libapparmor.so.1=1.12.1"
+        "so:libapparmor.so.1=1.12.3"
       ]
     },
     "lighttpd": {
@@ -56654,16 +56666,17 @@
     "py3-apparmor": {
       "origin": "apparmor",
       "versions": {
-        "3.1.2-r0": 1667859568
+        "3.1.2-r0": 1667859568,
+        "3.1.7-r0": 1707529795
       },
       "dependencies": [
-        "libapparmor=3.1.2-r0",
+        "libapparmor=3.1.7-r0",
         "python3",
         "so:libapparmor.so.1",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "py3.10:LibAppArmor=3.1.2-r0"
+        "py3.10:LibAppArmor=3.1.7-r0"
       ]
     },
     "libmd-dev": {
@@ -64794,7 +64807,7 @@
       },
       "libapparmor.so.1": {
         "package": "libapparmor",
-        "version": "1.12.1"
+        "version": "1.12.3"
       },
       "librelp.so.0": {
         "package": "librelp",
