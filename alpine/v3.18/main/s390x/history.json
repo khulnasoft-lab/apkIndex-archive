@@ -21105,7 +21105,8 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -21121,19 +21122,20 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
-        "libpq-dev=15.5-r0",
-        "libecpg=15.5-r0",
+        "libpq-dev=15.6-r0",
+        "libecpg=15.6-r0",
         "pc:libpq",
         "pkgconfig",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "pc:libecpg=15.5",
-        "pc:libpgtypes=15.5",
-        "cmd:ecpg=15.5-r0"
+        "pc:libecpg=15.6",
+        "pc:libpgtypes=15.6",
+        "cmd:ecpg=15.6-r0"
       ]
     },
     "libedit": {
@@ -23477,7 +23479,8 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -23492,18 +23495,19 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
-        "libpq=15.5-r0",
+        "libpq=15.6-r0",
         "pc:libcrypto",
         "pc:libssl",
         "pkgconfig",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "pc:libpq=15.5",
-        "cmd:pg_config=15.5-r0"
+        "pc:libpq=15.6",
+        "cmd:pg_config=15.6-r0"
       ]
     },
     "libproc2": {
@@ -46175,7 +46179,8 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
         "postgresql14-client",
@@ -46193,26 +46198,27 @@
       ],
       "provides": [
         "postgresql",
-        "cmd:pg_test_fsync",
-        "cmd:pg_rewind",
-        "cmd:initdb",
-        "cmd:postmaster",
-        "cmd:pg_controldata",
         "cmd:pg_waldump",
-        "cmd:pg_resetwal",
-        "cmd:pg_test_timing",
-        "cmd:pg_ctl",
+        "cmd:pg_controldata",
         "cmd:pg_archivecleanup",
-        "cmd:pg_upgrade",
+        "cmd:pg_resetwal",
+        "cmd:postmaster",
+        "cmd:pg_test_fsync",
         "cmd:pg_checksums",
-        "cmd:postgres"
+        "cmd:postgres",
+        "cmd:pg_upgrade",
+        "cmd:initdb",
+        "cmd:pg_ctl",
+        "cmd:pg_rewind",
+        "cmd:pg_test_timing"
       ]
     },
     "postgresql14-client": {
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
         "postgresql-common",
@@ -46248,10 +46254,11 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
-        "postgresql14=14.10-r0",
+        "postgresql14=14.11-r0",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libpq.so.5",
@@ -46269,10 +46276,11 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
-        "postgresql14-contrib=14.10-r0"
+        "postgresql14-contrib=14.11-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -46282,7 +46290,8 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
         "libpq-dev",
@@ -46302,7 +46311,8 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "provides": [
         "postgresql-doc"
@@ -46312,10 +46322,11 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
-        "postgresql14=14.10-r0",
+        "postgresql14=14.11-r0",
         "so:libLLVM-14.so",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
@@ -46329,7 +46340,8 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -46339,10 +46351,11 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
-        "postgresql14=14.10-r0",
+        "postgresql14=14.11-r0",
         "so:libc.musl-s390x.so.1",
         "so:libperl.so"
       ],
@@ -46354,10 +46367,11 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
-        "postgresql14-plperl=14.10-r0",
+        "postgresql14-plperl=14.11-r0",
         "so:libc.musl-s390x.so.1",
         "so:libperl.so"
       ],
@@ -46369,10 +46383,11 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
-        "postgresql14=14.10-r0",
+        "postgresql14=14.11-r0",
         "python3",
         "so:libc.musl-s390x.so.1",
         "so:libpython3.11.so.1.0"
@@ -46385,10 +46400,11 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
-        "postgresql14-plpython3=14.10-r0",
+        "postgresql14-plpython3=14.11-r0",
         "so:libc.musl-s390x.so.1",
         "so:libpython3.11.so.1.0"
       ],
@@ -46400,10 +46416,11 @@
       "origin": "postgresql14",
       "versions": {
         "14.9-r0": 1692024015,
-        "14.10-r0": 1700079334
+        "14.10-r0": 1700079334,
+        "14.11-r0": 1707657108
       },
       "dependencies": [
-        "postgresql14=14.10-r0",
+        "postgresql14=14.11-r0",
         "pgtcl",
         "so:libc.musl-s390x.so.1",
         "so:libtcl8.6.so"
@@ -46416,7 +46433,8 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
         "postgresql15-client",
@@ -46437,26 +46455,27 @@
       ],
       "provides": [
         "postgresql",
+        "cmd:pg_test_timing",
         "cmd:pg_resetwal",
-        "cmd:initdb",
         "cmd:pg_checksums",
-        "cmd:postgres",
-        "cmd:pg_waldump",
-        "cmd:pg_test_fsync",
-        "cmd:postmaster",
         "cmd:pg_upgrade",
         "cmd:pg_ctl",
+        "cmd:postmaster",
         "cmd:pg_archivecleanup",
-        "cmd:pg_test_timing",
+        "cmd:pg_rewind",
+        "cmd:pg_test_fsync",
+        "cmd:postgres",
+        "cmd:initdb",
         "cmd:pg_controldata",
-        "cmd:pg_rewind"
+        "cmd:pg_waldump"
       ]
     },
     "postgresql15-client": {
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
         "postgresql-common",
@@ -46494,10 +46513,11 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
-        "postgresql15=15.5-r0",
+        "postgresql15=15.6-r0",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libpq.so.5",
@@ -46515,10 +46535,11 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
-        "postgresql15-contrib=15.5-r0"
+        "postgresql15-contrib=15.6-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -46528,7 +46549,8 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
         "libpq-dev",
@@ -46550,7 +46572,8 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "provides": [
         "postgresql-doc"
@@ -46560,10 +46583,11 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
-        "postgresql15=15.5-r0",
+        "postgresql15=15.6-r0",
         "so:libLLVM-14.so",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
@@ -46577,7 +46601,8 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -46587,10 +46612,11 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
-        "postgresql15=15.5-r0",
+        "postgresql15=15.6-r0",
         "so:libc.musl-s390x.so.1",
         "so:libperl.so"
       ],
@@ -46602,10 +46628,11 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
-        "postgresql15-plperl=15.5-r0",
+        "postgresql15-plperl=15.6-r0",
         "so:libc.musl-s390x.so.1",
         "so:libperl.so"
       ],
@@ -46617,10 +46644,11 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
-        "postgresql15=15.5-r0",
+        "postgresql15=15.6-r0",
         "python3",
         "so:libc.musl-s390x.so.1",
         "so:libpython3.11.so.1.0"
@@ -46633,10 +46661,11 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
-        "postgresql15-plpython3=15.5-r0",
+        "postgresql15-plpython3=15.6-r0",
         "so:libc.musl-s390x.so.1",
         "so:libpython3.11.so.1.0"
       ],
@@ -46648,10 +46677,11 @@
       "origin": "postgresql15",
       "versions": {
         "15.4-r0": 1692023994,
-        "15.5-r0": 1700079295
+        "15.5-r0": 1700079295,
+        "15.6-r0": 1707657072
       },
       "dependencies": [
-        "postgresql15=15.5-r0",
+        "postgresql15=15.6-r0",
         "pgtcl",
         "so:libc.musl-s390x.so.1",
         "so:libtcl8.6.so"
