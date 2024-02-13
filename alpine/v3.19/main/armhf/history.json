@@ -29166,7 +29166,8 @@
       "origin": "libxml2",
       "versions": {
         "2.11.5-r0": 1691645236,
-        "2.11.6-r0": 1700266770
+        "2.11.6-r0": 1700266770,
+        "2.11.7-r0": 1707838551
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -29174,46 +29175,50 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libxml2.so.2=2.11.6"
+        "so:libxml2.so.2=2.11.7"
       ]
     },
     "libxml2-dbg": {
       "origin": "libxml2",
       "versions": {
         "2.11.5-r0": 1691645236,
-        "2.11.6-r0": 1700266770
+        "2.11.6-r0": 1700266770,
+        "2.11.7-r0": 1707838551
       }
     },
     "libxml2-dev": {
       "origin": "libxml2",
       "versions": {
         "2.11.5-r0": 1691645236,
-        "2.11.6-r0": 1700266770
+        "2.11.6-r0": 1700266770,
+        "2.11.7-r0": 1707838551
       },
       "dependencies": [
         "zlib-dev",
         "xz-dev",
-        "libxml2-utils=2.11.6-r0",
-        "libxml2=2.11.6-r0",
+        "libxml2-utils=2.11.7-r0",
+        "libxml2=2.11.7-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libxml-2.0=2.11.6",
-        "cmd:xml2-config=2.11.6-r0"
+        "pc:libxml-2.0=2.11.7",
+        "cmd:xml2-config=2.11.7-r0"
       ]
     },
     "libxml2-doc": {
       "origin": "libxml2",
       "versions": {
         "2.11.5-r0": 1691645236,
-        "2.11.6-r0": 1700266770
+        "2.11.6-r0": 1700266770,
+        "2.11.7-r0": 1707838551
       }
     },
     "libxml2-static": {
       "origin": "libxml2",
       "versions": {
         "2.11.5-r0": 1691645236,
-        "2.11.6-r0": 1700266770
+        "2.11.6-r0": 1700266770,
+        "2.11.7-r0": 1707838551
       },
       "dependencies": [
         "python3~3.11"
@@ -29223,15 +29228,16 @@
       "origin": "libxml2",
       "versions": {
         "2.11.5-r0": 1691645236,
-        "2.11.6-r0": 1700266770
+        "2.11.6-r0": 1700266770,
+        "2.11.7-r0": 1707838551
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libxml2.so.2"
       ],
       "provides": [
-        "cmd:xmlcatalog=2.11.6-r0",
-        "cmd:xmllint=2.11.6-r0"
+        "cmd:xmlcatalog=2.11.7-r0",
+        "cmd:xmllint=2.11.7-r0"
       ]
     },
     "libxmu": {
@@ -53869,7 +53875,8 @@
       "origin": "libxml2",
       "versions": {
         "2.11.5-r0": 1691645236,
-        "2.11.6-r0": 1700266770
+        "2.11.6-r0": 1700266770,
+        "2.11.7-r0": 1707838551
       },
       "dependencies": [
         "python3",
@@ -53882,7 +53889,8 @@
       "origin": "libxml2",
       "versions": {
         "2.11.5-r0": 1691645236,
-        "2.11.6-r0": 1700266770
+        "2.11.6-r0": 1700266770,
+        "2.11.7-r0": 1707838551
       },
       "dependencies": [
         "python3~3.11"
@@ -73522,7 +73530,7 @@
       },
       "libxml2.so.2": {
         "package": "libxml2",
-        "version": "2.11.6"
+        "version": "2.11.7"
       },
       "libXmu.so.6": {
         "package": "libxmu",
