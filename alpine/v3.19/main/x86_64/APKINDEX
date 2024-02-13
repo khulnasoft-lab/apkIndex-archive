@@ -66746,19 +66746,19 @@ t:1681228881
 c:84a227baf001b6e0208e3352b294e4d7a40e93de
 i:docs pwgen=2.08-r3
 
-C:Q1OOAin3OmlPX2bLXJcBSbKQNhK5k=
+C:Q1tmevYkuyLR7OydGiMYpNef2yWp0=
 P:py-unbound
-V:1.19.0-r0
+V:1.19.1-r0
 A:x86_64
-S:48942
+S:48943
 I:241664
 T:Python bindings to libunbound
 U:https://nlnetlabs.nl/projects/unbound/about/
 L:BSD-3-Clause
 o:unbound
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1699879202
-c:16ba798c416de68a5246efff6b3c586bd0982331
+t:1707832875
+c:5b8190e1d69f40d1b444d82e1bf514c44381f474
 D:python3~3.11 so:libc.musl-x86_64.so.1 so:libpython3.11.so.1.0 so:libunbound.so.8
 
 C:Q1bQGg7qJHSzoeH9Gy3zD5uLSY928=
@@ -79338,114 +79338,114 @@ t:1687237381
 c:fc810262dc290a3917d8afefc6e5c2ecc6c148ef
 i:openrc umurmur=0.2.20-r5
 
-C:Q1rzfAHMfg/uRcLk4Tg6L5PXwpq/M=
+C:Q1dCdy6m7ZfUa0jvYbQfHuQgq+SIs=
 P:unbound
-V:1.19.0-r0
+V:1.19.1-r0
 A:x86_64
-S:975513
-I:2174976
+S:978801
+I:2183168
 T:Unbound is a validating, recursive, and caching DNS resolver
 U:https://nlnetlabs.nl/projects/unbound/about/
 L:BSD-3-Clause
 o:unbound
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1699879202
-c:16ba798c416de68a5246efff6b3c586bd0982331
+t:1707832875
+c:5b8190e1d69f40d1b444d82e1bf514c44381f474
 D:dnssec-root /bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libevent-2.1.so.7 so:libexpat.so.1 so:libprotobuf-c.so.1 so:libssl.so.3 so:libunbound.so.8
-p:cmd:unbound-anchor=1.19.0-r0 cmd:unbound-checkconf=1.19.0-r0 cmd:unbound-control-setup=1.19.0-r0 cmd:unbound-control=1.19.0-r0 cmd:unbound-host=1.19.0-r0 cmd:unbound=1.19.0-r0
+p:cmd:unbound-anchor=1.19.1-r0 cmd:unbound-checkconf=1.19.1-r0 cmd:unbound-control-setup=1.19.1-r0 cmd:unbound-control=1.19.1-r0 cmd:unbound-host=1.19.1-r0 cmd:unbound=1.19.1-r0
 
-C:Q17fEX1ctdV/r8Ht97gNZ+5yCRqjM=
+C:Q1NKDydksnHcC08oZtYtAlGYOEInM=
 P:unbound-dbg
-V:1.19.0-r0
+V:1.19.1-r0
 A:x86_64
-S:4882843
-I:10776576
+S:4898457
+I:10825728
 T:Unbound is a validating, recursive, and caching DNS resolver (debug symbols)
 U:https://nlnetlabs.nl/projects/unbound/about/
 L:BSD-3-Clause
 o:unbound
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1699879202
-c:16ba798c416de68a5246efff6b3c586bd0982331
+t:1707832875
+c:5b8190e1d69f40d1b444d82e1bf514c44381f474
 D:dnssec-root
 
-C:Q1Fl2od257qc4dXbEXAU0nOxwo61s=
+C:Q1wdIdTUSOVDvmOPZD0B5qx7rzGmU=
 P:unbound-dev
-V:1.19.0-r0
+V:1.19.1-r0
 A:x86_64
-S:13791
+S:13794
 I:69632
 T:Unbound is a validating, recursive, and caching DNS resolver (development files)
 U:https://nlnetlabs.nl/projects/unbound/about/
 L:BSD-3-Clause
 o:unbound
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1699879202
-c:16ba798c416de68a5246efff6b3c586bd0982331
-D:expat-dev pc:libevent pc:python3 pkgconfig unbound-libs=1.19.0-r0
-p:pc:libunbound=1.19.0
+t:1707832875
+c:5b8190e1d69f40d1b444d82e1bf514c44381f474
+D:expat-dev pc:libevent pc:python3 pkgconfig unbound-libs=1.19.1-r0
+p:pc:libunbound=1.19.1
 
-C:Q1tsVdSebK81WP8zgQ2O519e7zAno=
+C:Q1rJYn+t2C1lvAMXBIA38iH8dVMnI=
 P:unbound-doc
-V:1.19.0-r0
+V:1.19.1-r0
 A:x86_64
-S:225918
+S:225930
 I:724992
 T:Unbound is a validating, recursive, and caching DNS resolver (documentation)
 U:https://nlnetlabs.nl/projects/unbound/about/
 L:BSD-3-Clause
 o:unbound
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1699879202
-c:16ba798c416de68a5246efff6b3c586bd0982331
-i:docs unbound=1.19.0-r0
+t:1707832875
+c:5b8190e1d69f40d1b444d82e1bf514c44381f474
+i:docs unbound=1.19.1-r0
 
-C:Q1tCkIQ4u1Hn9vdmT+6Hp5PER/3T0=
+C:Q16yu2IL7M0dUadQCOxM0+ds3kLPA=
 P:unbound-libs
-V:1.19.0-r0
+V:1.19.1-r0
 A:x86_64
-S:400011
-I:856064
+S:402219
+I:864256
 T:Unbound is a validating, recursive, and caching DNS resolver (libraries)
 U:https://nlnetlabs.nl/projects/unbound/about/
 L:BSD-3-Clause
 o:unbound
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1699879202
-c:16ba798c416de68a5246efff6b3c586bd0982331
+t:1707832875
+c:5b8190e1d69f40d1b444d82e1bf514c44381f474
 D:so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:libevent-2.1.so.7 so:libprotobuf-c.so.1 so:libssl.so.3
-p:so:libunbound.so.8=8.1.23
+p:so:libunbound.so.8=8.1.24
 
-C:Q1Y2QKzF5TuaW0FkQiINDWIcyAvtc=
+C:Q1m/1cMyMQ4WYqClrOHLJVltsNQyA=
 P:unbound-migrate
-V:1.19.0-r0
+V:1.19.1-r0
 A:x86_64
-S:2976
+S:2979
 I:16384
 T:Simple tool to migrate from dnscache to unbound
 U:https://nlnetlabs.nl/projects/unbound/about/
 L:BSD-3-Clause
 o:unbound
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1699879202
-c:16ba798c416de68a5246efff6b3c586bd0982331
+t:1707832875
+c:5b8190e1d69f40d1b444d82e1bf514c44381f474
 D:/bin/sh apk-tools openrc
-p:cmd:migrate-dnscache-to-unbound=1.19.0-r0
+p:cmd:migrate-dnscache-to-unbound=1.19.1-r0
 
-C:Q1fTA2bS5iZhXb1naZfQaNhUiP24c=
+C:Q1KmF0Em81fJuPjEjQz05NfTBAV7k=
 P:unbound-openrc
-V:1.19.0-r0
+V:1.19.1-r0
 A:x86_64
-S:2501
+S:2508
 I:24576
 T:Unbound is a validating, recursive, and caching DNS resolver (OpenRC init scripts)
 U:https://nlnetlabs.nl/projects/unbound/about/
 L:BSD-3-Clause
 o:unbound
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1699879202
-c:16ba798c416de68a5246efff6b3c586bd0982331
-i:openrc unbound=1.19.0-r0
+t:1707832875
+c:5b8190e1d69f40d1b444d82e1bf514c44381f474
+i:openrc unbound=1.19.1-r0
 
 C:Q1KRbdgp8EDr6MnhbIV0RCpTv6gtA=
 P:unfs3

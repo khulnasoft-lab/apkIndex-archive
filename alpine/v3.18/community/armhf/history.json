@@ -84975,7 +84975,8 @@
     "pdns-recursor": {
       "origin": "pdns-recursor",
       "versions": {
-        "4.8.4-r1": 1681447270
+        "4.8.4-r1": 1681447270,
+        "4.8.6-r0": 1707832460
       },
       "dependencies": [
         "/bin/sh",
@@ -84993,20 +84994,22 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:pdns_recursor=4.8.4-r1",
-        "cmd:rec_control=4.8.4-r1"
+        "cmd:pdns_recursor=4.8.6-r0",
+        "cmd:rec_control=4.8.6-r0"
       ]
     },
     "pdns-recursor-doc": {
       "origin": "pdns-recursor",
       "versions": {
-        "4.8.4-r1": 1681447270
+        "4.8.4-r1": 1681447270,
+        "4.8.6-r0": 1707832460
       }
     },
     "pdns-recursor-openrc": {
       "origin": "pdns-recursor",
       "versions": {
-        "4.8.4-r1": 1681447270
+        "4.8.4-r1": 1681447270,
+        "4.8.6-r0": 1707832460
       }
     },
     "pdns-tools": {

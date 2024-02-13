@@ -52702,7 +52702,8 @@
       "origin": "unbound",
       "versions": {
         "1.18.0-r0": 1693483443,
-        "1.19.0-r0": 1699879202
+        "1.19.0-r0": 1699879202,
+        "1.19.1-r0": 1707832875
       },
       "dependencies": [
         "python3~3.11",
@@ -63494,7 +63495,8 @@
       "origin": "unbound",
       "versions": {
         "1.18.0-r0": 1693483443,
-        "1.19.0-r0": 1699879202
+        "1.19.0-r0": 1699879202,
+        "1.19.1-r0": 1707832875
       },
       "dependencies": [
         "dnssec-root",
@@ -63508,19 +63510,20 @@
         "so:libunbound.so.8"
       ],
       "provides": [
-        "cmd:unbound-anchor=1.19.0-r0",
-        "cmd:unbound-checkconf=1.19.0-r0",
-        "cmd:unbound-control-setup=1.19.0-r0",
-        "cmd:unbound-control=1.19.0-r0",
-        "cmd:unbound-host=1.19.0-r0",
-        "cmd:unbound=1.19.0-r0"
+        "cmd:unbound-anchor=1.19.1-r0",
+        "cmd:unbound-checkconf=1.19.1-r0",
+        "cmd:unbound-control-setup=1.19.1-r0",
+        "cmd:unbound-control=1.19.1-r0",
+        "cmd:unbound-host=1.19.1-r0",
+        "cmd:unbound=1.19.1-r0"
       ]
     },
     "unbound-dbg": {
       "origin": "unbound",
       "versions": {
         "1.18.0-r0": 1693483443,
-        "1.19.0-r0": 1699879202
+        "1.19.0-r0": 1699879202,
+        "1.19.1-r0": 1707832875
       },
       "dependencies": [
         "dnssec-root"
@@ -63530,31 +63533,34 @@
       "origin": "unbound",
       "versions": {
         "1.18.0-r0": 1693483443,
-        "1.19.0-r0": 1699879202
+        "1.19.0-r0": 1699879202,
+        "1.19.1-r0": 1707832875
       },
       "dependencies": [
         "expat-dev",
         "pc:libevent",
         "pc:python3",
         "pkgconfig",
-        "unbound-libs=1.19.0-r0"
+        "unbound-libs=1.19.1-r0"
       ],
       "provides": [
-        "pc:libunbound=1.19.0"
+        "pc:libunbound=1.19.1"
       ]
     },
     "unbound-doc": {
       "origin": "unbound",
       "versions": {
         "1.18.0-r0": 1693483443,
-        "1.19.0-r0": 1699879202
+        "1.19.0-r0": 1699879202,
+        "1.19.1-r0": 1707832875
       }
     },
     "unbound-libs": {
       "origin": "unbound",
       "versions": {
         "1.18.0-r0": 1693483443,
-        "1.19.0-r0": 1699879202
+        "1.19.0-r0": 1699879202,
+        "1.19.1-r0": 1707832875
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -63564,14 +63570,15 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "so:libunbound.so.8=8.1.23"
+        "so:libunbound.so.8=8.1.24"
       ]
     },
     "unbound-migrate": {
       "origin": "unbound",
       "versions": {
         "1.18.0-r0": 1693483443,
-        "1.19.0-r0": 1699879202
+        "1.19.0-r0": 1699879202,
+        "1.19.1-r0": 1707832875
       },
       "dependencies": [
         "/bin/sh",
@@ -63579,14 +63586,15 @@
         "openrc"
       ],
       "provides": [
-        "cmd:migrate-dnscache-to-unbound=1.19.0-r0"
+        "cmd:migrate-dnscache-to-unbound=1.19.1-r0"
       ]
     },
     "unbound-openrc": {
       "origin": "unbound",
       "versions": {
         "1.18.0-r0": 1693483443,
-        "1.19.0-r0": 1699879202
+        "1.19.0-r0": 1699879202,
+        "1.19.1-r0": 1707832875
       }
     },
     "unfs3": {
@@ -75168,7 +75176,7 @@
       },
       "libunbound.so.8": {
         "package": "unbound-libs",
-        "version": "8.1.23"
+        "version": "8.1.24"
       },
       "libodbc.so.2": {
         "package": "unixodbc",
