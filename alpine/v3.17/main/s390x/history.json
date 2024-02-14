@@ -23142,7 +23142,8 @@
       "origin": "nodejs",
       "versions": {
         "18.17.1-r0": 1692794509,
-        "18.18.2-r0": 1697329828
+        "18.18.2-r0": 1697329828,
+        "18.19.1-r0": 1707944927
       },
       "dependencies": [
         "ca-certificates",
@@ -23160,8 +23161,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "nodejs-lts=18.18.2-r0",
-        "cmd:node=18.18.2-r0"
+        "nodejs-lts=18.19.1-r0",
+        "cmd:node=18.19.1-r0"
       ]
     },
     "perl-parallel-forkmanager": {
@@ -36547,10 +36548,11 @@
       "origin": "nodejs",
       "versions": {
         "18.17.1-r0": 1692794509,
-        "18.18.2-r0": 1697329828
+        "18.18.2-r0": 1697329828,
+        "18.19.1-r0": 1707944927
       },
       "provides": [
-        "nodejs-lts-dev=18.18.2"
+        "nodejs-lts-dev=18.19.1"
       ]
     },
     "py3-markdown": {
@@ -53537,7 +53539,8 @@
       "origin": "nodejs",
       "versions": {
         "18.17.1-r0": 1692794509,
-        "18.18.2-r0": 1697329828
+        "18.18.2-r0": 1697329828,
+        "18.19.1-r0": 1707944927
       }
     },
     "linux-firmware-keyspan": {
@@ -59124,7 +59127,7 @@
       },
       "nodejs-lts": {
         "package": "nodejs",
-        "version": "18.18.2-r0"
+        "version": "18.19.1-r0"
       },
       "nagios-plugins-clamdnagios-plugins-ftpnagios-plugins-imapnagios-plugins-jabbernagios-plugins-nntpnagios-plugins-nntpsnagios-plugins-popnagios-plugins-simapnagios-plugins-spopnagios-plugins-ssmtpnagios-plugins-udp": {
         "package": "nagios-plugins-tcp",
@@ -59352,7 +59355,7 @@
       },
       "nodejs-lts-dev": {
         "package": "nodejs-dev",
-        "version": "18.18.2"
+        "version": "18.19.1"
       },
       "py-markdown": {
         "package": "py3-markdown",

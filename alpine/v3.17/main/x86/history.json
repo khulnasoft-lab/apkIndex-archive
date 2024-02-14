@@ -10557,7 +10557,8 @@
       "origin": "nodejs",
       "versions": {
         "18.17.1-r0": 1692794509,
-        "18.18.2-r0": 1697329828
+        "18.18.2-r0": 1697329828,
+        "18.19.1-r0": 1707944927
       }
     },
     "tdb-doc": {
@@ -32517,10 +32518,11 @@
       "origin": "nodejs",
       "versions": {
         "18.17.1-r0": 1692794509,
-        "18.18.2-r0": 1697329828
+        "18.18.2-r0": 1697329828,
+        "18.19.1-r0": 1707944927
       },
       "provides": [
-        "nodejs-lts-dev=18.18.2"
+        "nodejs-lts-dev=18.19.1"
       ]
     },
     "lua5.3-mqtt-publish": {
@@ -54334,7 +54336,8 @@
       "origin": "nodejs",
       "versions": {
         "18.17.1-r0": 1692794509,
-        "18.18.2-r0": 1697329828
+        "18.18.2-r0": 1697329828,
+        "18.19.1-r0": 1707944927
       },
       "dependencies": [
         "ca-certificates",
@@ -54353,8 +54356,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "nodejs-lts=18.18.2-r0",
-        "cmd:node=18.18.2-r0"
+        "nodejs-lts=18.19.1-r0",
+        "cmd:node=18.19.1-r0"
       ]
     },
     "utmps-doc": {
@@ -65774,7 +65777,7 @@
       },
       "nodejs-lts-dev": {
         "package": "nodejs-dev",
-        "version": "18.18.2"
+        "version": "18.19.1"
       },
       "boost-filesystem": {
         "package": "boost1.80-filesystem",
@@ -66186,7 +66189,7 @@
       },
       "nodejs-lts": {
         "package": "nodejs",
-        "version": "18.18.2-r0"
+        "version": "18.19.1-r0"
       },
       "hwids-usb": {
         "package": "hwdata-usb",

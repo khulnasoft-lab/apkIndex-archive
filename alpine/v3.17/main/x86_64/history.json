@@ -2835,7 +2835,8 @@
       "origin": "nodejs",
       "versions": {
         "18.17.1-r0": 1692794509,
-        "18.18.2-r0": 1697329828
+        "18.18.2-r0": 1697329828,
+        "18.19.1-r0": 1707944927
       },
       "dependencies": [
         "ca-certificates",
@@ -2854,8 +2855,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "nodejs-lts=18.18.2-r0",
-        "cmd:node=18.18.2-r0"
+        "nodejs-lts=18.19.1-r0",
+        "cmd:node=18.19.1-r0"
       ]
     },
     "perl-io": {
@@ -11300,7 +11301,8 @@
       "origin": "nodejs",
       "versions": {
         "18.17.1-r0": 1692794509,
-        "18.18.2-r0": 1697329828
+        "18.18.2-r0": 1697329828,
+        "18.19.1-r0": 1707944927
       }
     },
     "spamassassin-openrc": {
@@ -26711,10 +26713,11 @@
       "origin": "nodejs",
       "versions": {
         "18.17.1-r0": 1692794509,
-        "18.18.2-r0": 1697329828
+        "18.18.2-r0": 1697329828,
+        "18.19.1-r0": 1707944927
       },
       "provides": [
-        "nodejs-lts-dev=18.18.2"
+        "nodejs-lts-dev=18.19.1"
       ]
     },
     "perl-text-vfile-asdata": {
@@ -65759,7 +65762,7 @@
       },
       "nodejs-lts": {
         "package": "nodejs",
-        "version": "18.18.2-r0"
+        "version": "18.19.1-r0"
       },
       "perl-yaml-xs": {
         "package": "perl-yaml-libyaml",
@@ -66347,7 +66350,7 @@
       },
       "nodejs-lts-dev": {
         "package": "nodejs-dev",
-        "version": "18.18.2"
+        "version": "18.19.1"
       },
       "py-pexpect": {
         "package": "py3-pexpect",
