@@ -15557,17 +15557,18 @@
     "unbound-dev": {
       "origin": "unbound",
       "versions": {
-        "1.17.1-r0": 1674309248
+        "1.17.1-r0": 1674309248,
+        "1.19.1-r0": 1707999799
       },
       "dependencies": [
         "expat-dev",
         "pc:libevent",
         "pc:python3",
         "pkgconfig",
-        "unbound-libs=1.17.1-r0"
+        "unbound-libs=1.19.1-r0"
       ],
       "provides": [
-        "pc:libunbound=1.17.1"
+        "pc:libunbound=1.19.1"
       ]
     },
     "ivykis-static": {
@@ -17043,7 +17044,8 @@
     "unbound-openrc": {
       "origin": "unbound",
       "versions": {
-        "1.17.1-r0": 1674309248
+        "1.17.1-r0": 1674309248,
+        "1.19.1-r0": 1707999799
       }
     },
     "freeswitch-static": {
@@ -27072,7 +27074,8 @@
     "py-unbound": {
       "origin": "unbound",
       "versions": {
-        "1.17.1-r0": 1674309248
+        "1.17.1-r0": 1674309248,
+        "1.19.1-r0": 1707999799
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -37933,7 +37936,8 @@
     "unbound-migrate": {
       "origin": "unbound",
       "versions": {
-        "1.17.1-r0": 1674309248
+        "1.17.1-r0": 1674309248,
+        "1.19.1-r0": 1707999799
       },
       "dependencies": [
         "/bin/sh",
@@ -37941,7 +37945,7 @@
         "openrc"
       ],
       "provides": [
-        "cmd:migrate-dnscache-to-unbound=1.17.1-r0"
+        "cmd:migrate-dnscache-to-unbound=1.19.1-r0"
       ]
     },
     "perl-dbix-searchbuilder": {
@@ -38815,7 +38819,8 @@
     "unbound-dbg": {
       "origin": "unbound",
       "versions": {
-        "1.17.1-r0": 1674309248
+        "1.17.1-r0": 1674309248,
+        "1.19.1-r0": 1707999799
       },
       "dependencies": [
         "dnssec-root"
@@ -44669,7 +44674,8 @@
     "unbound-libs": {
       "origin": "unbound",
       "versions": {
-        "1.17.1-r0": 1674309248
+        "1.17.1-r0": 1674309248,
+        "1.19.1-r0": 1707999799
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -44678,7 +44684,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "so:libunbound.so.8=8.1.21"
+        "so:libunbound.so.8=8.1.24"
       ]
     },
     "tcpdump-doc": {
@@ -52668,7 +52674,8 @@
     "unbound-doc": {
       "origin": "unbound",
       "versions": {
-        "1.17.1-r0": 1674309248
+        "1.17.1-r0": 1674309248,
+        "1.19.1-r0": 1707999799
       }
     },
     "lua5.2-stdlib": {
@@ -52841,7 +52848,8 @@
     "unbound": {
       "origin": "unbound",
       "versions": {
-        "1.17.1-r0": 1674309248
+        "1.17.1-r0": 1674309248,
+        "1.19.1-r0": 1707999799
       },
       "dependencies": [
         "dnssec-root",
@@ -52854,12 +52862,12 @@
         "so:libunbound.so.8"
       ],
       "provides": [
-        "cmd:unbound-anchor=1.17.1-r0",
-        "cmd:unbound-checkconf=1.17.1-r0",
-        "cmd:unbound-control-setup=1.17.1-r0",
-        "cmd:unbound-control=1.17.1-r0",
-        "cmd:unbound-host=1.17.1-r0",
-        "cmd:unbound=1.17.1-r0"
+        "cmd:unbound-anchor=1.19.1-r0",
+        "cmd:unbound-checkconf=1.19.1-r0",
+        "cmd:unbound-control-setup=1.19.1-r0",
+        "cmd:unbound-control=1.19.1-r0",
+        "cmd:unbound-host=1.19.1-r0",
+        "cmd:unbound=1.19.1-r0"
       ]
     },
     "ifupdown-ng-batman": {
@@ -63563,7 +63571,7 @@
       },
       "libunbound.so.8": {
         "package": "unbound-libs",
-        "version": "8.1.21"
+        "version": "8.1.24"
       },
       "libcups.so.2": {
         "package": "cups-libs",
