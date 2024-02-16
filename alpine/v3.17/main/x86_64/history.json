@@ -19705,10 +19705,11 @@
     "dnsmasq-dnssec-dbus": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       },
       "dependencies": [
-        "dnsmasq-common=2.87-r2",
+        "dnsmasq-common=2.90-r0",
         "/bin/sh",
         "so:libc.musl-x86_64.so.1",
         "so:libdbus-1.so.3",
@@ -19717,10 +19718,10 @@
         "so:libnettle.so.8"
       ],
       "provides": [
-        "dnsmasq=2.87-r2",
-        "dnsmasq-dbus=2.87-r2",
-        "dnsmasq-dnssec=2.87-r2",
-        "cmd:dnsmasq=2.87-r2"
+        "dnsmasq=2.90-r0",
+        "dnsmasq-dbus=2.90-r0",
+        "dnsmasq-dnssec=2.90-r0",
+        "cmd:dnsmasq=2.90-r0"
       ]
     },
     "syslog-ng-dev": {
@@ -26998,7 +26999,8 @@
     "dnsmasq-openrc": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       }
     },
     "perl-http-date-doc": {
@@ -38029,15 +38031,16 @@
     "dnsmasq": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       },
       "dependencies": [
-        "dnsmasq-common=2.87-r2",
+        "dnsmasq-common=2.90-r0",
         "/bin/sh",
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:dnsmasq=2.87-r2"
+        "cmd:dnsmasq=2.90-r0"
       ]
     },
     "perl-io-tty": {
@@ -38564,10 +38567,11 @@
     "dnsmasq-dnssec": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       },
       "dependencies": [
-        "dnsmasq-common=2.87-r2",
+        "dnsmasq-common=2.90-r0",
         "/bin/sh",
         "so:libc.musl-x86_64.so.1",
         "so:libgmp.so.10",
@@ -38575,8 +38579,8 @@
         "so:libnettle.so.8"
       ],
       "provides": [
-        "dnsmasq=2.87-r2",
-        "cmd:dnsmasq=2.87-r2"
+        "dnsmasq=2.90-r0",
+        "cmd:dnsmasq=2.90-r0"
       ]
     },
     "kea": {
@@ -38592,7 +38596,8 @@
     "dnsmasq-doc": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       }
     },
     "perl-html-mason-doc": {
@@ -52760,7 +52765,8 @@
     "dnsmasq-common": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       }
     },
     "linux-firmware-vxge": {
@@ -66229,16 +66235,16 @@
         "version": "5.3.0-r2"
       },
       "dnsmasq": {
-        "package": "dnsmasq-dnssec",
-        "version": "2.87-r2"
+        "package": "dnsmasq-dnssec-dbus",
+        "version": "2.90-r0"
       },
       "dnsmasq-dbus": {
         "package": "dnsmasq-dnssec-dbus",
-        "version": "2.87-r2"
+        "version": "2.90-r0"
       },
       "dnsmasq-dnssec": {
         "package": "dnsmasq-dnssec-dbus",
-        "version": "2.87-r2"
+        "version": "2.90-r0"
       },
       "py-chardet": {
         "package": "py3-chardet",

@@ -2755,10 +2755,11 @@
     "dnsmasq-dnssec-dbus": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       },
       "dependencies": [
-        "dnsmasq-common=2.87-r2",
+        "dnsmasq-common=2.90-r0",
         "/bin/sh",
         "so:libc.musl-armv7.so.1",
         "so:libdbus-1.so.3",
@@ -2767,10 +2768,10 @@
         "so:libnettle.so.8"
       ],
       "provides": [
-        "dnsmasq=2.87-r2",
-        "dnsmasq-dbus=2.87-r2",
-        "dnsmasq-dnssec=2.87-r2",
-        "cmd:dnsmasq=2.87-r2"
+        "dnsmasq=2.90-r0",
+        "dnsmasq-dbus=2.90-r0",
+        "dnsmasq-dnssec=2.90-r0",
+        "cmd:dnsmasq=2.90-r0"
       ]
     },
     "git-daemon-openrc": {
@@ -6580,15 +6581,16 @@
     "dnsmasq": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       },
       "dependencies": [
-        "dnsmasq-common=2.87-r2",
+        "dnsmasq-common=2.90-r0",
         "/bin/sh",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:dnsmasq=2.87-r2"
+        "cmd:dnsmasq=2.90-r0"
       ]
     },
     "freeradius": {
@@ -24005,10 +24007,11 @@
     "dnsmasq-dnssec": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       },
       "dependencies": [
-        "dnsmasq-common=2.87-r2",
+        "dnsmasq-common=2.90-r0",
         "/bin/sh",
         "so:libc.musl-armv7.so.1",
         "so:libgmp.so.10",
@@ -24016,8 +24019,8 @@
         "so:libnettle.so.8"
       ],
       "provides": [
-        "dnsmasq=2.87-r2",
-        "cmd:dnsmasq=2.87-r2"
+        "dnsmasq=2.90-r0",
+        "cmd:dnsmasq=2.90-r0"
       ]
     },
     "gettext-asprintf": {
@@ -25270,7 +25273,8 @@
     "dnsmasq-openrc": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       }
     },
     "eventlog-dev": {
@@ -36574,7 +36578,8 @@
     "dnsmasq-doc": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       }
     },
     "lxc-test-utils": {
@@ -51141,7 +51146,8 @@
     "dnsmasq-common": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       }
     },
     "db-c++": {
@@ -65387,15 +65393,15 @@
       },
       "dnsmasq": {
         "package": "dnsmasq-dnssec",
-        "version": "2.87-r2"
+        "version": "2.90-r0"
       },
       "dnsmasq-dbus": {
         "package": "dnsmasq-dnssec-dbus",
-        "version": "2.87-r2"
+        "version": "2.90-r0"
       },
       "dnsmasq-dnssec": {
         "package": "dnsmasq-dnssec-dbus",
-        "version": "2.87-r2"
+        "version": "2.90-r0"
       },
       "mpfr": {
         "package": "mpfr4",

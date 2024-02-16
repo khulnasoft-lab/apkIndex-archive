@@ -25893,7 +25893,8 @@
     "dnsmasq-openrc": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       }
     },
     "perl-http-date-doc": {
@@ -31625,10 +31626,11 @@
     "dnsmasq-dnssec": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       },
       "dependencies": [
-        "dnsmasq-common=2.87-r2",
+        "dnsmasq-common=2.90-r0",
         "/bin/sh",
         "so:libc.musl-armhf.so.1",
         "so:libgmp.so.10",
@@ -31636,8 +31638,8 @@
         "so:libnettle.so.8"
       ],
       "provides": [
-        "dnsmasq=2.87-r2",
-        "cmd:dnsmasq=2.87-r2"
+        "dnsmasq=2.90-r0",
+        "cmd:dnsmasq=2.90-r0"
       ]
     },
     "radvd": {
@@ -37136,7 +37138,8 @@
     "dnsmasq-doc": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       }
     },
     "perl-html-mason-doc": {
@@ -39501,10 +39504,11 @@
     "dnsmasq-dnssec-dbus": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       },
       "dependencies": [
-        "dnsmasq-common=2.87-r2",
+        "dnsmasq-common=2.90-r0",
         "/bin/sh",
         "so:libc.musl-armhf.so.1",
         "so:libdbus-1.so.3",
@@ -39513,10 +39517,10 @@
         "so:libnettle.so.8"
       ],
       "provides": [
-        "dnsmasq=2.87-r2",
-        "dnsmasq-dbus=2.87-r2",
-        "dnsmasq-dnssec=2.87-r2",
-        "cmd:dnsmasq=2.87-r2"
+        "dnsmasq=2.90-r0",
+        "dnsmasq-dbus=2.90-r0",
+        "dnsmasq-dnssec=2.90-r0",
+        "cmd:dnsmasq=2.90-r0"
       ]
     },
     "perl-git-svn": {
@@ -51470,7 +51474,8 @@
     "dnsmasq-common": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       }
     },
     "mysql": {
@@ -52084,15 +52089,16 @@
     "dnsmasq": {
       "origin": "dnsmasq",
       "versions": {
-        "2.87-r2": 1680054912
+        "2.87-r2": 1680054912,
+        "2.90-r0": 1708112436
       },
       "dependencies": [
-        "dnsmasq-common=2.87-r2",
+        "dnsmasq-common=2.90-r0",
         "/bin/sh",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:dnsmasq=2.87-r2"
+        "cmd:dnsmasq=2.90-r0"
       ]
     },
     "acf-dnscache": {
@@ -65336,7 +65342,7 @@
       },
       "dnsmasq": {
         "package": "dnsmasq-dnssec-dbus",
-        "version": "2.87-r2"
+        "version": "2.90-r0"
       },
       "lua5.1-stdlib-debug": {
         "package": "lua-stdlib-debug",
@@ -65480,11 +65486,11 @@
       },
       "dnsmasq-dbus": {
         "package": "dnsmasq-dnssec-dbus",
-        "version": "2.87-r2"
+        "version": "2.90-r0"
       },
       "dnsmasq-dnssec": {
         "package": "dnsmasq-dnssec-dbus",
-        "version": "2.87-r2"
+        "version": "2.90-r0"
       },
       "lua5.1-gversion": {
         "package": "lua-gversion",
