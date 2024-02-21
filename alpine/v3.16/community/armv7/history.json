@@ -49701,15 +49701,16 @@
     "cups-filters-dev": {
       "origin": "cups-filters",
       "versions": {
-        "1.28.15-r0": 1649857412
+        "1.28.15-r0": 1649857412,
+        "1.28.17-r0": 1708523241
       },
       "dependencies": [
-        "cups-filters-libs=1.28.15-r0",
+        "cups-filters-libs=1.28.17-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcupsfilters=1.28.15",
-        "pc:libfontembed=1.28.15"
+        "pc:libcupsfilters=1.28.17",
+        "pc:libfontembed=1.28.17"
       ]
     },
     "zita-convolver": {
@@ -96621,7 +96622,8 @@
     "cups-filters-doc": {
       "origin": "cups-filters",
       "versions": {
-        "1.28.15-r0": 1649857412
+        "1.28.15-r0": 1649857412,
+        "1.28.17-r0": 1708523241
       }
     },
     "py3-build": {
@@ -124417,7 +124419,8 @@
     "cups-filters-libs": {
       "origin": "cups-filters",
       "versions": {
-        "1.28.15-r0": 1649857412
+        "1.28.15-r0": 1649857412,
+        "1.28.17-r0": 1708523241
       },
       "dependencies": [
         "poppler-utils",
@@ -124427,6 +124430,7 @@
         "so:libc.musl-armv7.so.1",
         "so:libcups.so.2",
         "so:libdbus-1.so.3",
+        "so:libexif.so.12",
         "so:libjpeg.so.8",
         "so:libpng16.so.16",
         "so:libtiff.so.5"
@@ -157816,7 +157820,8 @@
     "cups-filters": {
       "origin": "cups-filters",
       "versions": {
-        "1.28.15-r0": 1649857412
+        "1.28.15-r0": 1649857412,
+        "1.28.17-r0": 1708523241
       },
       "dependencies": [
         "poppler-utils",
@@ -157842,10 +157847,10 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:cups-browsed=1.28.15-r0",
-        "cmd:driverless-fax=1.28.15-r0",
-        "cmd:driverless=1.28.15-r0",
-        "cmd:foomatic-rip=1.28.15-r0"
+        "cmd:cups-browsed=1.28.17-r0",
+        "cmd:driverless-fax=1.28.17-r0",
+        "cmd:driverless=1.28.17-r0",
+        "cmd:foomatic-rip=1.28.17-r0"
       ]
     },
     "ruby-unf_ext": {
