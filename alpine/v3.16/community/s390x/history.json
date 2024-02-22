@@ -114587,6 +114587,15 @@
         "cmd:wpd2raw=0.10.3-r0",
         "cmd:wpd2text=0.10.3-r0"
       ]
+    },
+    "zabbix-agent2-plugin-postgresql": {
+      "origin": "zabbix-agent2-plugin-postgresql",
+      "versions": {
+        "6.0.22-r0": 1708617959
+      },
+      "dependencies": [
+        "so:libc.musl-s390x.so.1"
+      ]
     }
   },
   "provide": {

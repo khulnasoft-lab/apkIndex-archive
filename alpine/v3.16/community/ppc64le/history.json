@@ -149042,6 +149042,15 @@
       "provides": [
         "cmd:viddy=0.2.1-r8"
       ]
+    },
+    "zabbix-agent2-plugin-postgresql": {
+      "origin": "zabbix-agent2-plugin-postgresql",
+      "versions": {
+        "6.0.22-r0": 1708617959
+      },
+      "dependencies": [
+        "so:libc.musl-ppc64le.so.1"
+      ]
     }
   },
   "provide": {

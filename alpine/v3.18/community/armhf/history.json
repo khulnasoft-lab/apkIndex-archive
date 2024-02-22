@@ -165068,6 +165068,15 @@
       "dependencies": [
         "python3~3.11"
       ]
+    },
+    "zabbix-agent2-plugin-postgresql": {
+      "origin": "zabbix-agent2-plugin-postgresql",
+      "versions": {
+        "6.4.9-r0": 1708618194
+      },
+      "dependencies": [
+        "so:libc.musl-armhf.so.1"
+      ]
     }
   },
   "provide": {

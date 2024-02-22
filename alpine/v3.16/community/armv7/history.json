@@ -160733,6 +160733,15 @@
         "cmd:dircproxy-crypt=1.2.0_rc-r2",
         "cmd:dircproxy=1.2.0_rc-r2"
       ]
+    },
+    "zabbix-agent2-plugin-postgresql": {
+      "origin": "zabbix-agent2-plugin-postgresql",
+      "versions": {
+        "6.0.22-r0": 1708617959
+      },
+      "dependencies": [
+        "so:libc.musl-armv7.so.1"
+      ]
     }
   },
   "provide": {

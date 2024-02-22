@@ -160616,6 +160616,15 @@
         "nextcloud",
         "php8-pdo_mysql"
       ]
+    },
+    "zabbix-agent2-plugin-postgresql": {
+      "origin": "zabbix-agent2-plugin-postgresql",
+      "versions": {
+        "6.0.22-r0": 1708617959
+      },
+      "dependencies": [
+        "so:libc.musl-x86.so.1"
+      ]
     }
   },
   "provide": {

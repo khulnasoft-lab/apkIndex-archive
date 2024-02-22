@@ -138954,6 +138954,15 @@
       "provides": [
         "so:libsratom-0.so.0=0.6.14"
       ]
+    },
+    "zabbix-agent2-plugin-postgresql": {
+      "origin": "zabbix-agent2-plugin-postgresql",
+      "versions": {
+        "6.2.7-r0": 1708618134
+      },
+      "dependencies": [
+        "so:libc.musl-armhf.so.1"
+      ]
     }
   },
   "provide": {

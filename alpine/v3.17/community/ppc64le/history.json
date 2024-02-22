@@ -157970,6 +157970,15 @@
       "versions": {
         "4.13.2-r1": 1667855635
       }
+    },
+    "zabbix-agent2-plugin-postgresql": {
+      "origin": "zabbix-agent2-plugin-postgresql",
+      "versions": {
+        "6.2.7-r0": 1708618134
+      },
+      "dependencies": [
+        "so:libc.musl-ppc64le.so.1"
+      ]
     }
   },
   "provide": {
