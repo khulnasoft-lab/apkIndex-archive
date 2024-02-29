@@ -2246,11 +2246,12 @@
     "openssh-sk-helper": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
-        "openssh-keygen=9.0_p1-r4",
-        "openssh-server-common=9.0_p1-r4",
+        "openssh-keygen=9.0_p1-r5",
+        "openssh-server-common=9.0_p1-r5",
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.1.1",
         "so:libfido2.so.1"
@@ -4365,7 +4366,8 @@
     "openssh-doc": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       }
     },
     "uwsgi-router_cache": {
@@ -5493,7 +5495,8 @@
     "openssh-server-common": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       }
     },
     "ruby-google-protobuf": {
@@ -16044,7 +16047,8 @@
     "openssh-sftp-server": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -19588,18 +19592,20 @@
     "putty": {
       "origin": "putty",
       "versions": {
-        "0.76-r0": 1626873451
+        "0.76-r0": 1626873451,
+        "0.80-r0": 1709222119
       },
       "dependencies": [
         "ncurses-terminfo-base",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:plink=0.76-r0",
-        "cmd:pscp=0.76-r0",
-        "cmd:psftp=0.76-r0",
-        "cmd:psusan=0.76-r0",
-        "cmd:puttygen=0.76-r0"
+        "cmd:pageant=0.80-r0",
+        "cmd:plink=0.80-r0",
+        "cmd:pscp=0.80-r0",
+        "cmd:psftp=0.80-r0",
+        "cmd:psusan=0.80-r0",
+        "cmd:puttygen=0.80-r0"
       ]
     },
     "perl-test-requires": {
@@ -26187,19 +26193,20 @@
     "openssh-client-default": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
-        "openssh-keygen=9.0_p1-r4",
-        "openssh-client-common=9.0_p1-r4",
+        "openssh-keygen=9.0_p1-r5",
+        "openssh-client-common=9.0_p1-r5",
         "!openssh-client-krb5",
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.1.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "openssh-client=9.0_p1-r4",
-        "cmd:ssh=9.0_p1-r4"
+        "openssh-client=9.0_p1-r5",
+        "cmd:ssh=9.0_p1-r5"
       ]
     },
     "lua5.2-discount": {
@@ -29570,10 +29577,11 @@
     "openssh-keysign": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
-        "openssh-client=9.0_p1-r4",
+        "openssh-client=9.0_p1-r5",
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.1.1",
         "so:libz.so.1"
@@ -32625,11 +32633,12 @@
     "openssh-server-krb5": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
-        "openssh-keygen=9.0_p1-r4",
-        "openssh-server-common=9.0_p1-r4",
+        "openssh-keygen=9.0_p1-r5",
+        "openssh-server-common=9.0_p1-r5",
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.1.1",
         "so:libgssapi_krb5.so.2",
@@ -32638,7 +32647,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:sshd.krb5=9.0_p1-r4"
+        "cmd:sshd.krb5=9.0_p1-r5"
       ]
     },
     "py3-docutils": {
@@ -33149,18 +33158,19 @@
     "openssh-server-pam": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
-        "openssh-keygen=9.0_p1-r4",
-        "openssh-server-common=9.0_p1-r4",
+        "openssh-keygen=9.0_p1-r5",
+        "openssh-server-common=9.0_p1-r5",
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.1.1",
         "so:libpam.so.0",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:sshd.pam=9.0_p1-r4"
+        "cmd:sshd.pam=9.0_p1-r5"
       ]
     },
     "lua5.2-struct": {
@@ -35352,7 +35362,8 @@
     "putty-doc": {
       "origin": "putty",
       "versions": {
-        "0.76-r0": 1626873451
+        "0.76-r0": 1626873451,
+        "0.80-r0": 1709222119
       }
     },
     "gcr-lang": {
@@ -38957,7 +38968,8 @@
     "openssh": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
         "openssh-client",
@@ -43874,17 +43886,18 @@
     "openssh-server": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
-        "openssh-keygen=9.0_p1-r4",
-        "openssh-server-common=9.0_p1-r4",
+        "openssh-keygen=9.0_p1-r5",
+        "openssh-server-common=9.0_p1-r5",
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.1.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:sshd=9.0_p1-r4"
+        "cmd:sshd=9.0_p1-r5"
       ]
     },
     "cups": {
@@ -44785,14 +44798,15 @@
     "openssh-keygen": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.1.1"
       ],
       "provides": [
-        "cmd:ssh-keygen=9.0_p1-r4"
+        "cmd:ssh-keygen=9.0_p1-r5"
       ]
     },
     "amd-ucode": {
@@ -46905,7 +46919,8 @@
     "openssh-dbg": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
         "openssh-client",
@@ -55420,11 +55435,12 @@
     "openssh-client-krb5": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
-        "openssh-keygen=9.0_p1-r4",
-        "openssh-client-common=9.0_p1-r4",
+        "openssh-keygen=9.0_p1-r5",
+        "openssh-client-common=9.0_p1-r5",
         "!openssh-client-default",
         "so:libc.musl-x86.so.1",
         "so:libcrypto.so.1.1",
@@ -55432,8 +55448,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "openssh-client=9.0_p1-r4",
-        "cmd:ssh=9.0_p1-r4"
+        "openssh-client=9.0_p1-r5",
+        "cmd:ssh=9.0_p1-r5"
       ]
     },
     "linux-firmware-mediatek": {
@@ -56287,7 +56303,8 @@
     "openssh-client-common": {
       "origin": "openssh",
       "versions": {
-        "9.0_p1-r4": 1689794533
+        "9.0_p1-r4": 1689794533,
+        "9.0_p1-r5": 1709221739
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -56296,14 +56313,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:findssl.sh=9.0_p1-r4",
-        "cmd:scp=9.0_p1-r4",
-        "cmd:sftp=9.0_p1-r4",
-        "cmd:ssh-add=9.0_p1-r4",
-        "cmd:ssh-agent=9.0_p1-r4",
-        "cmd:ssh-copy-id=9.0_p1-r4",
-        "cmd:ssh-keyscan=9.0_p1-r4",
-        "cmd:ssh-pkcs11-helper=9.0_p1-r4"
+        "cmd:findssl.sh=9.0_p1-r5",
+        "cmd:scp=9.0_p1-r5",
+        "cmd:sftp=9.0_p1-r5",
+        "cmd:ssh-add=9.0_p1-r5",
+        "cmd:ssh-agent=9.0_p1-r5",
+        "cmd:ssh-copy-id=9.0_p1-r5",
+        "cmd:ssh-keyscan=9.0_p1-r5",
+        "cmd:ssh-pkcs11-helper=9.0_p1-r5"
       ]
     },
     "net-snmp-dev": {
@@ -59105,8 +59122,8 @@
         "version": "0.7.12-r5"
       },
       "openssh-client": {
-        "package": "openssh-client-krb5",
-        "version": "9.0_p1-r4"
+        "package": "openssh-client-default",
+        "version": "9.0_p1-r5"
       },
       "py-attrs": {
         "package": "py3-attrs",
