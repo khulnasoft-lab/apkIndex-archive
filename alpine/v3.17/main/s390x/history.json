@@ -3798,7 +3798,8 @@
       "origin": "unbound",
       "versions": {
         "1.17.1-r0": 1674309248,
-        "1.19.1-r0": 1707999799
+        "1.19.1-r0": 1707999799,
+        "1.19.2-r0": 1709838851
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -3807,7 +3808,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "so:libunbound.so.8=8.1.24"
+        "so:libunbound.so.8=8.1.25"
       ]
     },
     "openldap-overlay-collect": {
@@ -5453,17 +5454,18 @@
       "origin": "unbound",
       "versions": {
         "1.17.1-r0": 1674309248,
-        "1.19.1-r0": 1707999799
+        "1.19.1-r0": 1707999799,
+        "1.19.2-r0": 1709838851
       },
       "dependencies": [
         "expat-dev",
         "pc:libevent",
         "pc:python3",
         "pkgconfig",
-        "unbound-libs=1.19.1-r0"
+        "unbound-libs=1.19.2-r0"
       ],
       "provides": [
-        "pc:libunbound=1.19.1"
+        "pc:libunbound=1.19.2"
       ]
     },
     "axel-doc": {
@@ -13978,7 +13980,8 @@
       "origin": "unbound",
       "versions": {
         "1.17.1-r0": 1674309248,
-        "1.19.1-r0": 1707999799
+        "1.19.1-r0": 1707999799,
+        "1.19.2-r0": 1709838851
       }
     },
     "yaml": {
@@ -23530,7 +23533,8 @@
       "origin": "unbound",
       "versions": {
         "1.17.1-r0": 1674309248,
-        "1.19.1-r0": 1707999799
+        "1.19.1-r0": 1707999799,
+        "1.19.2-r0": 1709838851
       },
       "dependencies": [
         "dnssec-root",
@@ -23543,12 +23547,12 @@
         "so:libunbound.so.8"
       ],
       "provides": [
-        "cmd:unbound-anchor=1.19.1-r0",
-        "cmd:unbound-checkconf=1.19.1-r0",
-        "cmd:unbound-control-setup=1.19.1-r0",
-        "cmd:unbound-control=1.19.1-r0",
-        "cmd:unbound-host=1.19.1-r0",
-        "cmd:unbound=1.19.1-r0"
+        "cmd:unbound-anchor=1.19.2-r0",
+        "cmd:unbound-checkconf=1.19.2-r0",
+        "cmd:unbound-control-setup=1.19.2-r0",
+        "cmd:unbound-control=1.19.2-r0",
+        "cmd:unbound-host=1.19.2-r0",
+        "cmd:unbound=1.19.2-r0"
       ]
     },
     "nagios-plugins-tcp": {
@@ -23664,7 +23668,8 @@
       "origin": "unbound",
       "versions": {
         "1.17.1-r0": 1674309248,
-        "1.19.1-r0": 1707999799
+        "1.19.1-r0": 1707999799,
+        "1.19.2-r0": 1709838851
       }
     },
     "lua5.1-maxminddb": {
@@ -33459,7 +33464,8 @@
       "origin": "unbound",
       "versions": {
         "1.17.1-r0": 1674309248,
-        "1.19.1-r0": 1707999799
+        "1.19.1-r0": 1707999799,
+        "1.19.2-r0": 1709838851
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -45045,7 +45051,8 @@
       "origin": "unbound",
       "versions": {
         "1.17.1-r0": 1674309248,
-        "1.19.1-r0": 1707999799
+        "1.19.1-r0": 1707999799,
+        "1.19.2-r0": 1709838851
       },
       "dependencies": [
         "/bin/sh",
@@ -45053,7 +45060,7 @@
         "openrc"
       ],
       "provides": [
-        "cmd:migrate-dnscache-to-unbound=1.19.1-r0"
+        "cmd:migrate-dnscache-to-unbound=1.19.2-r0"
       ]
     },
     "lua5.1-ldbus": {
@@ -45295,7 +45302,8 @@
       "origin": "unbound",
       "versions": {
         "1.17.1-r0": 1674309248,
-        "1.19.1-r0": 1707999799
+        "1.19.1-r0": 1707999799,
+        "1.19.2-r0": 1709838851
       },
       "dependencies": [
         "dnssec-root"
@@ -60149,7 +60157,7 @@
       },
       "libunbound.so.8": {
         "package": "unbound-libs",
-        "version": "8.1.24"
+        "version": "8.1.25"
       },
       "libnetfilter_log.so.1": {
         "package": "libnetfilter_log",
