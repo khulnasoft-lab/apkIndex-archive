@@ -6385,7 +6385,8 @@
     "aws-c-cal": {
       "origin": "aws-c-cal",
       "versions": {
-        "0.6.1-r0": 1689797409
+        "0.6.1-r0": 1689797409,
+        "0.6.9-r0": 1710096649
       },
       "dependencies": [
         "so:libaws-c-common.so.1",
@@ -6399,16 +6400,18 @@
     "aws-c-cal-dev": {
       "origin": "aws-c-cal",
       "versions": {
-        "0.6.1-r0": 1689797409
+        "0.6.1-r0": 1689797409,
+        "0.6.9-r0": 1710096649
       },
       "dependencies": [
-        "aws-c-cal=0.6.1-r0"
+        "aws-c-cal=0.6.9-r0"
       ]
     },
     "aws-c-common": {
       "origin": "aws-c-common",
       "versions": {
-        "0.9.0-r0": 1689797409
+        "0.9.0-r0": 1689797409,
+        "0.9.12-r0": 1710096649
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
@@ -6420,10 +6423,11 @@
     "aws-c-common-dev": {
       "origin": "aws-c-common",
       "versions": {
-        "0.9.0-r0": 1689797409
+        "0.9.0-r0": 1689797409,
+        "0.9.12-r0": 1710096649
       },
       "dependencies": [
-        "aws-c-common=0.9.0-r0"
+        "aws-c-common=0.9.12-r0"
       ]
     },
     "aws-c-compression": {
@@ -6451,7 +6455,8 @@
     "aws-c-sdkutils": {
       "origin": "aws-c-sdkutils",
       "versions": {
-        "0.1.12-r0": 1689797410
+        "0.1.12-r0": 1689797410,
+        "0.1.14-r0": 1710096649
       },
       "dependencies": [
         "so:libaws-c-common.so.1",
@@ -6464,10 +6469,11 @@
     "aws-c-sdkutils-dev": {
       "origin": "aws-c-sdkutils",
       "versions": {
-        "0.1.12-r0": 1689797410
+        "0.1.12-r0": 1689797410,
+        "0.1.14-r0": 1710096649
       },
       "dependencies": [
-        "aws-c-sdkutils=0.1.12-r0"
+        "aws-c-sdkutils=0.1.14-r0"
       ]
     },
     "aws-checksums": {
