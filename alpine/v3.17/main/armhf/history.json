@@ -6125,17 +6125,18 @@
       "versions": {
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
-        "1.19.2-r0": 1709838851
+        "1.19.2-r0": 1709838851,
+        "1.19.3-r0": 1710502270
       },
       "dependencies": [
         "expat-dev",
         "pc:libevent",
         "pc:python3",
         "pkgconfig",
-        "unbound-libs=1.19.2-r0"
+        "unbound-libs=1.19.3-r0"
       ],
       "provides": [
-        "pc:libunbound=1.19.2"
+        "pc:libunbound=1.19.3"
       ]
     },
     "nginx-mod-http-vod": {
@@ -17878,7 +17879,8 @@
       "versions": {
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
-        "1.19.2-r0": 1709838851
+        "1.19.2-r0": 1709838851,
+        "1.19.3-r0": 1710502270
       }
     },
     "squid-lang-el": {
@@ -26965,7 +26967,8 @@
       "versions": {
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
-        "1.19.2-r0": 1709838851
+        "1.19.2-r0": 1709838851,
+        "1.19.3-r0": 1710502270
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -38494,7 +38497,8 @@
       "versions": {
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
-        "1.19.2-r0": 1709838851
+        "1.19.2-r0": 1709838851,
+        "1.19.3-r0": 1710502270
       },
       "dependencies": [
         "/bin/sh",
@@ -38502,7 +38506,7 @@
         "openrc"
       ],
       "provides": [
-        "cmd:migrate-dnscache-to-unbound=1.19.2-r0"
+        "cmd:migrate-dnscache-to-unbound=1.19.3-r0"
       ]
     },
     "orc-compiler": {
@@ -49688,7 +49692,8 @@
       "versions": {
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
-        "1.19.2-r0": 1709838851
+        "1.19.2-r0": 1709838851,
+        "1.19.3-r0": 1710502270
       },
       "dependencies": [
         "dnssec-root",
@@ -49701,12 +49706,12 @@
         "so:libunbound.so.8"
       ],
       "provides": [
-        "cmd:unbound-anchor=1.19.2-r0",
-        "cmd:unbound-checkconf=1.19.2-r0",
-        "cmd:unbound-control-setup=1.19.2-r0",
-        "cmd:unbound-control=1.19.2-r0",
-        "cmd:unbound-host=1.19.2-r0",
-        "cmd:unbound=1.19.2-r0"
+        "cmd:unbound-anchor=1.19.3-r0",
+        "cmd:unbound-checkconf=1.19.3-r0",
+        "cmd:unbound-control-setup=1.19.3-r0",
+        "cmd:unbound-control=1.19.3-r0",
+        "cmd:unbound-host=1.19.3-r0",
+        "cmd:unbound=1.19.3-r0"
       ]
     },
     "apache-mod-fcgid-doc": {
@@ -52702,7 +52707,8 @@
       "versions": {
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
-        "1.19.2-r0": 1709838851
+        "1.19.2-r0": 1709838851,
+        "1.19.3-r0": 1710502270
       }
     },
     "pcsc-lite-dev": {
@@ -55974,7 +55980,8 @@
       "versions": {
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
-        "1.19.2-r0": 1709838851
+        "1.19.2-r0": 1709838851,
+        "1.19.3-r0": 1710502270
       },
       "dependencies": [
         "dnssec-root"
@@ -56945,7 +56952,8 @@
       "versions": {
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
-        "1.19.2-r0": 1709838851
+        "1.19.2-r0": 1709838851,
+        "1.19.3-r0": 1710502270
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -56954,7 +56962,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "so:libunbound.so.8=8.1.25"
+        "so:libunbound.so.8=8.1.26"
       ]
     },
     "linux-firmware-sxg": {
@@ -64305,7 +64313,7 @@
       },
       "libunbound.so.8": {
         "package": "unbound-libs",
-        "version": "8.1.25"
+        "version": "8.1.26"
       },
       "libICE.so.6": {
         "package": "libice",
