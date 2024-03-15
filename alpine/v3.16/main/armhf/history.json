@@ -30824,7 +30824,8 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       }
     },
     "libxmu": {
@@ -35884,7 +35885,8 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       }
     },
     "perl-mailtools-doc": {
@@ -45754,15 +45756,16 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "so:libexpat.so.1=1.9.0",
-        "cmd:xmlwf=2.6.0-r0"
+        "so:libexpat.so.1=1.9.2",
+        "cmd:xmlwf=2.6.2-r0"
       ]
     },
     "f2fs-tools-static": {
@@ -56326,14 +56329,15 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       },
       "dependencies": [
-        "expat=2.6.0-r0",
+        "expat=2.6.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:expat=2.6.0"
+        "pc:expat=2.6.2"
       ]
     },
     "libtiffxx": {
@@ -62557,7 +62561,7 @@
       },
       "libexpat.so.1": {
         "package": "expat",
-        "version": "1.9.0"
+        "version": "1.9.2"
       },
       "libsctp.so.1": {
         "package": "liblksctp",

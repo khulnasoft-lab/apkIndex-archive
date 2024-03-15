@@ -9982,7 +9982,8 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r1": 1681228881,
-        "2.6.0-r0": 1707523922
+        "2.6.0-r0": 1707523922,
+        "2.6.2-r0": 1710488271
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -9990,36 +9991,39 @@
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:xmlwf=2.6.0-r0"
+        "cmd:xmlwf=2.6.2-r0"
       ]
     },
     "expat-dev": {
       "origin": "expat",
       "versions": {
         "2.5.0-r1": 1681228881,
-        "2.6.0-r0": 1707523922
+        "2.6.0-r0": 1707523922,
+        "2.6.2-r0": 1710488271
       },
       "dependencies": [
-        "expat=2.6.0-r0",
-        "libexpat=2.6.0-r0",
+        "expat=2.6.2-r0",
+        "libexpat=2.6.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:expat=2.6.0"
+        "pc:expat=2.6.2"
       ]
     },
     "expat-doc": {
       "origin": "expat",
       "versions": {
         "2.5.0-r1": 1681228881,
-        "2.6.0-r0": 1707523922
+        "2.6.0-r0": 1707523922,
+        "2.6.2-r0": 1710488271
       }
     },
     "expat-static": {
       "origin": "expat",
       "versions": {
         "2.5.0-r1": 1681228881,
-        "2.6.0-r0": 1707523922
+        "2.6.0-r0": 1707523922,
+        "2.6.2-r0": 1710488271
       }
     },
     "expect": {
@@ -21579,14 +21583,15 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r1": 1681228881,
-        "2.6.0-r0": 1707523922
+        "2.6.0-r0": 1707523922,
+        "2.6.2-r0": 1710488271
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "so:libexpat.so.1=1.9.0"
+        "so:libexpat.so.1=1.9.2"
       ]
     },
     "libfastjson": {
@@ -65055,7 +65060,7 @@
       },
       "libexpat.so.1": {
         "package": "libexpat",
-        "version": "1.9.0"
+        "version": "1.9.2"
       },
       "libfastjson.so.4": {
         "package": "libfastjson",

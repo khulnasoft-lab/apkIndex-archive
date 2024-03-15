@@ -7710,7 +7710,8 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       }
     },
     "perl-email-date-format": {
@@ -19282,7 +19283,8 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       }
     },
     "lua5.4-struct": {
@@ -42466,14 +42468,15 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "so:libexpat.so.1=1.9.0",
-        "cmd:xmlwf=2.6.0-r0"
+        "so:libexpat.so.1=1.9.2",
+        "cmd:xmlwf=2.6.2-r0"
       ]
     },
     "lua5.1-bit32": {
@@ -43323,14 +43326,15 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       },
       "dependencies": [
-        "expat=2.6.0-r0",
+        "expat=2.6.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:expat=2.6.0"
+        "pc:expat=2.6.2"
       ]
     },
     "perl-math-round": {
@@ -61541,7 +61545,7 @@
       },
       "libexpat.so.1": {
         "package": "expat",
-        "version": "1.9.0"
+        "version": "1.9.2"
       },
       "libboost_filesystem.so.1.78.0": {
         "package": "boost1.78-filesystem",

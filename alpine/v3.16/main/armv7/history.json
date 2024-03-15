@@ -31273,15 +31273,16 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "so:libexpat.so.1=1.9.0",
-        "cmd:xmlwf=2.6.0-r0"
+        "so:libexpat.so.1=1.9.2",
+        "cmd:xmlwf=2.6.2-r0"
       ]
     },
     "boost1.77-nowide": {
@@ -31452,7 +31453,8 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       }
     },
     "serf": {
@@ -35876,7 +35878,8 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       }
     },
     "nano-doc": {
@@ -44688,14 +44691,15 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724114,
-        "2.6.0-r0": 1707524127
+        "2.6.0-r0": 1707524127,
+        "2.6.2-r0": 1710488220
       },
       "dependencies": [
-        "expat=2.6.0-r0",
+        "expat=2.6.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:expat=2.6.0"
+        "pc:expat=2.6.2"
       ]
     },
     "aconf-mod-openssh": {
@@ -62647,7 +62651,7 @@
       },
       "libexpat.so.1": {
         "package": "expat",
-        "version": "1.9.0"
+        "version": "1.9.2"
       },
       "libboost_nowide.so.1.77.0": {
         "package": "boost1.77-nowide",

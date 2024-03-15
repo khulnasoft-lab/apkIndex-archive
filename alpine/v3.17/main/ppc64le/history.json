@@ -5649,14 +5649,15 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724044,
-        "2.6.0-r0": 1707524070
+        "2.6.0-r0": 1707524070,
+        "2.6.2-r0": 1710488166
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
         "so:libexpat.so.1"
       ],
       "provides": [
-        "cmd:xmlwf=2.6.0-r0"
+        "cmd:xmlwf=2.6.2-r0"
       ]
     },
     "nettle-utils": {
@@ -25161,7 +25162,8 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724044,
-        "2.6.0-r0": 1707524070
+        "2.6.0-r0": 1707524070,
+        "2.6.2-r0": 1710488166
       }
     },
     "jwhois-doc": {
@@ -27849,7 +27851,8 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724044,
-        "2.6.0-r0": 1707524070
+        "2.6.0-r0": 1707524070,
+        "2.6.2-r0": 1710488166
       }
     },
     "libstdc++": {
@@ -34799,13 +34802,14 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724044,
-        "2.6.0-r0": 1707524070
+        "2.6.0-r0": 1707524070,
+        "2.6.2-r0": 1710488166
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "so:libexpat.so.1=1.9.0"
+        "so:libexpat.so.1=1.9.2"
       ]
     },
     "freeswitch-sounds-ru-RU-elena-8000": {
@@ -42430,15 +42434,16 @@
       "origin": "expat",
       "versions": {
         "2.5.0-r0": 1666724044,
-        "2.6.0-r0": 1707524070
+        "2.6.0-r0": 1707524070,
+        "2.6.2-r0": 1710488166
       },
       "dependencies": [
-        "expat=2.6.0-r0",
-        "libexpat=2.6.0-r0",
+        "expat=2.6.2-r0",
+        "libexpat=2.6.2-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:expat=2.6.0"
+        "pc:expat=2.6.2"
       ]
     },
     "boost1.80-contract": {
@@ -62353,7 +62358,7 @@
       },
       "libexpat.so.1": {
         "package": "libexpat",
-        "version": "1.9.0"
+        "version": "1.9.2"
       },
       "libcmph.so.0": {
         "package": "libcmph",
