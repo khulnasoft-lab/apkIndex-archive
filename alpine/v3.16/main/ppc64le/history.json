@@ -22338,7 +22338,8 @@
     "perl-mozilla-ca-doc": {
       "origin": "perl-mozilla-ca",
       "versions": {
-        "20221114-r0": 1668435697
+        "20221114-r0": 1668435697,
+        "20240313-r0": 1710473800
       }
     },
     "ppp-chat": {
@@ -57643,7 +57644,8 @@
     "perl-mozilla-ca": {
       "origin": "perl-mozilla-ca",
       "versions": {
-        "20221114-r0": 1668435697
+        "20221114-r0": 1668435697,
+        "20240313-r0": 1710473800
       },
       "dependencies": [
         "perl"

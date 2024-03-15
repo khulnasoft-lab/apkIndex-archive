@@ -28195,7 +28195,8 @@
     "perl-mozilla-ca": {
       "origin": "perl-mozilla-ca",
       "versions": {
-        "20221114-r0": 1668435679
+        "20221114-r0": 1668435679,
+        "20240313-r0": 1710473909
       },
       "dependencies": [
         "perl"
@@ -39473,7 +39474,8 @@
     "perl-mozilla-ca-doc": {
       "origin": "perl-mozilla-ca",
       "versions": {
-        "20221114-r0": 1668435679
+        "20221114-r0": 1668435679,
+        "20240313-r0": 1710473909
       }
     },
     "fontconfig-dev": {
