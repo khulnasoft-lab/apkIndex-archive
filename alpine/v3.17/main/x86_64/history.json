@@ -28756,7 +28756,8 @@
     "ca-certificates-doc": {
       "origin": "ca-certificates",
       "versions": {
-        "20230506-r0": 1683375249
+        "20230506-r0": 1683375249,
+        "20240226-r0": 1710503287
       }
     },
     "perl-devel-checkbin": {
@@ -54661,7 +54662,8 @@
     "ca-certificates": {
       "origin": "ca-certificates",
       "versions": {
-        "20230506-r0": 1683375249
+        "20230506-r0": 1683375249,
+        "20240226-r0": 1710503287
       },
       "dependencies": [
         "/bin/sh",
@@ -54669,8 +54671,8 @@
         "so:libcrypto.so.3"
       ],
       "provides": [
-        "cmd:c_rehash=20230506-r0",
-        "cmd:update-ca-certificates=20230506-r0"
+        "cmd:c_rehash=20240226-r0",
+        "cmd:update-ca-certificates=20240226-r0"
       ]
     },
     "linux-firmware-r128": {
@@ -60121,10 +60123,11 @@
     "ca-certificates-bundle": {
       "origin": "ca-certificates",
       "versions": {
-        "20230506-r0": 1683375249
+        "20230506-r0": 1683375249,
+        "20240226-r0": 1710503287
       },
       "provides": [
-        "ca-certificates-cacert=20230506-r0"
+        "ca-certificates-cacert=20240226-r0"
       ]
     },
     "perl-devel-globaldestruction": {
@@ -67050,7 +67053,7 @@
       },
       "ca-certificates-cacert": {
         "package": "ca-certificates-bundle",
-        "version": "20230506-r0"
+        "version": "20240226-r0"
       }
     }
   }
