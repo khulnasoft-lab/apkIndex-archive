@@ -50167,7 +50167,8 @@
       "origin": "libcloudproviders",
       "versions": {
         "0.3.1-r1": 1675987301,
-        "0.3.5-r0": 1699603368
+        "0.3.5-r0": 1699603368,
+        "0.3.6-r0": 1711019795
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -50176,21 +50177,22 @@
         "so:libgobject-2.0.so.0"
       ],
       "provides": [
-        "so:libcloudproviders.so.0=0.3.5"
+        "so:libcloudproviders.so.0=0.3.6"
       ]
     },
     "libcloudproviders-dev": {
       "origin": "libcloudproviders",
       "versions": {
         "0.3.1-r1": 1675987301,
-        "0.3.5-r0": 1699603368
+        "0.3.5-r0": 1699603368,
+        "0.3.6-r0": 1711019795
       },
       "dependencies": [
-        "libcloudproviders=0.3.5-r0",
+        "libcloudproviders=0.3.6-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:cloudproviders=0.3.5"
+        "pc:cloudproviders=0.3.6"
       ]
     },
     "libcmark": {
@@ -169526,7 +169528,7 @@
       },
       "libcloudproviders.so.0": {
         "package": "libcloudproviders",
-        "version": "0.3.5"
+        "version": "0.3.6"
       },
       "libcmark.so.0.30.3": {
         "package": "libcmark",

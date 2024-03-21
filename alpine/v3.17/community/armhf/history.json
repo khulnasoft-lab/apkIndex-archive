@@ -25511,7 +25511,8 @@
     "libcloudproviders": {
       "origin": "libcloudproviders",
       "versions": {
-        "0.3.1-r0": 1664655368
+        "0.3.1-r0": 1664655368,
+        "0.3.6-r0": 1711019972
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -25520,7 +25521,7 @@
         "so:libgobject-2.0.so.0"
       ],
       "provides": [
-        "so:libcloudproviders.so.0=0.3.1"
+        "so:libcloudproviders.so.0=0.3.6"
       ]
     },
     "ceph16": {
@@ -97910,14 +97911,15 @@
     "libcloudproviders-dev": {
       "origin": "libcloudproviders",
       "versions": {
-        "0.3.1-r0": 1664655368
+        "0.3.1-r0": 1664655368,
+        "0.3.6-r0": 1711019972
       },
       "dependencies": [
-        "libcloudproviders=0.3.1-r0",
+        "libcloudproviders=0.3.6-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:cloudproviders=0.3.1"
+        "pc:cloudproviders=0.3.6"
       ]
     },
     "lensfun": {
@@ -141656,7 +141658,7 @@
       },
       "libcloudproviders.so.0": {
         "package": "libcloudproviders",
-        "version": "0.3.1"
+        "version": "0.3.6"
       },
       "ceph16:so:libcephsqlite.so": {
         "package": "ceph16",
