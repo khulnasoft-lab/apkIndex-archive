@@ -49,7 +49,8 @@
     "python3-gdbm": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693049615
+        "3.10.13-r0": 1693049615,
+        "3.10.14-r0": 1711059886
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -20220,7 +20221,8 @@
     "python3-tests": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693049615
+        "3.10.13-r0": 1693049615,
+        "3.10.14-r0": 1711059886
       }
     },
     "mpfr-dev": {
@@ -27866,7 +27868,8 @@
     "python3-doc": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693049615
+        "3.10.13-r0": 1693049615,
+        "3.10.14-r0": 1711059886
       }
     },
     "cairo-static": {
@@ -28486,20 +28489,21 @@
     "python3-dev": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693049615
+        "3.10.13-r0": 1693049615,
+        "3.10.14-r0": 1711059886
       },
       "dependencies": [
         "pkgconfig",
-        "python3=3.10.13-r0"
+        "python3=3.10.14-r0"
       ],
       "provides": [
         "pc:python-3.10-embed=3.10",
         "pc:python-3.10=3.10",
         "pc:python3-embed=3.10",
         "pc:python3=3.10",
-        "cmd:python-config=3.10.13-r0",
-        "cmd:python3-config=3.10.13-r0",
-        "cmd:python3.10-config=3.10.13-r0"
+        "cmd:python-config=3.10.14-r0",
+        "cmd:python3-config=3.10.14-r0",
+        "cmd:python3.10-config=3.10.14-r0"
       ]
     },
     "source-highlight-doc": {
@@ -30778,7 +30782,8 @@
     "python3": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693049615
+        "3.10.13-r0": 1693049615,
+        "3.10.14-r0": 1711059886
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -30797,16 +30802,16 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "pythonispython3=3.10.13-r0",
+        "pythonispython3=3.10.14-r0",
         "so:libpython3.10.so.1.0=1.0",
         "so:libpython3.so=0",
-        "cmd:2to3-3.10=3.10.13-r0",
-        "cmd:2to3=3.10.13-r0",
-        "cmd:pydoc3.10=3.10.13-r0",
-        "cmd:pydoc3=3.10.13-r0",
-        "cmd:python3.10=3.10.13-r0",
-        "cmd:python3=3.10.13-r0",
-        "cmd:python=3.10.13-r0"
+        "cmd:2to3-3.10=3.10.14-r0",
+        "cmd:2to3=3.10.14-r0",
+        "cmd:pydoc3.10=3.10.14-r0",
+        "cmd:pydoc3=3.10.14-r0",
+        "cmd:python3.10=3.10.14-r0",
+        "cmd:python3=3.10.14-r0",
+        "cmd:python=3.10.14-r0"
       ]
     },
     "sofia-sip": {
@@ -48763,7 +48768,8 @@
     "python3-dbg": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693049615
+        "3.10.13-r0": 1693049615,
+        "3.10.14-r0": 1711059886
       }
     },
     "perl-sub-identify": {
@@ -59337,7 +59343,7 @@
       },
       "pythonispython3": {
         "package": "python3",
-        "version": "3.10.13-r0"
+        "version": "3.10.14-r0"
       },
       "clang": {
         "package": "clang15",

@@ -12640,7 +12640,8 @@
     "python3": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693050085
+        "3.10.13-r0": 1693050085,
+        "3.10.14-r0": 1711060533
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -12662,12 +12663,12 @@
       "provides": [
         "so:libpython3.10.so.1.0=1.0",
         "so:libpython3.so=0",
-        "cmd:2to3-3.10=3.10.13-r0",
-        "cmd:2to3=3.10.13-r0",
-        "cmd:pydoc3.10=3.10.13-r0",
-        "cmd:pydoc3=3.10.13-r0",
-        "cmd:python3.10=3.10.13-r0",
-        "cmd:python3=3.10.13-r0"
+        "cmd:2to3-3.10=3.10.14-r0",
+        "cmd:2to3=3.10.14-r0",
+        "cmd:pydoc3.10=3.10.14-r0",
+        "cmd:pydoc3=3.10.14-r0",
+        "cmd:python3.10=3.10.14-r0",
+        "cmd:python3=3.10.14-r0"
       ]
     },
     "zip-doc": {
@@ -22833,7 +22834,8 @@
     "python3-tests": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693050085
+        "3.10.13-r0": 1693050085,
+        "3.10.14-r0": 1711060533
       }
     },
     "acf-lib": {
@@ -31910,11 +31912,12 @@
     "pythonispython3": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693050085
+        "3.10.13-r0": 1693050085,
+        "3.10.14-r0": 1711060533
       },
       "dependencies": [
         "python3",
-        "python3=3.10.13-r0"
+        "python3=3.10.14-r0"
       ]
     },
     "gengetopt-doc": {
@@ -37670,19 +37673,20 @@
     "python3-dev": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693050085
+        "3.10.13-r0": 1693050085,
+        "3.10.14-r0": 1711060533
       },
       "dependencies": [
         "pkgconfig",
-        "python3=3.10.13-r0"
+        "python3=3.10.14-r0"
       ],
       "provides": [
         "pc:python-3.10-embed=3.10",
         "pc:python-3.10=3.10",
         "pc:python3-embed=3.10",
         "pc:python3=3.10",
-        "cmd:python3-config=3.10.13-r0",
-        "cmd:python3.10-config=3.10.13-r0"
+        "cmd:python3-config=3.10.14-r0",
+        "cmd:python3.10-config=3.10.14-r0"
       ]
     },
     "lua5.2-microlight": {
@@ -41284,7 +41288,8 @@
     "python3-dbg": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693050085
+        "3.10.13-r0": 1693050085,
+        "3.10.14-r0": 1711060533
       }
     },
     "lua-penlight-doc": {
@@ -49462,7 +49467,8 @@
     "python3-doc": {
       "origin": "python3",
       "versions": {
-        "3.10.13-r0": 1693050085
+        "3.10.13-r0": 1693050085,
+        "3.10.14-r0": 1711060533
       }
     },
     "perl-dbix-searchbuilder-doc": {
