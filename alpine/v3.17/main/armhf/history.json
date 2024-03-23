@@ -22558,7 +22558,8 @@
     "giflib": {
       "origin": "giflib",
       "versions": {
-        "5.2.1-r2": 1667235598
+        "5.2.1-r2": 1667235598,
+        "5.2.2-r0": 1711178688
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
@@ -33646,10 +33647,11 @@
     "giflib-dev": {
       "origin": "giflib",
       "versions": {
-        "5.2.1-r2": 1667235598
+        "5.2.1-r2": 1667235598,
+        "5.2.2-r0": 1711178688
       },
       "dependencies": [
-        "giflib=5.2.1-r2"
+        "giflib=5.2.2-r0"
       ]
     },
     "perl-file-sharedir": {
@@ -34978,18 +34980,19 @@
     "giflib-utils": {
       "origin": "giflib",
       "versions": {
-        "5.2.1-r2": 1667235598
+        "5.2.1-r2": 1667235598,
+        "5.2.2-r0": 1711178688
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:gif2rgb=5.2.1-r2",
-        "cmd:gifbuild=5.2.1-r2",
-        "cmd:gifclrmp=5.2.1-r2",
-        "cmd:giffix=5.2.1-r2",
-        "cmd:giftext=5.2.1-r2",
-        "cmd:giftool=5.2.1-r2"
+        "cmd:gif2rgb=5.2.2-r0",
+        "cmd:gifbuild=5.2.2-r0",
+        "cmd:gifclrmp=5.2.2-r0",
+        "cmd:giffix=5.2.2-r0",
+        "cmd:giftext=5.2.2-r0",
+        "cmd:giftool=5.2.2-r0"
       ]
     },
     "lua5.3-rex-posix": {
@@ -48269,7 +48272,8 @@
     "giflib-doc": {
       "origin": "giflib",
       "versions": {
-        "5.2.1-r2": 1667235598
+        "5.2.1-r2": 1667235598,
+        "5.2.2-r0": 1711178688
       }
     },
     "sharutils-lang": {
