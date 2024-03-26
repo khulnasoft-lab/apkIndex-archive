@@ -12469,10 +12469,11 @@
     "c-ares-dev": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791533
+        "1.19.1-r0": 1684791533,
+        "1.19.1-r1": 1711415965
       },
       "dependencies": [
-        "c-ares=1.19.1-r0",
+        "c-ares=1.19.1-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -23367,7 +23368,8 @@
     "c-ares": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791533
+        "1.19.1-r0": 1684791533,
+        "1.19.1-r1": 1711415965
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
@@ -28440,16 +28442,17 @@
     "c-ares-utils": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791533
+        "1.19.1-r0": 1684791533,
+        "1.19.1-r1": 1711415965
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libcares.so.2"
       ],
       "provides": [
-        "cmd:acountry=1.19.1-r0",
-        "cmd:adig=1.19.1-r0",
-        "cmd:ahost=1.19.1-r0"
+        "cmd:acountry=1.19.1-r1",
+        "cmd:adig=1.19.1-r1",
+        "cmd:ahost=1.19.1-r1"
       ]
     },
     "boost1.80": {
@@ -44093,7 +44096,8 @@
     "c-ares-doc": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791533
+        "1.19.1-r0": 1684791533,
+        "1.19.1-r1": 1711415965
       }
     },
     "py3-funcsigs": {

@@ -2429,7 +2429,8 @@
     "c-ares-static": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791559
+        "1.19.1-r0": 1684791559,
+        "1.19.1-r1": 1711416309
       }
     },
     "font-isas-misc": {
@@ -8884,7 +8885,8 @@
     "c-ares": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791559
+        "1.19.1-r0": 1684791559,
+        "1.19.1-r1": 1711416309
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
@@ -39201,10 +39203,11 @@
     "c-ares-dev": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791559
+        "1.19.1-r0": 1684791559,
+        "1.19.1-r1": 1711416309
       },
       "dependencies": [
-        "c-ares=1.19.1-r0",
+        "c-ares=1.19.1-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -45599,7 +45602,8 @@
     "c-ares-doc": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791559
+        "1.19.1-r0": 1684791559,
+        "1.19.1-r1": 1711416309
       }
     },
     "perl-data-hexdump": {

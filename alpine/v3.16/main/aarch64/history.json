@@ -8830,7 +8830,8 @@
     "c-ares": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791559
+        "1.19.1-r0": 1684791559,
+        "1.19.1-r1": 1711416309
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
@@ -34533,7 +34534,8 @@
     "c-ares-static": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791559
+        "1.19.1-r0": 1684791559,
+        "1.19.1-r1": 1711416309
       }
     },
     "nagios-plugins-ups": {
@@ -47220,7 +47222,8 @@
     "c-ares-doc": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791559
+        "1.19.1-r0": 1684791559,
+        "1.19.1-r1": 1711416309
       }
     },
     "nettle": {
@@ -58985,10 +58988,11 @@
     "c-ares-dev": {
       "origin": "c-ares",
       "versions": {
-        "1.19.1-r0": 1684791559
+        "1.19.1-r0": 1684791559,
+        "1.19.1-r1": 1711416309
       },
       "dependencies": [
-        "c-ares=1.19.1-r0",
+        "c-ares=1.19.1-r1",
         "pkgconfig"
       ],
       "provides": [
