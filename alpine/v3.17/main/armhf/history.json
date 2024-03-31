@@ -7449,10 +7449,11 @@
     "libarchive-dev": {
       "origin": "libarchive",
       "versions": {
-        "3.7.2-r0": 1694593641
+        "3.7.2-r0": 1694593641,
+        "3.7.2-r1": 1711874280
       },
       "dependencies": [
-        "libarchive=3.7.2-r0",
+        "libarchive=3.7.2-r1",
         "pc:libcrypto",
         "pkgconfig"
       ],
@@ -11450,7 +11451,8 @@
     "libarchive-static": {
       "origin": "libarchive",
       "versions": {
-        "3.7.2-r0": 1694593641
+        "3.7.2-r0": 1694593641,
+        "3.7.2-r1": 1711874280
       }
     },
     "perl-class-mix": {
@@ -20815,7 +20817,8 @@
     "libarchive-tools": {
       "origin": "libarchive",
       "versions": {
-        "3.7.2-r0": 1694593641
+        "3.7.2-r0": 1694593641,
+        "3.7.2-r1": 1711874280
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -20829,10 +20832,10 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:bsdcat=3.7.2-r0",
-        "cmd:bsdcpio=3.7.2-r0",
-        "cmd:bsdtar=3.7.2-r0",
-        "cmd:bsdunzip=3.7.2-r0"
+        "cmd:bsdcat=3.7.2-r1",
+        "cmd:bsdcpio=3.7.2-r1",
+        "cmd:bsdtar=3.7.2-r1",
+        "cmd:bsdunzip=3.7.2-r1"
       ]
     },
     "perl-cgi-doc": {
@@ -36696,7 +36699,8 @@
     "libarchive-doc": {
       "origin": "libarchive",
       "versions": {
-        "3.7.2-r0": 1694593641
+        "3.7.2-r0": 1694593641,
+        "3.7.2-r1": 1711874280
       }
     },
     "libsm-dev": {
@@ -56598,7 +56602,8 @@
     "libarchive": {
       "origin": "libarchive",
       "versions": {
-        "3.7.2-r0": 1694593641
+        "3.7.2-r0": 1694593641,
+        "3.7.2-r1": 1711874280
       },
       "dependencies": [
         "so:libacl.so.1",

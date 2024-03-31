@@ -676,7 +676,8 @@
     "libarchive-tools": {
       "origin": "libarchive",
       "versions": {
-        "3.7.2-r0": 1694594242
+        "3.7.2-r0": 1694594242,
+        "3.7.2-r1": 1711874420
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -690,10 +691,10 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:bsdcat=3.7.2-r0",
-        "cmd:bsdcpio=3.7.2-r0",
-        "cmd:bsdtar=3.7.2-r0",
-        "cmd:bsdunzip=3.7.2-r0"
+        "cmd:bsdcat=3.7.2-r1",
+        "cmd:bsdcpio=3.7.2-r1",
+        "cmd:bsdtar=3.7.2-r1",
+        "cmd:bsdunzip=3.7.2-r1"
       ]
     },
     "nload-doc": {
@@ -1631,7 +1632,8 @@
     "libarchive-static": {
       "origin": "libarchive",
       "versions": {
-        "3.7.2-r0": 1694594242
+        "3.7.2-r0": 1694594242,
+        "3.7.2-r1": 1711874420
       }
     },
     "altermime-doc": {
@@ -3195,7 +3197,8 @@
     "libarchive-doc": {
       "origin": "libarchive",
       "versions": {
-        "3.7.2-r0": 1694594242
+        "3.7.2-r0": 1694594242,
+        "3.7.2-r1": 1711874420
       }
     },
     "kamailio-sipdump": {
@@ -38956,10 +38959,11 @@
     "libarchive-dev": {
       "origin": "libarchive",
       "versions": {
-        "3.7.2-r0": 1694594242
+        "3.7.2-r0": 1694594242,
+        "3.7.2-r1": 1711874420
       },
       "dependencies": [
-        "libarchive=3.7.2-r0",
+        "libarchive=3.7.2-r1",
         "pc:libcrypto",
         "pkgconfig"
       ],
@@ -42772,7 +42776,8 @@
     "libarchive": {
       "origin": "libarchive",
       "versions": {
-        "3.7.2-r0": 1694594242
+        "3.7.2-r0": 1694594242,
+        "3.7.2-r1": 1711874420
       },
       "dependencies": [
         "so:libacl.so.1",
