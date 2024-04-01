@@ -1733,7 +1733,8 @@
       "origin": "apk-tools",
       "versions": {
         "2.14.0-r2": 1683727230,
-        "2.14.2-r0": 1711962296
+        "2.14.2-r0": 1711962296,
+        "2.14.3-r0": 1711974164
       },
       "dependencies": [
         "musl>=1.2.3_git20230424",
@@ -1744,44 +1745,48 @@
       "origin": "apk-tools",
       "versions": {
         "2.14.0-r2": 1683727230,
-        "2.14.2-r0": 1711962296
+        "2.14.2-r0": 1711962296,
+        "2.14.3-r0": 1711974164
       },
       "dependencies": [
-        "apk-tools=2.14.2-r0",
+        "apk-tools=2.14.3-r0",
         "pc:openssl",
         "pc:zlib",
         "pkgconfig"
       ],
       "provides": [
-        "pc:apk=2.14.2"
+        "pc:apk=2.14.3"
       ]
     },
     "apk-tools-doc": {
       "origin": "apk-tools",
       "versions": {
         "2.14.0-r2": 1683727230,
-        "2.14.2-r0": 1711962296
+        "2.14.2-r0": 1711962296,
+        "2.14.3-r0": 1711974164
       }
     },
     "apk-tools-static": {
       "origin": "apk-tools",
       "versions": {
         "2.14.0-r2": 1683727230,
-        "2.14.2-r0": 1711962296
+        "2.14.2-r0": 1711962296,
+        "2.14.3-r0": 1711974164
       },
       "dependencies": [
         "musl>=1.2.3_git20230424",
         "ca-certificates-bundle"
       ],
       "provides": [
-        "cmd:apk.static=2.14.2-r0"
+        "cmd:apk.static=2.14.3-r0"
       ]
     },
     "apk-tools-zsh-completion": {
       "origin": "apk-tools",
       "versions": {
         "2.14.0-r2": 1683727230,
-        "2.14.2-r0": 1711962296
+        "2.14.2-r0": 1711962296,
+        "2.14.3-r0": 1711974164
       }
     },
     "apkbuild-cpan": {
@@ -30936,7 +30941,8 @@
       "origin": "apk-tools",
       "versions": {
         "2.14.0-r2": 1683727230,
-        "2.14.2-r0": 1711962296
+        "2.14.2-r0": 1711962296,
+        "2.14.3-r0": 1711974164
       },
       "dependencies": [
         "musl>=1.2.3_git20230424",
