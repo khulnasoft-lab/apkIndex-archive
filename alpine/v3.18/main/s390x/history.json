@@ -1664,7 +1664,8 @@
     "apk-tools": {
       "origin": "apk-tools",
       "versions": {
-        "2.14.0-r2": 1683727230
+        "2.14.0-r2": 1683727230,
+        "2.14.2-r0": 1711962296
       },
       "dependencies": [
         "musl>=1.2.3_git20230424",
@@ -1676,13 +1677,14 @@
       ],
       "provides": [
         "so:libapk.so.2.14.0=2.14.0",
-        "cmd:apk=2.14.0-r2"
+        "cmd:apk=2.14.2-r0"
       ]
     },
     "apk-tools-dbg": {
       "origin": "apk-tools",
       "versions": {
-        "2.14.0-r2": 1683727230
+        "2.14.0-r2": 1683727230,
+        "2.14.2-r0": 1711962296
       },
       "dependencies": [
         "musl>=1.2.3_git20230424",
@@ -1692,41 +1694,45 @@
     "apk-tools-dev": {
       "origin": "apk-tools",
       "versions": {
-        "2.14.0-r2": 1683727230
+        "2.14.0-r2": 1683727230,
+        "2.14.2-r0": 1711962296
       },
       "dependencies": [
-        "apk-tools=2.14.0-r2",
+        "apk-tools=2.14.2-r0",
         "pc:openssl",
         "pc:zlib",
         "pkgconfig"
       ],
       "provides": [
-        "pc:apk=2.14.0"
+        "pc:apk=2.14.2"
       ]
     },
     "apk-tools-doc": {
       "origin": "apk-tools",
       "versions": {
-        "2.14.0-r2": 1683727230
+        "2.14.0-r2": 1683727230,
+        "2.14.2-r0": 1711962296
       }
     },
     "apk-tools-static": {
       "origin": "apk-tools",
       "versions": {
-        "2.14.0-r2": 1683727230
+        "2.14.0-r2": 1683727230,
+        "2.14.2-r0": 1711962296
       },
       "dependencies": [
         "musl>=1.2.3_git20230424",
         "ca-certificates-bundle"
       ],
       "provides": [
-        "cmd:apk.static=2.14.0-r2"
+        "cmd:apk.static=2.14.2-r0"
       ]
     },
     "apk-tools-zsh-completion": {
       "origin": "apk-tools",
       "versions": {
-        "2.14.0-r2": 1683727230
+        "2.14.0-r2": 1683727230,
+        "2.14.2-r0": 1711962296
       }
     },
     "apkbuild-cpan": {
@@ -30338,7 +30344,8 @@
     "lua5.3-apk": {
       "origin": "apk-tools",
       "versions": {
-        "2.14.0-r2": 1683727230
+        "2.14.0-r2": 1683727230,
+        "2.14.2-r0": 1711962296
       },
       "dependencies": [
         "musl>=1.2.3_git20230424",
