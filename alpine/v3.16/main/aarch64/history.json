@@ -16365,13 +16365,14 @@
     "postgresql-common": {
       "origin": "postgresql-common",
       "versions": {
-        "1.1-r3": 1676410915
+        "1.1-r3": 1676410915,
+        "1.1-r4": 1712015434
       },
       "dependencies": [
         "/bin/sh"
       ],
       "provides": [
-        "cmd:pg_versions=1.1-r3"
+        "cmd:pg_versions=1.1-r4"
       ]
     },
     "open-isns-lib": {
@@ -17203,7 +17204,8 @@
     "postgresql-common-openrc": {
       "origin": "postgresql-common",
       "versions": {
-        "1.1-r3": 1676410915
+        "1.1-r3": 1676410915,
+        "1.1-r4": 1712015434
       }
     },
     "freeradius-checkrad": {

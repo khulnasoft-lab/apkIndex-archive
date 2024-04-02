@@ -9608,7 +9608,8 @@
     "postgresql-common-openrc": {
       "origin": "postgresql-common",
       "versions": {
-        "1.1-r3": 1676410893
+        "1.1-r3": 1676410893,
+        "1.1-r4": 1712015397
       }
     },
     "py3-gv": {
@@ -56872,13 +56873,14 @@
     "postgresql-common": {
       "origin": "postgresql-common",
       "versions": {
-        "1.1-r3": 1676410893
+        "1.1-r3": 1676410893,
+        "1.1-r4": 1712015397
       },
       "dependencies": [
         "/bin/sh"
       ],
       "provides": [
-        "cmd:pg_versions=1.1-r3"
+        "cmd:pg_versions=1.1-r4"
       ]
     },
     "mariadb-server-utils": {
