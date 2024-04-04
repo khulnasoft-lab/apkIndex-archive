@@ -3173,7 +3173,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -11220,7 +11221,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -12035,13 +12037,14 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "lynx"
       ],
       "provides": [
-        "cmd:apachectl=2.4.58-r0"
+        "cmd:apachectl=2.4.59-r0"
       ]
     },
     "keyutils": {
@@ -23280,7 +23283,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       }
     },
     "libpng-dev": {
@@ -25121,7 +25125,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -34349,7 +34354,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -36359,7 +36365,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -37199,7 +37206,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "so:libapr-1.so.0",
@@ -37209,16 +37217,16 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:ab=2.4.58-r0",
-        "cmd:checkgid=2.4.58-r0",
-        "cmd:dbmmanage=2.4.58-r0",
-        "cmd:htcacheclean=2.4.58-r0",
-        "cmd:htdbm=2.4.58-r0",
-        "cmd:htdigest=2.4.58-r0",
-        "cmd:htpasswd=2.4.58-r0",
-        "cmd:httxt2dbm=2.4.58-r0",
-        "cmd:logresolve=2.4.58-r0",
-        "cmd:rotatelogs=2.4.58-r0"
+        "cmd:ab=2.4.59-r0",
+        "cmd:checkgid=2.4.59-r0",
+        "cmd:dbmmanage=2.4.59-r0",
+        "cmd:htcacheclean=2.4.59-r0",
+        "cmd:htdbm=2.4.59-r0",
+        "cmd:htdigest=2.4.59-r0",
+        "cmd:htpasswd=2.4.59-r0",
+        "cmd:httxt2dbm=2.4.59-r0",
+        "cmd:logresolve=2.4.59-r0",
+        "cmd:rotatelogs=2.4.59-r0"
       ]
     },
     "rpcsvc-proto": {
@@ -37916,7 +37924,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       }
     },
     "bluez-zsh-completion": {
@@ -41359,14 +41368,15 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "perl",
         "apr-util-dev"
       ],
       "provides": [
-        "cmd:apxs=2.4.58-r0"
+        "cmd:apxs=2.4.59-r0"
       ]
     },
     "perl-datetime-doc": {
@@ -41514,7 +41524,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -43701,7 +43712,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "/bin/sh",
@@ -43712,9 +43724,9 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:fcgistarter=2.4.58-r0",
-        "cmd:httpd=2.4.58-r0",
-        "cmd:suexec=2.4.58-r0"
+        "cmd:fcgistarter=2.4.59-r0",
+        "cmd:httpd=2.4.59-r0",
+        "cmd:suexec=2.4.59-r0"
       ]
     },
     "mariadb-server-utils": {
@@ -44080,7 +44092,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -46083,7 +46096,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -55729,7 +55743,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       }
     },
     "harfbuzz-utils": {
