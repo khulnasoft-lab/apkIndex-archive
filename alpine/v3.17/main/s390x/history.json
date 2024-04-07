@@ -50101,7 +50101,8 @@
     "perl-http-body": {
       "origin": "perl-http-body",
       "versions": {
-        "1.22-r1": 1627487151
+        "1.22-r1": 1627487151,
+        "1.22-r2": 1712502187
       },
       "dependencies": [
         "perl",
@@ -51290,7 +51291,8 @@
     "perl-http-body-doc": {
       "origin": "perl-http-body",
       "versions": {
-        "1.22-r1": 1627487151
+        "1.22-r1": 1627487151,
+        "1.22-r2": 1712502187
       }
     },
     "libidn-doc": {
