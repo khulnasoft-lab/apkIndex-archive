@@ -1441,7 +1441,8 @@
     "varnish-dbg": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       },
       "dependencies": [
         "gcc",
@@ -3358,7 +3359,8 @@
     "varnish-doc": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       }
     },
     "libmd-dev": {
@@ -20499,14 +20501,15 @@
     "varnish-dev": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       },
       "dependencies": [
         "pkgconfig",
-        "varnish-libs=7.2.1-r0"
+        "varnish-libs=7.3.2-r0"
       ],
       "provides": [
-        "pc:varnishapi=7.2.1"
+        "pc:varnishapi=7.3.2"
       ]
     },
     "at-spi2-core-dbg": {
@@ -26426,7 +26429,8 @@
     "varnish": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       },
       "dependencies": [
         "gcc",
@@ -26441,16 +26445,16 @@
         "so:libvarnishapi.so.3"
       ],
       "provides": [
-        "cmd:varnishadm=7.2.1-r0",
-        "cmd:varnishd=7.2.1-r0",
-        "cmd:varnishhist=7.2.1-r0",
-        "cmd:varnishlog=7.2.1-r0",
-        "cmd:varnishncsa=7.2.1-r0",
-        "cmd:varnishreload=7.2.1-r0",
-        "cmd:varnishstat=7.2.1-r0",
-        "cmd:varnishstat_help_gen=7.2.1-r0",
-        "cmd:varnishtest=7.2.1-r0",
-        "cmd:varnishtop=7.2.1-r0"
+        "cmd:varnishadm=7.3.2-r0",
+        "cmd:varnishd=7.3.2-r0",
+        "cmd:varnishhist=7.3.2-r0",
+        "cmd:varnishlog=7.3.2-r0",
+        "cmd:varnishncsa=7.3.2-r0",
+        "cmd:varnishreload=7.3.2-r0",
+        "cmd:varnishstat=7.3.2-r0",
+        "cmd:varnishstat_help_gen=7.3.2-r0",
+        "cmd:varnishtest=7.3.2-r0",
+        "cmd:varnishtop=7.3.2-r0"
       ]
     },
     "perl-dbd-pg": {
@@ -31275,7 +31279,8 @@
     "varnish-libs": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       },
       "dependencies": [
         "gcc",
@@ -44422,7 +44427,8 @@
     "varnish-openrc": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       }
     },
     "lz4-tests": {
