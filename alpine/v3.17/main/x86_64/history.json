@@ -9747,7 +9747,8 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.12-r5": 1712706533
       }
     },
     "pinentry": {
@@ -12918,7 +12919,8 @@
         "4.16.5-r4": 1700020782,
         "4.16.5-r5": 1702419421,
         "4.16.5-r6": 1706623639,
-        "4.16.5-r7": 1710806072
+        "4.16.5-r7": 1710806072,
+        "4.16.6-r0": 1712703299
       }
     },
     "nettle-static": {
@@ -25765,7 +25767,8 @@
         "4.16.5-r4": 1700020782,
         "4.16.5-r5": 1702419421,
         "4.16.5-r6": 1706623639,
-        "4.16.5-r7": 1710806072
+        "4.16.5-r7": 1710806072,
+        "4.16.6-r0": 1712703299
       },
       "dependencies": [
         "argp-standalone",
@@ -25795,7 +25798,7 @@
         "zlib-dev",
         "zstd-dev",
         "pkgconfig",
-        "xen-libs=4.16.5-r7"
+        "xen-libs=4.16.6-r0"
       ],
       "provides": [
         "pc:xencall=1.3",
@@ -28741,18 +28744,19 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.12-r5": 1712706533
       },
       "dependencies": [
-        "libssl3=3.0.12-r4",
-        "libcrypto3=3.0.12-r4",
+        "libssl3=3.0.12-r5",
+        "libcrypto3=3.0.12-r5",
         "so:libc.musl-x86_64.so.1",
         "so:libcrypto.so.3",
         "so:libssl.so.3"
       ],
       "provides": [
-        "openssl3=3.0.12-r4",
-        "cmd:openssl=3.0.12-r4"
+        "openssl3=3.0.12-r5",
+        "cmd:openssl=3.0.12-r5"
       ]
     },
     "mc-doc": {
@@ -30884,7 +30888,8 @@
         "4.16.5-r4": 1700020782,
         "4.16.5-r5": 1702419421,
         "4.16.5-r6": 1706623639,
-        "4.16.5-r7": 1710806072
+        "4.16.5-r7": 1710806072,
+        "4.16.6-r0": 1712703299
       },
       "dependencies": [
         "dnsmasq"
@@ -34248,7 +34253,8 @@
         "4.16.5-r4": 1700020782,
         "4.16.5-r5": 1702419421,
         "4.16.5-r6": 1706623639,
-        "4.16.5-r7": 1710806072
+        "4.16.5-r7": 1710806072,
+        "4.16.6-r0": 1712703299
       }
     },
     "perl-pathtools-doc": {
@@ -40947,7 +40953,8 @@
         "4.16.5-r4": 1700020782,
         "4.16.5-r5": 1702419421,
         "4.16.5-r6": 1706623639,
-        "4.16.5-r7": 1710806072
+        "4.16.5-r7": 1710806072,
+        "4.16.6-r0": 1712703299
       },
       "dependencies": [
         "bash",
@@ -40983,8 +40990,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:qemu-img-xen=4.16.5-r7",
-        "cmd:qemu-nbd-xen=4.16.5-r7"
+        "cmd:qemu-img-xen=4.16.6-r0",
+        "cmd:qemu-nbd-xen=4.16.6-r0"
       ]
     },
     "perl-data-optlist": {
@@ -46461,7 +46468,8 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.12-r5": 1712706533
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
@@ -50146,7 +50154,8 @@
         "4.16.5-r4": 1700020782,
         "4.16.5-r5": 1702419421,
         "4.16.5-r6": 1706623639,
-        "4.16.5-r7": 1710806072
+        "4.16.5-r7": 1710806072,
+        "4.16.6-r0": 1712703299
       },
       "dependencies": [
         "bash",
@@ -50174,61 +50183,61 @@
         "so:libyajl.so.2"
       ],
       "provides": [
-        "cmd:flask-get-bool=4.16.5-r7",
-        "cmd:flask-getenforce=4.16.5-r7",
-        "cmd:flask-label-pci=4.16.5-r7",
-        "cmd:flask-loadpolicy=4.16.5-r7",
-        "cmd:flask-set-bool=4.16.5-r7",
-        "cmd:flask-setenforce=4.16.5-r7",
-        "cmd:gdbsx=4.16.5-r7",
-        "cmd:vchan-socket-proxy=4.16.5-r7",
-        "cmd:xen-access=4.16.5-r7",
-        "cmd:xen-cpuid=4.16.5-r7",
-        "cmd:xen-detect=4.16.5-r7",
-        "cmd:xen-diag=4.16.5-r7",
-        "cmd:xen-hptool=4.16.5-r7",
-        "cmd:xen-hvmcrash=4.16.5-r7",
-        "cmd:xen-hvmctx=4.16.5-r7",
-        "cmd:xen-kdd=4.16.5-r7",
-        "cmd:xen-livepatch=4.16.5-r7",
-        "cmd:xen-lowmemd=4.16.5-r7",
-        "cmd:xen-mceinj=4.16.5-r7",
-        "cmd:xen-memshare=4.16.5-r7",
-        "cmd:xen-mfndump=4.16.5-r7",
-        "cmd:xen-ucode=4.16.5-r7",
-        "cmd:xen-vmtrace=4.16.5-r7",
-        "cmd:xenalyze=4.16.5-r7",
-        "cmd:xenbaked=4.16.5-r7",
-        "cmd:xencons=4.16.5-r7",
-        "cmd:xenconsoled=4.16.5-r7",
-        "cmd:xencov=4.16.5-r7",
-        "cmd:xencov_split=4.16.5-r7",
-        "cmd:xenhypfs=4.16.5-r7",
-        "cmd:xenlockprof=4.16.5-r7",
-        "cmd:xenmon=4.16.5-r7",
-        "cmd:xenperf=4.16.5-r7",
-        "cmd:xenpm=4.16.5-r7",
-        "cmd:xenpmd=4.16.5-r7",
-        "cmd:xenstore-chmod=4.16.5-r7",
-        "cmd:xenstore-control=4.16.5-r7",
-        "cmd:xenstore-exists=4.16.5-r7",
-        "cmd:xenstore-list=4.16.5-r7",
-        "cmd:xenstore-ls=4.16.5-r7",
-        "cmd:xenstore-read=4.16.5-r7",
-        "cmd:xenstore-rm=4.16.5-r7",
-        "cmd:xenstore-watch=4.16.5-r7",
-        "cmd:xenstore-write=4.16.5-r7",
-        "cmd:xenstore=4.16.5-r7",
-        "cmd:xenstored=4.16.5-r7",
-        "cmd:xentop=4.16.5-r7",
-        "cmd:xentrace=4.16.5-r7",
-        "cmd:xentrace_format=4.16.5-r7",
-        "cmd:xentrace_setmask=4.16.5-r7",
-        "cmd:xentrace_setsize=4.16.5-r7",
-        "cmd:xenwatchdogd=4.16.5-r7",
-        "cmd:xl=4.16.5-r7",
-        "py3.10:grub=4.16.5-r7",
-        "py3.10:xen=4.16.5-r7"
+        "cmd:flask-get-bool=4.16.6-r0",
+        "cmd:flask-getenforce=4.16.6-r0",
+        "cmd:flask-label-pci=4.16.6-r0",
+        "cmd:flask-loadpolicy=4.16.6-r0",
+        "cmd:flask-set-bool=4.16.6-r0",
+        "cmd:flask-setenforce=4.16.6-r0",
+        "cmd:gdbsx=4.16.6-r0",
+        "cmd:vchan-socket-proxy=4.16.6-r0",
+        "cmd:xen-access=4.16.6-r0",
+        "cmd:xen-cpuid=4.16.6-r0",
+        "cmd:xen-detect=4.16.6-r0",
+        "cmd:xen-diag=4.16.6-r0",
+        "cmd:xen-hptool=4.16.6-r0",
+        "cmd:xen-hvmcrash=4.16.6-r0",
+        "cmd:xen-hvmctx=4.16.6-r0",
+        "cmd:xen-kdd=4.16.6-r0",
+        "cmd:xen-livepatch=4.16.6-r0",
+        "cmd:xen-lowmemd=4.16.6-r0",
+        "cmd:xen-mceinj=4.16.6-r0",
+        "cmd:xen-memshare=4.16.6-r0",
+        "cmd:xen-mfndump=4.16.6-r0",
+        "cmd:xen-ucode=4.16.6-r0",
+        "cmd:xen-vmtrace=4.16.6-r0",
+        "cmd:xenalyze=4.16.6-r0",
+        "cmd:xenbaked=4.16.6-r0",
+        "cmd:xencons=4.16.6-r0",
+        "cmd:xenconsoled=4.16.6-r0",
+        "cmd:xencov=4.16.6-r0",
+        "cmd:xencov_split=4.16.6-r0",
+        "cmd:xenhypfs=4.16.6-r0",
+        "cmd:xenlockprof=4.16.6-r0",
+        "cmd:xenmon=4.16.6-r0",
+        "cmd:xenperf=4.16.6-r0",
+        "cmd:xenpm=4.16.6-r0",
+        "cmd:xenpmd=4.16.6-r0",
+        "cmd:xenstore-chmod=4.16.6-r0",
+        "cmd:xenstore-control=4.16.6-r0",
+        "cmd:xenstore-exists=4.16.6-r0",
+        "cmd:xenstore-list=4.16.6-r0",
+        "cmd:xenstore-ls=4.16.6-r0",
+        "cmd:xenstore-read=4.16.6-r0",
+        "cmd:xenstore-rm=4.16.6-r0",
+        "cmd:xenstore-watch=4.16.6-r0",
+        "cmd:xenstore-write=4.16.6-r0",
+        "cmd:xenstore=4.16.6-r0",
+        "cmd:xenstored=4.16.6-r0",
+        "cmd:xentop=4.16.6-r0",
+        "cmd:xentrace=4.16.6-r0",
+        "cmd:xentrace_format=4.16.6-r0",
+        "cmd:xentrace_setmask=4.16.6-r0",
+        "cmd:xentrace_setsize=4.16.6-r0",
+        "cmd:xenwatchdogd=4.16.6-r0",
+        "cmd:xl=4.16.6-r0",
+        "py3.10:grub=4.16.6-r0",
+        "py3.10:xen=4.16.6-r0"
       ]
     },
     "syslog-ng-json": {
@@ -53876,7 +53885,8 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.12-r5": 1712706533
       }
     },
     "vulkan-tools": {
@@ -55297,7 +55307,8 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.12-r5": 1712706533
       }
     },
     "git": {
@@ -55985,7 +55996,8 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.12-r5": 1712706533
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -56034,15 +56046,16 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.12-r5": 1712706533
       },
       "dependencies": [
-        "libcrypto3=3.0.12-r4",
-        "libssl3=3.0.12-r4",
+        "libcrypto3=3.0.12-r5",
+        "libssl3=3.0.12-r5",
         "pkgconfig"
       ],
       "provides": [
-        "openssl3-dev=3.0.12-r4",
+        "openssl3-dev=3.0.12-r5",
         "pc:libcrypto=3.0.12",
         "pc:libssl=3.0.12",
         "pc:openssl=3.0.12"
@@ -56675,7 +56688,8 @@
         "4.16.5-r4": 1700020782,
         "4.16.5-r5": 1702419421,
         "4.16.5-r6": 1706623639,
-        "4.16.5-r7": 1710806072
+        "4.16.5-r7": 1710806072,
+        "4.16.6-r0": 1712703299
       }
     },
     "espeak-dev": {
@@ -57195,7 +57209,8 @@
         "4.16.5-r4": 1700020782,
         "4.16.5-r5": 1702419421,
         "4.16.5-r6": 1706623639,
-        "4.16.5-r7": 1710806072
+        "4.16.5-r7": 1710806072,
+        "4.16.6-r0": 1712703299
       },
       "dependencies": [
         "so:libbz2.so.1",
@@ -66593,7 +66608,7 @@
       },
       "openssl3": {
         "package": "openssl",
-        "version": "3.0.12-r4"
+        "version": "3.0.12-r5"
       },
       "py-btrfs-progs": {
         "package": "py3-btrfs-progs",
@@ -67117,7 +67132,7 @@
       },
       "openssl3-dev": {
         "package": "openssl-dev",
-        "version": "3.0.12-r4"
+        "version": "3.0.12-r5"
       },
       "libnftnl-libs": {
         "package": "libnftnl",
