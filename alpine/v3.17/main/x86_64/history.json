@@ -45535,7 +45535,8 @@
       "origin": "putty",
       "versions": {
         "0.78-r0": 1667099436,
-        "0.80-r0": 1702960109
+        "0.80-r0": 1702960109,
+        "0.81-r0": 1713350391
       },
       "dependencies": [
         "ncurses-terminfo-base",
@@ -45551,14 +45552,14 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:pageant=0.80-r0",
-        "cmd:plink=0.80-r0",
-        "cmd:pscp=0.80-r0",
-        "cmd:psftp=0.80-r0",
-        "cmd:psusan=0.80-r0",
-        "cmd:pterm=0.80-r0",
-        "cmd:putty=0.80-r0",
-        "cmd:puttygen=0.80-r0"
+        "cmd:pageant=0.81-r0",
+        "cmd:plink=0.81-r0",
+        "cmd:pscp=0.81-r0",
+        "cmd:psftp=0.81-r0",
+        "cmd:psusan=0.81-r0",
+        "cmd:pterm=0.81-r0",
+        "cmd:putty=0.81-r0",
+        "cmd:puttygen=0.81-r0"
       ]
     },
     "linux-firmware-ene-ub6250": {
@@ -55073,7 +55074,8 @@
       "origin": "putty",
       "versions": {
         "0.78-r0": 1667099436,
-        "0.80-r0": 1702960109
+        "0.80-r0": 1702960109,
+        "0.81-r0": 1713350391
       }
     },
     "curl-static": {
