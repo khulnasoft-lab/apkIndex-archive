@@ -26495,7 +26495,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.71-r0": 1685229302,
-        "1.4.73-r0": 1698817812
+        "1.4.73-r0": 1698817812,
+        "1.4.76-r0": 1713938958
       },
       "dependencies": [
         "/bin/sh",
@@ -26512,29 +26513,32 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.73-r0",
-        "cmd:lighttpd=1.4.73-r0"
+        "cmd:lighttpd-angel=1.4.76-r0",
+        "cmd:lighttpd=1.4.76-r0"
       ]
     },
     "lighttpd-dbg": {
       "origin": "lighttpd",
       "versions": {
         "1.4.71-r0": 1685229302,
-        "1.4.73-r0": 1698817812
+        "1.4.73-r0": 1698817812,
+        "1.4.76-r0": 1713938958
       }
     },
     "lighttpd-doc": {
       "origin": "lighttpd",
       "versions": {
         "1.4.71-r0": 1685229302,
-        "1.4.73-r0": 1698817812
+        "1.4.73-r0": 1698817812,
+        "1.4.76-r0": 1713938958
       }
     },
     "lighttpd-mod_auth": {
       "origin": "lighttpd",
       "versions": {
         "1.4.71-r0": 1685229302,
-        "1.4.73-r0": 1698817812
+        "1.4.73-r0": 1698817812,
+        "1.4.76-r0": 1713938958
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -26545,7 +26549,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.71-r0": 1685229302,
-        "1.4.73-r0": 1698817812
+        "1.4.73-r0": 1698817812,
+        "1.4.76-r0": 1713938958
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -26557,7 +26562,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.71-r0": 1685229302,
-        "1.4.73-r0": 1698817812
+        "1.4.73-r0": 1698817812,
+        "1.4.76-r0": 1713938958
       }
     },
     "linenoise": {
