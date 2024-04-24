@@ -1745,7 +1745,8 @@
     "ruby": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680287125
+        "3.1.4-r0": 1680287125,
+        "3.1.5-r0": 1713967919
       },
       "dependencies": [
         "ca-certificates",
@@ -1757,18 +1758,18 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "ruby-bigdecimal=3.1.4-r0",
-        "ruby-etc=3.1.4-r0",
-        "ruby-fiddle=3.1.4-r0",
-        "ruby-gdbm=3.1.4-r0",
-        "ruby-io-console=3.1.4-r0",
-        "ruby-irb=3.1.4-r0",
-        "ruby-json=3.1.4-r0",
-        "cmd:erb=3.1.4-r0",
-        "cmd:gem=3.1.4-r0",
-        "cmd:irb=3.1.4-r0",
-        "cmd:racc=3.1.4-r0",
-        "cmd:ruby=3.1.4-r0"
+        "ruby-bigdecimal=3.1.5-r0",
+        "ruby-etc=3.1.5-r0",
+        "ruby-fiddle=3.1.5-r0",
+        "ruby-gdbm=3.1.5-r0",
+        "ruby-io-console=3.1.5-r0",
+        "ruby-irb=3.1.5-r0",
+        "ruby-json=3.1.5-r0",
+        "cmd:erb=3.1.5-r0",
+        "cmd:gem=3.1.5-r0",
+        "cmd:irb=3.1.5-r0",
+        "cmd:racc=3.1.5-r0",
+        "cmd:ruby=3.1.5-r0"
       ]
     },
     "cyrus-sasl": {
@@ -2565,14 +2566,15 @@
     "ruby-rdoc": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680287125
+        "3.1.4-r0": 1680287125,
+        "3.1.5-r0": 1713967919
       },
       "dependencies": [
         "ruby"
       ],
       "provides": [
-        "cmd:rdoc=3.1.4-r0",
-        "cmd:ri=3.1.4-r0"
+        "cmd:rdoc=3.1.5-r0",
+        "cmd:ri=3.1.5-r0"
       ]
     },
     "nftables-dev": {
@@ -4852,7 +4854,8 @@
     "ruby-net-smtp-doc": {
       "origin": "ruby-net-smtp",
       "versions": {
-        "0.3.1-r0": 1649093063
+        "0.3.1-r0": 1649093063,
+        "0.3.4-r0": 1713967913
       },
       "dependencies": [
         "ruby"
@@ -7485,7 +7488,8 @@
     "ruby-libs": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680287125
+        "3.1.4-r0": 1680287125,
+        "3.1.5-r0": 1713967919
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -7500,7 +7504,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libruby.so.3.1=3.1.4"
+        "so:libruby.so.3.1=3.1.5"
       ]
     },
     "mlmmj-doc": {
@@ -10301,7 +10305,8 @@
     "ruby-full": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680287125
+        "3.1.4-r0": 1680287125,
+        "3.1.5-r0": 1713967919
       },
       "dependencies": [
         "ruby",
@@ -10313,10 +10318,10 @@
         "ruby-test-unit>=3.5.3",
         "ruby-rexml>=3.2.5",
         "ruby-rss>=0.2.9",
-        "ruby-net-ftp>=0.1.3",
-        "ruby-net-imap>=0.2.3",
+        "ruby-net-ftp>=0.1.4",
+        "ruby-net-imap>=0.2.4",
         "ruby-net-pop>=0.1.1",
-        "ruby-net-smtp>=0.3.1",
+        "ruby-net-smtp>=0.3.1.1",
         "ruby-matrix>=0.4.2",
         "ruby-prime>=0.1.2",
         "ruby-rbs>=2.7.0",
@@ -17546,15 +17551,16 @@
     "ruby-dev": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680287125
+        "3.1.4-r0": 1680287125,
+        "3.1.5-r0": 1713967919
       },
       "dependencies": [
-        "ruby=3.1.4-r0",
-        "ruby-rdoc=3.1.4-r0",
+        "ruby=3.1.5-r0",
+        "ruby-rdoc=3.1.5-r0",
         "gmp-dev",
         "libucontext-dev",
         "pkgconfig",
-        "ruby-libs=3.1.4-r0"
+        "ruby-libs=3.1.5-r0"
       ],
       "provides": [
         "pc:ruby-3.1=3.1.0"
@@ -24144,7 +24150,8 @@
     "ruby-doc": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680287125
+        "3.1.4-r0": 1680287125,
+        "3.1.5-r0": 1713967919
       }
     },
     "rng-tools": {
@@ -40907,7 +40914,8 @@
     "ruby-net-smtp": {
       "origin": "ruby-net-smtp",
       "versions": {
-        "0.3.1-r0": 1649093063
+        "0.3.1-r0": 1649093063,
+        "0.3.4-r0": 1713967913
       },
       "dependencies": [
         "ruby"
@@ -56762,7 +56770,8 @@
     "ruby-dbg": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680287125
+        "3.1.4-r0": 1680287125,
+        "3.1.5-r0": 1713967919
       },
       "dependencies": [
         "ca-certificates"
@@ -58723,31 +58732,31 @@
       },
       "ruby-bigdecimal": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-etc": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-fiddle": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-gdbm": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-io-console": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-irb": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-json": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "uboot-tools": {
         "package": "u-boot-tools",
@@ -60457,7 +60466,7 @@
       },
       "libruby.so.3.1": {
         "package": "ruby-libs",
-        "version": "3.1.4"
+        "version": "3.1.5"
       },
       "libcairo-gobject.so.2": {
         "package": "cairo-gobject",
