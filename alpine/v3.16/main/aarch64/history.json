@@ -405,7 +405,8 @@
     "gtk+3.0": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.34-r1": 1654066903
+        "3.24.34-r1": 1654066903,
+        "3.24.41-r0": 1714060535
       },
       "dependencies": [
         "shared-mime-info",
@@ -446,15 +447,11 @@
       ],
       "provides": [
         "so:libgailutil-3.so.0=0.0.0",
-        "so:libgdk-3.so.0=0.2404.30",
-        "so:libgtk-3.so.0=0.2404.30",
-        "cmd:broadwayd=3.24.34-r1",
-        "cmd:gtk-builder-tool=3.24.34-r1",
-        "cmd:gtk-encode-symbolic-svg=3.24.34-r1",
-        "cmd:gtk-launch=3.24.34-r1",
-        "cmd:gtk-query-immodules-3.0=3.24.34-r1",
-        "cmd:gtk-query-settings=3.24.34-r1",
-        "cmd:gtk3-icon-browser=3.24.34-r1"
+        "so:libgdk-3.so.0=0.2409.32",
+        "so:libgtk-3.so.0=0.2409.32",
+        "cmd:broadwayd=3.24.41-r0",
+        "cmd:gtk-launch=3.24.41-r0",
+        "cmd:gtk-query-immodules-3.0=3.24.41-r0"
       ]
     },
     "dansguardian-doc": {
@@ -18494,7 +18491,8 @@
     "gtk+3.0-dev": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.34-r1": 1654066903
+        "3.24.34-r1": 1654066903,
+        "3.24.41-r0": 1714060535
       },
       "dependencies": [
         "atk-dev",
@@ -18504,11 +18502,11 @@
         "libxext-dev",
         "libxi-dev",
         "libxinerama-dev",
-        "wayland-protocols",
+        "libxkbcommon-dev",
         "wayland-libs-client",
         "wayland-libs-cursor",
-        "libxkbcommon-dev",
-        "gtk+3.0=3.24.34-r1",
+        "wayland-protocols",
+        "gtk+3.0=3.24.41-r0",
         "pc:atk",
         "pc:atk-bridge-2.0",
         "pc:atk>=2.35.1",
@@ -18538,19 +18536,30 @@
         "pc:xinerama",
         "pc:xkbcommon>=0.2.0",
         "pc:xrandr",
-        "pkgconfig"
+        "pkgconfig",
+        "so:libc.musl-aarch64.so.1",
+        "so:libgdk-3.so.0",
+        "so:libgdk_pixbuf-2.0.so.0",
+        "so:libgio-2.0.so.0",
+        "so:libglib-2.0.so.0",
+        "so:libgobject-2.0.so.0",
+        "so:libgtk-3.so.0",
+        "so:libintl.so.8"
       ],
       "provides": [
-        "pc:gail-3.0=3.24.34",
-        "pc:gdk-3.0=3.24.34",
-        "pc:gdk-broadway-3.0=3.24.34",
-        "pc:gdk-wayland-3.0=3.24.34",
-        "pc:gdk-x11-3.0=3.24.34",
-        "pc:gtk+-3.0=3.24.34",
-        "pc:gtk+-broadway-3.0=3.24.34",
-        "pc:gtk+-unix-print-3.0=3.24.34",
-        "pc:gtk+-wayland-3.0=3.24.34",
-        "pc:gtk+-x11-3.0=3.24.34"
+        "pc:gail-3.0=3.24.41",
+        "pc:gdk-3.0=3.24.41",
+        "pc:gdk-broadway-3.0=3.24.41",
+        "pc:gdk-wayland-3.0=3.24.41",
+        "pc:gdk-x11-3.0=3.24.41",
+        "pc:gtk+-3.0=3.24.41",
+        "pc:gtk+-broadway-3.0=3.24.41",
+        "pc:gtk+-unix-print-3.0=3.24.41",
+        "pc:gtk+-wayland-3.0=3.24.41",
+        "pc:gtk+-x11-3.0=3.24.41",
+        "cmd:gtk-builder-tool=3.24.41-r0",
+        "cmd:gtk-encode-symbolic-svg=3.24.41-r0",
+        "cmd:gtk-query-settings=3.24.41-r0"
       ]
     },
     "ciwiki-doc": {
@@ -25060,7 +25069,8 @@
     "gtk+3.0-demo": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.34-r1": 1654066903
+        "3.24.34-r1": 1654066903,
+        "3.24.41-r0": 1714060535
       },
       "dependencies": [
         "shared-mime-info",
@@ -25081,9 +25091,10 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:gtk3-demo-application=3.24.34-r1",
-        "cmd:gtk3-demo=3.24.34-r1",
-        "cmd:gtk3-widget-factory=3.24.34-r1"
+        "cmd:gtk3-demo-application=3.24.41-r0",
+        "cmd:gtk3-demo=3.24.41-r0",
+        "cmd:gtk3-icon-browser=3.24.41-r0",
+        "cmd:gtk3-widget-factory=3.24.41-r0"
       ]
     },
     "pcre": {
@@ -37912,7 +37923,8 @@
     "gtk+3.0-dbg": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.34-r1": 1654066903
+        "3.24.34-r1": 1654066903,
+        "3.24.41-r0": 1714060535
       },
       "dependencies": [
         "shared-mime-info",
@@ -45969,7 +45981,8 @@
     "gtk+3.0-lang": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.34-r1": 1654066903
+        "3.24.34-r1": 1654066903,
+        "3.24.41-r0": 1714060535
       },
       "dependencies": [
         "shared-mime-info",
@@ -49424,7 +49437,8 @@
     "gtk-update-icon-cache": {
       "origin": "gtk+2.0",
       "versions": {
-        "2.24.33-r3": 1654739989
+        "2.24.33-r3": 1654739989,
+        "3.24.41-r0": 1714060535
       },
       "dependencies": [
         "hicolor-icon-theme",
@@ -57136,7 +57150,8 @@
     "gtk+3.0-doc": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.34-r1": 1654066903
+        "3.24.34-r1": 1654066903,
+        "3.24.41-r0": 1714060535
       }
     },
     "ttf-dejavu": {
@@ -60671,11 +60686,11 @@
       },
       "libgdk-3.so.0": {
         "package": "gtk+3.0",
-        "version": "0.2404.30"
+        "version": "0.2409.32"
       },
       "libgtk-3.so.0": {
         "package": "gtk+3.0",
-        "version": "0.2404.30"
+        "version": "0.2409.32"
       },
       "rlm_redis.so": {
         "package": "freeradius-redis",
