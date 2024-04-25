@@ -288,7 +288,8 @@
     "ruby-net-imap-doc": {
       "origin": "ruby-net-imap",
       "versions": {
-        "0.2.3-r0": 1649093062
+        "0.2.3-r0": 1649093062,
+        "0.2.4-r0": 1714046242
       },
       "dependencies": [
         "ruby"
@@ -8123,7 +8124,8 @@
     "ruby-net-imap": {
       "origin": "ruby-net-imap",
       "versions": {
-        "0.2.3-r0": 1649093062
+        "0.2.3-r0": 1649093062,
+        "0.2.4-r0": 1714046242
       },
       "dependencies": [
         "ruby"
@@ -30244,7 +30246,8 @@
     "ruby-net-ftp": {
       "origin": "ruby-net-ftp",
       "versions": {
-        "0.1.3-r0": 1649093062
+        "0.1.3-r0": 1649093062,
+        "0.1.4-r0": 1714046161
       },
       "dependencies": [
         "ruby"
@@ -31750,7 +31753,8 @@
     "ruby-net-ftp-doc": {
       "origin": "ruby-net-ftp",
       "versions": {
-        "0.1.3-r0": 1649093062
+        "0.1.3-r0": 1649093062,
+        "0.1.4-r0": 1714046161
       },
       "dependencies": [
         "ruby"
