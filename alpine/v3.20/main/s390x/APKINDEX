@@ -66464,36 +66464,36 @@ t:1710460959
 c:8a69d460b3977724ebeed5a607369da769719f3e
 i:psmisc=23.7-r0 lang
 
-C:Q1C2L5MJNqSLgdyw9qc+isqlEvi3k=
+C:Q17zHIp4COZCpjUH432Lli9yLxn0Y=
 P:pspg
-V:5.8.2-r0
+V:5.8.5-r0
 A:s390x
-S:122896
+S:122973
 I:294912
 T:A unix pager optimized for psql
 U:https://github.com/okbob/pspg
 L:BSD-2-Clause
 o:pspg
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1710857488
-c:722f85ccecd9e1c70d645fd7132926789b652baf
+t:1714166640
+c:809b5e74caf11e23f6acc7e017fa0ac1feb63cda
 D:so:libc.musl-s390x.so.1 so:libncursesw.so.6 so:libpanelw.so.6 so:libpq.so.5 so:libreadline.so.8
-p:cmd:pspg=5.8.2-r0
+p:cmd:pspg=5.8.5-r0
 
-C:Q1GYqfFW1fW2fpeb6AY7RtLj1M6uU=
+C:Q15T9X7zuu6LpV00RcPQ1asPiZ1ts=
 P:pspg-doc
-V:5.8.2-r0
+V:5.8.5-r0
 A:s390x
-S:13377
+S:13381
 I:32768
 T:A unix pager optimized for psql (documentation)
 U:https://github.com/okbob/pspg
 L:BSD-2-Clause
 o:pspg
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1710857488
-c:722f85ccecd9e1c70d645fd7132926789b652baf
-i:docs pspg=5.8.2-r0
+t:1714166640
+c:809b5e74caf11e23f6acc7e017fa0ac1feb63cda
+i:docs pspg=5.8.5-r0
 
 C:Q1QDqKoW1kwhCzIs7NJTC/+xGFxqI=
 P:psqlodbc
