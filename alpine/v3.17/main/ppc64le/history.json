@@ -14559,7 +14559,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -21545,7 +21546,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       },
       "dependencies": [
         "/bin/sh",
@@ -21562,8 +21564,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.73-r0",
-        "cmd:lighttpd=1.4.73-r0"
+        "cmd:lighttpd-angel=1.4.76-r0",
+        "cmd:lighttpd=1.4.76-r0"
       ]
     },
     "nagios-plugins-disk": {
@@ -23855,12 +23857,12 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
         "so:libsqlite3.so.0",
-        "so:libuuid.so.1",
         "so:libxml2.so.2"
       ]
     },
@@ -42519,7 +42521,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       }
     },
     "libxext-doc": {
@@ -45964,7 +45967,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       }
     },
     "uwsgi-pam": {
@@ -57135,7 +57139,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       }
     },
     "linux-firmware-sb16": {

@@ -14363,7 +14363,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       }
     },
     "iw-doc": {
@@ -28602,7 +28603,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -29426,7 +29428,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       },
       "dependencies": [
         "/bin/sh",
@@ -29443,8 +29446,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.73-r0",
-        "cmd:lighttpd=1.4.73-r0"
+        "cmd:lighttpd-angel=1.4.76-r0",
+        "cmd:lighttpd=1.4.76-r0"
       ]
     },
     "linux-firmware-keyspan_pda": {
@@ -29727,12 +29730,12 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
         "so:libsqlite3.so.0",
-        "so:libuuid.so.1",
         "so:libxml2.so.2"
       ]
     },
@@ -45222,7 +45225,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       }
     },
     "perl-lwp-useragent-determined": {
@@ -51518,7 +51522,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       }
     },
     "perl-data-uuid-doc": {
