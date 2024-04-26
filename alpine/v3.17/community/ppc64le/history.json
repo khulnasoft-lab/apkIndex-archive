@@ -19664,7 +19664,8 @@
     "flatpak-dbg": {
       "origin": "flatpak",
       "versions": {
-        "1.14.4-r0": 1679017276
+        "1.14.4-r0": 1679017276,
+        "1.14.6-r0": 1714129190
       },
       "dependencies": [
         "bubblewrap",
@@ -53499,7 +53500,8 @@
     "flatpak-lang": {
       "origin": "flatpak",
       "versions": {
-        "1.14.4-r0": 1679017276
+        "1.14.4-r0": 1679017276,
+        "1.14.6-r0": 1714129190
       },
       "dependencies": [
         "bubblewrap",
@@ -67604,7 +67606,8 @@
     "flatpak-fish-completion": {
       "origin": "flatpak",
       "versions": {
-        "1.14.4-r0": 1679017276
+        "1.14.4-r0": 1679017276,
+        "1.14.6-r0": 1714129190
       }
     },
     "audacity": {
@@ -91482,7 +91485,8 @@
     "flatpak": {
       "origin": "flatpak",
       "versions": {
-        "1.14.4-r0": 1679017276
+        "1.14.4-r0": 1679017276,
+        "1.14.6-r0": 1714129190
       },
       "dependencies": [
         "bubblewrap",
@@ -91510,9 +91514,9 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:flatpak-bisect=1.14.4-r0",
-        "cmd:flatpak-coredumpctl=1.14.4-r0",
-        "cmd:flatpak=1.14.4-r0"
+        "cmd:flatpak-bisect=1.14.6-r0",
+        "cmd:flatpak-coredumpctl=1.14.6-r0",
+        "cmd:flatpak=1.14.6-r0"
       ]
     },
     "ceph17-osd-daemon": {
@@ -96553,7 +96557,8 @@
     "flatpak-bash-completion": {
       "origin": "flatpak",
       "versions": {
-        "1.14.4-r0": 1679017276
+        "1.14.4-r0": 1679017276,
+        "1.14.6-r0": 1714129190
       }
     },
     "qmlkonsole-lang": {
@@ -124159,7 +124164,8 @@
     "flatpak-libs": {
       "origin": "flatpak",
       "versions": {
-        "1.14.4-r0": 1679017276
+        "1.14.4-r0": 1679017276,
+        "1.14.6-r0": 1714129190
       },
       "dependencies": [
         "so:libXau.so.6",
@@ -124178,7 +124184,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libflatpak.so.0=0.11404.0"
+        "so:libflatpak.so.0=0.11406.0"
       ]
     },
     "yelp-tools": {
@@ -147192,10 +147198,11 @@
     "flatpak-dev": {
       "origin": "flatpak",
       "versions": {
-        "1.14.4-r0": 1679017276
+        "1.14.4-r0": 1679017276,
+        "1.14.6-r0": 1714129190
       },
       "dependencies": [
-        "flatpak-libs=1.14.4-r0",
+        "flatpak-libs=1.14.6-r0",
         "pc:gio-2.0",
         "pc:gio-unix-2.0",
         "pc:glib-2.0",
@@ -147203,7 +147210,7 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:flatpak=1.14.4"
+        "pc:flatpak=1.14.6"
       ]
     },
     "libabw-dev": {
@@ -151337,7 +151344,8 @@
     "flatpak-zsh-completion": {
       "origin": "flatpak",
       "versions": {
-        "1.14.4-r0": 1679017276
+        "1.14.4-r0": 1679017276,
+        "1.14.6-r0": 1714129190
       }
     },
     "snapcast-doc": {
@@ -168902,7 +168910,7 @@
       },
       "libflatpak.so.0": {
         "package": "flatpak-libs",
-        "version": "0.11404.0"
+        "version": "0.11406.0"
       },
       "libKF5SonnetCore.so.5": {
         "package": "sonnet",
