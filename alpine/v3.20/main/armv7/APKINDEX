@@ -18339,66 +18339,66 @@ m:Carlo Landmeter <clandmeter@alpinelinux.org>
 t:1693035731
 c:7f609ee675d809634bfcd8dea7f453605cf08743
 
-C:Q1HsXHcNHuxteEnmbzFq/7RDsoUJA=
+C:Q1rUGebQPowOSLHYnaFGT3R4uiLDc=
 P:fribidi
-V:1.0.13-r0
+V:1.0.14-r0
 A:armv7
-S:25309
-I:139264
+S:25032
+I:135168
 T:Free Implementation of the Unicode Bidirectional Algorithm
 U:https://github.com/fribidi/fribidi
 L:LGPL-2.1-or-later
 o:fribidi
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1684796432
-c:3052c1fd21e7b420a0bfdeb977bbe6678b802b07
+t:1714240064
+c:1deec7cf8f578ddc42438dd05482add05a825fa3
 D:so:libc.musl-armv7.so.1
-p:so:libfribidi.so.0=0.4.0 cmd:fribidi=1.0.13-r0
+p:so:libfribidi.so.0=0.4.0 cmd:fribidi=1.0.14-r0
 
-C:Q1lbzocD3E8/u7/cgLmNgoQTYJx9s=
+C:Q1XpIw2Oq0DmfnVmKRvypoLCx7gBU=
 P:fribidi-dev
-V:1.0.13-r0
+V:1.0.14-r0
 A:armv7
-S:20266
+S:20251
 I:151552
 T:Free Implementation of the Unicode Bidirectional Algorithm (development files)
 U:https://github.com/fribidi/fribidi
 L:LGPL-2.1-or-later
 o:fribidi
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1684796432
-c:3052c1fd21e7b420a0bfdeb977bbe6678b802b07
-D:fribidi=1.0.13-r0 pkgconfig
-p:pc:fribidi=1.0.13
+t:1714240064
+c:1deec7cf8f578ddc42438dd05482add05a825fa3
+D:fribidi=1.0.14-r0 pkgconfig
+p:pc:fribidi=1.0.14
 
-C:Q1N6oR3L2TMqs+RxaqmHK5F77nOMU=
+C:Q1TKmtKVzegJAda396ENHCj2u4eQ4=
 P:fribidi-doc
-V:1.0.13-r0
+V:1.0.14-r0
 A:armv7
-S:32026
+S:32032
 I:147456
 T:Free Implementation of the Unicode Bidirectional Algorithm (documentation)
 U:https://github.com/fribidi/fribidi
 L:LGPL-2.1-or-later
 o:fribidi
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1684796432
-c:3052c1fd21e7b420a0bfdeb977bbe6678b802b07
-i:docs fribidi=1.0.13-r0
+t:1714240064
+c:1deec7cf8f578ddc42438dd05482add05a825fa3
+i:docs fribidi=1.0.14-r0
 
-C:Q1THckoReUouRp+OMhnTpha1tiD9I=
+C:Q1GI7/BNo9poW1iPuu2G1a3F04NVs=
 P:fribidi-static
-V:1.0.13-r0
+V:1.0.14-r0
 A:armv7
-S:22393
-I:139264
+S:22093
+I:135168
 T:Free Implementation of the Unicode Bidirectional Algorithm (static library)
 U:https://github.com/fribidi/fribidi
 L:LGPL-2.1-or-later
 o:fribidi
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1684796432
-c:3052c1fd21e7b420a0bfdeb977bbe6678b802b07
+t:1714240064
+c:1deec7cf8f578ddc42438dd05482add05a825fa3
 
 C:Q1nDhuEFwwuB4llIvCpLFdX9k0I58=
 P:fsarchiver
