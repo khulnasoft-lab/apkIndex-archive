@@ -20268,7 +20268,8 @@
     "iniparser": {
       "origin": "iniparser",
       "versions": {
-        "4.1-r4": 1713131337
+        "4.1-r4": 1713131337,
+        "4.2-r0": 1714376005
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
@@ -20280,10 +20281,11 @@
     "iniparser-dev": {
       "origin": "iniparser",
       "versions": {
-        "4.1-r4": 1713131337
+        "4.1-r4": 1713131337,
+        "4.2-r0": 1714376005
       },
       "dependencies": [
-        "iniparser=4.1-r4"
+        "iniparser=4.2-r0"
       ]
     },
     "inotify-tools": {

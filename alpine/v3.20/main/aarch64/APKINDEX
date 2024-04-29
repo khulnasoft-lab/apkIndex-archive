@@ -24202,36 +24202,36 @@ c:6b41befc8b82681aaa31f06760d4d4a090ba3618
 D:inih-inireader=58-r0 pc:inih pkgconfig
 p:pc:INIReader=58
 
-C:Q1mfuwsD06tXS+Dqex31EaBt8POiA=
+C:Q1zH7hEY7BmgLS6Kk4D6SXWefVd6Q=
 P:iniparser
-V:4.1-r4
+V:4.2-r0
 A:aarch64
-S:9541
+S:9992
 I:81920
 T:C library for parsing INI-style files
 U:https://github.com/ndevilla/iniparser
 L:MIT
 o:iniparser
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1713131337
-c:7940154866030be62a917aef8fa130e02f47ca48
+t:1714376005
+c:527041975a327361c65a41556bae049e7affc6c4
 D:so:libc.musl-aarch64.so.1
 p:so:libiniparser.so.1=1
 
-C:Q1zUaY0ms+jBv3DTrN0MPO5s9z1Oo=
+C:Q1BftADNL5/OIACQBa+0fUFq/vH+M=
 P:iniparser-dev
-V:4.1-r4
+V:4.2-r0
 A:aarch64
-S:5739
-I:40960
+S:6114
+I:45056
 T:C library for parsing INI-style files (development files)
 U:https://github.com/ndevilla/iniparser
 L:MIT
 o:iniparser
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1713131337
-c:7940154866030be62a917aef8fa130e02f47ca48
-D:iniparser=4.1-r4
+t:1714376005
+c:527041975a327361c65a41556bae049e7affc6c4
+D:iniparser=4.2-r0
 
 C:Q1FLEtttyerrtiCJ7HIwHzXYfVuvg=
 P:inotify-tools
