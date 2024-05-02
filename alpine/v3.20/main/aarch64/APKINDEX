@@ -15479,83 +15479,83 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1704406371
 c:8f69b7f40313eba00f4fdeb43058cb31bb27abc0
 
-C:Q15oae+yhqd4Nc1ld7cZcs9VJdo3Q=
+C:Q1D6UZYbGPd+XMpdbX4at2m2PC+VI=
 P:fail2ban
-V:1.0.2-r4
+V:1.1.0-r0
 A:aarch64
-S:264826
-I:1519616
+S:279044
+I:1576960
 T:Scans log files for login failures then updates iptables to reject originating ip address
 U:https://www.fail2ban.org/
 L:GPL-2.0-or-later
 o:fail2ban
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
+t:1714639057
+c:254a92c03caa44c0de44c2f4e9d243fb4918c129
 D:python3 iptables logrotate python3~3.12
-p:cmd:fail2ban-client=1.0.2-r4 cmd:fail2ban-python=1.0.2-r4 cmd:fail2ban-regex=1.0.2-r4 cmd:fail2ban-server=1.0.2-r4 py3.12:fail2ban=1.0.2-r4
+p:cmd:fail2ban-client=1.1.0-r0 cmd:fail2ban-python=1.1.0-r0 cmd:fail2ban-regex=1.1.0-r0 cmd:fail2ban-server=1.1.0-r0 py3.12:fail2ban=1.1.0-r0
 
-C:Q1E0dCETJtQSf6PhHyfC6TBjj+lV0=
+C:Q1kHJYtTrnNmFGAymv9deuAxE+xiQ=
 P:fail2ban-doc
-V:1.0.2-r4
+V:1.1.0-r0
 A:aarch64
-S:39037
+S:38629
 I:114688
 T:Scans log files for login failures then updates iptables to reject originating ip address (documentation)
 U:https://www.fail2ban.org/
 L:GPL-2.0-or-later
 o:fail2ban
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
-i:docs fail2ban=1.0.2-r4
+t:1714639057
+c:254a92c03caa44c0de44c2f4e9d243fb4918c129
+i:docs fail2ban=1.1.0-r0
 
-C:Q19iG16jSKl5gk+gOF949m5Sh7hf4=
+C:Q1C1/AY4Bx7cnhZeoW+StlfPd2QW8=
 P:fail2ban-openrc
-V:1.0.2-r4
+V:1.1.0-r0
 A:aarch64
-S:2730
+S:2724
 I:24576
 T:Scans log files for login failures then updates iptables to reject originating ip address (OpenRC init scripts)
 U:https://www.fail2ban.org/
 L:GPL-2.0-or-later
 o:fail2ban
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
-i:openrc fail2ban=1.0.2-r4
+t:1714639057
+c:254a92c03caa44c0de44c2f4e9d243fb4918c129
+i:openrc fail2ban=1.1.0-r0
 
-C:Q1DwJD9MNMbc446pnVkdHLDFFvepY=
+C:Q1ug4wW47rgl1U2UbDsKw+GPsazHs=
 P:fail2ban-pyc
-V:1.0.2-r4
+V:1.1.0-r0
 A:aarch64
-S:569313
-I:1769472
+S:597534
+I:1851392
 T:Precompiled Python bytecode for fail2ban
 U:https://www.fail2ban.org/
 L:GPL-2.0-or-later
 o:fail2ban
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
+t:1714639057
+c:254a92c03caa44c0de44c2f4e9d243fb4918c129
 D:python3 iptables logrotate python3~3.12
-i:fail2ban=1.0.2-r4 pyc
+i:fail2ban=1.1.0-r0 pyc
 
-C:Q1dcWBiTVum15v2kkVQvFRDyV/3Ns=
+C:Q1rmHryWWDtpJP64h7/AdcIj9MAew=
 P:fail2ban-tests
-V:1.0.2-r4
+V:1.1.0-r0
 A:aarch64
-S:213999
-I:1482752
+S:220441
+I:1507328
 T:Fail2ban test cases
 U:https://www.fail2ban.org/
 L:GPL-2.0-or-later
 o:fail2ban
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1712915016
-c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
-D:fail2ban=1.0.2-r4 python3~3.12
-p:cmd:fail2ban-testcases=1.0.2-r4
+t:1714639057
+c:254a92c03caa44c0de44c2f4e9d243fb4918c129
+D:fail2ban=1.1.0-r0 python3~3.12
+p:cmd:fail2ban-testcases=1.1.0-r0
 
 C:Q1pGxVKFAzEm0FAAIvzyrPv0P73x8=
 P:fakeroot
