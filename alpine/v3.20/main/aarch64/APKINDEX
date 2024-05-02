@@ -48867,51 +48867,51 @@ t:1714139574
 c:ffdac24eb646a0cbb0f4e88e8b6f90aebaafa6aa
 D:perl
 
-C:Q14EeP1udly6EgLShCL8r6HMiRGkU=
+C:Q1dfZo6gZD2d/DMt+Q2PyMbvkLtz0=
 P:nano
-V:7.2-r1
+V:8.0-r0
 A:aarch64
-S:155701
+S:163948
 I:364544
 T:Enhanced clone of the Pico text editor
 U:https://www.nano-editor.org
 L:GPL-3.0-or-later
 o:nano
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1710257622
-c:fc95c59998285564fbcb0bfb2443898c62e10171
+t:1714639115
+c:6a31b3eb9951fdb2c3b9c23aaa4c7319f67cb9fc
 D:so:libc.musl-aarch64.so.1 so:libncursesw.so.6
-p:cmd:nano=7.2-r1 cmd:rnano=7.2-r1
+p:cmd:nano=8.0-r0 cmd:rnano=8.0-r0
 
-C:Q1TYrF//AtFtiZoe7AdOTOnjwNRGc=
+C:Q1FTybaEb0XSqGu59lcNninAYOZgs=
 P:nano-doc
-V:7.2-r1
+V:8.0-r0
 A:aarch64
-S:80083
-I:278528
+S:82642
+I:286720
 T:Enhanced clone of the Pico text editor (documentation)
 U:https://www.nano-editor.org
 L:GPL-3.0-or-later
 o:nano
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1710257622
-c:fc95c59998285564fbcb0bfb2443898c62e10171
-i:docs nano=7.2-r1
+t:1714639115
+c:6a31b3eb9951fdb2c3b9c23aaa4c7319f67cb9fc
+i:docs nano=8.0-r0
 
-C:Q1q5sfIw57tK+lcIlkASfTt8jENh4=
+C:Q1LsmMAHHq5Qp151IsF0iTuCwY4aA=
 P:nano-syntax
-V:7.2-r1
+V:8.0-r0
 A:aarch64
-S:27086
+S:27126
 I:208896
 T:Syntax highlighting definitions for nano
 U:https://www.nano-editor.org
 L:GPL-3.0-or-later
 o:nano
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1710257622
-c:fc95c59998285564fbcb0bfb2443898c62e10171
-D:nano=7.2-r1
+t:1714639115
+c:6a31b3eb9951fdb2c3b9c23aaa4c7319f67cb9fc
+D:nano=8.0-r0
 
 C:Q1vj4pPN5UxyMzj6FNciWOgyeB0dA=
 P:nasm

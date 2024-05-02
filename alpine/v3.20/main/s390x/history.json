@@ -38984,30 +38984,33 @@
     "nano": {
       "origin": "nano",
       "versions": {
-        "7.2-r1": 1710257622
+        "7.2-r1": 1710257622,
+        "8.0-r0": 1714639115
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:nano=7.2-r1",
-        "cmd:rnano=7.2-r1"
+        "cmd:nano=8.0-r0",
+        "cmd:rnano=8.0-r0"
       ]
     },
     "nano-doc": {
       "origin": "nano",
       "versions": {
-        "7.2-r1": 1710257622
+        "7.2-r1": 1710257622,
+        "8.0-r0": 1714639115
       }
     },
     "nano-syntax": {
       "origin": "nano",
       "versions": {
-        "7.2-r1": 1710257622
+        "7.2-r1": 1710257622,
+        "8.0-r0": 1714639115
       },
       "dependencies": [
-        "nano=7.2-r1"
+        "nano=8.0-r0"
       ]
     },
     "nasm": {
