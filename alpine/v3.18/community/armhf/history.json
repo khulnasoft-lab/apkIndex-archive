@@ -38250,7 +38250,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700182694,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
         "python3~3.11",
@@ -38267,8 +38268,8 @@
         "so:libxml2.so.2"
       ],
       "provides": [
-        "so:libges-1.0.so.0=0.2208.0",
-        "cmd:ges-launch-1.0=1.22.8-r0"
+        "so:libges-1.0.so.0=0.2212.0",
+        "cmd:ges-launch-1.0=1.22.12-r0"
       ]
     },
     "gst-editing-services-dev": {
@@ -38276,10 +38277,11 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700182694,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
-        "gst-editing-services=1.22.8-r0",
+        "gst-editing-services=1.22.12-r0",
         "pc:gio-2.0>=2.62.0",
         "pc:gstreamer-1.0>=1.22.0",
         "pc:gstreamer-base-1.0>=1.22.0",
@@ -38290,7 +38292,7 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gst-editing-services-1.0=1.22.8"
+        "pc:gst-editing-services-1.0=1.22.12"
       ]
     },
     "gst-editing-services-doc": {
@@ -38298,7 +38300,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700182694,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       }
     },
     "gst-libav": {
@@ -38306,7 +38309,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167754,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
         "so:libavcodec.so.60",
@@ -38347,7 +38351,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167754,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
         "so:libIex-3_1.so.30",
@@ -38426,7 +38431,7 @@
       ],
       "provides": [
         "so:libgstaccurip.so=0",
-        "so:libgstadaptivedemux-1.0.so.0=0.2208.0",
+        "so:libgstadaptivedemux-1.0.so.0=0.2212.0",
         "so:libgstadpcmdec.so=0",
         "so:libgstadpcmenc.so=0",
         "so:libgstaes.so=0",
@@ -38440,20 +38445,20 @@
         "so:libgstaudiomixmatrix.so=0",
         "so:libgstaudiovisualizers.so=0",
         "so:libgstautoconvert.so=0",
-        "so:libgstbadaudio-1.0.so.0=0.2208.0",
-        "so:libgstbasecamerabinsrc-1.0.so.0=0.2208.0",
+        "so:libgstbadaudio-1.0.so.0=0.2212.0",
+        "so:libgstbasecamerabinsrc-1.0.so.0=0.2212.0",
         "so:libgstbayer.so=0",
         "so:libgstbluez.so=0",
         "so:libgstbz2.so=0",
         "so:libgstcamerabin.so=0",
         "so:libgstclosedcaption.so=0",
         "so:libgstcodecalpha.so=0",
-        "so:libgstcodecparsers-1.0.so.0=0.2208.0",
-        "so:libgstcodecs-1.0.so.0=0.2208.0",
+        "so:libgstcodecparsers-1.0.so.0=0.2212.0",
+        "so:libgstcodecs-1.0.so.0=0.2212.0",
         "so:libgstcodectimestamper.so=0",
         "so:libgstcoloreffects.so=0",
         "so:libgstcolormanagement.so=0",
-        "so:libgstcuda-1.0.so.0=0.2208.0",
+        "so:libgstcuda-1.0.so.0=0.2212.0",
         "so:libgstcurl.so=0",
         "so:libgstdash.so=0",
         "so:libgstdc1394.so=0",
@@ -38482,11 +38487,11 @@
         "so:libgstgtkwayland.so=0",
         "so:libgsthls.so=0",
         "so:libgstid3tag.so=0",
-        "so:libgstinsertbin-1.0.so.0=0.2208.0",
+        "so:libgstinsertbin-1.0.so.0=0.2212.0",
         "so:libgstinter.so=0",
         "so:libgstinterlace.so=0",
         "so:libgstipcpipeline.so=0",
-        "so:libgstisoff-1.0.so.0=0.2208.0",
+        "so:libgstisoff-1.0.so.0=0.2212.0",
         "so:libgstivfparse.so=0",
         "so:libgstivtc.so=0",
         "so:libgstjp2kdecimator.so=0",
@@ -38498,7 +38503,7 @@
         "so:libgstmodplug.so=0",
         "so:libgstmpegpsdemux.so=0",
         "so:libgstmpegpsmux.so=0",
-        "so:libgstmpegts-1.0.so.0=0.2208.0",
+        "so:libgstmpegts-1.0.so.0=0.2212.0",
         "so:libgstmpegtsdemux.so=0",
         "so:libgstmpegtsmux.so=0",
         "so:libgstmxf.so=0",
@@ -38511,9 +38516,9 @@
         "so:libgstopenjpeg.so=0",
         "so:libgstopusparse.so=0",
         "so:libgstpcapparse.so=0",
-        "so:libgstphotography-1.0.so.0=0.2208.0",
-        "so:libgstplay-1.0.so.0=0.2208.0",
-        "so:libgstplayer-1.0.so.0=0.2208.0",
+        "so:libgstphotography-1.0.so.0=0.2212.0",
+        "so:libgstplay-1.0.so.0=0.2212.0",
+        "so:libgstplayer-1.0.so.0=0.2212.0",
         "so:libgstpnm.so=0",
         "so:libgstproxy.so=0",
         "so:libgstremovesilence.so=0",
@@ -38525,7 +38530,7 @@
         "so:libgstrtpmanagerbad.so=0",
         "so:libgstrtponvif.so=0",
         "so:libgstsbc.so=0",
-        "so:libgstsctp-1.0.so.0=0.2208.0",
+        "so:libgstsctp-1.0.so.0=0.2212.0",
         "so:libgstsctp.so=0",
         "so:libgstsdpelem.so=0",
         "so:libgstsegmentclip.so=0",
@@ -38544,10 +38549,10 @@
         "so:libgsttranscode.so=0",
         "so:libgsttranscoder-1.0.so.0=0",
         "so:libgstttmlsubs.so=0",
-        "so:libgsturidownloader-1.0.so.0=0.2208.0",
+        "so:libgsturidownloader-1.0.so.0=0.2212.0",
         "so:libgstuvch264.so=0",
         "so:libgstv4l2codecs.so=0",
-        "so:libgstva-1.0.so.0=0.2208.0",
+        "so:libgstva-1.0.so.0=0.2212.0",
         "so:libgstva.so=0",
         "so:libgstvideofiltersbad.so=0",
         "so:libgstvideoframe_audiolevel.so=0",
@@ -38556,16 +38561,16 @@
         "so:libgstvmnc.so=0",
         "so:libgstvoaacenc.so=0",
         "so:libgstvoamrwbenc.so=0",
-        "so:libgstwayland-1.0.so.0=0.2208.0",
+        "so:libgstwayland-1.0.so.0=0.2212.0",
         "so:libgstwaylandsink.so=0",
         "so:libgstwebp.so=0",
-        "so:libgstwebrtc-1.0.so.0=0.2208.0",
+        "so:libgstwebrtc-1.0.so.0=0.2212.0",
         "so:libgstwebrtc.so=0",
-        "so:libgstwebrtcnice-1.0.so.0=0.2208.0",
+        "so:libgstwebrtcnice-1.0.so.0=0.2212.0",
         "so:libgsty4mdec.so=0",
         "so:libgstzbar.so=0",
-        "cmd:gst-transcoder-1.0=1.22.8-r0",
-        "cmd:playout=1.22.8-r0"
+        "cmd:gst-transcoder-1.0=1.22.12-r0",
+        "cmd:playout=1.22.12-r0"
       ]
     },
     "gst-plugins-bad-dev": {
@@ -38573,10 +38578,11 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167754,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
-        "gst-plugins-bad=1.22.8-r0",
+        "gst-plugins-bad=1.22.12-r0",
         "pc:gmodule-no-export-2.0",
         "pc:gstreamer-1.0>=1.22.0",
         "pc:gstreamer-allocators-1.0>=1.22.0",
@@ -38595,21 +38601,21 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gstreamer-bad-audio-1.0=1.22.8",
-        "pc:gstreamer-codecparsers-1.0=1.22.8",
-        "pc:gstreamer-cuda-1.0=1.22.8",
-        "pc:gstreamer-insertbin-1.0=1.22.8",
-        "pc:gstreamer-mpegts-1.0=1.22.8",
-        "pc:gstreamer-photography-1.0=1.22.8",
-        "pc:gstreamer-play-1.0=1.22.8",
-        "pc:gstreamer-player-1.0=1.22.8",
-        "pc:gstreamer-plugins-bad-1.0=1.22.8",
-        "pc:gstreamer-sctp-1.0=1.22.8",
-        "pc:gstreamer-transcoder-1.0=1.22.8",
-        "pc:gstreamer-va-1.0=1.22.8",
-        "pc:gstreamer-wayland-1.0=1.22.8",
-        "pc:gstreamer-webrtc-1.0=1.22.8",
-        "pc:gstreamer-webrtc-nice-1.0=1.22.8"
+        "pc:gstreamer-bad-audio-1.0=1.22.12",
+        "pc:gstreamer-codecparsers-1.0=1.22.12",
+        "pc:gstreamer-cuda-1.0=1.22.12",
+        "pc:gstreamer-insertbin-1.0=1.22.12",
+        "pc:gstreamer-mpegts-1.0=1.22.12",
+        "pc:gstreamer-photography-1.0=1.22.12",
+        "pc:gstreamer-play-1.0=1.22.12",
+        "pc:gstreamer-player-1.0=1.22.12",
+        "pc:gstreamer-plugins-bad-1.0=1.22.12",
+        "pc:gstreamer-sctp-1.0=1.22.12",
+        "pc:gstreamer-transcoder-1.0=1.22.12",
+        "pc:gstreamer-va-1.0=1.22.12",
+        "pc:gstreamer-wayland-1.0=1.22.12",
+        "pc:gstreamer-webrtc-1.0=1.22.12",
+        "pc:gstreamer-webrtc-nice-1.0=1.22.12"
       ]
     },
     "gst-plugins-bad-lang": {
@@ -38617,7 +38623,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167754,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       }
     },
     "gst-plugins-good": {
@@ -38625,7 +38632,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167754,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
         "libsoup3",
@@ -38761,7 +38769,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167754,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
         "libsoup3",
@@ -38784,7 +38793,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167754,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
         "libsoup3"
@@ -38795,7 +38805,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167754,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
         "libsoup3",
@@ -38822,7 +38833,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167754,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
         "so:liba52.so.0",
@@ -38861,7 +38873,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167754,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       }
     },
     "gst-vaapi": {
@@ -38869,7 +38882,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167754,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
         "so:libEGL.so.1",
@@ -38893,7 +38907,7 @@
         "so:libva.so.2"
       ],
       "provides": [
-        "gstreamer-vaapi=1.22.8-r0"
+        "gstreamer-vaapi=1.22.12-r0"
       ]
     },
     "gthumb": {
@@ -108151,7 +108165,8 @@
       "versions": {
         "1.22.5-r0": 1689874251,
         "1.22.7-r0": 1700167753,
-        "1.22.8-r0": 1705648249
+        "1.22.8-r0": 1705648249,
+        "1.22.12-r0": 1715080045
       },
       "dependencies": [
         "py3-gobject3",
@@ -167904,7 +167919,7 @@
       },
       "libges-1.0.so.0": {
         "package": "gst-editing-services",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstaccurip.so": {
         "package": "gst-plugins-bad",
@@ -167912,7 +167927,7 @@
       },
       "libgstadaptivedemux-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstadpcmdec.so": {
         "package": "gst-plugins-bad",
@@ -167968,11 +167983,11 @@
       },
       "libgstbadaudio-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstbasecamerabinsrc-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstbayer.so": {
         "package": "gst-plugins-bad",
@@ -168000,11 +168015,11 @@
       },
       "libgstcodecparsers-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstcodecs-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstcodectimestamper.so": {
         "package": "gst-plugins-bad",
@@ -168020,7 +168035,7 @@
       },
       "libgstcuda-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstcurl.so": {
         "package": "gst-plugins-bad",
@@ -168136,7 +168151,7 @@
       },
       "libgstinsertbin-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstinter.so": {
         "package": "gst-plugins-bad",
@@ -168152,7 +168167,7 @@
       },
       "libgstisoff-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstivfparse.so": {
         "package": "gst-plugins-bad",
@@ -168200,7 +168215,7 @@
       },
       "libgstmpegts-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstmpegtsdemux.so": {
         "package": "gst-plugins-bad",
@@ -168252,15 +168267,15 @@
       },
       "libgstphotography-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstplay-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstplayer-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstpnm.so": {
         "package": "gst-plugins-bad",
@@ -168308,7 +168323,7 @@
       },
       "libgstsctp-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstsctp.so": {
         "package": "gst-plugins-bad",
@@ -168384,7 +168399,7 @@
       },
       "libgsturidownloader-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstuvch264.so": {
         "package": "gst-plugins-bad",
@@ -168396,7 +168411,7 @@
       },
       "libgstva-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstva.so": {
         "package": "gst-plugins-bad",
@@ -168432,7 +168447,7 @@
       },
       "libgstwayland-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstwaylandsink.so": {
         "package": "gst-plugins-bad",
@@ -168444,7 +168459,7 @@
       },
       "libgstwebrtc-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgstwebrtc.so": {
         "package": "gst-plugins-bad",
@@ -168452,7 +168467,7 @@
       },
       "libgstwebrtcnice-1.0.so.0": {
         "package": "gst-plugins-bad",
-        "version": "0.2208.0"
+        "version": "0.2212.0"
       },
       "libgsty4mdec.so": {
         "package": "gst-plugins-bad",
@@ -176762,7 +176777,7 @@
       },
       "gstreamer-vaapi": {
         "package": "gst-vaapi",
-        "version": "1.22.8-r0"
+        "version": "1.22.12-r0"
       },
       "diskdev_cmds": {
         "package": "hfsprogs",

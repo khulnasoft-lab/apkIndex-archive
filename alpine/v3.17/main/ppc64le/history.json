@@ -6529,7 +6529,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       }
     },
     "haserl-lua5.4": {
@@ -27280,15 +27281,16 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
-        "libarchive=3.7.2-r1",
+        "libarchive=3.7.4-r0",
         "pc:libcrypto",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libarchive=3.7.2"
+        "pc:libarchive=3.7.4"
       ]
     },
     "nagios-plugins-cluster": {
@@ -36997,7 +36999,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -37011,10 +37014,10 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:bsdcat=3.7.2-r1",
-        "cmd:bsdcpio=3.7.2-r1",
-        "cmd:bsdtar=3.7.2-r1",
-        "cmd:bsdunzip=3.7.2-r1"
+        "cmd:bsdcat=3.7.4-r0",
+        "cmd:bsdcpio=3.7.4-r0",
+        "cmd:bsdtar=3.7.4-r0",
+        "cmd:bsdunzip=3.7.4-r0"
       ]
     },
     "lua5.4-ldap": {
@@ -41354,7 +41357,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -41368,7 +41372,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libarchive.so.13=13.7.2"
+        "so:libarchive.so.13=13.7.4"
       ]
     },
     "bonding": {
@@ -56716,7 +56720,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       }
     },
     "spamassassin-openrc": {
@@ -63331,7 +63336,7 @@
       },
       "libarchive.so.13": {
         "package": "libarchive",
-        "version": "13.7.2"
+        "version": "13.7.4"
       },
       "libespeak.so.1": {
         "package": "espeak",

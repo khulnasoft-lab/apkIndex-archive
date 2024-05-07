@@ -3589,7 +3589,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       }
     },
     "boost1.80-libs": {
@@ -13210,7 +13211,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       }
     },
     "lua5.3-bit32": {
@@ -25317,7 +25319,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -25331,7 +25334,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libarchive.so.13=13.7.2"
+        "so:libarchive.so.13=13.7.4"
       ]
     },
     "nginx": {
@@ -33746,15 +33749,16 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
-        "libarchive=3.7.2-r1",
+        "libarchive=3.7.4-r0",
         "pc:libcrypto",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libarchive=3.7.2"
+        "pc:libarchive=3.7.4"
       ]
     },
     "uwsgi-transformation_offload": {
@@ -47104,7 +47108,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -47118,10 +47123,10 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:bsdcat=3.7.2-r1",
-        "cmd:bsdcpio=3.7.2-r1",
-        "cmd:bsdtar=3.7.2-r1",
-        "cmd:bsdunzip=3.7.2-r1"
+        "cmd:bsdcat=3.7.4-r0",
+        "cmd:bsdcpio=3.7.4-r0",
+        "cmd:bsdtar=3.7.4-r0",
+        "cmd:bsdunzip=3.7.4-r0"
       ]
     },
     "libsrtp": {
@@ -61937,7 +61942,7 @@
       },
       "libarchive.so.13": {
         "package": "libarchive",
-        "version": "13.7.2"
+        "version": "13.7.4"
       },
       "libbaccats-postgresql-13.0.1.so": {
         "package": "bacula-pgsql",

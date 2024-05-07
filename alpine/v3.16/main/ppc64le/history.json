@@ -1871,7 +1871,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694594242,
-        "3.7.2-r1": 1711874420
+        "3.7.2-r1": 1711874420,
+        "3.7.4-r0": 1715077576
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -1885,10 +1886,10 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:bsdcat=3.7.2-r1",
-        "cmd:bsdcpio=3.7.2-r1",
-        "cmd:bsdtar=3.7.2-r1",
-        "cmd:bsdunzip=3.7.2-r1"
+        "cmd:bsdcat=3.7.4-r0",
+        "cmd:bsdcpio=3.7.4-r0",
+        "cmd:bsdtar=3.7.4-r0",
+        "cmd:bsdunzip=3.7.4-r0"
       ]
     },
     "boost1.78-wserialization": {
@@ -22053,7 +22054,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694594242,
-        "3.7.2-r1": 1711874420
+        "3.7.2-r1": 1711874420,
+        "3.7.4-r0": 1715077576
       }
     },
     "freetds": {
@@ -33642,7 +33644,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694594242,
-        "3.7.2-r1": 1711874420
+        "3.7.2-r1": 1711874420,
+        "3.7.4-r0": 1715077576
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -33656,7 +33659,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libarchive.so.13=13.7.2"
+        "so:libarchive.so.13=13.7.4"
       ]
     },
     "py3-libmount": {
@@ -40059,7 +40062,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694594242,
-        "3.7.2-r1": 1711874420
+        "3.7.2-r1": 1711874420,
+        "3.7.4-r0": 1715077576
       }
     },
     "ruby-rr": {
@@ -50606,15 +50610,16 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694594242,
-        "3.7.2-r1": 1711874420
+        "3.7.2-r1": 1711874420,
+        "3.7.4-r0": 1715077576
       },
       "dependencies": [
-        "libarchive=3.7.2-r1",
+        "libarchive=3.7.4-r0",
         "pc:libcrypto",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libarchive=3.7.2"
+        "pc:libarchive=3.7.4"
       ]
     },
     "lua5.2-discount": {
@@ -61683,7 +61688,7 @@
       },
       "libarchive.so.13": {
         "package": "libarchive",
-        "version": "13.7.2"
+        "version": "13.7.4"
       },
       "libboost_python310.so.1.77.0": {
         "package": "boost1.77-python3",

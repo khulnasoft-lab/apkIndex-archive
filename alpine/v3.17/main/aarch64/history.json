@@ -12304,15 +12304,16 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
-        "libarchive=3.7.2-r1",
+        "libarchive=3.7.4-r0",
         "pc:libcrypto",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libarchive=3.7.2"
+        "pc:libarchive=3.7.4"
       ]
     },
     "krb5-dev": {
@@ -14748,7 +14749,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       }
     },
     "encfs-lang": {
@@ -36830,7 +36832,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       }
     },
     "net-snmp-dev": {
@@ -43695,7 +43698,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -43709,10 +43713,10 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:bsdcat=3.7.2-r1",
-        "cmd:bsdcpio=3.7.2-r1",
-        "cmd:bsdtar=3.7.2-r1",
-        "cmd:bsdunzip=3.7.2-r1"
+        "cmd:bsdcat=3.7.4-r0",
+        "cmd:bsdcpio=3.7.4-r0",
+        "cmd:bsdtar=3.7.4-r0",
+        "cmd:bsdunzip=3.7.4-r0"
       ]
     },
     "asterisk-fax": {
@@ -54913,7 +54917,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -54927,7 +54932,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libarchive.so.13=13.7.2"
+        "so:libarchive.so.13=13.7.4"
       ]
     },
     "linux-firmware-wfx": {
@@ -64996,7 +65001,7 @@
       },
       "libarchive.so.13": {
         "package": "libarchive",
-        "version": "13.7.2"
+        "version": "13.7.4"
       },
       "libxcb-composite.so.0": {
         "package": "libxcb",

@@ -679,7 +679,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694594242,
-        "3.7.2-r1": 1711874420
+        "3.7.2-r1": 1711874420,
+        "3.7.4-r0": 1715077576
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -693,10 +694,10 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:bsdcat=3.7.2-r1",
-        "cmd:bsdcpio=3.7.2-r1",
-        "cmd:bsdtar=3.7.2-r1",
-        "cmd:bsdunzip=3.7.2-r1"
+        "cmd:bsdcat=3.7.4-r0",
+        "cmd:bsdcpio=3.7.4-r0",
+        "cmd:bsdtar=3.7.4-r0",
+        "cmd:bsdunzip=3.7.4-r0"
       ]
     },
     "nload-doc": {
@@ -1635,7 +1636,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694594242,
-        "3.7.2-r1": 1711874420
+        "3.7.2-r1": 1711874420,
+        "3.7.4-r0": 1715077576
       }
     },
     "altermime-doc": {
@@ -3207,7 +3209,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694594242,
-        "3.7.2-r1": 1711874420
+        "3.7.2-r1": 1711874420,
+        "3.7.4-r0": 1715077576
       }
     },
     "kamailio-sipdump": {
@@ -39014,15 +39017,16 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694594242,
-        "3.7.2-r1": 1711874420
+        "3.7.2-r1": 1711874420,
+        "3.7.4-r0": 1715077576
       },
       "dependencies": [
-        "libarchive=3.7.2-r1",
+        "libarchive=3.7.4-r0",
         "pc:libcrypto",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libarchive=3.7.2"
+        "pc:libarchive=3.7.4"
       ]
     },
     "mosh-server": {
@@ -42838,7 +42842,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694594242,
-        "3.7.2-r1": 1711874420
+        "3.7.2-r1": 1711874420,
+        "3.7.4-r0": 1715077576
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -42852,7 +42857,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libarchive.so.13=13.7.2"
+        "so:libarchive.so.13=13.7.4"
       ]
     },
     "curl-zsh-completion": {
@@ -64088,7 +64093,7 @@
       },
       "libarchive.so.13": {
         "package": "libarchive",
-        "version": "13.7.2"
+        "version": "13.7.4"
       },
       "libs6net.so.2.5": {
         "package": "s6-networking",
