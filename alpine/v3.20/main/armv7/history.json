@@ -11922,7 +11922,8 @@
     "drbd-utils": {
       "origin": "drbd-utils",
       "versions": {
-        "9.27.0-r0": 1704406371
+        "9.27.0-r0": 1704406371,
+        "9.28.0-r0": 1715079412
       },
       "dependencies": [
         "bash",
@@ -11932,38 +11933,42 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "drbd=9.27.0-r0",
-        "cmd:drbdadm=9.27.0-r0",
-        "cmd:drbdmeta=9.27.0-r0",
-        "cmd:drbdmon=9.27.0-r0",
-        "cmd:drbdsetup=9.27.0-r0"
+        "drbd=9.28.0-r0",
+        "cmd:drbdadm=9.28.0-r0",
+        "cmd:drbdmeta=9.28.0-r0",
+        "cmd:drbdmon=9.28.0-r0",
+        "cmd:drbdsetup=9.28.0-r0"
       ]
     },
     "drbd-utils-bash-completion": {
       "origin": "drbd-utils",
       "versions": {
-        "9.27.0-r0": 1704406371
+        "9.27.0-r0": 1704406371,
+        "9.28.0-r0": 1715079412
       }
     },
     "drbd-utils-doc": {
       "origin": "drbd-utils",
       "versions": {
-        "9.27.0-r0": 1704406371
+        "9.27.0-r0": 1704406371,
+        "9.28.0-r0": 1715079412
       }
     },
     "drbd-utils-openrc": {
       "origin": "drbd-utils",
       "versions": {
-        "9.27.0-r0": 1704406371
+        "9.27.0-r0": 1704406371,
+        "9.28.0-r0": 1715079412
       }
     },
     "drbd-utils-pacemaker": {
       "origin": "drbd-utils",
       "versions": {
-        "9.27.0-r0": 1704406371
+        "9.27.0-r0": 1704406371,
+        "9.28.0-r0": 1715079412
       },
       "dependencies": [
-        "drbd-utils=9.27.0-r0"
+        "drbd-utils=9.28.0-r0"
       ]
     },
     "drill": {
@@ -23257,7 +23262,8 @@
     "libarchive": {
       "origin": "libarchive",
       "versions": {
-        "3.7.3-r0": 1713290949
+        "3.7.3-r0": 1713290949,
+        "3.7.4-r0": 1715079555
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -23271,39 +23277,43 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libarchive.so.13=13.7.3"
+        "so:libarchive.so.13=13.7.4"
       ]
     },
     "libarchive-dev": {
       "origin": "libarchive",
       "versions": {
-        "3.7.3-r0": 1713290949
+        "3.7.3-r0": 1713290949,
+        "3.7.4-r0": 1715079555
       },
       "dependencies": [
-        "libarchive=3.7.3-r0",
+        "libarchive=3.7.4-r0",
         "pc:libcrypto",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libarchive=3.7.3"
+        "pc:libarchive=3.7.4"
       ]
     },
     "libarchive-doc": {
       "origin": "libarchive",
       "versions": {
-        "3.7.3-r0": 1713290949
+        "3.7.3-r0": 1713290949,
+        "3.7.4-r0": 1715079555
       }
     },
     "libarchive-static": {
       "origin": "libarchive",
       "versions": {
-        "3.7.3-r0": 1713290949
+        "3.7.3-r0": 1713290949,
+        "3.7.4-r0": 1715079555
       }
     },
     "libarchive-tools": {
       "origin": "libarchive",
       "versions": {
-        "3.7.3-r0": 1713290949
+        "3.7.3-r0": 1713290949,
+        "3.7.4-r0": 1715079555
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -23317,10 +23327,10 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:bsdcat=3.7.3-r0",
-        "cmd:bsdcpio=3.7.3-r0",
-        "cmd:bsdtar=3.7.3-r0",
-        "cmd:bsdunzip=3.7.3-r0"
+        "cmd:bsdcat=3.7.4-r0",
+        "cmd:bsdcpio=3.7.4-r0",
+        "cmd:bsdtar=3.7.4-r0",
+        "cmd:bsdunzip=3.7.4-r0"
       ]
     },
     "libart-lgpl": {
@@ -23784,7 +23794,8 @@
     "libcap-ng": {
       "origin": "libcap-ng",
       "versions": {
-        "0.8.4-r0": 1703154641
+        "0.8.4-r0": 1703154641,
+        "0.8.5-r0": 1715080084
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
@@ -23797,43 +23808,47 @@
     "libcap-ng-dev": {
       "origin": "libcap-ng",
       "versions": {
-        "0.8.4-r0": 1703154641
+        "0.8.4-r0": 1703154641,
+        "0.8.5-r0": 1715080084
       },
       "dependencies": [
         "linux-headers",
-        "libcap-ng=0.8.4-r0",
+        "libcap-ng=0.8.5-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcap-ng=0.8.4"
+        "pc:libcap-ng=0.8.5"
       ]
     },
     "libcap-ng-doc": {
       "origin": "libcap-ng",
       "versions": {
-        "0.8.4-r0": 1703154641
+        "0.8.4-r0": 1703154641,
+        "0.8.5-r0": 1715080084
       }
     },
     "libcap-ng-static": {
       "origin": "libcap-ng",
       "versions": {
-        "0.8.4-r0": 1703154641
+        "0.8.4-r0": 1703154641,
+        "0.8.5-r0": 1715080084
       }
     },
     "libcap-ng-utils": {
       "origin": "libcap-ng",
       "versions": {
-        "0.8.4-r0": 1703154641
+        "0.8.4-r0": 1703154641,
+        "0.8.5-r0": 1715080084
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
         "so:libcap-ng.so.0"
       ],
       "provides": [
-        "cmd:captest=0.8.4-r0",
-        "cmd:filecap=0.8.4-r0",
-        "cmd:netcap=0.8.4-r0",
-        "cmd:pscap=0.8.4-r0"
+        "cmd:captest=0.8.5-r0",
+        "cmd:filecap=0.8.5-r0",
+        "cmd:netcap=0.8.5-r0",
+        "cmd:pscap=0.8.5-r0"
       ]
     },
     "libcap-setcap": {
@@ -24333,7 +24348,8 @@
     "libeconf": {
       "origin": "libeconf",
       "versions": {
-        "0.6.2-r0": 1709898333
+        "0.6.2-r0": 1709898333,
+        "0.6.3-r0": 1715080109
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -24341,16 +24357,17 @@
       ],
       "provides": [
         "so:libeconf.so.0=0.6.2",
-        "cmd:econftool=0.6.2-r0"
+        "cmd:econftool=0.6.3-r0"
       ]
     },
     "libeconf-dev": {
       "origin": "libeconf",
       "versions": {
-        "0.6.2-r0": 1709898333
+        "0.6.2-r0": 1709898333,
+        "0.6.3-r0": 1715080109
       },
       "dependencies": [
-        "libeconf=0.6.2-r0",
+        "libeconf=0.6.3-r0",
         "pkgconfig"
       ],
       "provides": [
@@ -24360,7 +24377,8 @@
     "libeconf-doc": {
       "origin": "libeconf",
       "versions": {
-        "0.6.2-r0": 1709898333
+        "0.6.2-r0": 1709898333,
+        "0.6.3-r0": 1715080109
       }
     },
     "libecpg": {
@@ -24758,7 +24776,8 @@
     "libfontenc": {
       "origin": "libfontenc",
       "versions": {
-        "1.1.7-r5": 1712871550
+        "1.1.7-r5": 1712871550,
+        "1.1.8-r0": 1715080129
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -24771,14 +24790,15 @@
     "libfontenc-dev": {
       "origin": "libfontenc",
       "versions": {
-        "1.1.7-r5": 1712871550
+        "1.1.7-r5": 1712871550,
+        "1.1.8-r0": 1715080129
       },
       "dependencies": [
-        "libfontenc=1.1.7-r5",
+        "libfontenc=1.1.8-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:fontenc=1.1.7"
+        "pc:fontenc=1.1.8"
       ]
     },
     "libformw": {
@@ -37139,7 +37159,8 @@
     "memcached": {
       "origin": "memcached",
       "versions": {
-        "1.6.26-r0": 1711712033
+        "1.6.26-r0": 1711712033,
+        "1.6.27-r0": 1715079527
       },
       "dependencies": [
         "/bin/sh",
@@ -37149,28 +37170,31 @@
         "so:libseccomp.so.2"
       ],
       "provides": [
-        "cmd:memcached=1.6.26-r0"
+        "cmd:memcached=1.6.27-r0"
       ]
     },
     "memcached-dev": {
       "origin": "memcached",
       "versions": {
-        "1.6.26-r0": 1711712033
+        "1.6.26-r0": 1711712033,
+        "1.6.27-r0": 1715079527
       },
       "dependencies": [
-        "memcached=1.6.26-r0"
+        "memcached=1.6.27-r0"
       ]
     },
     "memcached-doc": {
       "origin": "memcached",
       "versions": {
-        "1.6.26-r0": 1711712033
+        "1.6.26-r0": 1711712033,
+        "1.6.27-r0": 1715079527
       }
     },
     "memcached-openrc": {
       "origin": "memcached",
       "versions": {
-        "1.6.26-r0": 1711712033
+        "1.6.26-r0": 1711712033,
+        "1.6.27-r0": 1715079527
       }
     },
     "mesa": {
@@ -67333,7 +67357,7 @@
       },
       "drbd": {
         "package": "drbd-utils",
-        "version": "9.27.0-r0"
+        "version": "9.28.0-r0"
       },
       "libelf-static": {
         "package": "elfutils-dev",
@@ -71139,7 +71163,7 @@
       },
       "libarchive.so.13": {
         "package": "libarchive",
-        "version": "13.7.3"
+        "version": "13.7.4"
       },
       "libart_lgpl_2.so.2": {
         "package": "libart-lgpl",
