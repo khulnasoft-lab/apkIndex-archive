@@ -53652,52 +53652,52 @@ t:1711086381
 c:05b9245e4c46136f34382b655a0bcefb9ed36a72
 i:openrc openvpn=2.6.10-r0
 
-C:Q1u0RzqKoTMeVkoWUn/DQyGSM1LnE=
+C:Q1qk38lpKDgMGN4KCCzu0dyKIrx3k=
 P:opus
-V:1.4-r0
+V:1.5.2-r0
 A:x86
-S:224305
-I:413696
+S:244276
+I:442368
 T:Codec designed for interactive speech and audio transmission over the Internet
 U:https://www.opus-codec.org/
 L:BSD-3-Clause
 o:opus
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1682013535
-c:7093f95464f0c3b8c88976f8b94d111c6d67c625
+t:1715092607
+c:f1cd6eb3dc54236b8598d30e8c7b9549aff33feb
 D:so:libc.musl-x86.so.1
-p:so:libopus.so.0=0.9.0
+p:so:libopus.so.0=0.10.1
 
-C:Q1BfOJo0fENpVznwpkJ6zUSBRZ5L8=
+C:Q1r4kRBc4xztN8e1HcYLmliThLAMc=
 P:opus-dev
-V:1.4-r0
+V:1.5.2-r0
 A:x86
-S:32894
-I:204800
+S:34061
+I:212992
 T:Codec designed for interactive speech and audio transmission over the Internet (development files)
 U:https://www.opus-codec.org/
 L:BSD-3-Clause
 o:opus
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1682013535
-c:7093f95464f0c3b8c88976f8b94d111c6d67c625
-D:opus=1.4-r0 pkgconfig
-p:pc:opus=1.4
+t:1715092607
+c:f1cd6eb3dc54236b8598d30e8c7b9549aff33feb
+D:opus=1.5.2-r0 pkgconfig
+p:pc:opus=1.5.2
 
-C:Q1fS940Uqlo5pfjQHy4y690yqCK2s=
+C:Q11YBeyOni3P3tXdvHWgShoelGda4=
 P:opus-doc
-V:1.4-r0
+V:1.5.2-r0
 A:x86
-S:2717
+S:2740
 I:24576
 T:Codec designed for interactive speech and audio transmission over the Internet (documentation)
 U:https://www.opus-codec.org/
 L:BSD-3-Clause
 o:opus
 m:Francesco Colista <fcolista@alpinelinux.org>
-t:1682013535
-c:7093f95464f0c3b8c88976f8b94d111c6d67c625
-i:docs opus=1.4-r0
+t:1715092607
+c:f1cd6eb3dc54236b8598d30e8c7b9549aff33feb
+i:docs opus=1.5.2-r0
 
 C:Q1wRIs3aLDEVQxCNoJwbuacOlY/9s=
 P:opusfile
