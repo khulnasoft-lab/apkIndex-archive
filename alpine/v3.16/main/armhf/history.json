@@ -22710,7 +22710,8 @@
     "tinyproxy-doc": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1670312971
+        "1.11.1-r2": 1670312971,
+        "1.11.2-r0": 1715231893
       }
     },
     "py3-cairo-dev": {
@@ -25995,7 +25996,8 @@
     "tinyproxy-openrc": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1670312971
+        "1.11.1-r2": 1670312971,
+        "1.11.2-r0": 1715231893
       }
     },
     "python3-dev": {
@@ -32972,14 +32974,15 @@
     "tinyproxy": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1670312971
+        "1.11.1-r2": 1670312971,
+        "1.11.2-r0": 1715231893
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:tinyproxy=1.11.1-r2"
+        "cmd:tinyproxy=1.11.2-r0"
       ]
     },
     "font-bh-ttf": {

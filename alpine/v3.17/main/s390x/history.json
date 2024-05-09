@@ -36073,14 +36073,15 @@
     "tinyproxy": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1667238995
+        "1.11.1-r2": 1667238995,
+        "1.11.2-r0": 1715232567
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:tinyproxy=1.11.1-r2"
+        "cmd:tinyproxy=1.11.2-r0"
       ]
     },
     "lua5.3-filesize": {
@@ -46106,7 +46107,8 @@
     "tinyproxy-openrc": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1667238995
+        "1.11.1-r2": 1667238995,
+        "1.11.2-r0": 1715232567
       }
     },
     "memcached-dev": {
@@ -57780,7 +57782,8 @@
     "tinyproxy-doc": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1667238995
+        "1.11.1-r2": 1667238995,
+        "1.11.2-r0": 1715232567
       }
     },
     "cyrus-sasl-gssapiv2": {

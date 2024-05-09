@@ -9330,14 +9330,15 @@
     "tinyproxy": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1667238995
+        "1.11.1-r2": 1667238995,
+        "1.11.2-r0": 1715232567
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:tinyproxy=1.11.1-r2"
+        "cmd:tinyproxy=1.11.2-r0"
       ]
     },
     "texinfo": {
@@ -12432,7 +12433,8 @@
     "tinyproxy-doc": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1667238995
+        "1.11.1-r2": 1667238995,
+        "1.11.2-r0": 1715232567
       }
     },
     "libxrandr-dev": {
@@ -38753,7 +38755,8 @@
     "tinyproxy-openrc": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1667238995
+        "1.11.1-r2": 1667238995,
+        "1.11.2-r0": 1715232567
       }
     },
     "libgcrypt-dev": {
