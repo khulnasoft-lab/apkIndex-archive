@@ -3441,13 +3441,14 @@
     "cjson": {
       "origin": "cjson",
       "versions": {
-        "1.7.15-r0": 1629962289
+        "1.7.15-r0": 1629962289,
+        "1.7.17-r0": 1705316223
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "so:libcjson.so.1=1.7.15"
+        "so:libcjson.so.1=1.7.17"
       ]
     },
     "perl-net-ip-doc": {
@@ -10188,7 +10189,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.64-r0": 1642776295,
-        "1.4.73-r0": 1698849213
+        "1.4.73-r0": 1698849213,
+        "1.4.76-r0": 1713466194
       }
     },
     "api-sanity-checker": {
@@ -20332,12 +20334,12 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.64-r0": 1642776295,
-        "1.4.73-r0": 1698849213
+        "1.4.73-r0": 1698849213,
+        "1.4.76-r0": 1713466194
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
         "so:libsqlite3.so.0",
-        "so:libuuid.so.1",
         "so:libxml2.so.2"
       ]
     },
@@ -25502,7 +25504,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.64-r0": 1642776295,
-        "1.4.73-r0": 1698849213
+        "1.4.73-r0": 1698849213,
+        "1.4.76-r0": 1713466194
       },
       "dependencies": [
         "/bin/sh",
@@ -25519,8 +25522,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.73-r0",
-        "cmd:lighttpd=1.4.73-r0"
+        "cmd:lighttpd-angel=1.4.76-r0",
+        "cmd:lighttpd=1.4.76-r0"
       ]
     },
     "libxft-doc": {
@@ -25585,7 +25588,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.64-r0": 1642776295,
-        "1.4.73-r0": 1698849213
+        "1.4.73-r0": 1698849213,
+        "1.4.76-r0": 1713466194
       }
     },
     "zstd-dev": {
@@ -50115,7 +50119,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.64-r0": 1642776295,
-        "1.4.73-r0": 1698849213
+        "1.4.73-r0": 1698849213,
+        "1.4.76-r0": 1713466194
       }
     },
     "perl-text-password-pronounceable-doc": {
@@ -51273,14 +51278,15 @@
     "cjson-dev": {
       "origin": "cjson",
       "versions": {
-        "1.7.15-r0": 1629962289
+        "1.7.15-r0": 1629962289,
+        "1.7.17-r0": 1705316223
       },
       "dependencies": [
-        "cjson=1.7.15-r0",
+        "cjson=1.7.17-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libcjson=1.7.15"
+        "pc:libcjson=1.7.17"
       ]
     },
     "amavisd-milter-openrc": {
@@ -54522,7 +54528,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.64-r0": 1642776295,
-        "1.4.73-r0": 1698849213
+        "1.4.73-r0": 1698849213,
+        "1.4.76-r0": 1713466194
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -58201,7 +58208,7 @@
       },
       "libcjson.so.1": {
         "package": "cjson",
-        "version": "1.7.15"
+        "version": "1.7.17"
       },
       "libdbi.so.1": {
         "package": "libdbi",
