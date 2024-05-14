@@ -1883,15 +1883,16 @@
     "rrdtool": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
-        "font-sony-misc",
+        "font-cantarell",
         "so:libc.musl-x86.so.1",
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdtool=1.7.2-r6"
+        "cmd:rrdtool=1.7.2-r7"
       ]
     },
     "rlog-dev": {
@@ -15597,7 +15598,8 @@
     "lua-rrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -17538,7 +17540,8 @@
     "perl-rrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -25130,7 +25133,8 @@
     "rrdtool-doc": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       }
     },
     "log4cplus-static": {
@@ -26048,14 +26052,15 @@
     "rrdtool-cgi": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdcgi=1.7.2-r6"
+        "cmd:rrdcgi=1.7.2-r7"
       ]
     },
     "uwsgi-rpc": {
@@ -36044,10 +36049,11 @@
     "rrdtool-dev": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
-        "librrd=1.7.2-r6",
+        "librrd=1.7.2-r7",
         "pkgconfig"
       ],
       "provides": [
@@ -43637,16 +43643,17 @@
     "rrdtool-utils": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libglib-2.0.so.0"
       ],
       "provides": [
-        "cmd:rrdcreate=1.7.2-r6",
-        "cmd:rrdinfo=1.7.2-r6",
-        "cmd:rrdupdate=1.7.2-r6"
+        "cmd:rrdcreate=1.7.2-r7",
+        "cmd:rrdinfo=1.7.2-r7",
+        "cmd:rrdupdate=1.7.2-r7"
       ]
     },
     "lua5.4-discount": {
@@ -51458,7 +51465,8 @@
     "librrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -56660,7 +56668,8 @@
     "rrdtool-cached": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -56668,7 +56677,7 @@
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdcached=1.7.2-r6"
+        "cmd:rrdcached=1.7.2-r7"
       ]
     },
     "libsndfile-dev": {
