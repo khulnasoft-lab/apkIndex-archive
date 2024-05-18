@@ -14102,10 +14102,11 @@
     "busybox-static": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "provides": [
-        "cmd:busybox.static=1.35.0-r17"
+        "cmd:busybox.static=1.35.0-r18"
       ]
     },
     "static-routing": {
@@ -14627,7 +14628,8 @@
     "busybox-doc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       }
     },
     "daq-static": {
@@ -18362,14 +18364,15 @@
     "busybox-extras": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:busybox-extras=1.35.0-r17"
+        "cmd:busybox-extras=1.35.0-r18"
       ]
     },
     "linux-firmware-libertas": {
@@ -20315,15 +20318,16 @@
     "busybox": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
         "/bin/sh",
-        "cmd:busybox=1.35.0-r17",
-        "cmd:sh=1.35.0-r17"
+        "cmd:busybox=1.35.0-r18",
+        "cmd:sh=1.35.0-r18"
       ]
     },
     "perl-test-deep-doc": {
@@ -27316,14 +27320,15 @@
     "busybox-suid": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:bbsuid=1.35.0-r17"
+        "cmd:bbsuid=1.35.0-r18"
       ]
     },
     "lm-sensors-sensord": {
@@ -47173,7 +47178,8 @@
     "ssl_client": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -47181,7 +47187,7 @@
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:ssl_client=1.35.0-r17"
+        "cmd:ssl_client=1.35.0-r18"
       ]
     },
     "nagios-plugins-nt": {
@@ -56483,7 +56489,8 @@
     "busybox-ifupdown": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "provides": [
         "ifupdown-any"
@@ -63501,7 +63508,7 @@
         "version": "0.46-r6"
       },
       "ifupdown-any": {
-        "package": "busybox-ifupdown",
+        "package": "ifupdown",
         "version": 0
       },
       "openssh-client": {

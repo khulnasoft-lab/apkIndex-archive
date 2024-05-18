@@ -4395,14 +4395,15 @@
     "busybox-suid": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:bbsuid=1.35.0-r17"
+        "cmd:bbsuid=1.35.0-r18"
       ]
     },
     "pinentry-doc": {
@@ -13102,10 +13103,11 @@
     "busybox-static": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "provides": [
-        "cmd:busybox.static=1.35.0-r17"
+        "cmd:busybox.static=1.35.0-r18"
       ]
     },
     "conky-doc": {
@@ -36312,7 +36314,8 @@
     "busybox-doc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       }
     },
     "font-sun-misc": {
@@ -36762,15 +36765,16 @@
     "busybox": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
         "/bin/sh",
-        "cmd:busybox=1.35.0-r17",
-        "cmd:sh=1.35.0-r17"
+        "cmd:busybox=1.35.0-r18",
+        "cmd:sh=1.35.0-r18"
       ]
     },
     "openldap-clients": {
@@ -39547,14 +39551,15 @@
     "busybox-extras": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:busybox-extras=1.35.0-r17"
+        "cmd:busybox-extras=1.35.0-r18"
       ]
     },
     "git-diff-highlight": {
@@ -41292,7 +41297,8 @@
     "ssl_client": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -41300,7 +41306,7 @@
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:ssl_client=1.35.0-r17"
+        "cmd:ssl_client=1.35.0-r18"
       ]
     },
     "imap": {
@@ -49205,7 +49211,8 @@
     "busybox-ifupdown": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "provides": [
         "ifupdown-any"
@@ -63989,7 +63996,7 @@
         "version": "8.2204.1-r0"
       },
       "ifupdown-any": {
-        "package": "busybox-ifupdown",
+        "package": "ifupdown",
         "version": 0
       },
       "boost-libs": {

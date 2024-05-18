@@ -12618,10 +12618,11 @@
     "busybox-static": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "provides": [
-        "cmd:busybox.static=1.35.0-r17"
+        "cmd:busybox.static=1.35.0-r18"
       ]
     },
     "fuse3-static": {
@@ -15379,7 +15380,8 @@
     "busybox-ifupdown": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "provides": [
         "ifupdown-any"
@@ -20422,7 +20424,8 @@
     "ssl_client": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -20430,7 +20433,7 @@
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:ssl_client=1.35.0-r17"
+        "cmd:ssl_client=1.35.0-r18"
       ]
     },
     "nginx-mod-http-brotli": {
@@ -36031,7 +36034,8 @@
     "busybox-doc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       }
     },
     "cyrus-sasl-static": {
@@ -42579,14 +42583,15 @@
     "busybox-suid": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:bbsuid=1.35.0-r17"
+        "cmd:bbsuid=1.35.0-r18"
       ]
     },
     "rtpproxy-openrc": {
@@ -50301,14 +50306,15 @@
     "busybox-extras": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:busybox-extras=1.35.0-r17"
+        "cmd:busybox-extras=1.35.0-r18"
       ]
     },
     "fcgi++": {
@@ -56875,15 +56881,16 @@
     "busybox": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
         "/bin/sh",
-        "cmd:busybox=1.35.0-r17",
-        "cmd:sh=1.35.0-r17"
+        "cmd:busybox=1.35.0-r18",
+        "cmd:sh=1.35.0-r18"
       ]
     },
     "librtmp": {
@@ -64122,7 +64129,7 @@
         "version": "0.7.0-r2"
       },
       "ifupdown-any": {
-        "package": "ifupdown",
+        "package": "busybox-ifupdown",
         "version": 0
       },
       "lm_sensors": {

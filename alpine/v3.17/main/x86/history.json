@@ -2412,10 +2412,11 @@
     "busybox-static": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "provides": [
-        "cmd:busybox.static=1.35.0-r29"
+        "cmd:busybox.static=1.35.0-r30"
       ]
     },
     "perl-net-ssleay": {
@@ -8319,7 +8320,8 @@
     "busybox-extras-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -20247,7 +20249,8 @@
     "busybox-ifupdown": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "provides": [
         "ifupdown-any"
@@ -35325,14 +35328,15 @@
     "busybox-binsh": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
-        "busybox=1.35.0-r29"
+        "busybox=1.35.0-r30"
       ],
       "provides": [
         "/bin/sh",
-        "cmd:sh=1.35.0-r29"
+        "cmd:sh=1.35.0-r30"
       ]
     },
     "sysfsutils": {
@@ -36446,13 +36450,14 @@
     "busybox": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:busybox=1.35.0-r29"
+        "cmd:busybox=1.35.0-r30"
       ]
     },
     "samba-winbind-krb5-locator": {
@@ -39919,14 +39924,15 @@
     "busybox-suid": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:bbsuid=1.35.0-r29"
+        "cmd:bbsuid=1.35.0-r30"
       ]
     },
     "uwsgi-stats_pusher_socket": {
@@ -48241,7 +48247,8 @@
     "ssl_client": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -48249,7 +48256,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:ssl_client=1.35.0-r29"
+        "cmd:ssl_client=1.35.0-r30"
       ]
     },
     "perl-socket-doc": {
@@ -53679,7 +53686,8 @@
     "busybox-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6"
@@ -55461,7 +55469,8 @@
     "busybox-mdev-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -55708,7 +55717,8 @@
     "busybox-doc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       }
     },
     "libnfnetlink": {
@@ -57430,14 +57440,15 @@
     "busybox-extras": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:busybox-extras=1.35.0-r29"
+        "cmd:busybox-extras=1.35.0-r30"
       ]
     },
     "perl-locale-maketext-lexicon": {
@@ -65789,7 +65800,7 @@
         "version": "2022.2-r0"
       },
       "ifupdown-any": {
-        "package": "busybox-ifupdown",
+        "package": "ifupdown",
         "version": 0
       },
       "py-idna": {
@@ -66061,7 +66072,7 @@
         "version": "1.80.0-r3"
       },
       "dev-openrc": {
-        "package": "busybox-mdev-openrc",
+        "package": "udev-init-scripts-openrc",
         "version": 0
       },
       "py-atomicwrites": {

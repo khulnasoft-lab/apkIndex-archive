@@ -2115,14 +2115,15 @@
     "busybox-binsh": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
-        "busybox=1.35.0-r29"
+        "busybox=1.35.0-r30"
       ],
       "provides": [
         "/bin/sh",
-        "cmd:sh=1.35.0-r29"
+        "cmd:sh=1.35.0-r30"
       ]
     },
     "lua5.2-ldbus": {
@@ -8741,7 +8742,8 @@
     "busybox-extras-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -10475,7 +10477,8 @@
     "ssl_client": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -10483,7 +10486,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:ssl_client=1.35.0-r29"
+        "cmd:ssl_client=1.35.0-r30"
       ]
     },
     "rdnssd": {
@@ -23616,14 +23619,15 @@
     "busybox-extras": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:busybox-extras=1.35.0-r29"
+        "cmd:busybox-extras=1.35.0-r30"
       ]
     },
     "pango": {
@@ -24590,10 +24594,11 @@
     "busybox-static": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "provides": [
-        "cmd:busybox.static=1.35.0-r29"
+        "cmd:busybox.static=1.35.0-r30"
       ]
     },
     "ez-ipupdate": {
@@ -43404,13 +43409,14 @@
     "busybox": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:busybox=1.35.0-r29"
+        "cmd:busybox=1.35.0-r30"
       ]
     },
     "libgpg-error-lisp": {
@@ -47110,14 +47116,15 @@
     "busybox-suid": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:bbsuid=1.35.0-r29"
+        "cmd:bbsuid=1.35.0-r30"
       ]
     },
     "lxc-dev": {
@@ -51416,7 +51423,8 @@
     "busybox-ifupdown": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "provides": [
         "ifupdown-any"
@@ -54303,7 +54311,8 @@
     "busybox-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6"
@@ -56100,7 +56109,8 @@
     "busybox-mdev-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -56351,7 +56361,8 @@
     "busybox-doc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       }
     },
     "boost1.80-type_erasure": {
@@ -65932,7 +65943,7 @@
         "version": "3.0.12-r5"
       },
       "/bin/sh": {
-        "package": "yash-binsh",
+        "package": "busybox-binsh",
         "version": 0
       },
       "lua-graphviz": {
@@ -66540,7 +66551,7 @@
         "version": "21.3-r2"
       },
       "dev-openrc": {
-        "package": "busybox-mdev-openrc",
+        "package": "udev-init-scripts-openrc",
         "version": 0
       },
       "py-mako": {
@@ -66804,7 +66815,7 @@
         "version": "1.80.0-r3"
       },
       "ifupdown-any": {
-        "package": "busybox-ifupdown",
+        "package": "ifupdown",
         "version": 0
       },
       "boost-static": {

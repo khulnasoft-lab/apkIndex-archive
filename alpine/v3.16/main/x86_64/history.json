@@ -6906,14 +6906,15 @@
     "busybox-suid": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:bbsuid=1.35.0-r17"
+        "cmd:bbsuid=1.35.0-r18"
       ]
     },
     "partimage-doc": {
@@ -36638,7 +36639,8 @@
     "busybox-doc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       }
     },
     "freeradius-dbg": {
@@ -37534,7 +37536,8 @@
     "busybox-ifupdown": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "provides": [
         "ifupdown-any"
@@ -42783,10 +42786,11 @@
     "busybox-static": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "provides": [
-        "cmd:busybox.static=1.35.0-r17"
+        "cmd:busybox.static=1.35.0-r18"
       ]
     },
     "intltool": {
@@ -43913,14 +43917,15 @@
     "busybox-extras": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:busybox-extras=1.35.0-r17"
+        "cmd:busybox-extras=1.35.0-r18"
       ]
     },
     "pixman-dev": {
@@ -52732,7 +52737,8 @@
     "ssl_client": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -52740,7 +52746,7 @@
         "so:libssl.so.1.1"
       ],
       "provides": [
-        "cmd:ssl_client=1.35.0-r17"
+        "cmd:ssl_client=1.35.0-r18"
       ]
     },
     "argon2-static": {
@@ -54271,15 +54277,16 @@
     "busybox": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r17": 1659366884
+        "1.35.0-r17": 1659366884,
+        "1.35.0-r18": 1715899585
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
         "/bin/sh",
-        "cmd:busybox=1.35.0-r17",
-        "cmd:sh=1.35.0-r17"
+        "cmd:busybox=1.35.0-r18",
+        "cmd:sh=1.35.0-r18"
       ]
     },
     "libsrtp-dev": {

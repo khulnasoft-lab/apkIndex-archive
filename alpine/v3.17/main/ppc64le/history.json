@@ -13047,13 +13047,14 @@
     "busybox": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:busybox=1.35.0-r29"
+        "cmd:busybox=1.35.0-r30"
       ]
     },
     "squark-doc": {
@@ -18250,14 +18251,15 @@
     "busybox-suid": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:bbsuid=1.35.0-r29"
+        "cmd:bbsuid=1.35.0-r30"
       ]
     },
     "libgd": {
@@ -22869,7 +22871,8 @@
     "busybox-extras-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -23043,10 +23046,11 @@
     "busybox-static": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "provides": [
-        "cmd:busybox.static=1.35.0-r29"
+        "cmd:busybox.static=1.35.0-r30"
       ]
     },
     "mksh": {
@@ -32375,7 +32379,8 @@
     "busybox-ifupdown": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "provides": [
         "ifupdown-any"
@@ -35892,14 +35897,15 @@
     "busybox-extras": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:busybox-extras=1.35.0-r29"
+        "cmd:busybox-extras=1.35.0-r30"
       ]
     },
     "inotify-tools-doc": {
@@ -38616,7 +38622,8 @@
     "busybox-mdev-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -47263,7 +47270,8 @@
     "ssl_client": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "so:libc.musl-ppc64le.so.1",
@@ -47271,7 +47279,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:ssl_client=1.35.0-r29"
+        "cmd:ssl_client=1.35.0-r30"
       ]
     },
     "libjpeg-turbo-doc": {
@@ -52752,7 +52760,8 @@
     "busybox-doc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       }
     },
     "lua5.4-cjson": {
@@ -56603,7 +56612,8 @@
     "busybox-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6"
@@ -58000,14 +58010,15 @@
     "busybox-binsh": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
-        "busybox=1.35.0-r29"
+        "busybox=1.35.0-r30"
       ],
       "provides": [
         "/bin/sh",
-        "cmd:sh=1.35.0-r29"
+        "cmd:sh=1.35.0-r30"
       ]
     },
     "py3-btrfs-progs": {
@@ -64903,7 +64914,7 @@
         "version": "18.20.1-r0"
       },
       "/bin/sh": {
-        "package": "busybox-binsh",
+        "package": "dash-binsh",
         "version": 0
       },
       "openldap-mqtt": {
