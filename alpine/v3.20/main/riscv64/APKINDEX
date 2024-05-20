@@ -29012,66 +29012,66 @@ k:16
 D:libpq-dev=16.3-r0 libecpg=16.3-r0 pc:libpq pkgconfig so:libc.musl-riscv64.so.1
 p:pc:libecpg=16.3 pc:libpgtypes=16.3 cmd:ecpg=16.3-r0
 
-C:Q18T0e/fVaMQU/td+/OchsrBZpi7w=
+C:Q1hBlw/OJwWS3hp6pPoCYBO25Lo/0=
 P:libedit
-V:20230828.3.1-r4
+V:20240517.3.1-r0
 A:riscv64
-S:78815
+S:78849
 I:188416
 T:BSD line editing library
 U:https://www.thrysoee.dk/editline
 L:BSD-3-Clause
 o:libedit
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1705415981
-c:cc7f1666e2f676d0e92d3d1ed18c1a8425391142
+t:1716188737
+c:a9b669d90f0eb171ed2fb8f2ecd217112f589ad8
 D:so:libc.musl-riscv64.so.1 so:libncursesw.so.6
-p:so:libedit.so.0=0.0.72
+p:so:libedit.so.0=0.0.73
 
-C:Q1sunRhXxp+6No1eAYzTuA5NAnjAA=
+C:Q1Da0yB9iLLzK0qBF//oJmSShy9fE=
 P:libedit-dev
-V:20230828.3.1-r4
+V:20240517.3.1-r0
 A:riscv64
-S:7521
+S:7519
 I:53248
 T:BSD line editing library (development files)
 U:https://www.thrysoee.dk/editline
 L:BSD-3-Clause
 o:libedit
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1705415981
-c:cc7f1666e2f676d0e92d3d1ed18c1a8425391142
-D:bsd-compat-headers ncurses-dev libedit=20230828.3.1-r4 pkgconfig
+t:1716188737
+c:a9b669d90f0eb171ed2fb8f2ecd217112f589ad8
+D:bsd-compat-headers ncurses-dev libedit=20240517.3.1-r0 pkgconfig
 p:pc:libedit=3.1
 
-C:Q1HUKydOHcYKbxEcZ/jAt6mznKEz8=
+C:Q1qoe7/YmUiQG4185xS5ORCGruSgQ=
 P:libedit-doc
-V:20230828.3.1-r4
+V:20240517.3.1-r0
 A:riscv64
-S:18709
+S:18708
 I:49152
 T:BSD line editing library (documentation)
 U:https://www.thrysoee.dk/editline
 L:BSD-3-Clause
 o:libedit
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1705415981
-c:cc7f1666e2f676d0e92d3d1ed18c1a8425391142
-i:docs libedit=20230828.3.1-r4
+t:1716188737
+c:a9b669d90f0eb171ed2fb8f2ecd217112f589ad8
+i:docs libedit=20240517.3.1-r0
 
-C:Q17NfvJhOLibVKiVmWJa2M+R7k8EI=
+C:Q1BXL4rnxJospFox5QxcmDrHVRzjA=
 P:libedit-static
-V:20230828.3.1-r4
+V:20240517.3.1-r0
 A:riscv64
-S:183945
+S:184027
 I:761856
 T:BSD line editing library (static library)
 U:https://www.thrysoee.dk/editline
 L:BSD-3-Clause
 o:libedit
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1705415981
-c:cc7f1666e2f676d0e92d3d1ed18c1a8425391142
+t:1716188737
+c:a9b669d90f0eb171ed2fb8f2ecd217112f589ad8
 
 C:Q1nBlrsbUZgg0D98uNUGnSpTqL+bM=
 P:libelf
