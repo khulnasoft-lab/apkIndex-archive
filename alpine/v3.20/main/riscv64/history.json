@@ -16933,7 +16933,8 @@
     "gmp": {
       "origin": "gmp",
       "versions": {
-        "6.3.0-r0": 1710608169
+        "6.3.0-r0": 1710608169,
+        "6.3.0-r1": 1716189339
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1"
@@ -16945,11 +16946,12 @@
     "gmp-dev": {
       "origin": "gmp",
       "versions": {
-        "6.3.0-r0": 1710608169
+        "6.3.0-r0": 1710608169,
+        "6.3.0-r1": 1716189339
       },
       "dependencies": [
-        "gmp=6.3.0-r0",
-        "libgmpxx=6.3.0-r0",
+        "gmp=6.3.0-r1",
+        "libgmpxx=6.3.0-r1",
         "pkgconfig"
       ],
       "provides": [
@@ -16960,7 +16962,8 @@
     "gmp-doc": {
       "origin": "gmp",
       "versions": {
-        "6.3.0-r0": 1710608169
+        "6.3.0-r0": 1710608169,
+        "6.3.0-r1": 1716189339
       }
     },
     "gnu-efi": {
@@ -25088,7 +25091,8 @@
     "libgmpxx": {
       "origin": "gmp",
       "versions": {
-        "6.3.0-r0": 1710608169
+        "6.3.0-r0": 1710608169,
+        "6.3.0-r1": 1716189339
       },
       "dependencies": [
         "so:libc.musl-riscv64.so.1",
@@ -36963,48 +36967,53 @@
     "mdadm": {
       "origin": "mdadm",
       "versions": {
-        "4.2-r4": 1701354873
+        "4.2-r4": 1701354873,
+        "4.3-r0": 1716193196
       },
       "dependencies": [
         "lsblk",
         "so:libc.musl-riscv64.so.1"
       ],
       "provides": [
-        "cmd:mdadm=4.2-r4",
-        "cmd:mdmon=4.2-r4",
-        "cmd:raid6check=4.2-r4"
+        "cmd:mdadm=4.3-r0",
+        "cmd:mdmon=4.3-r0",
+        "cmd:raid6check=4.3-r0"
       ]
     },
     "mdadm-doc": {
       "origin": "mdadm",
       "versions": {
-        "4.2-r4": 1701354873
+        "4.2-r4": 1701354873,
+        "4.3-r0": 1716193196
       }
     },
     "mdadm-misc": {
       "origin": "mdadm",
       "versions": {
-        "4.2-r4": 1701354873
+        "4.2-r4": 1701354873,
+        "4.3-r0": 1716193196
       },
       "dependencies": [
         "mdadm",
         "bash"
       ],
       "provides": [
-        "cmd:handle-mdadm-events=4.2-r4",
-        "cmd:mdcheck=4.2-r4"
+        "cmd:handle-mdadm-events=4.3-r0",
+        "cmd:mdcheck=4.3-r0"
       ]
     },
     "mdadm-openrc": {
       "origin": "mdadm",
       "versions": {
-        "4.2-r4": 1701354873
+        "4.2-r4": 1701354873,
+        "4.3-r0": 1716193196
       }
     },
     "mdadm-udev": {
       "origin": "mdadm",
       "versions": {
-        "4.2-r4": 1701354873
+        "4.2-r4": 1701354873,
+        "4.3-r0": 1716193196
       },
       "dependencies": [
         "lsblk"
