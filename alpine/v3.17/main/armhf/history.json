@@ -268,10 +268,11 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
-        "postgresql15=15.6-r0",
+        "postgresql15=15.7-r0",
         "so:libc.musl-armhf.so.1",
         "so:libperl.so"
       ],
@@ -1482,7 +1483,8 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.13-r0": 1716233202
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -1519,18 +1521,19 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.13-r0": 1716233202
       },
       "dependencies": [
-        "libcrypto3=3.0.12-r4",
-        "libssl3=3.0.12-r4",
+        "libcrypto3=3.0.13-r0",
+        "libssl3=3.0.13-r0",
         "pkgconfig"
       ],
       "provides": [
-        "openssl3-dev=3.0.12-r4",
-        "pc:libcrypto=3.0.12",
-        "pc:libssl=3.0.12",
-        "pc:openssl=3.0.12"
+        "openssl3-dev=3.0.13-r0",
+        "pc:libcrypto=3.0.13",
+        "pc:libssl=3.0.13",
+        "pc:openssl=3.0.13"
       ]
     },
     "uwsgi-syslog": {
@@ -1610,10 +1613,11 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
-        "postgresql15-plperl=15.6-r0",
+        "postgresql15-plperl=15.7-r0",
         "so:libc.musl-armhf.so.1",
         "so:libperl.so"
       ],
@@ -2104,7 +2108,8 @@
     "rrdtool-cached": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -2112,7 +2117,7 @@
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdcached=1.7.2-r6"
+        "cmd:rrdcached=1.7.2-r7"
       ]
     },
     "aspell-dev": {
@@ -2478,7 +2483,8 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "provides": [
         "postgresql-doc"
@@ -3197,7 +3203,8 @@
       "versions": {
         "2.12.10-r1": 1666552494,
         "2.12.12-r0": 1711964405,
-        "2.12.13-r0": 1711974266
+        "2.12.13-r0": 1711974266,
+        "2.12.14-r0": 1713353253
       }
     },
     "libavif-apps": {
@@ -3814,7 +3821,8 @@
     "varnish-doc": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       }
     },
     "sipcalc-doc": {
@@ -4364,7 +4372,8 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -5497,10 +5506,11 @@
       "versions": {
         "18.17.1-r0": 1692794509,
         "18.18.2-r0": 1697329828,
-        "18.19.1-r0": 1707944927
+        "18.19.1-r0": 1707944927,
+        "18.20.1-r0": 1712324174
       },
       "provides": [
-        "nodejs-lts-dev=18.19.1"
+        "nodejs-lts-dev=18.20.1"
       ]
     },
     "libhunspell": {
@@ -5712,10 +5722,11 @@
     "busybox-static": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "provides": [
-        "cmd:busybox.static=1.35.0-r29"
+        "cmd:busybox.static=1.35.0-r30"
       ]
     },
     "parallel": {
@@ -5784,14 +5795,15 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "perl",
         "apr-util-dev"
       ],
       "provides": [
-        "cmd:apxs=2.4.58-r0"
+        "cmd:apxs=2.4.59-r0"
       ]
     },
     "libnetfilter_cttimeout": {
@@ -5840,7 +5852,8 @@
     "perl-rrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -6137,17 +6150,18 @@
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
         "1.19.2-r0": 1709838851,
-        "1.19.3-r0": 1710502270
+        "1.19.3-r0": 1710502270,
+        "1.20.0-r0": 1715186666
       },
       "dependencies": [
         "expat-dev",
         "pc:libevent",
         "pc:python3",
         "pkgconfig",
-        "unbound-libs=1.19.3-r0"
+        "unbound-libs=1.20.0-r0"
       ],
       "provides": [
-        "pc:libunbound=1.19.3"
+        "pc:libunbound=1.20.0"
       ]
     },
     "nginx-mod-http-vod": {
@@ -6658,7 +6672,8 @@
     "gtk+3.0-demo": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.36-r0": 1671764516
+        "3.24.36-r0": 1671764516,
+        "3.24.41-r0": 1714060499
       },
       "dependencies": [
         "shared-mime-info",
@@ -6679,10 +6694,10 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:gtk3-demo-application=3.24.36-r0",
-        "cmd:gtk3-demo=3.24.36-r0",
-        "cmd:gtk3-icon-browser=3.24.36-r0",
-        "cmd:gtk3-widget-factory=3.24.36-r0"
+        "cmd:gtk3-demo-application=3.24.41-r0",
+        "cmd:gtk3-demo=3.24.41-r0",
+        "cmd:gtk3-icon-browser=3.24.41-r0",
+        "cmd:gtk3-widget-factory=3.24.41-r0"
       ]
     },
     "postfix-redis": {
@@ -6750,15 +6765,16 @@
     "ruby-dev": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680297159
+        "3.1.4-r0": 1680297159,
+        "3.1.5-r0": 1713967821
       },
       "dependencies": [
-        "ruby=3.1.4-r0",
-        "ruby-rdoc=3.1.4-r0",
+        "ruby=3.1.5-r0",
+        "ruby-rdoc=3.1.5-r0",
         "gmp-dev",
         "libucontext-dev",
         "pkgconfig",
-        "ruby-libs=3.1.4-r0"
+        "ruby-libs=3.1.5-r0"
       ],
       "provides": [
         "pc:ruby-3.1=3.1.0"
@@ -6892,7 +6908,8 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
         "postgresql-common",
@@ -7102,7 +7119,8 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
         "postgresql15-client",
@@ -7123,19 +7141,19 @@
       ],
       "provides": [
         "postgresql",
-        "cmd:initdb",
         "cmd:postmaster",
-        "cmd:pg_ctl",
-        "cmd:pg_archivecleanup",
-        "cmd:pg_test_fsync",
-        "cmd:pg_test_timing",
-        "cmd:pg_rewind",
-        "cmd:pg_upgrade",
         "cmd:pg_waldump",
-        "cmd:pg_checksums",
+        "cmd:pg_ctl",
+        "cmd:pg_test_timing",
         "cmd:postgres",
         "cmd:pg_controldata",
-        "cmd:pg_resetwal"
+        "cmd:pg_resetwal",
+        "cmd:pg_checksums",
+        "cmd:initdb",
+        "cmd:pg_archivecleanup",
+        "cmd:pg_test_fsync",
+        "cmd:pg_rewind",
+        "cmd:pg_upgrade"
       ]
     },
     "libnl3-doc": {
@@ -7452,15 +7470,16 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
-        "libarchive=3.7.2-r1",
+        "libarchive=3.7.4-r0",
         "pc:libcrypto",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libarchive=3.7.2"
+        "pc:libarchive=3.7.4"
       ]
     },
     "net-tools": {
@@ -7701,7 +7720,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -8734,7 +8754,8 @@
     "busybox-extras-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -8928,14 +8949,15 @@
     "busybox-extras": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:busybox-extras=1.35.0-r29"
+        "cmd:busybox-extras=1.35.0-r30"
       ]
     },
     "scdoc": {
@@ -9277,7 +9299,8 @@
     "gtk+3.0-dbg": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.36-r0": 1671764516
+        "3.24.36-r0": 1671764516,
+        "3.24.41-r0": 1714060499
       },
       "dependencies": [
         "shared-mime-info",
@@ -9354,7 +9377,8 @@
     "postgresql-common-openrc": {
       "origin": "postgresql-common",
       "versions": {
-        "1.1-r3": 1676410893
+        "1.1-r3": 1676410893,
+        "1.1-r4": 1712015397
       }
     },
     "libpcre2-16": {
@@ -10212,7 +10236,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "/bin/sh",
@@ -10223,9 +10248,9 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:fcgistarter=2.4.58-r0",
-        "cmd:httpd=2.4.58-r0",
-        "cmd:suexec=2.4.58-r0"
+        "cmd:fcgistarter=2.4.59-r0",
+        "cmd:httpd=2.4.59-r0",
+        "cmd:suexec=2.4.59-r0"
       ]
     },
     "cyrus-sasl": {
@@ -11077,13 +11102,14 @@
     "busybox": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:busybox=1.35.0-r29"
+        "cmd:busybox=1.35.0-r30"
       ]
     },
     "spamassassin-openrc": {
@@ -11454,7 +11480,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       }
     },
     "perl-class-mix": {
@@ -12105,10 +12132,11 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
-        "postgresql15-contrib=15.6-r0"
+        "postgresql15-contrib=15.7-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -12300,10 +12328,11 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
-        "postgresql14=14.11-r0",
+        "postgresql14=14.12-r0",
         "so:libLLVM-14.so",
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1",
@@ -12426,7 +12455,8 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
         "postgresql14-client",
@@ -12444,19 +12474,19 @@
       ],
       "provides": [
         "postgresql",
+        "cmd:pg_archivecleanup",
+        "cmd:pg_rewind",
+        "cmd:pg_ctl",
+        "cmd:pg_test_fsync",
         "cmd:pg_controldata",
         "cmd:pg_upgrade",
-        "cmd:pg_rewind",
         "cmd:pg_checksums",
-        "cmd:pg_test_fsync",
-        "cmd:pg_archivecleanup",
         "cmd:pg_waldump",
-        "cmd:pg_ctl",
-        "cmd:initdb",
-        "cmd:pg_test_timing",
+        "cmd:postgres",
         "cmd:pg_resetwal",
         "cmd:postmaster",
-        "cmd:postgres"
+        "cmd:initdb",
+        "cmd:pg_test_timing"
       ]
     },
     "mpdecimal": {
@@ -14189,7 +14219,8 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
         "postgresql-common",
@@ -14662,7 +14693,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -14868,7 +14900,8 @@
     "ruby-net-smtp": {
       "origin": "ruby-net-smtp",
       "versions": {
-        "0.3.1-r0": 1649093063
+        "0.3.1-r0": 1649093063,
+        "0.3.4-r0": 1713967693
       },
       "dependencies": [
         "ruby"
@@ -15101,7 +15134,8 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.13-r0": 1716233202
       }
     },
     "lua-xctrl": {
@@ -15769,7 +15803,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "so:libapr-1.so.0",
@@ -15779,16 +15814,16 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:ab=2.4.58-r0",
-        "cmd:checkgid=2.4.58-r0",
-        "cmd:dbmmanage=2.4.58-r0",
-        "cmd:htcacheclean=2.4.58-r0",
-        "cmd:htdbm=2.4.58-r0",
-        "cmd:htdigest=2.4.58-r0",
-        "cmd:htpasswd=2.4.58-r0",
-        "cmd:httxt2dbm=2.4.58-r0",
-        "cmd:logresolve=2.4.58-r0",
-        "cmd:rotatelogs=2.4.58-r0"
+        "cmd:ab=2.4.59-r0",
+        "cmd:checkgid=2.4.59-r0",
+        "cmd:dbmmanage=2.4.59-r0",
+        "cmd:htcacheclean=2.4.59-r0",
+        "cmd:htdbm=2.4.59-r0",
+        "cmd:htdigest=2.4.59-r0",
+        "cmd:htpasswd=2.4.59-r0",
+        "cmd:httxt2dbm=2.4.59-r0",
+        "cmd:logresolve=2.4.59-r0",
+        "cmd:rotatelogs=2.4.59-r0"
       ]
     },
     "libcrypto3": {
@@ -15799,7 +15834,8 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.13-r0": 1716233202
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
@@ -16691,7 +16727,8 @@
       "origin": "putty",
       "versions": {
         "0.78-r0": 1667099436,
-        "0.80-r0": 1702960109
+        "0.80-r0": 1702960109,
+        "0.81-r0": 1713350391
       },
       "dependencies": [
         "ncurses-terminfo-base",
@@ -16707,14 +16744,14 @@
         "so:libpangocairo-1.0.so.0"
       ],
       "provides": [
-        "cmd:pageant=0.80-r0",
-        "cmd:plink=0.80-r0",
-        "cmd:pscp=0.80-r0",
-        "cmd:psftp=0.80-r0",
-        "cmd:psusan=0.80-r0",
-        "cmd:pterm=0.80-r0",
-        "cmd:putty=0.80-r0",
-        "cmd:puttygen=0.80-r0"
+        "cmd:pageant=0.81-r0",
+        "cmd:plink=0.81-r0",
+        "cmd:pscp=0.81-r0",
+        "cmd:psftp=0.81-r0",
+        "cmd:psusan=0.81-r0",
+        "cmd:pterm=0.81-r0",
+        "cmd:putty=0.81-r0",
+        "cmd:puttygen=0.81-r0"
       ]
     },
     "freetds-doc": {
@@ -16873,7 +16910,8 @@
       "origin": "haproxy",
       "versions": {
         "2.6.15-r0": 1691667346,
-        "2.6.16-r0": 1702729897
+        "2.6.16-r0": 1702729897,
+        "2.6.17-r0": 1712383965
       },
       "dependencies": [
         "/bin/sh",
@@ -16885,7 +16923,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:haproxy=2.6.16-r0"
+        "cmd:haproxy=2.6.17-r0"
       ]
     },
     "perl-math-round": {
@@ -17490,7 +17528,8 @@
     "busybox-ifupdown": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "provides": [
         "ifupdown-any"
@@ -17903,7 +17942,8 @@
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
         "1.19.2-r0": 1709838851,
-        "1.19.3-r0": 1710502270
+        "1.19.3-r0": 1710502270,
+        "1.20.0-r0": 1715186666
       }
     },
     "squid-lang-el": {
@@ -20038,14 +20078,15 @@
     "rrdtool-cgi": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdcgi=1.7.2-r6"
+        "cmd:rrdcgi=1.7.2-r7"
       ]
     },
     "drbd-utils": {
@@ -20820,7 +20861,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -20834,10 +20876,10 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:bsdcat=3.7.2-r1",
-        "cmd:bsdcpio=3.7.2-r1",
-        "cmd:bsdtar=3.7.2-r1",
-        "cmd:bsdunzip=3.7.2-r1"
+        "cmd:bsdcat=3.7.4-r0",
+        "cmd:bsdcpio=3.7.4-r0",
+        "cmd:bsdtar=3.7.4-r0",
+        "cmd:bsdunzip=3.7.4-r0"
       ]
     },
     "perl-cgi-doc": {
@@ -20934,10 +20976,11 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
-        "postgresql15-plpython3=15.6-r0",
+        "postgresql15-plpython3=15.7-r0",
         "so:libc.musl-armhf.so.1",
         "so:libpython3.10.so.1.0"
       ],
@@ -21021,7 +21064,8 @@
     "ruby-libs": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680297159
+        "3.1.4-r0": 1680297159,
+        "3.1.5-r0": 1713967821
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -21034,7 +21078,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libruby.so.3.1=3.1.4"
+        "so:libruby.so.3.1=3.1.5"
       ]
     },
     "mcookie": {
@@ -21635,10 +21679,11 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
-        "postgresql15=15.6-r0",
+        "postgresql15=15.7-r0",
         "so:libc.musl-armhf.so.1",
         "so:libcrypto.so.3",
         "so:libpq.so.5",
@@ -22354,7 +22399,8 @@
     "ruby-net-imap-doc": {
       "origin": "ruby-net-imap",
       "versions": {
-        "0.2.3-r0": 1649093062
+        "0.2.3-r0": 1649093062,
+        "0.2.4-r0": 1714046242
       },
       "dependencies": [
         "ruby"
@@ -22969,12 +23015,12 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libsqlite3.so.0",
-        "so:libuuid.so.1",
         "so:libxml2.so.2"
       ]
     },
@@ -23079,7 +23125,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       },
       "dependencies": [
         "/bin/sh",
@@ -23096,8 +23143,8 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "cmd:lighttpd-angel=1.4.73-r0",
-        "cmd:lighttpd=1.4.73-r0"
+        "cmd:lighttpd-angel=1.4.76-r0",
+        "cmd:lighttpd=1.4.76-r0"
       ]
     },
     "perl-carp": {
@@ -23238,7 +23285,8 @@
     "ruby-full": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680297159
+        "3.1.4-r0": 1680297159,
+        "3.1.5-r0": 1713967821
       },
       "dependencies": [
         "ruby",
@@ -23250,10 +23298,10 @@
         "ruby-test-unit>=3.5.3",
         "ruby-rexml>=3.2.5",
         "ruby-rss>=0.2.9",
-        "ruby-net-ftp>=0.1.3",
-        "ruby-net-imap>=0.2.3",
+        "ruby-net-ftp>=0.1.4",
+        "ruby-net-imap>=0.2.4",
         "ruby-net-pop>=0.1.1",
-        "ruby-net-smtp>=0.3.1",
+        "ruby-net-smtp>=0.3.1.1",
         "ruby-matrix>=0.4.2",
         "ruby-prime>=0.1.2",
         "ruby-rbs>=2.7.0",
@@ -23564,10 +23612,11 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
-        "postgresql15=15.6-r0",
+        "postgresql15=15.7-r0",
         "so:libLLVM-14.so",
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1",
@@ -24823,7 +24872,8 @@
     "ruby": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680297159
+        "3.1.4-r0": 1680297159,
+        "3.1.5-r0": 1713967821
       },
       "dependencies": [
         "ca-certificates",
@@ -24835,18 +24885,18 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "ruby-bigdecimal=3.1.4-r0",
-        "ruby-etc=3.1.4-r0",
-        "ruby-fiddle=3.1.4-r0",
-        "ruby-gdbm=3.1.4-r0",
-        "ruby-io-console=3.1.4-r0",
-        "ruby-irb=3.1.4-r0",
-        "ruby-json=3.1.4-r0",
-        "cmd:erb=3.1.4-r0",
-        "cmd:gem=3.1.4-r0",
-        "cmd:irb=3.1.4-r0",
-        "cmd:racc=3.1.4-r0",
-        "cmd:ruby=3.1.4-r0"
+        "ruby-bigdecimal=3.1.5-r0",
+        "ruby-etc=3.1.5-r0",
+        "ruby-fiddle=3.1.5-r0",
+        "ruby-gdbm=3.1.5-r0",
+        "ruby-io-console=3.1.5-r0",
+        "ruby-irb=3.1.5-r0",
+        "ruby-json=3.1.5-r0",
+        "cmd:erb=3.1.5-r0",
+        "cmd:gem=3.1.5-r0",
+        "cmd:irb=3.1.5-r0",
+        "cmd:racc=3.1.5-r0",
+        "cmd:ruby=3.1.5-r0"
       ]
     },
     "perl-io-captureoutput": {
@@ -25036,15 +25086,16 @@
     "rrdtool": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
-        "font-sony-misc",
+        "font-cantarell",
         "so:libc.musl-armhf.so.1",
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdtool=1.7.2-r6"
+        "cmd:rrdtool=1.7.2-r7"
       ]
     },
     "libtool": {
@@ -25681,10 +25732,11 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
-        "postgresql14=14.11-r0",
+        "postgresql14=14.12-r0",
         "so:libc.musl-armhf.so.1",
         "so:libcrypto.so.3",
         "so:libpq.so.5",
@@ -26292,7 +26344,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -26598,10 +26651,11 @@
     "rrdtool-dev": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
-        "librrd=1.7.2-r6",
+        "librrd=1.7.2-r7",
         "pkgconfig"
       ],
       "provides": [
@@ -26634,7 +26688,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -26996,7 +27051,8 @@
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
         "1.19.2-r0": 1709838851,
-        "1.19.3-r0": 1710502270
+        "1.19.3-r0": 1710502270,
+        "1.20.0-r0": 1715186666
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -27179,7 +27235,8 @@
     "ruby-dbg": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680297159
+        "3.1.4-r0": 1680297159,
+        "3.1.5-r0": 1713967821
       },
       "dependencies": [
         "ca-certificates"
@@ -27259,7 +27316,8 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -27270,7 +27328,8 @@
       "versions": {
         "18.17.1-r0": 1692794509,
         "18.18.2-r0": 1697329828,
-        "18.19.1-r0": 1707944927
+        "18.19.1-r0": 1707944927,
+        "18.20.1-r0": 1712324174
       },
       "dependencies": [
         "ca-certificates",
@@ -27289,8 +27348,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "nodejs-lts=18.19.1-r0",
-        "cmd:node=18.19.1-r0"
+        "nodejs-lts=18.20.1-r0",
+        "cmd:node=18.20.1-r0"
       ]
     },
     "hylafaxplus-dbg": {
@@ -27730,7 +27789,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -29276,10 +29336,10 @@
     "gtk+3.0-dev": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.36-r0": 1671764516
+        "3.24.36-r0": 1671764516,
+        "3.24.41-r0": 1714060499
       },
       "dependencies": [
-        "at-spi2-core-dev",
         "gdk-pixbuf-dev",
         "glib-dev",
         "libepoxy-dev",
@@ -29290,7 +29350,7 @@
         "wayland-libs-client",
         "wayland-libs-cursor",
         "wayland-protocols",
-        "gtk+3.0=3.24.36-r0",
+        "gtk+3.0=3.24.41-r0",
         "pc:atk",
         "pc:atk-bridge-2.0",
         "pc:atk>=2.35.1",
@@ -29331,19 +29391,19 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "pc:gail-3.0=3.24.36",
-        "pc:gdk-3.0=3.24.36",
-        "pc:gdk-broadway-3.0=3.24.36",
-        "pc:gdk-wayland-3.0=3.24.36",
-        "pc:gdk-x11-3.0=3.24.36",
-        "pc:gtk+-3.0=3.24.36",
-        "pc:gtk+-broadway-3.0=3.24.36",
-        "pc:gtk+-unix-print-3.0=3.24.36",
-        "pc:gtk+-wayland-3.0=3.24.36",
-        "pc:gtk+-x11-3.0=3.24.36",
-        "cmd:gtk-builder-tool=3.24.36-r0",
-        "cmd:gtk-encode-symbolic-svg=3.24.36-r0",
-        "cmd:gtk-query-settings=3.24.36-r0"
+        "pc:gail-3.0=3.24.41",
+        "pc:gdk-3.0=3.24.41",
+        "pc:gdk-broadway-3.0=3.24.41",
+        "pc:gdk-wayland-3.0=3.24.41",
+        "pc:gdk-x11-3.0=3.24.41",
+        "pc:gtk+-3.0=3.24.41",
+        "pc:gtk+-broadway-3.0=3.24.41",
+        "pc:gtk+-unix-print-3.0=3.24.41",
+        "pc:gtk+-wayland-3.0=3.24.41",
+        "pc:gtk+-x11-3.0=3.24.41",
+        "cmd:gtk-builder-tool=3.24.41-r0",
+        "cmd:gtk-encode-symbolic-svg=3.24.41-r0",
+        "cmd:gtk-query-settings=3.24.41-r0"
       ]
     },
     "beep-doc": {
@@ -30290,16 +30350,17 @@
     "rrdtool-utils": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libglib-2.0.so.0"
       ],
       "provides": [
-        "cmd:rrdcreate=1.7.2-r6",
-        "cmd:rrdinfo=1.7.2-r6",
-        "cmd:rrdupdate=1.7.2-r6"
+        "cmd:rrdcreate=1.7.2-r7",
+        "cmd:rrdinfo=1.7.2-r7",
+        "cmd:rrdupdate=1.7.2-r7"
       ]
     },
     "zfs-udev": {
@@ -31373,10 +31434,11 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
-        "postgresql15=15.6-r0",
+        "postgresql15=15.7-r0",
         "pgtcl",
         "so:libc.musl-armhf.so.1",
         "so:libtcl8.6.so"
@@ -31833,7 +31895,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       }
     },
     "acf-gross": {
@@ -31881,7 +31944,8 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
         "libpq-dev",
@@ -31902,7 +31966,8 @@
     "perl-http-body": {
       "origin": "perl-http-body",
       "versions": {
-        "1.22-r1": 1627487151
+        "1.22-r1": 1627487151,
+        "1.22-r2": 1712502187
       },
       "dependencies": [
         "perl",
@@ -32053,10 +32118,11 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
-        "postgresql14-plperl=14.11-r0",
+        "postgresql14-plperl=14.12-r0",
         "so:libc.musl-armhf.so.1",
         "so:libperl.so"
       ],
@@ -33119,10 +33185,11 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
-        "postgresql14=14.11-r0",
+        "postgresql14=14.12-r0",
         "pgtcl",
         "so:libc.musl-armhf.so.1",
         "so:libtcl8.6.so"
@@ -33694,7 +33761,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -33859,19 +33927,20 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
-        "libpq-dev=15.6-r0",
-        "libecpg=15.6-r0",
+        "libpq-dev=15.7-r0",
+        "libecpg=15.7-r0",
         "pc:libpq",
         "pkgconfig",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "pc:libecpg=15.6",
-        "pc:libpgtypes=15.6",
-        "cmd:ecpg=15.6-r0"
+        "pc:libecpg=15.7",
+        "pc:libpgtypes=15.7",
+        "cmd:ecpg=15.7-r0"
       ]
     },
     "openjade-doc": {
@@ -34133,7 +34202,8 @@
     "gtk+3.0": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.36-r0": 1671764516
+        "3.24.36-r0": 1671764516,
+        "3.24.41-r0": 1714060499
       },
       "dependencies": [
         "shared-mime-info",
@@ -34174,11 +34244,11 @@
       ],
       "provides": [
         "so:libgailutil-3.so.0=0.0.0",
-        "so:libgdk-3.so.0=0.2404.32",
-        "so:libgtk-3.so.0=0.2404.32",
-        "cmd:broadwayd=3.24.36-r0",
-        "cmd:gtk-launch=3.24.36-r0",
-        "cmd:gtk-query-immodules-3.0=3.24.36-r0"
+        "so:libgdk-3.so.0=0.2409.32",
+        "so:libgtk-3.so.0=0.2409.32",
+        "cmd:broadwayd=3.24.41-r0",
+        "cmd:gtk-launch=3.24.41-r0",
+        "cmd:gtk-query-immodules-3.0=3.24.41-r0"
       ]
     },
     "s6-dns-dev": {
@@ -34219,7 +34289,8 @@
       "versions": {
         "18.17.1-r0": 1692794509,
         "18.18.2-r0": 1697329828,
-        "18.19.1-r0": 1707944927
+        "18.19.1-r0": 1707944927,
+        "18.20.1-r0": 1712324174
       }
     },
     "xfsprogs-libs": {
@@ -35347,7 +35418,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       }
     },
     "squid-lang-spq": {
@@ -35762,7 +35834,8 @@
     "gtk+3.0-doc": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.36-r0": 1671764516
+        "3.24.36-r0": 1671764516,
+        "3.24.41-r0": 1714060499
       }
     },
     "hwdata": {
@@ -36702,7 +36775,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       }
     },
     "libsm-dev": {
@@ -37575,7 +37649,8 @@
     "ruby-doc": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680297159
+        "3.1.4-r0": 1680297159,
+        "3.1.5-r0": 1713967821
       }
     },
     "libintl": {
@@ -37997,7 +38072,8 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -38347,10 +38423,11 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
-        "postgresql14-contrib=14.11-r0"
+        "postgresql14-contrib=14.12-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -38388,7 +38465,8 @@
       "versions": {
         "2.12.10-r1": 1666552494,
         "2.12.12-r0": 1711964405,
-        "2.12.13-r0": 1711974266
+        "2.12.13-r0": 1711974266,
+        "2.12.14-r0": 1713353253
       }
     },
     "eudev-openrc": {
@@ -38538,7 +38616,8 @@
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
         "1.19.2-r0": 1709838851,
-        "1.19.3-r0": 1710502270
+        "1.19.3-r0": 1710502270,
+        "1.20.0-r0": 1715186666
       },
       "dependencies": [
         "/bin/sh",
@@ -38546,7 +38625,7 @@
         "openrc"
       ],
       "provides": [
-        "cmd:migrate-dnscache-to-unbound=1.19.3-r0"
+        "cmd:migrate-dnscache-to-unbound=1.20.0-r0"
       ]
     },
     "orc-compiler": {
@@ -39058,7 +39137,8 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.13-r0": 1716233202
       }
     },
     "fftw-long-double-libs": {
@@ -40137,7 +40217,8 @@
     "librrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -40659,7 +40740,8 @@
       "versions": {
         "2.12.10-r1": 1666552494,
         "2.12.12-r0": 1711964405,
-        "2.12.13-r0": 1711974266
+        "2.12.13-r0": 1711974266,
+        "2.12.14-r0": 1713353253
       },
       "dependencies": [
         "musl>=1.2",
@@ -40671,7 +40753,7 @@
       ],
       "provides": [
         "so:libapk.so.3.12.0=3.12.0",
-        "cmd:apk=2.12.13-r0"
+        "cmd:apk=2.12.14-r0"
       ]
     },
     "sircbot": {
@@ -41366,16 +41448,17 @@
       "versions": {
         "2.12.10-r1": 1666552494,
         "2.12.12-r0": 1711964405,
-        "2.12.13-r0": 1711974266
+        "2.12.13-r0": 1711974266,
+        "2.12.14-r0": 1713353253
       },
       "dependencies": [
-        "apk-tools=2.12.13-r0",
+        "apk-tools=2.12.14-r0",
         "pc:openssl",
         "pc:zlib",
         "pkgconfig"
       ],
       "provides": [
-        "pc:apk=2.12.13"
+        "pc:apk=2.12.14"
       ]
     },
     "pgpool-openrc": {
@@ -41468,7 +41551,8 @@
     "py3-jinja2-doc": {
       "origin": "py3-jinja2",
       "versions": {
-        "3.1.2-r0": 1654831406
+        "3.1.2-r0": 1654831406,
+        "3.1.4-r0": 1716233606
       }
     },
     "jpeg-dev": {
@@ -42173,7 +42257,8 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "provides": [
         "postgresql-doc"
@@ -42363,10 +42448,11 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
-        "postgresql14=14.11-r0",
+        "postgresql14=14.12-r0",
         "python3",
         "so:libc.musl-armhf.so.1",
         "so:libpython3.10.so.1.0"
@@ -42431,10 +42517,11 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
-        "postgresql14-plpython3=14.11-r0",
+        "postgresql14-plpython3=14.12-r0",
         "so:libc.musl-armhf.so.1",
         "so:libpython3.10.so.1.0"
       ],
@@ -42990,7 +43077,8 @@
       "versions": {
         "2.12.10-r1": 1666552494,
         "2.12.12-r0": 1711964405,
-        "2.12.13-r0": 1711974266
+        "2.12.13-r0": 1711974266,
+        "2.12.14-r0": 1713353253
       },
       "dependencies": [
         "musl>=1.2",
@@ -43583,7 +43671,8 @@
       "origin": "haproxy",
       "versions": {
         "2.6.15-r0": 1691667346,
-        "2.6.16-r0": 1702729897
+        "2.6.16-r0": 1702729897,
+        "2.6.17-r0": 1712383965
       }
     },
     "open-lldp-bash-completion": {
@@ -44438,7 +44527,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       }
     },
     "libx11": {
@@ -45097,7 +45187,8 @@
     "varnish-openrc": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       }
     },
     "lmdb": {
@@ -45310,13 +45401,14 @@
     "py3-jinja2": {
       "origin": "py3-jinja2",
       "versions": {
-        "3.1.2-r0": 1654831406
+        "3.1.2-r0": 1654831406,
+        "3.1.4-r0": 1716233606
       },
       "dependencies": [
         "py3-markupsafe"
       ],
       "provides": [
-        "py3.10:jinja2=3.1.2-r0"
+        "py3.10:jinja2=3.1.4-r0"
       ]
     },
     "perl-html-tagset-doc": {
@@ -45338,7 +45430,8 @@
     "ruby-net-smtp-doc": {
       "origin": "ruby-net-smtp",
       "versions": {
-        "0.3.1-r0": 1649093063
+        "0.3.1-r0": 1649093063,
+        "0.3.4-r0": 1713967693
       },
       "dependencies": [
         "ruby"
@@ -45957,7 +46050,8 @@
     "perl-http-body-doc": {
       "origin": "perl-http-body",
       "versions": {
-        "1.22-r1": 1627487151
+        "1.22-r1": 1627487151,
+        "1.22-r2": 1712502187
       }
     },
     "xkeyboard-config-dev": {
@@ -47406,7 +47500,8 @@
     "ssl_client": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -47414,7 +47509,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:ssl_client=1.35.0-r29"
+        "cmd:ssl_client=1.35.0-r30"
       ]
     },
     "dhcp-server-ldap": {
@@ -47457,7 +47552,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -48088,7 +48184,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       }
     },
     "lua5.3-cjson": {
@@ -48500,18 +48597,19 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.13-r0": 1716233202
       },
       "dependencies": [
-        "libssl3=3.0.12-r4",
-        "libcrypto3=3.0.12-r4",
+        "libssl3=3.0.13-r0",
+        "libcrypto3=3.0.13-r0",
         "so:libc.musl-armhf.so.1",
         "so:libcrypto.so.3",
         "so:libssl.so.3"
       ],
       "provides": [
-        "openssl3=3.0.12-r4",
-        "cmd:openssl=3.0.12-r4"
+        "openssl3=3.0.13-r0",
+        "cmd:openssl=3.0.13-r0"
       ]
     },
     "patchutils": {
@@ -48548,7 +48646,8 @@
     "ruby-net-ftp-doc": {
       "origin": "ruby-net-ftp",
       "versions": {
-        "0.1.3-r0": 1649093062
+        "0.1.3-r0": 1649093062,
+        "0.1.4-r0": 1714046161
       },
       "dependencies": [
         "ruby"
@@ -48725,7 +48824,8 @@
       "origin": "haproxy",
       "versions": {
         "2.6.15-r0": 1691667346,
-        "2.6.16-r0": 1702729897
+        "2.6.16-r0": 1702729897,
+        "2.6.17-r0": 1712383965
       }
     },
     "iproute2": {
@@ -48844,14 +48944,15 @@
     "tinyproxy": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1667238995
+        "1.11.1-r2": 1667238995,
+        "1.11.2-r0": 1715232567
       },
       "dependencies": [
         "/bin/sh",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:tinyproxy=1.11.1-r2"
+        "cmd:tinyproxy=1.11.2-r0"
       ]
     },
     "acct-doc": {
@@ -48892,7 +48993,8 @@
     "ruby-net-ftp": {
       "origin": "ruby-net-ftp",
       "versions": {
-        "0.1.3-r0": 1649093062
+        "0.1.3-r0": 1649093062,
+        "0.1.4-r0": 1714046161
       },
       "dependencies": [
         "ruby"
@@ -48956,13 +49058,14 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "lynx"
       ],
       "provides": [
-        "cmd:apachectl=2.4.58-r0"
+        "cmd:apachectl=2.4.59-r0"
       ]
     },
     "lua5.4-sql-postgres": {
@@ -49088,7 +49191,8 @@
     "varnish-libs": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       },
       "dependencies": [
         "gcc",
@@ -49647,7 +49751,8 @@
         "3.0.12-r1": 1700570984,
         "3.0.12-r2": 1704836629,
         "3.0.12-r3": 1705415578,
-        "3.0.12-r4": 1706234016
+        "3.0.12-r4": 1706234016,
+        "3.0.13-r0": 1716233202
       }
     },
     "subunit-dev": {
@@ -49746,7 +49851,8 @@
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
         "1.19.2-r0": 1709838851,
-        "1.19.3-r0": 1710502270
+        "1.19.3-r0": 1710502270,
+        "1.20.0-r0": 1715186666
       },
       "dependencies": [
         "dnssec-root",
@@ -49759,12 +49865,12 @@
         "so:libunbound.so.8"
       ],
       "provides": [
-        "cmd:unbound-anchor=1.19.3-r0",
-        "cmd:unbound-checkconf=1.19.3-r0",
-        "cmd:unbound-control-setup=1.19.3-r0",
-        "cmd:unbound-control=1.19.3-r0",
-        "cmd:unbound-host=1.19.3-r0",
-        "cmd:unbound=1.19.3-r0"
+        "cmd:unbound-anchor=1.20.0-r0",
+        "cmd:unbound-checkconf=1.20.0-r0",
+        "cmd:unbound-control-setup=1.20.0-r0",
+        "cmd:unbound-control=1.20.0-r0",
+        "cmd:unbound-host=1.20.0-r0",
+        "cmd:unbound=1.20.0-r0"
       ]
     },
     "apache-mod-fcgid-doc": {
@@ -49962,7 +50068,8 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -50277,7 +50384,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -50356,7 +50464,8 @@
       "origin": "lighttpd",
       "versions": {
         "1.4.67-r0": 1663481701,
-        "1.4.73-r0": 1698849013
+        "1.4.73-r0": 1698849013,
+        "1.4.76-r0": 1714122336
       }
     },
     "perl-data-uuid-doc": {
@@ -50783,7 +50892,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       }
     },
     "sngtc_client": {
@@ -50909,7 +51019,8 @@
     "gtk+3.0-lang": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.36-r0": 1671764516
+        "3.24.36-r0": 1671764516,
+        "3.24.41-r0": 1714060499
       },
       "dependencies": [
         "shared-mime-info",
@@ -51230,10 +51341,11 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
-        "postgresql14=14.11-r0",
+        "postgresql14=14.12-r0",
         "so:libc.musl-armhf.so.1",
         "so:libperl.so"
       ],
@@ -52099,7 +52211,8 @@
     "tinyproxy-openrc": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1667238995
+        "1.11.1-r2": 1667238995,
+        "1.11.2-r0": 1715232567
       }
     },
     "asterisk-sounds-moh": {
@@ -52524,18 +52637,19 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
-        "libpq=15.6-r0",
+        "libpq=15.7-r0",
         "pc:libcrypto",
         "pc:libssl",
         "pkgconfig",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "pc:libpq=15.6",
-        "cmd:pg_config=15.6-r0"
+        "pc:libpq=15.7",
+        "cmd:pg_config=15.7-r0"
       ]
     },
     "libzmq": {
@@ -52736,7 +52850,8 @@
     "varnish-dbg": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       },
       "dependencies": [
         "gcc",
@@ -52748,7 +52863,8 @@
       "origin": "apache2",
       "versions": {
         "2.4.57-r0": 1681229229,
-        "2.4.58-r0": 1697719174
+        "2.4.58-r0": 1697719174,
+        "2.4.59-r0": 1712264678
       },
       "dependencies": [
         "apache2",
@@ -52762,7 +52878,8 @@
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
         "1.19.2-r0": 1709838851,
-        "1.19.3-r0": 1710502270
+        "1.19.3-r0": 1710502270,
+        "1.20.0-r0": 1715186666
       }
     },
     "pcsc-lite-dev": {
@@ -53342,14 +53459,15 @@
     "busybox-binsh": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
-        "busybox=1.35.0-r29"
+        "busybox=1.35.0-r30"
       ],
       "provides": [
         "/bin/sh",
-        "cmd:sh=1.35.0-r29"
+        "cmd:sh=1.35.0-r30"
       ]
     },
     "linux-firmware-amd-ucode": {
@@ -53374,14 +53492,15 @@
     "busybox-suid": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:bbsuid=1.35.0-r29"
+        "cmd:bbsuid=1.35.0-r30"
       ]
     },
     "linux-rpi": {
@@ -53641,7 +53760,8 @@
     "busybox-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6"
@@ -53677,7 +53797,8 @@
     "lua-rrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -53861,7 +53982,8 @@
       "origin": "putty",
       "versions": {
         "0.78-r0": 1667099436,
-        "0.80-r0": 1702960109
+        "0.80-r0": 1702960109,
+        "0.81-r0": 1713350391
       }
     },
     "open-lldp-doc": {
@@ -54491,14 +54613,15 @@
     "varnish-dev": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       },
       "dependencies": [
         "pkgconfig",
-        "varnish-libs=7.2.1-r0"
+        "varnish-libs=7.3.2-r0"
       ],
       "provides": [
-        "pc:varnishapi=7.2.1"
+        "pc:varnishapi=7.3.2"
       ]
     },
     "gptfdisk": {
@@ -54606,14 +54729,15 @@
     "ruby-rdoc": {
       "origin": "ruby",
       "versions": {
-        "3.1.4-r0": 1680297159
+        "3.1.4-r0": 1680297159,
+        "3.1.5-r0": 1713967821
       },
       "dependencies": [
         "ruby"
       ],
       "provides": [
-        "cmd:rdoc=3.1.4-r0",
-        "cmd:ri=3.1.4-r0"
+        "cmd:rdoc=3.1.5-r0",
+        "cmd:ri=3.1.5-r0"
       ]
     },
     "geoip-doc": {
@@ -55194,7 +55318,8 @@
     "busybox-mdev-openrc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -55256,7 +55381,8 @@
       "versions": {
         "14.9-r0": 1692027501,
         "14.10-r0": 1700079576,
-        "14.11-r0": 1707657250
+        "14.11-r0": 1707657250,
+        "14.12-r0": 1715730321
       },
       "dependencies": [
         "libpq-dev",
@@ -55656,7 +55782,8 @@
     "busybox-doc": {
       "origin": "busybox",
       "versions": {
-        "1.35.0-r29": 1668852790
+        "1.35.0-r29": 1668852790,
+        "1.35.0-r30": 1715906967
       }
     },
     "gnokii-dev": {
@@ -55790,13 +55917,14 @@
     "postgresql-common": {
       "origin": "postgresql-common",
       "versions": {
-        "1.1-r3": 1676410893
+        "1.1-r3": 1676410893,
+        "1.1-r4": 1712015397
       },
       "dependencies": [
         "/bin/sh"
       ],
       "provides": [
-        "cmd:pg_versions=1.1-r3"
+        "cmd:pg_versions=1.1-r4"
       ]
     },
     "linux-firmware-cadence": {
@@ -56038,7 +56166,8 @@
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
         "1.19.2-r0": 1709838851,
-        "1.19.3-r0": 1710502270
+        "1.19.3-r0": 1710502270,
+        "1.20.0-r0": 1715186666
       },
       "dependencies": [
         "dnssec-root"
@@ -56064,7 +56193,8 @@
       "versions": {
         "2.12.10-r1": 1666552494,
         "2.12.12-r0": 1711964405,
-        "2.12.13-r0": 1711974266
+        "2.12.13-r0": 1711974266,
+        "2.12.14-r0": 1713353253
       },
       "dependencies": [
         "musl>=1.2",
@@ -56243,7 +56373,8 @@
     "rrdtool-doc": {
       "origin": "rrdtool",
       "versions": {
-        "1.7.2-r6": 1654671545
+        "1.7.2-r6": 1654671545,
+        "1.7.2-r7": 1715699940
       }
     },
     "gst-plugins-base": {
@@ -56615,7 +56746,8 @@
       "origin": "libarchive",
       "versions": {
         "3.7.2-r0": 1694593641,
-        "3.7.2-r1": 1711874280
+        "3.7.2-r1": 1711874280,
+        "3.7.4-r0": 1715077315
       },
       "dependencies": [
         "so:libacl.so.1",
@@ -56629,7 +56761,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libarchive.so.13=13.7.2"
+        "so:libarchive.so.13=13.7.4"
       ]
     },
     "perl-text-csv-doc": {
@@ -57013,7 +57145,8 @@
         "1.17.1-r0": 1674309248,
         "1.19.1-r0": 1707999799,
         "1.19.2-r0": 1709838851,
-        "1.19.3-r0": 1710502270
+        "1.19.3-r0": 1710502270,
+        "1.20.0-r0": 1715186666
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -57022,7 +57155,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "so:libunbound.so.8=8.1.26"
+        "so:libunbound.so.8=8.1.27"
       ]
     },
     "linux-firmware-sxg": {
@@ -57084,14 +57217,15 @@
       "versions": {
         "2.12.10-r1": 1666552494,
         "2.12.12-r0": 1711964405,
-        "2.12.13-r0": 1711974266
+        "2.12.13-r0": 1711974266,
+        "2.12.14-r0": 1713353253
       },
       "dependencies": [
         "musl>=1.2",
         "ca-certificates-bundle"
       ],
       "provides": [
-        "cmd:apk.static=2.12.13-r0"
+        "cmd:apk.static=2.12.14-r0"
       ]
     },
     "squid-lang-hu": {
@@ -58075,7 +58209,8 @@
     "gtk-update-icon-cache": {
       "origin": "gtk+3.0",
       "versions": {
-        "3.24.36-r0": 1671764516
+        "3.24.36-r0": 1671764516,
+        "3.24.41-r0": 1714060499
       },
       "dependencies": [
         "hicolor-icon-theme",
@@ -58086,8 +58221,8 @@
         "so:libintl.so.8"
       ],
       "provides": [
-        "cmd:gtk-update-icon-cache=3.24.36-r0",
-        "cmd:gtk4-update-icon-cache=3.24.36-r0"
+        "cmd:gtk-update-icon-cache=3.24.41-r0",
+        "cmd:gtk4-update-icon-cache=3.24.41-r0"
       ]
     },
     "squid-doc": {
@@ -58177,7 +58312,8 @@
     "tinyproxy-doc": {
       "origin": "tinyproxy",
       "versions": {
-        "1.11.1-r2": 1667238995
+        "1.11.1-r2": 1667238995,
+        "1.11.2-r0": 1715232567
       }
     },
     "py3-ldb": {
@@ -58818,7 +58954,8 @@
     "varnish": {
       "origin": "varnish",
       "versions": {
-        "7.2.1-r0": 1667923741
+        "7.2.1-r0": 1667923741,
+        "7.3.2-r0": 1712537348
       },
       "dependencies": [
         "gcc",
@@ -58833,16 +58970,16 @@
         "so:libvarnishapi.so.3"
       ],
       "provides": [
-        "cmd:varnishadm=7.2.1-r0",
-        "cmd:varnishd=7.2.1-r0",
-        "cmd:varnishhist=7.2.1-r0",
-        "cmd:varnishlog=7.2.1-r0",
-        "cmd:varnishncsa=7.2.1-r0",
-        "cmd:varnishreload=7.2.1-r0",
-        "cmd:varnishstat=7.2.1-r0",
-        "cmd:varnishstat_help_gen=7.2.1-r0",
-        "cmd:varnishtest=7.2.1-r0",
-        "cmd:varnishtop=7.2.1-r0"
+        "cmd:varnishadm=7.3.2-r0",
+        "cmd:varnishd=7.3.2-r0",
+        "cmd:varnishhist=7.3.2-r0",
+        "cmd:varnishlog=7.3.2-r0",
+        "cmd:varnishncsa=7.3.2-r0",
+        "cmd:varnishreload=7.3.2-r0",
+        "cmd:varnishstat=7.3.2-r0",
+        "cmd:varnishstat_help_gen=7.3.2-r0",
+        "cmd:varnishtest=7.3.2-r0",
+        "cmd:varnishtop=7.3.2-r0"
       ]
     },
     "postgresql15-plpython3": {
@@ -58850,10 +58987,11 @@
       "versions": {
         "15.4-r0": 1692027501,
         "15.5-r0": 1700079571,
-        "15.6-r0": 1707657250
+        "15.6-r0": 1707657250,
+        "15.7-r0": 1715730317
       },
       "dependencies": [
-        "postgresql15=15.6-r0",
+        "postgresql15=15.7-r0",
         "python3",
         "so:libc.musl-armhf.so.1",
         "so:libpython3.10.so.1.0"
@@ -59075,7 +59213,8 @@
     "ruby-net-imap": {
       "origin": "ruby-net-imap",
       "versions": {
-        "0.2.3-r0": 1649093062
+        "0.2.3-r0": 1649093062,
+        "0.2.4-r0": 1714046242
       },
       "dependencies": [
         "ruby"
@@ -61700,7 +61839,7 @@
       },
       "libruby.so.3.1": {
         "package": "ruby-libs",
-        "version": "3.1.4"
+        "version": "3.1.5"
       },
       "libsamplerate.so.0": {
         "package": "libsamplerate",
@@ -62764,11 +62903,11 @@
       },
       "libgdk-3.so.0": {
         "package": "gtk+3.0",
-        "version": "0.2404.32"
+        "version": "0.2409.32"
       },
       "libgtk-3.so.0": {
         "package": "gtk+3.0",
-        "version": "0.2404.32"
+        "version": "0.2409.32"
       },
       "libhandle.so.1": {
         "package": "xfsprogs-libs",
@@ -64348,7 +64487,7 @@
       },
       "libarchive.so.13": {
         "package": "libarchive",
-        "version": "13.7.2"
+        "version": "13.7.4"
       },
       "libwayland-egl.so.1": {
         "package": "wayland-libs-egl",
@@ -64376,7 +64515,7 @@
       },
       "libunbound.so.8": {
         "package": "unbound-libs",
-        "version": "8.1.26"
+        "version": "8.1.27"
       },
       "libICE.so.6": {
         "package": "libice",
@@ -64721,7 +64860,7 @@
         "version": "1.80.0-r3"
       },
       "postgresql-plperl": {
-        "package": "postgresql14-plperl",
+        "package": "postgresql15-plperl",
         "version": 0
       },
       "py-filelock": {
@@ -64746,10 +64885,10 @@
       },
       "openssl3-dev": {
         "package": "openssl-dev",
-        "version": "3.0.12-r4"
+        "version": "3.0.13-r0"
       },
       "postgresql-plperl-contrib": {
-        "package": "postgresql15-plperl-contrib",
+        "package": "postgresql14-plperl-contrib",
         "version": 0
       },
       "openldap-back-monitor": {
@@ -64785,7 +64924,7 @@
         "version": "8.2212.0-r0"
       },
       "/bin/sh": {
-        "package": "busybox-binsh",
+        "package": "yash-binsh",
         "version": 0
       },
       "py3-clang": {
@@ -64834,7 +64973,7 @@
       },
       "nodejs-lts-dev": {
         "package": "nodejs-dev",
-        "version": "18.19.1"
+        "version": "18.20.1"
       },
       "lua5.2-bitlib": {
         "package": "lua5.2-bit32",
@@ -64961,7 +65100,7 @@
         "version": 0
       },
       "postgresql-jit": {
-        "package": "postgresql15-jit",
+        "package": "postgresql14-jit",
         "version": 0
       },
       "mpfr": {
@@ -65233,7 +65372,7 @@
         "version": 0
       },
       "postgresql-contrib": {
-        "package": "postgresql15-contrib",
+        "package": "postgresql14-contrib",
         "version": 0
       },
       "py-asn1": {
@@ -65282,31 +65421,31 @@
       },
       "ruby-bigdecimal": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-etc": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-fiddle": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-gdbm": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-io-console": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-irb": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "ruby-json": {
         "package": "ruby",
-        "version": "3.1.4-r0"
+        "version": "3.1.5-r0"
       },
       "boost-wave": {
         "package": "boost1.80-wave",
@@ -65354,7 +65493,7 @@
       },
       "nodejs-lts": {
         "package": "nodejs",
-        "version": "18.19.1-r0"
+        "version": "18.20.1-r0"
       },
       "uboot-tools": {
         "package": "u-boot-tools",
@@ -65409,7 +65548,7 @@
         "version": "15.0.7-r0"
       },
       "dev-openrc": {
-        "package": "busybox-mdev-openrc",
+        "package": "udev-init-scripts-openrc",
         "version": 0
       },
       "py-atomicwrites": {
@@ -65629,7 +65768,7 @@
         "version": "1.80.0-r3"
       },
       "postgresql-plpython3": {
-        "package": "postgresql14-plpython3",
+        "package": "postgresql15-plpython3",
         "version": 0
       },
       "clang": {
@@ -65750,7 +65889,7 @@
       },
       "openssl3": {
         "package": "openssl",
-        "version": "3.0.12-r4"
+        "version": "3.0.13-r0"
       },
       "boost-locale": {
         "package": "boost1.80-locale",
