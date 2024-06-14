@@ -2413,10 +2413,11 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "provides": [
-        "cmd:busybox.static=1.35.0-r30"
+        "cmd:busybox.static=1.35.0-r31"
       ]
     },
     "perl-net-ssleay": {
@@ -8323,7 +8324,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -20256,7 +20258,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "provides": [
         "ifupdown-any"
@@ -35344,14 +35347,15 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
-        "busybox=1.35.0-r30"
+        "busybox=1.35.0-r31"
       ],
       "provides": [
         "/bin/sh",
-        "cmd:sh=1.35.0-r30"
+        "cmd:sh=1.35.0-r31"
       ]
     },
     "sysfsutils": {
@@ -36466,13 +36470,14 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:busybox=1.35.0-r30"
+        "cmd:busybox=1.35.0-r31"
       ]
     },
     "samba-winbind-krb5-locator": {
@@ -39942,14 +39947,15 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:bbsuid=1.35.0-r30"
+        "cmd:bbsuid=1.35.0-r31"
       ]
     },
     "uwsgi-stats_pusher_socket": {
@@ -48269,7 +48275,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -48277,7 +48284,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:ssl_client=1.35.0-r30"
+        "cmd:ssl_client=1.35.0-r31"
       ]
     },
     "perl-socket-doc": {
@@ -53711,7 +53718,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "openrc>=0.24.1-r6"
@@ -55497,7 +55505,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -55745,7 +55754,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       }
     },
     "libnfnetlink": {
@@ -57468,14 +57478,15 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:busybox-extras=1.35.0-r30"
+        "cmd:busybox-extras=1.35.0-r31"
       ]
     },
     "perl-locale-maketext-lexicon": {
@@ -65827,7 +65838,7 @@
         "version": "2022.2-r0"
       },
       "ifupdown-any": {
-        "package": "ifupdown",
+        "package": "busybox-ifupdown",
         "version": 0
       },
       "py-idna": {

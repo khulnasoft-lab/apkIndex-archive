@@ -8511,7 +8511,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -22976,14 +22977,15 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
-        "busybox=1.35.0-r30"
+        "busybox=1.35.0-r31"
       ],
       "provides": [
         "/bin/sh",
-        "cmd:sh=1.35.0-r30"
+        "cmd:sh=1.35.0-r31"
       ]
     },
     "libx11-doc": {
@@ -23796,7 +23798,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -23804,7 +23807,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:ssl_client=1.35.0-r30"
+        "cmd:ssl_client=1.35.0-r31"
       ]
     },
     "dhcp-dev": {
@@ -27845,14 +27848,15 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:busybox-extras=1.35.0-r30"
+        "cmd:busybox-extras=1.35.0-r31"
       ]
     },
     "perl-mime-lite-doc": {
@@ -42435,10 +42439,11 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "provides": [
-        "cmd:busybox.static=1.35.0-r30"
+        "cmd:busybox.static=1.35.0-r31"
       ]
     },
     "libeconf-dev": {
@@ -53660,7 +53665,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "openrc>=0.24.1-r6"
@@ -53882,7 +53888,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "provides": [
         "ifupdown-any"
@@ -55439,7 +55446,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "openrc>=0.24.1-r6",
@@ -55816,7 +55824,8 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       }
     },
     "zfs-libs": {
@@ -57942,13 +57951,14 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:busybox=1.35.0-r30"
+        "cmd:busybox=1.35.0-r31"
       ]
     },
     "freetds-dev": {
@@ -58000,14 +58010,15 @@
       "origin": "busybox",
       "versions": {
         "1.35.0-r29": 1668852790,
-        "1.35.0-r30": 1715906967
+        "1.35.0-r30": 1715906967,
+        "1.35.0-r31": 1718368386
       },
       "dependencies": [
         "busybox",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "cmd:bbsuid=1.35.0-r30"
+        "cmd:bbsuid=1.35.0-r31"
       ]
     },
     "alpine-conf": {
@@ -65659,7 +65670,7 @@
         "version": 0
       },
       "ifupdown-any": {
-        "package": "ifupdown-ng",
+        "package": "busybox-ifupdown",
         "version": 0
       },
       "lm_sensors": {
@@ -66115,7 +66126,7 @@
         "version": "5.3.0-r2"
       },
       "/bin/sh": {
-        "package": "busybox-binsh",
+        "package": "dash-binsh",
         "version": 0
       },
       "boost-prg_exec_monitor": {
@@ -66319,7 +66330,7 @@
         "version": "2.1.1-r1"
       },
       "dev-openrc": {
-        "package": "udev-init-scripts-openrc",
+        "package": "busybox-mdev-openrc",
         "version": 0
       },
       "postgresql": {
