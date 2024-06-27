@@ -49856,7 +49856,8 @@
     "py3-requests": {
       "origin": "py3-requests",
       "versions": {
-        "2.31.0-r0": 1684850580
+        "2.31.0-r0": 1684850580,
+        "2.32.3-r0": 1719501949
       },
       "dependencies": [
         "py3-certifi",
@@ -49867,14 +49868,15 @@
         "python3~3.11"
       ],
       "provides": [
-        "py-requests=2.31.0-r0",
-        "py3.11:requests=2.31.0-r0"
+        "py-requests=2.32.3-r0",
+        "py3.11:requests=2.32.3-r0"
       ]
     },
     "py3-requests-pyc": {
       "origin": "py3-requests",
       "versions": {
-        "2.31.0-r0": 1684850580
+        "2.31.0-r0": 1684850580,
+        "2.32.3-r0": 1719501949
       },
       "dependencies": [
         "py3-certifi",
@@ -62982,7 +62984,7 @@
       },
       "py-requests": {
         "package": "py3-requests",
-        "version": "2.31.0-r0"
+        "version": "2.32.3-r0"
       },
       "py-setuptools": {
         "package": "py3-setuptools",
