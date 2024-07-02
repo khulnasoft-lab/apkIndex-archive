@@ -4324,19 +4324,20 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
-        "openssh-keygen=9.1_p1-r5",
-        "openssh-client-common=9.1_p1-r5",
+        "openssh-keygen=9.1_p1-r6",
+        "openssh-client-common=9.1_p1-r6",
         "!openssh-client-krb5",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libz.so.1"
       ],
       "provides": [
-        "openssh-client=9.1_p1-r5",
-        "cmd:ssh=9.1_p1-r5"
+        "openssh-client=9.1_p1-r6",
+        "cmd:ssh=9.1_p1-r6"
       ]
     },
     "rrdtool-dev": {
@@ -4624,11 +4625,12 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
-        "openssh-keygen=9.1_p1-r5",
-        "openssh-server-common=9.1_p1-r5",
+        "openssh-keygen=9.1_p1-r6",
+        "openssh-server-common=9.1_p1-r6",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libfido2.so.1"
@@ -6702,11 +6704,12 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
-        "openssh-keygen=9.1_p1-r5",
-        "openssh-server-common=9.1_p1-r5",
+        "openssh-keygen=9.1_p1-r6",
+        "openssh-server-common=9.1_p1-r6",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libgssapi_krb5.so.2",
@@ -6715,7 +6718,7 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:sshd.krb5=9.1_p1-r5"
+        "cmd:sshd.krb5=9.1_p1-r6"
       ]
     },
     "perl-xml-sax": {
@@ -13569,10 +13572,11 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
-        "openssh-client=9.1_p1-r5",
+        "openssh-client=9.1_p1-r6",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libz.so.1"
@@ -21543,17 +21547,18 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
-        "openssh-keygen=9.1_p1-r5",
-        "openssh-server-common=9.1_p1-r5",
+        "openssh-keygen=9.1_p1-r6",
+        "openssh-server-common=9.1_p1-r6",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:sshd=9.1_p1-r5"
+        "cmd:sshd=9.1_p1-r6"
       ]
     },
     "lua5.2-dbi-sqlite3": {
@@ -29452,7 +29457,8 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1"
@@ -34082,7 +34088,8 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -34091,14 +34098,14 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:findssl.sh=9.1_p1-r5",
-        "cmd:scp=9.1_p1-r5",
-        "cmd:sftp=9.1_p1-r5",
-        "cmd:ssh-add=9.1_p1-r5",
-        "cmd:ssh-agent=9.1_p1-r5",
-        "cmd:ssh-copy-id=9.1_p1-r5",
-        "cmd:ssh-keyscan=9.1_p1-r5",
-        "cmd:ssh-pkcs11-helper=9.1_p1-r5"
+        "cmd:findssl.sh=9.1_p1-r6",
+        "cmd:scp=9.1_p1-r6",
+        "cmd:sftp=9.1_p1-r6",
+        "cmd:ssh-add=9.1_p1-r6",
+        "cmd:ssh-agent=9.1_p1-r6",
+        "cmd:ssh-copy-id=9.1_p1-r6",
+        "cmd:ssh-keyscan=9.1_p1-r6",
+        "cmd:ssh-pkcs11-helper=9.1_p1-r6"
       ]
     },
     "acf-iproute2-qos": {
@@ -34756,7 +34763,8 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
         "openssh-client",
@@ -44407,18 +44415,19 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
-        "openssh-keygen=9.1_p1-r5",
-        "openssh-server-common=9.1_p1-r5",
+        "openssh-keygen=9.1_p1-r6",
+        "openssh-server-common=9.1_p1-r6",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libpam.so.0",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:sshd.pam=9.1_p1-r5"
+        "cmd:sshd.pam=9.1_p1-r6"
       ]
     },
     "lua5.3-rex-pcre": {
@@ -45251,14 +45260,15 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3"
       ],
       "provides": [
-        "cmd:ssh-keygen=9.1_p1-r5"
+        "cmd:ssh-keygen=9.1_p1-r6"
       ]
     },
     "perl-data-page-pageset-doc": {
@@ -46468,11 +46478,12 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
-        "openssh-keygen=9.1_p1-r5",
-        "openssh-client-common=9.1_p1-r5",
+        "openssh-keygen=9.1_p1-r6",
+        "openssh-client-common=9.1_p1-r6",
         "!openssh-client-default",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
@@ -46480,8 +46491,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "openssh-client=9.1_p1-r5",
-        "cmd:ssh=9.1_p1-r5"
+        "openssh-client=9.1_p1-r6",
+        "cmd:ssh=9.1_p1-r6"
       ]
     },
     "libxt-doc": {
@@ -52317,7 +52328,8 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       },
       "dependencies": [
         "openssh-client",
@@ -52445,7 +52457,8 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       }
     },
     "postfix-stone": {
@@ -54035,7 +54048,8 @@
       "origin": "openssh",
       "versions": {
         "9.1_p1-r4": 1689794465,
-        "9.1_p1-r5": 1705499797
+        "9.1_p1-r5": 1705499797,
+        "9.1_p1-r6": 1719935706
       }
     },
     "libburn": {
@@ -59101,8 +59115,8 @@
         "version": 0
       },
       "openssh-client": {
-        "package": "openssh-client-default",
-        "version": "9.1_p1-r5"
+        "package": "openssh-client-krb5",
+        "version": "9.1_p1-r6"
       },
       "initramfs-generator": {
         "package": "mkinitfs",
