@@ -31638,7 +31638,8 @@
     "openvpn-openrc": {
       "origin": "openvpn",
       "versions": {
-        "2.5.8-r0": 1667353665
+        "2.5.8-r0": 1667353665,
+        "2.5.10-r1": 1719915330
       }
     },
     "avahi-glib": {
@@ -45070,7 +45071,8 @@
     "openvpn-dev": {
       "origin": "openvpn",
       "versions": {
-        "2.5.8-r0": 1667353665
+        "2.5.8-r0": 1667353665,
+        "2.5.10-r1": 1719915330
       },
       "dependencies": [
         "openssl-dev"
@@ -47549,7 +47551,8 @@
     "openvpn-auth-pam": {
       "origin": "openvpn",
       "versions": {
-        "2.5.8-r0": 1667353665
+        "2.5.8-r0": 1667353665,
+        "2.5.10-r1": 1719915330
       },
       "dependencies": [
         "iproute2-minimal",
@@ -53018,7 +53021,8 @@
     "openvpn-doc": {
       "origin": "openvpn",
       "versions": {
-        "2.5.8-r0": 1667353665
+        "2.5.8-r0": 1667353665,
+        "2.5.10-r1": 1719915330
       }
     },
     "libsodium-dev": {
@@ -55990,7 +55994,8 @@
     "openvpn": {
       "origin": "openvpn",
       "versions": {
-        "2.5.8-r0": 1667353665
+        "2.5.8-r0": 1667353665,
+        "2.5.10-r1": 1719915330
       },
       "dependencies": [
         "iproute2-minimal",
@@ -56001,7 +56006,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:openvpn=2.5.8-r0"
+        "cmd:openvpn=2.5.10-r1"
       ]
     },
     "libxdamage": {

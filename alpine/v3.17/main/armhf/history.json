@@ -12408,7 +12408,8 @@
     "openvpn-auth-pam": {
       "origin": "openvpn",
       "versions": {
-        "2.5.8-r0": 1667353665
+        "2.5.8-r0": 1667353665,
+        "2.5.10-r1": 1719915330
       },
       "dependencies": [
         "iproute2-minimal",
@@ -21559,7 +21560,8 @@
     "openvpn-openrc": {
       "origin": "openvpn",
       "versions": {
-        "2.5.8-r0": 1667353665
+        "2.5.8-r0": 1667353665,
+        "2.5.10-r1": 1719915330
       }
     },
     "espeak-dev": {
@@ -25392,7 +25394,8 @@
     "openvpn": {
       "origin": "openvpn",
       "versions": {
-        "2.5.8-r0": 1667353665
+        "2.5.8-r0": 1667353665,
+        "2.5.10-r1": 1719915330
       },
       "dependencies": [
         "iproute2-minimal",
@@ -25403,7 +25406,7 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:openvpn=2.5.8-r0"
+        "cmd:openvpn=2.5.10-r1"
       ]
     },
     "nmap-ncat": {
@@ -32771,7 +32774,8 @@
     "openvpn-doc": {
       "origin": "openvpn",
       "versions": {
-        "2.5.8-r0": 1667353665
+        "2.5.8-r0": 1667353665,
+        "2.5.10-r1": 1719915330
       }
     },
     "gcr-lang": {
@@ -48636,7 +48640,8 @@
     "openvpn-dev": {
       "origin": "openvpn",
       "versions": {
-        "2.5.8-r0": 1667353665
+        "2.5.8-r0": 1667353665,
+        "2.5.10-r1": 1719915330
       },
       "dependencies": [
         "openssl-dev"
