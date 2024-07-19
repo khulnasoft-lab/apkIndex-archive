@@ -37554,18 +37554,19 @@
     "py3-setuptools": {
       "origin": "py3-setuptools",
       "versions": {
-        "65.6.0-r0": 1668842291
+        "65.6.0-r0": 1668842291,
+        "70.3.0-r0": 1721387136
       },
       "dependencies": [
         "py3-packaging",
         "python3"
       ],
       "provides": [
-        "py-setuptools=65.6.0-r0",
+        "py-setuptools=70.3.0-r0",
         "py3-setuptools-bootstrap",
-        "py3.10:_distutils_hack=65.6.0-r0",
-        "py3.10:pkg_resources=65.6.0-r0",
-        "py3.10:setuptools=65.6.0-r0"
+        "py3.10:_distutils_hack=70.3.0-r0",
+        "py3.10:pkg_resources=70.3.0-r0",
+        "py3.10:setuptools=70.3.0-r0"
       ]
     },
     "mtd-utils-flash": {
@@ -59829,7 +59830,7 @@
       },
       "py-setuptools": {
         "package": "py3-setuptools",
-        "version": "65.6.0-r0"
+        "version": "70.3.0-r0"
       },
       "py-markupsafe": {
         "package": "py3-markupsafe",

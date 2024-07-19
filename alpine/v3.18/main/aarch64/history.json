@@ -50236,7 +50236,8 @@
     "py3-setuptools": {
       "origin": "py3-setuptools",
       "versions": {
-        "67.7.2-r0": 1682337155
+        "67.7.2-r0": 1682337155,
+        "70.3.0-r0": 1721387217
       },
       "dependencies": [
         "py3-packaging",
@@ -50244,17 +50245,18 @@
         "python3~3.11"
       ],
       "provides": [
-        "py-setuptools=67.7.2-r0",
+        "py-setuptools=70.3.0-r0",
         "py3-setuptools-bootstrap",
-        "py3.11:_distutils_hack=67.7.2-r0",
-        "py3.11:pkg_resources=67.7.2-r0",
-        "py3.11:setuptools=67.7.2-r0"
+        "py3.11:_distutils_hack=70.3.0-r0",
+        "py3.11:pkg_resources=70.3.0-r0",
+        "py3.11:setuptools=70.3.0-r0"
       ]
     },
     "py3-setuptools-pyc": {
       "origin": "py3-setuptools",
       "versions": {
-        "67.7.2-r0": 1682337155
+        "67.7.2-r0": 1682337155,
+        "70.3.0-r0": 1721387217
       },
       "dependencies": [
         "py3-packaging",
@@ -63714,7 +63716,7 @@
       },
       "py-setuptools": {
         "package": "py3-setuptools",
-        "version": "67.7.2-r0"
+        "version": "70.3.0-r0"
       },
       "py3-setuptools-bootstrap": {
         "package": "py3-setuptools",
