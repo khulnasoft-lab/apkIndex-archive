@@ -161738,7 +161738,8 @@
     "xmlsec": {
       "origin": "xmlsec",
       "versions": {
-        "1.3.0-r2": 1689253699
+        "1.3.0-r2": 1689253699,
+        "1.3.5-r0": 1722053595
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -161748,15 +161749,16 @@
         "so:libxslt.so.1"
       ],
       "provides": [
-        "so:libxmlsec1-openssl.so.1=1.3.0",
-        "so:libxmlsec1.so.1=1.3.0",
-        "cmd:xmlsec1=1.3.0-r2"
+        "so:libxmlsec1-openssl.so.1=1.3.5",
+        "so:libxmlsec1.so.1=1.3.5",
+        "cmd:xmlsec1=1.3.5-r0"
       ]
     },
     "xmlsec-dev": {
       "origin": "xmlsec",
       "versions": {
-        "1.3.0-r2": 1689253699
+        "1.3.0-r2": 1689253699,
+        "1.3.5-r0": 1722053595
       },
       "dependencies": [
         "pc:libxml-2.0>=2.8.0",
@@ -161764,36 +161766,39 @@
         "pc:mozilla-nss>=1.4",
         "pc:nspr>=1.4",
         "pkgconfig",
-        "xmlsec=1.3.0-r2"
+        "xmlsec=1.3.5-r0"
       ],
       "provides": [
-        "pc:xmlsec1-nss=1.3.0",
-        "pc:xmlsec1-openssl=1.3.0",
-        "pc:xmlsec1=1.3.0",
-        "cmd:xmlsec1-config=1.3.0-r2"
+        "pc:xmlsec1-nss=1.3.5",
+        "pc:xmlsec1-openssl=1.3.5",
+        "pc:xmlsec1=1.3.5",
+        "cmd:xmlsec1-config=1.3.5-r0"
       ]
     },
     "xmlsec-doc": {
       "origin": "xmlsec",
       "versions": {
-        "1.3.0-r2": 1689253699
+        "1.3.0-r2": 1689253699,
+        "1.3.5-r0": 1722053595
       }
     },
     "xmlsec-nss": {
       "origin": "xmlsec",
       "versions": {
-        "1.3.0-r2": 1689253699
+        "1.3.0-r2": 1689253699,
+        "1.3.5-r0": 1722053595
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libnspr4.so",
         "so:libnss3.so",
+        "so:libnssutil3.so",
         "so:libsmime3.so",
         "so:libxml2.so.2",
         "so:libxmlsec1.so.1"
       ],
       "provides": [
-        "so:libxmlsec1-nss.so.1=1.3.0"
+        "so:libxmlsec1-nss.so.1=1.3.5"
       ]
     },
     "xmlstarlet": {
@@ -176497,15 +176502,15 @@
       },
       "libxmlsec1-openssl.so.1": {
         "package": "xmlsec",
-        "version": "1.3.0"
+        "version": "1.3.5"
       },
       "libxmlsec1.so.1": {
         "package": "xmlsec",
-        "version": "1.3.0"
+        "version": "1.3.5"
       },
       "libxmlsec1-nss.so.1": {
         "package": "xmlsec-nss",
-        "version": "1.3.0"
+        "version": "1.3.5"
       },
       "libd0_blind_id.so.0": {
         "package": "xonotic",
