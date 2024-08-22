@@ -144417,44 +144417,50 @@
     "stargazer-gmi": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1678404953
+        "1.0.5-r0": 1678404953,
+        "1.1.1-r0": 1724305262
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:stargazer=1.0.5-r0"
+        "cmd:stargazer=1.1.1-r0"
       ]
     },
     "stargazer-gmi-bash-completion": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1678404953
+        "1.0.5-r0": 1678404953,
+        "1.1.1-r0": 1724305262
       }
     },
     "stargazer-gmi-doc": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1678404953
+        "1.0.5-r0": 1678404953,
+        "1.1.1-r0": 1724305262
       }
     },
     "stargazer-gmi-fish-completion": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1678404953
+        "1.0.5-r0": 1678404953,
+        "1.1.1-r0": 1724305262
       }
     },
     "stargazer-gmi-openrc": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1678404953
+        "1.0.5-r0": 1678404953,
+        "1.1.1-r0": 1724305262
       }
     },
     "stargazer-gmi-zsh-completion": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1678404953
+        "1.0.5-r0": 1678404953,
+        "1.1.1-r0": 1724305262
       }
     },
     "starship": {

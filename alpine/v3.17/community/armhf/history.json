@@ -27701,7 +27701,8 @@
     "stargazer-gmi-fish-completion": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1664034797
+        "1.0.5-r0": 1664034797,
+        "1.1.1-r0": 1724305769
       }
     },
     "qemu-arm": {
@@ -33034,7 +33035,8 @@
     "stargazer-gmi-bash-completion": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1664034797
+        "1.0.5-r0": 1664034797,
+        "1.1.1-r0": 1724305769
       }
     },
     "php81-xmlreader": {
@@ -39116,7 +39118,8 @@
     "stargazer-gmi-zsh-completion": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1664034797
+        "1.0.5-r0": 1664034797,
+        "1.1.1-r0": 1724305769
       }
     },
     "greetd-agreety": {
@@ -44935,14 +44938,15 @@
     "stargazer-gmi": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1664034797
+        "1.0.5-r0": 1664034797,
+        "1.1.1-r0": 1724305769
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1"
       ],
       "provides": [
-        "cmd:stargazer=1.0.5-r0"
+        "cmd:stargazer=1.1.1-r0"
       ]
     },
     "php81-pecl-swoole-dev": {
@@ -56082,7 +56086,8 @@
     "stargazer-gmi-doc": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1664034797
+        "1.0.5-r0": 1664034797,
+        "1.1.1-r0": 1724305769
       }
     },
     "lua-resty-http": {
@@ -109872,7 +109877,8 @@
     "stargazer-gmi-openrc": {
       "origin": "stargazer-gmi",
       "versions": {
-        "1.0.5-r0": 1664034797
+        "1.0.5-r0": 1664034797,
+        "1.1.1-r0": 1724305769
       }
     },
     "sane-backend-sp15c": {
