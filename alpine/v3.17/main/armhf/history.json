@@ -36727,15 +36727,16 @@
     "orc-dev": {
       "origin": "orc",
       "versions": {
-        "0.4.33-r0": 1667280704
+        "0.4.33-r0": 1667280704,
+        "0.4.39-r0": 1725867341
       },
       "dependencies": [
-        "orc-compiler=0.4.33-r0",
-        "orc=0.4.33-r0",
+        "orc-compiler=0.4.39-r0",
+        "orc=0.4.39-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:orc-0.4=0.4.33"
+        "pc:orc-0.4=0.4.39"
       ]
     },
     "squid-lang-uz": {
@@ -38740,14 +38741,15 @@
     "orc-compiler": {
       "origin": "orc",
       "versions": {
-        "0.4.33-r0": 1667280704
+        "0.4.33-r0": 1667280704,
+        "0.4.39-r0": 1725867341
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
         "so:liborc-0.4.so.0"
       ],
       "provides": [
-        "cmd:orcc=0.4.33-r0"
+        "cmd:orcc=0.4.39-r0"
       ]
     },
     "perl-timedate-doc": {
@@ -48601,13 +48603,14 @@
     "orc": {
       "origin": "orc",
       "versions": {
-        "0.4.33-r0": 1667280704
+        "0.4.33-r0": 1667280704,
+        "0.4.39-r0": 1725867341
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "so:liborc-0.4.so.0=0.33.0"
+        "so:liborc-0.4.so.0=0.39.0"
       ]
     },
     "uwsgi-transformation_chunked": {
@@ -63989,7 +63992,7 @@
       },
       "liborc-0.4.so.0": {
         "package": "orc",
-        "version": "0.33.0"
+        "version": "0.39.0"
       },
       "libnss_ldap.so.2": {
         "package": "nss-pam-ldapd",
