@@ -14858,7 +14858,8 @@
     "gdk-pixbuf-dbg": {
       "origin": "gdk-pixbuf",
       "versions": {
-        "2.42.10-r0": 1666787249
+        "2.42.10-r0": 1666787249,
+        "2.42.12-r0": 1726127751
       },
       "dependencies": [
         "shared-mime-info"
@@ -31864,10 +31865,11 @@
     "gdk-pixbuf-dev": {
       "origin": "gdk-pixbuf",
       "versions": {
-        "2.42.10-r0": 1666787249
+        "2.42.10-r0": 1666787249,
+        "2.42.12-r0": 1726127751
       },
       "dependencies": [
-        "gdk-pixbuf=2.42.10-r0",
+        "gdk-pixbuf=2.42.12-r0",
         "pc:gio-2.0>=2.56.0",
         "pc:glib-2.0>=2.56.0",
         "pc:gmodule-no-export-2.0>=2.56.0",
@@ -31879,7 +31881,7 @@
         "pkgconfig"
       ],
       "provides": [
-        "pc:gdk-pixbuf-2.0=2.42.10"
+        "pc:gdk-pixbuf-2.0=2.42.12"
       ]
     },
     "lua5.4-pty": {
@@ -38018,7 +38020,8 @@
     "gdk-pixbuf-doc": {
       "origin": "gdk-pixbuf",
       "versions": {
-        "2.42.10-r0": 1666787249
+        "2.42.10-r0": 1666787249,
+        "2.42.12-r0": 1726127751
       }
     },
     "libmaxminddb-doc": {
@@ -41345,7 +41348,8 @@
     "gdk-pixbuf": {
       "origin": "gdk-pixbuf",
       "versions": {
-        "2.42.10-r0": 1666787249
+        "2.42.10-r0": 1666787249,
+        "2.42.12-r0": 1726127751
       },
       "dependencies": [
         "shared-mime-info",
@@ -41361,11 +41365,11 @@
         "so:libtiff.so.5"
       ],
       "provides": [
-        "so:libgdk_pixbuf-2.0.so.0=0.4200.10",
-        "cmd:gdk-pixbuf-csource=2.42.10-r0",
-        "cmd:gdk-pixbuf-pixdata=2.42.10-r0",
-        "cmd:gdk-pixbuf-query-loaders=2.42.10-r0",
-        "cmd:gdk-pixbuf-thumbnailer=2.42.10-r0"
+        "so:libgdk_pixbuf-2.0.so.0=0.4200.12",
+        "cmd:gdk-pixbuf-csource=2.42.12-r0",
+        "cmd:gdk-pixbuf-pixdata=2.42.12-r0",
+        "cmd:gdk-pixbuf-query-loaders=2.42.12-r0",
+        "cmd:gdk-pixbuf-thumbnailer=2.42.12-r0"
       ]
     },
     "lua-mosquitto": {
@@ -50583,7 +50587,8 @@
     "gdk-pixbuf-lang": {
       "origin": "gdk-pixbuf",
       "versions": {
-        "2.42.10-r0": 1666787249
+        "2.42.10-r0": 1666787249,
+        "2.42.12-r0": 1726127751
       },
       "dependencies": [
         "shared-mime-info"
@@ -63785,7 +63790,7 @@
       },
       "libgdk_pixbuf-2.0.so.0": {
         "package": "gdk-pixbuf",
-        "version": "0.4200.10"
+        "version": "0.4200.12"
       },
       "libdns_sd.so.1": {
         "package": "avahi-compat-libdns_sd",
