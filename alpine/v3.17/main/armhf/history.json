@@ -2044,10 +2044,11 @@
     "git-gui": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
+        "git=2.39.5-r0",
         "tcl",
         "tk"
       ]
@@ -3524,10 +3525,11 @@
     "git-daemon-openrc": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git-daemon=2.38.5-r0"
+        "git-daemon=2.39.5-r0"
       ]
     },
     "mandoc-doc": {
@@ -3599,10 +3601,11 @@
     "git-credential-libsecret": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
+        "git=2.39.5-r0",
         "so:libc.musl-armhf.so.1",
         "so:libglib-2.0.so.0",
         "so:libgobject-2.0.so.0",
@@ -7795,11 +7798,12 @@
     "git-perl": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
-        "perl-git=2.38.5-r0",
+        "git=2.39.5-r0",
+        "perl-git=2.39.5-r0",
         "perl"
       ]
     },
@@ -9791,11 +9795,12 @@
     "git-daemon": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
-        "git=2.38.5-r0",
+        "git=2.39.5-r0",
+        "git=2.39.5-r0",
         "so:libc.musl-armhf.so.1",
         "so:libpcre2-8.so.0",
         "so:libz.so.1"
@@ -13164,7 +13169,8 @@
     "git": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -13174,11 +13180,11 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:git-receive-pack=2.38.5-r0",
-        "cmd:git-shell=2.38.5-r0",
-        "cmd:git-upload-archive=2.38.5-r0",
-        "cmd:git-upload-pack=2.38.5-r0",
-        "cmd:git=2.38.5-r0"
+        "cmd:git-receive-pack=2.39.5-r0",
+        "cmd:git-shell=2.39.5-r0",
+        "cmd:git-upload-archive=2.39.5-r0",
+        "cmd:git-upload-pack=2.39.5-r0",
+        "cmd:git=2.39.5-r0"
       ]
     },
     "freeswitch-pgsql": {
@@ -16303,11 +16309,12 @@
     "git-email": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
         "perl",
-        "perl-git=2.38.5-r0",
+        "perl-git=2.39.5-r0",
         "perl-net-smtp-ssl",
         "perl-authen-sasl",
         "so:libc.musl-armhf.so.1",
@@ -17363,16 +17370,17 @@
     "git-cvs": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
         "perl",
-        "perl-git=2.38.5-r0",
+        "perl-git=2.39.5-r0",
         "cvs",
         "perl-dbd-sqlite"
       ],
       "provides": [
-        "cmd:git-cvsserver=2.38.5-r0"
+        "cmd:git-cvsserver=2.39.5-r0"
       ]
     },
     "cifs-utils-doc": {
@@ -22127,11 +22135,12 @@
     "git-p4": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
-        "git-fast-import=2.38.5-r0"
+        "git=2.39.5-r0",
+        "git-fast-import=2.39.5-r0"
       ]
     },
     "docbook2x-doc": {
@@ -28914,10 +28923,11 @@
     "git-subtree": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0"
+        "git=2.39.5-r0"
       ]
     },
     "iproute2-tc": {
@@ -29663,10 +29673,11 @@
     "git-gitweb": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
+        "git=2.39.5-r0",
         "perl"
       ]
     },
@@ -31173,11 +31184,12 @@
     "git-fast-import": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
-        "git=2.38.5-r0"
+        "git=2.39.5-r0",
+        "git=2.39.5-r0"
       ]
     },
     "nagios-web": {
@@ -36532,7 +36544,8 @@
     "git-doc": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       }
     },
     "perl-net-rblclient": {
@@ -38211,7 +38224,8 @@
     "git-bash-completion": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       }
     },
     "bind-dbg": {
@@ -38444,16 +38458,17 @@
     "git-scalar": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
+        "git=2.39.5-r0",
         "so:libc.musl-armhf.so.1",
         "so:libpcre2-8.so.0",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:scalar=2.38.5-r0"
+        "cmd:scalar=2.39.5-r0"
       ]
     },
     "gcc-gnat": {
@@ -39797,11 +39812,12 @@
     "perl-git-svn": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
-        "perl-git=2.38.5-r0"
+        "git=2.39.5-r0",
+        "perl-git=2.39.5-r0"
       ]
     },
     "libogg-static": {
@@ -43288,11 +43304,12 @@
     "git-svn": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
         "perl",
-        "perl-git-svn=2.38.5-r0",
+        "perl-git-svn=2.39.5-r0",
         "perl-subversion",
         "perl-term-readkey"
       ]
@@ -43313,7 +43330,8 @@
     "git-subtree-doc": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       }
     },
     "py3-tz": {
@@ -44868,14 +44886,15 @@
     "git-diff-highlight": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
+        "git=2.39.5-r0",
         "perl"
       ],
       "provides": [
-        "cmd:diff-highlight=2.38.5-r0"
+        "cmd:diff-highlight=2.39.5-r0"
       ]
     },
     "highlight": {
@@ -47982,7 +48001,8 @@
     "git-dbg": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       }
     },
     "samba-server": {
@@ -53000,10 +53020,11 @@
     "perl-git": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
+        "git=2.39.5-r0",
         "perl-error"
       ]
     },
@@ -58329,15 +58350,16 @@
     "git-gitk": {
       "origin": "git",
       "versions": {
-        "2.38.5-r0": 1682442795
+        "2.38.5-r0": 1682442795,
+        "2.39.5-r0": 1726551819
       },
       "dependencies": [
-        "git=2.38.5-r0",
+        "git=2.39.5-r0",
         "tcl",
         "tk"
       ],
       "provides": [
-        "cmd:gitk=2.38.5-r0"
+        "cmd:gitk=2.39.5-r0"
       ]
     },
     "lua5.4-penlight": {
