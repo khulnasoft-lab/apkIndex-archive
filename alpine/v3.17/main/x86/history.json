@@ -11778,7 +11778,8 @@
     "libpng-static": {
       "origin": "libpng",
       "versions": {
-        "1.6.39-r0": 1691493094
+        "1.6.39-r0": 1691493094,
+        "1.6.44-r0": 1726573359
       }
     },
     "curl-fish-completion": {
@@ -18874,14 +18875,15 @@
     "libpng": {
       "origin": "libpng",
       "versions": {
-        "1.6.39-r0": 1691493094
+        "1.6.39-r0": 1691493094,
+        "1.6.44-r0": 1726573359
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libpng16.so.16=16.39.0"
+        "so:libpng16.so.16=16.44.0"
       ]
     },
     "subversion-bash-completion": {
@@ -50334,7 +50336,8 @@
     "libpng-utils": {
       "origin": "libpng",
       "versions": {
-        "1.6.39-r0": 1691493094
+        "1.6.39-r0": 1691493094,
+        "1.6.44-r0": 1726573359
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -50342,8 +50345,8 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:png-fix-itxt=1.6.39-r0",
-        "cmd:pngfix=1.6.39-r0"
+        "cmd:png-fix-itxt=1.6.44-r0",
+        "cmd:pngfix=1.6.44-r0"
       ]
     },
     "wayland-libs-egl": {
@@ -51239,7 +51242,8 @@
     "libpng-doc": {
       "origin": "libpng",
       "versions": {
-        "1.6.39-r0": 1691493094
+        "1.6.39-r0": 1691493094,
+        "1.6.44-r0": 1726573359
       }
     },
     "nsd-dbg": {
@@ -59242,18 +59246,19 @@
     "libpng-dev": {
       "origin": "libpng",
       "versions": {
-        "1.6.39-r0": 1691493094
+        "1.6.39-r0": 1691493094,
+        "1.6.44-r0": 1726573359
       },
       "dependencies": [
-        "libpng=1.6.39-r0",
+        "libpng=1.6.44-r0",
         "pc:zlib",
         "pkgconfig"
       ],
       "provides": [
-        "pc:libpng16=1.6.39",
-        "pc:libpng=1.6.39",
-        "cmd:libpng-config=1.6.39-r0",
-        "cmd:libpng16-config=1.6.39-r0"
+        "pc:libpng16=1.6.44",
+        "pc:libpng=1.6.44",
+        "cmd:libpng-config=1.6.44-r0",
+        "cmd:libpng16-config=1.6.44-r0"
       ]
     },
     "vanessa_adt-dev": {
@@ -61649,7 +61654,7 @@
       },
       "libpng16.so.16": {
         "package": "libpng",
-        "version": "16.39.0"
+        "version": "16.44.0"
       },
       "libkmod.so.2": {
         "package": "kmod-libs",
