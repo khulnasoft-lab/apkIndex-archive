@@ -1853,7 +1853,8 @@
       "origin": "abuild",
       "versions": {
         "3.14.0-r0": 1728995910,
-        "3.14.1-r0": 1729673844
+        "3.14.1-r0": 1729673844,
+        "3.14.1-r1": 1730144990
       },
       "dependencies": [
         "apk-tools>=2.0.7-r1",
@@ -1872,32 +1873,34 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:abuild-fetch=3.14.1-r0",
-        "cmd:abuild-gzsplit=3.14.1-r0",
-        "cmd:abuild-keygen=3.14.1-r0",
-        "cmd:abuild-rmtemp=3.14.1-r0",
-        "cmd:abuild-sign=3.14.1-r0",
-        "cmd:abuild-tar=3.14.1-r0",
-        "cmd:abuild=3.14.1-r0",
-        "cmd:abump=3.14.1-r0",
-        "cmd:apkgrel=3.14.1-r0",
-        "cmd:buildlab=3.14.1-r0",
-        "cmd:checkapk=3.14.1-r0",
-        "cmd:newapkbuild=3.14.1-r0"
+        "cmd:abuild-fetch=3.14.1-r1",
+        "cmd:abuild-gzsplit=3.14.1-r1",
+        "cmd:abuild-keygen=3.14.1-r1",
+        "cmd:abuild-rmtemp=3.14.1-r1",
+        "cmd:abuild-sign=3.14.1-r1",
+        "cmd:abuild-tar=3.14.1-r1",
+        "cmd:abuild=3.14.1-r1",
+        "cmd:abump=3.14.1-r1",
+        "cmd:apkgrel=3.14.1-r1",
+        "cmd:buildlab=3.14.1-r1",
+        "cmd:checkapk=3.14.1-r1",
+        "cmd:newapkbuild=3.14.1-r1"
       ]
     },
     "abuild-doc": {
       "origin": "abuild",
       "versions": {
         "3.14.0-r0": 1728995910,
-        "3.14.1-r0": 1729673844
+        "3.14.1-r0": 1729673844,
+        "3.14.1-r1": 1730144990
       }
     },
     "abuild-rootbld": {
       "origin": "abuild",
       "versions": {
         "3.14.0-r0": 1728995910,
-        "3.14.1-r0": 1729673844
+        "3.14.1-r0": 1729673844,
+        "3.14.1-r1": 1730144990
       },
       "dependencies": [
         "abuild",
@@ -1910,16 +1913,17 @@
       "origin": "abuild",
       "versions": {
         "3.14.0-r0": 1728995910,
-        "3.14.1-r0": 1729673844
+        "3.14.1-r0": 1729673844,
+        "3.14.1-r1": 1730144990
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1"
       ],
       "provides": [
-        "cmd:abuild-addgroup=3.14.1-r0",
-        "cmd:abuild-adduser=3.14.1-r0",
-        "cmd:abuild-apk=3.14.1-r0",
-        "cmd:abuild-sudo=3.14.1-r0"
+        "cmd:abuild-addgroup=3.14.1-r1",
+        "cmd:abuild-adduser=3.14.1-r1",
+        "cmd:abuild-apk=3.14.1-r1",
+        "cmd:abuild-sudo=3.14.1-r1"
       ]
     },
     "acct": {
@@ -3609,7 +3613,8 @@
       "origin": "abuild",
       "versions": {
         "3.14.0-r0": 1728995910,
-        "3.14.1-r0": 1729673844
+        "3.14.1-r0": 1729673844,
+        "3.14.1-r1": 1730144990
       },
       "dependencies": [
         "perl",
@@ -3620,28 +3625,30 @@
         "perl-lwp-protocol-https"
       ],
       "provides": [
-        "cmd:apkbuild-cpan=3.14.1-r0"
+        "cmd:apkbuild-cpan=3.14.1-r1"
       ]
     },
     "apkbuild-gem-resolver": {
       "origin": "abuild",
       "versions": {
         "3.14.0-r0": 1728995910,
-        "3.14.1-r0": 1729673844
+        "3.14.1-r0": 1729673844,
+        "3.14.1-r1": 1730144990
       },
       "dependencies": [
         "ruby",
         "ruby-augeas"
       ],
       "provides": [
-        "cmd:apkbuild-gem-resolver=3.14.1-r0"
+        "cmd:apkbuild-gem-resolver=3.14.1-r1"
       ]
     },
     "apkbuild-pypi": {
       "origin": "abuild",
       "versions": {
         "3.14.0-r0": 1728995910,
-        "3.14.1-r0": 1729673844
+        "3.14.1-r0": 1729673844,
+        "3.14.1-r1": 1730144990
       },
       "dependencies": [
         "perl",
@@ -3652,7 +3659,7 @@
         "perl-ipc-system-simple"
       ],
       "provides": [
-        "cmd:apkbuild-pypi=3.14.1-r0"
+        "cmd:apkbuild-pypi=3.14.1-r1"
       ]
     },
     "aports-build": {
@@ -36962,7 +36969,8 @@
     "mesa": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
         "so:libLLVM.so.19.1",
@@ -36987,19 +36995,21 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libgallium-24.2.4.so=0"
+        "so:libgallium-24.2.5.so=0"
       ]
     },
     "mesa-dbg": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       }
     },
     "mesa-dev": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
         "libdrm-dev",
@@ -37007,13 +37017,13 @@
         "libxdamage-dev",
         "libxcb-dev",
         "libxshmfence-dev",
-        "mesa-egl=24.2.4-r2",
-        "mesa-gbm=24.2.4-r2",
-        "mesa-gl=24.2.4-r2",
-        "mesa-glapi=24.2.4-r2",
-        "mesa-gles=24.2.4-r2",
-        "mesa-osmesa=24.2.4-r2",
-        "mesa-xatracker=24.2.4-r2",
+        "mesa-egl=24.2.5-r0",
+        "mesa-gbm=24.2.5-r0",
+        "mesa-gl=24.2.5-r0",
+        "mesa-glapi=24.2.5-r0",
+        "mesa-gles=24.2.5-r0",
+        "mesa-osmesa=24.2.5-r0",
+        "mesa-xatracker=24.2.5-r0",
         "pc:libdrm>=2.4.121",
         "pc:libdrm>=2.4.123",
         "pc:libdrm>=2.4.75",
@@ -37029,12 +37039,12 @@
       ],
       "provides": [
         "pc:d3d=1.0.0",
-        "pc:dri=24.2.4",
-        "pc:egl=24.2.4",
-        "pc:gbm=24.2.4",
-        "pc:gl=24.2.4",
-        "pc:glesv1_cm=24.2.4",
-        "pc:glesv2=24.2.4",
+        "pc:dri=24.2.5",
+        "pc:egl=24.2.5",
+        "pc:gbm=24.2.5",
+        "pc:gl=24.2.5",
+        "pc:glesv1_cm=24.2.5",
+        "pc:glesv2=24.2.5",
         "pc:osmesa=8.0.0",
         "pc:xatracker=2.5.0"
       ]
@@ -37042,10 +37052,11 @@
     "mesa-dri-gallium": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libgbm.so.1"
       ]
@@ -37053,15 +37064,16 @@
     "mesa-egl": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "so:libX11-xcb.so.1",
         "so:libc.musl-loongarch64.so.1",
         "so:libdrm.so.2",
         "so:libexpat.so.1",
-        "so:libgallium-24.2.4.so",
+        "so:libgallium-24.2.5.so",
         "so:libgbm.so.1",
         "so:libgcc_s.so.1",
         "so:libglapi.so.0",
@@ -37084,14 +37096,15 @@
     "mesa-gbm": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libdrm.so.2",
         "so:libexpat.so.1",
-        "so:libgallium-24.2.4.so",
+        "so:libgallium-24.2.5.so",
         "so:libwayland-server.so.0",
         "so:libxcb-randr.so.0"
       ],
@@ -37102,10 +37115,11 @@
     "mesa-gl": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "so:libX11-xcb.so.1",
         "so:libX11.so.6",
         "so:libXext.so.6",
@@ -37114,7 +37128,7 @@
         "so:libc.musl-loongarch64.so.1",
         "so:libdrm.so.2",
         "so:libexpat.so.1",
-        "so:libgallium-24.2.4.so",
+        "so:libgallium-24.2.5.so",
         "so:libglapi.so.0",
         "so:libxcb-dri2.so.0",
         "so:libxcb-dri3.so.0",
@@ -37134,7 +37148,8 @@
     "mesa-glapi": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
         "so:libc.musl-loongarch64.so.1"
@@ -37146,10 +37161,11 @@
     "mesa-gles": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "so:libc.musl-loongarch64.so.1",
         "so:libglapi.so.0"
       ],
@@ -37161,10 +37177,11 @@
     "mesa-libd3dadapter9": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "so:libLLVM.so.19.1",
         "so:libc.musl-loongarch64.so.1",
         "so:libdrm.so.2",
@@ -37181,10 +37198,11 @@
     "mesa-osmesa": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "so:libLLVM.so.19.1",
         "so:libc.musl-loongarch64.so.1",
         "so:libdrm.so.2",
@@ -37201,32 +37219,35 @@
     "mesa-va-gallium": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "libva",
-        "mesa=24.2.4-r2"
+        "mesa=24.2.5-r0"
       ]
     },
     "mesa-vdpau-gallium": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "libvdpau",
-        "mesa=24.2.4-r2"
+        "mesa=24.2.5-r0"
       ]
     },
     "mesa-vulkan-ati": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "so:libLLVM.so.19.1",
         "so:libX11-xcb.so.1",
         "so:libc.musl-loongarch64.so.1",
@@ -37256,7 +37277,8 @@
     "mesa-vulkan-layers": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
         "python3",
@@ -37269,19 +37291,20 @@
         "so:libxcb.so.1"
       ],
       "provides": [
-        "mesa-vulkan-layer=24.2.4-r2",
+        "mesa-vulkan-layer=24.2.5-r0",
         "so:libVkLayer_MESA_device_select.so=0",
         "so:libVkLayer_MESA_overlay.so=0",
-        "cmd:mesa-overlay-control.py=24.2.4-r2"
+        "cmd:mesa-overlay-control.py=24.2.5-r0"
       ]
     },
     "mesa-vulkan-swrast": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "so:libLLVM.so.19.1",
         "so:libX11-xcb.so.1",
         "so:libc.musl-loongarch64.so.1",
@@ -37309,10 +37332,11 @@
     "mesa-xatracker": {
       "origin": "mesa",
       "versions": {
-        "24.2.4-r2": 1728653154
+        "24.2.4-r2": 1728653154,
+        "24.2.5-r0": 1730145518
       },
       "dependencies": [
-        "mesa=24.2.4-r2",
+        "mesa=24.2.5-r0",
         "so:libLLVM.so.19.1",
         "so:libc.musl-loongarch64.so.1",
         "so:libdrm.so.2",
@@ -67076,7 +67100,7 @@
       },
       "mesa-vulkan-layer": {
         "package": "mesa-vulkan-layers",
-        "version": "24.2.4-r2"
+        "version": "24.2.5-r0"
       },
       "mkfontdir": {
         "package": "mkfontscale",
@@ -73666,6 +73690,10 @@
       },
       "libns-9.18.31.so": {
         "package": "bind-libs",
+        "version": "0"
+      },
+      "libgallium-24.2.5.so": {
+        "package": "mesa",
         "version": "0"
       }
     }
