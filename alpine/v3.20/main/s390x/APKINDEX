@@ -26581,116 +26581,116 @@ t:1681228881
 c:84a227baf001b6e0208e3352b294e4d7a40e93de
 i:openrc knock=0.8.2-r2
 
-C:Q1VkxH+Xq1O6CpskBoz7aAi4CEP1o=
+C:Q1AdUaqiALx62oXgfEVMKHmJa2d8k=
 P:knot
-V:3.3.5-r0
+V:3.3.9-r0
 A:s390x
-S:649489
-I:1622016
+S:663728
+I:1654784
 T:An high-performance authoritative-only DNS server
 U:https://www.knot-dns.cz/
 L:GPL-3.0-or-later
 o:knot
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1710283428
-c:e5d353a029b6f5dfa0ca6651120ce99589360587
+t:1730390531
+c:053ed0cbee1efbe841fd2f968516ee49fadadef9
 D:/bin/sh so:libc.musl-s390x.so.1 so:libcap-ng.so.0 so:libdnssec.so.9 so:libedit.so.0 so:libgnutls.so.30 so:libknot.so.14 so:liblmdb.so.0 so:liburcu.so.8 so:libzscanner.so.4
-p:cmd:knotc=3.3.5-r0 cmd:knotd=3.3.5-r0
+p:cmd:knotc=3.3.9-r0 cmd:knotd=3.3.9-r0
 
-C:Q1eOkAPNi46vwkycCxlrO9YHtGck4=
+C:Q1A1aEfcnAN54tuA+bJ6x2jQM5e3k=
 P:knot-dev
-V:3.3.5-r0
+V:3.3.9-r0
 A:s390x
-S:69539
+S:69601
 I:544768
 T:An high-performance authoritative-only DNS server (development files)
 U:https://www.knot-dns.cz/
 L:GPL-3.0-or-later
 o:knot
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1710283428
-c:e5d353a029b6f5dfa0ca6651120ce99589360587
-D:knot=3.3.5-r0 knot-libs-static=3.3.5-r0 knot-utils=3.3.5-r0 knot-libs=3.3.5-r0 pc:gnutls>=3.3 pkgconfig
-p:pc:knotd=3.3.5 pc:libdnssec=3.3.5 pc:libknot=3.3.5 pc:libzscanner=3.3.5
+t:1730390531
+c:053ed0cbee1efbe841fd2f968516ee49fadadef9
+D:knot=3.3.9-r0 knot-libs-static=3.3.9-r0 knot-utils=3.3.9-r0 knot-libs=3.3.9-r0 pc:gnutls>=3.3 pkgconfig
+p:pc:knotd=3.3.9 pc:libdnssec=3.3.9 pc:libknot=3.3.9 pc:libzscanner=3.3.9
 
-C:Q1tW4e5nfM6JRo/wQzEipWBeAi448=
+C:Q1Vom9w8mLhR7ZLecZnfXMOUQnSRE=
 P:knot-doc
-V:3.3.5-r0
+V:3.3.9-r0
 A:s390x
-S:49359
+S:50071
 I:110592
 T:An high-performance authoritative-only DNS server (documentation)
 U:https://www.knot-dns.cz/
 L:GPL-3.0-or-later
 o:knot
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1710283428
-c:e5d353a029b6f5dfa0ca6651120ce99589360587
-i:docs knot=3.3.5-r0
+t:1730390531
+c:053ed0cbee1efbe841fd2f968516ee49fadadef9
+i:docs knot=3.3.9-r0
 
-C:Q1mZnRmQMkQQaJSp+TYnt8AKuxXr0=
+C:Q1v0nwX2qyChUX8zx8qkesNvVXA3g=
 P:knot-libs
-V:3.3.5-r0
+V:3.3.9-r0
 A:s390x
-S:306721
-I:958464
+S:309770
+I:970752
 T:Libraries used by the Knot DNS server and client applications
 U:https://www.knot-dns.cz/
 L:GPL-3.0-or-later
 o:knot
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1710283428
-c:e5d353a029b6f5dfa0ca6651120ce99589360587
+t:1730390531
+c:053ed0cbee1efbe841fd2f968516ee49fadadef9
 D:so:libc.musl-s390x.so.1 so:libgnutls.so.30 so:liblmdb.so.0 so:libngtcp2.so.16 so:libngtcp2_crypto_gnutls.so.8
 p:so:libdnssec.so.9=9.0.0 so:libknot.so.14=14.0.0 so:libzscanner.so.4=4.0.0
 
-C:Q1kM0rSEA7goHdwT24e84Gxfz1h9o=
+C:Q1pvGNA0QMLmcIr2ym6sdxf+w5pWY=
 P:knot-libs-static
-V:3.3.5-r0
+V:3.3.9-r0
 A:s390x
-S:414722
-I:1728512
+S:419070
+I:1748992
 T:An high-performance authoritative-only DNS server (static library)
 U:https://www.knot-dns.cz/
 L:GPL-3.0-or-later
 o:knot
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1710283428
-c:e5d353a029b6f5dfa0ca6651120ce99589360587
+t:1730390531
+c:053ed0cbee1efbe841fd2f968516ee49fadadef9
 
-C:Q1HLfdcJk0AYTqIH/4H/Nyg4gJFIU=
+C:Q1bL6zpf+FpaJK33pi7zjarfXjhXM=
 P:knot-mod-dnstap
-V:3.3.5-r0
+V:3.3.9-r0
 A:s390x
-S:11204
+S:11671
 I:57344
 T:dnstap module for Knot DNS
 U:https://www.knot-dns.cz/
 L:GPL-3.0-or-later
 o:knot
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1710283428
-c:e5d353a029b6f5dfa0ca6651120ce99589360587
-D:knot=3.3.5-r0 so:libc.musl-s390x.so.1 so:libfstrm.so.0 so:libprotobuf-c.so.1
+t:1730390531
+c:053ed0cbee1efbe841fd2f968516ee49fadadef9
+D:knot=3.3.9-r0 so:libc.musl-s390x.so.1 so:libfstrm.so.0 so:libprotobuf-c.so.1
 
-C:Q1HIG+4VdTiVZUPvFQDB3ayFu9x9A=
+C:Q1rQVIZGzA0xFECHYyJgzDDEUAeFc=
 P:knot-mod-geoip
-V:3.3.5-r0
+V:3.3.9-r0
 A:s390x
-S:44776
+S:44787
 I:122880
 T:geoip module for Knot DNS
 U:https://www.knot-dns.cz/
 L:GPL-3.0-or-later
 o:knot
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1710283428
-c:e5d353a029b6f5dfa0ca6651120ce99589360587
-D:knot=3.3.5-r0 so:libc.musl-s390x.so.1 so:libmaxminddb.so.0
+t:1730390531
+c:053ed0cbee1efbe841fd2f968516ee49fadadef9
+D:knot=3.3.9-r0 so:libc.musl-s390x.so.1 so:libmaxminddb.so.0
 
-C:Q1OozNJ5tSWy0dsJwsxGIvanhC4lE=
+C:Q1pW6sqSOLd455ByrwOpFGZSmgVvY=
 P:knot-openrc
-V:3.3.5-r0
+V:3.3.9-r0
 A:s390x
 S:2255
 I:24576
@@ -26699,25 +26699,25 @@ U:https://www.knot-dns.cz/
 L:GPL-3.0-or-later
 o:knot
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1710283428
-c:e5d353a029b6f5dfa0ca6651120ce99589360587
-i:openrc knot=3.3.5-r0
+t:1730390531
+c:053ed0cbee1efbe841fd2f968516ee49fadadef9
+i:openrc knot=3.3.9-r0
 
-C:Q1k+x8WOwMbMemMP830XgS5ow/Kek=
+C:Q17/pTuHI2o+Q8h3VSaPvsgkaQMB0=
 P:knot-utils
-V:3.3.5-r0
+V:3.3.9-r0
 A:s390x
-S:1615328
-I:3969024
+S:1652661
+I:4063232
 T:Knot and DNS client utilities shipped with the Knot DNS server
 U:https://www.knot-dns.cz/
 L:GPL-3.0-or-later
 o:knot
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1710283428
-c:e5d353a029b6f5dfa0ca6651120ce99589360587
+t:1730390531
+c:053ed0cbee1efbe841fd2f968516ee49fadadef9
 D:so:libc.musl-s390x.so.1 so:libdnssec.so.9 so:libedit.so.0 so:libgnutls.so.30 so:libidn2.so.0 so:libknot.so.14 so:liblmdb.so.0 so:libnghttp2.so.14 so:libngtcp2.so.16 so:libngtcp2_crypto_gnutls.so.8 so:liburcu.so.8 so:libzscanner.so.4
-p:cmd:kcatalogprint=3.3.5-r0 cmd:kdig=3.3.5-r0 cmd:keymgr=3.3.5-r0 cmd:khost=3.3.5-r0 cmd:kjournalprint=3.3.5-r0 cmd:knsec3hash=3.3.5-r0 cmd:knsupdate=3.3.5-r0 cmd:kzonecheck=3.3.5-r0 cmd:kzonesign=3.3.5-r0
+p:cmd:kcatalogprint=3.3.9-r0 cmd:kdig=3.3.9-r0 cmd:keymgr=3.3.9-r0 cmd:khost=3.3.9-r0 cmd:kjournalprint=3.3.9-r0 cmd:knsec3hash=3.3.9-r0 cmd:knsupdate=3.3.9-r0 cmd:kzonecheck=3.3.9-r0 cmd:kzonesign=3.3.9-r0
 
 C:Q1AS8wQG5D8rqCq0HD+6iODkkuZ6w=
 P:krb5

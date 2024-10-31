@@ -144,21 +144,22 @@
     "knot-dev": {
       "origin": "knot",
       "versions": {
-        "3.2.4-r0": 1670942927
+        "3.2.4-r0": 1670942927,
+        "3.2.9-r0": 1730390739
       },
       "dependencies": [
-        "knot=3.2.4-r0",
-        "knot-libs-static=3.2.4-r0",
-        "knot-utils=3.2.4-r0",
-        "knot-libs=3.2.4-r0",
+        "knot=3.2.9-r0",
+        "knot-libs-static=3.2.9-r0",
+        "knot-utils=3.2.9-r0",
+        "knot-libs=3.2.9-r0",
         "pc:gnutls>=3.3",
         "pkgconfig"
       ],
       "provides": [
-        "pc:knotd=3.2.4",
-        "pc:libdnssec=3.2.4",
-        "pc:libknot=3.2.4",
-        "pc:libzscanner=3.2.4"
+        "pc:knotd=3.2.9",
+        "pc:libdnssec=3.2.9",
+        "pc:libknot=3.2.9",
+        "pc:libzscanner=3.2.9"
       ]
     },
     "dmraid-dev": {
@@ -2618,7 +2619,8 @@
     "knot-openrc": {
       "origin": "knot",
       "versions": {
-        "3.2.4-r0": 1670942927
+        "3.2.4-r0": 1670942927,
+        "3.2.9-r0": 1730390739
       }
     },
     "net-tools": {
@@ -8425,10 +8427,11 @@
     "knot-mod-geoip": {
       "origin": "knot",
       "versions": {
-        "3.2.4-r0": 1670942927
+        "3.2.4-r0": 1670942927,
+        "3.2.9-r0": 1730390739
       },
       "dependencies": [
-        "knot=3.2.4-r0",
+        "knot=3.2.9-r0",
         "so:libc.musl-s390x.so.1",
         "so:libmaxminddb.so.0"
       ]
@@ -14431,7 +14434,8 @@
     "knot": {
       "origin": "knot",
       "versions": {
-        "3.2.4-r0": 1670942927
+        "3.2.4-r0": 1670942927,
+        "3.2.9-r0": 1730390739
       },
       "dependencies": [
         "/bin/sh",
@@ -14445,8 +14449,8 @@
         "so:libzscanner.so.4"
       ],
       "provides": [
-        "cmd:knotc=3.2.4-r0",
-        "cmd:knotd=3.2.4-r0"
+        "cmd:knotc=3.2.9-r0",
+        "cmd:knotd=3.2.9-r0"
       ]
     },
     "lua5.3-yaml": {
@@ -18500,7 +18504,8 @@
     "knot-utils": {
       "origin": "knot",
       "versions": {
-        "3.2.4-r0": 1670942927
+        "3.2.4-r0": 1670942927,
+        "3.2.9-r0": 1730390739
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
@@ -18515,15 +18520,15 @@
         "so:libzscanner.so.4"
       ],
       "provides": [
-        "cmd:kcatalogprint=3.2.4-r0",
-        "cmd:kdig=3.2.4-r0",
-        "cmd:keymgr=3.2.4-r0",
-        "cmd:khost=3.2.4-r0",
-        "cmd:kjournalprint=3.2.4-r0",
-        "cmd:knsec3hash=3.2.4-r0",
-        "cmd:knsupdate=3.2.4-r0",
-        "cmd:kzonecheck=3.2.4-r0",
-        "cmd:kzonesign=3.2.4-r0"
+        "cmd:kcatalogprint=3.2.9-r0",
+        "cmd:kdig=3.2.9-r0",
+        "cmd:keymgr=3.2.9-r0",
+        "cmd:khost=3.2.9-r0",
+        "cmd:kjournalprint=3.2.9-r0",
+        "cmd:knsec3hash=3.2.9-r0",
+        "cmd:knsupdate=3.2.9-r0",
+        "cmd:kzonecheck=3.2.9-r0",
+        "cmd:kzonesign=3.2.9-r0"
       ]
     },
     "perl-gdtextutil": {
@@ -22496,10 +22501,11 @@
     "knot-mod-dnstap": {
       "origin": "knot",
       "versions": {
-        "3.2.4-r0": 1670942927
+        "3.2.4-r0": 1670942927,
+        "3.2.9-r0": 1730390739
       },
       "dependencies": [
-        "knot=3.2.4-r0",
+        "knot=3.2.9-r0",
         "so:libc.musl-s390x.so.1",
         "so:libfstrm.so.0",
         "so:libprotobuf-c.so.1"
@@ -24079,7 +24085,8 @@
     "knot-doc": {
       "origin": "knot",
       "versions": {
-        "3.2.4-r0": 1670942927
+        "3.2.4-r0": 1670942927,
+        "3.2.9-r0": 1730390739
       }
     },
     "lttng-ust-doc": {
@@ -31949,7 +31956,8 @@
     "knot-libs-static": {
       "origin": "knot",
       "versions": {
-        "3.2.4-r0": 1670942927
+        "3.2.4-r0": 1670942927,
+        "3.2.9-r0": 1730390739
       }
     },
     "flite-dev": {
@@ -33677,7 +33685,8 @@
     "knot-libs": {
       "origin": "knot",
       "versions": {
-        "3.2.4-r0": 1670942927
+        "3.2.4-r0": 1670942927,
+        "3.2.9-r0": 1730390739
       },
       "dependencies": [
         "so:libc.musl-s390x.so.1",
