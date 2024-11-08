@@ -12180,7 +12180,8 @@
     "ell": {
       "origin": "ell",
       "versions": {
-        "0.69-r0": 1726124110
+        "0.69-r0": 1726124110,
+        "0.70-r0": 1731054843
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
@@ -12192,20 +12193,22 @@
     "ell-dbg": {
       "origin": "ell",
       "versions": {
-        "0.69-r0": 1726124110
+        "0.69-r0": 1726124110,
+        "0.70-r0": 1731054843
       }
     },
     "ell-dev": {
       "origin": "ell",
       "versions": {
-        "0.69-r0": 1726124110
+        "0.69-r0": 1726124110,
+        "0.70-r0": 1731054843
       },
       "dependencies": [
-        "ell=0.69-r0",
+        "ell=0.70-r0",
         "pkgconfig"
       ],
       "provides": [
-        "pc:ell=0.69"
+        "pc:ell=0.70"
       ]
     },
     "email": {
@@ -18370,7 +18373,8 @@
     "haproxy": {
       "origin": "haproxy",
       "versions": {
-        "3.0.5-r0": 1726854647
+        "3.0.5-r0": 1726854647,
+        "3.0.6-r0": 1731063446
       },
       "dependencies": [
         "/bin/sh",
@@ -18382,19 +18386,21 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:haproxy=3.0.5-r0"
+        "cmd:haproxy=3.0.6-r0"
       ]
     },
     "haproxy-doc": {
       "origin": "haproxy",
       "versions": {
-        "3.0.5-r0": 1726854647
+        "3.0.5-r0": 1726854647,
+        "3.0.6-r0": 1731063446
       }
     },
     "haproxy-openrc": {
       "origin": "haproxy",
       "versions": {
-        "3.0.5-r0": 1726854647
+        "3.0.5-r0": 1726854647,
+        "3.0.6-r0": 1731063446
       }
     },
     "harfbuzz": {

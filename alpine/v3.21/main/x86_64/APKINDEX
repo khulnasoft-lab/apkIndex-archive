@@ -14653,51 +14653,51 @@ t:1728617098
 c:7ced97d7c4ea3bc8d3dd5f877bd79a9de773cc38
 i:elinks=0.17.1.1-r1 lang
 
-C:Q1Rn/CgwRO5ZgM+USCDc/q1/yE0X0=
+C:Q1AN3KqwfdxK8+vwyCQUQaSqWJtuk=
 P:ell
-V:0.69-r0
+V:0.70-r0
 A:x86_64
-S:211689
+S:211693
 I:452040
 T:Linux library for embedded development
 U:https://01.org/ell
 L:LGPL-2.1-or-later
 o:ell
 m:Milan P. Stanić <mps@arvanta.net>
-t:1726124110
-c:de63c21d1663c7f92efb67128ba0d849bade86e0
+t:1731054843
+c:cf034bc4076ac556a7bd51d4955f3f9181a2393c
 D:so:libc.musl-x86_64.so.1
 p:so:libell.so.0=0.0.2
 
-C:Q1cy9GUE2k98hgniMiJ+ucw+bZTnk=
+C:Q1PHHuS9/GaXyiLVwuIEZG11nIl70=
 P:ell-dbg
-V:0.69-r0
+V:0.70-r0
 A:x86_64
-S:654229
-I:1457024
+S:654515
+I:1457976
 T:Linux library for embedded development (debug symbols)
 U:https://01.org/ell
 L:LGPL-2.1-or-later
 o:ell
 m:Milan P. Stanić <mps@arvanta.net>
-t:1726124110
-c:de63c21d1663c7f92efb67128ba0d849bade86e0
+t:1731054843
+c:cf034bc4076ac556a7bd51d4955f3f9181a2393c
 
-C:Q1fjtCqKG8GhsdOFUgxBFpbfMLZcI=
+C:Q1V+xaQrLkCw00hBcQSVj417iHKeQ=
 P:ell-dev
-V:0.69-r0
+V:0.70-r0
 A:x86_64
-S:30131
-I:128956
+S:30182
+I:129130
 T:Linux library for embedded development (development files)
 U:https://01.org/ell
 L:LGPL-2.1-or-later
 o:ell
 m:Milan P. Stanić <mps@arvanta.net>
-t:1726124110
-c:de63c21d1663c7f92efb67128ba0d849bade86e0
-D:ell=0.69-r0 pkgconfig
-p:pc:ell=0.69
+t:1731054843
+c:cf034bc4076ac556a7bd51d4955f3f9181a2393c
+D:ell=0.70-r0 pkgconfig
+p:pc:ell=0.70
 
 C:Q1KNzug4grHfheEV51sIC3bs1pu0M=
 P:email
@@ -21940,51 +21940,51 @@ t:1692687061
 c:5e5c4cf1bd2e4569885eb17048540db2a5c30296
 i:docs gzip=1.13-r0
 
-C:Q1tVXgJvlP85W8y0DdofqW+txDu6g=
+C:Q1PoFA1q1B71t4BFqZahLbuS9RrMs=
 P:haproxy
-V:3.0.5-r0
+V:3.0.6-r0
 A:x86_64
-S:1604076
-I:3744838
+S:1620987
+I:3787382
 T:A TCP/HTTP reverse proxy for high availability environments
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1726854647
-c:389329559c585715da311ab6fae7872178d09414
+t:1731063446
+c:45db4046aa16aa8b7dc032245fa1d9d069ee27b9
 D:/bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.3 so:liblua-5.4.so.0 so:libpcre2-8.so.0 so:libssl.so.3 so:libz.so.1
-p:cmd:haproxy=3.0.5-r0
+p:cmd:haproxy=3.0.6-r0
 
-C:Q1eScw7F4ujFIP4VinT0V3BgCafas=
+C:Q1+Xt8oyUcw7pIMsaWRqpmiTQilS4=
 P:haproxy-doc
-V:3.0.5-r0
+V:3.0.6-r0
 A:x86_64
-S:546586
-I:2031950
+S:547815
+I:2037307
 T:A TCP/HTTP reverse proxy for high availability environments (documentation)
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1726854647
-c:389329559c585715da311ab6fae7872178d09414
-i:docs haproxy=3.0.5-r0
+t:1731063446
+c:45db4046aa16aa8b7dc032245fa1d9d069ee27b9
+i:docs haproxy=3.0.6-r0
 
-C:Q1QhmgTp21XAAZ7qAr9EZGyq7pmKc=
+C:Q1Fwc5o89zU7pIBeNRoQefO4oqdQs=
 P:haproxy-openrc
-V:3.0.5-r0
+V:3.0.6-r0
 A:x86_64
-S:2178
+S:2175
 I:1192
 T:A TCP/HTTP reverse proxy for high availability environments (OpenRC init scripts)
 U:https://www.haproxy.org/
 L:GPL-2.0-or-later WITH OpenSSL-Exception
 o:haproxy
 m:Milan P. Stanić <mps@arvanta.net>
-t:1726854647
-c:389329559c585715da311ab6fae7872178d09414
-i:openrc haproxy=3.0.5-r0
+t:1731063446
+c:45db4046aa16aa8b7dc032245fa1d9d069ee27b9
+i:openrc haproxy=3.0.6-r0
 
 C:Q1B5r56cYta+eHXAWsB2vAobw5R8o=
 P:harfbuzz
