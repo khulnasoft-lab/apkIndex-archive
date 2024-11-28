@@ -1747,10 +1747,11 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
-        "postgresql13=13.17-r0",
+        "postgresql13=13.18-r0",
         "pgtcl",
         "so:libc.musl-s390x.so.1",
         "so:libtcl8.6.so"
@@ -8440,7 +8441,8 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
         "postgresql-common",
@@ -13908,10 +13910,11 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
-        "postgresql13-plpython3=13.17-r0",
+        "postgresql13-plpython3=13.18-r0",
         "so:libc.musl-s390x.so.1",
         "so:libpython3.10.so.1.0"
       ],
@@ -20091,7 +20094,8 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
         "postgresql13-client",
@@ -20109,19 +20113,19 @@
       ],
       "provides": [
         "postgresql",
-        "cmd:initdb",
-        "cmd:pg_waldump",
-        "cmd:pg_controldata",
-        "cmd:pg_upgrade",
-        "cmd:pg_test_timing",
-        "cmd:pg_test_fsync",
-        "cmd:pg_resetwal",
         "cmd:postgres",
-        "cmd:pg_archivecleanup",
+        "cmd:pg_controldata",
+        "cmd:pg_resetwal",
         "cmd:pg_checksums",
         "cmd:postmaster",
-        "cmd:pg_rewind",
-        "cmd:pg_ctl"
+        "cmd:pg_test_fsync",
+        "cmd:pg_test_timing",
+        "cmd:pg_waldump",
+        "cmd:pg_ctl",
+        "cmd:pg_upgrade",
+        "cmd:pg_archivecleanup",
+        "cmd:initdb",
+        "cmd:pg_rewind"
       ]
     },
     "gocryptfs": {
@@ -23266,10 +23270,11 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
-        "postgresql13=13.17-r0",
+        "postgresql13=13.18-r0",
         "so:libc.musl-s390x.so.1",
         "so:libcrypto.so.3",
         "so:libpq.so.5",
@@ -65237,10 +65242,11 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
-        "postgresql13-contrib=13.17-r0"
+        "postgresql13-contrib=13.18-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -71219,10 +71225,11 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
-        "postgresql13-plperl=13.17-r0",
+        "postgresql13-plperl=13.18-r0",
         "so:libc.musl-s390x.so.1",
         "so:libperl.so"
       ],
@@ -71762,10 +71769,11 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
-        "postgresql13=13.17-r0",
+        "postgresql13=13.18-r0",
         "so:libLLVM-14.so",
         "so:libc.musl-s390x.so.1",
         "so:libgcc_s.so.1",
@@ -80877,10 +80885,11 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
-        "postgresql13=13.17-r0",
+        "postgresql13=13.18-r0",
         "python3",
         "so:libc.musl-s390x.so.1",
         "so:libpython3.10.so.1.0"
@@ -115300,7 +115309,8 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "provides": [
         "postgresql-doc"
@@ -122220,7 +122230,8 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
         "libpq-dev",
@@ -126376,10 +126387,11 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
-        "postgresql13=13.17-r0",
+        "postgresql13=13.18-r0",
         "so:libc.musl-s390x.so.1",
         "so:libperl.so"
       ],
@@ -133964,7 +133976,8 @@
         "13.14-r0": 1707657250,
         "13.15-r0": 1715730334,
         "13.16-r0": 1726756064,
-        "13.17-r0": 1731718404
+        "13.17-r0": 1731718404,
+        "13.18-r0": 1732835776
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -156396,7 +156409,7 @@
         "version": "1.0.23-r3"
       },
       "postgresql-contrib-jit": {
-        "package": "postgresql13-contrib-jit",
+        "package": "postgresql12-contrib-jit",
         "version": 0
       },
       "ceph-radosgw": {
@@ -156420,7 +156433,7 @@
         "version": "17.2.6-r0"
       },
       "postgresql-pltcl": {
-        "package": "postgresql13-pltcl",
+        "package": "postgresql12-pltcl",
         "version": 0
       },
       "php-lightspeed": {
@@ -156628,7 +156641,7 @@
         "version": 0
       },
       "postgresql-plpython3-contrib": {
-        "package": "postgresql13-plpython3-contrib",
+        "package": "postgresql12-plpython3-contrib",
         "version": 0
       },
       "py-entrypoints": {
@@ -156768,7 +156781,7 @@
         "version": 0
       },
       "postgresql-contrib": {
-        "package": "postgresql13-contrib",
+        "package": "postgresql12-contrib",
         "version": 0
       },
       "font-noto-kayahli": {
@@ -157136,7 +157149,7 @@
         "version": 0
       },
       "postgresql-dev": {
-        "package": "postgresql13-dev",
+        "package": "postgresql12-dev",
         "version": 0
       },
       "py-gettext": {
