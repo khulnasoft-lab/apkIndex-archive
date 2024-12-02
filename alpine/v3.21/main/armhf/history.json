@@ -32682,19 +32682,21 @@
     "lsof": {
       "origin": "lsof",
       "versions": {
-        "4.99.3-r0": 1702889074
+        "4.99.3-r0": 1702889074,
+        "4.99.4-r0": 1733128693
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:lsof=4.99.3-r0"
+        "cmd:lsof=4.99.4-r0"
       ]
     },
     "lsof-doc": {
       "origin": "lsof",
       "versions": {
-        "4.99.3-r0": 1702889074
+        "4.99.3-r0": 1702889074,
+        "4.99.4-r0": 1733128693
       }
     },
     "lsyncd": {
@@ -37733,7 +37735,8 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
         "so:libLLVM.so.19.1",
@@ -37758,7 +37761,7 @@
         "so:libzstd.so.1"
       ],
       "provides": [
-        "so:libgallium-24.2.7.so=0"
+        "so:libgallium-24.2.8.so=0"
       ]
     },
     "mesa-dbg": {
@@ -37766,7 +37769,8 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       }
     },
     "mesa-dev": {
@@ -37774,7 +37778,8 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
         "libdrm-dev",
@@ -37782,13 +37787,13 @@
         "libxdamage-dev",
         "libxcb-dev",
         "libxshmfence-dev",
-        "mesa-egl=24.2.7-r0",
-        "mesa-gbm=24.2.7-r0",
-        "mesa-gl=24.2.7-r0",
-        "mesa-glapi=24.2.7-r0",
-        "mesa-gles=24.2.7-r0",
-        "mesa-osmesa=24.2.7-r0",
-        "mesa-xatracker=24.2.7-r0",
+        "mesa-egl=24.2.8-r0",
+        "mesa-gbm=24.2.8-r0",
+        "mesa-gl=24.2.8-r0",
+        "mesa-glapi=24.2.8-r0",
+        "mesa-gles=24.2.8-r0",
+        "mesa-osmesa=24.2.8-r0",
+        "mesa-xatracker=24.2.8-r0",
         "pc:libdrm>=2.4.121",
         "pc:libdrm>=2.4.123",
         "pc:libdrm>=2.4.75",
@@ -37804,12 +37809,12 @@
       ],
       "provides": [
         "pc:d3d=1.0.0",
-        "pc:dri=24.2.7",
-        "pc:egl=24.2.7",
-        "pc:gbm=24.2.7",
-        "pc:gl=24.2.7",
-        "pc:glesv1_cm=24.2.7",
-        "pc:glesv2=24.2.7",
+        "pc:dri=24.2.8",
+        "pc:egl=24.2.8",
+        "pc:gbm=24.2.8",
+        "pc:gl=24.2.8",
+        "pc:glesv1_cm=24.2.8",
+        "pc:glesv2=24.2.8",
         "pc:osmesa=8.0.0",
         "pc:xatracker=2.5.0"
       ]
@@ -37819,10 +37824,11 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "so:libc.musl-armhf.so.1",
         "so:libgbm.so.1",
         "so:libgcc_s.so.1"
@@ -37833,15 +37839,16 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "so:libX11-xcb.so.1",
         "so:libc.musl-armhf.so.1",
         "so:libdrm.so.2",
         "so:libexpat.so.1",
-        "so:libgallium-24.2.7.so",
+        "so:libgallium-24.2.8.so",
         "so:libgbm.so.1",
         "so:libgcc_s.so.1",
         "so:libglapi.so.0",
@@ -37866,14 +37873,15 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "so:libc.musl-armhf.so.1",
         "so:libdrm.so.2",
         "so:libexpat.so.1",
-        "so:libgallium-24.2.7.so",
+        "so:libgallium-24.2.8.so",
         "so:libgcc_s.so.1",
         "so:libwayland-server.so.0",
         "so:libxcb-randr.so.0"
@@ -37887,10 +37895,11 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "so:libX11-xcb.so.1",
         "so:libX11.so.6",
         "so:libXext.so.6",
@@ -37899,7 +37908,7 @@
         "so:libc.musl-armhf.so.1",
         "so:libdrm.so.2",
         "so:libexpat.so.1",
-        "so:libgallium-24.2.7.so",
+        "so:libgallium-24.2.8.so",
         "so:libgcc_s.so.1",
         "so:libglapi.so.0",
         "so:libxcb-dri2.so.0",
@@ -37922,7 +37931,8 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1"
@@ -37936,10 +37946,11 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "so:libglapi.so.0"
       ],
       "provides": [
@@ -37952,10 +37963,11 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "so:libLLVM.so.19.1",
         "so:libc.musl-armhf.so.1",
         "so:libdrm.so.2",
@@ -37974,10 +37986,11 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "so:libLLVM.so.19.1",
         "so:libc.musl-armhf.so.1",
         "so:libdrm.so.2",
@@ -37996,12 +38009,13 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "libva",
-        "mesa=24.2.7-r0"
+        "mesa=24.2.8-r0"
       ]
     },
     "mesa-vdpau-gallium": {
@@ -38009,12 +38023,13 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "libvdpau",
-        "mesa=24.2.7-r0"
+        "mesa=24.2.8-r0"
       ]
     },
     "mesa-vulkan-ati": {
@@ -38022,10 +38037,11 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "so:libLLVM.so.19.1",
         "so:libX11-xcb.so.1",
         "so:libc.musl-armhf.so.1",
@@ -38057,7 +38073,8 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
         "python3",
@@ -38070,10 +38087,10 @@
         "so:libxcb.so.1"
       ],
       "provides": [
-        "mesa-vulkan-layer=24.2.7-r0",
+        "mesa-vulkan-layer=24.2.8-r0",
         "so:libVkLayer_MESA_device_select.so=0",
         "so:libVkLayer_MESA_overlay.so=0",
-        "cmd:mesa-overlay-control.py=24.2.7-r0"
+        "cmd:mesa-overlay-control.py=24.2.8-r0"
       ]
     },
     "mesa-vulkan-swrast": {
@@ -38081,10 +38098,11 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "so:libLLVM.so.19.1",
         "so:libX11-xcb.so.1",
         "so:libc.musl-armhf.so.1",
@@ -38114,10 +38132,11 @@
       "versions": {
         "24.2.5-r0": 1730145518,
         "24.2.6-r0": 1730361437,
-        "24.2.7-r0": 1731570644
+        "24.2.7-r0": 1731570644,
+        "24.2.8-r0": 1733128581
       },
       "dependencies": [
-        "mesa=24.2.7-r0",
+        "mesa=24.2.8-r0",
         "so:libLLVM.so.19.1",
         "so:libc.musl-armhf.so.1",
         "so:libdrm.so.2",
@@ -66813,13 +66832,14 @@
     "xtrans": {
       "origin": "xtrans",
       "versions": {
-        "1.5.1-r0": 1728802906
+        "1.5.1-r0": 1728802906,
+        "1.5.2-r0": 1733128722
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "pc:xtrans=1.5.1"
+        "pc:xtrans=1.5.2"
       ]
     },
     "xxd": {
@@ -68686,7 +68706,7 @@
       },
       "mesa-vulkan-layer": {
         "package": "mesa-vulkan-layers",
-        "version": "24.2.7-r0"
+        "version": "24.2.8-r0"
       },
       "mkfontdir": {
         "package": "mkfontscale",
@@ -75892,6 +75912,10 @@
       },
       "libzerovec_derive-c7ca6ff592e883f5.so": {
         "package": "rustc-dev",
+        "version": "0"
+      },
+      "libgallium-24.2.8.so": {
+        "package": "mesa",
         "version": "0"
       }
     }
