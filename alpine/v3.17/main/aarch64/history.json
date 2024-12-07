@@ -14132,7 +14132,8 @@
         "4.16.6-r0": 1712703299,
         "4.16.6-r1": 1724236043,
         "4.16.6-r2": 1727208048,
-        "4.16.6-r3": 1731464827
+        "4.16.6-r3": 1731464827,
+        "4.16.7-r0": 1733551516
       },
       "dependencies": [
         "so:libc.musl-aarch64.so.1",
@@ -15446,7 +15447,8 @@
         "4.16.6-r0": 1712703299,
         "4.16.6-r1": 1724236043,
         "4.16.6-r2": 1727208048,
-        "4.16.6-r3": 1731464827
+        "4.16.6-r3": 1731464827,
+        "4.16.7-r0": 1733551516
       }
     },
     "perl-async-mergepoint": {
@@ -16779,7 +16781,8 @@
         "4.16.6-r0": 1712703299,
         "4.16.6-r1": 1724236043,
         "4.16.6-r2": 1727208048,
-        "4.16.6-r3": 1731464827
+        "4.16.6-r3": 1731464827,
+        "4.16.7-r0": 1733551516
       },
       "dependencies": [
         "argp-standalone",
@@ -16809,7 +16812,7 @@
         "zlib-dev",
         "zstd-dev",
         "pkgconfig",
-        "xen-libs=4.16.6-r3"
+        "xen-libs=4.16.7-r0"
       ],
       "provides": [
         "pc:xencall=1.3",
@@ -16968,7 +16971,8 @@
         "4.16.6-r0": 1712703299,
         "4.16.6-r1": 1724236043,
         "4.16.6-r2": 1727208048,
-        "4.16.6-r3": 1731464827
+        "4.16.6-r3": 1731464827,
+        "4.16.7-r0": 1733551516
       },
       "dependencies": [
         "bash",
@@ -27657,7 +27661,8 @@
         "4.16.6-r0": 1712703299,
         "4.16.6-r1": 1724236043,
         "4.16.6-r2": 1727208048,
-        "4.16.6-r3": 1731464827
+        "4.16.6-r3": 1731464827,
+        "4.16.7-r0": 1733551516
       },
       "dependencies": [
         "dnsmasq"
@@ -47662,7 +47667,8 @@
         "4.16.6-r0": 1712703299,
         "4.16.6-r1": 1724236043,
         "4.16.6-r2": 1727208048,
-        "4.16.6-r3": 1731464827
+        "4.16.6-r3": 1731464827,
+        "4.16.7-r0": 1733551516
       }
     },
     "npth-dev": {
@@ -49554,7 +49560,8 @@
         "4.16.6-r0": 1712703299,
         "4.16.6-r1": 1724236043,
         "4.16.6-r2": 1727208048,
-        "4.16.6-r3": 1731464827
+        "4.16.6-r3": 1731464827,
+        "4.16.7-r0": 1733551516
       },
       "dependencies": [
         "bash",
@@ -49582,48 +49589,48 @@
         "so:libyajl.so.2"
       ],
       "provides": [
-        "cmd:flask-get-bool=4.16.6-r3",
-        "cmd:flask-getenforce=4.16.6-r3",
-        "cmd:flask-label-pci=4.16.6-r3",
-        "cmd:flask-loadpolicy=4.16.6-r3",
-        "cmd:flask-set-bool=4.16.6-r3",
-        "cmd:flask-setenforce=4.16.6-r3",
-        "cmd:vchan-socket-proxy=4.16.6-r3",
-        "cmd:xen-access=4.16.6-r3",
-        "cmd:xen-diag=4.16.6-r3",
-        "cmd:xen-livepatch=4.16.6-r3",
-        "cmd:xenalyze=4.16.6-r3",
-        "cmd:xenbaked=4.16.6-r3",
-        "cmd:xencons=4.16.6-r3",
-        "cmd:xenconsoled=4.16.6-r3",
-        "cmd:xencov=4.16.6-r3",
-        "cmd:xencov_split=4.16.6-r3",
-        "cmd:xenhypfs=4.16.6-r3",
-        "cmd:xenlockprof=4.16.6-r3",
-        "cmd:xenmon=4.16.6-r3",
-        "cmd:xenperf=4.16.6-r3",
-        "cmd:xenpm=4.16.6-r3",
-        "cmd:xenpmd=4.16.6-r3",
-        "cmd:xenstore-chmod=4.16.6-r3",
-        "cmd:xenstore-control=4.16.6-r3",
-        "cmd:xenstore-exists=4.16.6-r3",
-        "cmd:xenstore-list=4.16.6-r3",
-        "cmd:xenstore-ls=4.16.6-r3",
-        "cmd:xenstore-read=4.16.6-r3",
-        "cmd:xenstore-rm=4.16.6-r3",
-        "cmd:xenstore-watch=4.16.6-r3",
-        "cmd:xenstore-write=4.16.6-r3",
-        "cmd:xenstore=4.16.6-r3",
-        "cmd:xenstored=4.16.6-r3",
-        "cmd:xentop=4.16.6-r3",
-        "cmd:xentrace=4.16.6-r3",
-        "cmd:xentrace_format=4.16.6-r3",
-        "cmd:xentrace_setmask=4.16.6-r3",
-        "cmd:xentrace_setsize=4.16.6-r3",
-        "cmd:xenwatchdogd=4.16.6-r3",
-        "cmd:xl=4.16.6-r3",
-        "py3.10:grub=4.16.6-r3",
-        "py3.10:xen=4.16.6-r3"
+        "cmd:flask-get-bool=4.16.7-r0",
+        "cmd:flask-getenforce=4.16.7-r0",
+        "cmd:flask-label-pci=4.16.7-r0",
+        "cmd:flask-loadpolicy=4.16.7-r0",
+        "cmd:flask-set-bool=4.16.7-r0",
+        "cmd:flask-setenforce=4.16.7-r0",
+        "cmd:vchan-socket-proxy=4.16.7-r0",
+        "cmd:xen-access=4.16.7-r0",
+        "cmd:xen-diag=4.16.7-r0",
+        "cmd:xen-livepatch=4.16.7-r0",
+        "cmd:xenalyze=4.16.7-r0",
+        "cmd:xenbaked=4.16.7-r0",
+        "cmd:xencons=4.16.7-r0",
+        "cmd:xenconsoled=4.16.7-r0",
+        "cmd:xencov=4.16.7-r0",
+        "cmd:xencov_split=4.16.7-r0",
+        "cmd:xenhypfs=4.16.7-r0",
+        "cmd:xenlockprof=4.16.7-r0",
+        "cmd:xenmon=4.16.7-r0",
+        "cmd:xenperf=4.16.7-r0",
+        "cmd:xenpm=4.16.7-r0",
+        "cmd:xenpmd=4.16.7-r0",
+        "cmd:xenstore-chmod=4.16.7-r0",
+        "cmd:xenstore-control=4.16.7-r0",
+        "cmd:xenstore-exists=4.16.7-r0",
+        "cmd:xenstore-list=4.16.7-r0",
+        "cmd:xenstore-ls=4.16.7-r0",
+        "cmd:xenstore-read=4.16.7-r0",
+        "cmd:xenstore-rm=4.16.7-r0",
+        "cmd:xenstore-watch=4.16.7-r0",
+        "cmd:xenstore-write=4.16.7-r0",
+        "cmd:xenstore=4.16.7-r0",
+        "cmd:xenstored=4.16.7-r0",
+        "cmd:xentop=4.16.7-r0",
+        "cmd:xentrace=4.16.7-r0",
+        "cmd:xentrace_format=4.16.7-r0",
+        "cmd:xentrace_setmask=4.16.7-r0",
+        "cmd:xentrace_setsize=4.16.7-r0",
+        "cmd:xenwatchdogd=4.16.7-r0",
+        "cmd:xl=4.16.7-r0",
+        "py3.10:grub=4.16.7-r0",
+        "py3.10:xen=4.16.7-r0"
       ]
     },
     "perl-apache-logformat-compiler": {
@@ -55115,7 +55122,8 @@
         "4.16.6-r0": 1712703299,
         "4.16.6-r1": 1724236043,
         "4.16.6-r2": 1727208048,
-        "4.16.6-r3": 1731464827
+        "4.16.6-r3": 1731464827,
+        "4.16.7-r0": 1733551516
       }
     },
     "rrdtool-dev": {
