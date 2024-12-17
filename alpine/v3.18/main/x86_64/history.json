@@ -3826,33 +3826,34 @@
       "versions": {
         "9.18.19-r0": 1695390779,
         "9.18.24-r0": 1707835214,
-        "9.18.31-r0": 1732721805
+        "9.18.31-r0": 1732721805,
+        "9.18.32-r0": 1734449000
       },
       "dependencies": [
         "dns-root-hints",
         "bind-tools",
         "/bin/sh",
-        "bind-dnssec-root=9.18.31-r0",
-        "so:libbind9-9.18.31.so",
+        "bind-dnssec-root=9.18.32-r0",
+        "so:libbind9-9.18.32.so",
         "so:libc.musl-x86_64.so.1",
         "so:libcap.so.2",
         "so:libcrypto.so.3",
-        "so:libdns-9.18.31.so",
+        "so:libdns-9.18.32.so",
         "so:libfstrm.so.0",
-        "so:libisc-9.18.31.so",
-        "so:libisccc-9.18.31.so",
-        "so:libisccfg-9.18.31.so",
+        "so:libisc-9.18.32.so",
+        "so:libisccc-9.18.32.so",
+        "so:libisccfg-9.18.32.so",
         "so:libnghttp2.so.14",
-        "so:libns-9.18.31.so",
+        "so:libns-9.18.32.so",
         "so:libprotobuf-c.so.1",
         "so:libuv.so.1",
         "so:libxml2.so.2",
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:named-checkconf=9.18.31-r0",
-        "cmd:named=9.18.31-r0",
-        "cmd:rndc=9.18.31-r0"
+        "cmd:named-checkconf=9.18.32-r0",
+        "cmd:named=9.18.32-r0",
+        "cmd:rndc=9.18.32-r0"
       ]
     },
     "bind-dbg": {
@@ -3860,7 +3861,8 @@
       "versions": {
         "9.18.19-r0": 1695390779,
         "9.18.24-r0": 1707835214,
-        "9.18.31-r0": 1732721805
+        "9.18.31-r0": 1732721805,
+        "9.18.32-r0": 1734449000
       },
       "dependencies": [
         "dns-root-hints",
@@ -3872,13 +3874,14 @@
       "versions": {
         "9.18.19-r0": 1695390779,
         "9.18.24-r0": 1707835214,
-        "9.18.31-r0": 1732721805
+        "9.18.31-r0": 1732721805,
+        "9.18.32-r0": 1734449000
       },
       "dependencies": [
         "bind",
         "bind-plugins",
         "bind-tools",
-        "bind-libs=9.18.31-r0"
+        "bind-libs=9.18.32-r0"
       ]
     },
     "bind-dnssec-root": {
@@ -3886,7 +3889,8 @@
       "versions": {
         "9.18.19-r0": 1695390779,
         "9.18.24-r0": 1707835214,
-        "9.18.31-r0": 1732721805
+        "9.18.31-r0": 1732721805,
+        "9.18.32-r0": 1734449000
       }
     },
     "bind-dnssec-tools": {
@@ -3894,27 +3898,28 @@
       "versions": {
         "9.18.19-r0": 1695390779,
         "9.18.24-r0": 1707835214,
-        "9.18.31-r0": 1732721805
+        "9.18.31-r0": 1732721805,
+        "9.18.32-r0": 1734449000
       },
       "dependencies": [
         "dns-root-hints",
         "bind-tools",
         "so:libc.musl-x86_64.so.1",
-        "so:libdns-9.18.31.so",
-        "so:libisc-9.18.31.so",
-        "so:libisccfg-9.18.31.so"
+        "so:libdns-9.18.32.so",
+        "so:libisc-9.18.32.so",
+        "so:libisccfg-9.18.32.so"
       ],
       "provides": [
-        "cmd:dnssec-cds=9.18.31-r0",
-        "cmd:dnssec-dsfromkey=9.18.31-r0",
-        "cmd:dnssec-importkey=9.18.31-r0",
-        "cmd:dnssec-keyfromlabel=9.18.31-r0",
-        "cmd:dnssec-keygen=9.18.31-r0",
-        "cmd:dnssec-revoke=9.18.31-r0",
-        "cmd:dnssec-settime=9.18.31-r0",
-        "cmd:dnssec-signzone=9.18.31-r0",
-        "cmd:dnssec-verify=9.18.31-r0",
-        "cmd:nsec3hash=9.18.31-r0"
+        "cmd:dnssec-cds=9.18.32-r0",
+        "cmd:dnssec-dsfromkey=9.18.32-r0",
+        "cmd:dnssec-importkey=9.18.32-r0",
+        "cmd:dnssec-keyfromlabel=9.18.32-r0",
+        "cmd:dnssec-keygen=9.18.32-r0",
+        "cmd:dnssec-revoke=9.18.32-r0",
+        "cmd:dnssec-settime=9.18.32-r0",
+        "cmd:dnssec-signzone=9.18.32-r0",
+        "cmd:dnssec-verify=9.18.32-r0",
+        "cmd:nsec3hash=9.18.32-r0"
       ]
     },
     "bind-doc": {
@@ -3922,7 +3927,8 @@
       "versions": {
         "9.18.19-r0": 1695390779,
         "9.18.24-r0": 1707835214,
-        "9.18.31-r0": 1732721805
+        "9.18.31-r0": 1732721805,
+        "9.18.32-r0": 1734449000
       }
     },
     "bind-libs": {
@@ -3930,7 +3936,8 @@
       "versions": {
         "9.18.19-r0": 1695390779,
         "9.18.24-r0": 1707835214,
-        "9.18.31-r0": 1732721805
+        "9.18.31-r0": 1732721805,
+        "9.18.32-r0": 1734449000
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -3946,13 +3953,13 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "so:libbind9-9.18.31.so=0",
-        "so:libdns-9.18.31.so=0",
-        "so:libirs-9.18.31.so=0",
-        "so:libisc-9.18.31.so=0",
-        "so:libisccc-9.18.31.so=0",
-        "so:libisccfg-9.18.31.so=0",
-        "so:libns-9.18.31.so=0"
+        "so:libbind9-9.18.32.so=0",
+        "so:libdns-9.18.32.so=0",
+        "so:libirs-9.18.32.so=0",
+        "so:libisc-9.18.32.so=0",
+        "so:libisccc-9.18.32.so=0",
+        "so:libisccfg-9.18.32.so=0",
+        "so:libns-9.18.32.so=0"
       ]
     },
     "bind-openrc": {
@@ -3960,7 +3967,8 @@
       "versions": {
         "9.18.19-r0": 1695390779,
         "9.18.24-r0": 1707835214,
-        "9.18.31-r0": 1732721805
+        "9.18.31-r0": 1732721805,
+        "9.18.32-r0": 1734449000
       }
     },
     "bind-plugins": {
@@ -3968,7 +3976,8 @@
       "versions": {
         "9.18.19-r0": 1695390779,
         "9.18.24-r0": 1707835214,
-        "9.18.31-r0": 1732721805
+        "9.18.31-r0": 1732721805,
+        "9.18.32-r0": 1734449000
       },
       "dependencies": [
         "bind",
@@ -3980,35 +3989,36 @@
       "versions": {
         "9.18.19-r0": 1695390779,
         "9.18.24-r0": 1707835214,
-        "9.18.31-r0": 1732721805
+        "9.18.31-r0": 1732721805,
+        "9.18.32-r0": 1734449000
       },
       "dependencies": [
-        "so:libbind9-9.18.31.so",
+        "so:libbind9-9.18.32.so",
         "so:libc.musl-x86_64.so.1",
-        "so:libdns-9.18.31.so",
-        "so:libirs-9.18.31.so",
-        "so:libisc-9.18.31.so",
-        "so:libisccfg-9.18.31.so",
+        "so:libdns-9.18.32.so",
+        "so:libirs-9.18.32.so",
+        "so:libisc-9.18.32.so",
+        "so:libisccfg-9.18.32.so",
         "so:libkrb5.so.3",
-        "so:libns-9.18.31.so",
+        "so:libns-9.18.32.so",
         "so:libprotobuf-c.so.1"
       ],
       "provides": [
-        "cmd:arpaname=9.18.31-r0",
-        "cmd:ddns-confgen=9.18.31-r0",
-        "cmd:delv=9.18.31-r0",
-        "cmd:dig=9.18.31-r0",
-        "cmd:dnstap-read=9.18.31-r0",
-        "cmd:host=9.18.31-r0",
-        "cmd:mdig=9.18.31-r0",
-        "cmd:named-checkzone=9.18.31-r0",
-        "cmd:named-compilezone=9.18.31-r0",
-        "cmd:named-journalprint=9.18.31-r0",
-        "cmd:named-rrchecker=9.18.31-r0",
-        "cmd:nslookup=9.18.31-r0",
-        "cmd:nsupdate=9.18.31-r0",
-        "cmd:rndc-confgen=9.18.31-r0",
-        "cmd:tsig-keygen=9.18.31-r0"
+        "cmd:arpaname=9.18.32-r0",
+        "cmd:ddns-confgen=9.18.32-r0",
+        "cmd:delv=9.18.32-r0",
+        "cmd:dig=9.18.32-r0",
+        "cmd:dnstap-read=9.18.32-r0",
+        "cmd:host=9.18.32-r0",
+        "cmd:mdig=9.18.32-r0",
+        "cmd:named-checkzone=9.18.32-r0",
+        "cmd:named-compilezone=9.18.32-r0",
+        "cmd:named-journalprint=9.18.32-r0",
+        "cmd:named-rrchecker=9.18.32-r0",
+        "cmd:nslookup=9.18.32-r0",
+        "cmd:nsupdate=9.18.32-r0",
+        "cmd:rndc-confgen=9.18.32-r0",
+        "cmd:tsig-keygen=9.18.32-r0"
       ]
     },
     "binutils": {
@@ -70275,6 +70285,34 @@
         "version": "0"
       },
       "libns-9.18.31.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libbind9-9.18.32.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libdns-9.18.32.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libirs-9.18.32.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libisc-9.18.32.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libisccc-9.18.32.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libisccfg-9.18.32.so": {
+        "package": "bind-libs",
+        "version": "0"
+      },
+      "libns-9.18.32.so": {
         "package": "bind-libs",
         "version": "0"
       }
