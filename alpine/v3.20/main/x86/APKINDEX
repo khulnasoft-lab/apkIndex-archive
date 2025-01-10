@@ -37866,50 +37866,50 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1709641880
 c:761aff9d93d74c32a49ae1b3b2ade3dc0ac8c526
 
-C:Q1xzlEEWCJvYMiSDlS6RnActltxOA=
+C:Q17N4ushDWAcMevGBXlGA3LX5DJv8=
 P:linux-lts
-V:6.6.69-r0
+V:6.6.71-r0
 A:x86
-S:67245943
-I:83300352
+S:67249037
+I:83304448
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735822030
-c:8a02a0d76aaf9ce5a1da8cd97c560c303b0442eb
+t:1736520962
+c:fb5d510a6c3f8deab7f0c0135909ce9d2116db9b
 D:initramfs-generator linux-firmware-any
 
-C:Q19vMf0lIKkajYZxlWpXgIJolYVj8=
+C:Q1BcfV4ZkCuv8kK/tiR3fVQWlRx/w=
 P:linux-lts-dev
-V:6.6.69-r0
+V:6.6.71-r0
 A:x86
-S:16182986
-I:106192896
+S:16185786
+I:106201088
 T:Headers and script for third party modules for lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735822030
-c:8a02a0d76aaf9ce5a1da8cd97c560c303b0442eb
+t:1736520962
+c:fb5d510a6c3f8deab7f0c0135909ce9d2116db9b
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
 
-C:Q1+YITWivkzGKKtu9t+1R0T0I1YOk=
+C:Q1NesrnYrcCHJ+++9EsINlICeKUNw=
 P:linux-lts-doc
-V:6.6.69-r0
+V:6.6.71-r0
 A:x86
-S:12990148
+S:12989974
 I:71376896
 T:Linux lts kernel (documentation)
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735822030
-c:8a02a0d76aaf9ce5a1da8cd97c560c303b0442eb
-i:docs linux-lts=6.6.69-r0
+t:1736520962
+c:fb5d510a6c3f8deab7f0c0135909ce9d2116db9b
+i:docs linux-lts=6.6.71-r0
 
 C:Q145IJ1bAcMutIHg+FOgjsyKcuMNE=
 P:linux-pam
@@ -37972,34 +37972,34 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1711632266
 c:ab2b90f360975d784d2d706cf5a40d3c1a9c2276
 
-C:Q1pDN7RElIbP9+mJa2sekHwSosHz0=
+C:Q1GNWNtxKsamTj/JlDrauk76kviPk=
 P:linux-virt
-V:6.6.69-r0
+V:6.6.71-r0
 A:x86
-S:24774119
-I:30367744
+S:24774773
+I:30359552
 T:Linux lts kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735822030
-c:8a02a0d76aaf9ce5a1da8cd97c560c303b0442eb
+t:1736520962
+c:fb5d510a6c3f8deab7f0c0135909ce9d2116db9b
 D:initramfs-generator
 
-C:Q1ogjlvJGAPZWoW/R/80UWBhtPQ/4=
+C:Q1dC7gpbhWOMmp2zCGniDb6vuyIUY=
 P:linux-virt-dev
-V:6.6.69-r0
+V:6.6.71-r0
 A:x86
-S:15886725
-I:104988672
+S:15888430
+I:104996864
 T:Headers and script for third party modules for virt kernel
 U:https://www.kernel.org
 L:GPL-2.0-only
 o:linux-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735822030
-c:8a02a0d76aaf9ce5a1da8cd97c560c303b0442eb
+t:1736520962
+c:fb5d510a6c3f8deab7f0c0135909ce9d2116db9b
 D:perl gmp-dev mpc1-dev mpfr-dev elfutils-dev bash flex bison zstd so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libgcc_s.so.1 so:libstdc++.so.6
 
 C:Q1/0bYBPvfvBwmXuFl8uk1AXM6W4o=
@@ -82593,57 +82593,57 @@ c:de07564afe1cb68acee56497c462c392ef49d4a6
 D:yash-completion
 i:yash-completion=2.56.1-r1 valgrind
 
-C:Q1JhUSe+1W2knTK/qAjs2o4nv2xEw=
+C:Q1ojuU+3Saoz4kk0ZajOK9aUIqQ1w=
 P:valkey
-V:7.2.7-r0
+V:7.2.8-r0
 A:x86
-S:1270841
+S:1271066
 I:2994176
 T:Open source high-performance key/value datastore (fork of Redis)
 U:https://valkey.io/
 L:BSD-3-Clause
 o:valkey
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1727900944
-c:4c9658da2d0d7d4ffe72b66dcc3b530bd3ff4575
+t:1736521673
+c:d1bff4aa5722666a20650389b37972e06a6a836e
 D:/bin/sh so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:cmd:valkey-check-aof=7.2.7-r0 cmd:valkey-check-rdb=7.2.7-r0 cmd:valkey-sentinel=7.2.7-r0 cmd:valkey-server=7.2.7-r0
+p:cmd:valkey-check-aof=7.2.8-r0 cmd:valkey-check-rdb=7.2.8-r0 cmd:valkey-sentinel=7.2.8-r0 cmd:valkey-server=7.2.8-r0
 
-C:Q1JMDsTX//CineLTsOYtVRjGrZISY=
+C:Q1cNMa48/H7pM+ubyzF6ZMdiqU844=
 P:valkey-benchmark
-V:7.2.7-r0
+V:7.2.8-r0
 A:x86
-S:175716
+S:175717
 I:376832
 T:Valkey benchmarking tool
 U:https://valkey.io/
 L:BSD-3-Clause
 o:valkey
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1727900944
-c:4c9658da2d0d7d4ffe72b66dcc3b530bd3ff4575
+t:1736521673
+c:d1bff4aa5722666a20650389b37972e06a6a836e
 D:so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:cmd:valkey-benchmark=7.2.7-r0
+p:cmd:valkey-benchmark=7.2.8-r0
 
-C:Q18ZXeaFVcQCvPCWbCaWYCsIb2lno=
+C:Q1LuYffNuh3ch9gICV1fXJvmJQ3+Y=
 P:valkey-cli
-V:7.2.7-r0
+V:7.2.8-r0
 A:x86
-S:210338
+S:210336
 I:528384
 T:Valkey CLI client
 U:https://valkey.io/
 L:BSD-3-Clause
 o:valkey
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1727900944
-c:4c9658da2d0d7d4ffe72b66dcc3b530bd3ff4575
+t:1736521673
+c:d1bff4aa5722666a20650389b37972e06a6a836e
 D:so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libssl.so.3
-p:cmd:valkey-cli=7.2.7-r0
+p:cmd:valkey-cli=7.2.8-r0
 
-C:Q1OaSZ+oR/V77IF7TGirjEWYF/dwE=
+C:Q1+QURXHUKQFx6ORIBGTn8UhSwwV0=
 P:valkey-compat
-V:7.2.7-r0
+V:7.2.8-r0
 A:x86
 S:1901
 I:12288
@@ -82652,24 +82652,24 @@ U:https://valkey.io/
 L:BSD-3-Clause
 o:valkey
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1727900944
-c:4c9658da2d0d7d4ffe72b66dcc3b530bd3ff4575
-D:!redis !redict-compat /bin/sh valkey-cli=7.2.7-r0 valkey=7.2.7-r0
+t:1736521673
+c:d1bff4aa5722666a20650389b37972e06a6a836e
+D:!redis !redict-compat /bin/sh valkey-cli=7.2.8-r0 valkey=7.2.8-r0
 
-C:Q1vP69FDfe+DktVH6oBANyndkgpAM=
+C:Q1E/RDFalSog9JCyO+g8+zMNovgSc=
 P:valkey-openrc
-V:7.2.7-r0
+V:7.2.8-r0
 A:x86
-S:2679
+S:2682
 I:32768
 T:Open source high-performance key/value datastore (fork of Redis) (OpenRC init scripts)
 U:https://valkey.io/
 L:BSD-3-Clause
 o:valkey
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1727900944
-c:4c9658da2d0d7d4ffe72b66dcc3b530bd3ff4575
-i:openrc valkey=7.2.7-r0
+t:1736521673
+c:d1bff4aa5722666a20650389b37972e06a6a836e
+i:openrc valkey=7.2.8-r0
 
 C:Q1OGgT98jWd7o9Tsme5LxaLxo6kMY=
 P:vanessa_adt
@@ -84171,21 +84171,21 @@ t:1711411161
 c:9066659fc140312ce844504fc8311d5eff5a2423
 i:docs xtables-addons=3.26-r0
 
-C:Q1T478i9ppCa8TZD9PaH8mg+ndPUo=
+C:Q1/wsD/T3MDhlwaV+wwpvRVXSeQYs=
 P:xtables-addons-lts
-V:6.6.69-r0
+V:6.6.71-r0
 A:x86
-S:3578911
-I:3678208
+S:3599719
+I:3710976
 T:Iptables extensions kernel modules
 U:https://inai.de/projects/xtables-addons/
 L:GPL-2.0-or-later
 o:xtables-addons-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735822097
-c:0b1b543fee5fecbad90a9ca27febf661984c6bb9
-D:linux-lts=6.6.69-r0
-i:linux-lts=6.6.69-r0 xtables-addons
+t:1736520962
+c:5272b193108c56458601d6cd50e64337ce452dec
+D:linux-lts=6.6.71-r0
+i:linux-lts=6.6.71-r0 xtables-addons
 
 C:Q1A9wW0m2hvVcTpwfHuV598cEIfHM=
 P:xtrans
@@ -84683,37 +84683,37 @@ c:f448cad503c8c490e4cbd697d5311c2bfa4a1f7d
 D:so:libblkid.so.1 so:libc.musl-x86.so.1 so:libcrypto.so.3 so:libintl.so.8 so:libtirpc.so.3 so:libuuid.so.1 so:libz.so.1
 p:so:libnvpair.so.3=3.0.0 so:libuutil.so.3=3.0.0 so:libzfs.so.4=4.1.0 so:libzfs_core.so.3=3.0.0 so:libzfsbootenv.so.1=1.0.0 so:libzpool.so.5=5.0.0
 
-C:Q1HEkO/vTIbKXVAivGmI3RpEq+jLs=
+C:Q186vo4qL2sdL4rRrxdYBskP2HWJI=
 P:zfs-lts
-V:6.6.69-r0
+V:6.6.71-r0
 A:x86
-S:24302835
-I:24559616
+S:24414515
+I:24674304
 T:ZFS Linux kernel modules
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735822248
-c:df3dab46861ea71ee747210e92d8c1bf7bdd63f8
-D:linux-lts=6.6.69-r0
-p:spl-vanilla=6.6.69-r0
-i:zfs linux-lts=6.6.69-r0
+t:1736520962
+c:53380d004cf95b19707a22eb4996f253ee975476
+D:linux-lts=6.6.71-r0
+p:spl-vanilla=6.6.71-r0
+i:zfs linux-lts=6.6.71-r0
 
-C:Q17eMG8ykvfW+vgfkWhpKVMJZD28s=
+C:Q1Jhgsvv3FT/BL8PyLQDMbNXZATs8=
 P:zfs-lts-dev
-V:6.6.69-r0
+V:6.6.71-r0
 A:x86
-S:506666
+S:506724
 I:3969024
 T:ZFS Linux kernel modules (development files)
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735822248
-c:df3dab46861ea71ee747210e92d8c1bf7bdd63f8
-D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.6.69-r0
+t:1736520962
+c:53380d004cf95b19707a22eb4996f253ee975476
+D:glib-dev e2fsprogs-dev util-linux-dev libtirpc-dev linux-lts-dev=6.6.71-r0
 
 C:Q1N+cU4F2a4J4I8c7fQL84EC0F31I=
 P:zfs-openrc
@@ -84792,21 +84792,21 @@ c:75f5f80e525f76733e23bc83b3777361244dc8f8
 D:linux-virt=6.6.49-r0
 i:zfs linux-virt=6.6.49-r0
 
-C:Q1F/0AjzEZYmn5jYAIMIZ71JBKq1M=
+C:Q1ASPWaN74UT9OQUHrGKx5Siv6BEo=
 P:zfs-virt
-V:6.6.69-r0
+V:6.6.71-r0
 A:x86
-S:23863435
-I:24113152
+S:23974075
+I:24223744
 T:ZFS Linux kernel modules for virt
 U:https://openzfs.org
 L:CDDL-1.0
 o:zfs-lts
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1735822248
-c:df3dab46861ea71ee747210e92d8c1bf7bdd63f8
-D:linux-virt=6.6.69-r0
-i:zfs linux-virt=6.6.69-r0
+t:1736520962
+c:53380d004cf95b19707a22eb4996f253ee975476
+D:linux-virt=6.6.71-r0
+i:zfs linux-virt=6.6.71-r0
 
 C:Q1WyZPY0mkFxhNmfoY05+2O40XscA=
 P:zfs-zsh-completion
