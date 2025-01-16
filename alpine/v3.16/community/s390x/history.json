@@ -3588,7 +3588,8 @@
     "syncthing-openrc": {
       "origin": "syncthing",
       "versions": {
-        "1.20.1-r5": 1665181922
+        "1.20.1-r5": 1665181922,
+        "1.20.4-r0": 1737019740
       }
     },
     "qemu-system-ppc": {
@@ -20448,12 +20449,13 @@
     "syncthing-utils": {
       "origin": "syncthing",
       "versions": {
-        "1.20.1-r5": 1665181922
+        "1.20.1-r5": 1665181922,
+        "1.20.4-r0": 1737019740
       },
       "provides": [
-        "cmd:stdiscosrv=1.20.1-r5",
-        "cmd:strelaypoolsrv=1.20.1-r5",
-        "cmd:strelaysrv=1.20.1-r5"
+        "cmd:stdiscosrv=1.20.4-r0",
+        "cmd:strelaypoolsrv=1.20.4-r0",
+        "cmd:strelaysrv=1.20.4-r0"
       ]
     },
     "xf86-video-i740-doc": {
@@ -42913,13 +42915,14 @@
     "syncthing": {
       "origin": "syncthing",
       "versions": {
-        "1.20.1-r5": 1665181922
+        "1.20.1-r5": 1665181922,
+        "1.20.4-r0": 1737019740
       },
       "dependencies": [
         "/bin/sh"
       ],
       "provides": [
-        "cmd:syncthing=1.20.1-r5"
+        "cmd:syncthing=1.20.4-r0"
       ]
     },
     "libgit2": {
@@ -91926,7 +91929,8 @@
     "syncthing-doc": {
       "origin": "syncthing",
       "versions": {
-        "1.20.1-r5": 1665181922
+        "1.20.1-r5": 1665181922,
+        "1.20.4-r0": 1737019740
       }
     },
     "ticcutils-dev": {
