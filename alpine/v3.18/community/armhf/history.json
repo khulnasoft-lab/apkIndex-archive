@@ -94406,7 +94406,8 @@
     "phpmyadmin": {
       "origin": "phpmyadmin",
       "versions": {
-        "5.2.1-r1": 1681576579
+        "5.2.1-r1": 1681576579,
+        "5.2.2-r0": 1737559133
       },
       "dependencies": [
         "php82",
@@ -94427,7 +94428,8 @@
     "phpmyadmin-doc": {
       "origin": "phpmyadmin",
       "versions": {
-        "5.2.1-r1": 1681576579
+        "5.2.1-r1": 1681576579,
+        "5.2.2-r0": 1737559133
       },
       "dependencies": [
         "php82",
