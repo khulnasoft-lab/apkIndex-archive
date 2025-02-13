@@ -1744,18 +1744,19 @@
     "musl-utils": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r5": 1684510151
+        "1.2.3-r5": 1684510151,
+        "1.2.3-r6": 1739467992
       },
       "dependencies": [
         "scanelf",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:getconf=1.2.3-r5",
-        "cmd:getent=1.2.3-r5",
-        "cmd:iconv=1.2.3-r5",
-        "cmd:ldconfig=1.2.3-r5",
-        "cmd:ldd=1.2.3-r5"
+        "cmd:getconf=1.2.3-r6",
+        "cmd:getent=1.2.3-r6",
+        "cmd:iconv=1.2.3-r6",
+        "cmd:ldconfig=1.2.3-r6",
+        "cmd:ldd=1.2.3-r6"
       ]
     },
     "libid3tag-dev": {
@@ -19855,7 +19856,8 @@
     "musl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r5": 1684510151
+        "1.2.3-r5": 1684510151,
+        "1.2.3-r6": 1739467992
       },
       "provides": [
         "so:libc.musl-x86.so.1=1"
@@ -35361,7 +35363,8 @@
     "musl-libintl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r5": 1684510151
+        "1.2.3-r5": 1684510151,
+        "1.2.3-r6": 1739467992
       }
     },
     "lttng-ust-doc": {
@@ -40720,7 +40723,8 @@
     "musl-dbg": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r5": 1684510151
+        "1.2.3-r5": 1684510151,
+        "1.2.3-r6": 1739467992
       }
     },
     "asterisk-odbc": {
@@ -48182,10 +48186,11 @@
     "musl-dev": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r5": 1684510151
+        "1.2.3-r5": 1684510151,
+        "1.2.3-r6": 1739467992
       },
       "dependencies": [
-        "musl=1.2.3-r5"
+        "musl=1.2.3-r6"
       ]
     },
     "perl-archive-zip-doc": {
@@ -56174,10 +56179,11 @@
     "libc6-compat": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r5": 1684510151
+        "1.2.3-r5": 1684510151,
+        "1.2.3-r6": 1739467992
       },
       "dependencies": [
-        "musl=1.2.3-r5"
+        "musl=1.2.3-r6"
       ]
     },
     "py3-libseccomp": {

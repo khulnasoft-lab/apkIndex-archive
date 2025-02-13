@@ -2836,10 +2836,11 @@
     "libc6-compat": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
-        "musl=1.2.3-r3"
+        "musl=1.2.3-r4"
       ]
     },
     "iaxmodem": {
@@ -8375,10 +8376,11 @@
     "musl-dev": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
-        "musl=1.2.3-r3"
+        "musl=1.2.3-r4"
       ]
     },
     "libtheora-static": {
@@ -11457,7 +11459,8 @@
     "musl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "provides": [
         "so:libc.musl-ppc64le.so.1=1"
@@ -49669,18 +49672,19 @@
     "musl-utils": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
         "scanelf",
         "so:libc.musl-ppc64le.so.1"
       ],
       "provides": [
-        "cmd:getconf=1.2.3-r3",
-        "cmd:getent=1.2.3-r3",
-        "cmd:iconv=1.2.3-r3",
-        "cmd:ldconfig=1.2.3-r3",
-        "cmd:ldd=1.2.3-r3"
+        "cmd:getconf=1.2.3-r4",
+        "cmd:getent=1.2.3-r4",
+        "cmd:iconv=1.2.3-r4",
+        "cmd:ldconfig=1.2.3-r4",
+        "cmd:ldd=1.2.3-r4"
       ]
     },
     "freeradius-krb5": {
@@ -50419,7 +50423,8 @@
     "musl-libintl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       }
     },
     "uwsgi-webdav": {
@@ -53549,7 +53554,8 @@
     "musl-dbg": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       }
     },
     "perl-time-hires-doc": {

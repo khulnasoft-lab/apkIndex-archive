@@ -860,18 +860,19 @@
     "musl-utils": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
         "scanelf",
         "so:libc.musl-aarch64.so.1"
       ],
       "provides": [
-        "cmd:getconf=1.2.3-r3",
-        "cmd:getent=1.2.3-r3",
-        "cmd:iconv=1.2.3-r3",
-        "cmd:ldconfig=1.2.3-r3",
-        "cmd:ldd=1.2.3-r3"
+        "cmd:getconf=1.2.3-r4",
+        "cmd:getent=1.2.3-r4",
+        "cmd:iconv=1.2.3-r4",
+        "cmd:ldconfig=1.2.3-r4",
+        "cmd:ldd=1.2.3-r4"
       ]
     },
     "uwsgi-nagios": {
@@ -14605,10 +14606,11 @@
     "musl-dev": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
-        "musl=1.2.3-r3"
+        "musl=1.2.3-r4"
       ]
     },
     "drbd-utils-doc": {
@@ -23623,10 +23625,11 @@
     "libc6-compat": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
-        "musl=1.2.3-r3"
+        "musl=1.2.3-r4"
       ]
     },
     "tevent-dev": {
@@ -27129,7 +27132,8 @@
     "musl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "provides": [
         "so:libc.musl-aarch64.so.1=1"
@@ -33004,7 +33008,8 @@
     "musl-dbg": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       }
     },
     "py3-toml": {
@@ -48424,7 +48429,8 @@
     "musl-libintl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       }
     },
     "syslog-ng-map-value-pairs": {

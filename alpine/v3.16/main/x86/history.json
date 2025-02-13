@@ -1478,7 +1478,8 @@
     "musl-dbg": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       }
     },
     "openldap-overlay-otp": {
@@ -1593,18 +1594,19 @@
     "musl-utils": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
         "scanelf",
         "so:libc.musl-x86.so.1"
       ],
       "provides": [
-        "cmd:getconf=1.2.3-r3",
-        "cmd:getent=1.2.3-r3",
-        "cmd:iconv=1.2.3-r3",
-        "cmd:ldconfig=1.2.3-r3",
-        "cmd:ldd=1.2.3-r3"
+        "cmd:getconf=1.2.3-r4",
+        "cmd:getent=1.2.3-r4",
+        "cmd:iconv=1.2.3-r4",
+        "cmd:ldconfig=1.2.3-r4",
+        "cmd:ldd=1.2.3-r4"
       ]
     },
     "netcat-openbsd-doc": {
@@ -9911,10 +9913,11 @@
     "musl-dev": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
-        "musl=1.2.3-r3"
+        "musl=1.2.3-r4"
       ]
     },
     "lua5.3-unit": {
@@ -45407,10 +45410,11 @@
     "libc6-compat": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
-        "musl=1.2.3-r3"
+        "musl=1.2.3-r4"
       ]
     },
     "audit-openrc": {
@@ -47291,7 +47295,8 @@
     "musl-libintl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       }
     },
     "uwsgi-router_static": {
@@ -49968,7 +49973,8 @@
     "musl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "provides": [
         "so:libc.musl-x86.so.1=1"

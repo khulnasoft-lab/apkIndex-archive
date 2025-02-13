@@ -14179,10 +14179,11 @@
     "musl-dev": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
-        "musl=1.2.3-r3"
+        "musl=1.2.3-r4"
       ]
     },
     "perl-javascript-minifier-xs": {
@@ -23752,7 +23753,8 @@
     "musl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "provides": [
         "so:libc.musl-s390x.so.1=1"
@@ -29266,7 +29268,8 @@
     "musl-libintl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       }
     },
     "mandoc": {
@@ -33456,18 +33459,19 @@
     "musl-utils": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
         "scanelf",
         "so:libc.musl-s390x.so.1"
       ],
       "provides": [
-        "cmd:getconf=1.2.3-r3",
-        "cmd:getent=1.2.3-r3",
-        "cmd:iconv=1.2.3-r3",
-        "cmd:ldconfig=1.2.3-r3",
-        "cmd:ldd=1.2.3-r3"
+        "cmd:getconf=1.2.3-r4",
+        "cmd:getent=1.2.3-r4",
+        "cmd:iconv=1.2.3-r4",
+        "cmd:ldconfig=1.2.3-r4",
+        "cmd:ldd=1.2.3-r4"
       ]
     },
     "nginx-mod-http-encrypted-session": {
@@ -50370,7 +50374,8 @@
     "musl-dbg": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       }
     },
     "lxc-bridge": {
@@ -52395,10 +52400,11 @@
     "libc6-compat": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
-        "musl=1.2.3-r3"
+        "musl=1.2.3-r4"
       ]
     },
     "kamailio-sipdump": {

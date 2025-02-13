@@ -10810,7 +10810,8 @@
     "musl-dbg": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       }
     },
     "dropbear-ssh": {
@@ -14959,18 +14960,19 @@
     "musl-utils": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
         "scanelf",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "cmd:getconf=1.2.3-r3",
-        "cmd:getent=1.2.3-r3",
-        "cmd:iconv=1.2.3-r3",
-        "cmd:ldconfig=1.2.3-r3",
-        "cmd:ldd=1.2.3-r3"
+        "cmd:getconf=1.2.3-r4",
+        "cmd:getent=1.2.3-r4",
+        "cmd:iconv=1.2.3-r4",
+        "cmd:ldconfig=1.2.3-r4",
+        "cmd:ldd=1.2.3-r4"
       ]
     },
     "perl-fcgi-procmanager": {
@@ -28404,10 +28406,11 @@
     "musl-dev": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
-        "musl=1.2.3-r3"
+        "musl=1.2.3-r4"
       ]
     },
     "samba-libs-py3": {
@@ -29231,7 +29234,8 @@
     "musl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "provides": [
         "so:libc.musl-armhf.so.1=1"
@@ -31227,10 +31231,11 @@
     "libc6-compat": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       },
       "dependencies": [
-        "musl=1.2.3-r3"
+        "musl=1.2.3-r4"
       ]
     },
     "speexdsp-dev": {
@@ -47260,7 +47265,8 @@
     "musl-libintl": {
       "origin": "musl",
       "versions": {
-        "1.2.3-r3": 1684510405
+        "1.2.3-r3": 1684510405,
+        "1.2.3-r4": 1739468301
       }
     },
     "krb5": {
