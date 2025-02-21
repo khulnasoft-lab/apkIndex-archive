@@ -97193,7 +97193,8 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
         "postgresql13-client",
@@ -97211,19 +97212,19 @@
       ],
       "provides": [
         "postgresql",
-        "cmd:initdb",
-        "cmd:pg_test_timing",
-        "cmd:pg_test_fsync",
-        "cmd:pg_waldump",
-        "cmd:postmaster",
-        "cmd:pg_archivecleanup",
-        "cmd:pg_upgrade",
-        "cmd:pg_controldata",
-        "cmd:pg_ctl",
-        "cmd:pg_resetwal",
-        "cmd:pg_rewind",
         "cmd:pg_checksums",
-        "cmd:postgres"
+        "cmd:pg_controldata",
+        "cmd:pg_waldump",
+        "cmd:postgres",
+        "cmd:pg_test_fsync",
+        "cmd:pg_upgrade",
+        "cmd:pg_rewind",
+        "cmd:pg_resetwal",
+        "cmd:pg_test_timing",
+        "cmd:pg_ctl",
+        "cmd:initdb",
+        "cmd:pg_archivecleanup",
+        "cmd:postmaster"
       ]
     },
     "postgresql13-client": {
@@ -97235,7 +97236,8 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
         "postgresql-common",
@@ -97275,10 +97277,11 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
-        "postgresql13=13.18-r0",
+        "postgresql13=13.20-r0",
         "so:libc.musl-armhf.so.1",
         "so:libcrypto.so.3",
         "so:libpq.so.5",
@@ -97303,10 +97306,11 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
-        "postgresql13-contrib=13.18-r0"
+        "postgresql13-contrib=13.20-r0"
       ],
       "provides": [
         "postgresql-contrib-jit"
@@ -97321,7 +97325,8 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
         "libpq-dev",
@@ -97345,7 +97350,8 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "provides": [
         "postgresql-doc"
@@ -97360,10 +97366,11 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
-        "postgresql13=13.18-r0",
+        "postgresql13=13.20-r0",
         "so:libLLVM-14.so",
         "so:libc.musl-armhf.so.1",
         "so:libgcc_s.so.1",
@@ -97382,7 +97389,8 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
         "postgresql-common-openrc"
@@ -97397,10 +97405,11 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
-        "postgresql13=13.18-r0",
+        "postgresql13=13.20-r0",
         "so:libc.musl-armhf.so.1",
         "so:libperl.so"
       ],
@@ -97417,10 +97426,11 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
-        "postgresql13-plperl=13.18-r0",
+        "postgresql13-plperl=13.20-r0",
         "so:libc.musl-armhf.so.1",
         "so:libperl.so"
       ],
@@ -97437,10 +97447,11 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
-        "postgresql13=13.18-r0",
+        "postgresql13=13.20-r0",
         "python3",
         "so:libc.musl-armhf.so.1",
         "so:libpython3.11.so.1.0"
@@ -97458,10 +97469,11 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
-        "postgresql13-plpython3=13.18-r0",
+        "postgresql13-plpython3=13.20-r0",
         "so:libc.musl-armhf.so.1",
         "so:libpython3.11.so.1.0"
       ],
@@ -97478,10 +97490,11 @@
         "13.15-r0": 1715730203,
         "13.16-r0": 1726755936,
         "13.17-r0": 1731708571,
-        "13.18-r0": 1732835299
+        "13.18-r0": 1732835299,
+        "13.20-r0": 1740155735
       },
       "dependencies": [
-        "postgresql13=13.18-r0",
+        "postgresql13=13.20-r0",
         "pgtcl",
         "so:libc.musl-armhf.so.1",
         "so:libtcl8.6.so"
