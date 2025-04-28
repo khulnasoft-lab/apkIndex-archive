@@ -84391,68 +84391,68 @@ t:1742206026
 c:c6b0650fa86c4a8a49642a969a98e6f4240014d7
 i:docs vala=0.56.18-r0
 
-C:Q1JSq7ntoJs0ICB59zGRzE5UBLcEQ=
+C:Q1//dk7brw+bzJLH2JlvtDiUUrDwE=
 P:valgrind
-V:3.24.0-r0
+V:3.25.0-r0
 A:aarch64
-S:30976915
-I:77082549
+S:33163716
+I:82551477
 T:Tool to help find memory-management problems in programs
 U:https://valgrind.org/
 L:GPL-2.0-or-later
 o:valgrind
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1731936108
-c:3f4eb5657c195f11393cf253a642657559b2510f
+t:1745835322
+c:dcc90f4f366263c29777c0ca56d9a8f1e2a4e835
 D:so:libc.musl-aarch64.so.1
-p:cmd:valgrind-di-server=3.24.0-r0 cmd:valgrind-listener=3.24.0-r0 cmd:valgrind=3.24.0-r0 cmd:vgdb=3.24.0-r0
+p:cmd:valgrind-di-server=3.25.0-r0 cmd:valgrind-listener=3.25.0-r0 cmd:valgrind=3.25.0-r0 cmd:vgdb=3.25.0-r0
 
-C:Q1Lv1iU1yC4MfQVr4OTCoXVKO7Vts=
+C:Q1iikrkNTQDwiaRcTBhA7+OJ6F8HI=
 P:valgrind-dev
-V:3.24.0-r0
+V:3.25.0-r0
 A:aarch64
-S:11442726
-I:46267289
+S:12051282
+I:48689022
 T:Tool to help find memory-management problems in programs (development files)
 U:https://valgrind.org/
 L:GPL-2.0-or-later
 o:valgrind
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1731936108
-c:3f4eb5657c195f11393cf253a642657559b2510f
+t:1745835322
+c:dcc90f4f366263c29777c0ca56d9a8f1e2a4e835
 D:pkgconfig
-p:pc:valgrind=3.24.0
+p:pc:valgrind=3.25.0
 
-C:Q16Ud4S4PYA4qpXM0kOTNAX0bpk5g=
+C:Q1znqlE3VKUjnUJk+XXifVB8UBGGo=
 P:valgrind-doc
-V:3.24.0-r0
+V:3.25.0-r0
 A:aarch64
-S:4714517
-I:17809710
+S:4817909
+I:18129972
 T:Tool to help find memory-management problems in programs (documentation)
 U:https://valgrind.org/
 L:GPL-2.0-or-later
 o:valgrind
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1731936108
-c:3f4eb5657c195f11393cf253a642657559b2510f
-i:docs valgrind=3.24.0-r0
+t:1745835322
+c:dcc90f4f366263c29777c0ca56d9a8f1e2a4e835
+i:docs valgrind=3.25.0-r0
 
-C:Q16AzaaPlIQF7JPZHQTcAKQBmIRYY=
+C:Q1hAAobiuCq7Dt6nvyZUIaU5az39A=
 P:valgrind-scripts
-V:3.24.0-r0
+V:3.25.0-r0
 A:aarch64
-S:40079
+S:40091
 I:147755
 T:Tool to help find memory-management problems in programs (perl+python cachegrind/callgrind script tools)
 U:https://valgrind.org/
 L:GPL-2.0-or-later
 o:valgrind
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1731936108
-c:3f4eb5657c195f11393cf253a642657559b2510f
-D:valgrind=3.24.0-r0 python3 perl
-p:cmd:callgrind_annotate=3.24.0-r0 cmd:callgrind_control=3.24.0-r0 cmd:cg_annotate=3.24.0-r0 cmd:cg_diff=3.24.0-r0 cmd:cg_merge=3.24.0-r0 cmd:ms_print=3.24.0-r0
+t:1745835322
+c:dcc90f4f366263c29777c0ca56d9a8f1e2a4e835
+D:valgrind=3.25.0-r0 python3 perl
+p:cmd:callgrind_annotate=3.25.0-r0 cmd:callgrind_control=3.25.0-r0 cmd:cg_annotate=3.25.0-r0 cmd:cg_diff=3.25.0-r0 cmd:cg_merge=3.25.0-r0 cmd:ms_print=3.25.0-r0
 
 C:Q1L5TZdPgSevyrT3DSlfYSM4q9GHE=
 P:valgrind-yash-completion
