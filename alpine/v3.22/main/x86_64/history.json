@@ -17197,7 +17197,8 @@
     "gperf": {
       "origin": "gperf",
       "versions": {
-        "3.1-r4": 1681228881
+        "3.1-r4": 1681228881,
+        "3.3-r0": 1745835236
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -17205,13 +17206,14 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:gperf=3.1-r4"
+        "cmd:gperf=3.3-r0"
       ]
     },
     "gperf-doc": {
       "origin": "gperf",
       "versions": {
-        "3.1-r4": 1681228881
+        "3.1-r4": 1681228881,
+        "3.3-r0": 1745835236
       }
     },
     "gpg": {
@@ -27339,7 +27341,8 @@
     "librrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r3": 1744022923
+        "1.9.0-r3": 1744022923,
+        "1.9.0-r4": 1745841964
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -33892,7 +33895,8 @@
     "lua-rrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r3": 1744022923
+        "1.9.0-r3": 1744022923,
+        "1.9.0-r4": 1745841964
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -49769,7 +49773,8 @@
     "perl-rrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r3": 1744022923
+        "1.9.0-r3": 1744022923,
+        "1.9.0-r4": 1745841964
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -56761,7 +56766,8 @@
     "rrdtool": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r3": 1744022923
+        "1.9.0-r3": 1744022923,
+        "1.9.0-r4": 1745841964
       },
       "dependencies": [
         "font-cantarell",
@@ -56769,13 +56775,14 @@
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdtool=1.9.0-r3"
+        "cmd:rrdtool=1.9.0-r4"
       ]
     },
     "rrdtool-cached": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r3": 1744022923
+        "1.9.0-r3": 1744022923,
+        "1.9.0-r4": 1745841964
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -56783,35 +56790,38 @@
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdcached=1.9.0-r3"
+        "cmd:rrdcached=1.9.0-r4"
       ]
     },
     "rrdtool-cached-openrc": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r3": 1744022923
+        "1.9.0-r3": 1744022923,
+        "1.9.0-r4": 1745841964
       }
     },
     "rrdtool-cgi": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r3": 1744022923
+        "1.9.0-r3": 1744022923,
+        "1.9.0-r4": 1745841964
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
         "so:librrd.so.8"
       ],
       "provides": [
-        "cmd:rrdcgi=1.9.0-r3"
+        "cmd:rrdcgi=1.9.0-r4"
       ]
     },
     "rrdtool-dev": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r3": 1744022923
+        "1.9.0-r3": 1744022923,
+        "1.9.0-r4": 1745841964
       },
       "dependencies": [
-        "librrd=1.9.0-r3",
+        "librrd=1.9.0-r4",
         "pkgconfig"
       ],
       "provides": [
@@ -56821,22 +56831,24 @@
     "rrdtool-doc": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r3": 1744022923
+        "1.9.0-r3": 1744022923,
+        "1.9.0-r4": 1745841964
       }
     },
     "rrdtool-utils": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r3": 1744022923
+        "1.9.0-r3": 1744022923,
+        "1.9.0-r4": 1745841964
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
         "so:libglib-2.0.so.0"
       ],
       "provides": [
-        "cmd:rrdcreate=1.9.0-r3",
-        "cmd:rrdinfo=1.9.0-r3",
-        "cmd:rrdupdate=1.9.0-r3"
+        "cmd:rrdcreate=1.9.0-r4",
+        "cmd:rrdinfo=1.9.0-r4",
+        "cmd:rrdupdate=1.9.0-r4"
       ]
     },
     "rrsync": {
@@ -63905,7 +63917,8 @@
     "tcl-rrd": {
       "origin": "rrdtool",
       "versions": {
-        "1.9.0-r3": 1744022923
+        "1.9.0-r3": 1744022923,
+        "1.9.0-r4": 1745841964
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1",
@@ -66471,53 +66484,57 @@
     "valgrind": {
       "origin": "valgrind",
       "versions": {
-        "3.24.0-r0": 1731936108
+        "3.24.0-r0": 1731936108,
+        "3.25.0-r0": 1745835322
       },
       "dependencies": [
         "so:libc.musl-x86_64.so.1"
       ],
       "provides": [
-        "cmd:valgrind-di-server=3.24.0-r0",
-        "cmd:valgrind-listener=3.24.0-r0",
-        "cmd:valgrind=3.24.0-r0",
-        "cmd:vgdb=3.24.0-r0"
+        "cmd:valgrind-di-server=3.25.0-r0",
+        "cmd:valgrind-listener=3.25.0-r0",
+        "cmd:valgrind=3.25.0-r0",
+        "cmd:vgdb=3.25.0-r0"
       ]
     },
     "valgrind-dev": {
       "origin": "valgrind",
       "versions": {
-        "3.24.0-r0": 1731936108
+        "3.24.0-r0": 1731936108,
+        "3.25.0-r0": 1745835322
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "pc:valgrind=3.24.0"
+        "pc:valgrind=3.25.0"
       ]
     },
     "valgrind-doc": {
       "origin": "valgrind",
       "versions": {
-        "3.24.0-r0": 1731936108
+        "3.24.0-r0": 1731936108,
+        "3.25.0-r0": 1745835322
       }
     },
     "valgrind-scripts": {
       "origin": "valgrind",
       "versions": {
-        "3.24.0-r0": 1731936108
+        "3.24.0-r0": 1731936108,
+        "3.25.0-r0": 1745835322
       },
       "dependencies": [
-        "valgrind=3.24.0-r0",
+        "valgrind=3.25.0-r0",
         "python3",
         "perl"
       ],
       "provides": [
-        "cmd:callgrind_annotate=3.24.0-r0",
-        "cmd:callgrind_control=3.24.0-r0",
-        "cmd:cg_annotate=3.24.0-r0",
-        "cmd:cg_diff=3.24.0-r0",
-        "cmd:cg_merge=3.24.0-r0",
-        "cmd:ms_print=3.24.0-r0"
+        "cmd:callgrind_annotate=3.25.0-r0",
+        "cmd:callgrind_control=3.25.0-r0",
+        "cmd:cg_annotate=3.25.0-r0",
+        "cmd:cg_diff=3.25.0-r0",
+        "cmd:cg_merge=3.25.0-r0",
+        "cmd:ms_print=3.25.0-r0"
       ]
     },
     "valgrind-yash-completion": {

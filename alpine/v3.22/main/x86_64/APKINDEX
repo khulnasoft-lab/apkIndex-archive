@@ -20667,36 +20667,36 @@ t:1742384579
 c:b24c96508fe69b0260be1ceeac501436c4789a7e
 i:docs gobject-introspection=1.84.0-r0
 
-C:Q1+ICtgXgSBlNJYNVwS0wGeAV9Od0=
+C:Q1g3MGj3qtyFrQLlcKaKZMCKy3SE8=
 P:gperf
-V:3.1-r4
+V:3.3-r0
 A:x86_64
-S:39877
-I:84120
+S:44770
+I:92320
 T:Perfect hash function generator.
 U:https://www.gnu.org/software/gperf/
 L:GPL-3.0-or-later
 o:gperf
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1681228881
-c:84a227baf001b6e0208e3352b294e4d7a40e93de
+t:1745835236
+c:1c28d49205ec8631ca96966ae96261b4e6ebb623
 D:so:libc.musl-x86_64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:gperf=3.1-r4
+p:cmd:gperf=3.3-r0
 
-C:Q1mzm4iCECF020BrX2UHBNohMpieo=
+C:Q1oNnZyzrn6JZbTjlWmF5YNBk00EU=
 P:gperf-doc
-V:3.1-r4
+V:3.3-r0
 A:x86_64
-S:64767
-I:210309
+S:64812
+I:211902
 T:Perfect hash function generator. (documentation)
 U:https://www.gnu.org/software/gperf/
 L:GPL-3.0-or-later
 o:gperf
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1681228881
-c:84a227baf001b6e0208e3352b294e4d7a40e93de
-i:docs gperf=3.1-r4
+t:1745835236
+c:1c28d49205ec8631ca96966ae96261b4e6ebb623
+i:docs gperf=3.3-r0
 
 C:Q1AxucJribgmjlqFJ/W56vGyxjDfQ=
 P:gpg
@@ -32632,19 +32632,19 @@ m:Ariadne Conill <ariadne@dereferenced.org>
 t:1710257622
 c:fc95c59998285564fbcb0bfb2443898c62e10171
 
-C:Q1+DZ7BvQTCqNEEIxnlhTO+xLF7p8=
+C:Q1kd8UYHlv+Osrf41sZo2CpVxYdp0=
 P:librrd
-V:1.9.0-r3
+V:1.9.0-r4
 A:x86_64
-S:138809
+S:138852
 I:299128
 T:Data logging and graphing application (libraries)
 U:http://www.rrdtool.org
 L:GPL-2.0-or-later
 o:rrdtool
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744022923
-c:f8effb65279bbe3d1e98cf082d7e3b9cb412b496
+t:1745841964
+c:f15e72a3b80a18aa92d2176e1c9304ccdb982fcc
 D:so:libc.musl-x86_64.so.1 so:libcairo.so.2 so:libglib-2.0.so.0 so:libgobject-2.0.so.0 so:libpango-1.0.so.0 so:libpangocairo-1.0.so.0 so:libpng16.so.16 so:libxml2.so.2
 p:so:librrd.so.8=8.3.0
 
@@ -40668,19 +40668,19 @@ m:Natanael Copa <ncopa@alpinelinux.org>
 t:1725865883
 c:4d20c56bcf59a8707457a6a74f6adb88a367fc8e
 
-C:Q161r5x8jtPCZuSWqArX5QqpiKiik=
+C:Q1e+lJr9dlgr24JLQIYzOL8xr+eek=
 P:lua-rrd
-V:1.9.0-r3
+V:1.9.0-r4
 A:x86_64
-S:5736
+S:5733
 I:15110
 T:Lua interface for rrdtool
 U:http://www.rrdtool.org
 L:GPL-2.0-or-later
 o:rrdtool
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744022923
-c:f8effb65279bbe3d1e98cf082d7e3b9cb412b496
+t:1745841964
+c:f15e72a3b80a18aa92d2176e1c9304ccdb982fcc
 D:so:libc.musl-x86_64.so.1 so:liblua.so.5 so:librrd.so.8
 
 C:Q1smtewR8VeVtr9Cfr4jElXBVFyD0=
@@ -63383,19 +63383,19 @@ t:1688403118
 c:4ece6fc07c96d6859dde2ecc31b323fb3b355638
 i:docs perl-role-tiny=2.002004-r2
 
-C:Q10lBkv331kJd20PeZSpTDreTeusE=
+C:Q1Ub9nxKoYj/wsOhZlgLCOmcQj1fY=
 P:perl-rrd
-V:1.9.0-r3
+V:1.9.0-r4
 A:x86_64
-S:19329
+S:19322
 I:54056
 T:Perl interface for rrdtool
 U:http://www.rrdtool.org
 L:GPL-2.0-or-later
 o:rrdtool
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744022923
-c:f8effb65279bbe3d1e98cf082d7e3b9cb412b496
+t:1745841964
+c:f15e72a3b80a18aa92d2176e1c9304ccdb982fcc
 D:so:libc.musl-x86_64.so.1 so:librrd.so.8
 
 C:Q18nezqIvQEdiDZP6VcEIi8hUVOf0=
@@ -72895,115 +72895,115 @@ t:1701958496
 c:9024026ee6838388f8b87e52a17495786ed85d4e
 i:openrc rrdcollect=0.2.10-r5
 
-C:Q1/cQqeyec8qgqgHVZ271Q2iV6tXo=
+C:Q1J08d9dUbys1N82Rvg2b7AlymIvs=
 P:rrdtool
-V:1.9.0-r3
+V:1.9.0-r4
 A:x86_64
-S:9623
+S:9613
 I:26512
 T:Data logging and graphing application
 U:http://www.rrdtool.org
 L:GPL-2.0-or-later
 o:rrdtool
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744022923
-c:f8effb65279bbe3d1e98cf082d7e3b9cb412b496
+t:1745841964
+c:f15e72a3b80a18aa92d2176e1c9304ccdb982fcc
 D:font-cantarell so:libc.musl-x86_64.so.1 so:librrd.so.8
-p:cmd:rrdtool=1.9.0-r3
+p:cmd:rrdtool=1.9.0-r4
 
-C:Q10eowVtEt9CdQ2jrdbQHeBlROrhk=
+C:Q1gc/srJQM0t2AQSf60vLgIo9dFzs=
 P:rrdtool-cached
-V:1.9.0-r3
+V:1.9.0-r4
 A:x86_64
-S:33141
+S:33137
 I:72664
 T:RRDtool data caching daemon
 U:http://www.rrdtool.org
 L:GPL-2.0-or-later
 o:rrdtool
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744022923
-c:f8effb65279bbe3d1e98cf082d7e3b9cb412b496
+t:1745841964
+c:f15e72a3b80a18aa92d2176e1c9304ccdb982fcc
 D:so:libc.musl-x86_64.so.1 so:libglib-2.0.so.0 so:librrd.so.8
-p:cmd:rrdcached=1.9.0-r3
+p:cmd:rrdcached=1.9.0-r4
 
-C:Q1HKml8ka01aX0Eabj3GVqK5RqF8Q=
+C:Q1qf1T5UJ75vyT3DZYJzrZQopElic=
 P:rrdtool-cached-openrc
-V:1.9.0-r3
+V:1.9.0-r4
 A:x86_64
-S:1854
+S:1851
 I:435
 T:RRDtool data caching daemon (OpenRC init scripts)
 U:http://www.rrdtool.org
 L:GPL-2.0-or-later
 o:rrdtool
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744022923
-c:f8effb65279bbe3d1e98cf082d7e3b9cb412b496
-i:openrc rrdtool-cached=1.9.0-r3
+t:1745841964
+c:f15e72a3b80a18aa92d2176e1c9304ccdb982fcc
+i:openrc rrdtool-cached=1.9.0-r4
 
-C:Q1N668Ycrwh4avohE2TQ17b1nfGAM=
+C:Q1Ic2uOUMNaKU4aia7WCVWbF8uEvI=
 P:rrdtool-cgi
-V:1.9.0-r3
+V:1.9.0-r4
 A:x86_64
-S:12334
+S:12323
 I:30616
 T:create web pages containing RRD graphs based on templates
 U:http://www.rrdtool.org
 L:GPL-2.0-or-later
 o:rrdtool
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744022923
-c:f8effb65279bbe3d1e98cf082d7e3b9cb412b496
+t:1745841964
+c:f15e72a3b80a18aa92d2176e1c9304ccdb982fcc
 D:so:libc.musl-x86_64.so.1 so:librrd.so.8
-p:cmd:rrdcgi=1.9.0-r3
+p:cmd:rrdcgi=1.9.0-r4
 
-C:Q1Nboo+Dnfsmb8UnwfP+7XxNo0iFU=
+C:Q1DywIetv2QcRCPCxSAS4h3z60ojo=
 P:rrdtool-dev
-V:1.9.0-r3
+V:1.9.0-r4
 A:x86_64
-S:214036
-I:682669
+S:214052
+I:682749
 T:Data logging and graphing application (development files)
 U:http://www.rrdtool.org
 L:GPL-2.0-or-later
 o:rrdtool
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744022923
-c:f8effb65279bbe3d1e98cf082d7e3b9cb412b496
-D:librrd=1.9.0-r3 pkgconfig
+t:1745841964
+c:f15e72a3b80a18aa92d2176e1c9304ccdb982fcc
+D:librrd=1.9.0-r4 pkgconfig
 p:pc:librrd=1.9.0
 
-C:Q16lNGCIRAcQtNQ/Q28I4eQuc8lUo=
+C:Q1rMyGHz+M+XgHxT53XydXIgkY68U=
 P:rrdtool-doc
-V:1.9.0-r3
+V:1.9.0-r4
 A:x86_64
-S:578615
+S:578591
 I:1488274
 T:Data logging and graphing application (documentation)
 U:http://www.rrdtool.org
 L:GPL-2.0-or-later
 o:rrdtool
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744022923
-c:f8effb65279bbe3d1e98cf082d7e3b9cb412b496
-i:docs rrdtool=1.9.0-r3
+t:1745841964
+c:f15e72a3b80a18aa92d2176e1c9304ccdb982fcc
+i:docs rrdtool=1.9.0-r4
 
-C:Q1MWE1IvemM0kZ461YOZfyDNU3638=
+C:Q1qBdv/+WVVpaauER68MgKS1XOgnw=
 P:rrdtool-utils
-V:1.9.0-r3
+V:1.9.0-r4
 A:x86_64
-S:64749
-I:133200
+S:64812
+I:137296
 T:RRDtool standalone create,update,info utilities
 U:http://www.rrdtool.org
 L:GPL-2.0-or-later
 o:rrdtool
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744022923
-c:f8effb65279bbe3d1e98cf082d7e3b9cb412b496
+t:1745841964
+c:f15e72a3b80a18aa92d2176e1c9304ccdb982fcc
 D:so:libc.musl-x86_64.so.1 so:libglib-2.0.so.0
-p:cmd:rrdcreate=1.9.0-r3 cmd:rrdinfo=1.9.0-r3 cmd:rrdupdate=1.9.0-r3
+p:cmd:rrdcreate=1.9.0-r4 cmd:rrdinfo=1.9.0-r4 cmd:rrdupdate=1.9.0-r4
 
 C:Q1hb9PaFUsuTT7e3iTXBgO6MKd2LM=
 P:rrsync
@@ -80805,19 +80805,19 @@ t:1733976730
 c:bdd5c7c6b1d19d09d912a6cd065ac67fa6651997
 i:docs tcl=8.6.16-r0
 
-C:Q1nmhA0l3qCGj01D3Wt/winrXcmnE=
+C:Q1CDRDpkoK1IIexfMbehxWYCXt0eY=
 P:tcl-rrd
-V:1.9.0-r3
+V:1.9.0-r4
 A:x86_64
-S:8343
+S:8337
 I:19731
 T:Tcl interface for rrdtool
 U:http://www.rrdtool.org
 L:GPL-2.0-or-later
 o:rrdtool
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1744022923
-c:f8effb65279bbe3d1e98cf082d7e3b9cb412b496
+t:1745841964
+c:f15e72a3b80a18aa92d2176e1c9304ccdb982fcc
 D:so:libc.musl-x86_64.so.1 so:librrd.so.8
 p:so:tclrrd1.9.0.so=0
 
@@ -84140,68 +84140,68 @@ t:1742206026
 c:c6b0650fa86c4a8a49642a969a98e6f4240014d7
 i:docs vala=0.56.18-r0
 
-C:Q1lYV+ALLP+ICX4Wge2XnVXZt82nI=
+C:Q1BAgaLQ4ELmDFuY/0sgkGO4Wv+4M=
 P:valgrind
-V:3.24.0-r0
+V:3.25.0-r0
 A:x86_64
-S:37003634
-I:88818197
+S:39964236
+I:96770157
 T:Tool to help find memory-management problems in programs
 U:https://valgrind.org/
 L:GPL-2.0-or-later
 o:valgrind
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1731936108
-c:3f4eb5657c195f11393cf253a642657559b2510f
+t:1745835322
+c:dcc90f4f366263c29777c0ca56d9a8f1e2a4e835
 D:so:libc.musl-x86_64.so.1
-p:cmd:valgrind-di-server=3.24.0-r0 cmd:valgrind-listener=3.24.0-r0 cmd:valgrind=3.24.0-r0 cmd:vgdb=3.24.0-r0
+p:cmd:valgrind-di-server=3.25.0-r0 cmd:valgrind-listener=3.25.0-r0 cmd:valgrind=3.25.0-r0 cmd:vgdb=3.25.0-r0
 
-C:Q1jhh29HUdGgyVszb3kKC1U+9yRnA=
+C:Q16gBjjvRvvNaBDdRDFe4qVU766q4=
 P:valgrind-dev
-V:3.24.0-r0
+V:3.25.0-r0
 A:x86_64
-S:12022018
-I:34230134
+S:12707087
+I:36169627
 T:Tool to help find memory-management problems in programs (development files)
 U:https://valgrind.org/
 L:GPL-2.0-or-later
 o:valgrind
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1731936108
-c:3f4eb5657c195f11393cf253a642657559b2510f
+t:1745835322
+c:dcc90f4f366263c29777c0ca56d9a8f1e2a4e835
 D:pkgconfig
-p:pc:valgrind=3.24.0
+p:pc:valgrind=3.25.0
 
-C:Q1kkhleLr9rkkaHS5hz2yemfBHz0c=
+C:Q1tNebE7r6iNHsKah0g6awf0/IpVs=
 P:valgrind-doc
-V:3.24.0-r0
+V:3.25.0-r0
 A:x86_64
-S:4714535
-I:17809710
+S:4817925
+I:18129972
 T:Tool to help find memory-management problems in programs (documentation)
 U:https://valgrind.org/
 L:GPL-2.0-or-later
 o:valgrind
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1731936108
-c:3f4eb5657c195f11393cf253a642657559b2510f
-i:docs valgrind=3.24.0-r0
+t:1745835322
+c:dcc90f4f366263c29777c0ca56d9a8f1e2a4e835
+i:docs valgrind=3.25.0-r0
 
-C:Q1nRT3yTFlG80xLK3eRZKlV+k6IGo=
+C:Q1S5xaqerfJ0GGGoaJy0EqKZrHgeY=
 P:valgrind-scripts
-V:3.24.0-r0
+V:3.25.0-r0
 A:x86_64
-S:40094
+S:40111
 I:147755
 T:Tool to help find memory-management problems in programs (perl+python cachegrind/callgrind script tools)
 U:https://valgrind.org/
 L:GPL-2.0-or-later
 o:valgrind
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1731936108
-c:3f4eb5657c195f11393cf253a642657559b2510f
-D:valgrind=3.24.0-r0 python3 perl
-p:cmd:callgrind_annotate=3.24.0-r0 cmd:callgrind_control=3.24.0-r0 cmd:cg_annotate=3.24.0-r0 cmd:cg_diff=3.24.0-r0 cmd:cg_merge=3.24.0-r0 cmd:ms_print=3.24.0-r0
+t:1745835322
+c:dcc90f4f366263c29777c0ca56d9a8f1e2a4e835
+D:valgrind=3.25.0-r0 python3 perl
+p:cmd:callgrind_annotate=3.25.0-r0 cmd:callgrind_control=3.25.0-r0 cmd:cg_annotate=3.25.0-r0 cmd:cg_diff=3.25.0-r0 cmd:cg_merge=3.25.0-r0 cmd:ms_print=3.25.0-r0
 
 C:Q1hz6DNXzTK7lJBkPE2HfdsJ94JOU=
 P:valgrind-yash-completion
