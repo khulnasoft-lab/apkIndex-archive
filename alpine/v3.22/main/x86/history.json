@@ -61435,7 +61435,8 @@
     "snort": {
       "origin": "snort",
       "versions": {
-        "3.7.2.0-r0": 1743622319
+        "3.7.2.0-r0": 1743622319,
+        "3.7.3.0-r0": 1745853463
       },
       "dependencies": [
         "bash",
@@ -61457,29 +61458,31 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:appid_detector_builder.sh=3.7.2.0-r0",
-        "cmd:snort2lua=3.7.2.0-r0",
-        "cmd:snort=3.7.2.0-r0",
-        "cmd:u2boat=3.7.2.0-r0",
-        "cmd:u2spewfoo=3.7.2.0-r0"
+        "cmd:appid_detector_builder.sh=3.7.3.0-r0",
+        "cmd:snort2lua=3.7.3.0-r0",
+        "cmd:snort=3.7.3.0-r0",
+        "cmd:u2boat=3.7.3.0-r0",
+        "cmd:u2spewfoo=3.7.3.0-r0"
       ]
     },
     "snort-dev": {
       "origin": "snort",
       "versions": {
-        "3.7.2.0-r0": 1743622319
+        "3.7.2.0-r0": 1743622319,
+        "3.7.3.0-r0": 1745853463
       },
       "dependencies": [
         "pkgconfig"
       ],
       "provides": [
-        "pc:snort=3.7.2.0"
+        "pc:snort=3.7.3.0"
       ]
     },
     "snort-doc": {
       "origin": "snort",
       "versions": {
-        "3.7.2.0-r0": 1743622319
+        "3.7.2.0-r0": 1743622319,
+        "3.7.3.0-r0": 1745853463
       }
     },
     "snort-extra": {
@@ -61496,7 +61499,8 @@
     "snort-openrc": {
       "origin": "snort",
       "versions": {
-        "3.7.2.0-r0": 1743622319
+        "3.7.2.0-r0": 1743622319,
+        "3.7.3.0-r0": 1745853463
       }
     },
     "snowball": {
@@ -62094,20 +62098,22 @@
     "sqlite": {
       "origin": "sqlite",
       "versions": {
-        "3.49.1-r0": 1742371007
+        "3.49.1-r0": 1742371007,
+        "3.49.1-r1": 1745855731
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libreadline.so.8"
       ],
       "provides": [
-        "cmd:sqlite3=3.49.1-r0"
+        "cmd:sqlite3=3.49.1-r1"
       ]
     },
     "sqlite-analyzer": {
       "origin": "sqlite-tools",
       "versions": {
-        "3.49.1-r0": 1739939899
+        "3.49.1-r0": 1739939899,
+        "3.49.1-r1": 1745855731
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -62115,18 +62121,19 @@
         "so:libtcl8.6.so"
       ],
       "provides": [
-        "cmd:sqlite3_analyzer=3.49.1-r0"
+        "cmd:sqlite3_analyzer=3.49.1-r1"
       ]
     },
     "sqlite-dev": {
       "origin": "sqlite",
       "versions": {
-        "3.49.1-r0": 1742371007
+        "3.49.1-r0": 1742371007,
+        "3.49.1-r1": 1745855731
       },
       "dependencies": [
-        "sqlite=3.49.1-r0",
+        "sqlite=3.49.1-r1",
         "pkgconfig",
-        "sqlite-libs=3.49.1-r0"
+        "sqlite-libs=3.49.1-r1"
       ],
       "provides": [
         "pc:sqlite3=3.49.1"
@@ -62135,13 +62142,15 @@
     "sqlite-doc": {
       "origin": "sqlite",
       "versions": {
-        "3.49.1-r0": 1742371007
+        "3.49.1-r0": 1742371007,
+        "3.49.1-r1": 1745855731
       }
     },
     "sqlite-libs": {
       "origin": "sqlite",
       "versions": {
-        "3.49.1-r0": 1742371007
+        "3.49.1-r0": 1742371007,
+        "3.49.1-r1": 1745855731
       },
       "dependencies": [
         "so:libc.musl-x86.so.1"
@@ -62153,13 +62162,15 @@
     "sqlite-static": {
       "origin": "sqlite",
       "versions": {
-        "3.49.1-r0": 1742371007
+        "3.49.1-r0": 1742371007,
+        "3.49.1-r1": 1745855731
       }
     },
     "sqlite-tcl": {
       "origin": "sqlite-tools",
       "versions": {
-        "3.49.1-r0": 1739939899
+        "3.49.1-r0": 1739939899,
+        "3.49.1-r1": 1745855731
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -62169,24 +62180,26 @@
     "sqlite-tcl-doc": {
       "origin": "sqlite-tools",
       "versions": {
-        "3.49.1-r0": 1739939899
+        "3.49.1-r0": 1739939899,
+        "3.49.1-r1": 1745855731
       }
     },
     "sqlite-tools": {
       "origin": "sqlite-tools",
       "versions": {
-        "3.49.1-r0": 1739939899
+        "3.49.1-r0": 1739939899,
+        "3.49.1-r1": 1745855731
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
         "so:libsqlite3.so.0"
       ],
       "provides": [
-        "cmd:showdb=3.49.1-r0",
-        "cmd:showjournal=3.49.1-r0",
-        "cmd:showstat4=3.49.1-r0",
-        "cmd:showwal=3.49.1-r0",
-        "cmd:sqldiff=3.49.1-r0"
+        "cmd:showdb=3.49.1-r1",
+        "cmd:showjournal=3.49.1-r1",
+        "cmd:showstat4=3.49.1-r1",
+        "cmd:showwal=3.49.1-r1",
+        "cmd:sqldiff=3.49.1-r1"
       ]
     },
     "sqsh": {
