@@ -15445,21 +15445,21 @@ c:5afb24cb4ffdbeba85509e0c5879dc7727707218
 k:100
 i:docs fakeroot=1.37.1.1-r0
 
-C:Q1UgqyjpRQMEigSIeNV0r972hDdOs=
+C:Q1fYNiCWwGQD76iGtNO89QJMWnPhw=
 P:fastbase64
-V:7.0.0-r0
+V:7.0.0-r1
 A:riscv64
-S:389874
-I:1034632
+S:391413
+I:1038728
 T:Unicode validation and transcoding at billions of characters per second
 U:https://simdutf.github.io/simdutf/
 L:Apache-2.0 OR MIT
 o:simdutf
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1746393417
-c:fa95a99f41bc6fe383168ad7aa25a94353c3d561
+t:1746630860
+c:3df30cd146d6ef98a831ffcf652b71e62a13c5c2
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libsimdutf.so.21
-p:cmd:fastbase64=7.0.0-r0
+p:cmd:fastbase64=7.0.0-r1
 
 C:Q1MzlvS/6ndk0nJ4I1qKFtKq6FkVA=
 P:fcgi
@@ -47002,51 +47002,51 @@ t:1723021716
 c:bc7988a0fa93c6a3b7f26f6d3aac42cb3ce7b339
 i:openrc mini_httpd=1.30-r5
 
-C:Q1KnRpkhm9TQ5gfOMTXyvBUc98MVM=
+C:Q1OU2+q+xUzqfot+ER1C+b9br0nwo=
 P:minicom
-V:2.9-r0
+V:2.10-r0
 A:riscv64
-S:98297
+S:98412
 I:217258
 T:menu driven communications program for terminals
 U:https://tracker.debian.org/pkg/minicom
 L:GPL-2.0-or-later
 o:minicom
 m:Michael Mason <ms13sp@gmail.com>
-t:1695477021
-c:a0436849f08e1a1cf005174a11799b8d1356c29a
+t:1746630894
+c:f640f6c789f5889a86fa545d478651b8b17dd1bc
 D:so:libc.musl-riscv64.so.1 so:libintl.so.8 so:libncursesw.so.6
-p:cmd:ascii-xfr=2.9-r0 cmd:minicom=2.9-r0 cmd:runscript=2.9-r0 cmd:xminicom=2.9-r0
+p:cmd:ascii-xfr=2.10-r0 cmd:minicom=2.10-r0 cmd:runscript=2.10-r0 cmd:xminicom=2.10-r0
 
-C:Q1/hSmucvbQqJMu2xvZMwTba4Spvc=
+C:Q1X2+RUt74/0uyRUiN9wAWeO3YX0g=
 P:minicom-doc
-V:2.9-r0
+V:2.10-r0
 A:riscv64
-S:19979
-I:18102
+S:19943
+I:18060
 T:menu driven communications program for terminals (documentation)
 U:https://tracker.debian.org/pkg/minicom
 L:GPL-2.0-or-later
 o:minicom
 m:Michael Mason <ms13sp@gmail.com>
-t:1695477021
-c:a0436849f08e1a1cf005174a11799b8d1356c29a
-i:docs minicom=2.9-r0
+t:1746630894
+c:f640f6c789f5889a86fa545d478651b8b17dd1bc
+i:docs minicom=2.10-r0
 
-C:Q1RcPZJaqay/HKhur2bUK3ywSrfGQ=
+C:Q1w1l53WvVWAqwHe/JxkUWMbbRRWE=
 P:minicom-lang
-V:2.9-r0
+V:2.10-r0
 A:riscv64
-S:287982
-I:753332
+S:286483
+I:746285
 T:Languages for package minicom
 U:https://tracker.debian.org/pkg/minicom
 L:GPL-2.0-or-later
 o:minicom
 m:Michael Mason <ms13sp@gmail.com>
-t:1695477021
-c:a0436849f08e1a1cf005174a11799b8d1356c29a
-i:minicom=2.9-r0 lang
+t:1746630894
+c:f640f6c789f5889a86fa545d478651b8b17dd1bc
+i:minicom=2.10-r0 lang
 
 C:Q1P5ChTuG3FDnUFDVgbxcKdN7wMX0=
 P:miniperl
@@ -76583,51 +76583,51 @@ m:Simon Zeni <simon@bl4ckb0ne.ca>
 t:1739034439
 c:2b5e2732388d9b1f35e9bcb835aa26b51607fe98
 
-C:Q1KB8wxOwVeUbtnHjw+zMFt7RL1Rc=
+C:Q1+2psYlPm+YI0jZ2U7oewMswsTNM=
 P:simdutf
-V:7.0.0-r0
+V:7.0.0-r1
 A:riscv64
-S:38119
-I:116704
+S:47725
+I:137184
 T:Unicode validation and transcoding at billions of characters per second
 U:https://simdutf.github.io/simdutf/
 L:Apache-2.0 OR MIT
 o:simdutf
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1746393417
-c:fa95a99f41bc6fe383168ad7aa25a94353c3d561
+t:1746630860
+c:3df30cd146d6ef98a831ffcf652b71e62a13c5c2
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:so:libsimdutf.so.21=21.0.0
 
-C:Q1a5Xq96UJe9qUvE1UMkfq0mbw++g=
+C:Q1h2wNUFhSYnS8AzYlXvX9jXFfKUk=
 P:simdutf-dev
-V:7.0.0-r0
+V:7.0.0-r1
 A:riscv64
-S:32259
-I:258631
+S:32241
+I:258646
 T:Unicode validation and transcoding at billions of characters per second (development files)
 U:https://simdutf.github.io/simdutf/
 L:Apache-2.0 OR MIT
 o:simdutf
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1746393417
-c:fa95a99f41bc6fe383168ad7aa25a94353c3d561
-D:pkgconfig simdutf=7.0.0-r0
+t:1746630860
+c:3df30cd146d6ef98a831ffcf652b71e62a13c5c2
+D:pkgconfig simdutf=7.0.0-r1
 p:pc:simdutf=7.0.0
 
-C:Q1ulXVolBL/mHVTKsOf57pYgz9zmA=
+C:Q18ZAxfAgbaRGMZ3ODuut6BEUfX8c=
 P:simdutf-doc
-V:7.0.0-r0
+V:7.0.0-r1
 A:riscv64
-S:2038
+S:2028
 I:1059
 T:Unicode validation and transcoding at billions of characters per second
 U:https://simdutf.github.io/simdutf/
 L:Apache-2.0 OR MIT
 o:simdutf
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1746393417
-c:fa95a99f41bc6fe383168ad7aa25a94353c3d561
+t:1746630860
+c:3df30cd146d6ef98a831ffcf652b71e62a13c5c2
 
 C:Q1AODN67Fmv5vfkv6/dpzjXivESeA=
 P:sipcalc
@@ -77900,144 +77900,144 @@ c:1cfcc76d78bc2923cd9bf7ed8d751114358df0a3
 D:spirv-headers spirv-tools=1.4.309.0-r0 pkgconfig
 p:pc:SPIRV-Tools-shared=2025.1.1 pc:SPIRV-Tools=2025.1.1
 
-C:Q1/+eNJvnwH3CHuikYzVJd4xdPb4U=
+C:Q1+XFB6Z38Pz9300shZ/aT3L+CwIE=
 P:sqlite
-V:3.49.1-r1
+V:3.49.2-r0
 A:riscv64
-S:982291
+S:982945
 I:1555720
 T:C library that implements an SQL database engine
 U:https://www.sqlite.org/
 L:blessing
 o:sqlite
 m:Celeste <cielesti@protonmail.com>
-t:1745855731
-c:3ee87270c425394383b93a5952c54c501ed5c352
+t:1746631492
+c:94675b8372c24cff476d1af9886ac9c8dd0a720a
 D:so:libc.musl-riscv64.so.1 so:libreadline.so.8
-p:cmd:sqlite3=3.49.1-r1
+p:cmd:sqlite3=3.49.2-r0
 
-C:Q1Z3RVIiN4m8LKpHu/vaBUEYRq/hs=
+C:Q1/k+Nt4cEVAP92MZ2wVIDlgn1jb0=
 P:sqlite-analyzer
-V:3.49.1-r1
+V:3.49.2-r0
 A:riscv64
-S:31057
+S:31054
 I:80296
 T:Analyze space utilization of SQLite database files
 U:https://www.sqlite.org/
 L:blessing
 o:sqlite-tools
 m:Celeste <cielesti@protonmail.com>
-t:1745855731
-c:04c4bedf55b60eba05afaf3c281854caa66099a6
+t:1746631466
+c:6db2ed97b67d00a141edcfe8e0873f4a17c88baf
 D:so:libc.musl-riscv64.so.1 so:libsqlite3.so.0 so:libtcl8.6.so
-p:cmd:sqlite3_analyzer=3.49.1-r1
+p:cmd:sqlite3_analyzer=3.49.2-r0
 
-C:Q1C8v9QV0TMinPKlApO5/rUa6yfBg=
+C:Q1NNV65MzFcwDZJsH8cMZW+0vhNEQ=
 P:sqlite-dev
-V:3.49.1-r1
+V:3.49.2-r0
 A:riscv64
-S:177768
+S:177756
 I:697368
 T:C library that implements an SQL database engine (development files)
 U:https://www.sqlite.org/
 L:blessing
 o:sqlite
 m:Celeste <cielesti@protonmail.com>
-t:1745855731
-c:3ee87270c425394383b93a5952c54c501ed5c352
-D:sqlite=3.49.1-r1 pkgconfig sqlite-libs=3.49.1-r1
-p:pc:sqlite3=3.49.1
+t:1746631492
+c:94675b8372c24cff476d1af9886ac9c8dd0a720a
+D:sqlite=3.49.2-r0 pkgconfig sqlite-libs=3.49.2-r0
+p:pc:sqlite3=3.49.2
 
-C:Q1k04MzKx1V5sg09p0bJ8kwrAEDTc=
+C:Q1YvU5IkKWERKFCIZ6NyHqEFPYY08=
 P:sqlite-doc
-V:3.49.1-r1
+V:3.49.2-r0
 A:riscv64
-S:5472
+S:5467
 I:5936
 T:C library that implements an SQL database engine (documentation)
 U:https://www.sqlite.org/
 L:blessing
 o:sqlite
 m:Celeste <cielesti@protonmail.com>
-t:1745855731
-c:3ee87270c425394383b93a5952c54c501ed5c352
-i:docs sqlite=3.49.1-r1
+t:1746631492
+c:94675b8372c24cff476d1af9886ac9c8dd0a720a
+i:docs sqlite=3.49.2-r0
 
-C:Q1Elvr7VAtlklgiqE1CGV5/yhzy5g=
+C:Q1b0guRvWQJ3und64Vlhc9Vg3VauE=
 P:sqlite-libs
-V:3.49.1-r1
+V:3.49.2-r0
 A:riscv64
-S:814675
+S:815015
 I:1271696
 T:C library that implements an SQL database engine (libraries)
 U:https://www.sqlite.org/
 L:blessing
 o:sqlite
 m:Celeste <cielesti@protonmail.com>
-t:1745855731
-c:3ee87270c425394383b93a5952c54c501ed5c352
+t:1746631492
+c:94675b8372c24cff476d1af9886ac9c8dd0a720a
 D:so:libc.musl-riscv64.so.1
-p:so:libsqlite3.so.0=3.49.1
+p:so:libsqlite3.so.0=3.49.2
 
-C:Q1Par607a8YjLBgnP9gcKt3A1Hn/g=
+C:Q1xYb4Sbz1YYhIyXHlln2wiflnyJA=
 P:sqlite-static
-V:3.49.1-r1
+V:3.49.2-r0
 A:riscv64
-S:1670741
-I:6659200
+S:1671118
+I:6662008
 T:C library that implements an SQL database engine (static library)
 U:https://www.sqlite.org/
 L:blessing
 o:sqlite
 m:Celeste <cielesti@protonmail.com>
-t:1745855731
-c:3ee87270c425394383b93a5952c54c501ed5c352
+t:1746631492
+c:94675b8372c24cff476d1af9886ac9c8dd0a720a
 
-C:Q1PexzfGFm5cOXEBOOCiF1jQA4zgg=
+C:Q1IFk1oJ+f9RBgCx7uHV7nDfmcq3o=
 P:sqlite-tcl
-V:3.49.1-r1
+V:3.49.2-r0
 A:riscv64
-S:24116
+S:24105
 I:47730
 T:Sqlite Tcl Extension Architecture (TEA)
 U:https://www.sqlite.org/
 L:blessing
 o:sqlite-tools
 m:Celeste <cielesti@protonmail.com>
-t:1745855731
-c:04c4bedf55b60eba05afaf3c281854caa66099a6
+t:1746631466
+c:6db2ed97b67d00a141edcfe8e0873f4a17c88baf
 D:so:libc.musl-riscv64.so.1 so:libsqlite3.so.0
 
-C:Q1u3YuJEb/bEliQZorFI185uWuDq4=
+C:Q1JHj8kskEQDgeiy+UzgkDpoPXiQk=
 P:sqlite-tcl-doc
-V:3.49.1-r1
+V:3.49.2-r0
 A:riscv64
-S:2143
+S:2142
 I:584
 T:Sqlite Tcl Extension Architecture (TEA) (documentation)
 U:https://www.sqlite.org/
 L:blessing
 o:sqlite-tools
 m:Celeste <cielesti@protonmail.com>
-t:1745855731
-c:04c4bedf55b60eba05afaf3c281854caa66099a6
-i:docs sqlite-tcl=3.49.1-r1
+t:1746631466
+c:6db2ed97b67d00a141edcfe8e0873f4a17c88baf
+i:docs sqlite-tcl=3.49.2-r0
 
-C:Q1wxL0Y8mjV/staPEBpOPKXJ/+89Y=
+C:Q1AVAIua0c5TNzDB/xhl2A8QkOjVo=
 P:sqlite-tools
-V:3.49.1-r1
+V:3.49.2-r0
 A:riscv64
-S:36172
+S:36176
 I:90696
 T:Helper tools for SQLite
 U:https://www.sqlite.org/
 L:blessing
 o:sqlite-tools
 m:Celeste <cielesti@protonmail.com>
-t:1745855731
-c:04c4bedf55b60eba05afaf3c281854caa66099a6
+t:1746631466
+c:6db2ed97b67d00a141edcfe8e0873f4a17c88baf
 D:so:libc.musl-riscv64.so.1 so:libsqlite3.so.0
-p:cmd:showdb=3.49.1-r1 cmd:showjournal=3.49.1-r1 cmd:showstat4=3.49.1-r1 cmd:showwal=3.49.1-r1 cmd:sqldiff=3.49.1-r1
+p:cmd:showdb=3.49.2-r0 cmd:showjournal=3.49.2-r0 cmd:showstat4=3.49.2-r0 cmd:showwal=3.49.2-r0 cmd:sqldiff=3.49.2-r0
 
 C:Q1eSsSO2unLS2hlJF8f+pEgZzN7Vs=
 P:sqsh
@@ -79415,21 +79415,21 @@ c:bdeb5ac39445d803f7d97bb9b3cf9171d9a35f52
 D:python3 py3-setuptools python3~3.12
 i:supervisor=4.2.5-r5 pyc
 
-C:Q1x5URqwdVAMOTIW24zWxaiPp4PeU=
+C:Q12QqX2GVrq5UY1pZwCJoxSryUXt4=
 P:sutf
-V:7.0.0-r0
+V:7.0.0-r1
 A:riscv64
-S:520296
-I:1366424
+S:525363
+I:1370520
 T:Unicode validation and transcoding at billions of characters per second
 U:https://simdutf.github.io/simdutf/
 L:Apache-2.0 OR MIT
 o:simdutf
 m:lauren n. liberda <lauren@selfisekai.rocks>
-t:1746393417
-c:fa95a99f41bc6fe383168ad7aa25a94353c3d561
+t:1746630860
+c:3df30cd146d6ef98a831ffcf652b71e62a13c5c2
 D:so:libc.musl-riscv64.so.1 so:libgcc_s.so.1 so:libsimdutf.so.21
-p:cmd:sutf=7.0.0-r0
+p:cmd:sutf=7.0.0-r1
 
 C:Q19GjmQ6J8uaC4aWHB4IdovBurafU=
 P:swig
