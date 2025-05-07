@@ -13078,7 +13078,8 @@
       "origin": "simdutf",
       "versions": {
         "6.4.1-r0": 1743623561,
-        "7.0.0-r0": 1746393417
+        "7.0.0-r0": 1746393417,
+        "7.0.0-r1": 1746630860
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -13086,7 +13087,7 @@
         "so:libsimdutf.so.21"
       ],
       "provides": [
-        "cmd:fastbase64=7.0.0-r0"
+        "cmd:fastbase64=7.0.0-r1"
       ]
     },
     "fcgi": {
@@ -39013,7 +39014,8 @@
     "minicom": {
       "origin": "minicom",
       "versions": {
-        "2.9-r0": 1695477021
+        "2.9-r0": 1695477021,
+        "2.10-r0": 1746630894
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -39021,22 +39023,24 @@
         "so:libncursesw.so.6"
       ],
       "provides": [
-        "cmd:ascii-xfr=2.9-r0",
-        "cmd:minicom=2.9-r0",
-        "cmd:runscript=2.9-r0",
-        "cmd:xminicom=2.9-r0"
+        "cmd:ascii-xfr=2.10-r0",
+        "cmd:minicom=2.10-r0",
+        "cmd:runscript=2.10-r0",
+        "cmd:xminicom=2.10-r0"
       ]
     },
     "minicom-doc": {
       "origin": "minicom",
       "versions": {
-        "2.9-r0": 1695477021
+        "2.9-r0": 1695477021,
+        "2.10-r0": 1746630894
       }
     },
     "minicom-lang": {
       "origin": "minicom",
       "versions": {
-        "2.9-r0": 1695477021
+        "2.9-r0": 1695477021,
+        "2.10-r0": 1746630894
       }
     },
     "miniperl": {
@@ -39876,11 +39880,11 @@
     "multipath-tools": {
       "origin": "multipath-tools",
       "versions": {
-        "0.11.1-r1": 1744096503
+        "0.11.1-r1": 1744096503,
+        "0.11.1-r2": 1746605713
       },
       "dependencies": [
         "eudev",
-        "device-mapper",
         "pkgconfig",
         "so:libaio.so.1",
         "so:libc.musl-x86.so.1",
@@ -39899,23 +39903,24 @@
         "so:libmpathvalid.so.0=0",
         "so:libmultipath.so.0=0",
         "pc:libdmmp=0.2.0",
-        "cmd:kpartx=0.11.1-r1",
-        "cmd:mpathpersist=0.11.1-r1",
-        "cmd:multipath=0.11.1-r1",
-        "cmd:multipathc=0.11.1-r1",
-        "cmd:multipathd=0.11.1-r1"
+        "cmd:mpathpersist=0.11.1-r2",
+        "cmd:multipath=0.11.1-r2",
+        "cmd:multipathc=0.11.1-r2",
+        "cmd:multipathd=0.11.1-r2"
       ]
     },
     "multipath-tools-doc": {
       "origin": "multipath-tools",
       "versions": {
-        "0.11.1-r1": 1744096503
+        "0.11.1-r1": 1744096503,
+        "0.11.1-r2": 1746605713
       }
     },
     "multipath-tools-openrc": {
       "origin": "multipath-tools",
       "versions": {
-        "0.11.1-r1": 1744096503
+        "0.11.1-r1": 1744096503,
+        "0.11.1-r2": 1746605713
       }
     },
     "musl": {
@@ -42474,7 +42479,8 @@
     "nmap": {
       "origin": "nmap",
       "versions": {
-        "7.95-r1": 1724296850
+        "7.95-r1": 1724296850,
+        "7.96-r0": 1746606739
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -42488,19 +42494,21 @@
         "so:libz.so.1"
       ],
       "provides": [
-        "cmd:nmap=7.95-r1"
+        "cmd:nmap=7.96-r0"
       ]
     },
     "nmap-doc": {
       "origin": "nmap",
       "versions": {
-        "7.95-r1": 1724296850
+        "7.95-r1": 1724296850,
+        "7.96-r0": 1746606739
       }
     },
     "nmap-ncat": {
       "origin": "nmap",
       "versions": {
-        "7.95-r1": 1724296850
+        "7.95-r1": 1724296850,
+        "7.96-r0": 1746606739
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -42510,13 +42518,14 @@
         "so:libssl.so.3"
       ],
       "provides": [
-        "cmd:ncat=7.95-r1"
+        "cmd:ncat=7.96-r0"
       ]
     },
     "nmap-nping": {
       "origin": "nmap",
       "versions": {
-        "7.95-r1": 1724296850
+        "7.95-r1": 1724296850,
+        "7.96-r0": 1746606739
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -42527,19 +42536,21 @@
         "so:libstdc++.so.6"
       ],
       "provides": [
-        "cmd:nping=7.95-r1"
+        "cmd:nping=7.96-r0"
       ]
     },
     "nmap-nselibs": {
       "origin": "nmap",
       "versions": {
-        "7.95-r1": 1724296850
+        "7.95-r1": 1724296850,
+        "7.96-r0": 1746606739
       }
     },
     "nmap-scripts": {
       "origin": "nmap",
       "versions": {
-        "7.95-r1": 1724296850
+        "7.95-r1": 1724296850,
+        "7.96-r0": 1746606739
       },
       "dependencies": [
         "nmap-nselibs"
@@ -53706,21 +53717,23 @@
     "py3-certifi": {
       "origin": "py3-certifi",
       "versions": {
-        "2024.12.14-r0": 1735298305
+        "2024.12.14-r0": 1735298305,
+        "2025.4.26-r0": 1746606130
       },
       "dependencies": [
         "ca-certificates-bundle",
         "python3~3.12"
       ],
       "provides": [
-        "py-certifi=2024.12.14-r0",
-        "py3.12:certifi=2024.12.14-r0"
+        "py-certifi=2025.4.26-r0",
+        "py3.12:certifi=2025.4.26-r0"
       ]
     },
     "py3-certifi-pyc": {
       "origin": "py3-certifi",
       "versions": {
-        "2024.12.14-r0": 1735298305
+        "2024.12.14-r0": 1735298305,
+        "2025.4.26-r0": 1746606130
       },
       "dependencies": [
         "ca-certificates-bundle",
@@ -61289,7 +61302,8 @@
       "origin": "simdutf",
       "versions": {
         "6.4.1-r0": 1743623561,
-        "7.0.0-r0": 1746393417
+        "7.0.0-r0": 1746393417,
+        "7.0.0-r1": 1746630860
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -61304,11 +61318,12 @@
       "origin": "simdutf",
       "versions": {
         "6.4.1-r0": 1743623561,
-        "7.0.0-r0": 1746393417
+        "7.0.0-r0": 1746393417,
+        "7.0.0-r1": 1746630860
       },
       "dependencies": [
         "pkgconfig",
-        "simdutf=7.0.0-r0"
+        "simdutf=7.0.0-r1"
       ],
       "provides": [
         "pc:simdutf=7.0.0"
@@ -61318,7 +61333,8 @@
       "origin": "simdutf",
       "versions": {
         "6.4.1-r0": 1743623561,
-        "7.0.0-r0": 1746393417
+        "7.0.0-r0": 1746393417,
+        "7.0.0-r1": 1746630860
       }
     },
     "sipcalc": {
@@ -63553,7 +63569,8 @@
       "origin": "simdutf",
       "versions": {
         "6.4.1-r0": 1743623561,
-        "7.0.0-r0": 1746393417
+        "7.0.0-r0": 1746393417,
+        "7.0.0-r1": 1746630860
       },
       "dependencies": [
         "so:libc.musl-x86.so.1",
@@ -63561,7 +63578,7 @@
         "so:libsimdutf.so.21"
       ],
       "provides": [
-        "cmd:sutf=7.0.0-r0"
+        "cmd:sutf=7.0.0-r1"
       ]
     },
     "swig": {
@@ -68929,6 +68946,19 @@
         "!vulkan-tools<1.4.304.1-r2",
         "!vulkan-tools>1.4.304.1-r2"
       ]
+    },
+    "kpartx": {
+      "origin": "multipath-tools",
+      "versions": {
+        "0.11.1-r2": 1746605713
+      },
+      "dependencies": [
+        "so:libc.musl-x86.so.1",
+        "so:libdevmapper.so.1.02"
+      ],
+      "provides": [
+        "cmd:kpartx=0.11.1-r2"
+      ]
     }
   },
   "provide": {
@@ -69835,7 +69865,7 @@
       },
       "py-certifi": {
         "package": "py3-certifi",
-        "version": "2024.12.14-r0"
+        "version": "2025.4.26-r0"
       },
       "py-cffi": {
         "package": "py3-cffi",
