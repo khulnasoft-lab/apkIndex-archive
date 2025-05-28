@@ -66063,80 +66063,80 @@ t:1734425357
 c:8f9212cd4b00345beea3392cc2d7de2b0d16cf22
 i:docs perl-yaml-tiny=1.76-r0
 
-C:Q1Ls20dmFL9CehJoM8ApSI1TujDgA=
+C:Q1q5/nC60TA21hOqVNP/PI8GlkXWs=
 P:pgpool
-V:4.6.0-r0
+V:4.6.1-r0
 A:riscv64
-S:1077020
-I:3407906
+S:1076241
+I:3404083
 T:A connection pooling/replication server for PostgreSQL
 U:https://www.pgpool.net/
 L:custom
 o:pgpool
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1745791945
-c:83f1d7f3dda51172bbfc1c72ab006c20e7ca48e1
+t:1748443138
+c:31ded69c5126a34873178643a63e7d0e54a53d9f
 D:/bin/sh so:libc.musl-riscv64.so.1 so:libcrypto.so.3 so:libpq.so.5 so:libssl.so.3
-p:so:libpcp.so.2=2.0.0 cmd:pcp_attach_node=4.6.0-r0 cmd:pcp_detach_node=4.6.0-r0 cmd:pcp_health_check_stats=4.6.0-r0 cmd:pcp_invalidate_query_cache=4.6.0-r0 cmd:pcp_log_rotate=4.6.0-r0 cmd:pcp_node_count=4.6.0-r0 cmd:pcp_node_info=4.6.0-r0 cmd:pcp_pool_status=4.6.0-r0 cmd:pcp_proc_count=4.6.0-r0 cmd:pcp_proc_info=4.6.0-r0 cmd:pcp_promote_node=4.6.0-r0 cmd:pcp_recovery_node=4.6.0-r0 cmd:pcp_reload_config=4.6.0-r0 cmd:pcp_stop_pgpool=4.6.0-r0 cmd:pcp_watchdog_info=4.6.0-r0 cmd:pg_enc=4.6.0-r0 cmd:pg_md5=4.6.0-r0 cmd:pgpool=4.6.0-r0 cmd:pgpool_setup=4.6.0-r0 cmd:pgproto=4.6.0-r0 cmd:watchdog_setup=4.6.0-r0 cmd:wd_cli=4.6.0-r0
+p:so:libpcp.so.2=2.0.0 cmd:pcp_attach_node=4.6.1-r0 cmd:pcp_detach_node=4.6.1-r0 cmd:pcp_health_check_stats=4.6.1-r0 cmd:pcp_invalidate_query_cache=4.6.1-r0 cmd:pcp_log_rotate=4.6.1-r0 cmd:pcp_node_count=4.6.1-r0 cmd:pcp_node_info=4.6.1-r0 cmd:pcp_pool_status=4.6.1-r0 cmd:pcp_proc_count=4.6.1-r0 cmd:pcp_proc_info=4.6.1-r0 cmd:pcp_promote_node=4.6.1-r0 cmd:pcp_recovery_node=4.6.1-r0 cmd:pcp_reload_config=4.6.1-r0 cmd:pcp_stop_pgpool=4.6.1-r0 cmd:pcp_watchdog_info=4.6.1-r0 cmd:pg_enc=4.6.1-r0 cmd:pg_md5=4.6.1-r0 cmd:pgpool=4.6.1-r0 cmd:pgpool_setup=4.6.1-r0 cmd:pgproto=4.6.1-r0 cmd:watchdog_setup=4.6.1-r0 cmd:wd_cli=4.6.1-r0
 
-C:Q1lCgX3VaY8au1UXx3a0fktdZo+1c=
+C:Q1xDP8+8y8bWc8Po76xjD6eW5QLWw=
 P:pgpool-dev
-V:4.6.0-r0
+V:4.6.1-r0
 A:riscv64
-S:11529
+S:11519
 I:35783
 T:A connection pooling/replication server for PostgreSQL (development files)
 U:https://www.pgpool.net/
 L:custom
 o:pgpool
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1745791945
-c:83f1d7f3dda51172bbfc1c72ab006c20e7ca48e1
-D:pgpool=4.6.0-r0
+t:1748443138
+c:31ded69c5126a34873178643a63e7d0e54a53d9f
+D:pgpool=4.6.1-r0
 
-C:Q1qM2Fg4Z9H/soaM4H6nV5AAa36EM=
+C:Q1rqT9wyu7dc+tW84NwPUGlNR1DpM=
 P:pgpool-doc
-V:4.6.0-r0
+V:4.6.1-r0
 A:riscv64
-S:19741
-I:80849
+S:19737
+I:80861
 T:A connection pooling/replication server for PostgreSQL (documentation)
 U:https://www.pgpool.net/
 L:custom
 o:pgpool
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1745791945
-c:83f1d7f3dda51172bbfc1c72ab006c20e7ca48e1
-i:docs pgpool=4.6.0-r0
+t:1748443138
+c:31ded69c5126a34873178643a63e7d0e54a53d9f
+i:docs pgpool=4.6.1-r0
 
-C:Q1c/MlRsRlKALeKwk9LoVfUaVZMW0=
+C:Q1njRFxTrAgIyrw0+zwT1xk8sCUpE=
 P:pgpool-openrc
-V:4.6.0-r0
+V:4.6.1-r0
 A:riscv64
-S:2171
+S:2164
 I:1649
 T:A connection pooling/replication server for PostgreSQL (OpenRC init scripts)
 U:https://www.pgpool.net/
 L:custom
 o:pgpool
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1745791945
-c:83f1d7f3dda51172bbfc1c72ab006c20e7ca48e1
-i:openrc pgpool=4.6.0-r0
+t:1748443138
+c:31ded69c5126a34873178643a63e7d0e54a53d9f
+i:openrc pgpool=4.6.1-r0
 
-C:Q1Ymbr4yfYCQ2PrUMZmocPlV9upi8=
+C:Q19eT/bbOf+KwQg49MWzPQm9blHK4=
 P:pgpool-static
-V:4.6.0-r0
+V:4.6.1-r0
 A:riscv64
-S:46902
+S:46897
 I:190174
 T:A connection pooling/replication server for PostgreSQL (static library)
 U:https://www.pgpool.net/
 L:custom
 o:pgpool
 m:Jakub Jirutka <jakub@jirutka.cz>
-t:1745791945
-c:83f1d7f3dda51172bbfc1c72ab006c20e7ca48e1
+t:1748443138
+c:31ded69c5126a34873178643a63e7d0e54a53d9f
 
 C:Q18hs9jbmnqDFlbBv5y3V0iYHZVDE=
 P:pgtcl

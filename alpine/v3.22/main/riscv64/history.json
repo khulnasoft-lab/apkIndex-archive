@@ -52104,7 +52104,8 @@
       "origin": "pgpool",
       "versions": {
         "4.5.5-r0": 1735151209,
-        "4.6.0-r0": 1745791945
+        "4.6.0-r0": 1745791945,
+        "4.6.1-r0": 1748443138
       },
       "dependencies": [
         "/bin/sh",
@@ -52115,59 +52116,63 @@
       ],
       "provides": [
         "so:libpcp.so.2=2.0.0",
-        "cmd:pcp_attach_node=4.6.0-r0",
-        "cmd:pcp_detach_node=4.6.0-r0",
-        "cmd:pcp_health_check_stats=4.6.0-r0",
-        "cmd:pcp_invalidate_query_cache=4.6.0-r0",
-        "cmd:pcp_log_rotate=4.6.0-r0",
-        "cmd:pcp_node_count=4.6.0-r0",
-        "cmd:pcp_node_info=4.6.0-r0",
-        "cmd:pcp_pool_status=4.6.0-r0",
-        "cmd:pcp_proc_count=4.6.0-r0",
-        "cmd:pcp_proc_info=4.6.0-r0",
-        "cmd:pcp_promote_node=4.6.0-r0",
-        "cmd:pcp_recovery_node=4.6.0-r0",
-        "cmd:pcp_reload_config=4.6.0-r0",
-        "cmd:pcp_stop_pgpool=4.6.0-r0",
-        "cmd:pcp_watchdog_info=4.6.0-r0",
-        "cmd:pg_enc=4.6.0-r0",
-        "cmd:pg_md5=4.6.0-r0",
-        "cmd:pgpool=4.6.0-r0",
-        "cmd:pgpool_setup=4.6.0-r0",
-        "cmd:pgproto=4.6.0-r0",
-        "cmd:watchdog_setup=4.6.0-r0",
-        "cmd:wd_cli=4.6.0-r0"
+        "cmd:pcp_attach_node=4.6.1-r0",
+        "cmd:pcp_detach_node=4.6.1-r0",
+        "cmd:pcp_health_check_stats=4.6.1-r0",
+        "cmd:pcp_invalidate_query_cache=4.6.1-r0",
+        "cmd:pcp_log_rotate=4.6.1-r0",
+        "cmd:pcp_node_count=4.6.1-r0",
+        "cmd:pcp_node_info=4.6.1-r0",
+        "cmd:pcp_pool_status=4.6.1-r0",
+        "cmd:pcp_proc_count=4.6.1-r0",
+        "cmd:pcp_proc_info=4.6.1-r0",
+        "cmd:pcp_promote_node=4.6.1-r0",
+        "cmd:pcp_recovery_node=4.6.1-r0",
+        "cmd:pcp_reload_config=4.6.1-r0",
+        "cmd:pcp_stop_pgpool=4.6.1-r0",
+        "cmd:pcp_watchdog_info=4.6.1-r0",
+        "cmd:pg_enc=4.6.1-r0",
+        "cmd:pg_md5=4.6.1-r0",
+        "cmd:pgpool=4.6.1-r0",
+        "cmd:pgpool_setup=4.6.1-r0",
+        "cmd:pgproto=4.6.1-r0",
+        "cmd:watchdog_setup=4.6.1-r0",
+        "cmd:wd_cli=4.6.1-r0"
       ]
     },
     "pgpool-dev": {
       "origin": "pgpool",
       "versions": {
         "4.5.5-r0": 1735151209,
-        "4.6.0-r0": 1745791945
+        "4.6.0-r0": 1745791945,
+        "4.6.1-r0": 1748443138
       },
       "dependencies": [
-        "pgpool=4.6.0-r0"
+        "pgpool=4.6.1-r0"
       ]
     },
     "pgpool-doc": {
       "origin": "pgpool",
       "versions": {
         "4.5.5-r0": 1735151209,
-        "4.6.0-r0": 1745791945
+        "4.6.0-r0": 1745791945,
+        "4.6.1-r0": 1748443138
       }
     },
     "pgpool-openrc": {
       "origin": "pgpool",
       "versions": {
         "4.5.5-r0": 1735151209,
-        "4.6.0-r0": 1745791945
+        "4.6.0-r0": 1745791945,
+        "4.6.1-r0": 1748443138
       }
     },
     "pgpool-static": {
       "origin": "pgpool",
       "versions": {
         "4.5.5-r0": 1735151209,
-        "4.6.0-r0": 1745791945
+        "4.6.0-r0": 1745791945,
+        "4.6.1-r0": 1748443138
       }
     },
     "pgtcl": {
