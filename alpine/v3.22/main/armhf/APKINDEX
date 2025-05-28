@@ -7960,69 +7960,6 @@ c:54c544873700b993af71dd839b00f69118283938
 D:so:libboost_serialization.so.1.84.0 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
 p:boost-wserialization=1.84.0-r3 so:libboost_wserialization.so.1.84.0=1.84.0
 
-C:Q18N66JSx7dVnIgT0agFGwqg7kdQI=
-P:botan
-V:2.19.5-r0
-A:armhf
-S:397291
-I:960096
-T:Crypto and TLS for C++11
-U:https://botan.randombit.net/
-L:BSD-2-Clause
-o:botan
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1745038738
-c:caace1581f63c305168596607563c117c0f8a5dc
-D:so:libbotan-2.so.19 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
-p:cmd:botan2=2.19.5-r0
-
-C:Q1oAnCS2ueDUFxjPc9nfcbI07w90w=
-P:botan-dev
-V:2.19.5-r0
-A:armhf
-S:318238
-I:1640794
-T:Crypto and TLS for C++11 (development files)
-U:https://botan.randombit.net/
-L:BSD-2-Clause
-o:botan
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1745038738
-c:caace1581f63c305168596607563c117c0f8a5dc
-D:boost-dev bzip2-dev sqlite-dev xz-dev zlib-dev botan-libs=2.19.5-r0 pkgconfig
-p:pc:botan-2=2.19.5
-
-C:Q1UssTFnHK9OcJmQTwfRw95TMI9XM=
-P:botan-doc
-V:2.19.5-r0
-A:armhf
-S:313541
-I:951642
-T:Crypto and TLS for C++11 (documentation)
-U:https://botan.randombit.net/
-L:BSD-2-Clause
-o:botan
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1745038738
-c:caace1581f63c305168596607563c117c0f8a5dc
-i:docs botan=2.19.5-r0
-
-C:Q1MrYfWlq0wgqh49taKJlwDcPNYd0=
-P:botan-libs
-V:2.19.5-r0
-A:armhf
-S:2574362
-I:6330436
-T:Crypto and TLS for C++11 (libraries)
-U:https://botan.randombit.net/
-L:BSD-2-Clause
-o:botan
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1745038738
-c:caace1581f63c305168596607563c117c0f8a5dc
-D:so:libbz2.so.1 so:libc.musl-armhf.so.1 so:libgcc_s.so.1 so:libgomp.so.1 so:liblzma.so.5 so:libsqlite3.so.0 so:libstdc++.so.6 so:libz.so.1
-p:so:libbotan-2.so.19=19.19.5
-
 C:Q1I/vhWv9l4sx5DecQ3F645F9rbMY=
 P:botan3
 V:3.5.0-r0
