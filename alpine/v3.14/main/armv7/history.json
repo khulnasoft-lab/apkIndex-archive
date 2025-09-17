@@ -3122,12 +3122,13 @@
     "sofia-sip-dev": {
       "origin": "sofia-sip",
       "versions": {
-        "1.13.14-r0": 1678965987
+        "1.13.14-r0": 1678965987,
+        "1.13.14-r2": 1693246449
       },
       "dependencies": [
         "pc:glib-2.0",
         "pkgconfig",
-        "sofia-sip=1.13.14-r0"
+        "sofia-sip=1.13.14-r2"
       ],
       "provides": [
         "pc:sofia-sip-ua-glib=1.13.14",
@@ -5704,23 +5705,24 @@
     "postgresql-dev": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       },
       "dependencies": [
         "clang",
         "icu-dev",
         "llvm",
         "openssl-dev",
-        "libpq=13.11-r0",
+        "libpq=13.12-r0",
         "pkgconfig",
-        "postgresql-libs=13.11-r0",
+        "postgresql-libs=13.12-r0",
         "so:libc.musl-armv7.so.1"
       ],
       "provides": [
-        "pc:libecpg=13.11",
-        "pc:libecpg_compat=13.11",
-        "pc:libpgtypes=13.11",
-        "pc:libpq=13.11",
+        "pc:libecpg=13.12",
+        "pc:libecpg_compat=13.12",
+        "pc:libpgtypes=13.12",
+        "pc:libpq=13.12",
         "cmd:ecpg",
         "cmd:pg_config"
       ]
@@ -6878,7 +6880,8 @@
     "fcgiwrap-openrc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096061
       }
     },
     "apache2-dev": {
@@ -7072,7 +7075,8 @@
     "fcgiwrap": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096061
       },
       "dependencies": [
         "/bin/sh",
@@ -9060,7 +9064,8 @@
     "postgresql-pltcl": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       },
       "dependencies": [
         "pgtcl",
@@ -11664,7 +11669,8 @@
     "postgresql-plperl-contrib": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       },
       "dependencies": [
         "postgresql-plperl",
@@ -21210,7 +21216,8 @@
     "postgresql-plpython3": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       },
       "dependencies": [
         "python3",
@@ -23562,7 +23569,8 @@
     "postgresql-doc": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       }
     },
     "pcre-dev": {
@@ -27099,7 +27107,8 @@
     "postgresql": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       },
       "dependencies": [
         "postgresql-client",
@@ -31193,7 +31202,8 @@
     "fcgiwrap-doc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096061
       }
     },
     "perl-digest-hmac-doc": {
@@ -33524,7 +33534,8 @@
     "postgresql-openrc": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       }
     },
     "nfdump-openrc": {
@@ -33668,7 +33679,8 @@
     "postgresql-plpython3-contrib": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       },
       "dependencies": [
         "postgresql-plpython3",
@@ -42359,7 +42371,8 @@
     "postgresql-contrib": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -43094,7 +43107,8 @@
     "postgresql-libs": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -43351,7 +43365,8 @@
     "postgresql-client": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -45409,7 +45424,8 @@
     "sofia-sip": {
       "origin": "sofia-sip",
       "versions": {
-        "1.13.14-r0": 1678965987
+        "1.13.14-r0": 1678965987,
+        "1.13.14-r2": 1693246449
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -49381,7 +49397,8 @@
     "libpq": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",
@@ -51988,7 +52005,8 @@
     "postgresql-plperl": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837866
+        "13.11-r0": 1683837866,
+        "13.12-r0": 1692024668
       },
       "dependencies": [
         "so:libc.musl-armv7.so.1",

@@ -9886,7 +9886,8 @@
     "postgresql-doc": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       }
     },
     "rtapd": {
@@ -18506,7 +18507,8 @@
     "fcgiwrap": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096133
       },
       "dependencies": [
         "/bin/sh",
@@ -20444,7 +20446,8 @@
     "postgresql-openrc": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       }
     },
     "opus": {
@@ -27036,7 +27039,8 @@
     "libpq": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -31665,7 +31669,8 @@
     "postgresql-plpython3-contrib": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       },
       "dependencies": [
         "postgresql-plpython3",
@@ -39635,7 +39640,8 @@
     "postgresql": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       },
       "dependencies": [
         "postgresql-client",
@@ -40909,7 +40915,8 @@
     "postgresql-plperl": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -41451,7 +41458,8 @@
     "postgresql-libs": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -42780,7 +42788,8 @@
     "fcgiwrap-openrc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096133
       }
     },
     "libgpg-error-dev": {
@@ -46547,7 +46556,8 @@
     "postgresql-client": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -46873,7 +46883,8 @@
     "postgresql-contrib": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       },
       "dependencies": [
         "so:libc.musl-armhf.so.1",
@@ -48791,23 +48802,24 @@
     "postgresql-dev": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       },
       "dependencies": [
         "clang",
         "llvm",
         "openssl-dev",
         "icu-dev",
-        "libpq=13.11-r0",
+        "libpq=13.12-r0",
         "pkgconfig",
-        "postgresql-libs=13.11-r0",
+        "postgresql-libs=13.12-r0",
         "so:libc.musl-armhf.so.1"
       ],
       "provides": [
-        "pc:libecpg=13.11",
-        "pc:libecpg_compat=13.11",
-        "pc:libpgtypes=13.11",
-        "pc:libpq=13.11",
+        "pc:libecpg=13.12",
+        "pc:libecpg_compat=13.12",
+        "pc:libpgtypes=13.12",
+        "pc:libpq=13.12",
         "cmd:ecpg",
         "cmd:pg_config"
       ]
@@ -49925,7 +49937,8 @@
     "postgresql-plpython3": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       },
       "dependencies": [
         "python3",
@@ -50076,7 +50089,8 @@
     "postgresql-plperl-contrib": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       },
       "dependencies": [
         "postgresql-plperl",
@@ -51690,7 +51704,8 @@
     "postgresql-pltcl": {
       "origin": "postgresql",
       "versions": {
-        "13.11-r0": 1683837967
+        "13.11-r0": 1683837967,
+        "13.12-r0": 1692024781
       },
       "dependencies": [
         "pgtcl",
@@ -52548,7 +52563,8 @@
     "fcgiwrap-doc": {
       "origin": "fcgiwrap",
       "versions": {
-        "1.1.0-r5": 1595008983
+        "1.1.0-r5": 1595008983,
+        "1.1.0-r6": 1700096133
       }
     },
     "py3-zipp": {
@@ -59121,16 +59137,16 @@
         "version": "28.1.0"
       },
       "libecpg.so.6": {
-        "package": "postgresql-bdr-libs",
-        "version": "6.6"
+        "package": "postgresql-libs",
+        "version": "6.13"
       },
       "libecpg_compat.so.3": {
-        "package": "postgresql-bdr-libs",
-        "version": "3.6"
+        "package": "postgresql-libs",
+        "version": "3.13"
       },
       "libpgtypes.so.3": {
-        "package": "postgresql-bdr-libs",
-        "version": "3.5"
+        "package": "postgresql-libs",
+        "version": "3.13"
       },
       "libX11-xcb.so.1": {
         "package": "libx11",
